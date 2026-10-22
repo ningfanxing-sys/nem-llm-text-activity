@@ -1,0 +1,63 @@
+{
+  "bootstrap_artifact": {
+    "bytes": 217176,
+    "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/R2_STATE/scored/notice__SECONDARY__NPM__N.npz",
+    "sha256": "b929eea3e915e4f5f612d018864a6bed7621ebd5170f5a0fc6b84df29b9bd8a7"
+  },
+  "date_gaps": [],
+  "equivalence_test": "NOT_SPECIFIED",
+  "primary_confirmation": false,
+  "reports": [
+    {
+      "arm": "NPM",
+      "bootstrap": {
+        "1": {
+          "bootstrap_nonpositive_effect_count": 2000,
+          "effect_percent_reference_mae": -3.839475846231367,
+          "finite_draws": 2000,
+          "interval95_percent": [
+            -4.653748549059656,
+            -3.067337202642301
+          ],
+          "monte_carlo_resolution": 0.0005,
+          "reference_mae": 9.40925262609394,
+          "undefined_draws": 0
+        },
+        "7": {
+          "bootstrap_nonpositive_effect_count": 2000,
+          "effect_percent_reference_mae": -3.839475846231367,
+          "finite_draws": 2000,
+          "interval95_percent": [
+            -4.888967862645236,
+            -2.8262330713172785
+          ],
+          "monte_carlo_resolution": 0.0005,
+          "reference_mae": 9.40925262609394,
+          "undefined_draws": 0
+        }
+      },
+      "dm_hac7": {
+        "mean_difference": -0.36126598188976744,
+        "n_days": 61,
+        "p_deterioration": 0.9999999999971863,
+        "p_improvement": 2.8137044187778967e-12,
+        "p_two_sided": 5.627408837555793e-12,
+        "state": "DEFINED",
+        "statistic": -6.888776957707878,
+        "variance": 0.16776436811454856
+      },
+      "dm_p1": {
+        "mean_difference": -0.36126598188976744,
+        "n_days": 61,
+        "p_deterioration": 1.0,
+        "p_improvement": 5.903895695248043e-19,
+        "p_two_sided": 1.1807791390496086e-18,
+        "state": "DEFINED",
+        "statistic": -8.816514501704006,
+        "variance": 0.1024212613818479
+      },
+      "reference": "N",
+      "status": "SECONDARY_ONLY"
+    }
+  ]
+}

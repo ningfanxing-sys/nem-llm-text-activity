@@ -1,0 +1,11 @@
+# CONFX3 execution-only specification
+
+Reason: host FAILED_features.json records OSError Errno 28; duplicated numeric blocks exhausted disk. Do not read window outcomes, run production feature construction, fit, seal, score, or empty Trash.
+
+Store one float32 shared numeric block per source, per-arm/variant float32 extras only, frozen original/pruned order manifest. Reuse unchanged feature projection and nominal-training fixed_pruning. Learners receive byte-identical float32 arrays in frozen retained order. Embedding cache remains one shared main/first-L cache; no new extraction or encoder rules.
+
+Equivalence test: independently call archived pre-CONFX3 _write_bundles and new _write_bundles sequentially, compare original float32 bits, NaN positions, original/pruned column order and retained bits for all registered news/notice arms and variants including E3. Input-only host slices: first 20000 and sorted random 20000 row indices, seed 20261001, each source; explicitly project numeric/key/clock columns, never y/outcome. Deterministic frozen row projections and bounded synthetic extras fixtures provide every registered arm without study-text encoding. No statistical inference. Temporary artifacts <= 300000000 bytes, processed one arm/source/slice at a time where necessary and automatically cleaned. Report scope of actual-input and synthetic-projection checks separately.
+
+Feature guards require all remaining planned files plus 4 GiB free before any bundle writes, fit stages require planned scratch/outputs plus 3 GiB. Metadata-based conservative plan includes both sources, extras before pruning, panel sidecars, coverage and cache allowance; no fitted results enter resource decisions. Test guards with mocked disk capacity; production guard is never bypassed by CLI.
+
+Archive all changed old files and original adapter freeze; preserve host failure/input/panel receipts. Amended adapter chain references exact archived parent hash and explicit execution-only note. Existing immutable input authorization accepts only this verified archived parent chain. Successful future features CLI supersedes the preserved failure receipt by a separate success receipt; failure is not declared resolved now.

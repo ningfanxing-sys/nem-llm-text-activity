@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying paper and this replication package."
+type: dataset
+title: "Replication package: Do LLM-derived text features improve electricity price forecasts beyond document activity? Evidence from Australia's National Electricity Market"
+repository-code: "https://github.com/ningfanxing-sys/nem-llm-text-activity"
+version: "1.0.0"
+date-released: 2026-10-21
+authors:
+  - alias: "ningfanxing-sys"
+license:
+  - MIT
+  - CC-BY-4.0
+preferred-citation:
+  type: article
+  title: "Do LLM-derived text features improve electricity price forecasts beyond document activity? Evidence from Australia's National Electricity Market"
+  authors:
+    - alias: "ningfanxing-sys"
+  year: 2026

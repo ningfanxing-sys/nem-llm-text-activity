@@ -1,0 +1,54 @@
+{
+  "analysis_role": "A1_REPORTING_RULE_SEED_FRAGILE",
+  "rows": [
+    {
+      "arm": "L14",
+      "reference": "M_notice",
+      "seed_20260919_decision": "CONDITIONAL_IMPROVEMENT",
+      "seed_20260919_mean_difference": -0.028653198909737016,
+      "sentence": "SEED_CONSISTENT: the specified seed-20260919 reading [CONDITIONAL_IMPROVEMENT, -0.302867569948%, one-day interval [-0.388829368116,-0.220671873694]%] is reproduced in sign and decision class by the three-seed mean [CONDITIONAL_IMPROVEMENT, -0.142767056789%, one-day interval [-0.192819258256,-0.092967647876]%]; this is not proof of seed invariance, and the frozen per-seed sign check is reported separately.",
+      "single_seed_effect_sd_percent": 0.1923728114330474,
+      "single_seed_effects_percent_reference_mae": {
+        "20260919": -0.3028675699482419,
+        "20260920": 0.06580965970877588,
+        "20260921": -0.21381652506085594
+      },
+      "state": "SEED_CONSISTENT",
+      "three_seed_mean_decision": "CONDITIONAL_IMPROVEMENT",
+      "three_seed_mean_difference": -0.01347044102901321
+    },
+    {
+      "arm": "L_Laz",
+      "reference": "M_notice",
+      "seed_20260919_decision": "CONDITIONAL_IMPROVEMENT",
+      "seed_20260919_mean_difference": -0.02688685285235388,
+      "sentence": "SEED_FRAGILE: the specified seed-20260919 reading [CONDITIONAL_IMPROVEMENT, -0.284197091313%, one-day interval [-0.378289508949,-0.189046651185]%] is not reproduced by the three-seed mean [NO_RELIABLE_INCREMENT_DETECTED, -0.00424467199313%, one-day interval [-0.0456432826221,0.0361011986273]%]; the result is reported as seed-fragile and is not described as a robust increment.",
+      "single_seed_effect_sd_percent": 0.2918917082433734,
+      "single_seed_effects_percent_reference_mae": {
+        "20260919": -0.28419709131259147,
+        "20260920": 0.2989186897062788,
+        "20260921": -0.016811446639415435
+      },
+      "state": "SEED_FRAGILE",
+      "three_seed_mean_decision": "NO_RELIABLE_INCREMENT_DETECTED",
+      "three_seed_mean_difference": -0.0004004957800263293
+    },
+    {
+      "arm": "L_chen_notice",
+      "reference": "M_notice",
+      "seed_20260919_decision": "CONDITIONAL_IMPROVEMENT",
+      "seed_20260919_mean_difference": -0.07062954273900449,
+      "sentence": "SEED_CONSISTENT: the specified seed-20260919 reading [CONDITIONAL_IMPROVEMENT, -0.746562296353%, one-day interval [-0.971260379869,-0.512151488942]%] is reproduced in sign and decision class by the three-seed mean [CONDITIONAL_IMPROVEMENT, -0.517235452975%, one-day interval [-0.695875003909,-0.334004514697]%]; this is not proof of seed invariance, and the frozen per-seed sign check is reported separately.",
+      "single_seed_effect_sd_percent": 0.36490227153011756,
+      "single_seed_effects_percent_reference_mae": {
+        "20260919": -0.7465622963531828,
+        "20260920": -0.027019304430368093,
+        "20260921": -0.49240526618407104
+      },
+      "state": "SEED_CONSISTENT",
+      "three_seed_mean_decision": "CONDITIONAL_IMPROVEMENT",
+      "three_seed_mean_difference": -0.048802502650829596
+    }
+  ],
+  "rule": "confirmation-A1 decision 3: SEED_FRAGILE if the seed-20260919 decision class and the three-seed-mean decision class differ, or the signs of their mean differences differ; the frozen decision rule is unchanged."
+}

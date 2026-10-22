@@ -1,0 +1,665 @@
+{
+  "state": "PASSED",
+  "plan_sha256": "2a33c3ce093e960fa55ab6471cb538aee43b7da2a994f8e7a2403d32a11f098e",
+  "tolerance": 1e-09,
+  "month_first_checks": [
+    {
+      "id": "r8__notice__prewindow_frozen_C_bank__L_Laz+__s20260919__main",
+      "state": "PASS",
+      "rows": 527040,
+      "differences": {
+        "raw_prediction": 0.0,
+        "prediction": 0.0
+      },
+      "tolerance": 1e-09,
+      "prediction_threads": 8,
+      "model_sha256": "902d8d0cb6ea630d122cfe2fe54c0cee042e6bc2c333fda0c8b67c34d56583e5",
+      "receipt_path": "studies/batch_estimation/disk_checks/state/fits/receipts/notice__prewindow_frozen_C_bank__L_Laz+__s20260919__main.json",
+      "runtime_seconds": 2.6644204999902286,
+      "peak_rss_bytes": 629587968
+    },
+    {
+      "id": "r8__notice__prewindow_frozen_C_bank__L14+__s20260919__main",
+      "state": "PASS",
+      "rows": 527040,
+      "differences": {
+        "raw_prediction": 0.0,
+        "prediction": 0.0
+      },
+      "tolerance": 1e-09,
+      "prediction_threads": 8,
+      "model_sha256": "7c22c8fef94be0d6f38d84d58513b6468364ed28f1e9532676c96b181f715b75",
+      "receipt_path": "studies/batch_estimation/disk_checks/state/fits/receipts/notice__prewindow_frozen_C_bank__L14+__s20260919__main.json",
+      "runtime_seconds": 2.7608905829838477,
+      "peak_rss_bytes": 615219200
+    },
+    {
+      "id": "official__notice__prewindow_frozen_C_bank__L14__s20260920__main",
+      "state": "PASS",
+      "rows": 527040,
+      "differences": {
+        "raw_prediction": 0.0,
+        "prediction": 0.0
+      },
+      "tolerance": 1e-09,
+      "prediction_threads": 8,
+      "model_sha256": "2fbfda9d8b619c45aaa80f37d1116a67971db3f4d09d3ab26505cb0bf9a7af62",
+      "receipt_path": "studies/confirmation/execution/host_state/fits/receipts/notice__prewindow_frozen_C_bank__L14__s20260920__main.json",
+      "runtime_seconds": 2.0176106250146404,
+      "peak_rss_bytes": 595197952
+    },
+    {
+      "id": "official__notice__prewindow_frozen_C_bank__L14__s20260919__main",
+      "state": "PASS",
+      "rows": 527040,
+      "differences": {
+        "raw_prediction": 0.0,
+        "prediction": 0.0
+      },
+      "tolerance": 1e-09,
+      "prediction_threads": 8,
+      "model_sha256": "588d8fde4499a46c01b6b82bb48dfd3436ed1695a92f6ea6a812a1a796ef96d5",
+      "receipt_path": "studies/confirmation/execution/host_state/fits/receipts/notice__prewindow_frozen_C_bank__L14__s20260919__main.json",
+      "runtime_seconds": 2.0208145839860663,
+      "peak_rss_bytes": 601686016
+    },
+    {
+      "id": "official__notice__prewindow_frozen_C_bank__L_Laz__s20260919__main",
+      "state": "PASS",
+      "rows": 527040,
+      "differences": {
+        "raw_prediction": 0.0,
+        "prediction": 0.0
+      },
+      "tolerance": 1e-09,
+      "prediction_threads": 8,
+      "model_sha256": "7001de573f3119a898553f744c6d4e2f0a9f43dbd347abd22d1c44571140bce4",
+      "receipt_path": "studies/confirmation/execution/host_state/fits/receipts/notice__prewindow_frozen_C_bank__L_Laz__s20260919__main.json",
+      "runtime_seconds": 1.9498551250435412,
+      "peak_rss_bytes": 621854720
+    },
+    {
+      "id": "official__notice__prewindow_frozen_C_bank__L14__s20260921__main",
+      "state": "PASS",
+      "rows": 527040,
+      "differences": {
+        "raw_prediction": 0.0,
+        "prediction": 0.0
+      },
+      "tolerance": 1e-09,
+      "prediction_threads": 8,
+      "model_sha256": "29d703810f72458cc689894f0f3813549e930d303af80d3b55c803fce10ff6e4",
+      "receipt_path": "studies/confirmation/execution/host_state/fits/receipts/notice__prewindow_frozen_C_bank__L14__s20260921__main.json",
+      "runtime_seconds": 2.0439264999586158,
+      "peak_rss_bytes": 621182976
+    },
+    {
+      "id": "official__notice__prewindow_frozen_C_bank__L_Laz__s20260920__main",
+      "state": "PASS",
+      "rows": 527040,
+      "differences": {
+        "raw_prediction": 0.0,
+        "prediction": 0.0
+      },
+      "tolerance": 1e-09,
+      "prediction_threads": 8,
+      "model_sha256": "40c648e743ea0f63fff7cf7d04e297e938c4002ec1bb902ca56a16cb01d55008",
+      "receipt_path": "studies/confirmation/execution/host_state/fits/receipts/notice__prewindow_frozen_C_bank__L_Laz__s20260920__main.json",
+      "runtime_seconds": 1.944469875015784,
+      "peak_rss_bytes": 634175488
+    },
+    {
+      "id": "official__notice__prewindow_frozen_C_bank__L_Laz__s20260921__main",
+      "state": "PASS",
+      "rows": 527040,
+      "differences": {
+        "raw_prediction": 0.0,
+        "prediction": 0.0
+      },
+      "tolerance": 1e-09,
+      "prediction_threads": 8,
+      "model_sha256": "37c28b5e4f87322871a0b914c33ba35050d9a0674a8ff3f84e7e2bc660962a8a",
+      "receipt_path": "studies/confirmation/execution/host_state/fits/receipts/notice__prewindow_frozen_C_bank__L_Laz__s20260921__main.json",
+      "runtime_seconds": 1.9549515420221724,
+      "peak_rss_bytes": 635748352
+    },
+    {
+      "id": "official__notice__prewindow_frozen_C_bank__NPL__s20260919__main",
+      "state": "PASS",
+      "rows": 527040,
+      "differences": {
+        "raw_prediction": 0.0,
+        "prediction": 0.0
+      },
+      "tolerance": 1e-09,
+      "prediction_threads": 8,
+      "model_sha256": "4d98eb23251999eee1c544a60eb61894cbd500186c6157cf57e7632834605167",
+      "receipt_path": "studies/confirmation/execution/host_state/fits/receipts/notice__prewindow_frozen_C_bank__NPL__s20260919__main.json",
+      "runtime_seconds": 2.2105619159992784,
+      "peak_rss_bytes": 623869952
+    },
+    {
+      "id": "official__notice__prewindow_frozen_C_bank__NPP__s20260919__main",
+      "state": "PASS",
+      "rows": 527040,
+      "differences": {
+        "raw_prediction": 0.0,
+        "prediction": 0.0
+      },
+      "tolerance": 1e-09,
+      "prediction_threads": 8,
+      "model_sha256": "6e4db7428f3d894c03b18ead90e660dbaf040b397d0dc2dc4e17d3fd2a6748f1",
+      "receipt_path": "studies/confirmation/execution/host_state/fits/receipts/notice__prewindow_frozen_C_bank__NPP__s20260919__main.json",
+      "runtime_seconds": 2.2470977919874713,
+      "peak_rss_bytes": 624607232
+    },
+    {
+      "id": "w24__notice__prewindow_frozen_C_bank__L14__s20260919__main",
+      "state": "PASS",
+      "rows": 527040,
+      "differences": {
+        "raw_prediction": 0.0,
+        "prediction": 0.0
+      },
+      "tolerance": 1e-09,
+      "prediction_threads": 8,
+      "model_sha256": "180e3ac87ef8b99c81b401a2ea8ed0b9481aa1a58a77325ecf95b026afa7289a",
+      "receipt_path": "paper_plan/paper/posthoc_20261019/fits/w24/receipts/notice__prewindow_frozen_C_bank__L14__s20260919__main.json",
+      "runtime_seconds": 2.0733303329907358,
+      "peak_rss_bytes": 611942400
+    },
+    {
+      "id": "official__notice__prewindow_frozen_C_bank__R__s20260919__main",
+      "state": "PASS",
+      "rows": 527040,
+      "differences": {
+        "raw_prediction": 0.0,
+        "prediction": 0.0
+      },
+      "tolerance": 1e-09,
+      "prediction_threads": 8,
+      "model_sha256": "25140cf6015aae12ce4831eea3eb17052a41197ab1034e8a5c84269eaf625fe3",
+      "receipt_path": "studies/confirmation/execution/host_state/fits/receipts/notice__prewindow_frozen_C_bank__R__s20260919__main.json",
+      "runtime_seconds": 2.101667749986518,
+      "peak_rss_bytes": 597671936
+    },
+    {
+      "id": "w24__notice__prewindow_frozen_C_bank__L14__s20260920__main",
+      "state": "PASS",
+      "rows": 527040,
+      "differences": {
+        "raw_prediction": 0.0,
+        "prediction": 0.0
+      },
+      "tolerance": 1e-09,
+      "prediction_threads": 8,
+      "model_sha256": "163828fd259fb7b0aedd4f2dc151432b72fd67bff8ac16ad84cf2844e465f964",
+      "receipt_path": "paper_plan/paper/posthoc_20261019/fits/w24/receipts/notice__prewindow_frozen_C_bank__L14__s20260920__main.json",
+      "runtime_seconds": 1.9478857499780133,
+      "peak_rss_bytes": 615464960
+    },
+    {
+      "id": "w24__notice__prewindow_frozen_C_bank__L14__s20260921__main",
+      "state": "PASS",
+      "rows": 527040,
+      "differences": {
+        "raw_prediction": 0.0,
+        "prediction": 0.0
+      },
+      "tolerance": 1e-09,
+      "prediction_threads": 8,
+      "model_sha256": "2a0346b821356c1ea2e2cd81ff6707622b38b0f407e36c39b24858ce7a3d4652",
+      "receipt_path": "paper_plan/paper/posthoc_20261019/fits/w24/receipts/notice__prewindow_frozen_C_bank__L14__s20260921__main.json",
+      "runtime_seconds": 1.950498292047996,
+      "peak_rss_bytes": 585416704
+    },
+    {
+      "id": "w24__notice__prewindow_frozen_C_bank__L_Laz__s20260919__main",
+      "state": "PASS",
+      "rows": 527040,
+      "differences": {
+        "raw_prediction": 0.0,
+        "prediction": 0.0
+      },
+      "tolerance": 1e-09,
+      "prediction_threads": 8,
+      "model_sha256": "21edeaf45f80dc1555814aa12093f272aa4336dd1f88ad26358ec108cbfab77b",
+      "receipt_path": "paper_plan/paper/posthoc_20261019/fits/w24/receipts/notice__prewindow_frozen_C_bank__L_Laz__s20260919__main.json",
+      "runtime_seconds": 2.054143582994584,
+      "peak_rss_bytes": 616120320
+    },
+    {
+      "id": "w24__notice__prewindow_frozen_C_bank__L_Laz__s20260920__main",
+      "state": "PASS",
+      "rows": 527040,
+      "differences": {
+        "raw_prediction": 0.0,
+        "prediction": 0.0
+      },
+      "tolerance": 1e-09,
+      "prediction_threads": 8,
+      "model_sha256": "fbfe8d65103a1ae7a1e04a087b326a032dcd382de9a387ccaaa9a559139a0eb3",
+      "receipt_path": "paper_plan/paper/posthoc_20261019/fits/w24/receipts/notice__prewindow_frozen_C_bank__L_Laz__s20260920__main.json",
+      "runtime_seconds": 2.032601875020191,
+      "peak_rss_bytes": 626540544
+    },
+    {
+      "id": "w24__notice__prewindow_frozen_C_bank__L_Laz__s20260921__main",
+      "state": "PASS",
+      "rows": 527040,
+      "differences": {
+        "raw_prediction": 0.0,
+        "prediction": 0.0
+      },
+      "tolerance": 1e-09,
+      "prediction_threads": 8,
+      "model_sha256": "936402577501343bf44a8abda7f473e05bd3600e79ee6889e00cae9b586f1339",
+      "receipt_path": "paper_plan/paper/posthoc_20261019/fits/w24/receipts/notice__prewindow_frozen_C_bank__L_Laz__s20260921__main.json",
+      "runtime_seconds": 1.9823661670088768,
+      "peak_rss_bytes": 650854400
+    },
+    {
+      "id": "w7__notice__prewindow_frozen_C_bank__L14__s20260919__main",
+      "state": "PASS",
+      "rows": 527040,
+      "differences": {
+        "raw_prediction": 0.0,
+        "prediction": 0.0
+      },
+      "tolerance": 1e-09,
+      "prediction_threads": 8,
+      "model_sha256": "8622b281014cc6215ccd6500cd00952b86b8c1d9b5e486936adf43e9ded2d9fc",
+      "receipt_path": "paper_plan/paper/posthoc_20261019/fits/w7/receipts/notice__prewindow_frozen_C_bank__L14__s20260919__main.json",
+      "runtime_seconds": 1.9361235409742221,
+      "peak_rss_bytes": 614563840
+    },
+    {
+      "id": "w7__notice__prewindow_frozen_C_bank__L14__s20260920__main",
+      "state": "PASS",
+      "rows": 527040,
+      "differences": {
+        "raw_prediction": 0.0,
+        "prediction": 0.0
+      },
+      "tolerance": 1e-09,
+      "prediction_threads": 8,
+      "model_sha256": "3e297fa3977ea043f4f80c63c23e7a5afed1d027ccd3cdca7c9f2af9973bea13",
+      "receipt_path": "paper_plan/paper/posthoc_20261019/fits/w7/receipts/notice__prewindow_frozen_C_bank__L14__s20260920__main.json",
+      "runtime_seconds": 1.9174610410118476,
+      "peak_rss_bytes": 640253952
+    },
+    {
+      "id": "w7__notice__prewindow_frozen_C_bank__L14__s20260921__main",
+      "state": "PASS",
+      "rows": 527040,
+      "differences": {
+        "raw_prediction": 0.0,
+        "prediction": 0.0
+      },
+      "tolerance": 1e-09,
+      "prediction_threads": 8,
+      "model_sha256": "de8a0030daea5251cbb09bd03ac825e6434f05f3e8aa2462efb18d63ac39019e",
+      "receipt_path": "paper_plan/paper/posthoc_20261019/fits/w7/receipts/notice__prewindow_frozen_C_bank__L14__s20260921__main.json",
+      "runtime_seconds": 1.881429708970245,
+      "peak_rss_bytes": 635682816
+    },
+    {
+      "id": "w7__notice__prewindow_frozen_C_bank__L_Laz__s20260919__main",
+      "state": "PASS",
+      "rows": 527040,
+      "differences": {
+        "raw_prediction": 0.0,
+        "prediction": 0.0
+      },
+      "tolerance": 1e-09,
+      "prediction_threads": 8,
+      "model_sha256": "85bed48875d684b3fa103ad86b5e87cea846de35726de1524cc554f9966a1316",
+      "receipt_path": "paper_plan/paper/posthoc_20261019/fits/w7/receipts/notice__prewindow_frozen_C_bank__L_Laz__s20260919__main.json",
+      "runtime_seconds": 1.978663999994751,
+      "peak_rss_bytes": 609468416
+    },
+    {
+      "id": "w7__notice__prewindow_frozen_C_bank__L_Laz__s20260920__main",
+      "state": "PASS",
+      "rows": 527040,
+      "differences": {
+        "raw_prediction": 0.0,
+        "prediction": 0.0
+      },
+      "tolerance": 1e-09,
+      "prediction_threads": 8,
+      "model_sha256": "659f7bdb9d0be6dafaee7601d23e29c8b56e2a0e5c3403e1057f4937c299fb24",
+      "receipt_path": "paper_plan/paper/posthoc_20261019/fits/w7/receipts/notice__prewindow_frozen_C_bank__L_Laz__s20260920__main.json",
+      "runtime_seconds": 1.9385192909976467,
+      "peak_rss_bytes": 645054464
+    },
+    {
+      "id": "w7__notice__prewindow_frozen_C_bank__L_Laz__s20260921__main",
+      "state": "PASS",
+      "rows": 527040,
+      "differences": {
+        "raw_prediction": 0.0,
+        "prediction": 0.0
+      },
+      "tolerance": 1e-09,
+      "prediction_threads": 8,
+      "model_sha256": "befa2b052482fc09f0af460c00b4bd905513e2f44c9dc3c0e8c1ffce689ac68c",
+      "receipt_path": "paper_plan/paper/posthoc_20261019/fits/w7/receipts/notice__prewindow_frozen_C_bank__L_Laz__s20260921__main.json",
+      "runtime_seconds": 1.4511799169704318,
+      "peak_rss_bytes": 624508928
+    }
+  ],
+  "day_first_checks": [
+    {
+      "id": "L14__dayfirst_a0",
+      "state": "PASS",
+      "rows": 527040,
+      "differences": {
+        "prediction": 0.0,
+        "raw_prediction": 0.0
+      },
+      "tolerance": 1e-09,
+      "reference_path": "studies/confirmation/forecast_hashes/prediction_set/L14__corrected_D.parquet",
+      "reference_sha256": "ad37adb7fd346cf2d54a1be561937de1b67558069360796e764d58f2da777ccd",
+      "model_sha256": "588d8fde4499a46c01b6b82bb48dfd3436ed1695a92f6ea6a812a1a796ef96d5",
+      "runtime_seconds": 42.14265449997038,
+      "peak_rss_bytes": 1092222976,
+      "minimum_resources": {
+        "available_ram_fraction": 0.19946861267089844,
+        "available_ram_bytes": 1713422336,
+        "free_disk_bytes": 8970240000
+      },
+      "models_refitted": 0,
+      "prediction_threads": 8
+    },
+    {
+      "id": "L_Laz__dayfirst_a0",
+      "state": "PASS",
+      "rows": 527040,
+      "differences": {
+        "prediction": 0.0,
+        "raw_prediction": 0.0
+      },
+      "tolerance": 1e-09,
+      "reference_path": "studies/confirmation/forecast_hashes/prediction_set/L_Laz__corrected_D.parquet",
+      "reference_sha256": "a7209c40873fd074823983b4fd502d937f647d8bab17b1c828f37c8f15d9f0dd",
+      "model_sha256": "7001de573f3119a898553f744c6d4e2f0a9f43dbd347abd22d1c44571140bce4",
+      "runtime_seconds": 173.25989329098957,
+      "peak_rss_bytes": 1075527680,
+      "minimum_resources": {
+        "available_ram_fraction": 0.233062744140625,
+        "available_ram_bytes": 2001993728,
+        "free_disk_bytes": 8888320000
+      },
+      "models_refitted": 0,
+      "prediction_threads": 8
+    }
+  ],
+  "models_refitted": 0,
+  "scoring_started": false,
+  "runtime_seconds": 38.1856414580252,
+  "day_first_gate_runtime_seconds": 174.44293699995615,
+  "execution_errors": [
+    {
+      "error": "'laz_NuclearFailure' is not in list",
+      "traceback": "concurrent.futures.process._RemoteTraceback: \n\"\"\"\nTraceback (most recent call last):\n  File \"/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/concurrent/futures/process.py\", line 263, in _process_worker\n    r = call_item.fn(*call_item.args, **call_item.kwargs)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"dayfirst/code/projection_gate.py\", line 80, in projection_one\n    stop = min(start+32768,len(panel))\n                                       \nValueError: 'laz_NuclearFailure' is not in list\n\"\"\"\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"dayfirst/code/projection_gate.py\", line 120, in main\n    model=lgb.Booster(model_file=rec['model_path'])\n                 ^^^^^^^^^^^^^^^\n  File \"/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/concurrent/futures/_base.py\", line 449, in result\n    return self.__get_result()\n           ^^^^^^^^^^^^^^^^^^^\n  File \"/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/concurrent/futures/_base.py\", line 401, in __get_result\n    raise self._exception\nValueError: 'laz_NuclearFailure' is not in list\n",
+      "reason": "Runner attempted to assign a training-pruned column; no L_Laz prediction or comparison occurred",
+      "correction": "Assign only the exact saved/pruned model feature order"
+    }
+  ],
+  "delayed_month_first_checks": [
+    {
+      "id": "mode1__L14__monthfirst_delay5",
+      "rows": 527040,
+      "differences": {
+        "raw_prediction": 0.0,
+        "prediction": 0.0
+      },
+      "state": "PASS",
+      "tolerance": 1e-09,
+      "reference_path": "studies/batch_estimation/disk_checks/dly8/mode1/attempts/1f275c3aeec24effb835734a74748033/notice__L14__delay5.parquet",
+      "reference_sha256": "3f6dc332d04a69d737415ca9f7f44071f3a884c38780940da5752011e14858f2",
+      "runtime_seconds": 41.588685083028395,
+      "peak_rss_bytes": 1098186752,
+      "minimum_resources": {
+        "available_ram_fraction": 0.2005443572998047,
+        "available_ram_bytes": 1722662912,
+        "free_disk_bytes": 8888320000
+      },
+      "prediction_threads": 8,
+      "models_refitted": 0
+    },
+    {
+      "id": "mode2__L14+__monthfirst_delay5",
+      "rows": 527040,
+      "differences": {
+        "raw_prediction": 0.0,
+        "prediction": 0.0
+      },
+      "state": "PASS",
+      "tolerance": 1e-09,
+      "reference_path": "studies/batch_estimation/disk_checks/dly8/mode2/attempts/93735f2d564d44829cd7cc1762b4a62f/notice__L14+__delay5.parquet",
+      "reference_sha256": "22632445f764e8ce5327c0c28b03be3636be1acbaa409d31046d7d1601fc21d5",
+      "runtime_seconds": 46.2178460410214,
+      "peak_rss_bytes": 1098186752,
+      "minimum_resources": {
+        "available_ram_fraction": 0.2005443572998047,
+        "available_ram_bytes": 1722662912,
+        "free_disk_bytes": 8888320000
+      },
+      "prediction_threads": 8,
+      "models_refitted": 0
+    },
+    {
+      "id": "mode1__L14__monthfirst_delay15",
+      "rows": 527040,
+      "differences": {
+        "raw_prediction": 0.0,
+        "prediction": 0.0
+      },
+      "state": "PASS",
+      "tolerance": 1e-09,
+      "reference_path": "studies/batch_estimation/disk_checks/dly8/mode1/attempts/1f275c3aeec24effb835734a74748033/notice__L14__delay15.parquet",
+      "reference_sha256": "9e7f92ec62cec157e7a220f10044094d7098b1f1c74e4cc6ff53d88cb5684e8d",
+      "runtime_seconds": 41.68737829197198,
+      "peak_rss_bytes": 1091026944,
+      "minimum_resources": {
+        "available_ram_fraction": 0.19590187072753906,
+        "available_ram_bytes": 1682784256,
+        "free_disk_bytes": 8888320000
+      },
+      "prediction_threads": 8,
+      "models_refitted": 0
+    },
+    {
+      "id": "mode2__L14+__monthfirst_delay15",
+      "rows": 527040,
+      "differences": {
+        "raw_prediction": 0.0,
+        "prediction": 0.0
+      },
+      "state": "PASS",
+      "tolerance": 1e-09,
+      "reference_path": "studies/batch_estimation/disk_checks/dly8/mode2/attempts/93735f2d564d44829cd7cc1762b4a62f/notice__L14+__delay15.parquet",
+      "reference_sha256": "9f7da57e6f017659f61b00285940d9b5776d47137ab915d7c55376cba43d2a9e",
+      "runtime_seconds": 46.346361792006064,
+      "peak_rss_bytes": 1091026944,
+      "minimum_resources": {
+        "available_ram_fraction": 0.19590187072753906,
+        "available_ram_bytes": 1682784256,
+        "free_disk_bytes": 8888320000
+      },
+      "prediction_threads": 8,
+      "models_refitted": 0
+    },
+    {
+      "id": "mode1__L_Laz__monthfirst_delay5",
+      "rows": 527040,
+      "differences": {
+        "raw_prediction": 0.0,
+        "prediction": 0.0
+      },
+      "state": "PASS",
+      "tolerance": 1e-09,
+      "reference_path": "studies/batch_estimation/disk_checks/dly8/mode1/attempts/1f275c3aeec24effb835734a74748033/notice__L_Laz__delay5.parquet",
+      "reference_sha256": "b170894bd1eb6717902cb7f7be94832c59d46b304377a57ff8c993fb3435afe5",
+      "runtime_seconds": 190.19043687498197,
+      "peak_rss_bytes": 976650240,
+      "minimum_resources": {
+        "available_ram_fraction": 0.18394088745117188,
+        "available_ram_bytes": 1580040192,
+        "free_disk_bytes": 8888320000
+      },
+      "prediction_threads": 8,
+      "models_refitted": 0
+    },
+    {
+      "id": "mode2__L_Laz+__monthfirst_delay5",
+      "rows": 527040,
+      "differences": {
+        "raw_prediction": 0.0,
+        "prediction": 0.0
+      },
+      "state": "PASS",
+      "tolerance": 1e-09,
+      "reference_path": "studies/batch_estimation/disk_checks/dly8/mode2/attempts/93735f2d564d44829cd7cc1762b4a62f/notice__L_Laz+__delay5.parquet",
+      "reference_sha256": "441261cb81d3006e380eba7e7f9d130ec7c54a96de107abf69bd0824a7fcdc11",
+      "runtime_seconds": 194.82538937497884,
+      "peak_rss_bytes": 976650240,
+      "minimum_resources": {
+        "available_ram_fraction": 0.18394088745117188,
+        "available_ram_bytes": 1580040192,
+        "free_disk_bytes": 8888320000
+      },
+      "prediction_threads": 8,
+      "models_refitted": 0
+    },
+    {
+      "id": "mode1__L14__monthfirst_delay60",
+      "rows": 527040,
+      "differences": {
+        "raw_prediction": 0.0,
+        "prediction": 0.0
+      },
+      "state": "PASS",
+      "tolerance": 1e-09,
+      "reference_path": "studies/batch_estimation/disk_checks/dly8/mode1/attempts/1f275c3aeec24effb835734a74748033/notice__L14__delay60.parquet",
+      "reference_sha256": "7d224b6406323d1ee977543878c69f8494b354ba4692d7ae6b098300f9a54fbe",
+      "runtime_seconds": 41.40100133395754,
+      "peak_rss_bytes": 1115734016,
+      "minimum_resources": {
+        "available_ram_fraction": 0.21066856384277344,
+        "available_ram_bytes": 1809629184,
+        "free_disk_bytes": 8888320000
+      },
+      "prediction_threads": 8,
+      "models_refitted": 0
+    },
+    {
+      "id": "mode2__L14+__monthfirst_delay60",
+      "rows": 527040,
+      "differences": {
+        "raw_prediction": 0.0,
+        "prediction": 0.0
+      },
+      "state": "PASS",
+      "tolerance": 1e-09,
+      "reference_path": "studies/batch_estimation/disk_checks/dly8/mode2/attempts/93735f2d564d44829cd7cc1762b4a62f/notice__L14+__delay60.parquet",
+      "reference_sha256": "d1d2f76d786bf3d13958a1330a480ecd520a5734346cd8511078c2efd81b61e1",
+      "runtime_seconds": 46.070802541973535,
+      "peak_rss_bytes": 1115734016,
+      "minimum_resources": {
+        "available_ram_fraction": 0.21066856384277344,
+        "available_ram_bytes": 1809629184,
+        "free_disk_bytes": 8888320000
+      },
+      "prediction_threads": 8,
+      "models_refitted": 0
+    },
+    {
+      "id": "mode1__L_Laz__monthfirst_delay15",
+      "rows": 527040,
+      "differences": {
+        "raw_prediction": 0.0,
+        "prediction": 0.0
+      },
+      "state": "PASS",
+      "tolerance": 1e-09,
+      "reference_path": "studies/batch_estimation/disk_checks/dly8/mode1/attempts/1f275c3aeec24effb835734a74748033/notice__L_Laz__delay15.parquet",
+      "reference_sha256": "f9f23be83ed05b94a1a18b766d8591c62073f0bf144504c038aca555c82a76db",
+      "runtime_seconds": 190.7986191670061,
+      "peak_rss_bytes": 1061060608,
+      "minimum_resources": {
+        "available_ram_fraction": 0.20152854919433594,
+        "available_ram_bytes": 1731117056,
+        "free_disk_bytes": 8888320000
+      },
+      "prediction_threads": 8,
+      "models_refitted": 0
+    },
+    {
+      "id": "mode2__L_Laz+__monthfirst_delay15",
+      "rows": 527040,
+      "differences": {
+        "raw_prediction": 0.0,
+        "prediction": 0.0
+      },
+      "state": "PASS",
+      "tolerance": 1e-09,
+      "reference_path": "studies/batch_estimation/disk_checks/dly8/mode2/attempts/93735f2d564d44829cd7cc1762b4a62f/notice__L_Laz+__delay15.parquet",
+      "reference_sha256": "415e3102f8d8b3460b4416e69cb7dfefcbdfc9eb5b917dbb947f42fc2e989ba4",
+      "runtime_seconds": 195.46140845800983,
+      "peak_rss_bytes": 1061060608,
+      "minimum_resources": {
+        "available_ram_fraction": 0.20152854919433594,
+        "available_ram_bytes": 1731117056,
+        "free_disk_bytes": 8888320000
+      },
+      "prediction_threads": 8,
+      "models_refitted": 0
+    },
+    {
+      "id": "mode1__L_Laz__monthfirst_delay60",
+      "rows": 527040,
+      "differences": {
+        "raw_prediction": 0.0,
+        "prediction": 0.0
+      },
+      "state": "PASS",
+      "tolerance": 1e-09,
+      "reference_path": "studies/batch_estimation/disk_checks/dly8/mode1/attempts/1f275c3aeec24effb835734a74748033/notice__L_Laz__delay60.parquet",
+      "reference_sha256": "58aaa9a66ef5db014f0e23c37fad8b5a11ccea9a71a81b6cd8604173dd5a18fc",
+      "runtime_seconds": 175.7238180420245,
+      "peak_rss_bytes": 1059569664,
+      "minimum_resources": {
+        "available_ram_fraction": 0.2030315399169922,
+        "available_ram_bytes": 1744027648,
+        "free_disk_bytes": 8888320000
+      },
+      "prediction_threads": 8,
+      "models_refitted": 0
+    },
+    {
+      "id": "mode2__L_Laz+__monthfirst_delay60",
+      "rows": 527040,
+      "differences": {
+        "raw_prediction": 0.0,
+        "prediction": 0.0
+      },
+      "state": "PASS",
+      "tolerance": 1e-09,
+      "reference_path": "studies/batch_estimation/disk_checks/dly8/mode2/attempts/93735f2d564d44829cd7cc1762b4a62f/notice__L_Laz+__delay60.parquet",
+      "reference_sha256": "18614840d5835e711a1fe57587566f98d1968ea2430ae51d866edebdca7a75d1",
+      "runtime_seconds": 180.13343541702488,
+      "peak_rss_bytes": 1191870464,
+      "minimum_resources": {
+        "available_ram_fraction": 0.2030315399169922,
+        "available_ram_bytes": 1744027648,
+        "free_disk_bytes": 8888320000
+      },
+      "prediction_threads": 8,
+      "models_refitted": 0
+    }
+  ],
+  "delayed_gate_runtime_seconds": 424.9381949999952
+}

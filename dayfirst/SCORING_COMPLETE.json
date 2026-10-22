@@ -1,0 +1,23 @@
+{
+  "state": "COMPLETE",
+  "runtime_seconds": 65.93571941601112,
+  "bootstrap_draws": 100000,
+  "bootstrap_seed": 20260925,
+  "bootstrap_workers": 8,
+  "statistical_jobs": 200,
+  "maximum_worker_peak_rss_bytes": 208109568,
+  "posthoc_decisions": {
+    "state": "COMPLETE",
+    "robust_reversals_count": 0,
+    "robust_notice_gains_all_three": false,
+    "robust_notice_gains_count": 2,
+    "notice_reversals_disappear_under_w7": true,
+    "rule1_all_seeds_means_windows_reported": true,
+    "rule5_no_additional_variants": true,
+    "runtime_seconds": 0.10595583397662267,
+    "peak_rss_bytes": 1152204800
+  },
+  "official_families": 35,
+  "official_month_first_point_checks": 80,
+  "models_refitted": 0
+}

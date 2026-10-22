@@ -1,0 +1,104 @@
+{
+  "spec_6_adapter_freeze": {
+    "bytes": 28265,
+    "path": "studies/confirmation/execution/ADAPTER_FREEZE.json",
+    "sha256": "51c4f1b8278be8a1fcb152f632ccab5f4c6e0722ee24ba4130822c040498c77c"
+  },
+  "spec_6_chain_record": {
+    "bytes": 10844,
+    "path": "studies/confirmation/storage_limits/SPECIFIED_ADAPTER_CHAIN.json",
+    "sha256": "e682cc2e44d113bfe99b58855dc177bdbbe216e9ed58ff12240a5ef60d4cc275"
+  },
+  "decision": "source message 2026-10-02: fit_memory = storage_limits options 1 + 2 + 3, resource-only",
+  "feature_path_identities_that_must_not_change": {
+    "execution/additional_scoring.py": {
+      "bytes": 18008,
+      "path": "studies/confirmation/execution/additional_scoring.py",
+      "sha256": "a38a159e918ece3749b1fcf64c2400e257ef5ae1e74aa622503f3e9058e23a03"
+    },
+    "execution/cli.py": {
+      "bytes": 4542,
+      "path": "studies/confirmation/execution/cli.py",
+      "sha256": "f27805e21ade960563223cdef2515a344635577d325588c35b7845982268b26e"
+    },
+    "execution/embedding_adapter.py": {
+      "bytes": 6389,
+      "path": "studies/confirmation/execution/embedding_adapter.py",
+      "sha256": "3cf7c13ac8b0396635205bbc6f49d2082236d5bfc33ba950488da4b3e7a2e6db"
+    },
+    "execution/feature_storage.py": {
+      "bytes": 11920,
+      "path": "studies/confirmation/execution/feature_storage.py",
+      "sha256": "2732f7e9438aeb5d08b4f1bf23e770eead2876dfcd2580d80d93052127204a5e"
+    },
+    "execution/features_adapter.py": {
+      "bytes": 58996,
+      "path": "studies/confirmation/execution/features_adapter.py",
+      "sha256": "d958d53e92fd40d800fdbdf9497a728b1cdc35775aa4437a0a9c3f69164a96fc"
+    },
+    "execution/notice_label_adapter.py": {
+      "bytes": 16752,
+      "path": "studies/confirmation/execution/notice_label_adapter.py",
+      "sha256": "d578a7103c3bf67b7009f3c265e48f45e234f930fa0a4989525acd0d1a4f47a9"
+    },
+    "execution/panels_adapter.py": {
+      "bytes": 25843,
+      "path": "studies/confirmation/execution/panels_adapter.py",
+      "sha256": "2595a7b13e53387e350f6a2789e2039a8c77e0cc727a578ee80c8af5f5311d1e"
+    }
+  },
+  "host_state_contents_read": false,
+  "planned_new_files": [
+    "execution/anonymous_memory.py",
+    "execution/tests/test_spec_7_memory.py",
+    "fit_memory/features_completion_rule.py",
+    "fit_memory/measure_fit_memory.py",
+    "fit_memory/freeze_specification.py",
+    "fit_memory/verify_code_scope.py",
+    "fit_memory/host_chain_SPEC_7.sh"
+  ],
+  "pre_spec_7_identities_of_files_to_change": {
+    "execution/ADAPTER_FREEZE.json": {
+      "bytes": 28265,
+      "path": "studies/confirmation/execution/ADAPTER_FREEZE.json",
+      "sha256": "51c4f1b8278be8a1fcb152f632ccab5f4c6e0722ee24ba4130822c040498c77c"
+    },
+    "execution/execution_adapter.py": {
+      "bytes": 44816,
+      "path": "studies/confirmation/execution/execution_adapter.py",
+      "sha256": "cc8bf20eefce3dc56b6b72f5a28870cc95662933f6af720795a4938d90155b2d"
+    },
+    "execution/runtime.py": {
+      "bytes": 13354,
+      "path": "studies/confirmation/execution/runtime.py",
+      "sha256": "6da5d0c5a03d5d87378df4e3c782bd1d16c197a6c2cc7fe1be1b0bfedf510511"
+    },
+    "execution/tests/test_execution_adapters.py": {
+      "bytes": 30361,
+      "path": "studies/confirmation/execution/tests/test_execution_adapters.py",
+      "sha256": "21a2a44ab0a21dd83d42ae6612d89600bd1ac8e3c5d344cba841ed201f2dc4a1"
+    },
+    "execution/tests/test_execution_specification.py": {
+      "bytes": 19744,
+      "path": "studies/confirmation/execution/tests/test_execution_specification.py",
+      "sha256": "6830d6d31db227322e7c527703ba6b63f73e53c0b8bd96370e617459b2e6081f"
+    },
+    "HOST_RUN.md": {
+      "bytes": 11857,
+      "path": "studies/confirmation/HOST_RUN.md",
+      "sha256": "511531dad23dfcb732d558ed965c9f4816c04131f48a4bad55501f08552f0192"
+    }
+  },
+  "production_commands_run": [],
+  "production_features_run": "running under the storage_limits freeze since about 17:29 AEST (process list only); not touched",
+  "spec": {
+    "bytes": 9291,
+    "path": "studies/confirmation/fit_memory/SPEC.md",
+    "sha256": "9d3abfb9b8e7b96f6c13298d1e6a3ccebe649ecad861c26654cb01ffa6d56ba2"
+  },
+  "state": "SPEC_FROZEN_BEFORE_CODE_CHANGE_AND_MEASUREMENTS",
+  "t3": "confirmation/TIMESTAMPS/T3 exists (source: 07:29:30Z over the storage_limits state); not opened beyond its listing",
+  "task": "fit_memory",
+  "time_utc": "2026-10-02T07:35:25.215885+00:00",
+  "window_outcomes_read": false
+}

@@ -1,0 +1,317 @@
+[
+  {
+    "slot_id": "forest/096",
+    "scope": "SPECIFIED_FOREST",
+    "identity": {
+      "slot_id": "forest/096",
+      "forest_index": 96,
+      "task": "notice",
+      "group": "Secondary",
+      "layer": "cheap",
+      "arm": "L_chen_notice",
+      "reference": "R",
+      "field": "notice/cheap/L_chen_notice",
+      "family_key": "notice/cheap",
+      "view": "NOTICE_TARGET_61"
+    },
+    "view": "NOTICE_TARGET_61",
+    "source_receipt_sha256": "a3cb40c7f86e10ab0b5e6378e091ffd6cd2e8435425484a760787d3628607f4e",
+    "timestamp_checks": {
+      "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/numerical_evidence/SCORING_NUMERIC.json",
+      "bytes": 39640429,
+      "sha256": "4394a79b0f1835ddecf24aff99fd6ab24bba4fb2e89bba85dd221b89e080f853",
+      "pointer": "/forest_slots/96"
+    },
+    "value": {
+      "identity": {
+        "slot_id": "forest/096",
+        "forest_index": 96,
+        "task": "notice",
+        "group": "Secondary",
+        "layer": "cheap",
+        "arm": "L_chen_notice",
+        "reference": "R",
+        "field": "notice/cheap/L_chen_notice",
+        "family_key": "notice/cheap",
+        "view": "NOTICE_TARGET_61"
+      },
+      "state": "DEVIATION",
+      "native_disposition": "DEVIATION",
+      "reason": "A8NR_PARITY",
+      "native": null,
+      "pointer": "/current/notice~1cheap",
+      "family_m": null,
+      "days": null
+    }
+  },
+  {
+    "slot_id": "forest/098",
+    "scope": "SPECIFIED_FOREST",
+    "identity": {
+      "slot_id": "forest/098",
+      "forest_index": 98,
+      "task": "notice",
+      "group": "Secondary",
+      "layer": "cheap",
+      "arm": "L14",
+      "reference": "R",
+      "field": "notice/cheap/L14",
+      "family_key": "notice/cheap",
+      "view": "NOTICE_TARGET_61"
+    },
+    "view": "NOTICE_TARGET_61",
+    "source_receipt_sha256": "a3cb40c7f86e10ab0b5e6378e091ffd6cd2e8435425484a760787d3628607f4e",
+    "timestamp_checks": {
+      "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/numerical_evidence/SCORING_NUMERIC.json",
+      "bytes": 39640429,
+      "sha256": "4394a79b0f1835ddecf24aff99fd6ab24bba4fb2e89bba85dd221b89e080f853",
+      "pointer": "/forest_slots/98"
+    },
+    "value": {
+      "identity": {
+        "slot_id": "forest/098",
+        "forest_index": 98,
+        "task": "notice",
+        "group": "Secondary",
+        "layer": "cheap",
+        "arm": "L14",
+        "reference": "R",
+        "field": "notice/cheap/L14",
+        "family_key": "notice/cheap",
+        "view": "NOTICE_TARGET_61"
+      },
+      "state": "DEVIATION",
+      "native_disposition": "DEVIATION",
+      "reason": "A8NR_PARITY",
+      "native": null,
+      "pointer": "/current/notice~1cheap",
+      "family_m": null,
+      "days": null
+    }
+  },
+  {
+    "slot_id": "forest/099",
+    "scope": "SPECIFIED_FOREST",
+    "identity": {
+      "slot_id": "forest/099",
+      "forest_index": 99,
+      "task": "notice",
+      "group": "Secondary",
+      "layer": "cheap",
+      "arm": "L14",
+      "reference": "T",
+      "field": "notice/cheap/L14",
+      "family_key": "notice/cheap",
+      "view": "NOTICE_TARGET_61"
+    },
+    "view": "NOTICE_TARGET_61",
+    "source_receipt_sha256": "a3cb40c7f86e10ab0b5e6378e091ffd6cd2e8435425484a760787d3628607f4e",
+    "timestamp_checks": {
+      "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/numerical_evidence/SCORING_NUMERIC.json",
+      "bytes": 39640429,
+      "sha256": "4394a79b0f1835ddecf24aff99fd6ab24bba4fb2e89bba85dd221b89e080f853",
+      "pointer": "/forest_slots/99"
+    },
+    "value": {
+      "identity": {
+        "slot_id": "forest/099",
+        "forest_index": 99,
+        "task": "notice",
+        "group": "Secondary",
+        "layer": "cheap",
+        "arm": "L14",
+        "reference": "T",
+        "field": "notice/cheap/L14",
+        "family_key": "notice/cheap",
+        "view": "NOTICE_TARGET_61"
+      },
+      "state": "DEVIATION",
+      "native_disposition": "DEVIATION",
+      "reason": "A8NR_PARITY",
+      "native": null,
+      "pointer": "/current/notice~1cheap",
+      "family_m": null,
+      "days": null
+    }
+  },
+  {
+    "slot_id": "forest/100",
+    "scope": "SPECIFIED_FOREST",
+    "identity": {
+      "slot_id": "forest/100",
+      "forest_index": 100,
+      "task": "notice",
+      "group": "Secondary",
+      "layer": "cheap",
+      "arm": "L_Laz",
+      "reference": "R",
+      "field": "notice/cheap/L_Laz",
+      "family_key": "notice/cheap",
+      "view": "NOTICE_TARGET_61"
+    },
+    "view": "NOTICE_TARGET_61",
+    "source_receipt_sha256": "a3cb40c7f86e10ab0b5e6378e091ffd6cd2e8435425484a760787d3628607f4e",
+    "timestamp_checks": {
+      "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/numerical_evidence/SCORING_NUMERIC.json",
+      "bytes": 39640429,
+      "sha256": "4394a79b0f1835ddecf24aff99fd6ab24bba4fb2e89bba85dd221b89e080f853",
+      "pointer": "/forest_slots/100"
+    },
+    "value": {
+      "identity": {
+        "slot_id": "forest/100",
+        "forest_index": 100,
+        "task": "notice",
+        "group": "Secondary",
+        "layer": "cheap",
+        "arm": "L_Laz",
+        "reference": "R",
+        "field": "notice/cheap/L_Laz",
+        "family_key": "notice/cheap",
+        "view": "NOTICE_TARGET_61"
+      },
+      "state": "DEVIATION",
+      "native_disposition": "DEVIATION",
+      "reason": "A8NR_PARITY",
+      "native": null,
+      "pointer": "/current/notice~1cheap",
+      "family_m": null,
+      "days": null
+    }
+  },
+  {
+    "slot_id": "forest/101",
+    "scope": "SPECIFIED_FOREST",
+    "identity": {
+      "slot_id": "forest/101",
+      "forest_index": 101,
+      "task": "notice",
+      "group": "Secondary",
+      "layer": "cheap",
+      "arm": "L_Laz",
+      "reference": "T",
+      "field": "notice/cheap/L_Laz",
+      "family_key": "notice/cheap",
+      "view": "NOTICE_TARGET_61"
+    },
+    "view": "NOTICE_TARGET_61",
+    "source_receipt_sha256": "a3cb40c7f86e10ab0b5e6378e091ffd6cd2e8435425484a760787d3628607f4e",
+    "timestamp_checks": {
+      "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/numerical_evidence/SCORING_NUMERIC.json",
+      "bytes": 39640429,
+      "sha256": "4394a79b0f1835ddecf24aff99fd6ab24bba4fb2e89bba85dd221b89e080f853",
+      "pointer": "/forest_slots/101"
+    },
+    "value": {
+      "identity": {
+        "slot_id": "forest/101",
+        "forest_index": 101,
+        "task": "notice",
+        "group": "Secondary",
+        "layer": "cheap",
+        "arm": "L_Laz",
+        "reference": "T",
+        "field": "notice/cheap/L_Laz",
+        "family_key": "notice/cheap",
+        "view": "NOTICE_TARGET_61"
+      },
+      "state": "DEVIATION",
+      "native_disposition": "DEVIATION",
+      "reason": "A8NR_PARITY",
+      "native": null,
+      "pointer": "/current/notice~1cheap",
+      "family_m": null,
+      "days": null
+    }
+  },
+  {
+    "slot_id": "forest/107",
+    "scope": "SPECIFIED_FOREST",
+    "identity": {
+      "slot_id": "forest/107",
+      "forest_index": 107,
+      "task": "notice",
+      "group": "Secondary",
+      "layer": "subsets",
+      "arm": "L14",
+      "reference": "M_notice",
+      "field": "notice/subsets/L14",
+      "family_key": "notice/subsets",
+      "view": "NOTICE_TARGET_61"
+    },
+    "view": "NOTICE_TARGET_61",
+    "source_receipt_sha256": "a3cb40c7f86e10ab0b5e6378e091ffd6cd2e8435425484a760787d3628607f4e",
+    "timestamp_checks": {
+      "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/numerical_evidence/SCORING_NUMERIC.json",
+      "bytes": 39640429,
+      "sha256": "4394a79b0f1835ddecf24aff99fd6ab24bba4fb2e89bba85dd221b89e080f853",
+      "pointer": "/forest_slots/107"
+    },
+    "value": {
+      "identity": {
+        "slot_id": "forest/107",
+        "forest_index": 107,
+        "task": "notice",
+        "group": "Secondary",
+        "layer": "subsets",
+        "arm": "L14",
+        "reference": "M_notice",
+        "field": "notice/subsets/L14",
+        "family_key": "notice/subsets",
+        "view": "NOTICE_TARGET_61"
+      },
+      "state": "DEVIATION",
+      "native_disposition": "DEVIATION",
+      "reason": "A8NR_PARITY",
+      "native": null,
+      "pointer": "/current/notice~1subsets",
+      "family_m": null,
+      "days": null
+    }
+  },
+  {
+    "slot_id": "forest/108",
+    "scope": "SPECIFIED_FOREST",
+    "identity": {
+      "slot_id": "forest/108",
+      "forest_index": 108,
+      "task": "notice",
+      "group": "Secondary",
+      "layer": "subsets",
+      "arm": "L_Laz",
+      "reference": "M_notice",
+      "field": "notice/subsets/L_Laz",
+      "family_key": "notice/subsets",
+      "view": "NOTICE_TARGET_61"
+    },
+    "view": "NOTICE_TARGET_61",
+    "source_receipt_sha256": "a3cb40c7f86e10ab0b5e6378e091ffd6cd2e8435425484a760787d3628607f4e",
+    "timestamp_checks": {
+      "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/numerical_evidence/SCORING_NUMERIC.json",
+      "bytes": 39640429,
+      "sha256": "4394a79b0f1835ddecf24aff99fd6ab24bba4fb2e89bba85dd221b89e080f853",
+      "pointer": "/forest_slots/108"
+    },
+    "value": {
+      "identity": {
+        "slot_id": "forest/108",
+        "forest_index": 108,
+        "task": "notice",
+        "group": "Secondary",
+        "layer": "subsets",
+        "arm": "L_Laz",
+        "reference": "M_notice",
+        "field": "notice/subsets/L_Laz",
+        "family_key": "notice/subsets",
+        "view": "NOTICE_TARGET_61"
+      },
+      "state": "DEVIATION",
+      "native_disposition": "DEVIATION",
+      "reason": "A8NR_PARITY",
+      "native": null,
+      "pointer": "/current/notice~1subsets",
+      "family_m": null,
+      "days": null
+    }
+  }
+]

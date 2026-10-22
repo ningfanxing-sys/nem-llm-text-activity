@@ -1,0 +1,287 @@
+{
+  "addendum_freeze_sha256": "a7667e51b7f236e192ac5c1e1d8e1ca9681ba5fd5b8e98c55b4c7364989912c9",
+  "inputs_read": [
+    {
+      "path": "studies/confirmation/execution/host_state/SEAL.json",
+      "role": "seal",
+      "sha256": "abdf291c73c68ff224dc5c070cd986baa686518b506bbf03d1657aa29ce75110"
+    },
+    {
+      "path": "studies/confirmation/execution/host_state/scored/SCORE_RECEIPT.json",
+      "role": "score_receipt",
+      "sha256": "8f09b3d0626f0d1b5b5be4fe12d697004b3e210f5dc6b8c4eebcee69c8254215"
+    },
+    {
+      "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/R2_STATE/scored/news__DAILY_LOSSES.csv",
+      "role": "score_output",
+      "sha256": "74887745de654c1df5c77470ca86822ad4e8671a7059c7081497a00ac6bc8007"
+    },
+    {
+      "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/R2_STATE/scored/news__PRIMARY.json",
+      "role": "score_output",
+      "sha256": "a00791a0d5fb2894dec1bcb2614b47692e63754bdcd9c26b786d3b938009cee8"
+    },
+    {
+      "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/R2_STATE/scored/news__A1_HLN.json",
+      "role": "score_output",
+      "sha256": "2921bf7920e19056ce51c0f8145bc7ae1139e9133065ad65b7bc4bae82468732"
+    },
+    {
+      "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/R2_STATE/scored/news__A1_SEED_FRAGILE.json",
+      "role": "score_output",
+      "sha256": "55eb24ad51225cacbc287d26e5e4a22c518c0d006230cb60f1505826371411d2"
+    },
+    {
+      "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/R2_STATE/scored/SCORE_REPORT.json",
+      "role": "score_output",
+      "sha256": "fe66c7599b6eec75307cdbc4a6cc465648865b037b4e17a55bb3276eca680ce9"
+    },
+    {
+      "path": "studies/confirmation/execution/host_state/features/news_keys_labels.parquet",
+      "role": "sealed_truth_panel_postscore",
+      "sha256": "821f6db161fd012b18dee28e83f5518d7841e74461431633ebd6eaa0292ae68f"
+    },
+    {
+      "path": "studies/confirmation/execution/host_state/sealed/lear__LEAR__s20260919__main.parquet",
+      "role": "r2_full_original_prediction",
+      "sha256": "2452a0703fe95fdf97653bd17db69ce0c8b4f593caa5bd924066c4837364cc9d"
+    },
+    {
+      "path": "studies/confirmation/execution/host_state/sealed/news__L_chen__s20260919__main.parquet",
+      "role": "r2_full_original_prediction",
+      "sha256": "6cb756c532eb5914578250cf1de290f464d3932d4031aec9a94db6e5dc9be15a"
+    },
+    {
+      "path": "studies/confirmation/execution/host_state/sealed/news__L_count__s20260919__main.parquet",
+      "role": "r2_full_original_prediction",
+      "sha256": "c73e4a16b16263f14f9e1984723b3c14fe6c55276d0fddbfbfb1cac094ad7ba4"
+    },
+    {
+      "path": "studies/confirmation/execution/host_state/sealed/news__M__s20260919__main.parquet",
+      "role": "r2_full_original_prediction",
+      "sha256": "5f8308db9aba07636b7d34dde2ed1bb858fe15d9c8d35b337402c73b0d245f09"
+    },
+    {
+      "path": "studies/confirmation/execution/host_state/sealed/news__N__s20260919__main.parquet",
+      "role": "r2_full_original_prediction",
+      "sha256": "f7b9d5072335564e3748ab72cd41b910cd7c5a6b803ae28a0bba7dbc5db8d8e7"
+    },
+    {
+      "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/R2_STATE/scored/news__DAILY_LOSSES.csv",
+      "role": "score_output",
+      "sha256": "74887745de654c1df5c77470ca86822ad4e8671a7059c7081497a00ac6bc8007"
+    },
+    {
+      "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/R2_STATE/scored/notice__DAILY_LOSSES.csv",
+      "role": "score_output",
+      "sha256": "c00066a78d6b79fc2148c26f388530976ad51b49bec2315052e172a40f410021"
+    },
+    {
+      "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/R2_STATE/scored/notice__PRIMARY.json",
+      "role": "score_output",
+      "sha256": "d5c15bfde194477698dfefafe1f9dbfb3c195627177aa4070a5b61d11f3bdd9d"
+    },
+    {
+      "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/R2_STATE/scored/notice__A1_HLN.json",
+      "role": "score_output",
+      "sha256": "02a87c545379e8e44c3848a386a08bb9ae05a00352e885eae559e89debefd344"
+    },
+    {
+      "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/R2_STATE/scored/notice__A1_SEED_FRAGILE.json",
+      "role": "score_output",
+      "sha256": "c714d9170ff8b40f0f95c51091ab5ba8e9843d0ec2071a95fd659300f0c80892"
+    },
+    {
+      "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/R2_STATE/scored/SCORE_REPORT.json",
+      "role": "score_output",
+      "sha256": "fe66c7599b6eec75307cdbc4a6cc465648865b037b4e17a55bb3276eca680ce9"
+    },
+    {
+      "path": "studies/confirmation/execution/host_state/features/notice_joint.parquet",
+      "role": "sealed_truth_panel_postscore",
+      "sha256": "02284c7eb5f4a6afc612d0b35ab6c093c40f5bd67d801e3da55320ed82da9cc3"
+    },
+    {
+      "path": "studies/confirmation/execution/host_state/sealed/notice__NP__s20260919__main.parquet",
+      "role": "sealed_prediction",
+      "sha256": "ec1be9f39ec947549f04a72c5cd5277d40cbfbb63584695c2371a640da781751"
+    },
+    {
+      "path": "studies/confirmation/execution/host_state/sealed/notice__L14__s20260919__main.parquet",
+      "role": "sealed_prediction",
+      "sha256": "072e4ce46e9515c9f3bd658f22a6843ef0e4e3a344849b137d0f2a63dbf57d5c"
+    },
+    {
+      "path": "studies/confirmation/execution/host_state/sealed/notice__L14__s20260920__main.parquet",
+      "role": "sealed_prediction",
+      "sha256": "27abc057eee66ea0cc6f7aa876e93a8aeffd96caffe78a0193c12e3dec98c0d9"
+    },
+    {
+      "path": "studies/confirmation/execution/host_state/sealed/notice__L14__s20260921__main.parquet",
+      "role": "sealed_prediction",
+      "sha256": "b1f6ee171bcd098ee7911e1baf24bd8ced5975a722854d2b97ccf1491b72ab33"
+    },
+    {
+      "path": "studies/confirmation/execution/host_state/sealed/notice__M_notice__s20260919__main.parquet",
+      "role": "sealed_prediction",
+      "sha256": "5be1b891b075fa06e76a67719b32cc3ca201ba2a7896a1ae12d4e83139e250dc"
+    },
+    {
+      "path": "studies/confirmation/execution/host_state/sealed/notice__M_notice__s20260920__main.parquet",
+      "role": "sealed_prediction",
+      "sha256": "062f9a6ca53cb381855f39dad79d4f615b33ef6bb037944b297eeaaa88aceace"
+    },
+    {
+      "path": "studies/confirmation/execution/host_state/sealed/notice__M_notice__s20260921__main.parquet",
+      "role": "sealed_prediction",
+      "sha256": "2ae1791ee4cde377b55ba5285e1b19567fbc62d145e532cde2405dbfcfcebde2"
+    },
+    {
+      "path": "studies/confirmation/execution/host_state/sealed/notice__L_Laz__s20260919__main.parquet",
+      "role": "sealed_prediction",
+      "sha256": "a7209c40873fd074823983b4fd502d937f647d8bab17b1c828f37c8f15d9f0dd"
+    },
+    {
+      "path": "studies/confirmation/execution/host_state/sealed/notice__L_Laz__s20260920__main.parquet",
+      "role": "sealed_prediction",
+      "sha256": "e3e224db925797c7841f079b7abd8d4f6dfd27281993b3434a9cca65d23a8c8b"
+    },
+    {
+      "path": "studies/confirmation/execution/host_state/sealed/notice__L_Laz__s20260921__main.parquet",
+      "role": "sealed_prediction",
+      "sha256": "aad9ded536f89e816fddb75fd58f7ece01eeefadb0d55ddf042a2b8892c66fca"
+    },
+    {
+      "path": "studies/confirmation/execution/host_state/sealed/notice__L_chen_notice__s20260919__main.parquet",
+      "role": "sealed_prediction",
+      "sha256": "bd7f741e7f0683032755e78ca817e9f0a6de9c1fd76a41fb4c3882c60e52b02d"
+    },
+    {
+      "path": "studies/confirmation/execution/host_state/sealed/notice__L_chen_notice__s20260920__main.parquet",
+      "role": "sealed_prediction",
+      "sha256": "1634666ef847ed975c86cf5af53f5a715cb57c42144e3826230b5a46fd63e944"
+    },
+    {
+      "path": "studies/confirmation/execution/host_state/sealed/notice__L_chen_notice__s20260921__main.parquet",
+      "role": "sealed_prediction",
+      "sha256": "7514861d79b1d7fa4bcc8214278220a1382492c2a4c8de0b7ca80d62e561265e"
+    },
+    {
+      "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/R2_STATE/scored/notice__DAILY_LOSSES.csv",
+      "role": "score_output",
+      "sha256": "c00066a78d6b79fc2148c26f388530976ad51b49bec2315052e172a40f410021"
+    },
+    {
+      "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/R2_STATE/scored/news__DAILY_LOSSES.csv",
+      "role": "score_output",
+      "sha256": "74887745de654c1df5c77470ca86822ad4e8671a7059c7081497a00ac6bc8007"
+    },
+    {
+      "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/R2_STATE/scored/news__A1_SEED_FRAGILE.json",
+      "role": "score_output",
+      "sha256": "55eb24ad51225cacbc287d26e5e4a22c518c0d006230cb60f1505826371411d2"
+    },
+    {
+      "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/R2_STATE/scored/SCORE_REPORT.json",
+      "role": "score_output",
+      "sha256": "fe66c7599b6eec75307cdbc4a6cc465648865b037b4e17a55bb3276eca680ce9"
+    },
+    {
+      "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/R2_STATE/scored/news__SECONDARY__L_count__N.json",
+      "role": "score_output",
+      "sha256": "7df726979ba60c4118e4607f24695320035feb2ee91db4f26abf73d49bef6c0c"
+    },
+    {
+      "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/R2_STATE/scored/news__SECONDARY__L_chen__N.json",
+      "role": "score_output",
+      "sha256": "1eaa6645fe2c6f9cfdb28d404ea4b5ae9e7cf405e4a8b0451d43c1b7b61bae33"
+    },
+    {
+      "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/R2_STATE/scored/news__SECONDARY__M__N.json",
+      "role": "score_output",
+      "sha256": "83de16a6c3a0dbd7a59ab45fdb75a1c3676870cf2662a5dc5278121167393920"
+    },
+    {
+      "path": "studies/confirmation/execution/host_state/features/news_P_content_matched.npy",
+      "role": "matched_mask",
+      "sha256": "16c1fd1c887bcdbee5b2d494f40d9276859ebad61ebdb492fc06315eb41da70c"
+    },
+    {
+      "path": "studies/confirmation/execution/host_state/features/news_keys_labels.parquet",
+      "role": "sealed_truth_panel_postscore",
+      "sha256": "821f6db161fd012b18dee28e83f5518d7841e74461431633ebd6eaa0292ae68f"
+    },
+    {
+      "path": "studies/confirmation/execution/host_state/sealed/lear__LEAR__s20260919__main.parquet",
+      "role": "r2_full_original_prediction",
+      "sha256": "2452a0703fe95fdf97653bd17db69ce0c8b4f593caa5bd924066c4837364cc9d"
+    },
+    {
+      "path": "studies/confirmation/execution/host_state/sealed/news__L_chen__s20260919__main.parquet",
+      "role": "r2_full_original_prediction",
+      "sha256": "6cb756c532eb5914578250cf1de290f464d3932d4031aec9a94db6e5dc9be15a"
+    },
+    {
+      "path": "studies/confirmation/execution/host_state/sealed/news__L_count__s20260919__main.parquet",
+      "role": "r2_full_original_prediction",
+      "sha256": "c73e4a16b16263f14f9e1984723b3c14fe6c55276d0fddbfbfb1cac094ad7ba4"
+    },
+    {
+      "path": "studies/confirmation/execution/host_state/sealed/news__M__s20260919__main.parquet",
+      "role": "r2_full_original_prediction",
+      "sha256": "5f8308db9aba07636b7d34dde2ed1bb858fe15d9c8d35b337402c73b0d245f09"
+    },
+    {
+      "path": "studies/confirmation/execution/host_state/sealed/news__N__s20260919__main.parquet",
+      "role": "r2_full_original_prediction",
+      "sha256": "f7b9d5072335564e3748ab72cd41b910cd7c5a6b803ae28a0bba7dbc5db8d8e7"
+    },
+    {
+      "path": "studies/confirmation/execution/host_state/features/news_keys_labels.parquet",
+      "role": "sealed_truth_panel_postscore",
+      "sha256": "821f6db161fd012b18dee28e83f5518d7841e74461431633ebd6eaa0292ae68f"
+    },
+    {
+      "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/R2_STATE/scored/notice__DAILY_LOSSES.csv",
+      "role": "score_output",
+      "sha256": "c00066a78d6b79fc2148c26f388530976ad51b49bec2315052e172a40f410021"
+    },
+    {
+      "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/R2_STATE/scored/notice__A1_SEED_FRAGILE.json",
+      "role": "score_output",
+      "sha256": "c714d9170ff8b40f0f95c51091ab5ba8e9843d0ec2071a95fd659300f0c80892"
+    },
+    {
+      "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/R2_STATE/scored/SCORE_REPORT.json",
+      "role": "score_output",
+      "sha256": "fe66c7599b6eec75307cdbc4a6cc465648865b037b4e17a55bb3276eca680ce9"
+    },
+    {
+      "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/R2_STATE/scored/notice__first_L.json",
+      "role": "score_output",
+      "sha256": "3286ad7650d469e896522a78c9b113cc24636c336d8b4371c0a806516dfaece1"
+    },
+    {
+      "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/R2_STATE/scored/notice__A1_OFFICIAL_CAP_RECLIP_PRIMARY.json",
+      "role": "score_output",
+      "sha256": "c7a63742f0b04f8f2fa08eedc148a675a148d6eed91ccf5c0531602ab5786596"
+    },
+    {
+      "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/R2_STATE/scored/notice__DROP_FIRST_SEVEN_DAYS.json",
+      "role": "score_output",
+      "sha256": "0770a43b50744c847d022c6bc95f32c155771a649a7dce9aa82b6454a1c07b1a"
+    }
+  ],
+  "module_sha256": "1d9fe228ac36d118d22defe54e0461b15c3f2924709cdac7c2b18242f843318c",
+  "optional_inputs": {
+    "a2batch": null,
+    "a2label": null,
+    "positive_control": null
+  },
+  "output": {
+    "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/sensitivity_tests/SENSITIVITY_COMPARISONS.json",
+    "sha256": "23e3b3efbf53d218887899321feb1c877a279cf37d1ebc8906a2c762451cdf3e"
+  },
+  "seal_sha256": "abdf291c73c68ff224dc5c070cd986baa686518b506bbf03d1657aa29ce75110",
+  "state": "A3_POSTSCORE_COMPLETE"
+}

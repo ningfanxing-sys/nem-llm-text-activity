@@ -1,0 +1,26 @@
+{
+  "spec_sha256": "c64ef2d3c49fb33a1702461881826c38f1316ac89cc2862e200cae4980adfa80",
+  "code": {
+    "studies/confirmation/notice_parsing/code/make_replicas.py": "15381d8284d092f184e979357530ec4b5a0b796bec67344b36457bf8a20a205b",
+    "studies/confirmation/notice_parsing/code/census.py": "02b43ddc121607c0fae6de371d77f9dc49e4250eda9ad7210779eb0ca6a6279c",
+    "studies/confirmation/notice_parsing/code/run_tests.py": "027d9c7c66b40e20b01c4ccdd6c8c19a1d25e93c5079376c6b0c89fa66424318",
+    "studies/confirmation/notice_parsing/code/prepare_staging.py": "16287a3629cbacea45a5b44dde3be8bc631b68083768d869dbcfb63bba4908e7",
+    "studies/confirmation/notice_parsing/code/resource_guard.py": "55a6ae5caaed94474878095475088698579ee97f9914de05abd3ff5bcc6bc7ac",
+    "studies/confirmation/notice_parsing/code/test_bootstrap.py": "f5dc3587211cfad32f48413fdc101bd4c1a2e4df1e5ff09c6d83814b8df05875",
+    "studies/confirmation/notice_parsing/code/write_review_patches.py": "ed03148a132bc567e0d890e60d92bec5c4165b362e05019b3763041062d5d355",
+    "studies/confirmation/notice_parsing/code/finalize_package.py": "b3c45ca9f07272dd3c1ca532bb10c2eea010dd566fc8d31026b3f1f89fe7814a",
+    "studies/confirmation/notice_parsing/staging/execution/notice_rebuild_reuse.py": "e720190556393325ae50f9db02943db6b21171728fec39bb9ccf07f935d18d9d",
+    "studies/confirmation/notice_parsing/staging/execution/notice_source_corrections.py": "46feb5ff4624339d8ea63e947e3f856f93dedc0a5efabcbf8f1612f15b29b9b6",
+    "studies/confirmation/notice_parsing/staging/execution/nw_notices_spec_9.py": "44884f8b0675a67d9694a3c57c3fe30498c0dc32c97cb0d9d63b8d88a25683f5",
+    "studies/confirmation/notice_parsing/staging/execution/notice_label_adapter.py": "3d6266fce275efc1bd8d077edf813996dd901f6c2ab5167e6878714ab881b67a",
+    "studies/confirmation/notice_parsing/staging/execution/notice_validator_spec_9.py": "5a0493532107e9301c685a2fe7a164113782a6ab09a38d234aa3bb3044d53451",
+    "studies/confirmation/notice_parsing/staging/execution/execution_adapter.py": "640979a9262fbe0ca7cfcfe542f479284ed3a253bdf6368b954b2bd3d97dfa12",
+    "studies/confirmation/notice_parsing/staging/execution/runtime.py": "371be00620c9730bfcff0c3101cd82ad301722cc5ec7235cbe63c01f64dfded4",
+    "studies/confirmation/notice_parsing/staging/execution/features_adapter.py": "6de2cba56e564d164043ab4d3eb6edbbd3cbd0b439a19bca44f3456fa07bb447"
+  },
+  "inputs": {
+    "studies/notice_extraction/scope.jsonl": "e70c0f5f331a8be677930b439fa7da6a696e501e2a7d3553ad56bcf185b81e9f",
+    "studies/notice_extraction/results_1_3/labels.parquet": "e5922808536f8f1c3fe7471f82d79c4740c469d73240873002adca47043aa8ab"
+  },
+  "time_utc": "2026-10-04T01:15:33.939370+00:00"
+}

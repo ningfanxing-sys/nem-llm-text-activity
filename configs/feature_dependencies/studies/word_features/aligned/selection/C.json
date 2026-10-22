@@ -1,0 +1,1623 @@
+{
+  "candidates_by_field": {
+    "body": 23,
+    "title": 91
+  },
+  "entries": [
+    {
+      "adf": {
+        "adf_p": 0.003970019856462049,
+        "differenced": false,
+        "reason": null
+      },
+      "corpus_occurrences": 1279,
+      "field": "title",
+      "p_price_to_word": 0.4610754215961425,
+      "p_word_to_price": 0.5368997912970195,
+      "selected": false,
+      "threshold": 200,
+      "word": "132kv"
+    },
+    {
+      "adf": {
+        "adf_p": 0.44802341755318764,
+        "differenced": true,
+        "reason": null
+      },
+      "corpus_occurrences": 697,
+      "field": "title",
+      "p_price_to_word": 0.7799751504183038,
+      "p_word_to_price": 0.9999153918258394,
+      "selected": false,
+      "threshold": 200,
+      "word": "330kv"
+    },
+    {
+      "adf": {
+        "adf_p": 3.896714074483761e-06,
+        "differenced": false,
+        "reason": null
+      },
+      "corpus_occurrences": 1251,
+      "field": "title",
+      "p_price_to_word": 0.27873185641429055,
+      "p_word_to_price": 0.9986355446512686,
+      "selected": false,
+      "threshold": 200,
+      "word": "500kv"
+    },
+    {
+      "adf": {
+        "adf_p": 7.515200615694567e-05,
+        "differenced": false,
+        "reason": null
+      },
+      "corpus_occurrences": 479,
+      "field": "title",
+      "p_price_to_word": 0.5364468574114654,
+      "p_word_to_price": 0.9879693333349753,
+      "selected": false,
+      "threshold": 200,
+      "word": "5a3"
+    },
+    {
+      "adf": {
+        "adf_p": 7.515200615694567e-05,
+        "differenced": false,
+        "reason": null
+      },
+      "corpus_occurrences": 479,
+      "field": "title",
+      "p_price_to_word": 0.5364468574114654,
+      "p_word_to_price": 0.9879693333349753,
+      "selected": false,
+      "threshold": 200,
+      "word": "5a5"
+    },
+    {
+      "adf": {
+        "adf_p": 1.5521559317317842e-06,
+        "differenced": false,
+        "reason": null
+      },
+      "corpus_occurrences": 442,
+      "field": "title",
+      "p_price_to_word": 0.03897377764514831,
+      "p_word_to_price": 0.6443098471983523,
+      "selected": false,
+      "threshold": 200,
+      "word": "actual"
+    },
+    {
+      "adf": {
+        "adf_p": 0.415622080775106,
+        "differenced": true,
+        "reason": null
+      },
+      "corpus_occurrences": 709,
+      "field": "title",
+      "p_price_to_word": 0.8110398596593876,
+      "p_word_to_price": 0.9999806296750544,
+      "selected": false,
+      "threshold": 200,
+      "word": "armidale"
+    },
+    {
+      "adf": {
+        "adf_p": 0.012940454645572363,
+        "differenced": false,
+        "reason": null
+      },
+      "corpus_occurrences": 622,
+      "field": "title",
+      "p_price_to_word": 0.5242336796204357,
+      "p_word_to_price": 0.11866658330624037,
+      "selected": false,
+      "threshold": 200,
+      "word": "australia"
+    },
+    {
+      "adf": {
+        "adf_p": 0.6943755639686643,
+        "differenced": true,
+        "reason": null
+      },
+      "corpus_occurrences": 289,
+      "field": "title",
+      "p_price_to_word": 0.060868655219557755,
+      "p_word_to_price": 0.9797381307085327,
+      "selected": false,
+      "threshold": 200,
+      "word": "bannaby"
+    },
+    {
+      "adf": {
+        "adf_p": 1.467795580844075e-10,
+        "differenced": false,
+        "reason": null
+      },
+      "corpus_occurrences": 480,
+      "field": "title",
+      "p_price_to_word": 0.5502140238646106,
+      "p_word_to_price": 0.9888645149492513,
+      "selected": false,
+      "threshold": 200,
+      "word": "bayswater"
+    },
+    {
+      "adf": {
+        "adf_p": 5.185736768734965e-29,
+        "differenced": false,
+        "reason": null
+      },
+      "corpus_occurrences": 900,
+      "field": "title",
+      "p_price_to_word": 0.26055278834878426,
+      "p_word_to_price": 0.061627698755480624,
+      "selected": false,
+      "threshold": 200,
+      "word": "beauty"
+    },
+    {
+      "adf": {
+        "adf_p": 3.419748536316306e-12,
+        "differenced": false,
+        "reason": null
+      },
+      "corpus_occurrences": 478,
+      "field": "title",
+      "p_price_to_word": 0.019092450445788934,
+      "p_word_to_price": 0.6754503875238071,
+      "selected": false,
+      "threshold": 200,
+      "word": "beginning"
+    },
+    {
+      "adf": {
+        "adf_p": 1.9209008720152264e-10,
+        "differenced": false,
+        "reason": null
+      },
+      "corpus_occurrences": 3288,
+      "field": "title",
+      "p_price_to_word": 0.015462565412988252,
+      "p_word_to_price": 0.22765456935141695,
+      "selected": false,
+      "threshold": 200,
+      "word": "cancellation"
+    },
+    {
+      "adf": {
+        "adf_p": 5.757394702604373e-07,
+        "differenced": false,
+        "reason": null
+      },
+      "corpus_occurrences": 352,
+      "field": "title",
+      "p_price_to_word": 0.4090840239293379,
+      "p_word_to_price": 0.8031510487974404,
+      "selected": false,
+      "threshold": 200,
+      "word": "ceased"
+    },
+    {
+      "adf": {
+        "adf_p": 1.7410999602203317e-08,
+        "differenced": false,
+        "reason": null
+      },
+      "corpus_occurrences": 284,
+      "field": "title",
+      "p_price_to_word": 0.14430384034815855,
+      "p_word_to_price": 0.2966111595373186,
+      "selected": false,
+      "threshold": 200,
+      "word": "central"
+    },
+    {
+      "adf": {
+        "adf_p": 0.016652906147148667,
+        "differenced": false,
+        "reason": null
+      },
+      "corpus_occurrences": 1078,
+      "field": "title",
+      "p_price_to_word": 0.9645691757868705,
+      "p_word_to_price": 0.8908923643189028,
+      "selected": false,
+      "threshold": 200,
+      "word": "chalumbin"
+    },
+    {
+      "adf": {
+        "adf_p": 2.675608385838934e-06,
+        "differenced": false,
+        "reason": null
+      },
+      "corpus_occurrences": 470,
+      "field": "title",
+      "p_price_to_word": 0.36773000124088945,
+      "p_word_to_price": 0.5278770689699184,
+      "selected": false,
+      "threshold": 200,
+      "word": "chinchilla"
+    },
+    {
+      "adf": {
+        "adf_p": 8.669858892067917e-06,
+        "differenced": false,
+        "reason": null
+      },
+      "corpus_occurrences": 1224,
+      "field": "title",
+      "p_price_to_word": 0.9478393350264533,
+      "p_word_to_price": 0.8159268995270732,
+      "selected": false,
+      "threshold": 200,
+      "word": "collinsville"
+    },
+    {
+      "adf": {
+        "adf_p": 1.741099960220274e-08,
+        "differenced": false,
+        "reason": null
+      },
+      "corpus_occurrences": 568,
+      "field": "title",
+      "p_price_to_word": 0.14430384034815855,
+      "p_word_to_price": 0.2966111595373183,
+      "selected": false,
+      "threshold": 200,
+      "word": "condabri"
+    },
+    {
+      "adf": {
+        "adf_p": 0.007804258229310674,
+        "differenced": false,
+        "reason": null
+      },
+      "corpus_occurrences": 227,
+      "field": "title",
+      "p_price_to_word": 0.21599514800482367,
+      "p_word_to_price": 0.23616770387837074,
+      "selected": false,
+      "threshold": 200,
+      "word": "condition"
+    },
+    {
+      "adf": {
+        "adf_p": 1.3747437774638616e-29,
+        "differenced": false,
+        "reason": null
+      },
+      "corpus_occurrences": 518,
+      "field": "title",
+      "p_price_to_word": 0.05854022106676962,
+      "p_word_to_price": 0.28438917465007957,
+      "selected": false,
+      "threshold": 200,
+      "word": "conformance"
+    },
+    {
+      "adf": {
+        "adf_p": 7.286749215659892e-07,
+        "differenced": false,
+        "reason": null
+      },
+      "corpus_occurrences": 744,
+      "field": "title",
+      "p_price_to_word": 0.3148997373878521,
+      "p_word_to_price": 0.8568616316716502,
+      "selected": false,
+      "threshold": 200,
+      "word": "constraint"
+    },
+    {
+      "adf": {
+        "adf_p": 0.00013057133581963936,
+        "differenced": false,
+        "reason": null
+      },
+      "corpus_occurrences": 4257,
+      "field": "title",
+      "p_price_to_word": 0.11417793749894571,
+      "p_word_to_price": 0.7034469310601159,
+      "selected": false,
+      "threshold": 200,
+      "word": "contingency"
+    },
+    {
+      "adf": {
+        "adf_p": 0.00012735346459446685,
+        "differenced": false,
+        "reason": null
+      },
+      "corpus_occurrences": 4237,
+      "field": "title",
+      "p_price_to_word": 0.10450993833925176,
+      "p_word_to_price": 0.6848062297088922,
+      "selected": false,
+      "threshold": 200,
+      "word": "credible"
+    },
+    {
+      "adf": {
+        "adf_p": 7.774853375077027e-05,
+        "differenced": false,
+        "reason": null
+      },
+      "corpus_occurrences": 368,
+      "field": "title",
+      "p_price_to_word": 0.6758644816157389,
+      "p_word_to_price": 0.435571566775353,
+      "selected": false,
+      "threshold": 200,
+      "word": "creek"
+    },
+    {
+      "adf": {
+        "adf_p": 0.00012537670966437356,
+        "differenced": false,
+        "reason": null
+      },
+      "corpus_occurrences": 3971,
+      "field": "title",
+      "p_price_to_word": 0.12563366146765978,
+      "p_word_to_price": 0.7755181892598005,
+      "selected": false,
+      "threshold": 200,
+      "word": "due"
+    },
+    {
+      "adf": {
+        "adf_p": 0.4272964642724141,
+        "differenced": true,
+        "reason": null
+      },
+      "corpus_occurrences": 348,
+      "field": "title",
+      "p_price_to_word": 0.7379572195981595,
+      "p_word_to_price": 0.9998944070976934,
+      "selected": false,
+      "threshold": 200,
+      "word": "dumaresq"
+    },
+    {
+      "adf": {
+        "adf_p": 4.731854639422938e-16,
+        "differenced": false,
+        "reason": null
+      },
+      "corpus_occurrences": 304,
+      "field": "title",
+      "p_price_to_word": 0.6309342619576497,
+      "p_word_to_price": 0.8733859466989957,
+      "selected": false,
+      "threshold": 200,
+      "word": "dunoon"
+    },
+    {
+      "adf": {
+        "adf_p": 5.2614301394354e-29,
+        "differenced": false,
+        "reason": null
+      },
+      "corpus_occurrences": 899,
+      "field": "title",
+      "p_price_to_word": 0.2658878375818288,
+      "p_word_to_price": 0.061768742134039684,
+      "selected": false,
+      "threshold": 200,
+      "word": "eildon"
+    },
+    {
+      "adf": {
+        "adf_p": 0.0001053572776761271,
+        "differenced": false,
+        "reason": null
+      },
+      "corpus_occurrences": 4271,
+      "field": "title",
+      "p_price_to_word": 0.1202622420073437,
+      "p_word_to_price": 0.7415797549429832,
+      "selected": false,
+      "threshold": 200,
+      "word": "event"
+    },
+    {
+      "adf": {
+        "adf_p": 5.7267462012639585e-08,
+        "differenced": false,
+        "reason": null
+      },
+      "corpus_occurrences": 808,
+      "field": "title",
+      "p_price_to_word": 0.13434256004830256,
+      "p_word_to_price": 0.9094981212825339,
+      "selected": false,
+      "threshold": 200,
+      "word": "eventid"
+    },
+    {
+      "adf": {
+        "adf_p": 5.05604307577215e-05,
+        "differenced": false,
+        "reason": null
+      },
+      "corpus_occurrences": 565,
+      "field": "title",
+      "p_price_to_word": 0.6873909026084053,
+      "p_word_to_price": 0.2875113645474628,
+      "selected": false,
+      "threshold": 200,
+      "word": "farrell"
+    },
+    {
+      "adf": {
+        "adf_p": 0.0002953515383247912,
+        "differenced": false,
+        "reason": null
+      },
+      "corpus_occurrences": 3468,
+      "field": "title",
+      "p_price_to_word": 0.08755579761205523,
+      "p_word_to_price": 0.06197222819809779,
+      "selected": false,
+      "threshold": 200,
+      "word": "forecast"
+    },
+    {
+      "adf": {
+        "adf_p": 0.0,
+        "differenced": false,
+        "reason": null
+      },
+      "corpus_occurrences": 296,
+      "field": "title",
+      "p_price_to_word": 0.9932268052246355,
+      "p_word_to_price": 0.689026467941146,
+      "selected": false,
+      "threshold": 200,
+      "word": "inter"
+    },
+    {
+      "adf": {
+        "adf_p": 0.001992709699050384,
+        "differenced": false,
+        "reason": null
+      },
+      "corpus_occurrences": 757,
+      "field": "title",
+      "p_price_to_word": 0.6031964988391398,
+      "p_word_to_price": 0.3034778315013802,
+      "selected": false,
+      "threshold": 200,
+      "word": "intervention"
+    },
+    {
+      "adf": {
+        "adf_p": 0.0001700906649222228,
+        "differenced": false,
+        "reason": null
+      },
+      "corpus_occurrences": 3719,
+      "field": "title",
+      "p_price_to_word": 0.11819407445690287,
+      "p_word_to_price": 0.038045319178885394,
+      "selected": true,
+      "threshold": 200,
+      "word": "lack"
+    },
+    {
+      "adf": {
+        "adf_p": 0.00034188259942288937,
+        "differenced": false,
+        "reason": null
+      },
+      "corpus_occurrences": 3725,
+      "field": "title",
+      "p_price_to_word": 0.11723435270328642,
+      "p_word_to_price": 0.037790010794329136,
+      "selected": true,
+      "threshold": 200,
+      "word": "level"
+    },
+    {
+      "adf": {
+        "adf_p": 0.00014009706432910343,
+        "differenced": false,
+        "reason": null
+      },
+      "corpus_occurrences": 3729,
+      "field": "title",
+      "p_price_to_word": 0.18189439619229758,
+      "p_word_to_price": 0.6739220758215281,
+      "selected": false,
+      "threshold": 200,
+      "word": "lightning"
+    },
+    {
+      "adf": {
+        "adf_p": 0.0,
+        "differenced": false,
+        "reason": null
+      },
+      "corpus_occurrences": 306,
+      "field": "title",
+      "p_price_to_word": 0.9832431013349223,
+      "p_word_to_price": 0.7358968155666256,
+      "selected": false,
+      "threshold": 200,
+      "word": "limit"
+    },
+    {
+      "adf": {
+        "adf_p": 0.00010443916457508148,
+        "differenced": false,
+        "reason": null
+      },
+      "corpus_occurrences": 8110,
+      "field": "title",
+      "p_price_to_word": 0.17223947483515895,
+      "p_word_to_price": 0.6491109369244511,
+      "selected": false,
+      "threshold": 200,
+      "word": "line"
+    },
+    {
+      "adf": {
+        "adf_p": 0.0,
+        "differenced": false,
+        "reason": null
+      },
+      "corpus_occurrences": 340,
+      "field": "title",
+      "p_price_to_word": 0.03154537563028294,
+      "p_word_to_price": 0.7409616953999969,
+      "selected": false,
+      "threshold": 200,
+      "word": "lines"
+    },
+    {
+      "adf": {
+        "adf_p": 4.334190606767942e-16,
+        "differenced": false,
+        "reason": null
+      },
+      "corpus_occurrences": 310,
+      "field": "title",
+      "p_price_to_word": 0.6125930209841355,
+      "p_word_to_price": 0.8267148350401536,
+      "selected": false,
+      "threshold": 200,
+      "word": "lismore"
+    },
+    {
+      "adf": {
+        "adf_p": 0.018678068016249726,
+        "differenced": false,
+        "reason": null
+      },
+      "corpus_occurrences": 2097,
+      "field": "title",
+      "p_price_to_word": 0.058991448319130564,
+      "p_word_to_price": 0.01580924285750672,
+      "selected": true,
+      "threshold": 200,
+      "word": "lor1"
+    },
+    {
+      "adf": {
+        "adf_p": 0.003074629051099394,
+        "differenced": false,
+        "reason": null
+      },
+      "corpus_occurrences": 1604,
+      "field": "title",
+      "p_price_to_word": 0.07683334863972653,
+      "p_word_to_price": 0.05035233574208425,
+      "selected": false,
+      "threshold": 200,
+      "word": "lor2"
+    },
+    {
+      "adf": {
+        "adf_p": 3.238384064638663e-08,
+        "differenced": false,
+        "reason": null
+      },
+      "corpus_occurrences": 223,
+      "field": "title",
+      "p_price_to_word": 9.820883265512578e-05,
+      "p_word_to_price": 0.8933589617584081,
+      "selected": false,
+      "threshold": 200,
+      "word": "lor3"
+    },
+    {
+      "adf": {
+        "adf_p": 0.002888137679791392,
+        "differenced": false,
+        "reason": null
+      },
+      "corpus_occurrences": 772,
+      "field": "title",
+      "p_price_to_word": 0.4108133927383293,
+      "p_word_to_price": 0.46122264278140074,
+      "selected": false,
+      "threshold": 200,
+      "word": "manage"
+    },
+    {
+      "adf": {
+        "adf_p": 5.687325879593054e-07,
+        "differenced": false,
+        "reason": null
+      },
+      "corpus_occurrences": 703,
+      "field": "title",
+      "p_price_to_word": 0.43220138559228044,
+      "p_word_to_price": 0.7845738431422647,
+      "selected": false,
+      "threshold": 200,
+      "word": "negres"
+    },
+    {
+      "adf": {
+        "adf_p": 0.0008250025551381914,
+        "differenced": false,
+        "reason": null
+      },
+      "corpus_occurrences": 268,
+      "field": "title",
+      "p_price_to_word": 0.7576130865576632,
+      "p_word_to_price": 0.7523823783999886,
+      "selected": false,
+      "threshold": 200,
+      "word": "newlands"
+    },
+    {
+      "adf": {
+        "adf_p": 5.1256681517780644e-05,
+        "differenced": false,
+        "reason": null
+      },
+      "corpus_occurrences": 4747,
+      "field": "title",
+      "p_price_to_word": 0.14586459439662147,
+      "p_word_to_price": 0.8294467097821685,
+      "selected": false,
+      "threshold": 200,
+      "word": "non"
+    },
+    {
+      "adf": {
+        "adf_p": 7.134044771809506e-11,
+        "differenced": false,
+        "reason": null
+      },
+      "corpus_occurrences": 625,
+      "field": "title",
+      "p_price_to_word": 0.964608391133545,
+      "p_word_to_price": 0.9845308245796982,
+      "selected": false,
+      "threshold": 200,
+      "word": "north"
+    },
+    {
+      "adf": {
+        "adf_p": 1.5483988171697347e-06,
+        "differenced": false,
+        "reason": null
+      },
+      "corpus_occurrences": 301,
+      "field": "title",
+      "p_price_to_word": 0.9989525752629007,
+      "p_word_to_price": 0.9875215351789711,
+      "selected": false,
+      "threshold": 200,
+      "word": "november"
+    },
+    {
+      "adf": {
+        "adf_p": 5.687325879593368e-07,
+        "differenced": false,
+        "reason": null
+      },
+      "corpus_occurrences": 1406,
+      "field": "title",
+      "p_price_to_word": 0.43220138559228044,
+      "p_word_to_price": 0.7845738431422576,
+      "selected": false,
+      "threshold": 200,
+      "word": "nrm"
+    },
+    {
+      "adf": {
+        "adf_p": 0.0007253353508240173,
+        "differenced": false,
+        "reason": null
+      },
+      "corpus_occurrences": 1289,
+      "field": "title",
+      "p_price_to_word": 0.6378853206746015,
+      "p_word_to_price": 0.3150798923721538,
+      "selected": false,
+      "threshold": 200,
+      "word": "nsw"
+    },
+    {
+      "adf": {
+        "adf_p": 6.76165594705778e-05,
+        "differenced": false,
+        "reason": null
+      },
+      "corpus_occurrences": 2617,
+      "field": "title",
+      "p_price_to_word": 0.570359667743987,
+      "p_word_to_price": 0.9969047977473591,
+      "selected": false,
+      "threshold": 200,
+      "word": "nsw1"
+    },
+    {
+      "adf": {
+        "adf_p": 0.00030040786754507575,
+        "differenced": false,
+        "reason": null
+      },
+      "corpus_occurrences": 366,
+      "field": "title",
+      "p_price_to_word": 0.16113833122314716,
+      "p_word_to_price": 0.2880514770027284,
+      "selected": false,
+      "threshold": 200,
+      "word": "nth"
+    },
+    {
+      "adf": {
+        "adf_p": 5.687325879593054e-07,
+        "differenced": false,
+        "reason": null
+      },
+      "corpus_occurrences": 703,
+      "field": "title",
+      "p_price_to_word": 0.43220138559228044,
+      "p_word_to_price": 0.7845738431422647,
+      "selected": false,
+      "threshold": 200,
+      "word": "operating"
+    },
+    {
+      "adf": {
+        "adf_p": 1.9247860833560797e-07,
+        "differenced": false,
+        "reason": null
+      },
+      "corpus_occurrences": 1665,
+      "field": "title",
+      "p_price_to_word": 0.0974376777515169,
+      "p_word_to_price": 0.12795984129122012,
+      "selected": false,
+      "threshold": 200,
+      "word": "pdpasa"
+    },
+    {
+      "adf": {
+        "adf_p": 1.2935970750651e-08,
+        "differenced": false,
+        "reason": null
+      },
+      "corpus_occurrences": 1246,
+      "field": "title",
+      "p_price_to_word": 0.2655133806279286,
+      "p_word_to_price": 0.9990315788559679,
+      "selected": false,
+      "threshold": 200,
+      "word": "piper"
+    },
+    {
+      "adf": {
+        "adf_p": 0.003567920876260531,
+        "differenced": false,
+        "reason": null
+      },
+      "corpus_occurrences": 732,
+      "field": "title",
+      "p_price_to_word": 0.5862658146915439,
+      "p_word_to_price": 0.33914402675870337,
+      "selected": false,
+      "threshold": 200,
+      "word": "possible"
+    },
+    {
+      "adf": {
+        "adf_p": 0.003440732635790866,
+        "differenced": false,
+        "reason": null
+      },
+      "corpus_occurrences": 799,
+      "field": "title",
+      "p_price_to_word": 0.529121194515783,
+      "p_word_to_price": 0.5284601625124701,
+      "selected": false,
+      "threshold": 200,
+      "word": "power"
+    },
+    {
+      "adf": {
+        "adf_p": 0.0,
+        "differenced": false,
+        "reason": null
+      },
+      "corpus_occurrences": 211,
+      "field": "title",
+      "p_price_to_word": 0.026747240696830227,
+      "p_word_to_price": 0.24156441906886317,
+      "selected": false,
+      "threshold": 200,
+      "word": "pre"
+    },
+    {
+      "adf": {
+        "adf_p": 1.1253325042849343e-05,
+        "differenced": false,
+        "reason": null
+      },
+      "corpus_occurrences": 518,
+      "field": "title",
+      "p_price_to_word": 0.1601650890975607,
+      "p_word_to_price": 0.3285492512415595,
+      "selected": false,
+      "threshold": 200,
+      "word": "production"
+    },
+    {
+      "adf": {
+        "adf_p": 3.8109507181558116e-11,
+        "differenced": false,
+        "reason": null
+      },
+      "corpus_occurrences": 604,
+      "field": "title",
+      "p_price_to_word": 0.9455785243625446,
+      "p_word_to_price": 0.9758291286555237,
+      "selected": false,
+      "threshold": 200,
+      "word": "proserpine"
+    },
+    {
+      "adf": {
+        "adf_p": 0.00912640001262334,
+        "differenced": false,
+        "reason": null
+      },
+      "corpus_occurrences": 1549,
+      "field": "title",
+      "p_price_to_word": 0.0018384884428571749,
+      "p_word_to_price": 0.028966064462419838,
+      "selected": false,
+      "threshold": 200,
+      "word": "qld"
+    },
+    {
+      "adf": {
+        "adf_p": 4.315999120689122e-12,
+        "differenced": false,
+        "reason": null
+      },
+      "corpus_occurrences": 2224,
+      "field": "title",
+      "p_price_to_word": 0.8407314690171779,
+      "p_word_to_price": 0.8843814559112102,
+      "selected": false,
+      "threshold": 200,
+      "word": "qld1"
+    },
+    {
+      "adf": {
+        "adf_p": 0.00017844368553242537,
+        "differenced": false,
+        "reason": null
+      },
+      "corpus_occurrences": 2159,
+      "field": "title",
+      "p_price_to_word": 0.09960874420882654,
+      "p_word_to_price": 0.8246823240506939,
+      "selected": false,
+      "threshold": 200,
+      "word": "reclassification"
+    },
+    {
+      "adf": {
+        "adf_p": 2.0058447149381297e-05,
+        "differenced": false,
+        "reason": null
+      },
+      "corpus_occurrences": 220,
+      "field": "title",
+      "p_price_to_word": 0.6644241113397444,
+      "p_word_to_price": 0.5975639857637043,
+      "selected": false,
+      "threshold": 200,
+      "word": "reece"
+    },
+    {
+      "adf": {
+        "adf_p": 5.5813943684498264e-05,
+        "differenced": false,
+        "reason": null
+      },
+      "corpus_occurrences": 5765,
+      "field": "title",
+      "p_price_to_word": 0.05956301644792459,
+      "p_word_to_price": 0.1789962020455312,
+      "selected": false,
+      "threshold": 200,
+      "word": "region"
+    },
+    {
+      "adf": {
+        "adf_p": 0.0,
+        "differenced": false,
+        "reason": null
+      },
+      "corpus_occurrences": 296,
+      "field": "title",
+      "p_price_to_word": 0.9932268052246355,
+      "p_word_to_price": 0.689026467941146,
+      "selected": false,
+      "threshold": 200,
+      "word": "regional"
+    },
+    {
+      "adf": {
+        "adf_p": 0.00016151107949256586,
+        "differenced": false,
+        "reason": null
+      },
+      "corpus_occurrences": 3849,
+      "field": "title",
+      "p_price_to_word": 0.09793265259305281,
+      "p_word_to_price": 0.02425806604452545,
+      "selected": true,
+      "threshold": 200,
+      "word": "reserve"
+    },
+    {
+      "adf": {
+        "adf_p": 0.024079946344003463,
+        "differenced": false,
+        "reason": null
+      },
+      "corpus_occurrences": 561,
+      "field": "title",
+      "p_price_to_word": 0.9668070367384287,
+      "p_word_to_price": 0.9957616639889587,
+      "selected": false,
+      "threshold": 200,
+      "word": "ross"
+    },
+    {
+      "adf": {
+        "adf_p": 0.41616919457446594,
+        "differenced": true,
+        "reason": null
+      },
+      "corpus_occurrences": 354,
+      "field": "title",
+      "p_price_to_word": 0.78606851895528,
+      "p_word_to_price": 0.9999897601104998,
+      "selected": false,
+      "threshold": 200,
+      "word": "sapphire"
+    },
+    {
+      "adf": {
+        "adf_p": 0.002289847093270972,
+        "differenced": false,
+        "reason": null
+      },
+      "corpus_occurrences": 775,
+      "field": "title",
+      "p_price_to_word": 0.3810721508907811,
+      "p_word_to_price": 0.466916310581613,
+      "selected": false,
+      "threshold": 200,
+      "word": "security"
+    },
+    {
+      "adf": {
+        "adf_p": 0.008471016928963475,
+        "differenced": false,
+        "reason": null
+      },
+      "corpus_occurrences": 782,
+      "field": "title",
+      "p_price_to_word": 0.9438230335742426,
+      "p_word_to_price": 0.6687749565187541,
+      "selected": false,
+      "threshold": 200,
+      "word": "south"
+    },
+    {
+      "adf": {
+        "adf_p": 6.063734465762112e-07,
+        "differenced": false,
+        "reason": null
+      },
+      "corpus_occurrences": 755,
+      "field": "title",
+      "p_price_to_word": 0.2101304541470796,
+      "p_word_to_price": 0.8807222876320228,
+      "selected": false,
+      "threshold": 200,
+      "word": "started"
+    },
+    {
+      "adf": {
+        "adf_p": 0.0008250025551381914,
+        "differenced": false,
+        "reason": null
+      },
+      "corpus_occurrences": 268,
+      "field": "title",
+      "p_price_to_word": 0.7576130865576632,
+      "p_word_to_price": 0.7523823783999886,
+      "selected": false,
+      "threshold": 200,
+      "word": "stoney"
+    },
+    {
+      "adf": {
+        "adf_p": 5.757394702604373e-07,
+        "differenced": false,
+        "reason": null
+      },
+      "corpus_occurrences": 352,
+      "field": "title",
+      "p_price_to_word": 0.4090840239293379,
+      "p_word_to_price": 0.8031510487974404,
+      "selected": false,
+      "threshold": 200,
+      "word": "stopped"
+    },
+    {
+      "adf": {
+        "adf_p": 0.010760678965823422,
+        "differenced": false,
+        "reason": null
+      },
+      "corpus_occurrences": 1807,
+      "field": "title",
+      "p_price_to_word": 0.13984803103524548,
+      "p_word_to_price": 0.0017619994169804569,
+      "selected": true,
+      "threshold": 200,
+      "word": "stpasa"
+    },
+    {
+      "adf": {
+        "adf_p": 0.00117416079279102,
+        "differenced": false,
+        "reason": null
+      },
+      "corpus_occurrences": 844,
+      "field": "title",
+      "p_price_to_word": 0.44459741577461637,
+      "p_word_to_price": 0.5559740881813757,
+      "selected": false,
+      "threshold": 200,
+      "word": "system"
+    },
+    {
+      "adf": {
+        "adf_p": 2.3021956507666307e-06,
+        "differenced": false,
+        "reason": null
+      },
+      "corpus_occurrences": 474,
+      "field": "title",
+      "p_price_to_word": 0.3672360985573877,
+      "p_word_to_price": 0.5502610890582352,
+      "selected": false,
+      "threshold": 200,
+      "word": "tarong"
+    },
+    {
+      "adf": {
+        "adf_p": 2.7898414513178386e-05,
+        "differenced": false,
+        "reason": null
+      },
+      "corpus_occurrences": 233,
+      "field": "title",
+      "p_price_to_word": 0.572268137200904,
+      "p_word_to_price": 0.1958337036512446,
+      "selected": false,
+      "threshold": 200,
+      "word": "tas"
+    },
+    {
+      "adf": {
+        "adf_p": 0.00021021029413603157,
+        "differenced": false,
+        "reason": null
+      },
+      "corpus_occurrences": 352,
+      "field": "title",
+      "p_price_to_word": 0.46503144285643494,
+      "p_word_to_price": 0.09102358872970812,
+      "selected": false,
+      "threshold": 200,
+      "word": "tas1"
+    },
+    {
+      "adf": {
+        "adf_p": 0.0,
+        "differenced": false,
+        "reason": null
+      },
+      "corpus_occurrences": 233,
+      "field": "title",
+      "p_price_to_word": 0.33672891429132523,
+      "p_word_to_price": 0.5547994771263951,
+      "selected": false,
+      "threshold": 200,
+      "word": "templers"
+    },
+    {
+      "adf": {
+        "adf_p": 0.0,
+        "differenced": false,
+        "reason": null
+      },
+      "corpus_occurrences": 305,
+      "field": "title",
+      "p_price_to_word": 0.9912751579351022,
+      "p_word_to_price": 0.725362169416454,
+      "selected": false,
+      "threshold": 200,
+      "word": "transfer"
+    },
+    {
+      "adf": {
+        "adf_p": 0.0005486797751724188,
+        "differenced": false,
+        "reason": null
+      },
+      "corpus_occurrences": 500,
+      "field": "title",
+      "p_price_to_word": 0.9922729242212895,
+      "p_word_to_price": 0.9756269406866898,
+      "selected": false,
+      "threshold": 200,
+      "word": "turkinje"
+    },
+    {
+      "adf": {
+        "adf_p": 8.732131954325488e-13,
+        "differenced": false,
+        "reason": null
+      },
+      "corpus_occurrences": 1808,
+      "field": "title",
+      "p_price_to_word": 5.110072453179648e-05,
+      "p_word_to_price": 0.3400114135545999,
+      "selected": false,
+      "threshold": 200,
+      "word": "update"
+    },
+    {
+      "adf": {
+        "adf_p": 0.0,
+        "differenced": false,
+        "reason": null
+      },
+      "corpus_occurrences": 298,
+      "field": "title",
+      "p_price_to_word": 0.9874131216500279,
+      "p_word_to_price": 0.655626233144455,
+      "selected": false,
+      "threshold": 200,
+      "word": "variation"
+    },
+    {
+      "adf": {
+        "adf_p": 2.7188361367362126e-06,
+        "differenced": false,
+        "reason": null
+      },
+      "corpus_occurrences": 371,
+      "field": "title",
+      "p_price_to_word": 0.021829871364408473,
+      "p_word_to_price": 0.6246193445936141,
+      "selected": false,
+      "threshold": 200,
+      "word": "vic"
+    },
+    {
+      "adf": {
+        "adf_p": 4.415761809971595e-05,
+        "differenced": false,
+        "reason": null
+      },
+      "corpus_occurrences": 1806,
+      "field": "title",
+      "p_price_to_word": 0.21731929039169776,
+      "p_word_to_price": 0.36377584670978813,
+      "selected": false,
+      "threshold": 200,
+      "word": "vic1"
+    },
+    {
+      "adf": {
+        "adf_p": 0.0,
+        "differenced": false,
+        "reason": null
+      },
+      "corpus_occurrences": 236,
+      "field": "title",
+      "p_price_to_word": 0.4490636348636311,
+      "p_word_to_price": 0.5350665007063204,
+      "selected": false,
+      "threshold": 200,
+      "word": "west"
+    },
+    {
+      "adf": {
+        "adf_p": 7.515200615694567e-05,
+        "differenced": false,
+        "reason": null
+      },
+      "corpus_occurrences": 479,
+      "field": "title",
+      "p_price_to_word": 0.5364468574114654,
+      "p_word_to_price": 0.9879693333349753,
+      "selected": false,
+      "threshold": 200,
+      "word": "wollar"
+    },
+    {
+      "adf": {
+        "adf_p": 2.5401683366096953e-06,
+        "differenced": false,
+        "reason": null
+      },
+      "corpus_occurrences": 34847,
+      "field": "body",
+      "p_price_to_word": 0.00841123943854868,
+      "p_word_to_price": 0.3059519995925414,
+      "selected": false,
+      "threshold": 5000,
+      "word": "aemo"
+    },
+    {
+      "adf": {
+        "adf_p": 7.25838946706731e-14,
+        "differenced": false,
+        "reason": null
+      },
+      "corpus_occurrences": 8300,
+      "field": "body",
+      "p_price_to_word": 0.13588443342231257,
+      "p_word_to_price": 0.7179255583635422,
+      "selected": false,
+      "threshold": 5000,
+      "word": "capacity"
+    },
+    {
+      "adf": {
+        "adf_p": 2.2454115583558453e-08,
+        "differenced": false,
+        "reason": null
+      },
+      "corpus_occurrences": 7879,
+      "field": "body",
+      "p_price_to_word": 0.12420105651776699,
+      "p_word_to_price": 0.716750011056855,
+      "selected": false,
+      "threshold": 5000,
+      "word": "constraint"
+    },
+    {
+      "adf": {
+        "adf_p": 0.0001697085474186714,
+        "differenced": false,
+        "reason": null
+      },
+      "corpus_occurrences": 12586,
+      "field": "body",
+      "p_price_to_word": 0.13669965629436978,
+      "p_word_to_price": 0.7095750911299237,
+      "selected": false,
+      "threshold": 5000,
+      "word": "contingency"
+    },
+    {
+      "adf": {
+        "adf_p": 0.00014237051408343926,
+        "differenced": false,
+        "reason": null
+      },
+      "corpus_occurrences": 12618,
+      "field": "body",
+      "p_price_to_word": 0.13459291661193173,
+      "p_word_to_price": 0.7078148754384952,
+      "selected": false,
+      "threshold": 5000,
+      "word": "credible"
+    },
+    {
+      "adf": {
+        "adf_p": 5.641313761544012e-05,
+        "differenced": false,
+        "reason": null
+      },
+      "corpus_occurrences": 18489,
+      "field": "body",
+      "p_price_to_word": 0.01452077707137205,
+      "p_word_to_price": 0.19006239334778322,
+      "selected": false,
+      "threshold": 5000,
+      "word": "electricity"
+    },
+    {
+      "adf": {
+        "adf_p": 4.7559446818618605e-12,
+        "differenced": false,
+        "reason": null
+      },
+      "corpus_occurrences": 14120,
+      "field": "body",
+      "p_price_to_word": 0.09374915393812243,
+      "p_word_to_price": 0.7837068045429308,
+      "selected": false,
+      "threshold": 5000,
+      "word": "event"
+    },
+    {
+      "adf": {
+        "adf_p": 9.148780402571915e-11,
+        "differenced": false,
+        "reason": null
+      },
+      "corpus_occurrences": 10672,
+      "field": "body",
+      "p_price_to_word": 0.0125427845073874,
+      "p_word_to_price": 0.6611499660967723,
+      "selected": false,
+      "threshold": 5000,
+      "word": "following"
+    },
+    {
+      "adf": {
+        "adf_p": 4.226470408703294e-06,
+        "differenced": false,
+        "reason": null
+      },
+      "corpus_occurrences": 8861,
+      "field": "body",
+      "p_price_to_word": 0.07071886733935648,
+      "p_word_to_price": 0.5387926851650868,
+      "selected": false,
+      "threshold": 5000,
+      "word": "forecast"
+    },
+    {
+      "adf": {
+        "adf_p": 3.1903918219267597e-09,
+        "differenced": false,
+        "reason": null
+      },
+      "corpus_occurrences": 16037,
+      "field": "body",
+      "p_price_to_word": 0.0729429390211462,
+      "p_word_to_price": 0.6690808180528622,
+      "selected": false,
+      "threshold": 5000,
+      "word": "hrs"
+    },
+    {
+      "adf": {
+        "adf_p": 0.00017432906444689813,
+        "differenced": false,
+        "reason": null
+      },
+      "corpus_occurrences": 5615,
+      "field": "body",
+      "p_price_to_word": 0.20069964621663197,
+      "p_word_to_price": 0.6668287489507219,
+      "selected": false,
+      "threshold": 5000,
+      "word": "lightning"
+    },
+    {
+      "adf": {
+        "adf_p": 9.598917713405493e-05,
+        "differenced": false,
+        "reason": null
+      },
+      "corpus_occurrences": 6226,
+      "field": "body",
+      "p_price_to_word": 0.07907661608139362,
+      "p_word_to_price": 0.918646270343079,
+      "selected": false,
+      "threshold": 5000,
+      "word": "lines"
+    },
+    {
+      "adf": {
+        "adf_p": 3.178260650528373e-13,
+        "differenced": false,
+        "reason": null
+      },
+      "corpus_occurrences": 8320,
+      "field": "body",
+      "p_price_to_word": 0.02631593932197867,
+      "p_word_to_price": 0.07670870097101258,
+      "selected": false,
+      "threshold": 5000,
+      "word": "manager"
+    },
+    {
+      "adf": {
+        "adf_p": 9.309650772082807e-06,
+        "differenced": false,
+        "reason": null
+      },
+      "corpus_occurrences": 21926,
+      "field": "body",
+      "p_price_to_word": 0.012519083495147396,
+      "p_word_to_price": 0.33770497585991,
+      "selected": false,
+      "threshold": 5000,
+      "word": "market"
+    },
+    {
+      "adf": {
+        "adf_p": 5.854817969182858e-13,
+        "differenced": false,
+        "reason": null
+      },
+      "corpus_occurrences": 9074,
+      "field": "body",
+      "p_price_to_word": 0.013162090392457255,
+      "p_word_to_price": 0.041235372343621124,
+      "selected": false,
+      "threshold": 5000,
+      "word": "nem"
+    },
+    {
+      "adf": {
+        "adf_p": 0.03022181183980033,
+        "differenced": false,
+        "reason": null
+      },
+      "corpus_occurrences": 7543,
+      "field": "body",
+      "p_price_to_word": 0.1845144221738765,
+      "p_word_to_price": 0.8115254057492852,
+      "selected": false,
+      "threshold": 5000,
+      "word": "non"
+    },
+    {
+      "adf": {
+        "adf_p": 3.2765031741337195e-05,
+        "differenced": false,
+        "reason": null
+      },
+      "corpus_occurrences": 20008,
+      "field": "body",
+      "p_price_to_word": 0.011173022375475723,
+      "p_word_to_price": 0.46820171706838354,
+      "selected": false,
+      "threshold": 5000,
+      "word": "notice"
+    },
+    {
+      "adf": {
+        "adf_p": 1.9811965716379583e-05,
+        "differenced": false,
+        "reason": null
+      },
+      "corpus_occurrences": 9830,
+      "field": "body",
+      "p_price_to_word": 0.010735334715184805,
+      "p_word_to_price": 0.44430477572866334,
+      "selected": false,
+      "threshold": 5000,
+      "word": "operations"
+    },
+    {
+      "adf": {
+        "adf_p": 3.095686560530299e-13,
+        "differenced": false,
+        "reason": null
+      },
+      "corpus_occurrences": 8306,
+      "field": "body",
+      "p_price_to_word": 0.02582613082035718,
+      "p_word_to_price": 0.0762184525452711,
+      "selected": false,
+      "threshold": 5000,
+      "word": "real"
+    },
+    {
+      "adf": {
+        "adf_p": 1.4605057799259443e-05,
+        "differenced": false,
+        "reason": null
+      },
+      "corpus_occurrences": 10664,
+      "field": "body",
+      "p_price_to_word": 0.027154702500159462,
+      "p_word_to_price": 0.48723709257423997,
+      "selected": false,
+      "threshold": 5000,
+      "word": "region"
+    },
+    {
+      "adf": {
+        "adf_p": 5.714433461049628e-12,
+        "differenced": false,
+        "reason": null
+      },
+      "corpus_occurrences": 8924,
+      "field": "body",
+      "p_price_to_word": 0.19424782252816614,
+      "p_word_to_price": 0.6037624704218072,
+      "selected": false,
+      "threshold": 5000,
+      "word": "reserve"
+    },
+    {
+      "adf": {
+        "adf_p": 0.28273876726159797,
+        "differenced": true,
+        "reason": null
+      },
+      "corpus_occurrences": 6511,
+      "field": "body",
+      "p_price_to_word": 0.1277027285956754,
+      "p_word_to_price": 0.5698845453808896,
+      "selected": false,
+      "threshold": 5000,
+      "word": "set"
+    },
+    {
+      "adf": {
+        "adf_p": 9.951189322567004e-06,
+        "differenced": false,
+        "reason": null
+      },
+      "corpus_occurrences": 13040,
+      "field": "body",
+      "p_price_to_word": 0.008478230149959272,
+      "p_word_to_price": 0.3304328149785736,
+      "selected": false,
+      "threshold": 5000,
+      "word": "time"
+    }
+  ],
+  "fold": "C",
+  "price_adf": {
+    "adf_p": 0.08956991528277741,
+    "differenced": true,
+    "reason": null
+  },
+  "selected": [
+    "title__lack",
+    "title__level",
+    "title__lor1",
+    "title__reserve",
+    "title__stpasa"
+  ],
+  "train_rows": 894901,
+  "training_availability_end": "2023-12-31 13:15:00+00:00",
+  "training_availability_start": "2021-09-29 15:20:00+00:00",
+  "training_notice_rows": 11347,
+  "training_price_days": 822,
+  "unique_region_target_points": 248665
+}

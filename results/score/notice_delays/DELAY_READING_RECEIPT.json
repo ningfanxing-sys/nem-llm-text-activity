@@ -1,0 +1,127 @@
+{
+  "schema": "MINRUN_RD_RECEIPT_V1",
+  "files": [
+    {
+      "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/notice_delays/DELAY_FAMILIES.json",
+      "bytes": 86155,
+      "sha256": "aa791861adcfd115a7b6d9195389004ad771bbf615eb13526a4dd568c44081ef"
+    },
+    {
+      "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/notice_delays/DELAY_JOINT_COMPARISONS.json",
+      "bytes": 58079,
+      "sha256": "f34b600902c44ede621219884128955b08eefc01f39eb8b869c814b4df3a76d0"
+    },
+    {
+      "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/notice_delays/DELAY_SCALAR_PROJECTION.json",
+      "bytes": 103213,
+      "sha256": "1278221d8359d5b1780dd1739baaad69b7e9c7d0be2ade31d46a5f3a1fdc5eb4"
+    },
+    {
+      "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/notice_delays/FAMILY_specified_5.json",
+      "bytes": 16102,
+      "sha256": "82af82f9c791673747e455807fe9f5a0819799161b1d51f6d9ca68ef58ffb112"
+    },
+    {
+      "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/notice_delays/FAMILY_specified_15.json",
+      "bytes": 7811,
+      "sha256": "1e4cfc4296d493318b950a3a7dfa2d41a3e825ac78f9088f3aa74db671903829"
+    },
+    {
+      "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/notice_delays/FAMILY_specified_60.json",
+      "bytes": 7801,
+      "sha256": "7162e709810463323d40e8a967729afa8453e8a4ecbdf39493ef4e2ef8e0f0c2"
+    },
+    {
+      "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/notice_delays/FAMILY_aligned_5.json",
+      "bytes": 7799,
+      "sha256": "e2d3466add7be82f381f568c774914d470c4388d73d3eee5ad9b5b81c59d3262"
+    },
+    {
+      "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/notice_delays/FAMILY_aligned_15.json",
+      "bytes": 7806,
+      "sha256": "6f9acc8bafc47df580ec0ac3621c77abf4789dcce665bc5f298a78c934f70d77"
+    },
+    {
+      "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/notice_delays/FAMILY_aligned_60.json",
+      "bytes": 7803,
+      "sha256": "7037bdceae7133a6c4b47bd2a4b513801c6a5f183925b1c649f74f3adc7323cd"
+    }
+  ],
+  "bindings": {
+    "corrected_receipt": {
+      "path": "studies/confirmation/forecast_hashes/prediction_set/PARITY_FORECAST_BINDING.json",
+      "sha256": "309333d2a15bc666105917103a0b83afb390ff1657411d8e9b0b1f3dd3f42c6e"
+    },
+    "corrected_seal": {
+      "path": "studies/confirmation/forecast_hashes/SEAL_FORECAST_BINDING.json",
+      "sha256": "cd0dd841c6c65a6a861d468f84e2745c9a58746186a7ce35bc65422828c87b1e"
+    },
+    "decision": {
+      "path": "studies/confirmation/REVIEW8/SOURCE_DECISIONS_REVIEW8_20261005.md",
+      "sha256": "0c755ff3f08ab62d8c2b913088027fc7f10f0a8e923ddb561578185ef486303f"
+    },
+    "scorer_freeze": {
+      "path": "studies/scoring_execution/driver/RUNTIME_SOURCES.json",
+      "sha256": "f0e7cf689285018da54ec8aeea6677a6a106faeb8e85dbbfe4f4ffdeefb27e03"
+    },
+    "timestamp_result": {
+      "path": "studies/confirmation/TIMESTAMPS/T4K/T4K_RESULT.json",
+      "sha256": "386bae50d907fc1ca0ea9ae54c1aa0c5e2f38b6134f7c4beca995905165a8dc1"
+    },
+    "manifest": {
+      "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/SCORING_MANIFEST.json",
+      "sha256": "7c1cdf75f71c3c10a86962c00e17d92099428f55ac717e9e59b2d94e340e4f16"
+    },
+    "specified_receipt": {
+      "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/R2_STATE/scored/SCORE_RECEIPT.json",
+      "sha256": "a3cb40c7f86e10ab0b5e6378e091ffd6cd2e8435425484a760787d3628607f4e"
+    },
+    "main_reading": {
+      "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/numerical_evidence/SCORING_NUMERIC.json",
+      "sha256": "4394a79b0f1835ddecf24aff99fd6ab24bba4fb2e89bba85dd221b89e080f853"
+    },
+    "t5_projection": {
+      "path": "paper_plan/minrun_execution_20261010/af_chain/A18H_RESUME_20261011_14/release/RD_T5_WITH_T6_SUPPLEMENT.json",
+      "sha256": "5330d47f4e3bd45d4d8500f46f62b8c70bd4ac9172728fc1c97221a9c2fd1169"
+    }
+  },
+  "proofs": {
+    "specified/5": {
+      "state": "PASS",
+      "dense_B2000": true,
+      "prefix_B2000": true,
+      "exact_pick_prefix": true
+    },
+    "specified/15": {
+      "state": "PASS",
+      "dense_B2000": true,
+      "prefix_B2000": true,
+      "exact_pick_prefix": true
+    },
+    "specified/60": {
+      "state": "PASS",
+      "dense_B2000": true,
+      "prefix_B2000": true,
+      "exact_pick_prefix": true
+    },
+    "aligned/5": {
+      "state": "PASS",
+      "dense_B2000": true,
+      "prefix_B2000": true,
+      "exact_pick_prefix": true
+    },
+    "aligned/15": {
+      "state": "PASS",
+      "dense_B2000": true,
+      "prefix_B2000": true,
+      "exact_pick_prefix": true
+    },
+    "aligned/60": {
+      "state": "PASS",
+      "dense_B2000": true,
+      "prefix_B2000": true,
+      "exact_pick_prefix": true
+    }
+  },
+  "synthetic_only": false
+}

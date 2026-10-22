@@ -1,0 +1,63 @@
+{
+  "bootstrap_artifact": {
+    "bytes": 528915,
+    "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/R2_STATE/scored/news__SECONDARY__L_count__N.npz",
+    "sha256": "0772f637cc32f44e18532efa5a3b0f84ec5c541cdefc57938c83b84db1814062"
+  },
+  "date_gaps": [],
+  "equivalence_test": "NOT_SPECIFIED",
+  "primary_confirmation": false,
+  "reports": [
+    {
+      "arm": "L_count",
+      "bootstrap": {
+        "1": {
+          "bootstrap_nonpositive_effect_count": 186,
+          "effect_percent_reference_mae": 7.425138725872177,
+          "finite_draws": 2000,
+          "interval95_percent": [
+            -2.6696925887663725,
+            20.572747068766205
+          ],
+          "monte_carlo_resolution": 0.0005,
+          "reference_mae": 24.81314360324201,
+          "undefined_draws": 0
+        },
+        "7": {
+          "bootstrap_nonpositive_effect_count": 347,
+          "effect_percent_reference_mae": 7.425138725872177,
+          "finite_draws": 2000,
+          "interval95_percent": [
+            -4.459394556593933,
+            26.340590757913805
+          ],
+          "monte_carlo_resolution": 0.0005,
+          "reference_mae": 24.81314360324201,
+          "undefined_draws": 0
+        }
+      },
+      "dm_hac7": {
+        "mean_difference": 1.8424103347905976,
+        "n_days": 135,
+        "p_deterioration": 0.17308066184109275,
+        "p_improvement": 0.8269193381589073,
+        "p_two_sided": 0.3461613236821855,
+        "state": "DEFINED",
+        "statistic": 0.9420611688825233,
+        "variance": 516.354878994599
+      },
+      "dm_p1": {
+        "mean_difference": 1.8424103347905976,
+        "n_days": 135,
+        "p_deterioration": 0.10193847925425224,
+        "p_improvement": 0.8980615207457477,
+        "p_two_sided": 0.20387695850850449,
+        "state": "DEFINED",
+        "statistic": 1.270583223174738,
+        "variance": 283.85742415654335
+      },
+      "reference": "N",
+      "status": "SECONDARY_ONLY"
+    }
+  ]
+}

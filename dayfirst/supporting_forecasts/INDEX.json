@@ -1,0 +1,86 @@
+[
+  {
+    "arm": "M+_n",
+    "delta_minutes": 5,
+    "path": "dayfirst/supporting_forecasts/notice__M+_n__delay5.parquet",
+    "sha256": "ef4d54e5628144a5b6e2c6d9b7dab1b92dc70de1e1d6b848923e96d47dd43015",
+    "source": "studies/batch_estimation/disk_checks/dly8/mode2/attempts/93735f2d564d44829cd7cc1762b4a62f/notice__M+_n__delay5.parquet"
+  },
+  {
+    "arm": "L14+",
+    "delta_minutes": 5,
+    "path": "dayfirst/supporting_forecasts/notice__L14+__delay5.parquet",
+    "sha256": "22632445f764e8ce5327c0c28b03be3636be1acbaa409d31046d7d1601fc21d5",
+    "source": "studies/batch_estimation/disk_checks/dly8/mode2/attempts/93735f2d564d44829cd7cc1762b4a62f/notice__L14+__delay5.parquet"
+  },
+  {
+    "arm": "L_Laz+",
+    "delta_minutes": 5,
+    "path": "dayfirst/supporting_forecasts/notice__L_Laz+__delay5.parquet",
+    "sha256": "441261cb81d3006e380eba7e7f9d130ec7c54a96de107abf69bd0824a7fcdc11",
+    "source": "studies/batch_estimation/disk_checks/dly8/mode2/attempts/93735f2d564d44829cd7cc1762b4a62f/notice__L_Laz+__delay5.parquet"
+  },
+  {
+    "arm": "L_chen_notice+",
+    "delta_minutes": 5,
+    "path": "dayfirst/supporting_forecasts/notice__L_chen_notice+__delay5.parquet",
+    "sha256": "2b31aad8b3367ecc5e5bdf4426b842b53d384a9255a69606047d5429efaca29d",
+    "source": "studies/batch_estimation/disk_checks/dly8/mode2/attempts/93735f2d564d44829cd7cc1762b4a62f/notice__L_chen_notice+__delay5.parquet"
+  },
+  {
+    "arm": "M+_n",
+    "delta_minutes": 15,
+    "path": "dayfirst/supporting_forecasts/notice__M+_n__delay15.parquet",
+    "sha256": "3928f173ece2c4d34098fd91ea07bff7380922bdd0ed3d76743d58fb14c7192a",
+    "source": "studies/batch_estimation/disk_checks/dly8/mode2/attempts/93735f2d564d44829cd7cc1762b4a62f/notice__M+_n__delay15.parquet"
+  },
+  {
+    "arm": "L14+",
+    "delta_minutes": 15,
+    "path": "dayfirst/supporting_forecasts/notice__L14+__delay15.parquet",
+    "sha256": "9f7da57e6f017659f61b00285940d9b5776d47137ab915d7c55376cba43d2a9e",
+    "source": "studies/batch_estimation/disk_checks/dly8/mode2/attempts/93735f2d564d44829cd7cc1762b4a62f/notice__L14+__delay15.parquet"
+  },
+  {
+    "arm": "L_Laz+",
+    "delta_minutes": 15,
+    "path": "dayfirst/supporting_forecasts/notice__L_Laz+__delay15.parquet",
+    "sha256": "415e3102f8d8b3460b4416e69cb7dfefcbdfc9eb5b917dbb947f42fc2e989ba4",
+    "source": "studies/batch_estimation/disk_checks/dly8/mode2/attempts/93735f2d564d44829cd7cc1762b4a62f/notice__L_Laz+__delay15.parquet"
+  },
+  {
+    "arm": "L_chen_notice+",
+    "delta_minutes": 15,
+    "path": "dayfirst/supporting_forecasts/notice__L_chen_notice+__delay15.parquet",
+    "sha256": "3263829ac6e2e8393687679b8ea3c525cdf720d3fa554d1ebe7226538df64bcd",
+    "source": "studies/batch_estimation/disk_checks/dly8/mode2/attempts/93735f2d564d44829cd7cc1762b4a62f/notice__L_chen_notice+__delay15.parquet"
+  },
+  {
+    "arm": "M+_n",
+    "delta_minutes": 60,
+    "path": "dayfirst/supporting_forecasts/notice__M+_n__delay60.parquet",
+    "sha256": "85c6fef4c70c4832a972e71d684a972b2e58f1589600bef8bb80b587fc1ba488",
+    "source": "studies/batch_estimation/disk_checks/dly8/mode2/attempts/93735f2d564d44829cd7cc1762b4a62f/notice__M+_n__delay60.parquet"
+  },
+  {
+    "arm": "L14+",
+    "delta_minutes": 60,
+    "path": "dayfirst/supporting_forecasts/notice__L14+__delay60.parquet",
+    "sha256": "d1d2f76d786bf3d13958a1330a480ecd520a5734346cd8511078c2efd81b61e1",
+    "source": "studies/batch_estimation/disk_checks/dly8/mode2/attempts/93735f2d564d44829cd7cc1762b4a62f/notice__L14+__delay60.parquet"
+  },
+  {
+    "arm": "L_Laz+",
+    "delta_minutes": 60,
+    "path": "dayfirst/supporting_forecasts/notice__L_Laz+__delay60.parquet",
+    "sha256": "18614840d5835e711a1fe57587566f98d1968ea2430ae51d866edebdca7a75d1",
+    "source": "studies/batch_estimation/disk_checks/dly8/mode2/attempts/93735f2d564d44829cd7cc1762b4a62f/notice__L_Laz+__delay60.parquet"
+  },
+  {
+    "arm": "L_chen_notice+",
+    "delta_minutes": 60,
+    "path": "dayfirst/supporting_forecasts/notice__L_chen_notice+__delay60.parquet",
+    "sha256": "6bfbe6ed24e6382ecfc46247bf87a615305fe8616a7ed1344c43c13bedb1b7f9",
+    "source": "studies/batch_estimation/disk_checks/dly8/mode2/attempts/93735f2d564d44829cd7cc1762b4a62f/notice__L_chen_notice+__delay60.parquet"
+  }
+]

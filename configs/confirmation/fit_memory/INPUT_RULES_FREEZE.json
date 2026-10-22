@@ -1,0 +1,35 @@
+{
+  "addendum": 1,
+  "addendum_spec": {
+    "bytes": 1121,
+    "path": "studies/confirmation/fit_memory/SPEC_ADDENDUM_1_FULL_ROWS.md",
+    "sha256": "2ec3062b0cc5a6eb7c7bc934a19a9fe26d4df76206d1a34ae52b0b71825d54ce"
+  },
+  "feasibility_script": {
+    "bytes": 11223,
+    "path": "studies/confirmation/fit_memory/feasibility_24h.py",
+    "sha256": "79f0c407fdf95019e81efaa96c34b0531b24c240af645b8b22004fd36eefae60"
+  },
+  "host_state_contents_read": false,
+  "measurement_script": {
+    "bytes": 9534,
+    "path": "studies/confirmation/fit_memory/measure_fit_memory.py",
+    "sha256": "b93a1b9b872804d01a864e23633db849909ea9455587f18541e89ca7c7aa3749"
+  },
+  "measurements_run": false,
+  "production_commands_run": [],
+  "spec": {
+    "bytes": 9291,
+    "path": "studies/confirmation/fit_memory/SPEC.md",
+    "sha256": "9d3abfb9b8e7b96f6c13298d1e6a3ccebe649ecad861c26654cb01ffa6d56ba2"
+  },
+  "spec_freeze": {
+    "bytes": 4449,
+    "path": "studies/confirmation/fit_memory/SPEC_FREEZE.json",
+    "sha256": "0f2cad65e4df6e3521ef12dfd4bc438b1d311cc2a0c197332c0c8f6e2898ae31"
+  },
+  "state": "SPEC_ADDENDUM_FROZEN_BEFORE_MEASUREMENTS",
+  "task": "fit_memory",
+  "time_utc": "2026-10-02T07:57:28.389800+00:00",
+  "window_outcomes_read": false
+}

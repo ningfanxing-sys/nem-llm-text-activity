@@ -1,0 +1,6 @@
+task,representation,representation_name,original_mean_reversal,w7_mean_reversal,robust_reversal,news_reference_unchanged_by_analysis2
+news,L_count,Fields,False,False,False,True
+news,L_chen,Embeddings,False,False,False,True
+notice,L14,Event states,True,False,False,False
+notice,L_Laz,Overlap components,True,False,False,False
+notice,L_chen_notice,Archive embeddings,False,False,False,False

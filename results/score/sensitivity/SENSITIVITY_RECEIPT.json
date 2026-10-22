@@ -1,0 +1,26 @@
+{
+  "schema": "MINRUN_SENS35_RECEIPT_V1",
+  "files": [
+    {
+      "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/sensitivity/SENSITIVITY_UNEXPOSED.json",
+      "bytes": 154330,
+      "sha256": "90c8c972738126f112875bbfef3aa94cfb6587a8d611f3447cd51ff87c80ad97"
+    },
+    {
+      "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/sensitivity/SENSITIVITY_UNEXPOSED.csv",
+      "bytes": 13243,
+      "sha256": "f5cae9fbdba7b8dc16b8447fd92d715552f1e15adbb6c48ce25a0ca8f5772aba"
+    }
+  ],
+  "authorization": {
+    "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/SENS35_SOURCE_DELIVERY/AUTHORIZATION.json",
+    "bytes": 31161,
+    "sha256": "ad62d969e623de4e3754e612387c959e345eddcb76bfb19c2952dff4a64b718f"
+  },
+  "matching_contract": {
+    "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/SENS35_SOURCE_DELIVERY/MATCHING_CONTRACT.json",
+    "bytes": 824,
+    "sha256": "c0e1e1303c284ee21caf65895b5ca63c4a0501346822a3b52458205dbe247655"
+  },
+  "synthetic_only": false
+}

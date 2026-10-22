@@ -1,0 +1,4777 @@
+{
+  "state": "ALL_POSTHOC_PREDICTIONS_SEALED",
+  "plan_sha256": "8dcf0993b0059640398424c2b3e1201d3418557015e4ad5f892b27d5dd2a36c7",
+  "predictions": [
+    {
+      "group": "no_text_notice",
+      "task": "notice",
+      "origin": "prewindow_frozen_C_bank",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_notice/artifacts/notice__prewindow_frozen_C_bank__N__s20260920__main.predictions.parquet",
+      "sha256": "58cbcbb962dbcfa60ecef657b0a4a4e7ec6ce3be9b998d17a4ac43a09e67dc47",
+      "rows": 527040
+    },
+    {
+      "group": "no_text_notice",
+      "task": "notice",
+      "origin": "prewindow_frozen_C_bank",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_notice/artifacts/notice__prewindow_frozen_C_bank__N__s20260921__main.predictions.parquet",
+      "sha256": "c6b21eb687c4cc7eeb94acda8f27c222aba818f89c9b0b8c5fdc63d46c42f9e0",
+      "rows": 527040
+    },
+    {
+      "group": "w7",
+      "task": "notice",
+      "origin": "prewindow_frozen_C_bank",
+      "arm": "L14",
+      "seed": 20260919,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "dayfirst/predictions/w7/notice__prewindow_frozen_C_bank__L14__s20260919__main.predictions.parquet",
+      "sha256": "3bb779cc148f6ed52041d1f25dec367c78c39da0ec5140e1f3c7293aaf2e9b46",
+      "rows": 527040
+    },
+    {
+      "group": "w7",
+      "task": "notice",
+      "origin": "prewindow_frozen_C_bank",
+      "arm": "L14",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "dayfirst/predictions/w7/notice__prewindow_frozen_C_bank__L14__s20260920__main.predictions.parquet",
+      "sha256": "27a71180dbb23b4b329838046def61e184f7180083a9f607b86fdc5ba4c0b1cc",
+      "rows": 527040
+    },
+    {
+      "group": "w7",
+      "task": "notice",
+      "origin": "prewindow_frozen_C_bank",
+      "arm": "L14",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "dayfirst/predictions/w7/notice__prewindow_frozen_C_bank__L14__s20260921__main.predictions.parquet",
+      "sha256": "7b527393e40315797716f99d8a3e51a1b3bce7ef1a93a08bce757ed1c3e255a3",
+      "rows": 527040
+    },
+    {
+      "group": "w7",
+      "task": "notice",
+      "origin": "prewindow_frozen_C_bank",
+      "arm": "L_Laz",
+      "seed": 20260919,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "dayfirst/predictions/w7/notice__prewindow_frozen_C_bank__L_Laz__s20260919__main.predictions.parquet",
+      "sha256": "04dc2e718ae9afbdf4aa115d975842f8c977050d6ecd21d0a358231545842b56",
+      "rows": 527040
+    },
+    {
+      "group": "w7",
+      "task": "notice",
+      "origin": "prewindow_frozen_C_bank",
+      "arm": "L_Laz",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "dayfirst/predictions/w7/notice__prewindow_frozen_C_bank__L_Laz__s20260920__main.predictions.parquet",
+      "sha256": "4c9e7bbe45359094454396b65f232f7d3970536cb0a7e1b6bd5716772d9aa912",
+      "rows": 527040
+    },
+    {
+      "group": "w7",
+      "task": "notice",
+      "origin": "prewindow_frozen_C_bank",
+      "arm": "L_Laz",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "dayfirst/predictions/w7/notice__prewindow_frozen_C_bank__L_Laz__s20260921__main.predictions.parquet",
+      "sha256": "3aa4b709f61543b0a2e0f83b23c70e25547fe7783efe3e955d756ca23f17a8fb",
+      "rows": 527040
+    },
+    {
+      "group": "w7",
+      "task": "notice",
+      "origin": "prewindow_frozen_C_bank",
+      "arm": "L_chen_notice",
+      "seed": 20260919,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/w7/artifacts/notice__prewindow_frozen_C_bank__L_chen_notice__s20260919__main.predictions.parquet",
+      "sha256": "efbecce3a349c705dbe8b059be44e615e090197f0170fce90382b7f4c7bc290c",
+      "rows": 527040
+    },
+    {
+      "group": "w7",
+      "task": "notice",
+      "origin": "prewindow_frozen_C_bank",
+      "arm": "L_chen_notice",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/w7/artifacts/notice__prewindow_frozen_C_bank__L_chen_notice__s20260920__main.predictions.parquet",
+      "sha256": "99eca7604cd523f8e85ed7d5f6e9f2c4efe2128b5f8f645b9637e3e4e483d9b4",
+      "rows": 527040
+    },
+    {
+      "group": "w7",
+      "task": "notice",
+      "origin": "prewindow_frozen_C_bank",
+      "arm": "L_chen_notice",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/w7/artifacts/notice__prewindow_frozen_C_bank__L_chen_notice__s20260921__main.predictions.parquet",
+      "sha256": "4465b4f1666e18da12a2a927d543cf09d4d23d4646ba94cdc394aa8a83472088",
+      "rows": 527040
+    },
+    {
+      "group": "w7",
+      "task": "notice",
+      "origin": "prewindow_frozen_C_bank",
+      "arm": "M_notice",
+      "seed": 20260919,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/w7/artifacts/notice__prewindow_frozen_C_bank__M_notice__s20260919__main.predictions.parquet",
+      "sha256": "7b360ba4acad5e8d91e0f9e63182c7891fd48d51e654f143232a2c7919946cfc",
+      "rows": 527040
+    },
+    {
+      "group": "w7",
+      "task": "notice",
+      "origin": "prewindow_frozen_C_bank",
+      "arm": "M_notice",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/w7/artifacts/notice__prewindow_frozen_C_bank__M_notice__s20260920__main.predictions.parquet",
+      "sha256": "bdb55756045b2c6860d4a9977fb5a36ab0f1268383c601f8f235e6867267bd55",
+      "rows": 527040
+    },
+    {
+      "group": "w7",
+      "task": "notice",
+      "origin": "prewindow_frozen_C_bank",
+      "arm": "M_notice",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/w7/artifacts/notice__prewindow_frozen_C_bank__M_notice__s20260921__main.predictions.parquet",
+      "sha256": "cf97e8924ab2b4152234609eed6b68e033b228db4df21a9098b838cfa89c49e5",
+      "rows": 527040
+    },
+    {
+      "group": "w24",
+      "task": "notice",
+      "origin": "prewindow_frozen_C_bank",
+      "arm": "L14",
+      "seed": 20260919,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "dayfirst/predictions/w24/notice__prewindow_frozen_C_bank__L14__s20260919__main.predictions.parquet",
+      "sha256": "11cacfece4d53acdafb7344d939d9dc87ddc2bed2b52140d38d76bb6cf27c34c",
+      "rows": 527040
+    },
+    {
+      "group": "w24",
+      "task": "notice",
+      "origin": "prewindow_frozen_C_bank",
+      "arm": "L14",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "dayfirst/predictions/w24/notice__prewindow_frozen_C_bank__L14__s20260920__main.predictions.parquet",
+      "sha256": "eee8afa82843b339376617f41fc2feac09d550707170f7b6ee1e2562cfe98c05",
+      "rows": 527040
+    },
+    {
+      "group": "w24",
+      "task": "notice",
+      "origin": "prewindow_frozen_C_bank",
+      "arm": "L14",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "dayfirst/predictions/w24/notice__prewindow_frozen_C_bank__L14__s20260921__main.predictions.parquet",
+      "sha256": "27813209fa872425e5cd9c0f1247c5c5e16b9868f21625d683f1d8967285df30",
+      "rows": 527040
+    },
+    {
+      "group": "w24",
+      "task": "notice",
+      "origin": "prewindow_frozen_C_bank",
+      "arm": "L_Laz",
+      "seed": 20260919,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "dayfirst/predictions/w24/notice__prewindow_frozen_C_bank__L_Laz__s20260919__main.predictions.parquet",
+      "sha256": "ec5d6fd731e7616da4b1382c4ebe8038bf9851c3c7644f83a74834defb71c553",
+      "rows": 527040
+    },
+    {
+      "group": "w24",
+      "task": "notice",
+      "origin": "prewindow_frozen_C_bank",
+      "arm": "L_Laz",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "dayfirst/predictions/w24/notice__prewindow_frozen_C_bank__L_Laz__s20260920__main.predictions.parquet",
+      "sha256": "44065fd0b59a9c6d2ea43212e3f8d4ec59bbe6a01bccd5b009d1347f49394bde",
+      "rows": 527040
+    },
+    {
+      "group": "w24",
+      "task": "notice",
+      "origin": "prewindow_frozen_C_bank",
+      "arm": "L_Laz",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "dayfirst/predictions/w24/notice__prewindow_frozen_C_bank__L_Laz__s20260921__main.predictions.parquet",
+      "sha256": "cf7caa2af3a7b68b5f0e1ea1aa27e9dd0afbc3a39545d5cf7d2351c8b089f6c8",
+      "rows": 527040
+    },
+    {
+      "group": "w24",
+      "task": "notice",
+      "origin": "prewindow_frozen_C_bank",
+      "arm": "L_chen_notice",
+      "seed": 20260919,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/w24/artifacts/notice__prewindow_frozen_C_bank__L_chen_notice__s20260919__main.predictions.parquet",
+      "sha256": "1d00810aea5c9a01cd141b29a37353c28a3fb5ac8a7925fb19eb35901c2a52b1",
+      "rows": 527040
+    },
+    {
+      "group": "w24",
+      "task": "notice",
+      "origin": "prewindow_frozen_C_bank",
+      "arm": "L_chen_notice",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/w24/artifacts/notice__prewindow_frozen_C_bank__L_chen_notice__s20260920__main.predictions.parquet",
+      "sha256": "b481389a46b5ba3f9f10d1c847271942b1f8b66b2cb97505d19280b181914dd5",
+      "rows": 527040
+    },
+    {
+      "group": "w24",
+      "task": "notice",
+      "origin": "prewindow_frozen_C_bank",
+      "arm": "L_chen_notice",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/w24/artifacts/notice__prewindow_frozen_C_bank__L_chen_notice__s20260921__main.predictions.parquet",
+      "sha256": "b3a1b2fb1a22f97c52cf355c2598b4dec6f35cd597a9e9d779980de4225bf4c2",
+      "rows": 527040
+    },
+    {
+      "group": "w24",
+      "task": "notice",
+      "origin": "prewindow_frozen_C_bank",
+      "arm": "M_notice",
+      "seed": 20260919,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/w24/artifacts/notice__prewindow_frozen_C_bank__M_notice__s20260919__main.predictions.parquet",
+      "sha256": "97653c13b852a5e8ca9f3603e4c2a4361aa5148757c8eb492abf4066396500be",
+      "rows": 527040
+    },
+    {
+      "group": "w24",
+      "task": "notice",
+      "origin": "prewindow_frozen_C_bank",
+      "arm": "M_notice",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/w24/artifacts/notice__prewindow_frozen_C_bank__M_notice__s20260920__main.predictions.parquet",
+      "sha256": "0f954ed6fa2903bfb286670c614128adbe1c98eafdcc54fb06cd3814ef8ef809",
+      "rows": 527040
+    },
+    {
+      "group": "w24",
+      "task": "notice",
+      "origin": "prewindow_frozen_C_bank",
+      "arm": "M_notice",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/w24/artifacts/notice__prewindow_frozen_C_bank__M_notice__s20260921__main.predictions.parquet",
+      "sha256": "3f7ae406ef799c556ed4838877654bf9e928f97db47fe904210ff8723bc6ae91",
+      "rows": 527040
+    },
+    {
+      "group": "w7_shift",
+      "task": "notice",
+      "origin": "prewindow_frozen_C_bank",
+      "arm": "M_shift_notice",
+      "seed": 20260919,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/w7_shift/artifacts/notice__prewindow_frozen_C_bank__M_shift_notice__s20260919__main.predictions.parquet",
+      "sha256": "6b8cd0c01f5b30bc47cf542cb75839f8a90505869c670f625f153ebddbfb7007",
+      "rows": 527040
+    },
+    {
+      "group": "w7_shift",
+      "task": "notice",
+      "origin": "prewindow_frozen_C_bank",
+      "arm": "P_shift",
+      "seed": 20260919,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/w7_shift/artifacts/notice__prewindow_frozen_C_bank__P_shift__s20260919__main.predictions.parquet",
+      "sha256": "91763363d046e7f49e9c2bbee0252ff218cea995f540ccbadec0a6689527d53d",
+      "rows": 527040
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-05-19",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-05-19__N__s20260920__main.predictions.parquet",
+      "sha256": "12509ec3064af92b32c3237fbe93131912bdf63cacc414346e3beec2ad0f4b81",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-05-19",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-05-19__N__s20260921__main.predictions.parquet",
+      "sha256": "606d43a299e76a5201533b7dda919946514dcde3cc6af1bc11ffcd73ab07622e",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-05-20",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-05-20__N__s20260920__main.predictions.parquet",
+      "sha256": "8dd8e46a1689d5574f53ffaae340e33d2d90d9199829cdd1c81bd4963596b62a",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-05-20",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-05-20__N__s20260921__main.predictions.parquet",
+      "sha256": "386469bc08c11e97cd8284fecf8ab29947569f8ce6c68b5060ce5a581dfc647a",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-05-21",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-05-21__N__s20260920__main.predictions.parquet",
+      "sha256": "c8162661abcd9f99e8138abb1327dd0ab4c4765be64b7195495f4f2a9458781a",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-05-21",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-05-21__N__s20260921__main.predictions.parquet",
+      "sha256": "542f2437c6cba7567105e107383686e2df22d2e6687aef036b9ae84c6e80b027",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-05-22",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-05-22__N__s20260920__main.predictions.parquet",
+      "sha256": "a09dbe9afcd1ff16e150231886406f354344268901223d5c33655089863a8ad5",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-05-22",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-05-22__N__s20260921__main.predictions.parquet",
+      "sha256": "7a7fdacf9c6dce7d8d5baa67b9afe0f5fd2ac429e54616dbf77fa3d0b8be9776",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-05-23",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-05-23__N__s20260920__main.predictions.parquet",
+      "sha256": "ba810f538b583f7feae34fe78aba57defca0992b66d0962e08577adf6ed79f9c",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-05-23",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-05-23__N__s20260921__main.predictions.parquet",
+      "sha256": "c482bdb680ea5198c5be127aaf8157f8f10cf5ffee8f21a262a7b86e5994d427",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-05-24",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-05-24__N__s20260920__main.predictions.parquet",
+      "sha256": "8ff84ec8141fd9a8366724d87b518bd7643157bae2397cd348448e874f034f9b",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-05-24",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-05-24__N__s20260921__main.predictions.parquet",
+      "sha256": "ac92a531a9b8559e333432f48f8d4ef7a10a71faea2eca9fd927be4016eeb1ca",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-05-25",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-05-25__N__s20260920__main.predictions.parquet",
+      "sha256": "a666fd42adc2d7fb11359537d918954f64b6a537ad602575975ecae1696922b6",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-05-25",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-05-25__N__s20260921__main.predictions.parquet",
+      "sha256": "f31d34335b7d0a8d449bd42fa4726f9f3cd0dddf9f00188a51774823d81f9168",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-05-26",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-05-26__N__s20260920__main.predictions.parquet",
+      "sha256": "bf4476d45b20cb4efafe01b82d01568e7876e04d92a2e1b16c2684a5c84afddd",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-05-26",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-05-26__N__s20260921__main.predictions.parquet",
+      "sha256": "0a2a53a071ff9bc72e1315a80018521eb03baf7b596eb4f52e5a38a8a52e91ce",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-05-27",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-05-27__N__s20260920__main.predictions.parquet",
+      "sha256": "946010d659f27cf289a565acf5f10dc4cd87a23d9191ef3683fb0615a7c772a5",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-05-27",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-05-27__N__s20260921__main.predictions.parquet",
+      "sha256": "511291e3e9c840da0fd1dfad6c952fcbbf836d16a11f6b67ba24b4c83993fc32",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-05-28",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-05-28__N__s20260920__main.predictions.parquet",
+      "sha256": "702ebf374a95ad5b3f017931b1a6c4c12c3dce83dfc8f948fe4c84f559265d54",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-05-28",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-05-28__N__s20260921__main.predictions.parquet",
+      "sha256": "565b0cf80ed236780abece7c03e45b730c17bb853d0bcf2fee094f5af580846c",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-05-29",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-05-29__N__s20260920__main.predictions.parquet",
+      "sha256": "ec8e4571258085031634a7aead639de71662c219c09c9c5fedde70b0242a24a7",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-05-29",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-05-29__N__s20260921__main.predictions.parquet",
+      "sha256": "cf0e412eca4e26fca63eaf0617c50d16f50607411bea912d5b501a049eeda1da",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-05-30",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-05-30__N__s20260920__main.predictions.parquet",
+      "sha256": "d95c03ae024805e132cd0e4315f9f3059a570171a4108100d25c8472ea7dd6e5",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-05-30",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-05-30__N__s20260921__main.predictions.parquet",
+      "sha256": "f83cdcf6595a68173e090a870d34d43fa3d3c95ef69be8684927b45f53d80e0d",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-05-31",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-05-31__N__s20260920__main.predictions.parquet",
+      "sha256": "7ef1e7741ad3a418753152be62e7c0912f81c72aebe46ed81e08297dac972b8d",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-05-31",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-05-31__N__s20260921__main.predictions.parquet",
+      "sha256": "19c7752c326d4952449034f4926933384fef572308d3a83577c8aa6046a96f9e",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-06-01",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-06-01__N__s20260920__main.predictions.parquet",
+      "sha256": "da1b72b81be7444402969bfac38d91c07cbb3c77d5aedfcf6041d207fde82795",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-06-01",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-06-01__N__s20260921__main.predictions.parquet",
+      "sha256": "098eb97092038c05f80b3d196a34d5ea5649dd237137454e47ff388b55f657d7",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-06-02",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-06-02__N__s20260920__main.predictions.parquet",
+      "sha256": "583790dc7ae91dbd6e61ba3acea9a10fa76d59d4d37fbeff468bea118d8d20b0",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-06-02",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-06-02__N__s20260921__main.predictions.parquet",
+      "sha256": "59910df26817073f2edc6b52dad7687dd2bee9b85d669d53ae79001619967f66",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-06-03",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-06-03__N__s20260920__main.predictions.parquet",
+      "sha256": "b7b9998656b5168d1d7d6ac8c29a49a7b4d2837b84fcebc0f8dddb90e25d1ead",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-06-03",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-06-03__N__s20260921__main.predictions.parquet",
+      "sha256": "1a8cbae854cfa9ddb25158e090a4af935a7bdd6d5329a25f77eabd8227b44f66",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-06-04",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-06-04__N__s20260920__main.predictions.parquet",
+      "sha256": "7ce02fe3572236eac8d37c703bb169b57245dbaeb18e27cb80a9464d7f34d68f",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-06-04",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-06-04__N__s20260921__main.predictions.parquet",
+      "sha256": "b879bc55d51e970b59aacc4682e6b285945bba24d427cd757e49a6d6b4e854b3",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-06-05",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-06-05__N__s20260920__main.predictions.parquet",
+      "sha256": "856a8e3acf9c03f9f8b6ddd04d54ed94f8006d4b06e19f24fbf729ce7ffc17d8",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-06-05",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-06-05__N__s20260921__main.predictions.parquet",
+      "sha256": "4ef6ee9943780adeab70add352adcac233db6e69b3a086e5606e3a616c25267e",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-06-06",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-06-06__N__s20260920__main.predictions.parquet",
+      "sha256": "9266bf508ef483c5b9ef9d0bf15128efac1478277251a6ef173239c9383969e2",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-06-06",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-06-06__N__s20260921__main.predictions.parquet",
+      "sha256": "342b57ba62cc24b84193e930054e5c52971b3ed98bc8b27545a0647eb13ded63",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-06-07",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-06-07__N__s20260920__main.predictions.parquet",
+      "sha256": "0ab6a0bedcfb3ca20301aa5ad3bdbd03d4e0c374299b8062f587854d19d9dd16",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-06-07",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-06-07__N__s20260921__main.predictions.parquet",
+      "sha256": "41fa10e4a5d7fbe79156d1cc44c59244cbcd9ccdbc1aa69df1e595c80a797353",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-06-08",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-06-08__N__s20260920__main.predictions.parquet",
+      "sha256": "066f31d24d04c296c6bbc8479100baf585bb2726ac038fc868e2e880bad1c7b4",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-06-08",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-06-08__N__s20260921__main.predictions.parquet",
+      "sha256": "cc890d190d5d88da1707cb215a70d6a12e987704ca30cff7ee9cc0e957198eac",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-06-09",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-06-09__N__s20260920__main.predictions.parquet",
+      "sha256": "14eb55df96f1c0cd6afc934e2abd22f6947552ea60d33e6640800e1b5061a601",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-06-09",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-06-09__N__s20260921__main.predictions.parquet",
+      "sha256": "05f56fb60e2d8bc2abd96f9058ee0ec1736cbabd1ef977589c821717eb42db04",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-06-10",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-06-10__N__s20260920__main.predictions.parquet",
+      "sha256": "d855251c07d453c97798d9c2734311c5af8e5edc63285ba85942ffb9b02631ff",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-06-10",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-06-10__N__s20260921__main.predictions.parquet",
+      "sha256": "1878e12c839f01d2761836c390503f9362e38e7409f24c401dfe9ff2175fa2b6",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-06-11",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-06-11__N__s20260920__main.predictions.parquet",
+      "sha256": "f831d3452f9ae8b2db242fd27c79faad792f8eef6f398ffc20858ad2cd547ec8",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-06-11",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-06-11__N__s20260921__main.predictions.parquet",
+      "sha256": "879924af2d123f5c6a82b364ed0d34c29452d79e975e746061b28362442c4c38",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-06-12",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-06-12__N__s20260920__main.predictions.parquet",
+      "sha256": "ae6bd528169945f39c3ba315ce22b8e9b5485bb298636efc70381b3521828485",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-06-12",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-06-12__N__s20260921__main.predictions.parquet",
+      "sha256": "14410ed8887007818f92163d2049ce3e33abf56b2324f0821a5f45f4af0bee9d",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-06-13",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-06-13__N__s20260920__main.predictions.parquet",
+      "sha256": "a26670b213ec2b349162cab35952b9afded15b5c232ce1732a07fd4a732e4f02",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-06-13",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-06-13__N__s20260921__main.predictions.parquet",
+      "sha256": "f9cdc5c2ba490d328ddda2ba6348fa168d7eb00f6cd209e0c4b9da6ca51f2ef2",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-06-14",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-06-14__N__s20260920__main.predictions.parquet",
+      "sha256": "068b8ee46b392423060e5d8ebac030ecf43f0f13716c6feccd478c09e63ac8fc",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-06-14",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-06-14__N__s20260921__main.predictions.parquet",
+      "sha256": "55ffe507e891d2e557943f952201c4dab06cdf09de97ba54cf0a437d9afb5609",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-06-15",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-06-15__N__s20260920__main.predictions.parquet",
+      "sha256": "58bc43398a45ff032db7dcb72fe6fcd713fcc738c5d377fd10e9d2d66dc5b7db",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-06-15",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-06-15__N__s20260921__main.predictions.parquet",
+      "sha256": "b4e4a5f02ce13306f128b07dfa53c3c775c7b5418bea16b6395c32bd1fc2f5ec",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-06-16",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-06-16__N__s20260920__main.predictions.parquet",
+      "sha256": "eac688afd461ec0adf66c950c8af422e8f3a8e793316c316dc236ad202e649e9",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-06-16",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-06-16__N__s20260921__main.predictions.parquet",
+      "sha256": "9c86543e078839b589a283157efbb2e1c3c481cd1895252c5f4bbe7e4a0ae7ad",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-06-17",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-06-17__N__s20260920__main.predictions.parquet",
+      "sha256": "1608513d79bdb3aadb661839c082fb9a651d0293ab87a7279185864436e49b09",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-06-17",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-06-17__N__s20260921__main.predictions.parquet",
+      "sha256": "35c3ac116f4ae02a6d23565891bd940edf01c289ff70924a76216519d75731bf",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-06-18",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-06-18__N__s20260920__main.predictions.parquet",
+      "sha256": "fd288fe606861c0ab24d6700249510d6f803a09e81c3cd3d55335aef9665b881",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-06-18",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-06-18__N__s20260921__main.predictions.parquet",
+      "sha256": "ccc9b0bae13840bd45028bd1136db6437b9dd08ce7016bf192c5f2fdfd5d8a03",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-06-19",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-06-19__N__s20260920__main.predictions.parquet",
+      "sha256": "1bd99a0cbc7a3f96fe71ec79f984c6d3d7dcd5db0b72bed898b1fa814b89bddd",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-06-19",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-06-19__N__s20260921__main.predictions.parquet",
+      "sha256": "cbdcd28e12e1356fb4ee19d2ddd30070994343f0fe829374a4ebcbc0f33587fe",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-06-20",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-06-20__N__s20260920__main.predictions.parquet",
+      "sha256": "521250fdbdbc2066cc41b134509b4aa7e21390db80a7d022df151299d2add746",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-06-20",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-06-20__N__s20260921__main.predictions.parquet",
+      "sha256": "78e1b93b3d1bcb0b78eaf823899000ccbebc33a362f91968a2f26aea86d70255",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-06-21",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-06-21__N__s20260920__main.predictions.parquet",
+      "sha256": "6737e184031d701b62ce5bb8b85ab096157fd07e57f15139399c2d1fdda50943",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-06-21",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-06-21__N__s20260921__main.predictions.parquet",
+      "sha256": "730711f40c5cd857e9c8714d8e9a94044c80aab9bc6bad2758380a1ddbc6f2cb",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-06-22",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-06-22__N__s20260920__main.predictions.parquet",
+      "sha256": "3a6570e441e4668b49b4e199f2e9c863fadfda2bc81ce86565dde97d18d0ae13",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-06-22",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-06-22__N__s20260921__main.predictions.parquet",
+      "sha256": "506f6e76df6197a6f817a3250b17907987f8b14778abbeb433358eaf942dd560",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-06-23",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-06-23__N__s20260920__main.predictions.parquet",
+      "sha256": "f54c8c5003878c6a39a7a9f8376a5c2fc745d28fe15933c042087154d3b7c0c5",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-06-23",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-06-23__N__s20260921__main.predictions.parquet",
+      "sha256": "0873cdb08807390c4bae1fe873c2f334cf57886e2ea4ff445b9c96a619f7695c",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-06-24",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-06-24__N__s20260920__main.predictions.parquet",
+      "sha256": "bd667b88c4068302ade4047ccb6bb7871cbbe6ffe9bc4803954c5eb3f9170a05",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-06-24",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-06-24__N__s20260921__main.predictions.parquet",
+      "sha256": "1bfabe26d9090e1a2a5d7826c1467c62f6f3a003f54e0b41f5bf0cc338c571a6",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-06-25",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-06-25__N__s20260920__main.predictions.parquet",
+      "sha256": "1f84d6404df3accb25d82bcebb25985093f835fa9f0ffb847a1f7448c30c9f78",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-06-25",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-06-25__N__s20260921__main.predictions.parquet",
+      "sha256": "0778fba1c9742e11f3e14fb76357ec33e2bc0aaddac801d054167a11c9d5a602",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-06-26",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-06-26__N__s20260920__main.predictions.parquet",
+      "sha256": "8b55980785b4e04025a88d2c6624c3b3011b8de8cc4b7c301a241b3b18e8e213",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-06-26",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-06-26__N__s20260921__main.predictions.parquet",
+      "sha256": "536bc6daf010cc774e4ad7eb47bdb88410e666c2b5f2db56d7ef7397af53667e",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-06-27",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-06-27__N__s20260920__main.predictions.parquet",
+      "sha256": "b3799b76c1679d8457b55c5612826c2e8a287ebd434d6d7ac3a9d0bbbffe73f0",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-06-27",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-06-27__N__s20260921__main.predictions.parquet",
+      "sha256": "91af6b074c81cff5a21d32c8d9976f0e869a08acbc1b90ad610834b1314f7b5e",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-06-28",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-06-28__N__s20260920__main.predictions.parquet",
+      "sha256": "3196fa4db4082a24f3f4e5c4a3b976e843658dc7efb6b4eb8b97c38f32d410cd",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-06-28",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-06-28__N__s20260921__main.predictions.parquet",
+      "sha256": "0a392f85258da87f3394a752c552408496072d419bc7d2faf55a7ba389fdf590",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-06-29",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-06-29__N__s20260920__main.predictions.parquet",
+      "sha256": "48d51f2b435c852c962826ab39cde95e4fddc0b643855df2c15652375b17ec30",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-06-29",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-06-29__N__s20260921__main.predictions.parquet",
+      "sha256": "063eac8c3308bc9ad0ecb42245f7ae5abbb3285f48a933c5cfc592900f6e0649",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-06-30",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-06-30__N__s20260920__main.predictions.parquet",
+      "sha256": "40f278dc597743476157b4c066e73602a6b87344fd6fd29dde93964b157bd963",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-06-30",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-06-30__N__s20260921__main.predictions.parquet",
+      "sha256": "bcb45614b2da70f0bc49ce4801b353a81d3fac14a79b2242b3ca41cd62879414",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-07-01",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-07-01__N__s20260920__main.predictions.parquet",
+      "sha256": "dd75cfd332dbac171a0c6fe215a500408f9371cdac49ba176b1f5d1b45802298",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-07-01",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-07-01__N__s20260921__main.predictions.parquet",
+      "sha256": "7ed59d7007f9e5ca9deff55630fda633718125e83eec823286798cb4ed4744bc",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-07-02",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-07-02__N__s20260920__main.predictions.parquet",
+      "sha256": "0ebd03e877442081a12745cac38aaaf12e6400cbd99c820d6d7fc1ccc1025bfb",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-07-02",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-07-02__N__s20260921__main.predictions.parquet",
+      "sha256": "3ce4e0d57ef2c3b4b490c9586240eb913a9e41f6424e9a9c069ef2cee8017f39",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-07-03",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-07-03__N__s20260920__main.predictions.parquet",
+      "sha256": "fd8fbd0afc5323c3d37b03b6659117e786bc5863fa31df2ca637df08f7a6df4c",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-07-03",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-07-03__N__s20260921__main.predictions.parquet",
+      "sha256": "610779495291e2001741e60885a1884b33b3322916fc566694ab475232a46afd",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-07-04",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-07-04__N__s20260920__main.predictions.parquet",
+      "sha256": "3803cd7464b48247009fd9da3a20b93efc874574986c1e96d041d434d5546708",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-07-04",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-07-04__N__s20260921__main.predictions.parquet",
+      "sha256": "c849e2b65d950ca275e5159c308a2be28242aec77ce651ea2c0796dba87d0ed2",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-07-05",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-07-05__N__s20260920__main.predictions.parquet",
+      "sha256": "211879ec99626b64f6f4036314fe25221c69612a68193e512b095f684d7475a2",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-07-05",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-07-05__N__s20260921__main.predictions.parquet",
+      "sha256": "aab8a9a324dea606bfafd5318fbbc6b2d18cf2e64103edada68841c599ee64f7",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-07-06",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-07-06__N__s20260920__main.predictions.parquet",
+      "sha256": "00266fada4729066eba29062aaed69240bc3633e0aea19b776ebab998f7bd33c",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-07-06",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-07-06__N__s20260921__main.predictions.parquet",
+      "sha256": "c1b32fbffb971d4a9c195a40db32e78f76d731670522beaa6412cf28e6561c6a",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-07-07",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-07-07__N__s20260920__main.predictions.parquet",
+      "sha256": "573e9c965d68d51bdacb22783d7afc88aff337e4ab26d6f3ef9c34a0365b2790",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-07-07",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-07-07__N__s20260921__main.predictions.parquet",
+      "sha256": "d592a6ff1b998a0202505c5a6b87c36d3da4520cc8fd1b4356371a4980c6ca34",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-07-08",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-07-08__N__s20260920__main.predictions.parquet",
+      "sha256": "09a7c33f1e1bed6b07d788887505794c3eb02cf519b8f2a6bb6f1f2afe3de99c",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-07-08",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-07-08__N__s20260921__main.predictions.parquet",
+      "sha256": "180fc5aafd2d104ef593ea9991468b9a45f83a9f74ba2499b9568e8198952bfb",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-07-09",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-07-09__N__s20260920__main.predictions.parquet",
+      "sha256": "e432a4be52b641a0c2cc833797d774752f8af94d9c52e4064016315b866bf382",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-07-09",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-07-09__N__s20260921__main.predictions.parquet",
+      "sha256": "b503549999901caead74dbf4c7e563f9dea5c447e084cf8fca27158d7792bea5",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-07-10",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-07-10__N__s20260920__main.predictions.parquet",
+      "sha256": "a47fec4cf696e8f87dd5e8bb25e6e1faf4a4c36ab99278ac2cd12eb9171380a7",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-07-10",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-07-10__N__s20260921__main.predictions.parquet",
+      "sha256": "7dacb7f89047a4cde9468644344767d8af93a7a81be343634dea624767c7a454",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-07-11",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-07-11__N__s20260920__main.predictions.parquet",
+      "sha256": "ff20ec5faf24aa538ac2af6849af46317550a0030fe3c36e873de70699873e95",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-07-11",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-07-11__N__s20260921__main.predictions.parquet",
+      "sha256": "af0fa8b67da1b4d78965d244e96fb2f2a1daffb3fe65081a7ea444449e3904d5",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-07-12",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-07-12__N__s20260920__main.predictions.parquet",
+      "sha256": "990a3c61d20f39510fcbb9ca98c56c743cb645e89e0b7189b257c17077e0a268",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-07-12",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-07-12__N__s20260921__main.predictions.parquet",
+      "sha256": "e2a2374c2f9fb7c5ab14d0fe3b6f54b3417818f06c576732a1f5bb03e58e64ef",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-07-13",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-07-13__N__s20260920__main.predictions.parquet",
+      "sha256": "1ca0906bd94a1a7b38f74be7cc4e7fca876cd7311360ed398349224de646ddec",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-07-13",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-07-13__N__s20260921__main.predictions.parquet",
+      "sha256": "8f03c3a37efb3d95cb5ca1f10513542dc58985edaf7e5bf35975d4a8e6e81b11",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-07-14",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-07-14__N__s20260920__main.predictions.parquet",
+      "sha256": "1070c08642b5e4ba11d9a21da25fd22490954fff66d2173529b4d6a37ff8f9e6",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-07-14",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-07-14__N__s20260921__main.predictions.parquet",
+      "sha256": "4191bc2da076ae1c7e83ea29eb0462912fc0c28e1bf80389cc464f28f8861035",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-07-15",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-07-15__N__s20260920__main.predictions.parquet",
+      "sha256": "2186042296b2389cec3dac2214c6c7e565ea7488ca9c5f70ae6e8094b49c8174",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-07-15",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-07-15__N__s20260921__main.predictions.parquet",
+      "sha256": "1a0d5d112016cef8ad378c08de7f7a0445f14b3df91c9eafd8b9d5f51c54bbfc",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-07-16",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-07-16__N__s20260920__main.predictions.parquet",
+      "sha256": "3a2ed8dd87b1799ea3660f74b6e09d073e7eb10a6a21d214e7cc912552012d95",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-07-16",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-07-16__N__s20260921__main.predictions.parquet",
+      "sha256": "e1d402b7642732476265f6bc41c8e7bd60c081449237287f80e902e0c512d7cb",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-07-17",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-07-17__N__s20260920__main.predictions.parquet",
+      "sha256": "fffd6976a90ed8403851a22884e7773f9ba32b85bcc3472b964c42c4ad20d240",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-07-17",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-07-17__N__s20260921__main.predictions.parquet",
+      "sha256": "16f18ca0914fad428cf0da6890a9767dbcb08adb8e6e76bec6d7d83dd8f97b37",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-07-18",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-07-18__N__s20260920__main.predictions.parquet",
+      "sha256": "5871a7dd0b23399f9b2276624bc350e223b0f35679f0d01325583f1cf01eeaea",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-07-18",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-07-18__N__s20260921__main.predictions.parquet",
+      "sha256": "2f75e6a8e44a56d86546af85ac0526afdae1e1797076f2d2f0bf03d85024227d",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-07-19",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-07-19__N__s20260920__main.predictions.parquet",
+      "sha256": "7e7a0f124e03db3932f3081d34c64b3bea80718eef52f72526f460ad3e2a48d8",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-07-19",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-07-19__N__s20260921__main.predictions.parquet",
+      "sha256": "da807c5f3e431402ca1a3ecfce367f82224a1e99e13142215091dd2f9c921ff6",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-07-20",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-07-20__N__s20260920__main.predictions.parquet",
+      "sha256": "2404e97029d0412f88743826a20ae5085777baf4eb86ca384022a46b75da561e",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-07-20",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-07-20__N__s20260921__main.predictions.parquet",
+      "sha256": "775ec19f778b2a2d353ccb8c42f7eee20176a0a38a100e33af9400923657d7d2",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-07-21",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-07-21__N__s20260920__main.predictions.parquet",
+      "sha256": "f60f6d1eb18e187c944952bb7fdafaee0ad9f6a28db6a4840d694a9a7ca8bd95",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-07-21",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-07-21__N__s20260921__main.predictions.parquet",
+      "sha256": "a3541bce6874303990207ee01ad12ecfdbae48360edbe88ab4ba8f61a7b363ce",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-07-22",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-07-22__N__s20260920__main.predictions.parquet",
+      "sha256": "419967e44127b39c0edf46e644cb818b1c427b844b04b4dac92dc9e9a9febff0",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-07-22",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-07-22__N__s20260921__main.predictions.parquet",
+      "sha256": "5b73fcc4f297d5a17ab09ac4d23bab882116451d7009e2a54fbdc6bc62c31b44",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-07-23",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-07-23__N__s20260920__main.predictions.parquet",
+      "sha256": "74787f7f41182194a7dd7e0c2c640665cec7d4d2f313243783896d31fa29f55a",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-07-23",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-07-23__N__s20260921__main.predictions.parquet",
+      "sha256": "925898e15df96d16085b5a0be0f8d340c4eb7100ca9b5124047b0e98e6df7a5e",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-07-24",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-07-24__N__s20260920__main.predictions.parquet",
+      "sha256": "964614492e4128b5ec69633d411c1d9813ef7ad94a03be69802e87e83e11ef96",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-07-24",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-07-24__N__s20260921__main.predictions.parquet",
+      "sha256": "95324f659c89279f216fee73589a1a219b491b2b7689a19f41236864bb74bd2b",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-07-25",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-07-25__N__s20260920__main.predictions.parquet",
+      "sha256": "a96c51567bc7706c63cebae10e7b1d3e7949c300bb6f6fbac7428755f12d1370",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-07-25",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-07-25__N__s20260921__main.predictions.parquet",
+      "sha256": "619685a6a821935f4a820e0c823958da76a82ae6462da02249170a2103774aff",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-07-26",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-07-26__N__s20260920__main.predictions.parquet",
+      "sha256": "0b9d12d21223481e053a6fca0da7dd65cb3fc7bf3a237815ec7e44d5ce921ce9",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-07-26",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-07-26__N__s20260921__main.predictions.parquet",
+      "sha256": "e1ebeee15424c3f52bc195ff2cbaf9246e4b0339c33f40ea79b6be96e8d6920d",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-07-27",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-07-27__N__s20260920__main.predictions.parquet",
+      "sha256": "5c9ba7413fcd3f5c766c5b9a6182c632b3aa636098c6b7f0574b8e35fe3cb1a0",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-07-27",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-07-27__N__s20260921__main.predictions.parquet",
+      "sha256": "8ceae6fe2ebcae6b01bdda4c110a786bf43b5f128e47fce8f2dd607695c54493",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-07-28",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-07-28__N__s20260920__main.predictions.parquet",
+      "sha256": "bb4301e4c2225d061adadb14d55587c964295632da66d6cb4aded2cc0444a64c",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-07-28",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-07-28__N__s20260921__main.predictions.parquet",
+      "sha256": "cc70891275f10dca597b3dd5f8705aeffff7169651400bdb644a12a4898d58ab",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-07-29",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-07-29__N__s20260920__main.predictions.parquet",
+      "sha256": "84117f78e5f004956e0be77162c370779c3b75db72fe14089fe2d3a6e22c872b",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-07-29",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-07-29__N__s20260921__main.predictions.parquet",
+      "sha256": "7aba6bd9003805a532c4687b791792634f5af94da98637329ac2de35f53c929b",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-07-30",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-07-30__N__s20260920__main.predictions.parquet",
+      "sha256": "1bc2abcb3ffa4596294c2636922dc828e7fd36a5ad95f4ba663b01a3941f3aac",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-07-30",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-07-30__N__s20260921__main.predictions.parquet",
+      "sha256": "ab08841e4c5794cb268cdf58e64f1e8400efce7bbcc489283950ea983bb75a0e",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-07-31",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-07-31__N__s20260920__main.predictions.parquet",
+      "sha256": "2c47faf2f723bc7054653c5cc720af0bacb0721d52aa471251e734522f1a5e91",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-07-31",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-07-31__N__s20260921__main.predictions.parquet",
+      "sha256": "a8301d6806b123b7feb5e2524d5dccac0bf4370d81e33dea6f945f62bc5ae13f",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-08-01",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-08-01__N__s20260920__main.predictions.parquet",
+      "sha256": "c7765664f2540c1f96e20def4aebbe25404c20189ce6d8422f05ce40761f4beb",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-08-01",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-08-01__N__s20260921__main.predictions.parquet",
+      "sha256": "c31142bba73cd48f9d0270a19ac5b7a63fce118637b7ad0e505e2a072c04a4e9",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-08-02",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-08-02__N__s20260920__main.predictions.parquet",
+      "sha256": "1d6c16e37d9cc4d70888b878472ea943875fd24141db5b2119b9884b57b09c31",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-08-02",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-08-02__N__s20260921__main.predictions.parquet",
+      "sha256": "d54d908fb776fd265fa24590a4a20890b58e22e7a4f52d5db7f004f9d790a24e",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-08-03",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-08-03__N__s20260920__main.predictions.parquet",
+      "sha256": "e70e4efdfde9eb3da64cad323dfcc310468b81da07042c0ec0461bb66818944c",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-08-03",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-08-03__N__s20260921__main.predictions.parquet",
+      "sha256": "fc4edf8a826449d4ada1990714ddd0e6e6636564cb77355e45598bcd9f39e5ef",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-08-04",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-08-04__N__s20260920__main.predictions.parquet",
+      "sha256": "56234844fa0413ba94157d41771a23293ef35439e1572a93cebcfdfd3e2cd999",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-08-04",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-08-04__N__s20260921__main.predictions.parquet",
+      "sha256": "6c5116ee244b28ee861b572aa015b363c84d074a0f0bdcb4e6c4abb2927c2f69",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-08-05",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-08-05__N__s20260920__main.predictions.parquet",
+      "sha256": "b2feee4f0b57227ea603062aab2f9d81dd12c81f00e1c8b3f64d682c3d7fdf73",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-08-05",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-08-05__N__s20260921__main.predictions.parquet",
+      "sha256": "a03aa2ebdada33be57a0fcdcc0a2e0322d4e18a37e8939d679f7f51d691a1dd9",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-08-06",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-08-06__N__s20260920__main.predictions.parquet",
+      "sha256": "bbe2f0649c21a42a33b1c4e26175787be5af802842980a472555940732feaf40",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-08-06",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-08-06__N__s20260921__main.predictions.parquet",
+      "sha256": "c90293aff465bdb82b55b48c5eabacfaf9fc3731876383d7d64f9d03ab73c1db",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-08-07",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-08-07__N__s20260920__main.predictions.parquet",
+      "sha256": "27d19e46e65e4efdacef4677ae8aa827d281e1ce548823f7729cdc46bad5c3f7",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-08-07",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-08-07__N__s20260921__main.predictions.parquet",
+      "sha256": "bfcf8b26ed94033549ea00c021a67cc6c7be1ea22f22eda741e35958b2c52c7f",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-08-08",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-08-08__N__s20260920__main.predictions.parquet",
+      "sha256": "092b2f897d8b37badd03dc6a98df6f82e771ce25847f3e5d0baf25d66d140f16",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-08-08",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-08-08__N__s20260921__main.predictions.parquet",
+      "sha256": "5bd81f0a1c7e9b43a5b650107f063bf1ef8905b4dc6cebb0a5ccd73d815c1bbe",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-08-09",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-08-09__N__s20260920__main.predictions.parquet",
+      "sha256": "967e392a836e1fed3513fb946434f7f09434d517250c230ba844ea193da4192a",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-08-09",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-08-09__N__s20260921__main.predictions.parquet",
+      "sha256": "483a0ae462d2d99012c816f85c6d5702d3c23c318168408e1a6255ceb80f7f05",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-08-10",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-08-10__N__s20260920__main.predictions.parquet",
+      "sha256": "023f47809cddb2274beddf5bf14edd68dc4e5e024020bbe2313c3e14e4813f12",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-08-10",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-08-10__N__s20260921__main.predictions.parquet",
+      "sha256": "53ed034c676fcd4059f894de4f752dd12874988dc62098e7b0749970c4e2fbff",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-08-11",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-08-11__N__s20260920__main.predictions.parquet",
+      "sha256": "4c80486fd023bac78f8b69a3098c5372553d90c0d0cd7c9a9c48ed0e2fe6b23b",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-08-11",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-08-11__N__s20260921__main.predictions.parquet",
+      "sha256": "247e2c6dbfeebb3fd746c61788cf46ed1a15f48eb4d9e7b325cd171120cd33b6",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-08-12",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-08-12__N__s20260920__main.predictions.parquet",
+      "sha256": "28120367da55e0865b205d538783c1a2bf129a73d86ea7be1409b690f2a8b5c3",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-08-12",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-08-12__N__s20260921__main.predictions.parquet",
+      "sha256": "d3aa6da18880beb0dfa5a8993322559b3e49ea75de4268709901c88b5cbdca74",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-08-13",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-08-13__N__s20260920__main.predictions.parquet",
+      "sha256": "6641ea26e33c640ba65e73d8d1a7e6028a57b49cb404fe6c9213227dd8ea30d8",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-08-13",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-08-13__N__s20260921__main.predictions.parquet",
+      "sha256": "2fc59acbf46354693ff9264c494638cfd206d7543e013ec22fc377104c5d327f",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-08-14",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-08-14__N__s20260920__main.predictions.parquet",
+      "sha256": "3be784229393e4454aec64a2311d46ea29c081170d649ee9718388c2334076ce",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-08-14",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-08-14__N__s20260921__main.predictions.parquet",
+      "sha256": "a4ec9e6a4ef875127911650097e42a8fb07d948cd30d90918f785dd8849b36e9",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-08-15",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-08-15__N__s20260920__main.predictions.parquet",
+      "sha256": "34f394393dc8951abbe6bab673f55f0006a1051ca835e0734cc43df87bb0d128",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-08-15",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-08-15__N__s20260921__main.predictions.parquet",
+      "sha256": "10056284c7769979147681614afb2df8fb58440fbc5384a25d51bfaeaf101fbb",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-08-16",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-08-16__N__s20260920__main.predictions.parquet",
+      "sha256": "7029c7fd4250f150e57a703c86da850692f58ca07b022394afef4e745ea25c04",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-08-16",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-08-16__N__s20260921__main.predictions.parquet",
+      "sha256": "d32172cdd6ae026398e4065352d2e3ca60df36e1e4eab43c62db2ba58bd0fe5b",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-08-17",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-08-17__N__s20260920__main.predictions.parquet",
+      "sha256": "aacc626d9ab39ab4d5214a7afa58a17fde03be02a08ddbdd25b16947bf44a9eb",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-08-17",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-08-17__N__s20260921__main.predictions.parquet",
+      "sha256": "ae8e5d4ec3c985240cf8e14866602a16e3b5a61d77b6d39535e01490bb4e6f98",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-08-18",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-08-18__N__s20260920__main.predictions.parquet",
+      "sha256": "cfb80be0ebf908ce8b118d391e052025ff64da86bbe309fa33df9b3e16a5c2c2",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-08-18",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-08-18__N__s20260921__main.predictions.parquet",
+      "sha256": "b62ecfc09d98c181e5033caeb9b270a576762ad910c19fb5d14def7556957a2b",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-08-19",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-08-19__N__s20260920__main.predictions.parquet",
+      "sha256": "c7dadac046efbdd8b479c342ff3c2cb430e9e87781517cb0e0638dd6480b6477",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-08-19",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-08-19__N__s20260921__main.predictions.parquet",
+      "sha256": "24f4893bcae2c6e16fed37a41b88fbb266fe1e2af2350916cdea9ddb433fa9e7",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-08-20",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-08-20__N__s20260920__main.predictions.parquet",
+      "sha256": "ac1ddd0f1559aaa6d23cfb1bed5e99819c7bde7c5f8dba2061655ff1f30a5429",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-08-20",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-08-20__N__s20260921__main.predictions.parquet",
+      "sha256": "9cc035f47a6f8adafa0cc1293e6164ea2ae7b889f2cb1c996cadee00dd2dbb0b",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-08-21",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-08-21__N__s20260920__main.predictions.parquet",
+      "sha256": "c58a48639c15ab76d729dce0f6547ae11ac487131e465c21f34189f691923580",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-08-21",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-08-21__N__s20260921__main.predictions.parquet",
+      "sha256": "a3665196d50f648b8a235b829c14bc1fa349edd6f19cd9ec60d9534ffbb7766f",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-08-22",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-08-22__N__s20260920__main.predictions.parquet",
+      "sha256": "5d3719c979e6a05de908297a2f28b26e546e14d0388ac7bf7a8687d617901724",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-08-22",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-08-22__N__s20260921__main.predictions.parquet",
+      "sha256": "2befacfd280b8bf4e60204da769c4c55e80d33eb1337e217832791e8a3006ba0",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-08-23",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-08-23__N__s20260920__main.predictions.parquet",
+      "sha256": "58246fcf00421492107ea7d1a116a17b2c0060910b1aac57352094c425de55f9",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-08-23",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-08-23__N__s20260921__main.predictions.parquet",
+      "sha256": "0c2e575aff3a4e253b53806937a7a5f54e14db5420c75ae6a85bdd66abdb99ee",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-08-24",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-08-24__N__s20260920__main.predictions.parquet",
+      "sha256": "970a7181411d891593f57fa36bd5d3c43b8767aeffe724df1ef2d49ff1ab23cd",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-08-24",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-08-24__N__s20260921__main.predictions.parquet",
+      "sha256": "639e90b97ca0b3dfb9230fc60b625901259fc01ae684ac97f8b5cc38c355aa16",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-08-25",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-08-25__N__s20260920__main.predictions.parquet",
+      "sha256": "3c64bbf86e4554664715847ca4639cf553a61e939cc0f6c82268ef88d01ff467",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-08-25",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-08-25__N__s20260921__main.predictions.parquet",
+      "sha256": "3b3d01ff52c1c88f314ce42149b48a21eb2387ba231d2012e1c82453b4c05ecf",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-08-26",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-08-26__N__s20260920__main.predictions.parquet",
+      "sha256": "bccd1bdd966d0642f5d5ec288589721442f8f0ad613cf18ce77fac018d169e9a",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-08-26",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-08-26__N__s20260921__main.predictions.parquet",
+      "sha256": "a34dfe85906c15890cac76456df7ce653fd7f5971ee431e1170816286452a30e",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-08-27",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-08-27__N__s20260920__main.predictions.parquet",
+      "sha256": "3a670bf4db9c5b1755dab3e1aa391cebf03b14224803c459f928d40623cfff78",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-08-27",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-08-27__N__s20260921__main.predictions.parquet",
+      "sha256": "9a89bfa1f68afdcbf192940a6d9797bd4f995b5c271ffc16e51f1a7f66967f45",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-08-28",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-08-28__N__s20260920__main.predictions.parquet",
+      "sha256": "f759ec045b9282d331a9032b97d4f5480f5a1ff7c969f2f2fcdce96c8c2b9f3f",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-08-28",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-08-28__N__s20260921__main.predictions.parquet",
+      "sha256": "5abb6bb7e3e3955be245b1a06f61e38153b9ccb8c0482bad98873bf9bb63bf28",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-08-29",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-08-29__N__s20260920__main.predictions.parquet",
+      "sha256": "773d87f151d03f2b3de91898c19262876d412caef21a763c36fb66e9589a98ac",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-08-29",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-08-29__N__s20260921__main.predictions.parquet",
+      "sha256": "e804cb29f325d84f6068ab6949db67c6a09bc24f2b65309a7206b4c46cee2045",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-08-30",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-08-30__N__s20260920__main.predictions.parquet",
+      "sha256": "bff4f1eba6958ed06103a0f34fac66e116ad4988de03f36706f0ff30f4b033cc",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-08-30",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-08-30__N__s20260921__main.predictions.parquet",
+      "sha256": "7e20c9725e69353d497b168605825d6f5a221ec53c9af592f9a2a16e6ab6c89d",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-08-31",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-08-31__N__s20260920__main.predictions.parquet",
+      "sha256": "73e4a1f29a9435e4d1e6ba46d78a4b8717f5c17bc21056d773c7ac1b519dcc17",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-08-31",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-08-31__N__s20260921__main.predictions.parquet",
+      "sha256": "05c64aae5657a8260c28f86d8b26158652a0643fd575c211027d14bd0b0c4d5a",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-09-01",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-09-01__N__s20260920__main.predictions.parquet",
+      "sha256": "edbab46220bc01e9259bb5753dca705c3e9a79e0c1fbcf07987e3970d23883e7",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-09-01",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-09-01__N__s20260921__main.predictions.parquet",
+      "sha256": "4b465993037e5f018e2a34b5403f1834c8a697866dca267080774fcf03f3d309",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-09-02",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-09-02__N__s20260920__main.predictions.parquet",
+      "sha256": "706b4e513bc23f0a084d4e27f4a7a359bbd4aa260714796ea2384b81af59e879",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-09-02",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-09-02__N__s20260921__main.predictions.parquet",
+      "sha256": "72ad9769dab93aa877e373262652b5afc9c1c47be327145113421207d0206c1f",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-09-03",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-09-03__N__s20260920__main.predictions.parquet",
+      "sha256": "fe23495f5ede25c04eaf75ffc9cf794d1a3d5a664f6ad6e3615c7811f89bd74f",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-09-03",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-09-03__N__s20260921__main.predictions.parquet",
+      "sha256": "62d85f2f316351951edcfd362bdb1c01d932c5aa5a2ba6b00dce0544882b2016",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-09-04",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-09-04__N__s20260920__main.predictions.parquet",
+      "sha256": "6a78a878977d452f860fed8ede0a03acac63e537a2ea6c5c02b98121c6a22e51",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-09-04",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-09-04__N__s20260921__main.predictions.parquet",
+      "sha256": "e98f200fee5509b6e2c55ecedf1d383624cf67cd750c6b2b8dbc911c3d76253a",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-09-05",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-09-05__N__s20260920__main.predictions.parquet",
+      "sha256": "6281b9140a94343a9da23799a6e2fd43fdbc47c2589ea5536473abec1033569d",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-09-05",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-09-05__N__s20260921__main.predictions.parquet",
+      "sha256": "e7f3715f5fe197f9ff352f425aa25841c06580e2b716420e45bfd0cc7f469f9d",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-09-06",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-09-06__N__s20260920__main.predictions.parquet",
+      "sha256": "2e0ddcc2d5bd3044174f1b10c826044092ff1dd153d38ae2984c9bbae3bae116",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-09-06",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-09-06__N__s20260921__main.predictions.parquet",
+      "sha256": "845566b8d4d10d3a006b83a03a4537e9dfa4bc9606c1e75852b76bc6583d744c",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-09-07",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-09-07__N__s20260920__main.predictions.parquet",
+      "sha256": "f87783ecce08c57b16c7c1af9ad594d5c2e8559df72a0ded435313c12811b055",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-09-07",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-09-07__N__s20260921__main.predictions.parquet",
+      "sha256": "be6a5ccdddbbc08391cffb3a45d506e8b38d89c4da0bbf9e799a08349ce1b32d",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-09-08",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-09-08__N__s20260920__main.predictions.parquet",
+      "sha256": "921882ac03cc295716217d6eeb088adad15db664e3c260fd6dcd166262ed9147",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-09-08",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-09-08__N__s20260921__main.predictions.parquet",
+      "sha256": "410d7b69804906a430b05eb955631231a1c87422c72895e174e431d67445323b",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-09-09",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-09-09__N__s20260920__main.predictions.parquet",
+      "sha256": "c428d54f4a7a1bd3200fb9c35ab2ee0e099471e109c46fc3a84a5451e120a1cd",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-09-09",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-09-09__N__s20260921__main.predictions.parquet",
+      "sha256": "23c6561444a6fea2ccbf7514158aec1d01a2a12cb30d541f5d4f64a49c6540f9",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-09-10",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-09-10__N__s20260920__main.predictions.parquet",
+      "sha256": "390c2e866b056fd996c9e97b6f8322ae49ff0988ed3cb0341a4f94000a6863de",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-09-10",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-09-10__N__s20260921__main.predictions.parquet",
+      "sha256": "a8673eeb495c36bf74519de4d804ac6e7359d3f44ce829f9a062b8c10c702707",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-09-11",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-09-11__N__s20260920__main.predictions.parquet",
+      "sha256": "d39a06bbef90f70d67c6588cb3d2441799e94201b0adca3091480abefe4d95bd",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-09-11",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-09-11__N__s20260921__main.predictions.parquet",
+      "sha256": "3459d374363b30e98022d2e706b3131d955575054f90a899cd70010509e1aa09",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-09-12",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-09-12__N__s20260920__main.predictions.parquet",
+      "sha256": "f07dd617aa1c3449dde7eb8a89f762cd13486de5850d8d83b2e2d16eddb3b85b",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-09-12",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-09-12__N__s20260921__main.predictions.parquet",
+      "sha256": "22d11bd67a22f9c1a09416a0dfe8cd9007150f15292e1f724ff3f7ce3b9abf1b",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-09-13",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-09-13__N__s20260920__main.predictions.parquet",
+      "sha256": "0cb2b147d4f12d0ac0fa23419bcbeb29ce1bc51e665cd147754751e9c301e619",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-09-13",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-09-13__N__s20260921__main.predictions.parquet",
+      "sha256": "05ffe278ef3bcb48b856a5f755e1d7bd6852000cb9621e13f173fd652f3a53c3",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-09-14",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-09-14__N__s20260920__main.predictions.parquet",
+      "sha256": "e6f186f8ffce2b0928fb0efc68b179b285c25d7ce4926fe33492723fb68bb3df",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-09-14",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-09-14__N__s20260921__main.predictions.parquet",
+      "sha256": "0d8f4ed6230256b9f39702a7e38417105d001665b77dd3ea26bb66f4e33e77e4",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-09-15",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-09-15__N__s20260920__main.predictions.parquet",
+      "sha256": "cb822f68c48cc9813286d77561a0a3fd9b000ae76f207b4074a3e61d97aa3404",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-09-15",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-09-15__N__s20260921__main.predictions.parquet",
+      "sha256": "cec5ee1e010144fe6622ab07dcc08e04c73ce245937e06f3ed59ff8b68ffe01d",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-09-16",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-09-16__N__s20260920__main.predictions.parquet",
+      "sha256": "e148f0f9b0729a6dd9f60c76acf7b68568e0a779143255a728f2791d0893ba05",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-09-16",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-09-16__N__s20260921__main.predictions.parquet",
+      "sha256": "d262f68c540023d9c589ef03c804e68367f1d5c999cedc37b061a5c33595e16d",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-09-17",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-09-17__N__s20260920__main.predictions.parquet",
+      "sha256": "fe86d0d630a727801026c5b2e6eba8c53849154b2b60651d38668d3127ec4d11",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-09-17",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-09-17__N__s20260921__main.predictions.parquet",
+      "sha256": "4ca25c00a972eda9bc913ffd965c7f1be76e8216b349adf43a34182515ae9580",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-09-18",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-09-18__N__s20260920__main.predictions.parquet",
+      "sha256": "a89e6a86a479a16aae7c106fe2654eda1d0b45c7c7ff2d59100cb813d816907d",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-09-18",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-09-18__N__s20260921__main.predictions.parquet",
+      "sha256": "f63777123efb831cb002e4394e78ceaa009ab875b490d101474edce9a2d486d6",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-09-19",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-09-19__N__s20260920__main.predictions.parquet",
+      "sha256": "b7e14fb3fd0b3af5c26f18718e77055edba4e578d2cca32c8f8032c0f2eb4629",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-09-19",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-09-19__N__s20260921__main.predictions.parquet",
+      "sha256": "b43eee6da5d1155be8aa954a8bddbcb4739bf67c3fb5b36eb461b014e0e38f47",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-09-20",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-09-20__N__s20260920__main.predictions.parquet",
+      "sha256": "9fa5de77b1f7d46e2b07f55271e5ecae7d6b3daad07249f47c12a520ac5a5b62",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-09-20",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-09-20__N__s20260921__main.predictions.parquet",
+      "sha256": "d18b1ab652af329c11973e6d1fe487836d4d9468a7375f5ae9979e34907a5175",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-09-21",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-09-21__N__s20260920__main.predictions.parquet",
+      "sha256": "1d542eab81916f83294f34333223278ce4b00d43a630bd54cd585a528a4d9f18",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-09-21",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-09-21__N__s20260921__main.predictions.parquet",
+      "sha256": "c55c6230407d3439107b065024b13a48dfc6a4d9e47c6344d22f24ff0b90e12d",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-09-22",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-09-22__N__s20260920__main.predictions.parquet",
+      "sha256": "bf6f6dcad30b00ea1e2155b71d48b22f8f8287e9e5116900a91576267b54af58",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-09-22",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-09-22__N__s20260921__main.predictions.parquet",
+      "sha256": "e41a4167f9af4427876f47d359245be6f002895c873de827a0fbbba25c4356f3",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-09-23",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-09-23__N__s20260920__main.predictions.parquet",
+      "sha256": "1ba50400407fc2259d8eb43ade910bee103a293580e83b03874b7988e6d72fa7",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-09-23",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-09-23__N__s20260921__main.predictions.parquet",
+      "sha256": "de16faf1b9307ad9eb18cac302245651247469e23b10e4dcd8cbcad30fb674da",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-09-24",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-09-24__N__s20260920__main.predictions.parquet",
+      "sha256": "ca5ace6c86b92d08a5c8c16685697e10c37b5b3abe47779bf576d8b5dcc541a2",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-09-24",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-09-24__N__s20260921__main.predictions.parquet",
+      "sha256": "38f4e076422bd7e4e5d61cf3261b815c022aff8886242a8354835930a03926d7",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-09-25",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-09-25__N__s20260920__main.predictions.parquet",
+      "sha256": "6fd05e2bdc5e3719982c7b7ac560d3202ff802063cb93798d7d6335af5e616a3",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-09-25",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-09-25__N__s20260921__main.predictions.parquet",
+      "sha256": "56fd0875d71ee239f11f15dad38b43dad0abae0d612d9d070d6c24c678f9b649",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-09-26",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-09-26__N__s20260920__main.predictions.parquet",
+      "sha256": "f1b69eaccba0ec78b803c17c0dcf2f57eeabe43cd8b8a809ef62d8a254728575",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-09-26",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-09-26__N__s20260921__main.predictions.parquet",
+      "sha256": "e0d2cd833424624d4955ee616d61c149d762eafcb077df7323c1c8df4adbac9a",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-09-27",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-09-27__N__s20260920__main.predictions.parquet",
+      "sha256": "2f32e2a09201b1ef73604812b4133a0ee51b83ada974684fc0c893102a95ded5",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-09-27",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-09-27__N__s20260921__main.predictions.parquet",
+      "sha256": "3ca0ae4df82496eef8d175cf350555ae70a0ebea7a47c2c0ab2e74bfd8183031",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-09-28",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-09-28__N__s20260920__main.predictions.parquet",
+      "sha256": "8c6d68e337f64d633c248a1954c50720a527f3ea364b5be92b6f7daefc850649",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-09-28",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-09-28__N__s20260921__main.predictions.parquet",
+      "sha256": "46a7d2640fb7372e1d0b126c24e61a10dd18d93a91f308b3c2775fd4655b6139",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-09-29",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-09-29__N__s20260920__main.predictions.parquet",
+      "sha256": "7599f846bf2dd6eaf52f8d8fee3af3b34e16c7a51030679c54b8f965ac00d9d6",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-09-29",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-09-29__N__s20260921__main.predictions.parquet",
+      "sha256": "1887dbb128d343662399783c0b49316e0cb5e6d64e5f33af936b10dabf383db8",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-09-30",
+      "arm": "N",
+      "seed": 20260920,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-09-30__N__s20260920__main.predictions.parquet",
+      "sha256": "d3386c76e0edf46e69d7480daaf2a0be73e0c13a8d4f6d2afa236cf7c4057f14",
+      "rows": 72
+    },
+    {
+      "group": "no_text_news",
+      "task": "news",
+      "origin": "2026-09-30",
+      "arm": "N",
+      "seed": 20260921,
+      "variant": "main",
+      "component_pairs": 0,
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/artifacts/news__2026-09-30__N__s20260921__main.predictions.parquet",
+      "sha256": "dfcc67211733ce0785c20ceedfa6c26f522d1e455694b3946c80fe157d057a88",
+      "rows": 72
+    }
+  ],
+  "fits": [
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_notice/receipts/notice__prewindow_frozen_C_bank__N__s20260920__main.json",
+      "sha256": "5dbd1c492559c4fb1d73569b99eff27d5347fd6cf39016353cff2cc8956124f5"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_notice/receipts/notice__prewindow_frozen_C_bank__N__s20260921__main.json",
+      "sha256": "643acc6aad3ea9c9c832f61567b34bcc35374c9b47425c903147b04ebf3d1593"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/w7/receipts/notice__prewindow_frozen_C_bank__L14__s20260919__main.json",
+      "sha256": "fb954ec2e79ab36bcee9bdb557ae883ad82133c591d0417a60034e9cc98262dd"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/w7/receipts/notice__prewindow_frozen_C_bank__L14__s20260920__main.json",
+      "sha256": "78d1317b969eff50dfdf7dd57f530bb3f3e34ed9249f20d98a4340236c5d4f37"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/w7/receipts/notice__prewindow_frozen_C_bank__L14__s20260921__main.json",
+      "sha256": "39b34f777682d089b617bd09a8f5f190fdd14d731c5c69024305aad0a38d8422"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/w7/receipts/notice__prewindow_frozen_C_bank__L_Laz__s20260919__main.json",
+      "sha256": "5ea703e80959199972b6bb23657a1a35892b6732699611ccec4101ed9740d6ed"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/w7/receipts/notice__prewindow_frozen_C_bank__L_Laz__s20260920__main.json",
+      "sha256": "0c99c097218cff68c6aa1067c6913c42c928793ae981916527cbee9c2c970515"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/w7/receipts/notice__prewindow_frozen_C_bank__L_Laz__s20260921__main.json",
+      "sha256": "6baceabce416996a3f82ba7ad777516eb06add29ecd14dc659f768a47d8404f2"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/w7/receipts/notice__prewindow_frozen_C_bank__L_chen_notice__s20260919__main.json",
+      "sha256": "3d2d929ecc96c4c57dfd86c38a980035ef694c23dbf381f6ea08d5e26567e73e"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/w7/receipts/notice__prewindow_frozen_C_bank__L_chen_notice__s20260920__main.json",
+      "sha256": "75af5fea197d08e3dfe569d644153ece4b1a0812f4320be2c50806252caf880b"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/w7/receipts/notice__prewindow_frozen_C_bank__L_chen_notice__s20260921__main.json",
+      "sha256": "e60194598fa8886c4515d33bdc0b22522ec89dd2d7b0f5dda86285eeb84bc4d3"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/w7/receipts/notice__prewindow_frozen_C_bank__M_notice__s20260919__main.json",
+      "sha256": "7b75d2f1b091bb4312eb40fb19f0755c887de6824e89e595de9ba43e748b3ab1"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/w7/receipts/notice__prewindow_frozen_C_bank__M_notice__s20260920__main.json",
+      "sha256": "3795645b34aa3740cbebfdaf4d9cbdb0a7c3976957f108cc14ed57cba4d1c36b"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/w7/receipts/notice__prewindow_frozen_C_bank__M_notice__s20260921__main.json",
+      "sha256": "b058d61e907c44cf3ff7a2867b402288f63f0927fd30850637588aa7d0070b12"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/w24/receipts/notice__prewindow_frozen_C_bank__L14__s20260919__main.json",
+      "sha256": "bf0320d10ab1a9fd4e949c34a86864eb08887d2895edf01f8b9ce5eb99958ad7"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/w24/receipts/notice__prewindow_frozen_C_bank__L14__s20260920__main.json",
+      "sha256": "4b3427693dcd09155b24adc550e96401c20402344e1bcc810494f962fac1cdd4"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/w24/receipts/notice__prewindow_frozen_C_bank__L14__s20260921__main.json",
+      "sha256": "932f70a259f45c885c6d9392645659cc856264fd63d4f8545532fe627e905d49"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/w24/receipts/notice__prewindow_frozen_C_bank__L_Laz__s20260919__main.json",
+      "sha256": "8c00b2ae25a6c6809cb231da91b7f1ade68800d84ce00a39e7495ec2b4210c6d"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/w24/receipts/notice__prewindow_frozen_C_bank__L_Laz__s20260920__main.json",
+      "sha256": "b01629a7ba67dfa36c7eba8cdb34dc35122ec64a69d662fedca41eb1fddbfb7b"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/w24/receipts/notice__prewindow_frozen_C_bank__L_Laz__s20260921__main.json",
+      "sha256": "a1f5ce59ac6390300d9860e5159288ea076b397c39573839f2d776b2bdd9799e"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/w24/receipts/notice__prewindow_frozen_C_bank__L_chen_notice__s20260919__main.json",
+      "sha256": "7bb2e48b6ffe6d6300e9bd52f77f98c2cf273444db4734d702cd2f7f899ef2a2"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/w24/receipts/notice__prewindow_frozen_C_bank__L_chen_notice__s20260920__main.json",
+      "sha256": "4da6734a999322075a7283725844309d62e34ea27ac6d5b4fb52e9eb00364308"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/w24/receipts/notice__prewindow_frozen_C_bank__L_chen_notice__s20260921__main.json",
+      "sha256": "65ef9031dcc79bbe2456cc0168b8dfa4bb5280869d1a92259d2d3dcefc366897"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/w24/receipts/notice__prewindow_frozen_C_bank__M_notice__s20260919__main.json",
+      "sha256": "676a794f04879cd81040ebe52b3e8fe0cacc25a8800cbd621729b0ce0c43a014"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/w24/receipts/notice__prewindow_frozen_C_bank__M_notice__s20260920__main.json",
+      "sha256": "04dad0b86853f5d417f6e32d93594d08d37d0939833dbc43f6f74282d527622f"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/w24/receipts/notice__prewindow_frozen_C_bank__M_notice__s20260921__main.json",
+      "sha256": "74fbd7be384ed7168655a2cd6c65a2af2801a4cb4b3f9174a73f640720f9281f"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/w7_shift/receipts/notice__prewindow_frozen_C_bank__M_shift_notice__s20260919__main.json",
+      "sha256": "4fd00335afab5bc912732f45531c60d6360a36a02b61d6edd8cdca8d492ebf75"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/w7_shift/receipts/notice__prewindow_frozen_C_bank__P_shift__s20260919__main.json",
+      "sha256": "87d079e765412ee9fcb7f0ab6e576641c68ddf1ac97924e5266b08e0d995edae"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-05-19__N__s20260920__main.json",
+      "sha256": "bb4a8ee2b93d523e258a42ceb24ab65937eac7f75ac955b7cc4bd437f9d1fb3c"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-05-19__N__s20260921__main.json",
+      "sha256": "b3569487aa15e3d86537adc33240a7d943e62a616529d205ff963c32555ac81e"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-05-20__N__s20260920__main.json",
+      "sha256": "bb90e84d8face60698f7092874234a16657a85294d0a3ccd038124cf982cbeb6"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-05-20__N__s20260921__main.json",
+      "sha256": "7dcfd0ef485985945f2b0c84fe9f5d5211e464e28c9596d21e4d48596456af90"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-05-21__N__s20260920__main.json",
+      "sha256": "1f21477545f8aea6de0e416572f86dd6efbcced2dce9570e6e98b3a3c440ed2c"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-05-21__N__s20260921__main.json",
+      "sha256": "5f63c7626405176f6b644dffaaebc7180ffeacbb88670bbb89137f8a4706e74b"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-05-22__N__s20260920__main.json",
+      "sha256": "53944a0f8d157af0e7932c57f30cfab9a6f7aa6cd4fd412b904c250cb12bd3fd"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-05-22__N__s20260921__main.json",
+      "sha256": "fc7c35c8161474436361d63b12817b9191dd45df1ec6a728fa08e4645dd08ffb"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-05-23__N__s20260920__main.json",
+      "sha256": "f0e219afe78cc28a05743f54862cf94b873227f237b8c649cae5edfe1d04f6fb"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-05-23__N__s20260921__main.json",
+      "sha256": "8d0518f1623a0057bb917f37e0315ef3c89a910f20cb1412dc04a35e5ce99de2"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-05-24__N__s20260920__main.json",
+      "sha256": "d7c183a7653062de5cae59444a5c2d1a3923869436c22d547738e8d382f6006f"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-05-24__N__s20260921__main.json",
+      "sha256": "90e7cd6e5e7a152a3cd8aa216bb1c6f23877473b6a241683ef303139f7f1b50c"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-05-25__N__s20260920__main.json",
+      "sha256": "a6a214aa504e9404e7ba6791d6142621c5084cf5ede1b948c270f28e6be52a4f"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-05-25__N__s20260921__main.json",
+      "sha256": "109cfef19c59b8cc2e14cc58b8b9e263a15b2f3c466b7eb01f55e66e88b70052"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-05-26__N__s20260920__main.json",
+      "sha256": "b213f9a29909a8a76e344ba90c895d6d6118fc61bc44e89247868f3c68085aae"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-05-26__N__s20260921__main.json",
+      "sha256": "bbd2ce230a9a5d16cdec43b0702ac540003901f9b57cf3d782bafbbdba52b03f"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-05-27__N__s20260920__main.json",
+      "sha256": "9268c8315c3c84aed3239cbf2ad0b3afb29eab59f31ebc70bd3931ddf1c071ea"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-05-27__N__s20260921__main.json",
+      "sha256": "572c3b4aed21f5ba68b4c45b7957d9fbd4fa917d00f6415b66d51aff0439fee5"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-05-28__N__s20260920__main.json",
+      "sha256": "73083fbcfd32716ee675b27d6f7c1de37d55b04711ee8979d191aec079327e51"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-05-28__N__s20260921__main.json",
+      "sha256": "7c907eaeecc18d95e8080ba745c6257bea92f6b7762a5860070059f543cfc21e"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-05-29__N__s20260920__main.json",
+      "sha256": "732564160d0238738b3a5575b9cbc438336a8a13cddee2e2508100f1eee885b8"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-05-29__N__s20260921__main.json",
+      "sha256": "a4769a7702d469545d937b372b1ebbd09dd560f5fb25020a44cf4e656c71ec94"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-05-30__N__s20260920__main.json",
+      "sha256": "7346340b4b0974da3e590f30d583761cbd7519ddc8ae84e07050ffc830fd0a98"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-05-30__N__s20260921__main.json",
+      "sha256": "5d4397939b6dbaa91d0360ac43daa0e9b1181735250f073065e262ea09874416"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-05-31__N__s20260920__main.json",
+      "sha256": "c396ee48ac907fcd4353f88829c95121194bb273e06a36d0c16f3561642d2b71"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-05-31__N__s20260921__main.json",
+      "sha256": "9f9602dac527bff27bcd4697e8ba4a73807042479f879ce253520f3f66fc2043"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-06-01__N__s20260920__main.json",
+      "sha256": "980c414e737593095874276f417dc9bd291308ec018b8fab5c65d3af6cc7c021"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-06-01__N__s20260921__main.json",
+      "sha256": "03de6572714da4f7e09da08e6fa82ab1b5d0d0159ab0e51aa30276ef7057a968"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-06-02__N__s20260920__main.json",
+      "sha256": "dffd666021a631f3a8a4e0a165d36b4b06cbe6efbb744bf533b942cd44ab8fe8"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-06-02__N__s20260921__main.json",
+      "sha256": "0921b8bd209baee47102a1dc29f235c71df89d43a4054496984ba5531fdcb573"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-06-03__N__s20260920__main.json",
+      "sha256": "ce7fc76c04e2a5a97247d9144bb2e8210e271ee7a55e0be47dd5de555efa3e5e"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-06-03__N__s20260921__main.json",
+      "sha256": "9fe442604ac554df62fb66da6e7849e7a4410cde2ad1a0f8652528627e18032a"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-06-04__N__s20260920__main.json",
+      "sha256": "b1fa111b33d0159e3652d7eee85ff33029ba88a189247d953cd5e3d8a3c283e9"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-06-04__N__s20260921__main.json",
+      "sha256": "df7984f3232ec455c372f4b8e26f7deeb30fbea93ff98c5ebbf32b0242c76ce4"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-06-05__N__s20260920__main.json",
+      "sha256": "f1e13154ce788f2a1e6ce9a757da950f821e7869d84d9bad6ea36c98d08ef24c"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-06-05__N__s20260921__main.json",
+      "sha256": "ae22d54c971acc44afb605747cf632b70f85b2b452f90e3d2a3d9713d1c0a2f6"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-06-06__N__s20260920__main.json",
+      "sha256": "ab71f1d7988c0dca5e5a842519b5037d9a2122f3e03d26cd412e9056099318b0"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-06-06__N__s20260921__main.json",
+      "sha256": "d57b393c619097dc4ed8a4b6cfddd2a0df011fc8c8051ae6044ed99c46fc20d6"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-06-07__N__s20260920__main.json",
+      "sha256": "ec9a7c78e52430954ccd170c9978e717098c3fccd6eb332858c15cbf6c1ff114"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-06-07__N__s20260921__main.json",
+      "sha256": "1453bf5f4ba41b404a6de4c7e72d2877e366e6cb776eeffa8e588148c1b315ac"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-06-08__N__s20260920__main.json",
+      "sha256": "e2fa0e8795a90f0567b08fda07e7d4c69999d65d58ae111b117ca7ae376c6731"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-06-08__N__s20260921__main.json",
+      "sha256": "719c87d77288a44d5f693fe0592806e20e759c403ec9226c66985841d26f6923"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-06-09__N__s20260920__main.json",
+      "sha256": "81cd4a0e85536b60362239b0933e5dc082bd39e6c3000ec723d0fd10a14e30cd"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-06-09__N__s20260921__main.json",
+      "sha256": "3ceb6dccfef7c98582d0fdf389a25a84f7bd78f9ef4d423eace923671fa2c9c6"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-06-10__N__s20260920__main.json",
+      "sha256": "9f2f91c87a217e7ae81ac8af00d9d0b4a64e8b6065eff3712ae4570885704fa1"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-06-10__N__s20260921__main.json",
+      "sha256": "6c055f5610848ce683ff4e12566fa24b9514d32723029cd07a6eac6ed97cb65e"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-06-11__N__s20260920__main.json",
+      "sha256": "336085818ab75b49eaa7b4a2cc6967cd46040ae9722d6709df1ce95c976fbc8a"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-06-11__N__s20260921__main.json",
+      "sha256": "6512f773c31c9ab8933b68a05ff43090fbc90a2fb4ecdc16e7cab45aa82a4443"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-06-12__N__s20260920__main.json",
+      "sha256": "b4e835237c2d8a46b6079e3d5f6311f7afff7d8ab312ea4b77f696e588842c50"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-06-12__N__s20260921__main.json",
+      "sha256": "362f50b9fa8accb2e7968cded75d3a84d0de6e930367af5cbb356ba35329e237"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-06-13__N__s20260920__main.json",
+      "sha256": "0eadbb6896bd4b4cbb989c6c233e1c8bfb9eef5686386b0bc34a11bfa32bca96"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-06-13__N__s20260921__main.json",
+      "sha256": "2219918574402954884c96abb6076e17addd3c57eceb5e9bf3f52447e4f70673"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-06-14__N__s20260920__main.json",
+      "sha256": "464145123083755b8c7a9de351f92804c4c131e75d69844f5e484bdc5e6e349a"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-06-14__N__s20260921__main.json",
+      "sha256": "b3529978deede7db39b398c18d8f2d3f6255fd3485d061b220e86419be8ea54d"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-06-15__N__s20260920__main.json",
+      "sha256": "e48af117a3cb41573a6648990ca16c6123b8e0fce82eda6a1b1c9d039fa6a340"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-06-15__N__s20260921__main.json",
+      "sha256": "5e6df6c1b1e24f4d573a566be6e6814e3f12b09aa4320b9746bd7c23952965fe"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-06-16__N__s20260920__main.json",
+      "sha256": "418273a0a5998a0b64e83bd3a30940e951089046d09878bd45a5ec5b23880c1d"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-06-16__N__s20260921__main.json",
+      "sha256": "1833a14cd56b428c32b510b0503b4ce8ff7bd1176531c1070554bc332fab5a52"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-06-17__N__s20260920__main.json",
+      "sha256": "0006d4a844ea43bd59c8967694de6b6ebde0080313b1b1c30d05223693428eb5"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-06-17__N__s20260921__main.json",
+      "sha256": "36498ea2e44ca3659f81c77db0bb2f7dbe7d3c8e794ad0adbcca3b8c45db0152"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-06-18__N__s20260920__main.json",
+      "sha256": "c145b421a55622ce61d01bed1da2af339a9ae461a826ce429f63b8e1ec07745d"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-06-18__N__s20260921__main.json",
+      "sha256": "bffbbaab8dcd1ecd627dfd9854a4828144aa3c64a308811a9ea3b02579ea1c2e"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-06-19__N__s20260920__main.json",
+      "sha256": "28d7146d7842f990b347e1aa1322c07682ceed5ed6a0c16d0e00c29712082f97"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-06-19__N__s20260921__main.json",
+      "sha256": "9a870d6bb55890a847a820be7e9d52e4716a63d7ac2153c8b2f3d04bed6f7421"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-06-20__N__s20260920__main.json",
+      "sha256": "d4c8023c2f6da9fe7342bf86ccdcce17e69dbbd341490918662aae2ecb14823d"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-06-20__N__s20260921__main.json",
+      "sha256": "5590020cba0a6180bb1ab9913bd01b9471c888bf6aa40fa7c595b0e9d870b64e"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-06-21__N__s20260920__main.json",
+      "sha256": "982c831ad9d1a871277e36a11b69416c2826ef971b36e58d31b71a539a5e36e8"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-06-21__N__s20260921__main.json",
+      "sha256": "1e90f9fa1513b830f4f1608c3d5d92fa379486605064b462d32b7e3f318b8686"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-06-22__N__s20260920__main.json",
+      "sha256": "4327c7540abb3f9a6a6461ce89b1b2efc38ad74c8b34a124f792fc8d88434cde"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-06-22__N__s20260921__main.json",
+      "sha256": "d25ef47980961ca0905f91877de967812eeee3f121cd79f59df67e1e6afc8bc2"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-06-23__N__s20260920__main.json",
+      "sha256": "bc758ac46b0abfe85a3a734ef5cc03c75927a373c62a937cea64c0168ad268b7"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-06-23__N__s20260921__main.json",
+      "sha256": "45a8a6b696efea445585691232dacfb9c6ef6bee3415345b959e061caf0f9686"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-06-24__N__s20260920__main.json",
+      "sha256": "eb657620c5bcacb0204d22f2bbf12fe2260e05daa8b789e975ae2e02a08730d7"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-06-24__N__s20260921__main.json",
+      "sha256": "7e6d4cf0f7d7c13b0ecab7274102bf54aff3549436decfcc455d650640927783"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-06-25__N__s20260920__main.json",
+      "sha256": "c37c77403265d04eb48425026296b2a1fa20467077945ec9f1e2f5fd6b0b17f6"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-06-25__N__s20260921__main.json",
+      "sha256": "dd319c1c927b1896aa3f89edf2e23a564837a55f33ab6ca80e46a0ea9331c76c"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-06-26__N__s20260920__main.json",
+      "sha256": "95f214a1648ca74212d645aa82fe96d3eae480778f14f66c9bd8387951183327"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-06-26__N__s20260921__main.json",
+      "sha256": "0e12bfa27812481624f292deca8beb9a1277eb84fc2ca8a230630946ccc87f26"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-06-27__N__s20260920__main.json",
+      "sha256": "adffce61558389ca387302509bb261945772a50c1e67418247485dd27ef5c8a7"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-06-27__N__s20260921__main.json",
+      "sha256": "163ee7a4a18c918502781493b0f916d2d7d0b48c0c5933c41243ed684e977aef"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-06-28__N__s20260920__main.json",
+      "sha256": "9c9d93331fd48b27c114f5ec07f5594bf01bf630f1b8c3930b38d2dbed0e31dc"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-06-28__N__s20260921__main.json",
+      "sha256": "6207fb2f8fcea5f0f1c8dc26221b0d7bd9d6aa3ee9e371ab402e303c678cbdc8"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-06-29__N__s20260920__main.json",
+      "sha256": "941b42534cfd019a25b2d19936e20ebe5a5e8060a85c0b706ad9b57933f1b092"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-06-29__N__s20260921__main.json",
+      "sha256": "a7b6982bf06c4a63572e149f832956f98fdc486cceebd5b76e207bd84bcc01bb"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-06-30__N__s20260920__main.json",
+      "sha256": "ce153a3699a523a09dc713b67a223fa510bdb6756e936bd615a649aa0f7da056"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-06-30__N__s20260921__main.json",
+      "sha256": "4980b36019fa0660bb3e5833cc42f2354958d3beaab1caf168c8545d442c4dcd"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-07-01__N__s20260920__main.json",
+      "sha256": "612d901a0f06a883decf6750b95cb657f6b9ddb11f054639d0b28efab32d230b"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-07-01__N__s20260921__main.json",
+      "sha256": "1ec509e69a09e85cc3dc87b568c606ce8a0106e07beed44cd956d56cd998bd6b"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-07-02__N__s20260920__main.json",
+      "sha256": "4b2b06e79146a8cc7f4f2a6b951d39e4a4336370431a084ef55def664ae09869"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-07-02__N__s20260921__main.json",
+      "sha256": "054931fbd6a81ee5f1eef9c9901ac3058428750642cc6cf29d5cf4554063d1d1"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-07-03__N__s20260920__main.json",
+      "sha256": "65f29597650a62c9641150790af4f86f12dfd9640197e5867e20658475dfa20e"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-07-03__N__s20260921__main.json",
+      "sha256": "307d48a0acf5305168176271087b722ad696ea9b252dd7d2b3c7a320f7270364"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-07-04__N__s20260920__main.json",
+      "sha256": "6d86430145c4edc81be2e22396e52baafd8f95e45cfc6baf0ce59943dca32dc5"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-07-04__N__s20260921__main.json",
+      "sha256": "a54274a368ad102340700429bf11fae3144ee4b7850930901edc9876308026db"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-07-05__N__s20260920__main.json",
+      "sha256": "e9fd744cae754bf76bc1e2d75bee3af1af37a3b064ae71fa7193523212b52fa6"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-07-05__N__s20260921__main.json",
+      "sha256": "8f622747737576a063d102b467938d13e7ca27a7c481cd5e95501d8dfae246f4"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-07-06__N__s20260920__main.json",
+      "sha256": "f69d5f087b7b547f5f0773ea43b9ea128e5bdb84d314288b78ce6e7bc7c0d182"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-07-06__N__s20260921__main.json",
+      "sha256": "9db0128a18582c21024eb9ad4304a485421d6a40e1bf008202686c48f70df271"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-07-07__N__s20260920__main.json",
+      "sha256": "06cb1ff3157ae30d744c3715efd371a5e1fe2e710f9fe19bdbadf6057848c6e6"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-07-07__N__s20260921__main.json",
+      "sha256": "46d5f420b402d49fe64cb6fdab8796e0264852839b32826462099f2ff6158815"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-07-08__N__s20260920__main.json",
+      "sha256": "15472de158a7d70022cf38e903d672ed6239723318825e75c748b9d04f18b5d1"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-07-08__N__s20260921__main.json",
+      "sha256": "93ef56d3c59a16ca7a24f1c39f3f292fc92711c60e3158733be62a7390911566"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-07-09__N__s20260920__main.json",
+      "sha256": "ea06e82cf003c27dea0f51352fd2b45b32c97954ea2f8703955bc5e5a5617065"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-07-09__N__s20260921__main.json",
+      "sha256": "d469bc4ac907bf4b142f3873d4e5e8d78ea6dfc65bace6644d8f23a1d696ebc1"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-07-10__N__s20260920__main.json",
+      "sha256": "2bd522dbe6b2be6b7207a4c09f72b9870749bfe2c1d3057cb48788d9155bd7af"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-07-10__N__s20260921__main.json",
+      "sha256": "e0393d772e1a75e9538658926ff3c01cded15c7e8d9cca13206f00bea1ff225d"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-07-11__N__s20260920__main.json",
+      "sha256": "c95955141ef027eff4d242d33f03252f2d11882a5b182422d3b1254e9d4a0126"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-07-11__N__s20260921__main.json",
+      "sha256": "f17a74e8b4929ad16909fc02670da0bf28f2490708daa4f921a9f2ba7876c425"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-07-12__N__s20260920__main.json",
+      "sha256": "e291d82faf174ea153a6a69b9eb1cca55326fa2a04123e34551b5278910b8635"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-07-12__N__s20260921__main.json",
+      "sha256": "1912b274dbe4c54bbfed37773364a60da2cbc724b5423a2818eb1c5f6c39c3f1"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-07-13__N__s20260920__main.json",
+      "sha256": "8889984f2aef4c6dd444d8a522c9ff97f556e003b3526d769b66e70f0a776ada"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-07-13__N__s20260921__main.json",
+      "sha256": "4652564fb3ee868cf318ae0301af53fb1a84ed71830bffb9a0610ba42fe9e104"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-07-14__N__s20260920__main.json",
+      "sha256": "34837b541560dee8e3d1f3b8ea8a93f7bd1442ceda071c8a901ae6b1335b773e"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-07-14__N__s20260921__main.json",
+      "sha256": "22151336bf5100ca5088286c7d794cdc3577e1b2902f48536528ef7d02e93263"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-07-15__N__s20260920__main.json",
+      "sha256": "59becb1ef6e8a9ce54bfe7080d61f5a9fbf923880a218ff539b3f8b6d64ab074"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-07-15__N__s20260921__main.json",
+      "sha256": "787fd2a6ec84d76884f0027d94888d91c2a60f815390c577a15fad4031f08559"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-07-16__N__s20260920__main.json",
+      "sha256": "c138fe2c7882e5bbd63ea017412fb4ee305f3d669ec80db0d2677f4d9bea7c5b"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-07-16__N__s20260921__main.json",
+      "sha256": "cea54b0cdd0031fbc9b09a1fcc7a738f6ba4549336be6d847e1fdf7ad48a0938"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-07-17__N__s20260920__main.json",
+      "sha256": "e5a121ba32fb0147acf07609c4b2c7323f1ca32d99463f531eb0eb78479a3034"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-07-17__N__s20260921__main.json",
+      "sha256": "adabbe130874e35be833cd336d5a18781f2b471c2c663ebc4370179f1d6aed32"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-07-18__N__s20260920__main.json",
+      "sha256": "d855e5d9db27cfd9a54319a1c5f21e6ccfe80ad34fef315eb71bb430390bc98e"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-07-18__N__s20260921__main.json",
+      "sha256": "36e4457aa5050e4e72c824a8777fa1f8455743d9334704c04d7063a5c439ea2f"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-07-19__N__s20260920__main.json",
+      "sha256": "518c1961e9be28a36ce691b6e6e687b37b6a1c912b1f87fbc355628128b7b90b"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-07-19__N__s20260921__main.json",
+      "sha256": "8123e6cced4c98ddc04934a6dcf6f097e456ceb4d31535bffe19c78fd4ed4bb1"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-07-20__N__s20260920__main.json",
+      "sha256": "64c3ca2eae7a541c2721185ed4c6d18dc4cfad3508e3b27cc5c85c193691605d"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-07-20__N__s20260921__main.json",
+      "sha256": "80d2e841950dc8e2b33f25e4a11f262ff0e33147f21076d985506aba159bf3d8"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-07-21__N__s20260920__main.json",
+      "sha256": "c805dbfa30b86b8ea18152e9d100e2a523cd0e7d619999fe36462c0f88e452eb"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-07-21__N__s20260921__main.json",
+      "sha256": "155d69e28d5be04c474757110412a51652452ded726c7b1b1a23dd501c5cc45d"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-07-22__N__s20260920__main.json",
+      "sha256": "b367c239d6471e7657e5826a7309e3aaad5f612c9dc2e7543ae65d073fad2981"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-07-22__N__s20260921__main.json",
+      "sha256": "babec259ac047ed509ba18b16d2c320972a37cef17960c44333f898a7f99de44"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-07-23__N__s20260920__main.json",
+      "sha256": "133148ab98bdf130bf8f452b6d942a29cb0eb47242309c6679906440e99c66c1"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-07-23__N__s20260921__main.json",
+      "sha256": "9a3aea91425188f97c40fb5e348433155bb253823bf6e58d29a642be02401221"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-07-24__N__s20260920__main.json",
+      "sha256": "3a495e8de46d888aed1f738a7c9e95d0350aeb98b914fa4006a094528550eb10"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-07-24__N__s20260921__main.json",
+      "sha256": "2011a757317d501f8703d04aa23e1942aeff37ad004998e6c331c862ea64ac8c"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-07-25__N__s20260920__main.json",
+      "sha256": "8c5d686a839ed491696347ec31853200039f5ea496e547678be3e9e575b3c5f5"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-07-25__N__s20260921__main.json",
+      "sha256": "2bdcda9ce858ce91ab8cff7b0ee52c36789ea88239014da9e066e373bff8afc7"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-07-26__N__s20260920__main.json",
+      "sha256": "1d7ff0da97a5a5975a802de878d553dae1f8799690a9e47793d6f3b55cd05eb3"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-07-26__N__s20260921__main.json",
+      "sha256": "a6622edd8185ba32113e443fb081260851300544abcae6784da17010eef5c7b4"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-07-27__N__s20260920__main.json",
+      "sha256": "0da71cb9c5d7bcd166ba71c57ca81d9766cbe668b25a8d5ff123114573b0abac"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-07-27__N__s20260921__main.json",
+      "sha256": "612f192e80c1c0273afd852ad4b18270e44a17c0cf729242f18a8961c0fd2a1d"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-07-28__N__s20260920__main.json",
+      "sha256": "6743eabaf138871102710bcee7d7e91196fa9911259cd12e14278d9a49e2c56f"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-07-28__N__s20260921__main.json",
+      "sha256": "31099c56fc898f12df6f8226fcbb2ef6d37c83e7d50c4d306aadc3902b393ec3"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-07-29__N__s20260920__main.json",
+      "sha256": "036c4012f40a6b070d4985f76047b21ca49c0164cf51b4640e717d9192012307"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-07-29__N__s20260921__main.json",
+      "sha256": "4e154186b6ee1dfccf001f3a013a79c8843e5178f19aadd90e8f07fb8daf0f33"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-07-30__N__s20260920__main.json",
+      "sha256": "1902382e9018e2b2e225684e524f0b855270df131f524a3f5e9ae6954a12e64f"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-07-30__N__s20260921__main.json",
+      "sha256": "e693900f2cc78e823ba6b2c544ca774239f6a239bd7727382cefa2d455193f58"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-07-31__N__s20260920__main.json",
+      "sha256": "09743870fdd3042c01b12ab69d8e470647de0511776e736ad10e2bb4cab2d08c"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-07-31__N__s20260921__main.json",
+      "sha256": "3f905a645517c2fe2e981708104fb2dac55154bf00fe1e7bc1964365464cf652"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-08-01__N__s20260920__main.json",
+      "sha256": "a88a659df1370152ee099809af5b0f5d799020a3a672d4eff0057882772d0d99"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-08-01__N__s20260921__main.json",
+      "sha256": "1f08f35f609ca4995f0416c6ed2a0829e3e3114b89c017e4eb1e86fade75217d"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-08-02__N__s20260920__main.json",
+      "sha256": "cb63f0b108c3cd6db38b9c86ea9b3dae25f37576f2850a7922421f76b97c770f"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-08-02__N__s20260921__main.json",
+      "sha256": "e651c724233f4225339ad2fc4b0745853ba9a440eb4d1d5edc6f68dce9ebb2c3"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-08-03__N__s20260920__main.json",
+      "sha256": "a942d4f9c3a952e725ce59e9380c71157e2bfd44ced0ccb75718a794051bf296"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-08-03__N__s20260921__main.json",
+      "sha256": "13a3c96d732b30ff3ecc403ebcefab6587afc88afb385a36130d244dc5a86053"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-08-04__N__s20260920__main.json",
+      "sha256": "7338fd9c1c6a809fe7b959b4f24706c797661ba75b0c4af19a14dbf9d18e54c9"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-08-04__N__s20260921__main.json",
+      "sha256": "04b229d77c67d4d24f3eeda6b65831e033c45b843734df8eb51ed1e20f00d0b3"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-08-05__N__s20260920__main.json",
+      "sha256": "f321c571f1f648ab774f3074ed1ac0522fb6a40a16a4f6d37bb5486811a28119"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-08-05__N__s20260921__main.json",
+      "sha256": "33b5f55e2389bf80f7942251d6a238b23f129208570e2aa5e88332837d6f7f75"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-08-06__N__s20260920__main.json",
+      "sha256": "96962937ef567a672f04c7240a8520da46b322db6633da0cfcf274cfe09028e8"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-08-06__N__s20260921__main.json",
+      "sha256": "089a08a85ad97552d6fe05f10f2ff4170337a6adc76a228bcbecd338d34be819"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-08-07__N__s20260920__main.json",
+      "sha256": "bb65fb089248b7ef824f1f4410ab67ca94dd3a97d4b12dd1f5230fcdb45642ae"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-08-07__N__s20260921__main.json",
+      "sha256": "436666213b5ae5034c71b805b3086f85e5050f1e8fecdad5d4070641927eeb63"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-08-08__N__s20260920__main.json",
+      "sha256": "7aab76d4f4acad38a3d5f4e383d0a2e9a934391d8e0d090fc0c30c198fc0cb68"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-08-08__N__s20260921__main.json",
+      "sha256": "9cc6d6d3e0c37884ede7de3355c6d3e1a9694948d77389c18fe311e63b935da1"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-08-09__N__s20260920__main.json",
+      "sha256": "bf1b202faa892acdf2353d3437e3277d969288ae3a9ca50b501dbc1122f40da1"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-08-09__N__s20260921__main.json",
+      "sha256": "a65c3df39c2a257775905a8820b53a8159261d7177a1ef11ce093c567d44c3b5"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-08-10__N__s20260920__main.json",
+      "sha256": "82f26979cec766c41c172afcb3f009f009cbab7b8ac12da44de6a0e2819b2034"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-08-10__N__s20260921__main.json",
+      "sha256": "17ad25b3f72c5632cbd875c2f65b3d6c74486daad0641717d6acce90849f5c2c"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-08-11__N__s20260920__main.json",
+      "sha256": "f235e639a3afa2ce62eabe2d75c3ef9c09ba8104151775ef6b204ab23c63c1f0"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-08-11__N__s20260921__main.json",
+      "sha256": "00c278ecc1ba1ce39890bbe978cd02e80033a5271d5e70ab0afd0a60a4a42cde"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-08-12__N__s20260920__main.json",
+      "sha256": "2c82c218f85c8700d69a0312729746779c91f3f34daa37ae4624492beb5ec8cb"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-08-12__N__s20260921__main.json",
+      "sha256": "3371bd0a892b1226e4e3ca804b344510fa0a1038348275e77df38d36cb828627"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-08-13__N__s20260920__main.json",
+      "sha256": "37416c64c4402752b4bdb33eaecde5bcf20761040e57164b0a69c2addd2ec694"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-08-13__N__s20260921__main.json",
+      "sha256": "9db44e1cf6041758966e9b04eee348503ce65d492d240dcce89e3c4e18c3412a"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-08-14__N__s20260920__main.json",
+      "sha256": "e466597c6c7c64b6d6d1b324c44b5b4d284b1dde0d68af5716841a2929924b17"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-08-14__N__s20260921__main.json",
+      "sha256": "de12e255660827986414bc2d3f848ac4f8775c1b4b9e44463f4d3d321edfe55d"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-08-15__N__s20260920__main.json",
+      "sha256": "eeb87261e30fcfe67c968125a220e78f0307ee9731156550c298ab7c0f4fcbab"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-08-15__N__s20260921__main.json",
+      "sha256": "267e181636499fb21fbb0cddb35f12b379a7c9988d94f495112c628f102ae8bc"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-08-16__N__s20260920__main.json",
+      "sha256": "3e535193d96d076fce3026fb9723f16307a6fcaf954db458517783c46faab375"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-08-16__N__s20260921__main.json",
+      "sha256": "be13783e5f88c859643a100fb3dfdbb95c6cb601062701a968741ea35b434566"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-08-17__N__s20260920__main.json",
+      "sha256": "aa1c76d2fba2aa290e62e1a3f40f02eb052d6dfdf412c58c66a08ae907a54608"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-08-17__N__s20260921__main.json",
+      "sha256": "584bf65777e38d82da23ae99d9e1cac28846ad0fb53e964b75b5179a2ec68b16"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-08-18__N__s20260920__main.json",
+      "sha256": "9f94ccc2b42648887d13a1d73988820a859eabd275231999bf2e3160e8d19966"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-08-18__N__s20260921__main.json",
+      "sha256": "423f864f4106849ce1a77cd222e368a982c94578b325ab0793718b358d8a1fa5"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-08-19__N__s20260920__main.json",
+      "sha256": "3df33976455ed721bdc72a1d33087ff2f101d9b88d9a20471dc18470b6e7783d"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-08-19__N__s20260921__main.json",
+      "sha256": "350cf0afe680f6f57170d39f61645afd062041b5fa081cb210476a11e198be62"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-08-20__N__s20260920__main.json",
+      "sha256": "cde44908f8ef649b2443eba538e41a2c2777e984dbff6df2afe9fb7058a03cc2"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-08-20__N__s20260921__main.json",
+      "sha256": "bb7459ef5d341d7e3fb4e83e45ddbaddcf282834974ef8301ca276e87bda9958"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-08-21__N__s20260920__main.json",
+      "sha256": "b3ee651e98e8087583f7f7c3a1a1e4b26508825f99cd7665a10c6cf691a6165c"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-08-21__N__s20260921__main.json",
+      "sha256": "f3a7df47c3be813aaf8d97c3ea8c154bc17c533fdfb1ac53a29dc56783e8c3f5"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-08-22__N__s20260920__main.json",
+      "sha256": "6a795b8f9448f5e38d4ff80f96c399d18e75fcb914b2c72d3d08bc3cf027103c"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-08-22__N__s20260921__main.json",
+      "sha256": "6cb12607e7d44307fb306c957e87733ed9b08e423c63802be836c973a5415fec"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-08-23__N__s20260920__main.json",
+      "sha256": "813cbe5ee5a8deb9b72d4cc76ac801b9396900c7fbd102829df21661765e1b30"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-08-23__N__s20260921__main.json",
+      "sha256": "64e1853b39f3261af35bdc8e63eccacdc2aab565a9e6c6f860a0e2083d768ba8"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-08-24__N__s20260920__main.json",
+      "sha256": "1613d6cc09671dac18e568f9897b0d0261283a92eb44ec18384bf679ecbaa719"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-08-24__N__s20260921__main.json",
+      "sha256": "274adea7654d8ff83cc6bdadb3b40bed58038fa6895ef3feaf0d99ef1d372581"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-08-25__N__s20260920__main.json",
+      "sha256": "d8f48f5d399792bce4a3d9e2ffbf8ea8a6535057e517bb00f227739988297153"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-08-25__N__s20260921__main.json",
+      "sha256": "57da310ed354980111343465d8130fee2046b02283dfbd20f02c145dbf38b719"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-08-26__N__s20260920__main.json",
+      "sha256": "08c59d3c503d75c7fac7717e0bee4f030037e9863cf36aec64241233b0b9359c"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-08-26__N__s20260921__main.json",
+      "sha256": "43381f804cef62a683ccd10907698e34cda56142671636617763ba8b3d1dcbd2"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-08-27__N__s20260920__main.json",
+      "sha256": "13b7671aba8851349aca7d4e51c814a45899d6b0b5da1538c49d3b0aea875e6f"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-08-27__N__s20260921__main.json",
+      "sha256": "107008e2474f508351f99a4fdce93ae1a5a42c73c93131628c3158411cebeca8"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-08-28__N__s20260920__main.json",
+      "sha256": "da576b14eb4244e2b7f2b6c2928e88d78e407ca1af27510ee6960d78c1b0b61b"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-08-28__N__s20260921__main.json",
+      "sha256": "93ca2df7bf472b0f189de4daf9778210bf936d3e0841fc6882d7cef70659bff7"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-08-29__N__s20260920__main.json",
+      "sha256": "69cc0afefecc334c8248443078c5aac9b3bb34cc10ccba8daebab13393ce9955"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-08-29__N__s20260921__main.json",
+      "sha256": "d1a227546d46d892f56f747fed6d8b6780fa37ff03bfd96dada3d9d55d3c6a2e"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-08-30__N__s20260920__main.json",
+      "sha256": "842afa8546d2cd3d388703815db87ff915e475108d2bd7500f7666d7d0f7b848"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-08-30__N__s20260921__main.json",
+      "sha256": "a227ea2299d64ea2f3659a387c94041d1eda15d09428574fa35140159076cffa"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-08-31__N__s20260920__main.json",
+      "sha256": "e4151dae203d72a051658c085ea815ee719d464674291fe5584effd5de9aa629"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-08-31__N__s20260921__main.json",
+      "sha256": "31c378d85fd02c5682fed1eb27135bb7a1fbe698577555fcf049f7a8b9c7d8a8"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-09-01__N__s20260920__main.json",
+      "sha256": "d1c8b6f3c1d23f6ada777ed57dbd913e6ddf0905a229e47fa8a3f052bd09a7b2"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-09-01__N__s20260921__main.json",
+      "sha256": "3e331fc09efc48162d189b99923d3be74ce1b90ed5926b9201fd5728cb5e88bc"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-09-02__N__s20260920__main.json",
+      "sha256": "ffce935e49c1664bc60764be71aa88761ab8bd25720f05a950c710398e7c8890"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-09-02__N__s20260921__main.json",
+      "sha256": "603667ccd8f6be56713c1ad8ba062779ff8004316584234348575af6928d2f37"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-09-03__N__s20260920__main.json",
+      "sha256": "51cf806073811daf85aafa76b0cbc579f68ae325a09f379b1992b24c6e51dec2"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-09-03__N__s20260921__main.json",
+      "sha256": "dbae7ccf72b675aad9e4f5a2ad23939de4a9d956a2542bf9beafc54e799d10d7"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-09-04__N__s20260920__main.json",
+      "sha256": "70348be7147722f7c510af97de87a4e5876398f46f6610a16e2990add2abc704"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-09-04__N__s20260921__main.json",
+      "sha256": "ddab453ae5e15242863d8f9e2164f37af00a4c37c4249fc0c5953d8a2bc6192c"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-09-05__N__s20260920__main.json",
+      "sha256": "24661d6ef3c6b5e07f3f07e88ef7c96e1f80c36aacf353cfe6a190a6956d23bd"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-09-05__N__s20260921__main.json",
+      "sha256": "7232f1dde3063a609d6aaa43ec648b81361446cae6dd54753a92c327e6ed4bd2"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-09-06__N__s20260920__main.json",
+      "sha256": "6d09ba4a3608e44d0179d6317569d702e47fdc1c5f219aea6ff100d9a6d49b24"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-09-06__N__s20260921__main.json",
+      "sha256": "ff291e71de2ce417f8be8c2b52e69ece4d32aae0eaf5b9fa8c2856f301635cd9"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-09-07__N__s20260920__main.json",
+      "sha256": "a346c2fd692ce405f6a5abf2cee2ab5f7f4b8643040adff29829d42c365c0643"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-09-07__N__s20260921__main.json",
+      "sha256": "9dc8c180e37778400b16fe578258b0bbfdbfe163f591a9e0da7972b3d1329f16"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-09-08__N__s20260920__main.json",
+      "sha256": "b1a6f05b4343fe8e9fe7d6714d0edff7b6b9469ed4a996cd796e5feb6df5f05e"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-09-08__N__s20260921__main.json",
+      "sha256": "2e903b89aa02106d1dd131a177afe83c907ea605696a5bc16d2237d804817300"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-09-09__N__s20260920__main.json",
+      "sha256": "2857fc768947877316d72e50ee526a2b4ad600586d753f7782e123f62f15ec02"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-09-09__N__s20260921__main.json",
+      "sha256": "933f7572f498420414594d95835855fbcb1f6b73bd57ea07adf4e90c309e8be7"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-09-10__N__s20260920__main.json",
+      "sha256": "0059b3c1ddc69c9df9c99650f9eacb0ec03c34ef700524cdfa1fbf4e56f7e8f9"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-09-10__N__s20260921__main.json",
+      "sha256": "55b71bdd14010d793bbacd9357b7cc2500373116b79ce5782aeae36f8a388e28"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-09-11__N__s20260920__main.json",
+      "sha256": "5a52861511aa33d291d450116198aa9a6b39e65ad4451ba227b690f38457a652"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-09-11__N__s20260921__main.json",
+      "sha256": "3cccd45cc9157d5bcc136f269da9274e7b33a10a4186340a02aee65adadf566f"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-09-12__N__s20260920__main.json",
+      "sha256": "16a14b8aff27077e6efbc7fbe879501182a06ba411f67a5580945832de6f4c48"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-09-12__N__s20260921__main.json",
+      "sha256": "78bde6051c30df1d6e7f8e044fe8fd6d1370ff81bd9083b23d923b5d10f940ee"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-09-13__N__s20260920__main.json",
+      "sha256": "938c474f381f3161045952bb6e276903befdeaeb923f86cac92a1f3af7e6e1d0"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-09-13__N__s20260921__main.json",
+      "sha256": "d14722de00a7b52fbdb7fa7216d9d618dbb644f2e561b0ffc65c8407d2b06cc1"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-09-14__N__s20260920__main.json",
+      "sha256": "995cc42497b9d4a45ff84e5779b96b83756c718678277699bb857a3aa1c565cd"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-09-14__N__s20260921__main.json",
+      "sha256": "b8b9e32f30567c68e73f2c2cd2099ca3947a8b1df189cdeee4ef3102b106d5a1"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-09-15__N__s20260920__main.json",
+      "sha256": "740bc239f2eb6dc23e5e4e2facb05b1fef8112543c30df77e9564e81fd2d844d"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-09-15__N__s20260921__main.json",
+      "sha256": "68264c75e2adbaa4e5ea591b3c906896c92f7ed4df91af05dcc132590a040e52"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-09-16__N__s20260920__main.json",
+      "sha256": "88722f918756a566edac54fd2281719ce3176cb28aa3c3597c0571988cdf42ed"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-09-16__N__s20260921__main.json",
+      "sha256": "a3f32dd03a4c82349f51325a1f9dc2307b31ddc6ee24f152259b6a5221ba56c0"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-09-17__N__s20260920__main.json",
+      "sha256": "718d88a6494ad4b09f5107c947248196946602de39917473aac44c3775019ca0"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-09-17__N__s20260921__main.json",
+      "sha256": "1332fbc07413384d132e387a6bc02dfad575d13c58db4d6e0648e654c87ef66e"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-09-18__N__s20260920__main.json",
+      "sha256": "29a8d03ef9f52bf3de88a89ab6af12546569f429fd40aeefa07fc76509baa7f0"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-09-18__N__s20260921__main.json",
+      "sha256": "666066c0f776a377f8906f8512b07a1b896c1694456607239e6fbb64d3360e08"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-09-19__N__s20260920__main.json",
+      "sha256": "42418b8f8181f476b75be543e06c472fd808787346a5d92a75bc71f1aef85597"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-09-19__N__s20260921__main.json",
+      "sha256": "cef60a13ef4e5116a82dfa78c2df3f1fbb4d7647bc34fb3ec647d9bd0eaadf11"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-09-20__N__s20260920__main.json",
+      "sha256": "08fce7bafe43b203fe67e98171a314ee24968bb9030522cc083d5528ac95d1e6"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-09-20__N__s20260921__main.json",
+      "sha256": "421ab9c83852c705dd2ce0b062c650a355dc15b6a8cfbb2c483c1baef462cea0"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-09-21__N__s20260920__main.json",
+      "sha256": "e2831124d0f3abe412b27c30f3b959435afb0528015b25fa46fdc5915a74107e"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-09-21__N__s20260921__main.json",
+      "sha256": "ea1273c1a8afeda2fd25faad2676d7a6057a9575ec4eec5006b196ff123d7602"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-09-22__N__s20260920__main.json",
+      "sha256": "a06fdf86596219f4b0fed340d34ed2e73297b2ae76c8e1fed1c13762af95eea1"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-09-22__N__s20260921__main.json",
+      "sha256": "6420e2ed4da2319f4f62e2b12a72d8e5ecdd6a14a130fd6d8ecf169a64e7c516"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-09-23__N__s20260920__main.json",
+      "sha256": "2d7a3875d3bdc8bd1abaedd39f7c1ea11d0af989707d32cc1cc040f1f13d892b"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-09-23__N__s20260921__main.json",
+      "sha256": "b7e1f553acee95b7f6d18753ad8ceb2bd8db081850a77fd7231545e03477c1d8"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-09-24__N__s20260920__main.json",
+      "sha256": "ef6e05cb1ab1804c76d81142c3d0535d1f25ce9cd6fc4815e1a1867a00124400"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-09-24__N__s20260921__main.json",
+      "sha256": "c3812f0106e9b49b1a5a7a34af3cd3c5b68d5727069b583ebf977a4a55013ec8"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-09-25__N__s20260920__main.json",
+      "sha256": "ab8dc7fcb041c872243f1135e4645869563eaf3c36c2505c9f3c9b2acccece5f"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-09-25__N__s20260921__main.json",
+      "sha256": "6ab25499e73c12f41e0d5414d6a954312304e0112a827899f12de5c5bdca8fc2"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-09-26__N__s20260920__main.json",
+      "sha256": "15ad843e8e7c19abf9dd652232f1b31934a1b28928fa368edeae1091232c2645"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-09-26__N__s20260921__main.json",
+      "sha256": "db4c746acd8008f67435eb7c3f960460fbb522c501d46a8f3d9a6255111c6b9e"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-09-27__N__s20260920__main.json",
+      "sha256": "5066f3c7dfa65ab5e978c54c68c5151e1e6f084b671920a58ac74671c04f99db"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-09-27__N__s20260921__main.json",
+      "sha256": "c6d55905b9ffdbf2baab1e635b401456d5063783d2e0c51e5e7fb528665b1473"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-09-28__N__s20260920__main.json",
+      "sha256": "5d348456f646ace6bb4e01e4f42e9f20cc7c848044b3146e102b9be355037c88"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-09-28__N__s20260921__main.json",
+      "sha256": "510a76168b95343dec99347ac33936a6a8719ff897079be40b012f3ce195a3ae"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-09-29__N__s20260920__main.json",
+      "sha256": "954e324351558a51e436849e55ca3494c6ed29aba720f9991fd787003bf6f150"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-09-29__N__s20260921__main.json",
+      "sha256": "9745495a9605a25989600f3950e103939c3f7d3982ee1617b9476525a2c974fc"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-09-30__N__s20260920__main.json",
+      "sha256": "86378fd894c1e10eddcea42e94da46e7dbdd57766e50bf5cafec720534cca035"
+    },
+    {
+      "path": "paper_plan/paper/posthoc_20261019/fits/no_text_news/receipts/news__2026-09-30__N__s20260921__main.json",
+      "sha256": "10f4aa8e7c9719557a5e961b28aca3e3e1a957c2d1f26f72ea9938e6bb680133"
+    }
+  ],
+  "feature_checks_sha256": "86dc303c01cbf1d8c03547d484c43c0c4e8ecd07fc2535e2d995419620ce757b"
+}

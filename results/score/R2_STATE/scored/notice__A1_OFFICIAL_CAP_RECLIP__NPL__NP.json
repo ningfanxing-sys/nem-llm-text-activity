@@ -1,0 +1,64 @@
+{
+  "analysis_role": "A1_OFFICIAL_CAP_RECLIP_SENSITIVITY",
+  "bootstrap_artifact": {
+    "bytes": 217262,
+    "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/R2_STATE/scored/notice__A1_OFFICIAL_CAP_RECLIP__NPL__NP.npz",
+    "sha256": "4e41ff70763317652f3c23ca1661c89419159502c3237a2c8fb046f86010cc76"
+  },
+  "date_gaps": [],
+  "equivalence_test": "NOT_SPECIFIED",
+  "primary_confirmation": false,
+  "reports": [
+    {
+      "arm": "NPL",
+      "bootstrap": {
+        "1": {
+          "bootstrap_nonpositive_effect_count": 2000,
+          "effect_percent_reference_mae": -0.7853669805405906,
+          "finite_draws": 2000,
+          "interval95_percent": [
+            -1.0112825585947276,
+            -0.5594684778568535
+          ],
+          "monte_carlo_resolution": 0.0005,
+          "reference_mae": 9.105057520892712,
+          "undefined_draws": 0
+        },
+        "7": {
+          "bootstrap_nonpositive_effect_count": 2000,
+          "effect_percent_reference_mae": -0.7853669805405906,
+          "finite_draws": 2000,
+          "interval95_percent": [
+            -1.0419205810977303,
+            -0.6121451505812959
+          ],
+          "monte_carlo_resolution": 0.0005,
+          "reference_mae": 9.105057520892712,
+          "undefined_draws": 0
+        }
+      },
+      "dm_hac7": {
+        "mean_difference": -0.07150811532831905,
+        "n_days": 61,
+        "p_deterioration": 0.9999999999976383,
+        "p_improvement": 2.3616310677789585e-12,
+        "p_two_sided": 4.723262135557917e-12,
+        "state": "DEFINED",
+        "statistic": -6.9136540550454715,
+        "variance": 0.006525671529179766
+      },
+      "dm_p1": {
+        "mean_difference": -0.07150811532831905,
+        "n_days": 61,
+        "p_deterioration": 0.9999999999976078,
+        "p_improvement": 2.3922300201889182e-12,
+        "p_two_sided": 4.7844600403778365e-12,
+        "state": "DEFINED",
+        "statistic": -6.911828520673835,
+        "variance": 0.006529119071558145
+      },
+      "reference": "NP",
+      "status": "SECONDARY_ONLY"
+    }
+  ]
+}

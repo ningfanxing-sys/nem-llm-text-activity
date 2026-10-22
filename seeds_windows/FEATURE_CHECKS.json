@@ -1,0 +1,91 @@
+{
+  "state": "PASS",
+  "record_count": 21470,
+  "failed_record_count": 543,
+  "rows": 1421941,
+  "training_rows": 894901,
+  "evaluation_rows": 527040,
+  "unique_issue_times": 160383,
+  "availability_clock": "official load_host_notices available_utc",
+  "window_bounds": "(issue - duration, issue]",
+  "counts_nem_wide": true,
+  "source_prefix_sha256": "37edb20fd580d8543ee09ed7992e66d47da101d60003e7c406dd56504fa7268c",
+  "source_labels_sha256": "e5922808536f8f1c3fe7471f82d79c4740c469d73240873002adca47043aa8ab",
+  "placebo_shift": "frozen features.shift_normalized_clocks, +28 days on source availability",
+  "checks": {
+    "main": {
+      "A6_exact_official": true,
+      "P_exact_official": true,
+      "PF_exact_official": true,
+      "W24_le_W7_le_P": true,
+      "F24_le_F7_le_PF": true,
+      "no_future_document": true,
+      "same_record_set_as_official": true,
+      "training_A6_exact_official": true,
+      "training_W24_le_W7_le_P": true,
+      "training_F24_le_F7_le_PF": true,
+      "evaluation_A6_exact_official": true,
+      "evaluation_W24_le_W7_le_P": true,
+      "evaluation_F24_le_F7_le_PF": true
+    },
+    "shift28": {
+      "A6_exact_official": true,
+      "P_exact_official": true,
+      "PF_exact_official": true,
+      "W24_le_W7_le_P": true,
+      "F24_le_F7_le_PF": true,
+      "no_future_document": true,
+      "same_record_set_as_official": true,
+      "training_A6_exact_official": true,
+      "training_W24_le_W7_le_P": true,
+      "training_F24_le_F7_le_PF": true,
+      "evaluation_A6_exact_official": true,
+      "evaluation_W24_le_W7_le_P": true,
+      "evaluation_F24_le_F7_le_PF": true
+    }
+  },
+  "outputs": [
+    {
+      "path": "seeds_windows/features/w7.activity.npy",
+      "sha256": "118d54b92275bd433d95ac1b8e5e6ee53e2fc10b36fa8ec02d39f39cc7db4615",
+      "shape": [
+        1421941,
+        3
+      ],
+      "columns": [
+        "W7",
+        "official_A6",
+        "F7"
+      ]
+    },
+    {
+      "path": "seeds_windows/features/w24.activity.npy",
+      "sha256": "7856ba84a73dec61b0658918ad51651bc177823d418ab57ebef518ec1fb3b962",
+      "shape": [
+        1421941,
+        3
+      ],
+      "columns": [
+        "W24",
+        "official_A6",
+        "F24"
+      ]
+    },
+    {
+      "path": "seeds_windows/features/w7_shift.activity.npy",
+      "sha256": "b07f5b7b92f23e3ad46d12cd49c2c9328d88ff1acf545c29e65cdc9b9aa7754b",
+      "shape": [
+        1421941,
+        3
+      ],
+      "columns": [
+        "W7",
+        "official_A6",
+        "F7"
+      ]
+    }
+  ],
+  "all_checks_pass": true,
+  "runtime_seconds": 2.17129833396757,
+  "peak_rss_bytes": 714801152
+}

@@ -1,0 +1,2260 @@
+{
+  "source_root": "paper_plan/paper/posthoc_20261019",
+  "description": "Source identities and included file hashes for the forecasting and scoring material. Portable records retain the original digest.",
+  "files": [
+    {
+      "source": "paper_plan/paper/posthoc_20261019/DECISIONS.json",
+      "destination": "seeds_windows/DECISIONS.json",
+      "original_sha256": "5037e4b1fe182ce4fef01e1dab40e15521d54f37f9df9605862a09f57ce2cd1b",
+      "sha256": "5037e4b1fe182ce4fef01e1dab40e15521d54f37f9df9605862a09f57ce2cd1b",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/DIFFERENCES.md",
+      "destination": "seeds_windows/DIFFERENCES.md",
+      "original_sha256": "4ffa1415fbff84bf19c8c4cdd0d073bf62613bda7495cc49d626630c504d10e1",
+      "sha256": "7ea13046de8659867652e667fad4649b623436ab745c2ab03cdb599dcb7b5404",
+      "byte_identical": false
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/EQUIVALENCE_GATE.json",
+      "destination": "seeds_windows/EQUIVALENCE_GATE.json",
+      "original_sha256": "423b79f72618e431d3c688100002b3243583d83c093263c6786088bc4dd2b034",
+      "sha256": "423b79f72618e431d3c688100002b3243583d83c093263c6786088bc4dd2b034",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/FEATURE_CHECKS.json",
+      "destination": "seeds_windows/FEATURE_CHECKS.json",
+      "original_sha256": "86dc303c01cbf1d8c03547d484c43c0c4e8ecd07fc2535e2d995419620ce757b",
+      "sha256": "4ad6f6e7bad2ce04e2c53289d8acd113493dc4282c0c3b64eb93e7ea98625d94",
+      "byte_identical": false
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/FINAL_CHECKS.json",
+      "destination": "seeds_windows/FINAL_CHECKS.json",
+      "original_sha256": "5445f5fc8fe639c6ba0ced503e19ed38d5e3ec0099e6e5d42b0c2d748b1506a6",
+      "sha256": "5445f5fc8fe639c6ba0ced503e19ed38d5e3ec0099e6e5d42b0c2d748b1506a6",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/INPUT_RECORDS.json",
+      "destination": "seeds_windows/INPUT_RECORDS.json",
+      "original_sha256": "9d9cefdfa8cbc319567dfbf0ffa9132a6e486f2900fca7c09c4b446c5ee91aa1",
+      "sha256": "a1885c77a6f21baec6ba19944f871422e6e7bc4f7c522bb7959041d8f467d545",
+      "byte_identical": false
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/README.md",
+      "destination": "seeds_windows/README.md",
+      "original_sha256": "1e9b28f869e58e1b51b29e574a0f5f72774622dd400e02d55939bd22e1160942",
+      "sha256": "4fd3b1bd33903ba84557d3a3e9f6878f47d05bfc350e745caf03b826bbaf480a",
+      "byte_identical": false
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/code/make_report.py",
+      "destination": "seeds_windows/code/make_report.py",
+      "original_sha256": "f08f500a15b039c9c8ada7fcf77a04a70e09c676291205c5ba13a7eaad92a93c",
+      "sha256": "f08f500a15b039c9c8ada7fcf77a04a70e09c676291205c5ba13a7eaad92a93c",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/code/run_posthoc.py",
+      "destination": "seeds_windows/code/run_posthoc.py",
+      "original_sha256": "f5a50fa29f238457af068145ce46416fcb39113acb1e375644d3a67d43a31343",
+      "sha256": "4b3048afbc21fe5653c1035ce6e90ea84c4e459edbf3cfdba739f959d0079d16",
+      "byte_identical": false
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/code/score_posthoc.py",
+      "destination": "seeds_windows/code/score_posthoc.py",
+      "original_sha256": "748432754e69ed41ae94937f4cf9a0982613c83559b5ee66f898d4d0c8491a45",
+      "sha256": "b9c32d481f0658659742b5360303d609a150c70ef070f30211949c2cef57b7a5",
+      "byte_identical": false
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/code/window_features.py",
+      "destination": "seeds_windows/code/window_features.py",
+      "original_sha256": "3fada84c7f837b4ffcb4184db8c4b2d704529a67cbad38e70f16c621a4dee8e1",
+      "sha256": "3fada84c7f837b4ffcb4184db8c4b2d704529a67cbad38e70f16c621a4dee8e1",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/features/w24.activity.npy",
+      "destination": "seeds_windows/features/w24.activity.npy",
+      "original_sha256": "7856ba84a73dec61b0658918ad51651bc177823d418ab57ebef518ec1fb3b962",
+      "sha256": "7856ba84a73dec61b0658918ad51651bc177823d418ab57ebef518ec1fb3b962",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/features/w7.activity.npy",
+      "destination": "seeds_windows/features/w7.activity.npy",
+      "original_sha256": "118d54b92275bd433d95ac1b8e5e6ee53e2fc10b36fa8ec02d39f39cc7db4615",
+      "sha256": "118d54b92275bd433d95ac1b8e5e6ee53e2fc10b36fa8ec02d39f39cc7db4615",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/features/w7_shift.activity.npy",
+      "destination": "seeds_windows/features/w7_shift.activity.npy",
+      "original_sha256": "b07f5b7b92f23e3ad46d12cd49c2c9328d88ff1acf545c29e65cdc9b9aa7754b",
+      "sha256": "b07f5b7b92f23e3ad46d12cd49c2c9328d88ff1acf545c29e65cdc9b9aa7754b",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/INDEX.json",
+      "destination": "seeds_windows/forecasts/INDEX.json",
+      "original_sha256": "27fbc53e0126c9ab641c0e05bce3650aed0d7990bc378869544f9e4b0b64f65e",
+      "sha256": "8441289e06c398189c0e69f447d971c72e5842ad69bf247deb2f5dbf8d004e5b",
+      "byte_identical": false
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/SHA256SUMS",
+      "destination": "seeds_windows/forecasts/SHA256SUMS",
+      "original_sha256": "118ac81d108f121b4b6154843973a5dfdb0ee5078b9080d8aa482e5c90395ded",
+      "sha256": "118ac81d108f121b4b6154843973a5dfdb0ee5078b9080d8aa482e5c90395ded",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-05-19__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-05-19__N__s20260920__main.predictions.parquet",
+      "original_sha256": "12509ec3064af92b32c3237fbe93131912bdf63cacc414346e3beec2ad0f4b81",
+      "sha256": "12509ec3064af92b32c3237fbe93131912bdf63cacc414346e3beec2ad0f4b81",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-05-19__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-05-19__N__s20260921__main.predictions.parquet",
+      "original_sha256": "606d43a299e76a5201533b7dda919946514dcde3cc6af1bc11ffcd73ab07622e",
+      "sha256": "606d43a299e76a5201533b7dda919946514dcde3cc6af1bc11ffcd73ab07622e",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-05-20__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-05-20__N__s20260920__main.predictions.parquet",
+      "original_sha256": "8dd8e46a1689d5574f53ffaae340e33d2d90d9199829cdd1c81bd4963596b62a",
+      "sha256": "8dd8e46a1689d5574f53ffaae340e33d2d90d9199829cdd1c81bd4963596b62a",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-05-20__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-05-20__N__s20260921__main.predictions.parquet",
+      "original_sha256": "386469bc08c11e97cd8284fecf8ab29947569f8ce6c68b5060ce5a581dfc647a",
+      "sha256": "386469bc08c11e97cd8284fecf8ab29947569f8ce6c68b5060ce5a581dfc647a",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-05-21__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-05-21__N__s20260920__main.predictions.parquet",
+      "original_sha256": "c8162661abcd9f99e8138abb1327dd0ab4c4765be64b7195495f4f2a9458781a",
+      "sha256": "c8162661abcd9f99e8138abb1327dd0ab4c4765be64b7195495f4f2a9458781a",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-05-21__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-05-21__N__s20260921__main.predictions.parquet",
+      "original_sha256": "542f2437c6cba7567105e107383686e2df22d2e6687aef036b9ae84c6e80b027",
+      "sha256": "542f2437c6cba7567105e107383686e2df22d2e6687aef036b9ae84c6e80b027",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-05-22__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-05-22__N__s20260920__main.predictions.parquet",
+      "original_sha256": "a09dbe9afcd1ff16e150231886406f354344268901223d5c33655089863a8ad5",
+      "sha256": "a09dbe9afcd1ff16e150231886406f354344268901223d5c33655089863a8ad5",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-05-22__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-05-22__N__s20260921__main.predictions.parquet",
+      "original_sha256": "7a7fdacf9c6dce7d8d5baa67b9afe0f5fd2ac429e54616dbf77fa3d0b8be9776",
+      "sha256": "7a7fdacf9c6dce7d8d5baa67b9afe0f5fd2ac429e54616dbf77fa3d0b8be9776",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-05-23__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-05-23__N__s20260920__main.predictions.parquet",
+      "original_sha256": "ba810f538b583f7feae34fe78aba57defca0992b66d0962e08577adf6ed79f9c",
+      "sha256": "ba810f538b583f7feae34fe78aba57defca0992b66d0962e08577adf6ed79f9c",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-05-23__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-05-23__N__s20260921__main.predictions.parquet",
+      "original_sha256": "c482bdb680ea5198c5be127aaf8157f8f10cf5ffee8f21a262a7b86e5994d427",
+      "sha256": "c482bdb680ea5198c5be127aaf8157f8f10cf5ffee8f21a262a7b86e5994d427",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-05-24__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-05-24__N__s20260920__main.predictions.parquet",
+      "original_sha256": "8ff84ec8141fd9a8366724d87b518bd7643157bae2397cd348448e874f034f9b",
+      "sha256": "8ff84ec8141fd9a8366724d87b518bd7643157bae2397cd348448e874f034f9b",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-05-24__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-05-24__N__s20260921__main.predictions.parquet",
+      "original_sha256": "ac92a531a9b8559e333432f48f8d4ef7a10a71faea2eca9fd927be4016eeb1ca",
+      "sha256": "ac92a531a9b8559e333432f48f8d4ef7a10a71faea2eca9fd927be4016eeb1ca",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-05-25__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-05-25__N__s20260920__main.predictions.parquet",
+      "original_sha256": "a666fd42adc2d7fb11359537d918954f64b6a537ad602575975ecae1696922b6",
+      "sha256": "a666fd42adc2d7fb11359537d918954f64b6a537ad602575975ecae1696922b6",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-05-25__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-05-25__N__s20260921__main.predictions.parquet",
+      "original_sha256": "f31d34335b7d0a8d449bd42fa4726f9f3cd0dddf9f00188a51774823d81f9168",
+      "sha256": "f31d34335b7d0a8d449bd42fa4726f9f3cd0dddf9f00188a51774823d81f9168",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-05-26__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-05-26__N__s20260920__main.predictions.parquet",
+      "original_sha256": "bf4476d45b20cb4efafe01b82d01568e7876e04d92a2e1b16c2684a5c84afddd",
+      "sha256": "bf4476d45b20cb4efafe01b82d01568e7876e04d92a2e1b16c2684a5c84afddd",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-05-26__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-05-26__N__s20260921__main.predictions.parquet",
+      "original_sha256": "0a2a53a071ff9bc72e1315a80018521eb03baf7b596eb4f52e5a38a8a52e91ce",
+      "sha256": "0a2a53a071ff9bc72e1315a80018521eb03baf7b596eb4f52e5a38a8a52e91ce",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-05-27__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-05-27__N__s20260920__main.predictions.parquet",
+      "original_sha256": "946010d659f27cf289a565acf5f10dc4cd87a23d9191ef3683fb0615a7c772a5",
+      "sha256": "946010d659f27cf289a565acf5f10dc4cd87a23d9191ef3683fb0615a7c772a5",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-05-27__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-05-27__N__s20260921__main.predictions.parquet",
+      "original_sha256": "511291e3e9c840da0fd1dfad6c952fcbbf836d16a11f6b67ba24b4c83993fc32",
+      "sha256": "511291e3e9c840da0fd1dfad6c952fcbbf836d16a11f6b67ba24b4c83993fc32",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-05-28__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-05-28__N__s20260920__main.predictions.parquet",
+      "original_sha256": "702ebf374a95ad5b3f017931b1a6c4c12c3dce83dfc8f948fe4c84f559265d54",
+      "sha256": "702ebf374a95ad5b3f017931b1a6c4c12c3dce83dfc8f948fe4c84f559265d54",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-05-28__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-05-28__N__s20260921__main.predictions.parquet",
+      "original_sha256": "565b0cf80ed236780abece7c03e45b730c17bb853d0bcf2fee094f5af580846c",
+      "sha256": "565b0cf80ed236780abece7c03e45b730c17bb853d0bcf2fee094f5af580846c",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-05-29__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-05-29__N__s20260920__main.predictions.parquet",
+      "original_sha256": "ec8e4571258085031634a7aead639de71662c219c09c9c5fedde70b0242a24a7",
+      "sha256": "ec8e4571258085031634a7aead639de71662c219c09c9c5fedde70b0242a24a7",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-05-29__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-05-29__N__s20260921__main.predictions.parquet",
+      "original_sha256": "cf0e412eca4e26fca63eaf0617c50d16f50607411bea912d5b501a049eeda1da",
+      "sha256": "cf0e412eca4e26fca63eaf0617c50d16f50607411bea912d5b501a049eeda1da",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-05-30__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-05-30__N__s20260920__main.predictions.parquet",
+      "original_sha256": "d95c03ae024805e132cd0e4315f9f3059a570171a4108100d25c8472ea7dd6e5",
+      "sha256": "d95c03ae024805e132cd0e4315f9f3059a570171a4108100d25c8472ea7dd6e5",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-05-30__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-05-30__N__s20260921__main.predictions.parquet",
+      "original_sha256": "f83cdcf6595a68173e090a870d34d43fa3d3c95ef69be8684927b45f53d80e0d",
+      "sha256": "f83cdcf6595a68173e090a870d34d43fa3d3c95ef69be8684927b45f53d80e0d",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-05-31__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-05-31__N__s20260920__main.predictions.parquet",
+      "original_sha256": "7ef1e7741ad3a418753152be62e7c0912f81c72aebe46ed81e08297dac972b8d",
+      "sha256": "7ef1e7741ad3a418753152be62e7c0912f81c72aebe46ed81e08297dac972b8d",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-05-31__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-05-31__N__s20260921__main.predictions.parquet",
+      "original_sha256": "19c7752c326d4952449034f4926933384fef572308d3a83577c8aa6046a96f9e",
+      "sha256": "19c7752c326d4952449034f4926933384fef572308d3a83577c8aa6046a96f9e",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-06-01__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-06-01__N__s20260920__main.predictions.parquet",
+      "original_sha256": "da1b72b81be7444402969bfac38d91c07cbb3c77d5aedfcf6041d207fde82795",
+      "sha256": "da1b72b81be7444402969bfac38d91c07cbb3c77d5aedfcf6041d207fde82795",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-06-01__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-06-01__N__s20260921__main.predictions.parquet",
+      "original_sha256": "098eb97092038c05f80b3d196a34d5ea5649dd237137454e47ff388b55f657d7",
+      "sha256": "098eb97092038c05f80b3d196a34d5ea5649dd237137454e47ff388b55f657d7",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-06-02__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-06-02__N__s20260920__main.predictions.parquet",
+      "original_sha256": "583790dc7ae91dbd6e61ba3acea9a10fa76d59d4d37fbeff468bea118d8d20b0",
+      "sha256": "583790dc7ae91dbd6e61ba3acea9a10fa76d59d4d37fbeff468bea118d8d20b0",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-06-02__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-06-02__N__s20260921__main.predictions.parquet",
+      "original_sha256": "59910df26817073f2edc6b52dad7687dd2bee9b85d669d53ae79001619967f66",
+      "sha256": "59910df26817073f2edc6b52dad7687dd2bee9b85d669d53ae79001619967f66",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-06-03__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-06-03__N__s20260920__main.predictions.parquet",
+      "original_sha256": "b7b9998656b5168d1d7d6ac8c29a49a7b4d2837b84fcebc0f8dddb90e25d1ead",
+      "sha256": "b7b9998656b5168d1d7d6ac8c29a49a7b4d2837b84fcebc0f8dddb90e25d1ead",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-06-03__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-06-03__N__s20260921__main.predictions.parquet",
+      "original_sha256": "1a8cbae854cfa9ddb25158e090a4af935a7bdd6d5329a25f77eabd8227b44f66",
+      "sha256": "1a8cbae854cfa9ddb25158e090a4af935a7bdd6d5329a25f77eabd8227b44f66",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-06-04__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-06-04__N__s20260920__main.predictions.parquet",
+      "original_sha256": "7ce02fe3572236eac8d37c703bb169b57245dbaeb18e27cb80a9464d7f34d68f",
+      "sha256": "7ce02fe3572236eac8d37c703bb169b57245dbaeb18e27cb80a9464d7f34d68f",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-06-04__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-06-04__N__s20260921__main.predictions.parquet",
+      "original_sha256": "b879bc55d51e970b59aacc4682e6b285945bba24d427cd757e49a6d6b4e854b3",
+      "sha256": "b879bc55d51e970b59aacc4682e6b285945bba24d427cd757e49a6d6b4e854b3",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-06-05__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-06-05__N__s20260920__main.predictions.parquet",
+      "original_sha256": "856a8e3acf9c03f9f8b6ddd04d54ed94f8006d4b06e19f24fbf729ce7ffc17d8",
+      "sha256": "856a8e3acf9c03f9f8b6ddd04d54ed94f8006d4b06e19f24fbf729ce7ffc17d8",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-06-05__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-06-05__N__s20260921__main.predictions.parquet",
+      "original_sha256": "4ef6ee9943780adeab70add352adcac233db6e69b3a086e5606e3a616c25267e",
+      "sha256": "4ef6ee9943780adeab70add352adcac233db6e69b3a086e5606e3a616c25267e",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-06-06__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-06-06__N__s20260920__main.predictions.parquet",
+      "original_sha256": "9266bf508ef483c5b9ef9d0bf15128efac1478277251a6ef173239c9383969e2",
+      "sha256": "9266bf508ef483c5b9ef9d0bf15128efac1478277251a6ef173239c9383969e2",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-06-06__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-06-06__N__s20260921__main.predictions.parquet",
+      "original_sha256": "342b57ba62cc24b84193e930054e5c52971b3ed98bc8b27545a0647eb13ded63",
+      "sha256": "342b57ba62cc24b84193e930054e5c52971b3ed98bc8b27545a0647eb13ded63",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-06-07__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-06-07__N__s20260920__main.predictions.parquet",
+      "original_sha256": "0ab6a0bedcfb3ca20301aa5ad3bdbd03d4e0c374299b8062f587854d19d9dd16",
+      "sha256": "0ab6a0bedcfb3ca20301aa5ad3bdbd03d4e0c374299b8062f587854d19d9dd16",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-06-07__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-06-07__N__s20260921__main.predictions.parquet",
+      "original_sha256": "41fa10e4a5d7fbe79156d1cc44c59244cbcd9ccdbc1aa69df1e595c80a797353",
+      "sha256": "41fa10e4a5d7fbe79156d1cc44c59244cbcd9ccdbc1aa69df1e595c80a797353",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-06-08__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-06-08__N__s20260920__main.predictions.parquet",
+      "original_sha256": "066f31d24d04c296c6bbc8479100baf585bb2726ac038fc868e2e880bad1c7b4",
+      "sha256": "066f31d24d04c296c6bbc8479100baf585bb2726ac038fc868e2e880bad1c7b4",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-06-08__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-06-08__N__s20260921__main.predictions.parquet",
+      "original_sha256": "cc890d190d5d88da1707cb215a70d6a12e987704ca30cff7ee9cc0e957198eac",
+      "sha256": "cc890d190d5d88da1707cb215a70d6a12e987704ca30cff7ee9cc0e957198eac",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-06-09__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-06-09__N__s20260920__main.predictions.parquet",
+      "original_sha256": "14eb55df96f1c0cd6afc934e2abd22f6947552ea60d33e6640800e1b5061a601",
+      "sha256": "14eb55df96f1c0cd6afc934e2abd22f6947552ea60d33e6640800e1b5061a601",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-06-09__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-06-09__N__s20260921__main.predictions.parquet",
+      "original_sha256": "05f56fb60e2d8bc2abd96f9058ee0ec1736cbabd1ef977589c821717eb42db04",
+      "sha256": "05f56fb60e2d8bc2abd96f9058ee0ec1736cbabd1ef977589c821717eb42db04",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-06-10__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-06-10__N__s20260920__main.predictions.parquet",
+      "original_sha256": "d855251c07d453c97798d9c2734311c5af8e5edc63285ba85942ffb9b02631ff",
+      "sha256": "d855251c07d453c97798d9c2734311c5af8e5edc63285ba85942ffb9b02631ff",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-06-10__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-06-10__N__s20260921__main.predictions.parquet",
+      "original_sha256": "1878e12c839f01d2761836c390503f9362e38e7409f24c401dfe9ff2175fa2b6",
+      "sha256": "1878e12c839f01d2761836c390503f9362e38e7409f24c401dfe9ff2175fa2b6",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-06-11__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-06-11__N__s20260920__main.predictions.parquet",
+      "original_sha256": "f831d3452f9ae8b2db242fd27c79faad792f8eef6f398ffc20858ad2cd547ec8",
+      "sha256": "f831d3452f9ae8b2db242fd27c79faad792f8eef6f398ffc20858ad2cd547ec8",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-06-11__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-06-11__N__s20260921__main.predictions.parquet",
+      "original_sha256": "879924af2d123f5c6a82b364ed0d34c29452d79e975e746061b28362442c4c38",
+      "sha256": "879924af2d123f5c6a82b364ed0d34c29452d79e975e746061b28362442c4c38",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-06-12__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-06-12__N__s20260920__main.predictions.parquet",
+      "original_sha256": "ae6bd528169945f39c3ba315ce22b8e9b5485bb298636efc70381b3521828485",
+      "sha256": "ae6bd528169945f39c3ba315ce22b8e9b5485bb298636efc70381b3521828485",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-06-12__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-06-12__N__s20260921__main.predictions.parquet",
+      "original_sha256": "14410ed8887007818f92163d2049ce3e33abf56b2324f0821a5f45f4af0bee9d",
+      "sha256": "14410ed8887007818f92163d2049ce3e33abf56b2324f0821a5f45f4af0bee9d",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-06-13__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-06-13__N__s20260920__main.predictions.parquet",
+      "original_sha256": "a26670b213ec2b349162cab35952b9afded15b5c232ce1732a07fd4a732e4f02",
+      "sha256": "a26670b213ec2b349162cab35952b9afded15b5c232ce1732a07fd4a732e4f02",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-06-13__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-06-13__N__s20260921__main.predictions.parquet",
+      "original_sha256": "f9cdc5c2ba490d328ddda2ba6348fa168d7eb00f6cd209e0c4b9da6ca51f2ef2",
+      "sha256": "f9cdc5c2ba490d328ddda2ba6348fa168d7eb00f6cd209e0c4b9da6ca51f2ef2",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-06-14__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-06-14__N__s20260920__main.predictions.parquet",
+      "original_sha256": "068b8ee46b392423060e5d8ebac030ecf43f0f13716c6feccd478c09e63ac8fc",
+      "sha256": "068b8ee46b392423060e5d8ebac030ecf43f0f13716c6feccd478c09e63ac8fc",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-06-14__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-06-14__N__s20260921__main.predictions.parquet",
+      "original_sha256": "55ffe507e891d2e557943f952201c4dab06cdf09de97ba54cf0a437d9afb5609",
+      "sha256": "55ffe507e891d2e557943f952201c4dab06cdf09de97ba54cf0a437d9afb5609",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-06-15__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-06-15__N__s20260920__main.predictions.parquet",
+      "original_sha256": "58bc43398a45ff032db7dcb72fe6fcd713fcc738c5d377fd10e9d2d66dc5b7db",
+      "sha256": "58bc43398a45ff032db7dcb72fe6fcd713fcc738c5d377fd10e9d2d66dc5b7db",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-06-15__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-06-15__N__s20260921__main.predictions.parquet",
+      "original_sha256": "b4e4a5f02ce13306f128b07dfa53c3c775c7b5418bea16b6395c32bd1fc2f5ec",
+      "sha256": "b4e4a5f02ce13306f128b07dfa53c3c775c7b5418bea16b6395c32bd1fc2f5ec",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-06-16__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-06-16__N__s20260920__main.predictions.parquet",
+      "original_sha256": "eac688afd461ec0adf66c950c8af422e8f3a8e793316c316dc236ad202e649e9",
+      "sha256": "eac688afd461ec0adf66c950c8af422e8f3a8e793316c316dc236ad202e649e9",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-06-16__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-06-16__N__s20260921__main.predictions.parquet",
+      "original_sha256": "9c86543e078839b589a283157efbb2e1c3c481cd1895252c5f4bbe7e4a0ae7ad",
+      "sha256": "9c86543e078839b589a283157efbb2e1c3c481cd1895252c5f4bbe7e4a0ae7ad",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-06-17__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-06-17__N__s20260920__main.predictions.parquet",
+      "original_sha256": "1608513d79bdb3aadb661839c082fb9a651d0293ab87a7279185864436e49b09",
+      "sha256": "1608513d79bdb3aadb661839c082fb9a651d0293ab87a7279185864436e49b09",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-06-17__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-06-17__N__s20260921__main.predictions.parquet",
+      "original_sha256": "35c3ac116f4ae02a6d23565891bd940edf01c289ff70924a76216519d75731bf",
+      "sha256": "35c3ac116f4ae02a6d23565891bd940edf01c289ff70924a76216519d75731bf",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-06-18__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-06-18__N__s20260920__main.predictions.parquet",
+      "original_sha256": "fd288fe606861c0ab24d6700249510d6f803a09e81c3cd3d55335aef9665b881",
+      "sha256": "fd288fe606861c0ab24d6700249510d6f803a09e81c3cd3d55335aef9665b881",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-06-18__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-06-18__N__s20260921__main.predictions.parquet",
+      "original_sha256": "ccc9b0bae13840bd45028bd1136db6437b9dd08ce7016bf192c5f2fdfd5d8a03",
+      "sha256": "ccc9b0bae13840bd45028bd1136db6437b9dd08ce7016bf192c5f2fdfd5d8a03",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-06-19__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-06-19__N__s20260920__main.predictions.parquet",
+      "original_sha256": "1bd99a0cbc7a3f96fe71ec79f984c6d3d7dcd5db0b72bed898b1fa814b89bddd",
+      "sha256": "1bd99a0cbc7a3f96fe71ec79f984c6d3d7dcd5db0b72bed898b1fa814b89bddd",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-06-19__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-06-19__N__s20260921__main.predictions.parquet",
+      "original_sha256": "cbdcd28e12e1356fb4ee19d2ddd30070994343f0fe829374a4ebcbc0f33587fe",
+      "sha256": "cbdcd28e12e1356fb4ee19d2ddd30070994343f0fe829374a4ebcbc0f33587fe",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-06-20__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-06-20__N__s20260920__main.predictions.parquet",
+      "original_sha256": "521250fdbdbc2066cc41b134509b4aa7e21390db80a7d022df151299d2add746",
+      "sha256": "521250fdbdbc2066cc41b134509b4aa7e21390db80a7d022df151299d2add746",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-06-20__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-06-20__N__s20260921__main.predictions.parquet",
+      "original_sha256": "78e1b93b3d1bcb0b78eaf823899000ccbebc33a362f91968a2f26aea86d70255",
+      "sha256": "78e1b93b3d1bcb0b78eaf823899000ccbebc33a362f91968a2f26aea86d70255",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-06-21__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-06-21__N__s20260920__main.predictions.parquet",
+      "original_sha256": "6737e184031d701b62ce5bb8b85ab096157fd07e57f15139399c2d1fdda50943",
+      "sha256": "6737e184031d701b62ce5bb8b85ab096157fd07e57f15139399c2d1fdda50943",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-06-21__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-06-21__N__s20260921__main.predictions.parquet",
+      "original_sha256": "730711f40c5cd857e9c8714d8e9a94044c80aab9bc6bad2758380a1ddbc6f2cb",
+      "sha256": "730711f40c5cd857e9c8714d8e9a94044c80aab9bc6bad2758380a1ddbc6f2cb",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-06-22__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-06-22__N__s20260920__main.predictions.parquet",
+      "original_sha256": "3a6570e441e4668b49b4e199f2e9c863fadfda2bc81ce86565dde97d18d0ae13",
+      "sha256": "3a6570e441e4668b49b4e199f2e9c863fadfda2bc81ce86565dde97d18d0ae13",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-06-22__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-06-22__N__s20260921__main.predictions.parquet",
+      "original_sha256": "506f6e76df6197a6f817a3250b17907987f8b14778abbeb433358eaf942dd560",
+      "sha256": "506f6e76df6197a6f817a3250b17907987f8b14778abbeb433358eaf942dd560",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-06-23__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-06-23__N__s20260920__main.predictions.parquet",
+      "original_sha256": "f54c8c5003878c6a39a7a9f8376a5c2fc745d28fe15933c042087154d3b7c0c5",
+      "sha256": "f54c8c5003878c6a39a7a9f8376a5c2fc745d28fe15933c042087154d3b7c0c5",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-06-23__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-06-23__N__s20260921__main.predictions.parquet",
+      "original_sha256": "0873cdb08807390c4bae1fe873c2f334cf57886e2ea4ff445b9c96a619f7695c",
+      "sha256": "0873cdb08807390c4bae1fe873c2f334cf57886e2ea4ff445b9c96a619f7695c",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-06-24__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-06-24__N__s20260920__main.predictions.parquet",
+      "original_sha256": "bd667b88c4068302ade4047ccb6bb7871cbbe6ffe9bc4803954c5eb3f9170a05",
+      "sha256": "bd667b88c4068302ade4047ccb6bb7871cbbe6ffe9bc4803954c5eb3f9170a05",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-06-24__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-06-24__N__s20260921__main.predictions.parquet",
+      "original_sha256": "1bfabe26d9090e1a2a5d7826c1467c62f6f3a003f54e0b41f5bf0cc338c571a6",
+      "sha256": "1bfabe26d9090e1a2a5d7826c1467c62f6f3a003f54e0b41f5bf0cc338c571a6",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-06-25__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-06-25__N__s20260920__main.predictions.parquet",
+      "original_sha256": "1f84d6404df3accb25d82bcebb25985093f835fa9f0ffb847a1f7448c30c9f78",
+      "sha256": "1f84d6404df3accb25d82bcebb25985093f835fa9f0ffb847a1f7448c30c9f78",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-06-25__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-06-25__N__s20260921__main.predictions.parquet",
+      "original_sha256": "0778fba1c9742e11f3e14fb76357ec33e2bc0aaddac801d054167a11c9d5a602",
+      "sha256": "0778fba1c9742e11f3e14fb76357ec33e2bc0aaddac801d054167a11c9d5a602",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-06-26__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-06-26__N__s20260920__main.predictions.parquet",
+      "original_sha256": "8b55980785b4e04025a88d2c6624c3b3011b8de8cc4b7c301a241b3b18e8e213",
+      "sha256": "8b55980785b4e04025a88d2c6624c3b3011b8de8cc4b7c301a241b3b18e8e213",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-06-26__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-06-26__N__s20260921__main.predictions.parquet",
+      "original_sha256": "536bc6daf010cc774e4ad7eb47bdb88410e666c2b5f2db56d7ef7397af53667e",
+      "sha256": "536bc6daf010cc774e4ad7eb47bdb88410e666c2b5f2db56d7ef7397af53667e",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-06-27__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-06-27__N__s20260920__main.predictions.parquet",
+      "original_sha256": "b3799b76c1679d8457b55c5612826c2e8a287ebd434d6d7ac3a9d0bbbffe73f0",
+      "sha256": "b3799b76c1679d8457b55c5612826c2e8a287ebd434d6d7ac3a9d0bbbffe73f0",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-06-27__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-06-27__N__s20260921__main.predictions.parquet",
+      "original_sha256": "91af6b074c81cff5a21d32c8d9976f0e869a08acbc1b90ad610834b1314f7b5e",
+      "sha256": "91af6b074c81cff5a21d32c8d9976f0e869a08acbc1b90ad610834b1314f7b5e",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-06-28__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-06-28__N__s20260920__main.predictions.parquet",
+      "original_sha256": "3196fa4db4082a24f3f4e5c4a3b976e843658dc7efb6b4eb8b97c38f32d410cd",
+      "sha256": "3196fa4db4082a24f3f4e5c4a3b976e843658dc7efb6b4eb8b97c38f32d410cd",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-06-28__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-06-28__N__s20260921__main.predictions.parquet",
+      "original_sha256": "0a392f85258da87f3394a752c552408496072d419bc7d2faf55a7ba389fdf590",
+      "sha256": "0a392f85258da87f3394a752c552408496072d419bc7d2faf55a7ba389fdf590",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-06-29__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-06-29__N__s20260920__main.predictions.parquet",
+      "original_sha256": "48d51f2b435c852c962826ab39cde95e4fddc0b643855df2c15652375b17ec30",
+      "sha256": "48d51f2b435c852c962826ab39cde95e4fddc0b643855df2c15652375b17ec30",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-06-29__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-06-29__N__s20260921__main.predictions.parquet",
+      "original_sha256": "063eac8c3308bc9ad0ecb42245f7ae5abbb3285f48a933c5cfc592900f6e0649",
+      "sha256": "063eac8c3308bc9ad0ecb42245f7ae5abbb3285f48a933c5cfc592900f6e0649",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-06-30__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-06-30__N__s20260920__main.predictions.parquet",
+      "original_sha256": "40f278dc597743476157b4c066e73602a6b87344fd6fd29dde93964b157bd963",
+      "sha256": "40f278dc597743476157b4c066e73602a6b87344fd6fd29dde93964b157bd963",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-06-30__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-06-30__N__s20260921__main.predictions.parquet",
+      "original_sha256": "bcb45614b2da70f0bc49ce4801b353a81d3fac14a79b2242b3ca41cd62879414",
+      "sha256": "bcb45614b2da70f0bc49ce4801b353a81d3fac14a79b2242b3ca41cd62879414",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-07-01__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-07-01__N__s20260920__main.predictions.parquet",
+      "original_sha256": "dd75cfd332dbac171a0c6fe215a500408f9371cdac49ba176b1f5d1b45802298",
+      "sha256": "dd75cfd332dbac171a0c6fe215a500408f9371cdac49ba176b1f5d1b45802298",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-07-01__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-07-01__N__s20260921__main.predictions.parquet",
+      "original_sha256": "7ed59d7007f9e5ca9deff55630fda633718125e83eec823286798cb4ed4744bc",
+      "sha256": "7ed59d7007f9e5ca9deff55630fda633718125e83eec823286798cb4ed4744bc",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-07-02__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-07-02__N__s20260920__main.predictions.parquet",
+      "original_sha256": "0ebd03e877442081a12745cac38aaaf12e6400cbd99c820d6d7fc1ccc1025bfb",
+      "sha256": "0ebd03e877442081a12745cac38aaaf12e6400cbd99c820d6d7fc1ccc1025bfb",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-07-02__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-07-02__N__s20260921__main.predictions.parquet",
+      "original_sha256": "3ce4e0d57ef2c3b4b490c9586240eb913a9e41f6424e9a9c069ef2cee8017f39",
+      "sha256": "3ce4e0d57ef2c3b4b490c9586240eb913a9e41f6424e9a9c069ef2cee8017f39",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-07-03__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-07-03__N__s20260920__main.predictions.parquet",
+      "original_sha256": "fd8fbd0afc5323c3d37b03b6659117e786bc5863fa31df2ca637df08f7a6df4c",
+      "sha256": "fd8fbd0afc5323c3d37b03b6659117e786bc5863fa31df2ca637df08f7a6df4c",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-07-03__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-07-03__N__s20260921__main.predictions.parquet",
+      "original_sha256": "610779495291e2001741e60885a1884b33b3322916fc566694ab475232a46afd",
+      "sha256": "610779495291e2001741e60885a1884b33b3322916fc566694ab475232a46afd",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-07-04__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-07-04__N__s20260920__main.predictions.parquet",
+      "original_sha256": "3803cd7464b48247009fd9da3a20b93efc874574986c1e96d041d434d5546708",
+      "sha256": "3803cd7464b48247009fd9da3a20b93efc874574986c1e96d041d434d5546708",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-07-04__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-07-04__N__s20260921__main.predictions.parquet",
+      "original_sha256": "c849e2b65d950ca275e5159c308a2be28242aec77ce651ea2c0796dba87d0ed2",
+      "sha256": "c849e2b65d950ca275e5159c308a2be28242aec77ce651ea2c0796dba87d0ed2",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-07-05__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-07-05__N__s20260920__main.predictions.parquet",
+      "original_sha256": "211879ec99626b64f6f4036314fe25221c69612a68193e512b095f684d7475a2",
+      "sha256": "211879ec99626b64f6f4036314fe25221c69612a68193e512b095f684d7475a2",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-07-05__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-07-05__N__s20260921__main.predictions.parquet",
+      "original_sha256": "aab8a9a324dea606bfafd5318fbbc6b2d18cf2e64103edada68841c599ee64f7",
+      "sha256": "aab8a9a324dea606bfafd5318fbbc6b2d18cf2e64103edada68841c599ee64f7",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-07-06__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-07-06__N__s20260920__main.predictions.parquet",
+      "original_sha256": "00266fada4729066eba29062aaed69240bc3633e0aea19b776ebab998f7bd33c",
+      "sha256": "00266fada4729066eba29062aaed69240bc3633e0aea19b776ebab998f7bd33c",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-07-06__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-07-06__N__s20260921__main.predictions.parquet",
+      "original_sha256": "c1b32fbffb971d4a9c195a40db32e78f76d731670522beaa6412cf28e6561c6a",
+      "sha256": "c1b32fbffb971d4a9c195a40db32e78f76d731670522beaa6412cf28e6561c6a",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-07-07__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-07-07__N__s20260920__main.predictions.parquet",
+      "original_sha256": "573e9c965d68d51bdacb22783d7afc88aff337e4ab26d6f3ef9c34a0365b2790",
+      "sha256": "573e9c965d68d51bdacb22783d7afc88aff337e4ab26d6f3ef9c34a0365b2790",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-07-07__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-07-07__N__s20260921__main.predictions.parquet",
+      "original_sha256": "d592a6ff1b998a0202505c5a6b87c36d3da4520cc8fd1b4356371a4980c6ca34",
+      "sha256": "d592a6ff1b998a0202505c5a6b87c36d3da4520cc8fd1b4356371a4980c6ca34",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-07-08__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-07-08__N__s20260920__main.predictions.parquet",
+      "original_sha256": "09a7c33f1e1bed6b07d788887505794c3eb02cf519b8f2a6bb6f1f2afe3de99c",
+      "sha256": "09a7c33f1e1bed6b07d788887505794c3eb02cf519b8f2a6bb6f1f2afe3de99c",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-07-08__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-07-08__N__s20260921__main.predictions.parquet",
+      "original_sha256": "180fc5aafd2d104ef593ea9991468b9a45f83a9f74ba2499b9568e8198952bfb",
+      "sha256": "180fc5aafd2d104ef593ea9991468b9a45f83a9f74ba2499b9568e8198952bfb",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-07-09__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-07-09__N__s20260920__main.predictions.parquet",
+      "original_sha256": "e432a4be52b641a0c2cc833797d774752f8af94d9c52e4064016315b866bf382",
+      "sha256": "e432a4be52b641a0c2cc833797d774752f8af94d9c52e4064016315b866bf382",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-07-09__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-07-09__N__s20260921__main.predictions.parquet",
+      "original_sha256": "b503549999901caead74dbf4c7e563f9dea5c447e084cf8fca27158d7792bea5",
+      "sha256": "b503549999901caead74dbf4c7e563f9dea5c447e084cf8fca27158d7792bea5",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-07-10__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-07-10__N__s20260920__main.predictions.parquet",
+      "original_sha256": "a47fec4cf696e8f87dd5e8bb25e6e1faf4a4c36ab99278ac2cd12eb9171380a7",
+      "sha256": "a47fec4cf696e8f87dd5e8bb25e6e1faf4a4c36ab99278ac2cd12eb9171380a7",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-07-10__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-07-10__N__s20260921__main.predictions.parquet",
+      "original_sha256": "7dacb7f89047a4cde9468644344767d8af93a7a81be343634dea624767c7a454",
+      "sha256": "7dacb7f89047a4cde9468644344767d8af93a7a81be343634dea624767c7a454",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-07-11__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-07-11__N__s20260920__main.predictions.parquet",
+      "original_sha256": "ff20ec5faf24aa538ac2af6849af46317550a0030fe3c36e873de70699873e95",
+      "sha256": "ff20ec5faf24aa538ac2af6849af46317550a0030fe3c36e873de70699873e95",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-07-11__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-07-11__N__s20260921__main.predictions.parquet",
+      "original_sha256": "af0fa8b67da1b4d78965d244e96fb2f2a1daffb3fe65081a7ea444449e3904d5",
+      "sha256": "af0fa8b67da1b4d78965d244e96fb2f2a1daffb3fe65081a7ea444449e3904d5",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-07-12__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-07-12__N__s20260920__main.predictions.parquet",
+      "original_sha256": "990a3c61d20f39510fcbb9ca98c56c743cb645e89e0b7189b257c17077e0a268",
+      "sha256": "990a3c61d20f39510fcbb9ca98c56c743cb645e89e0b7189b257c17077e0a268",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-07-12__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-07-12__N__s20260921__main.predictions.parquet",
+      "original_sha256": "e2a2374c2f9fb7c5ab14d0fe3b6f54b3417818f06c576732a1f5bb03e58e64ef",
+      "sha256": "e2a2374c2f9fb7c5ab14d0fe3b6f54b3417818f06c576732a1f5bb03e58e64ef",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-07-13__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-07-13__N__s20260920__main.predictions.parquet",
+      "original_sha256": "1ca0906bd94a1a7b38f74be7cc4e7fca876cd7311360ed398349224de646ddec",
+      "sha256": "1ca0906bd94a1a7b38f74be7cc4e7fca876cd7311360ed398349224de646ddec",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-07-13__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-07-13__N__s20260921__main.predictions.parquet",
+      "original_sha256": "8f03c3a37efb3d95cb5ca1f10513542dc58985edaf7e5bf35975d4a8e6e81b11",
+      "sha256": "8f03c3a37efb3d95cb5ca1f10513542dc58985edaf7e5bf35975d4a8e6e81b11",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-07-14__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-07-14__N__s20260920__main.predictions.parquet",
+      "original_sha256": "1070c08642b5e4ba11d9a21da25fd22490954fff66d2173529b4d6a37ff8f9e6",
+      "sha256": "1070c08642b5e4ba11d9a21da25fd22490954fff66d2173529b4d6a37ff8f9e6",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-07-14__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-07-14__N__s20260921__main.predictions.parquet",
+      "original_sha256": "4191bc2da076ae1c7e83ea29eb0462912fc0c28e1bf80389cc464f28f8861035",
+      "sha256": "4191bc2da076ae1c7e83ea29eb0462912fc0c28e1bf80389cc464f28f8861035",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-07-15__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-07-15__N__s20260920__main.predictions.parquet",
+      "original_sha256": "2186042296b2389cec3dac2214c6c7e565ea7488ca9c5f70ae6e8094b49c8174",
+      "sha256": "2186042296b2389cec3dac2214c6c7e565ea7488ca9c5f70ae6e8094b49c8174",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-07-15__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-07-15__N__s20260921__main.predictions.parquet",
+      "original_sha256": "1a0d5d112016cef8ad378c08de7f7a0445f14b3df91c9eafd8b9d5f51c54bbfc",
+      "sha256": "1a0d5d112016cef8ad378c08de7f7a0445f14b3df91c9eafd8b9d5f51c54bbfc",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-07-16__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-07-16__N__s20260920__main.predictions.parquet",
+      "original_sha256": "3a2ed8dd87b1799ea3660f74b6e09d073e7eb10a6a21d214e7cc912552012d95",
+      "sha256": "3a2ed8dd87b1799ea3660f74b6e09d073e7eb10a6a21d214e7cc912552012d95",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-07-16__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-07-16__N__s20260921__main.predictions.parquet",
+      "original_sha256": "e1d402b7642732476265f6bc41c8e7bd60c081449237287f80e902e0c512d7cb",
+      "sha256": "e1d402b7642732476265f6bc41c8e7bd60c081449237287f80e902e0c512d7cb",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-07-17__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-07-17__N__s20260920__main.predictions.parquet",
+      "original_sha256": "fffd6976a90ed8403851a22884e7773f9ba32b85bcc3472b964c42c4ad20d240",
+      "sha256": "fffd6976a90ed8403851a22884e7773f9ba32b85bcc3472b964c42c4ad20d240",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-07-17__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-07-17__N__s20260921__main.predictions.parquet",
+      "original_sha256": "16f18ca0914fad428cf0da6890a9767dbcb08adb8e6e76bec6d7d83dd8f97b37",
+      "sha256": "16f18ca0914fad428cf0da6890a9767dbcb08adb8e6e76bec6d7d83dd8f97b37",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-07-18__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-07-18__N__s20260920__main.predictions.parquet",
+      "original_sha256": "5871a7dd0b23399f9b2276624bc350e223b0f35679f0d01325583f1cf01eeaea",
+      "sha256": "5871a7dd0b23399f9b2276624bc350e223b0f35679f0d01325583f1cf01eeaea",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-07-18__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-07-18__N__s20260921__main.predictions.parquet",
+      "original_sha256": "2f75e6a8e44a56d86546af85ac0526afdae1e1797076f2d2f0bf03d85024227d",
+      "sha256": "2f75e6a8e44a56d86546af85ac0526afdae1e1797076f2d2f0bf03d85024227d",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-07-19__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-07-19__N__s20260920__main.predictions.parquet",
+      "original_sha256": "7e7a0f124e03db3932f3081d34c64b3bea80718eef52f72526f460ad3e2a48d8",
+      "sha256": "7e7a0f124e03db3932f3081d34c64b3bea80718eef52f72526f460ad3e2a48d8",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-07-19__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-07-19__N__s20260921__main.predictions.parquet",
+      "original_sha256": "da807c5f3e431402ca1a3ecfce367f82224a1e99e13142215091dd2f9c921ff6",
+      "sha256": "da807c5f3e431402ca1a3ecfce367f82224a1e99e13142215091dd2f9c921ff6",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-07-20__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-07-20__N__s20260920__main.predictions.parquet",
+      "original_sha256": "2404e97029d0412f88743826a20ae5085777baf4eb86ca384022a46b75da561e",
+      "sha256": "2404e97029d0412f88743826a20ae5085777baf4eb86ca384022a46b75da561e",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-07-20__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-07-20__N__s20260921__main.predictions.parquet",
+      "original_sha256": "775ec19f778b2a2d353ccb8c42f7eee20176a0a38a100e33af9400923657d7d2",
+      "sha256": "775ec19f778b2a2d353ccb8c42f7eee20176a0a38a100e33af9400923657d7d2",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-07-21__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-07-21__N__s20260920__main.predictions.parquet",
+      "original_sha256": "f60f6d1eb18e187c944952bb7fdafaee0ad9f6a28db6a4840d694a9a7ca8bd95",
+      "sha256": "f60f6d1eb18e187c944952bb7fdafaee0ad9f6a28db6a4840d694a9a7ca8bd95",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-07-21__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-07-21__N__s20260921__main.predictions.parquet",
+      "original_sha256": "a3541bce6874303990207ee01ad12ecfdbae48360edbe88ab4ba8f61a7b363ce",
+      "sha256": "a3541bce6874303990207ee01ad12ecfdbae48360edbe88ab4ba8f61a7b363ce",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-07-22__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-07-22__N__s20260920__main.predictions.parquet",
+      "original_sha256": "419967e44127b39c0edf46e644cb818b1c427b844b04b4dac92dc9e9a9febff0",
+      "sha256": "419967e44127b39c0edf46e644cb818b1c427b844b04b4dac92dc9e9a9febff0",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-07-22__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-07-22__N__s20260921__main.predictions.parquet",
+      "original_sha256": "5b73fcc4f297d5a17ab09ac4d23bab882116451d7009e2a54fbdc6bc62c31b44",
+      "sha256": "5b73fcc4f297d5a17ab09ac4d23bab882116451d7009e2a54fbdc6bc62c31b44",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-07-23__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-07-23__N__s20260920__main.predictions.parquet",
+      "original_sha256": "74787f7f41182194a7dd7e0c2c640665cec7d4d2f313243783896d31fa29f55a",
+      "sha256": "74787f7f41182194a7dd7e0c2c640665cec7d4d2f313243783896d31fa29f55a",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-07-23__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-07-23__N__s20260921__main.predictions.parquet",
+      "original_sha256": "925898e15df96d16085b5a0be0f8d340c4eb7100ca9b5124047b0e98e6df7a5e",
+      "sha256": "925898e15df96d16085b5a0be0f8d340c4eb7100ca9b5124047b0e98e6df7a5e",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-07-24__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-07-24__N__s20260920__main.predictions.parquet",
+      "original_sha256": "964614492e4128b5ec69633d411c1d9813ef7ad94a03be69802e87e83e11ef96",
+      "sha256": "964614492e4128b5ec69633d411c1d9813ef7ad94a03be69802e87e83e11ef96",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-07-24__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-07-24__N__s20260921__main.predictions.parquet",
+      "original_sha256": "95324f659c89279f216fee73589a1a219b491b2b7689a19f41236864bb74bd2b",
+      "sha256": "95324f659c89279f216fee73589a1a219b491b2b7689a19f41236864bb74bd2b",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-07-25__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-07-25__N__s20260920__main.predictions.parquet",
+      "original_sha256": "a96c51567bc7706c63cebae10e7b1d3e7949c300bb6f6fbac7428755f12d1370",
+      "sha256": "a96c51567bc7706c63cebae10e7b1d3e7949c300bb6f6fbac7428755f12d1370",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-07-25__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-07-25__N__s20260921__main.predictions.parquet",
+      "original_sha256": "619685a6a821935f4a820e0c823958da76a82ae6462da02249170a2103774aff",
+      "sha256": "619685a6a821935f4a820e0c823958da76a82ae6462da02249170a2103774aff",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-07-26__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-07-26__N__s20260920__main.predictions.parquet",
+      "original_sha256": "0b9d12d21223481e053a6fca0da7dd65cb3fc7bf3a237815ec7e44d5ce921ce9",
+      "sha256": "0b9d12d21223481e053a6fca0da7dd65cb3fc7bf3a237815ec7e44d5ce921ce9",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-07-26__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-07-26__N__s20260921__main.predictions.parquet",
+      "original_sha256": "e1ebeee15424c3f52bc195ff2cbaf9246e4b0339c33f40ea79b6be96e8d6920d",
+      "sha256": "e1ebeee15424c3f52bc195ff2cbaf9246e4b0339c33f40ea79b6be96e8d6920d",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-07-27__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-07-27__N__s20260920__main.predictions.parquet",
+      "original_sha256": "5c9ba7413fcd3f5c766c5b9a6182c632b3aa636098c6b7f0574b8e35fe3cb1a0",
+      "sha256": "5c9ba7413fcd3f5c766c5b9a6182c632b3aa636098c6b7f0574b8e35fe3cb1a0",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-07-27__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-07-27__N__s20260921__main.predictions.parquet",
+      "original_sha256": "8ceae6fe2ebcae6b01bdda4c110a786bf43b5f128e47fce8f2dd607695c54493",
+      "sha256": "8ceae6fe2ebcae6b01bdda4c110a786bf43b5f128e47fce8f2dd607695c54493",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-07-28__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-07-28__N__s20260920__main.predictions.parquet",
+      "original_sha256": "bb4301e4c2225d061adadb14d55587c964295632da66d6cb4aded2cc0444a64c",
+      "sha256": "bb4301e4c2225d061adadb14d55587c964295632da66d6cb4aded2cc0444a64c",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-07-28__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-07-28__N__s20260921__main.predictions.parquet",
+      "original_sha256": "cc70891275f10dca597b3dd5f8705aeffff7169651400bdb644a12a4898d58ab",
+      "sha256": "cc70891275f10dca597b3dd5f8705aeffff7169651400bdb644a12a4898d58ab",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-07-29__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-07-29__N__s20260920__main.predictions.parquet",
+      "original_sha256": "84117f78e5f004956e0be77162c370779c3b75db72fe14089fe2d3a6e22c872b",
+      "sha256": "84117f78e5f004956e0be77162c370779c3b75db72fe14089fe2d3a6e22c872b",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-07-29__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-07-29__N__s20260921__main.predictions.parquet",
+      "original_sha256": "7aba6bd9003805a532c4687b791792634f5af94da98637329ac2de35f53c929b",
+      "sha256": "7aba6bd9003805a532c4687b791792634f5af94da98637329ac2de35f53c929b",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-07-30__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-07-30__N__s20260920__main.predictions.parquet",
+      "original_sha256": "1bc2abcb3ffa4596294c2636922dc828e7fd36a5ad95f4ba663b01a3941f3aac",
+      "sha256": "1bc2abcb3ffa4596294c2636922dc828e7fd36a5ad95f4ba663b01a3941f3aac",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-07-30__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-07-30__N__s20260921__main.predictions.parquet",
+      "original_sha256": "ab08841e4c5794cb268cdf58e64f1e8400efce7bbcc489283950ea983bb75a0e",
+      "sha256": "ab08841e4c5794cb268cdf58e64f1e8400efce7bbcc489283950ea983bb75a0e",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-07-31__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-07-31__N__s20260920__main.predictions.parquet",
+      "original_sha256": "2c47faf2f723bc7054653c5cc720af0bacb0721d52aa471251e734522f1a5e91",
+      "sha256": "2c47faf2f723bc7054653c5cc720af0bacb0721d52aa471251e734522f1a5e91",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-07-31__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-07-31__N__s20260921__main.predictions.parquet",
+      "original_sha256": "a8301d6806b123b7feb5e2524d5dccac0bf4370d81e33dea6f945f62bc5ae13f",
+      "sha256": "a8301d6806b123b7feb5e2524d5dccac0bf4370d81e33dea6f945f62bc5ae13f",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-08-01__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-08-01__N__s20260920__main.predictions.parquet",
+      "original_sha256": "c7765664f2540c1f96e20def4aebbe25404c20189ce6d8422f05ce40761f4beb",
+      "sha256": "c7765664f2540c1f96e20def4aebbe25404c20189ce6d8422f05ce40761f4beb",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-08-01__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-08-01__N__s20260921__main.predictions.parquet",
+      "original_sha256": "c31142bba73cd48f9d0270a19ac5b7a63fce118637b7ad0e505e2a072c04a4e9",
+      "sha256": "c31142bba73cd48f9d0270a19ac5b7a63fce118637b7ad0e505e2a072c04a4e9",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-08-02__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-08-02__N__s20260920__main.predictions.parquet",
+      "original_sha256": "1d6c16e37d9cc4d70888b878472ea943875fd24141db5b2119b9884b57b09c31",
+      "sha256": "1d6c16e37d9cc4d70888b878472ea943875fd24141db5b2119b9884b57b09c31",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-08-02__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-08-02__N__s20260921__main.predictions.parquet",
+      "original_sha256": "d54d908fb776fd265fa24590a4a20890b58e22e7a4f52d5db7f004f9d790a24e",
+      "sha256": "d54d908fb776fd265fa24590a4a20890b58e22e7a4f52d5db7f004f9d790a24e",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-08-03__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-08-03__N__s20260920__main.predictions.parquet",
+      "original_sha256": "e70e4efdfde9eb3da64cad323dfcc310468b81da07042c0ec0461bb66818944c",
+      "sha256": "e70e4efdfde9eb3da64cad323dfcc310468b81da07042c0ec0461bb66818944c",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-08-03__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-08-03__N__s20260921__main.predictions.parquet",
+      "original_sha256": "fc4edf8a826449d4ada1990714ddd0e6e6636564cb77355e45598bcd9f39e5ef",
+      "sha256": "fc4edf8a826449d4ada1990714ddd0e6e6636564cb77355e45598bcd9f39e5ef",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-08-04__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-08-04__N__s20260920__main.predictions.parquet",
+      "original_sha256": "56234844fa0413ba94157d41771a23293ef35439e1572a93cebcfdfd3e2cd999",
+      "sha256": "56234844fa0413ba94157d41771a23293ef35439e1572a93cebcfdfd3e2cd999",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-08-04__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-08-04__N__s20260921__main.predictions.parquet",
+      "original_sha256": "6c5116ee244b28ee861b572aa015b363c84d074a0f0bdcb4e6c4abb2927c2f69",
+      "sha256": "6c5116ee244b28ee861b572aa015b363c84d074a0f0bdcb4e6c4abb2927c2f69",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-08-05__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-08-05__N__s20260920__main.predictions.parquet",
+      "original_sha256": "b2feee4f0b57227ea603062aab2f9d81dd12c81f00e1c8b3f64d682c3d7fdf73",
+      "sha256": "b2feee4f0b57227ea603062aab2f9d81dd12c81f00e1c8b3f64d682c3d7fdf73",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-08-05__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-08-05__N__s20260921__main.predictions.parquet",
+      "original_sha256": "a03aa2ebdada33be57a0fcdcc0a2e0322d4e18a37e8939d679f7f51d691a1dd9",
+      "sha256": "a03aa2ebdada33be57a0fcdcc0a2e0322d4e18a37e8939d679f7f51d691a1dd9",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-08-06__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-08-06__N__s20260920__main.predictions.parquet",
+      "original_sha256": "bbe2f0649c21a42a33b1c4e26175787be5af802842980a472555940732feaf40",
+      "sha256": "bbe2f0649c21a42a33b1c4e26175787be5af802842980a472555940732feaf40",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-08-06__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-08-06__N__s20260921__main.predictions.parquet",
+      "original_sha256": "c90293aff465bdb82b55b48c5eabacfaf9fc3731876383d7d64f9d03ab73c1db",
+      "sha256": "c90293aff465bdb82b55b48c5eabacfaf9fc3731876383d7d64f9d03ab73c1db",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-08-07__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-08-07__N__s20260920__main.predictions.parquet",
+      "original_sha256": "27d19e46e65e4efdacef4677ae8aa827d281e1ce548823f7729cdc46bad5c3f7",
+      "sha256": "27d19e46e65e4efdacef4677ae8aa827d281e1ce548823f7729cdc46bad5c3f7",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-08-07__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-08-07__N__s20260921__main.predictions.parquet",
+      "original_sha256": "bfcf8b26ed94033549ea00c021a67cc6c7be1ea22f22eda741e35958b2c52c7f",
+      "sha256": "bfcf8b26ed94033549ea00c021a67cc6c7be1ea22f22eda741e35958b2c52c7f",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-08-08__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-08-08__N__s20260920__main.predictions.parquet",
+      "original_sha256": "092b2f897d8b37badd03dc6a98df6f82e771ce25847f3e5d0baf25d66d140f16",
+      "sha256": "092b2f897d8b37badd03dc6a98df6f82e771ce25847f3e5d0baf25d66d140f16",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-08-08__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-08-08__N__s20260921__main.predictions.parquet",
+      "original_sha256": "5bd81f0a1c7e9b43a5b650107f063bf1ef8905b4dc6cebb0a5ccd73d815c1bbe",
+      "sha256": "5bd81f0a1c7e9b43a5b650107f063bf1ef8905b4dc6cebb0a5ccd73d815c1bbe",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-08-09__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-08-09__N__s20260920__main.predictions.parquet",
+      "original_sha256": "967e392a836e1fed3513fb946434f7f09434d517250c230ba844ea193da4192a",
+      "sha256": "967e392a836e1fed3513fb946434f7f09434d517250c230ba844ea193da4192a",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-08-09__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-08-09__N__s20260921__main.predictions.parquet",
+      "original_sha256": "483a0ae462d2d99012c816f85c6d5702d3c23c318168408e1a6255ceb80f7f05",
+      "sha256": "483a0ae462d2d99012c816f85c6d5702d3c23c318168408e1a6255ceb80f7f05",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-08-10__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-08-10__N__s20260920__main.predictions.parquet",
+      "original_sha256": "023f47809cddb2274beddf5bf14edd68dc4e5e024020bbe2313c3e14e4813f12",
+      "sha256": "023f47809cddb2274beddf5bf14edd68dc4e5e024020bbe2313c3e14e4813f12",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-08-10__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-08-10__N__s20260921__main.predictions.parquet",
+      "original_sha256": "53ed034c676fcd4059f894de4f752dd12874988dc62098e7b0749970c4e2fbff",
+      "sha256": "53ed034c676fcd4059f894de4f752dd12874988dc62098e7b0749970c4e2fbff",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-08-11__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-08-11__N__s20260920__main.predictions.parquet",
+      "original_sha256": "4c80486fd023bac78f8b69a3098c5372553d90c0d0cd7c9a9c48ed0e2fe6b23b",
+      "sha256": "4c80486fd023bac78f8b69a3098c5372553d90c0d0cd7c9a9c48ed0e2fe6b23b",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-08-11__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-08-11__N__s20260921__main.predictions.parquet",
+      "original_sha256": "247e2c6dbfeebb3fd746c61788cf46ed1a15f48eb4d9e7b325cd171120cd33b6",
+      "sha256": "247e2c6dbfeebb3fd746c61788cf46ed1a15f48eb4d9e7b325cd171120cd33b6",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-08-12__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-08-12__N__s20260920__main.predictions.parquet",
+      "original_sha256": "28120367da55e0865b205d538783c1a2bf129a73d86ea7be1409b690f2a8b5c3",
+      "sha256": "28120367da55e0865b205d538783c1a2bf129a73d86ea7be1409b690f2a8b5c3",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-08-12__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-08-12__N__s20260921__main.predictions.parquet",
+      "original_sha256": "d3aa6da18880beb0dfa5a8993322559b3e49ea75de4268709901c88b5cbdca74",
+      "sha256": "d3aa6da18880beb0dfa5a8993322559b3e49ea75de4268709901c88b5cbdca74",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-08-13__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-08-13__N__s20260920__main.predictions.parquet",
+      "original_sha256": "6641ea26e33c640ba65e73d8d1a7e6028a57b49cb404fe6c9213227dd8ea30d8",
+      "sha256": "6641ea26e33c640ba65e73d8d1a7e6028a57b49cb404fe6c9213227dd8ea30d8",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-08-13__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-08-13__N__s20260921__main.predictions.parquet",
+      "original_sha256": "2fc59acbf46354693ff9264c494638cfd206d7543e013ec22fc377104c5d327f",
+      "sha256": "2fc59acbf46354693ff9264c494638cfd206d7543e013ec22fc377104c5d327f",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-08-14__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-08-14__N__s20260920__main.predictions.parquet",
+      "original_sha256": "3be784229393e4454aec64a2311d46ea29c081170d649ee9718388c2334076ce",
+      "sha256": "3be784229393e4454aec64a2311d46ea29c081170d649ee9718388c2334076ce",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-08-14__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-08-14__N__s20260921__main.predictions.parquet",
+      "original_sha256": "a4ec9e6a4ef875127911650097e42a8fb07d948cd30d90918f785dd8849b36e9",
+      "sha256": "a4ec9e6a4ef875127911650097e42a8fb07d948cd30d90918f785dd8849b36e9",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-08-15__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-08-15__N__s20260920__main.predictions.parquet",
+      "original_sha256": "34f394393dc8951abbe6bab673f55f0006a1051ca835e0734cc43df87bb0d128",
+      "sha256": "34f394393dc8951abbe6bab673f55f0006a1051ca835e0734cc43df87bb0d128",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-08-15__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-08-15__N__s20260921__main.predictions.parquet",
+      "original_sha256": "10056284c7769979147681614afb2df8fb58440fbc5384a25d51bfaeaf101fbb",
+      "sha256": "10056284c7769979147681614afb2df8fb58440fbc5384a25d51bfaeaf101fbb",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-08-16__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-08-16__N__s20260920__main.predictions.parquet",
+      "original_sha256": "7029c7fd4250f150e57a703c86da850692f58ca07b022394afef4e745ea25c04",
+      "sha256": "7029c7fd4250f150e57a703c86da850692f58ca07b022394afef4e745ea25c04",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-08-16__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-08-16__N__s20260921__main.predictions.parquet",
+      "original_sha256": "d32172cdd6ae026398e4065352d2e3ca60df36e1e4eab43c62db2ba58bd0fe5b",
+      "sha256": "d32172cdd6ae026398e4065352d2e3ca60df36e1e4eab43c62db2ba58bd0fe5b",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-08-17__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-08-17__N__s20260920__main.predictions.parquet",
+      "original_sha256": "aacc626d9ab39ab4d5214a7afa58a17fde03be02a08ddbdd25b16947bf44a9eb",
+      "sha256": "aacc626d9ab39ab4d5214a7afa58a17fde03be02a08ddbdd25b16947bf44a9eb",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-08-17__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-08-17__N__s20260921__main.predictions.parquet",
+      "original_sha256": "ae8e5d4ec3c985240cf8e14866602a16e3b5a61d77b6d39535e01490bb4e6f98",
+      "sha256": "ae8e5d4ec3c985240cf8e14866602a16e3b5a61d77b6d39535e01490bb4e6f98",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-08-18__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-08-18__N__s20260920__main.predictions.parquet",
+      "original_sha256": "cfb80be0ebf908ce8b118d391e052025ff64da86bbe309fa33df9b3e16a5c2c2",
+      "sha256": "cfb80be0ebf908ce8b118d391e052025ff64da86bbe309fa33df9b3e16a5c2c2",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-08-18__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-08-18__N__s20260921__main.predictions.parquet",
+      "original_sha256": "b62ecfc09d98c181e5033caeb9b270a576762ad910c19fb5d14def7556957a2b",
+      "sha256": "b62ecfc09d98c181e5033caeb9b270a576762ad910c19fb5d14def7556957a2b",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-08-19__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-08-19__N__s20260920__main.predictions.parquet",
+      "original_sha256": "c7dadac046efbdd8b479c342ff3c2cb430e9e87781517cb0e0638dd6480b6477",
+      "sha256": "c7dadac046efbdd8b479c342ff3c2cb430e9e87781517cb0e0638dd6480b6477",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-08-19__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-08-19__N__s20260921__main.predictions.parquet",
+      "original_sha256": "24f4893bcae2c6e16fed37a41b88fbb266fe1e2af2350916cdea9ddb433fa9e7",
+      "sha256": "24f4893bcae2c6e16fed37a41b88fbb266fe1e2af2350916cdea9ddb433fa9e7",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-08-20__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-08-20__N__s20260920__main.predictions.parquet",
+      "original_sha256": "ac1ddd0f1559aaa6d23cfb1bed5e99819c7bde7c5f8dba2061655ff1f30a5429",
+      "sha256": "ac1ddd0f1559aaa6d23cfb1bed5e99819c7bde7c5f8dba2061655ff1f30a5429",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-08-20__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-08-20__N__s20260921__main.predictions.parquet",
+      "original_sha256": "9cc035f47a6f8adafa0cc1293e6164ea2ae7b889f2cb1c996cadee00dd2dbb0b",
+      "sha256": "9cc035f47a6f8adafa0cc1293e6164ea2ae7b889f2cb1c996cadee00dd2dbb0b",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-08-21__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-08-21__N__s20260920__main.predictions.parquet",
+      "original_sha256": "c58a48639c15ab76d729dce0f6547ae11ac487131e465c21f34189f691923580",
+      "sha256": "c58a48639c15ab76d729dce0f6547ae11ac487131e465c21f34189f691923580",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-08-21__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-08-21__N__s20260921__main.predictions.parquet",
+      "original_sha256": "a3665196d50f648b8a235b829c14bc1fa349edd6f19cd9ec60d9534ffbb7766f",
+      "sha256": "a3665196d50f648b8a235b829c14bc1fa349edd6f19cd9ec60d9534ffbb7766f",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-08-22__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-08-22__N__s20260920__main.predictions.parquet",
+      "original_sha256": "5d3719c979e6a05de908297a2f28b26e546e14d0388ac7bf7a8687d617901724",
+      "sha256": "5d3719c979e6a05de908297a2f28b26e546e14d0388ac7bf7a8687d617901724",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-08-22__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-08-22__N__s20260921__main.predictions.parquet",
+      "original_sha256": "2befacfd280b8bf4e60204da769c4c55e80d33eb1337e217832791e8a3006ba0",
+      "sha256": "2befacfd280b8bf4e60204da769c4c55e80d33eb1337e217832791e8a3006ba0",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-08-23__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-08-23__N__s20260920__main.predictions.parquet",
+      "original_sha256": "58246fcf00421492107ea7d1a116a17b2c0060910b1aac57352094c425de55f9",
+      "sha256": "58246fcf00421492107ea7d1a116a17b2c0060910b1aac57352094c425de55f9",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-08-23__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-08-23__N__s20260921__main.predictions.parquet",
+      "original_sha256": "0c2e575aff3a4e253b53806937a7a5f54e14db5420c75ae6a85bdd66abdb99ee",
+      "sha256": "0c2e575aff3a4e253b53806937a7a5f54e14db5420c75ae6a85bdd66abdb99ee",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-08-24__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-08-24__N__s20260920__main.predictions.parquet",
+      "original_sha256": "970a7181411d891593f57fa36bd5d3c43b8767aeffe724df1ef2d49ff1ab23cd",
+      "sha256": "970a7181411d891593f57fa36bd5d3c43b8767aeffe724df1ef2d49ff1ab23cd",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-08-24__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-08-24__N__s20260921__main.predictions.parquet",
+      "original_sha256": "639e90b97ca0b3dfb9230fc60b625901259fc01ae684ac97f8b5cc38c355aa16",
+      "sha256": "639e90b97ca0b3dfb9230fc60b625901259fc01ae684ac97f8b5cc38c355aa16",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-08-25__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-08-25__N__s20260920__main.predictions.parquet",
+      "original_sha256": "3c64bbf86e4554664715847ca4639cf553a61e939cc0f6c82268ef88d01ff467",
+      "sha256": "3c64bbf86e4554664715847ca4639cf553a61e939cc0f6c82268ef88d01ff467",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-08-25__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-08-25__N__s20260921__main.predictions.parquet",
+      "original_sha256": "3b3d01ff52c1c88f314ce42149b48a21eb2387ba231d2012e1c82453b4c05ecf",
+      "sha256": "3b3d01ff52c1c88f314ce42149b48a21eb2387ba231d2012e1c82453b4c05ecf",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-08-26__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-08-26__N__s20260920__main.predictions.parquet",
+      "original_sha256": "bccd1bdd966d0642f5d5ec288589721442f8f0ad613cf18ce77fac018d169e9a",
+      "sha256": "bccd1bdd966d0642f5d5ec288589721442f8f0ad613cf18ce77fac018d169e9a",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-08-26__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-08-26__N__s20260921__main.predictions.parquet",
+      "original_sha256": "a34dfe85906c15890cac76456df7ce653fd7f5971ee431e1170816286452a30e",
+      "sha256": "a34dfe85906c15890cac76456df7ce653fd7f5971ee431e1170816286452a30e",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-08-27__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-08-27__N__s20260920__main.predictions.parquet",
+      "original_sha256": "3a670bf4db9c5b1755dab3e1aa391cebf03b14224803c459f928d40623cfff78",
+      "sha256": "3a670bf4db9c5b1755dab3e1aa391cebf03b14224803c459f928d40623cfff78",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-08-27__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-08-27__N__s20260921__main.predictions.parquet",
+      "original_sha256": "9a89bfa1f68afdcbf192940a6d9797bd4f995b5c271ffc16e51f1a7f66967f45",
+      "sha256": "9a89bfa1f68afdcbf192940a6d9797bd4f995b5c271ffc16e51f1a7f66967f45",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-08-28__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-08-28__N__s20260920__main.predictions.parquet",
+      "original_sha256": "f759ec045b9282d331a9032b97d4f5480f5a1ff7c969f2f2fcdce96c8c2b9f3f",
+      "sha256": "f759ec045b9282d331a9032b97d4f5480f5a1ff7c969f2f2fcdce96c8c2b9f3f",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-08-28__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-08-28__N__s20260921__main.predictions.parquet",
+      "original_sha256": "5abb6bb7e3e3955be245b1a06f61e38153b9ccb8c0482bad98873bf9bb63bf28",
+      "sha256": "5abb6bb7e3e3955be245b1a06f61e38153b9ccb8c0482bad98873bf9bb63bf28",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-08-29__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-08-29__N__s20260920__main.predictions.parquet",
+      "original_sha256": "773d87f151d03f2b3de91898c19262876d412caef21a763c36fb66e9589a98ac",
+      "sha256": "773d87f151d03f2b3de91898c19262876d412caef21a763c36fb66e9589a98ac",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-08-29__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-08-29__N__s20260921__main.predictions.parquet",
+      "original_sha256": "e804cb29f325d84f6068ab6949db67c6a09bc24f2b65309a7206b4c46cee2045",
+      "sha256": "e804cb29f325d84f6068ab6949db67c6a09bc24f2b65309a7206b4c46cee2045",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-08-30__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-08-30__N__s20260920__main.predictions.parquet",
+      "original_sha256": "bff4f1eba6958ed06103a0f34fac66e116ad4988de03f36706f0ff30f4b033cc",
+      "sha256": "bff4f1eba6958ed06103a0f34fac66e116ad4988de03f36706f0ff30f4b033cc",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-08-30__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-08-30__N__s20260921__main.predictions.parquet",
+      "original_sha256": "7e20c9725e69353d497b168605825d6f5a221ec53c9af592f9a2a16e6ab6c89d",
+      "sha256": "7e20c9725e69353d497b168605825d6f5a221ec53c9af592f9a2a16e6ab6c89d",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-08-31__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-08-31__N__s20260920__main.predictions.parquet",
+      "original_sha256": "73e4a1f29a9435e4d1e6ba46d78a4b8717f5c17bc21056d773c7ac1b519dcc17",
+      "sha256": "73e4a1f29a9435e4d1e6ba46d78a4b8717f5c17bc21056d773c7ac1b519dcc17",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-08-31__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-08-31__N__s20260921__main.predictions.parquet",
+      "original_sha256": "05c64aae5657a8260c28f86d8b26158652a0643fd575c211027d14bd0b0c4d5a",
+      "sha256": "05c64aae5657a8260c28f86d8b26158652a0643fd575c211027d14bd0b0c4d5a",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-09-01__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-09-01__N__s20260920__main.predictions.parquet",
+      "original_sha256": "edbab46220bc01e9259bb5753dca705c3e9a79e0c1fbcf07987e3970d23883e7",
+      "sha256": "edbab46220bc01e9259bb5753dca705c3e9a79e0c1fbcf07987e3970d23883e7",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-09-01__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-09-01__N__s20260921__main.predictions.parquet",
+      "original_sha256": "4b465993037e5f018e2a34b5403f1834c8a697866dca267080774fcf03f3d309",
+      "sha256": "4b465993037e5f018e2a34b5403f1834c8a697866dca267080774fcf03f3d309",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-09-02__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-09-02__N__s20260920__main.predictions.parquet",
+      "original_sha256": "706b4e513bc23f0a084d4e27f4a7a359bbd4aa260714796ea2384b81af59e879",
+      "sha256": "706b4e513bc23f0a084d4e27f4a7a359bbd4aa260714796ea2384b81af59e879",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-09-02__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-09-02__N__s20260921__main.predictions.parquet",
+      "original_sha256": "72ad9769dab93aa877e373262652b5afc9c1c47be327145113421207d0206c1f",
+      "sha256": "72ad9769dab93aa877e373262652b5afc9c1c47be327145113421207d0206c1f",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-09-03__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-09-03__N__s20260920__main.predictions.parquet",
+      "original_sha256": "fe23495f5ede25c04eaf75ffc9cf794d1a3d5a664f6ad6e3615c7811f89bd74f",
+      "sha256": "fe23495f5ede25c04eaf75ffc9cf794d1a3d5a664f6ad6e3615c7811f89bd74f",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-09-03__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-09-03__N__s20260921__main.predictions.parquet",
+      "original_sha256": "62d85f2f316351951edcfd362bdb1c01d932c5aa5a2ba6b00dce0544882b2016",
+      "sha256": "62d85f2f316351951edcfd362bdb1c01d932c5aa5a2ba6b00dce0544882b2016",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-09-04__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-09-04__N__s20260920__main.predictions.parquet",
+      "original_sha256": "6a78a878977d452f860fed8ede0a03acac63e537a2ea6c5c02b98121c6a22e51",
+      "sha256": "6a78a878977d452f860fed8ede0a03acac63e537a2ea6c5c02b98121c6a22e51",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-09-04__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-09-04__N__s20260921__main.predictions.parquet",
+      "original_sha256": "e98f200fee5509b6e2c55ecedf1d383624cf67cd750c6b2b8dbc911c3d76253a",
+      "sha256": "e98f200fee5509b6e2c55ecedf1d383624cf67cd750c6b2b8dbc911c3d76253a",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-09-05__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-09-05__N__s20260920__main.predictions.parquet",
+      "original_sha256": "6281b9140a94343a9da23799a6e2fd43fdbc47c2589ea5536473abec1033569d",
+      "sha256": "6281b9140a94343a9da23799a6e2fd43fdbc47c2589ea5536473abec1033569d",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-09-05__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-09-05__N__s20260921__main.predictions.parquet",
+      "original_sha256": "e7f3715f5fe197f9ff352f425aa25841c06580e2b716420e45bfd0cc7f469f9d",
+      "sha256": "e7f3715f5fe197f9ff352f425aa25841c06580e2b716420e45bfd0cc7f469f9d",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-09-06__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-09-06__N__s20260920__main.predictions.parquet",
+      "original_sha256": "2e0ddcc2d5bd3044174f1b10c826044092ff1dd153d38ae2984c9bbae3bae116",
+      "sha256": "2e0ddcc2d5bd3044174f1b10c826044092ff1dd153d38ae2984c9bbae3bae116",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-09-06__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-09-06__N__s20260921__main.predictions.parquet",
+      "original_sha256": "845566b8d4d10d3a006b83a03a4537e9dfa4bc9606c1e75852b76bc6583d744c",
+      "sha256": "845566b8d4d10d3a006b83a03a4537e9dfa4bc9606c1e75852b76bc6583d744c",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-09-07__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-09-07__N__s20260920__main.predictions.parquet",
+      "original_sha256": "f87783ecce08c57b16c7c1af9ad594d5c2e8559df72a0ded435313c12811b055",
+      "sha256": "f87783ecce08c57b16c7c1af9ad594d5c2e8559df72a0ded435313c12811b055",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-09-07__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-09-07__N__s20260921__main.predictions.parquet",
+      "original_sha256": "be6a5ccdddbbc08391cffb3a45d506e8b38d89c4da0bbf9e799a08349ce1b32d",
+      "sha256": "be6a5ccdddbbc08391cffb3a45d506e8b38d89c4da0bbf9e799a08349ce1b32d",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-09-08__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-09-08__N__s20260920__main.predictions.parquet",
+      "original_sha256": "921882ac03cc295716217d6eeb088adad15db664e3c260fd6dcd166262ed9147",
+      "sha256": "921882ac03cc295716217d6eeb088adad15db664e3c260fd6dcd166262ed9147",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-09-08__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-09-08__N__s20260921__main.predictions.parquet",
+      "original_sha256": "410d7b69804906a430b05eb955631231a1c87422c72895e174e431d67445323b",
+      "sha256": "410d7b69804906a430b05eb955631231a1c87422c72895e174e431d67445323b",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-09-09__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-09-09__N__s20260920__main.predictions.parquet",
+      "original_sha256": "c428d54f4a7a1bd3200fb9c35ab2ee0e099471e109c46fc3a84a5451e120a1cd",
+      "sha256": "c428d54f4a7a1bd3200fb9c35ab2ee0e099471e109c46fc3a84a5451e120a1cd",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-09-09__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-09-09__N__s20260921__main.predictions.parquet",
+      "original_sha256": "23c6561444a6fea2ccbf7514158aec1d01a2a12cb30d541f5d4f64a49c6540f9",
+      "sha256": "23c6561444a6fea2ccbf7514158aec1d01a2a12cb30d541f5d4f64a49c6540f9",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-09-10__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-09-10__N__s20260920__main.predictions.parquet",
+      "original_sha256": "390c2e866b056fd996c9e97b6f8322ae49ff0988ed3cb0341a4f94000a6863de",
+      "sha256": "390c2e866b056fd996c9e97b6f8322ae49ff0988ed3cb0341a4f94000a6863de",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-09-10__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-09-10__N__s20260921__main.predictions.parquet",
+      "original_sha256": "a8673eeb495c36bf74519de4d804ac6e7359d3f44ce829f9a062b8c10c702707",
+      "sha256": "a8673eeb495c36bf74519de4d804ac6e7359d3f44ce829f9a062b8c10c702707",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-09-11__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-09-11__N__s20260920__main.predictions.parquet",
+      "original_sha256": "d39a06bbef90f70d67c6588cb3d2441799e94201b0adca3091480abefe4d95bd",
+      "sha256": "d39a06bbef90f70d67c6588cb3d2441799e94201b0adca3091480abefe4d95bd",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-09-11__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-09-11__N__s20260921__main.predictions.parquet",
+      "original_sha256": "3459d374363b30e98022d2e706b3131d955575054f90a899cd70010509e1aa09",
+      "sha256": "3459d374363b30e98022d2e706b3131d955575054f90a899cd70010509e1aa09",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-09-12__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-09-12__N__s20260920__main.predictions.parquet",
+      "original_sha256": "f07dd617aa1c3449dde7eb8a89f762cd13486de5850d8d83b2e2d16eddb3b85b",
+      "sha256": "f07dd617aa1c3449dde7eb8a89f762cd13486de5850d8d83b2e2d16eddb3b85b",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-09-12__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-09-12__N__s20260921__main.predictions.parquet",
+      "original_sha256": "22d11bd67a22f9c1a09416a0dfe8cd9007150f15292e1f724ff3f7ce3b9abf1b",
+      "sha256": "22d11bd67a22f9c1a09416a0dfe8cd9007150f15292e1f724ff3f7ce3b9abf1b",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-09-13__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-09-13__N__s20260920__main.predictions.parquet",
+      "original_sha256": "0cb2b147d4f12d0ac0fa23419bcbeb29ce1bc51e665cd147754751e9c301e619",
+      "sha256": "0cb2b147d4f12d0ac0fa23419bcbeb29ce1bc51e665cd147754751e9c301e619",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-09-13__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-09-13__N__s20260921__main.predictions.parquet",
+      "original_sha256": "05ffe278ef3bcb48b856a5f755e1d7bd6852000cb9621e13f173fd652f3a53c3",
+      "sha256": "05ffe278ef3bcb48b856a5f755e1d7bd6852000cb9621e13f173fd652f3a53c3",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-09-14__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-09-14__N__s20260920__main.predictions.parquet",
+      "original_sha256": "e6f186f8ffce2b0928fb0efc68b179b285c25d7ce4926fe33492723fb68bb3df",
+      "sha256": "e6f186f8ffce2b0928fb0efc68b179b285c25d7ce4926fe33492723fb68bb3df",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-09-14__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-09-14__N__s20260921__main.predictions.parquet",
+      "original_sha256": "0d8f4ed6230256b9f39702a7e38417105d001665b77dd3ea26bb66f4e33e77e4",
+      "sha256": "0d8f4ed6230256b9f39702a7e38417105d001665b77dd3ea26bb66f4e33e77e4",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-09-15__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-09-15__N__s20260920__main.predictions.parquet",
+      "original_sha256": "cb822f68c48cc9813286d77561a0a3fd9b000ae76f207b4074a3e61d97aa3404",
+      "sha256": "cb822f68c48cc9813286d77561a0a3fd9b000ae76f207b4074a3e61d97aa3404",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-09-15__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-09-15__N__s20260921__main.predictions.parquet",
+      "original_sha256": "cec5ee1e010144fe6622ab07dcc08e04c73ce245937e06f3ed59ff8b68ffe01d",
+      "sha256": "cec5ee1e010144fe6622ab07dcc08e04c73ce245937e06f3ed59ff8b68ffe01d",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-09-16__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-09-16__N__s20260920__main.predictions.parquet",
+      "original_sha256": "e148f0f9b0729a6dd9f60c76acf7b68568e0a779143255a728f2791d0893ba05",
+      "sha256": "e148f0f9b0729a6dd9f60c76acf7b68568e0a779143255a728f2791d0893ba05",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-09-16__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-09-16__N__s20260921__main.predictions.parquet",
+      "original_sha256": "d262f68c540023d9c589ef03c804e68367f1d5c999cedc37b061a5c33595e16d",
+      "sha256": "d262f68c540023d9c589ef03c804e68367f1d5c999cedc37b061a5c33595e16d",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-09-17__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-09-17__N__s20260920__main.predictions.parquet",
+      "original_sha256": "fe86d0d630a727801026c5b2e6eba8c53849154b2b60651d38668d3127ec4d11",
+      "sha256": "fe86d0d630a727801026c5b2e6eba8c53849154b2b60651d38668d3127ec4d11",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-09-17__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-09-17__N__s20260921__main.predictions.parquet",
+      "original_sha256": "4ca25c00a972eda9bc913ffd965c7f1be76e8216b349adf43a34182515ae9580",
+      "sha256": "4ca25c00a972eda9bc913ffd965c7f1be76e8216b349adf43a34182515ae9580",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-09-18__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-09-18__N__s20260920__main.predictions.parquet",
+      "original_sha256": "a89e6a86a479a16aae7c106fe2654eda1d0b45c7c7ff2d59100cb813d816907d",
+      "sha256": "a89e6a86a479a16aae7c106fe2654eda1d0b45c7c7ff2d59100cb813d816907d",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-09-18__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-09-18__N__s20260921__main.predictions.parquet",
+      "original_sha256": "f63777123efb831cb002e4394e78ceaa009ab875b490d101474edce9a2d486d6",
+      "sha256": "f63777123efb831cb002e4394e78ceaa009ab875b490d101474edce9a2d486d6",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-09-19__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-09-19__N__s20260920__main.predictions.parquet",
+      "original_sha256": "b7e14fb3fd0b3af5c26f18718e77055edba4e578d2cca32c8f8032c0f2eb4629",
+      "sha256": "b7e14fb3fd0b3af5c26f18718e77055edba4e578d2cca32c8f8032c0f2eb4629",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-09-19__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-09-19__N__s20260921__main.predictions.parquet",
+      "original_sha256": "b43eee6da5d1155be8aa954a8bddbcb4739bf67c3fb5b36eb461b014e0e38f47",
+      "sha256": "b43eee6da5d1155be8aa954a8bddbcb4739bf67c3fb5b36eb461b014e0e38f47",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-09-20__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-09-20__N__s20260920__main.predictions.parquet",
+      "original_sha256": "9fa5de77b1f7d46e2b07f55271e5ecae7d6b3daad07249f47c12a520ac5a5b62",
+      "sha256": "9fa5de77b1f7d46e2b07f55271e5ecae7d6b3daad07249f47c12a520ac5a5b62",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-09-20__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-09-20__N__s20260921__main.predictions.parquet",
+      "original_sha256": "d18b1ab652af329c11973e6d1fe487836d4d9468a7375f5ae9979e34907a5175",
+      "sha256": "d18b1ab652af329c11973e6d1fe487836d4d9468a7375f5ae9979e34907a5175",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-09-21__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-09-21__N__s20260920__main.predictions.parquet",
+      "original_sha256": "1d542eab81916f83294f34333223278ce4b00d43a630bd54cd585a528a4d9f18",
+      "sha256": "1d542eab81916f83294f34333223278ce4b00d43a630bd54cd585a528a4d9f18",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-09-21__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-09-21__N__s20260921__main.predictions.parquet",
+      "original_sha256": "c55c6230407d3439107b065024b13a48dfc6a4d9e47c6344d22f24ff0b90e12d",
+      "sha256": "c55c6230407d3439107b065024b13a48dfc6a4d9e47c6344d22f24ff0b90e12d",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-09-22__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-09-22__N__s20260920__main.predictions.parquet",
+      "original_sha256": "bf6f6dcad30b00ea1e2155b71d48b22f8f8287e9e5116900a91576267b54af58",
+      "sha256": "bf6f6dcad30b00ea1e2155b71d48b22f8f8287e9e5116900a91576267b54af58",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-09-22__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-09-22__N__s20260921__main.predictions.parquet",
+      "original_sha256": "e41a4167f9af4427876f47d359245be6f002895c873de827a0fbbba25c4356f3",
+      "sha256": "e41a4167f9af4427876f47d359245be6f002895c873de827a0fbbba25c4356f3",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-09-23__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-09-23__N__s20260920__main.predictions.parquet",
+      "original_sha256": "1ba50400407fc2259d8eb43ade910bee103a293580e83b03874b7988e6d72fa7",
+      "sha256": "1ba50400407fc2259d8eb43ade910bee103a293580e83b03874b7988e6d72fa7",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-09-23__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-09-23__N__s20260921__main.predictions.parquet",
+      "original_sha256": "de16faf1b9307ad9eb18cac302245651247469e23b10e4dcd8cbcad30fb674da",
+      "sha256": "de16faf1b9307ad9eb18cac302245651247469e23b10e4dcd8cbcad30fb674da",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-09-24__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-09-24__N__s20260920__main.predictions.parquet",
+      "original_sha256": "ca5ace6c86b92d08a5c8c16685697e10c37b5b3abe47779bf576d8b5dcc541a2",
+      "sha256": "ca5ace6c86b92d08a5c8c16685697e10c37b5b3abe47779bf576d8b5dcc541a2",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-09-24__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-09-24__N__s20260921__main.predictions.parquet",
+      "original_sha256": "38f4e076422bd7e4e5d61cf3261b815c022aff8886242a8354835930a03926d7",
+      "sha256": "38f4e076422bd7e4e5d61cf3261b815c022aff8886242a8354835930a03926d7",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-09-25__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-09-25__N__s20260920__main.predictions.parquet",
+      "original_sha256": "6fd05e2bdc5e3719982c7b7ac560d3202ff802063cb93798d7d6335af5e616a3",
+      "sha256": "6fd05e2bdc5e3719982c7b7ac560d3202ff802063cb93798d7d6335af5e616a3",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-09-25__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-09-25__N__s20260921__main.predictions.parquet",
+      "original_sha256": "56fd0875d71ee239f11f15dad38b43dad0abae0d612d9d070d6c24c678f9b649",
+      "sha256": "56fd0875d71ee239f11f15dad38b43dad0abae0d612d9d070d6c24c678f9b649",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-09-26__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-09-26__N__s20260920__main.predictions.parquet",
+      "original_sha256": "f1b69eaccba0ec78b803c17c0dcf2f57eeabe43cd8b8a809ef62d8a254728575",
+      "sha256": "f1b69eaccba0ec78b803c17c0dcf2f57eeabe43cd8b8a809ef62d8a254728575",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-09-26__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-09-26__N__s20260921__main.predictions.parquet",
+      "original_sha256": "e0d2cd833424624d4955ee616d61c149d762eafcb077df7323c1c8df4adbac9a",
+      "sha256": "e0d2cd833424624d4955ee616d61c149d762eafcb077df7323c1c8df4adbac9a",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-09-27__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-09-27__N__s20260920__main.predictions.parquet",
+      "original_sha256": "2f32e2a09201b1ef73604812b4133a0ee51b83ada974684fc0c893102a95ded5",
+      "sha256": "2f32e2a09201b1ef73604812b4133a0ee51b83ada974684fc0c893102a95ded5",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-09-27__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-09-27__N__s20260921__main.predictions.parquet",
+      "original_sha256": "3ca0ae4df82496eef8d175cf350555ae70a0ebea7a47c2c0ab2e74bfd8183031",
+      "sha256": "3ca0ae4df82496eef8d175cf350555ae70a0ebea7a47c2c0ab2e74bfd8183031",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-09-28__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-09-28__N__s20260920__main.predictions.parquet",
+      "original_sha256": "8c6d68e337f64d633c248a1954c50720a527f3ea364b5be92b6f7daefc850649",
+      "sha256": "8c6d68e337f64d633c248a1954c50720a527f3ea364b5be92b6f7daefc850649",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-09-28__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-09-28__N__s20260921__main.predictions.parquet",
+      "original_sha256": "46a7d2640fb7372e1d0b126c24e61a10dd18d93a91f308b3c2775fd4655b6139",
+      "sha256": "46a7d2640fb7372e1d0b126c24e61a10dd18d93a91f308b3c2775fd4655b6139",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-09-29__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-09-29__N__s20260920__main.predictions.parquet",
+      "original_sha256": "7599f846bf2dd6eaf52f8d8fee3af3b34e16c7a51030679c54b8f965ac00d9d6",
+      "sha256": "7599f846bf2dd6eaf52f8d8fee3af3b34e16c7a51030679c54b8f965ac00d9d6",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-09-29__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-09-29__N__s20260921__main.predictions.parquet",
+      "original_sha256": "1887dbb128d343662399783c0b49316e0cb5e6d64e5f33af936b10dabf383db8",
+      "sha256": "1887dbb128d343662399783c0b49316e0cb5e6d64e5f33af936b10dabf383db8",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-09-30__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-09-30__N__s20260920__main.predictions.parquet",
+      "original_sha256": "d3386c76e0edf46e69d7480daaf2a0be73e0c13a8d4f6d2afa236cf7c4057f14",
+      "sha256": "d3386c76e0edf46e69d7480daaf2a0be73e0c13a8d4f6d2afa236cf7c4057f14",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_news/artifacts/news__2026-09-30__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_news/artifacts/news__2026-09-30__N__s20260921__main.predictions.parquet",
+      "original_sha256": "dfcc67211733ce0785c20ceedfa6c26f522d1e455694b3946c80fe157d057a88",
+      "sha256": "dfcc67211733ce0785c20ceedfa6c26f522d1e455694b3946c80fe157d057a88",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_notice/artifacts/notice__prewindow_frozen_C_bank__N__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_notice/artifacts/notice__prewindow_frozen_C_bank__N__s20260920__main.predictions.parquet",
+      "original_sha256": "58cbcbb962dbcfa60ecef657b0a4a4e7ec6ce3be9b998d17a4ac43a09e67dc47",
+      "sha256": "58cbcbb962dbcfa60ecef657b0a4a4e7ec6ce3be9b998d17a4ac43a09e67dc47",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/no_text_notice/artifacts/notice__prewindow_frozen_C_bank__N__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/no_text_notice/artifacts/notice__prewindow_frozen_C_bank__N__s20260921__main.predictions.parquet",
+      "original_sha256": "c6b21eb687c4cc7eeb94acda8f27c222aba818f89c9b0b8c5fdc63d46c42f9e0",
+      "sha256": "c6b21eb687c4cc7eeb94acda8f27c222aba818f89c9b0b8c5fdc63d46c42f9e0",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/w24/artifacts/notice__prewindow_frozen_C_bank__L14__s20260919__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/w24/artifacts/notice__prewindow_frozen_C_bank__L14__s20260919__main.predictions.parquet",
+      "original_sha256": "601d4363d107e0eb2ff8d1c0383e2e14f666dbe9ff15da3d076e98647feb2cbc",
+      "sha256": "601d4363d107e0eb2ff8d1c0383e2e14f666dbe9ff15da3d076e98647feb2cbc",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/w24/artifacts/notice__prewindow_frozen_C_bank__L14__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/w24/artifacts/notice__prewindow_frozen_C_bank__L14__s20260920__main.predictions.parquet",
+      "original_sha256": "6b83491af6f577dfb4c7329b5ba07fc1e4b1737dde8f60cc308f9ea5dff3b3e4",
+      "sha256": "6b83491af6f577dfb4c7329b5ba07fc1e4b1737dde8f60cc308f9ea5dff3b3e4",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/w24/artifacts/notice__prewindow_frozen_C_bank__L14__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/w24/artifacts/notice__prewindow_frozen_C_bank__L14__s20260921__main.predictions.parquet",
+      "original_sha256": "c02d39c5720877222daff6c7127189489fce448d8d98fac25609c9e735d00e91",
+      "sha256": "c02d39c5720877222daff6c7127189489fce448d8d98fac25609c9e735d00e91",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/w24/artifacts/notice__prewindow_frozen_C_bank__L_Laz__s20260919__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/w24/artifacts/notice__prewindow_frozen_C_bank__L_Laz__s20260919__main.predictions.parquet",
+      "original_sha256": "ec5d6fd731e7616da4b1382c4ebe8038bf9851c3c7644f83a74834defb71c553",
+      "sha256": "ec5d6fd731e7616da4b1382c4ebe8038bf9851c3c7644f83a74834defb71c553",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/w24/artifacts/notice__prewindow_frozen_C_bank__L_Laz__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/w24/artifacts/notice__prewindow_frozen_C_bank__L_Laz__s20260920__main.predictions.parquet",
+      "original_sha256": "44065fd0b59a9c6d2ea43212e3f8d4ec59bbe6a01bccd5b009d1347f49394bde",
+      "sha256": "44065fd0b59a9c6d2ea43212e3f8d4ec59bbe6a01bccd5b009d1347f49394bde",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/w24/artifacts/notice__prewindow_frozen_C_bank__L_Laz__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/w24/artifacts/notice__prewindow_frozen_C_bank__L_Laz__s20260921__main.predictions.parquet",
+      "original_sha256": "cf7caa2af3a7b68b5f0e1ea1aa27e9dd0afbc3a39545d5cf7d2351c8b089f6c8",
+      "sha256": "cf7caa2af3a7b68b5f0e1ea1aa27e9dd0afbc3a39545d5cf7d2351c8b089f6c8",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/w24/artifacts/notice__prewindow_frozen_C_bank__L_chen_notice__s20260919__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/w24/artifacts/notice__prewindow_frozen_C_bank__L_chen_notice__s20260919__main.predictions.parquet",
+      "original_sha256": "1d00810aea5c9a01cd141b29a37353c28a3fb5ac8a7925fb19eb35901c2a52b1",
+      "sha256": "1d00810aea5c9a01cd141b29a37353c28a3fb5ac8a7925fb19eb35901c2a52b1",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/w24/artifacts/notice__prewindow_frozen_C_bank__L_chen_notice__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/w24/artifacts/notice__prewindow_frozen_C_bank__L_chen_notice__s20260920__main.predictions.parquet",
+      "original_sha256": "b481389a46b5ba3f9f10d1c847271942b1f8b66b2cb97505d19280b181914dd5",
+      "sha256": "b481389a46b5ba3f9f10d1c847271942b1f8b66b2cb97505d19280b181914dd5",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/w24/artifacts/notice__prewindow_frozen_C_bank__L_chen_notice__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/w24/artifacts/notice__prewindow_frozen_C_bank__L_chen_notice__s20260921__main.predictions.parquet",
+      "original_sha256": "b3a1b2fb1a22f97c52cf355c2598b4dec6f35cd597a9e9d779980de4225bf4c2",
+      "sha256": "b3a1b2fb1a22f97c52cf355c2598b4dec6f35cd597a9e9d779980de4225bf4c2",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/w24/artifacts/notice__prewindow_frozen_C_bank__M_notice__s20260919__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/w24/artifacts/notice__prewindow_frozen_C_bank__M_notice__s20260919__main.predictions.parquet",
+      "original_sha256": "97653c13b852a5e8ca9f3603e4c2a4361aa5148757c8eb492abf4066396500be",
+      "sha256": "97653c13b852a5e8ca9f3603e4c2a4361aa5148757c8eb492abf4066396500be",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/w24/artifacts/notice__prewindow_frozen_C_bank__M_notice__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/w24/artifacts/notice__prewindow_frozen_C_bank__M_notice__s20260920__main.predictions.parquet",
+      "original_sha256": "0f954ed6fa2903bfb286670c614128adbe1c98eafdcc54fb06cd3814ef8ef809",
+      "sha256": "0f954ed6fa2903bfb286670c614128adbe1c98eafdcc54fb06cd3814ef8ef809",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/w24/artifacts/notice__prewindow_frozen_C_bank__M_notice__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/w24/artifacts/notice__prewindow_frozen_C_bank__M_notice__s20260921__main.predictions.parquet",
+      "original_sha256": "3f7ae406ef799c556ed4838877654bf9e928f97db47fe904210ff8723bc6ae91",
+      "sha256": "3f7ae406ef799c556ed4838877654bf9e928f97db47fe904210ff8723bc6ae91",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/w7/artifacts/notice__prewindow_frozen_C_bank__L14__s20260919__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/w7/artifacts/notice__prewindow_frozen_C_bank__L14__s20260919__main.predictions.parquet",
+      "original_sha256": "23753ff2bf38de533e117bca84c05402884e0d1d3af7255ebc293a492abe1322",
+      "sha256": "23753ff2bf38de533e117bca84c05402884e0d1d3af7255ebc293a492abe1322",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/w7/artifacts/notice__prewindow_frozen_C_bank__L14__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/w7/artifacts/notice__prewindow_frozen_C_bank__L14__s20260920__main.predictions.parquet",
+      "original_sha256": "6e95d3ba252a4a879af1b3e83828d63a059f8b838854f0d1d4700e78512c227d",
+      "sha256": "6e95d3ba252a4a879af1b3e83828d63a059f8b838854f0d1d4700e78512c227d",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/w7/artifacts/notice__prewindow_frozen_C_bank__L14__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/w7/artifacts/notice__prewindow_frozen_C_bank__L14__s20260921__main.predictions.parquet",
+      "original_sha256": "920809b6e93d0be944878d911f72eb22d5903227d0c086517e4930b9a492ee70",
+      "sha256": "920809b6e93d0be944878d911f72eb22d5903227d0c086517e4930b9a492ee70",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/w7/artifacts/notice__prewindow_frozen_C_bank__L_Laz__s20260919__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/w7/artifacts/notice__prewindow_frozen_C_bank__L_Laz__s20260919__main.predictions.parquet",
+      "original_sha256": "04dc2e718ae9afbdf4aa115d975842f8c977050d6ecd21d0a358231545842b56",
+      "sha256": "04dc2e718ae9afbdf4aa115d975842f8c977050d6ecd21d0a358231545842b56",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/w7/artifacts/notice__prewindow_frozen_C_bank__L_Laz__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/w7/artifacts/notice__prewindow_frozen_C_bank__L_Laz__s20260920__main.predictions.parquet",
+      "original_sha256": "4c9e7bbe45359094454396b65f232f7d3970536cb0a7e1b6bd5716772d9aa912",
+      "sha256": "4c9e7bbe45359094454396b65f232f7d3970536cb0a7e1b6bd5716772d9aa912",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/w7/artifacts/notice__prewindow_frozen_C_bank__L_Laz__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/w7/artifacts/notice__prewindow_frozen_C_bank__L_Laz__s20260921__main.predictions.parquet",
+      "original_sha256": "3aa4b709f61543b0a2e0f83b23c70e25547fe7783efe3e955d756ca23f17a8fb",
+      "sha256": "3aa4b709f61543b0a2e0f83b23c70e25547fe7783efe3e955d756ca23f17a8fb",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/w7/artifacts/notice__prewindow_frozen_C_bank__L_chen_notice__s20260919__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/w7/artifacts/notice__prewindow_frozen_C_bank__L_chen_notice__s20260919__main.predictions.parquet",
+      "original_sha256": "efbecce3a349c705dbe8b059be44e615e090197f0170fce90382b7f4c7bc290c",
+      "sha256": "efbecce3a349c705dbe8b059be44e615e090197f0170fce90382b7f4c7bc290c",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/w7/artifacts/notice__prewindow_frozen_C_bank__L_chen_notice__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/w7/artifacts/notice__prewindow_frozen_C_bank__L_chen_notice__s20260920__main.predictions.parquet",
+      "original_sha256": "99eca7604cd523f8e85ed7d5f6e9f2c4efe2128b5f8f645b9637e3e4e483d9b4",
+      "sha256": "99eca7604cd523f8e85ed7d5f6e9f2c4efe2128b5f8f645b9637e3e4e483d9b4",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/w7/artifacts/notice__prewindow_frozen_C_bank__L_chen_notice__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/w7/artifacts/notice__prewindow_frozen_C_bank__L_chen_notice__s20260921__main.predictions.parquet",
+      "original_sha256": "4465b4f1666e18da12a2a927d543cf09d4d23d4646ba94cdc394aa8a83472088",
+      "sha256": "4465b4f1666e18da12a2a927d543cf09d4d23d4646ba94cdc394aa8a83472088",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/w7/artifacts/notice__prewindow_frozen_C_bank__M_notice__s20260919__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/w7/artifacts/notice__prewindow_frozen_C_bank__M_notice__s20260919__main.predictions.parquet",
+      "original_sha256": "7b360ba4acad5e8d91e0f9e63182c7891fd48d51e654f143232a2c7919946cfc",
+      "sha256": "7b360ba4acad5e8d91e0f9e63182c7891fd48d51e654f143232a2c7919946cfc",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/w7/artifacts/notice__prewindow_frozen_C_bank__M_notice__s20260920__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/w7/artifacts/notice__prewindow_frozen_C_bank__M_notice__s20260920__main.predictions.parquet",
+      "original_sha256": "bdb55756045b2c6860d4a9977fb5a36ab0f1268383c601f8f235e6867267bd55",
+      "sha256": "bdb55756045b2c6860d4a9977fb5a36ab0f1268383c601f8f235e6867267bd55",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/w7/artifacts/notice__prewindow_frozen_C_bank__M_notice__s20260921__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/w7/artifacts/notice__prewindow_frozen_C_bank__M_notice__s20260921__main.predictions.parquet",
+      "original_sha256": "cf97e8924ab2b4152234609eed6b68e033b228db4df21a9098b838cfa89c49e5",
+      "sha256": "cf97e8924ab2b4152234609eed6b68e033b228db4df21a9098b838cfa89c49e5",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/w7_shift/artifacts/notice__prewindow_frozen_C_bank__M_shift_notice__s20260919__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/w7_shift/artifacts/notice__prewindow_frozen_C_bank__M_shift_notice__s20260919__main.predictions.parquet",
+      "original_sha256": "6b8cd0c01f5b30bc47cf542cb75839f8a90505869c670f625f153ebddbfb7007",
+      "sha256": "6b8cd0c01f5b30bc47cf542cb75839f8a90505869c670f625f153ebddbfb7007",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/forecasts/w7_shift/artifacts/notice__prewindow_frozen_C_bank__P_shift__s20260919__main.predictions.parquet",
+      "destination": "seeds_windows/forecasts/w7_shift/artifacts/notice__prewindow_frozen_C_bank__P_shift__s20260919__main.predictions.parquet",
+      "original_sha256": "91763363d046e7f49e9c2bbee0252ff218cea995f540ccbadec0a6689527d53d",
+      "sha256": "91763363d046e7f49e9c2bbee0252ff218cea995f540ccbadec0a6689527d53d",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/results/analysis1_comparisons.csv",
+      "destination": "seeds_windows/results/analysis1_comparisons.csv",
+      "original_sha256": "b56c357d900ef7ec71422b98b494f45ba3069e5d7ae975cf3d61da615987aea8",
+      "sha256": "b56c357d900ef7ec71422b98b494f45ba3069e5d7ae975cf3d61da615987aea8",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/results/analysis2_comparisons.csv",
+      "destination": "seeds_windows/results/analysis2_comparisons.csv",
+      "original_sha256": "860125a327b17225f54870319640cb4f9baebdd1553dde485d55ae26643f30b5",
+      "sha256": "860125a327b17225f54870319640cb4f9baebdd1553dde485d55ae26643f30b5",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/results/daily_losses.csv",
+      "destination": "seeds_windows/results/daily_losses.csv",
+      "original_sha256": "00d6c9e5154c81feebb04acb16f6e133ab799f71393c3441a50ce1ea2b4d0a4b",
+      "sha256": "00d6c9e5154c81feebb04acb16f6e133ab799f71393c3441a50ce1ea2b4d0a4b",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/results/fit_resources.csv",
+      "destination": "seeds_windows/results/fit_resources.csv",
+      "original_sha256": "141173617fee5299c32a015f4d2572c7a69307d0d98088b9b2089d9dd5d2884c",
+      "sha256": "141173617fee5299c32a015f4d2572c7a69307d0d98088b9b2089d9dd5d2884c",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/results/placebo_comparisons.csv",
+      "destination": "seeds_windows/results/placebo_comparisons.csv",
+      "original_sha256": "ae0a8ed8430306091dfd19a2f93e42c15549e712e0ad88375d9f698a641acc1a",
+      "sha256": "ae0a8ed8430306091dfd19a2f93e42c15549e712e0ad88375d9f698a641acc1a",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/results/reversals.csv",
+      "destination": "seeds_windows/results/reversals.csv",
+      "original_sha256": "f05207b4f9aaa92cf3200abaa56f1b2bbceb914ff82bd59f24fe269f8ec12720",
+      "sha256": "f05207b4f9aaa92cf3200abaa56f1b2bbceb914ff82bd59f24fe269f8ec12720",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/results/robust_notice_gains.csv",
+      "destination": "seeds_windows/results/robust_notice_gains.csv",
+      "original_sha256": "64cf27bf4f6858583f45a1bbade0f838dff3bce9eca7ca15af5244725fe0642a",
+      "sha256": "64cf27bf4f6858583f45a1bbade0f838dff3bce9eca7ca15af5244725fe0642a",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/posthoc_20261019/results/robust_reversals.csv",
+      "destination": "seeds_windows/results/robust_reversals.csv",
+      "original_sha256": "f24626cdaba7339367f90d3e7f6729663c6de54cf0315727927b58b52ea81811",
+      "sha256": "f24626cdaba7339367f90d3e7f6729663c6de54cf0315727927b58b52ea81811",
+      "byte_identical": true
+    }
+  ]
+}

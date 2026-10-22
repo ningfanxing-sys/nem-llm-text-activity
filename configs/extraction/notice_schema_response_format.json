@@ -1,0 +1,488 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "notice_id",
+    "reporting_company",
+    "lifecycle",
+    "impact_windows",
+    "quantities"
+  ],
+  "properties": {
+    "notice_id": {
+      "type": "string"
+    },
+    "reporting_company": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "value",
+        "evidence_spans"
+      ],
+      "properties": {
+        "value": {
+          "type": "string"
+        },
+        "evidence_spans": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "lifecycle": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "value",
+        "evidence_spans"
+      ],
+      "properties": {
+        "value": {
+          "enum": [
+            "NEW",
+            "UPDATE",
+            "CANCELLATION",
+            "CEASED",
+            "RECLASSIFICATION",
+            "UNKNOWN"
+          ]
+        },
+        "evidence_spans": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "impact_windows": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "window_id",
+          "start_text",
+          "end_text",
+          "region",
+          "interval_status",
+          "asset_id",
+          "fuel_type",
+          "event_class",
+          "event_family",
+          "attributes"
+        ],
+        "properties": {
+          "window_id": {
+            "type": "string"
+          },
+          "start_text": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "value",
+              "evidence_spans"
+            ],
+            "properties": {
+              "value": {
+                "type": "string"
+              },
+              "evidence_spans": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "end_text": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "value",
+              "evidence_spans"
+            ],
+            "properties": {
+              "value": {
+                "type": "string"
+              },
+              "evidence_spans": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "region": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "value",
+              "evidence_spans"
+            ],
+            "properties": {
+              "value": {
+                "enum": [
+                  "NSW1",
+                  "QLD1",
+                  "SA1",
+                  "TAS1",
+                  "VIC1",
+                  "UNKNOWN"
+                ]
+              },
+              "evidence_spans": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "interval_status": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "value",
+              "evidence_spans"
+            ],
+            "properties": {
+              "value": {
+                "enum": [
+                  "BOUNDED",
+                  "OPEN_UNTIL_NOTICE",
+                  "UNKNOWN"
+                ]
+              },
+              "evidence_spans": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "asset_id": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "value",
+              "evidence_spans"
+            ],
+            "properties": {
+              "value": {
+                "type": "string"
+              },
+              "evidence_spans": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "fuel_type": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "value",
+              "evidence_spans"
+            ],
+            "properties": {
+              "value": {
+                "enum": [
+                  "COAL",
+                  "GAS",
+                  "OIL",
+                  "HYDRO",
+                  "NUCLEAR",
+                  "WIND",
+                  "SOLAR",
+                  "BATTERY",
+                  "OTHER",
+                  "UNKNOWN"
+                ]
+              },
+              "evidence_spans": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "event_class": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "value",
+              "evidence_spans"
+            ],
+            "properties": {
+              "value": {
+                "enum": [
+                  "FAILURE",
+                  "PLANNED_MAINTENANCE",
+                  "MAINTENANCE_UPDATE",
+                  "OTHER",
+                  "UNKNOWN"
+                ]
+              },
+              "evidence_spans": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "event_family": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "value",
+              "evidence_spans"
+            ],
+            "properties": {
+              "value": {
+                "enum": [
+                  "OUTAGE",
+                  "RESERVE",
+                  "CONSTRAINT",
+                  "INTERVENTION",
+                  "RETURN_TO_SERVICE",
+                  "OTHER",
+                  "UNKNOWN"
+                ]
+              },
+              "evidence_spans": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "attributes": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "impact_timeframe",
+              "root_cause",
+              "affected_infrastructure",
+              "region",
+              "energy_resource",
+              "operational_indicators"
+            ],
+            "properties": {
+              "impact_timeframe": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "value",
+                  "evidence_spans"
+                ],
+                "properties": {
+                  "value": {
+                    "type": "string"
+                  },
+                  "evidence_spans": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  }
+                }
+              },
+              "root_cause": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "value",
+                  "evidence_spans"
+                ],
+                "properties": {
+                  "value": {
+                    "type": "string"
+                  },
+                  "evidence_spans": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  }
+                }
+              },
+              "affected_infrastructure": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "value",
+                  "evidence_spans"
+                ],
+                "properties": {
+                  "value": {
+                    "type": "string"
+                  },
+                  "evidence_spans": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  }
+                }
+              },
+              "region": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "value",
+                  "evidence_spans"
+                ],
+                "properties": {
+                  "value": {
+                    "type": "string"
+                  },
+                  "evidence_spans": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  }
+                }
+              },
+              "energy_resource": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "value",
+                  "evidence_spans"
+                ],
+                "properties": {
+                  "value": {
+                    "type": "string"
+                  },
+                  "evidence_spans": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  }
+                }
+              },
+              "operational_indicators": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "value",
+                  "evidence_spans"
+                ],
+                "properties": {
+                  "value": {
+                    "type": "string"
+                  },
+                  "evidence_spans": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "quantities": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "window_id",
+          "asset_id",
+          "value_text",
+          "unit",
+          "role",
+          "evidence_spans",
+          "binding_status",
+          "binding_reason"
+        ],
+        "properties": {
+          "window_id": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "asset_id": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "value",
+              "evidence_spans"
+            ],
+            "properties": {
+              "value": {
+                "type": "string"
+              },
+              "evidence_spans": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "value_text": {
+            "type": "string"
+          },
+          "unit": {
+            "enum": [
+              "MW",
+              "MWh",
+              "minutes",
+              "other",
+              "UNKNOWN"
+            ]
+          },
+          "role": {
+            "enum": [
+              "LOSS",
+              "AVAILABLE",
+              "REQUIREMENT",
+              "FLOW",
+              "LIMIT",
+              "VIOLATION",
+              "OTHER",
+              "UNKNOWN"
+            ]
+          },
+          "evidence_spans": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "binding_status": {
+            "enum": [
+              "BOUND",
+              "UNKNOWN_RELATION"
+            ]
+          },
+          "binding_reason": {
+            "enum": [
+              "BOUND_EXPLICIT_SOURCE_SCOPE",
+              "SOURCE_SCOPE_AMBIGUOUS",
+              "SOURCE_SCOPE_ABSENT"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "state": "EXACT_FROZEN_BYTES_VERIFIED",
+  "files": [
+    {
+      "task": "notice",
+      "requested": "forecasts/truth/notice_joint.parquet",
+      "used": "studies/confirmation/execution/host_state/features/notice_joint.parquet",
+      "mode": "byte_identical_official_original_read_only_in_place",
+      "bytes": 184509600,
+      "sha256": "02284c7eb5f4a6afc612d0b35ab6c093c40f5bd67d801e3da55320ed82da9cc3"
+    },
+    {
+      "task": "news",
+      "requested": "forecasts/truth/news_keys_labels.parquet",
+      "used": "forecasts/truth/news_keys_labels.parquet",
+      "mode": "packaged_read_only_copy",
+      "bytes": 16690134,
+      "sha256": "821f6db161fd012b18dee28e83f5518d7841e74461431633ebd6eaa0292ae68f"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "state": "KEY_ONLY_DIAGNOSTIC_FROZEN_BEFORE_KEY_READ",
+  "time_utc": "2026-10-04T12:54:53.961859+00:00",
+  "spec_path": "/Users/stacchining/Documents/thesis/lamp-moe-research/experiments/llm_controlled_study_prep_20260925/autopilot/q1_audits/CONF/CONFX8/SEAL_DIAG_SPEC.md",
+  "sha256": "538160f56b7cae329932f9f9a8ac9c0f49a12b96b0a15dc6e5a2a168d478a1e7",
+  "no_fix_authorized": true
+}

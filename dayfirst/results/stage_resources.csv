@@ -1,0 +1,8 @@
+stage,runtime_seconds,peak_process_rss_bytes
+ Month-first model equivalence （23 checks ）,38.1856414580252,650854400
+ day-first a0 equivalence （ elapsed wall time including input delivery ）,401.93672,1092222976
+ Month-first delay equivalence （12 checks ）,424.9381949999952,1191870464
+ Day-first predictions （35 files ； contains R/NPP reconstruction ）,547.9795161660295,1176813568
+ Scoring batch （196 computations ）,72.33783075003885,1175732224
+ Scoring of previously unpopulated export entries （ reuses 196， adds only 4 computations ）,65.93571941601112,1152204800
+Bootstrap process （ peak 8 concurrent ）,,208109568

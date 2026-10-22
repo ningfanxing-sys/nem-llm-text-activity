@@ -1,0 +1,94 @@
+{
+  "attempt_receipts": 23556,
+  "capacity_incidents": 0,
+  "cli_path": "openai-cli",
+  "cli_version": "openai-cli 0.159.0",
+  "contract_freeze_sha256": "b44a1cded165d039dfb18f47a2206cbf7bd5e28c0e7e119fafe9404fa2dcbb69",
+  "contract_sha256": "3328a71e9d554a755ea58949fbdd6f1e4e3dad578a66c34b3d90a4198d2caddf",
+  "contract_version": "1.3",
+  "counts_by_period_and_terminal_state": {
+    "2021-22": {
+      "SUCCESS": 6772,
+      "TERMINAL_FAILURE": 139
+    },
+    "2023": {
+      "SUCCESS": 4279,
+      "TERMINAL_FAILURE": 158
+    },
+    "2024": {
+      "SUCCESS": 2629,
+      "TERMINAL_FAILURE": 84
+    },
+    "2025-11..2026-02": {
+      "SUCCESS": 2781,
+      "TERMINAL_FAILURE": 93
+    },
+    "2026-03..06": {
+      "SUCCESS": 3686,
+      "TERMINAL_FAILURE": 53
+    },
+    "2026-07..09": {
+      "SUCCESS": 780,
+      "TERMINAL_FAILURE": 16
+    }
+  },
+  "counts_by_scope_group": {
+    "DATA26_CONFIRMATION_LEADIN_20260727_TO_20260930": 796,
+    "DATA26_INCOMPLETE_202603_TO_20260726": 3739,
+    "FINAL3_HISTORICAL": 16935
+  },
+  "expected_unique_notices": 21470,
+  "first_call_utc": "2026-09-30T21:02:47.286639+00:00",
+  "generated_utc": "2026-10-01T01:55:50.539388+00:00",
+  "knowledge_cutoff": "not exposed",
+  "labels_rows_including_failed_placeholders": 21470,
+  "labels_sha256": "e5922808536f8f1c3fe7471f82d79c4740c469d73240873002adca47043aa8ab",
+  "last_call_utc": "2026-10-01T01:55:16.723704+00:00",
+  "ledger_sha256": "848d7ff399aeafac39366fdf812efe3284014e54dd000a6d3e79ab0401079ef8",
+  "model_ids_exposed": [],
+  "model_reasoning_effort": "medium",
+  "model_requested": "gpt-6-luna",
+  "old_label_banks_read": false,
+  "outcome_rows_read": false,
+  "phase": "finalize",
+  "pilot_gate_sha256": "ebdbf84e085008b7189713eebfc30d56f6a06dd5462a818fc986b094938eaec8",
+  "pilot_receipt_sha256": "6494cd6dda9f5b0f3b5fbaca015b6a3ce108801f5c1c006fcb40a8d579aa1daa",
+  "price_models_fitted": 0,
+  "provider_requests_reserved": 23556,
+  "scope_freeze_sha256": "3d9eaa0ab482fadd3688f35e8de1f2a75da36171b9e5ca380a3e5609d6640c7c",
+  "scope_sha256": "e70c0f5f331a8be677930b439fa7da6a696e501e2a7d3553ad56bcf185b81e9f",
+  "state": "COMPLETE_WITH_FAILURES",
+  "temperature": "not exposed/settable in the client",
+  "terminal_counts": {
+    "SUCCESS": 20927,
+    "TERMINAL_FAILURE": 543
+  },
+  "transport_retries_total": 0,
+  "usage_tokens_where_available": {
+    "cache_write_input_tokens": 0,
+    "cached_input_tokens": 379496448,
+    "input_tokens": 450899896,
+    "output_tokens": 13213190,
+    "reasoning_output_tokens": 1916751
+  },
+  "validation_retries_total": 2086,
+  "wall_seconds_total": 418352.123,
+  "worker_changes": [
+    {
+      "contract_freeze_sha256": "b44a1cded165d039dfb18f47a2206cbf7bd5e28c0e7e119fafe9404fa2dcbb69",
+      "contract_sha256": "3328a71e9d554a755ea58949fbdd6f1e4e3dad578a66c34b3d90a4198d2caddf",
+      "contract_version": "1.3",
+      "event": "WORKERS_CHANGED",
+      "inflight_policy": "existing calls finish; new notice launches wait for reduced limit",
+      "model_reasoning_effort": "medium",
+      "model_requested": "gpt-6-luna",
+      "phase": "full",
+      "reason": "first_200_capacity_free",
+      "request_index": 199,
+      "scope_freeze_sha256": "3d9eaa0ab482fadd3688f35e8de1f2a75da36171b9e5ca380a3e5609d6640c7c",
+      "utc": "2026-09-30T21:06:55.726841+00:00",
+      "workers_after": 24,
+      "workers_before": 16
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "state": "COMPLETE",
+  "robust_reversals_count": 0,
+  "robust_notice_gains_all_three": false,
+  "robust_notice_gains_count": 2,
+  "notice_reversals_disappear_under_w7": true,
+  "rule1_all_seeds_means_windows_reported": true,
+  "rule5_no_additional_variants": true,
+  "runtime_seconds": 29.171622792026028,
+  "peak_rss_bytes": 783581184
+}

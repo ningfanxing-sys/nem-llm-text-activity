@@ -1,0 +1,20 @@
+{
+  "overall": "PASS",
+  "values_checked": 48370,
+  "passed": 48370,
+  "failed": 0,
+  "largest_absolute_differences": {
+    "scalar": 3.907985046680551e-14,
+    "probability": 1.1102230246251565e-16,
+    "paper_rounding_difference": 0.04871901992667116
+  },
+  "largest_bootstrap_endpoint_difference_percentage_points": 0.0,
+  "byte_identical_frozen_files_checked": 4610,
+  "restored_original_file_hashes_checked": 3444,
+  "restored_frozen_file_hashes_checked": 3442,
+  "restored_numeric_npy_hashes_checked": 15,
+  "registration_code_config_bindings_checked": 349,
+  "bootstrap_draws": 100000,
+  "bootstrap_seed": 20260925,
+  "runtime_seconds": 147.975
+}

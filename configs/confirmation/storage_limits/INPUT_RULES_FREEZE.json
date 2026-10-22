@@ -1,0 +1,36 @@
+{
+  "adapter_code_change": false,
+  "addendum": 1,
+  "addendum_spec": {
+    "bytes": 2696,
+    "path": "/Users/stacchining/Documents/thesis/lamp-moe-research/experiments/llm_controlled_study_prep_20260925/autopilot/q1_audits/CONF/CONFX6/SPEC_ADDENDUM_1_HOLD_BEFORE_FITS.md",
+    "sha256": "143062238da2904ae1597af16932ab876dd477db3018d287190d91d344a6895c"
+  },
+  "audit_result": {
+    "bytes": 23770,
+    "path": "/Users/stacchining/Documents/thesis/lamp-moe-research/experiments/llm_controlled_study_prep_20260925/autopilot/q1_audits/CONF/CONFX6/RESOURCE_GUARD_AUDIT.json",
+    "sha256": "7a2d5cdcfb17b0553fcb922f4243b27192da9a5dcfebcde4d23f1335a2443bbc"
+  },
+  "audit_script": {
+    "bytes": 22217,
+    "path": "/Users/stacchining/Documents/thesis/lamp-moe-research/experiments/llm_controlled_study_prep_20260925/autopilot/q1_audits/CONF/CONFX6/audit_resource_guards.py",
+    "sha256": "dabcbe5ec3e2ed61ee32acc106dee99e3f39542a4bef961c5f8e49434b7a816d"
+  },
+  "frozen_rule_change": false,
+  "host_state_contents_read": false,
+  "production_commands_run": [],
+  "spec": {
+    "bytes": 12838,
+    "path": "/Users/stacchining/Documents/thesis/lamp-moe-research/experiments/llm_controlled_study_prep_20260925/autopilot/q1_audits/CONF/CONFX6/SPEC.md",
+    "sha256": "a5f5586cdc7e78e0fa65c8a2a6d4380e0e8f7d782a7a558361bcdd3bd7caa03c"
+  },
+  "spec_freeze": {
+    "bytes": 11434,
+    "path": "/Users/stacchining/Documents/thesis/lamp-moe-research/experiments/llm_controlled_study_prep_20260925/autopilot/q1_audits/CONF/CONFX6/SPEC_FREEZE.json",
+    "sha256": "1f00e241ade6a6fa91300dfaf5027b84c1fabe1bec5b8fabb1b2d5e93c7a51ab"
+  },
+  "state": "SPEC_ADDENDUM_FROZEN_BEFORE_CHAIN_SCRIPT",
+  "task": "CONFX6",
+  "time_utc": "2026-10-02T07:16:05.224009+00:00",
+  "window_outcomes_read": false
+}

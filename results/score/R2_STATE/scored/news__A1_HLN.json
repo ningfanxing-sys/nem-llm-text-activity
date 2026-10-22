@@ -1,0 +1,33 @@
+{
+  "analysis_role": "A1_DECLARED_SENSITIVITY_HLN_T",
+  "family_size": 2,
+  "rows": [
+    {
+      "agrees_with_primary_decision": true,
+      "arm": "L_count",
+      "df": 134,
+      "disagreement_sentence": null,
+      "hln_decision": "NO_RELIABLE_INCREMENT_DETECTED",
+      "hln_t_holm_p": 0.08978001056816612,
+      "hln_t_p_two_sided": 0.04489000528408306,
+      "n_days": 135,
+      "primary_decision": "NO_RELIABLE_INCREMENT_DETECTED",
+      "reference": "M",
+      "statistic": 2.024652370326538
+    },
+    {
+      "agrees_with_primary_decision": true,
+      "arm": "L_chen",
+      "df": 134,
+      "disagreement_sentence": null,
+      "hln_decision": "NO_RELIABLE_INCREMENT_DETECTED",
+      "hln_t_holm_p": 0.5589701518633596,
+      "hln_t_p_two_sided": 0.5589701518633596,
+      "n_days": 135,
+      "primary_decision": "NO_RELIABLE_INCREMENT_DETECTED",
+      "reference": "M",
+      "statistic": 0.5858374816886245
+    }
+  ],
+  "rule": "confirmation-A1 decision 9: frozen statistic sqrt(n) mean/sd (equal to HLN S1* at h = 1); two-sided p from Student t with n-1 df; Holm per family with the frozen size; the primary normal-calibrated decision is unchanged."
+}

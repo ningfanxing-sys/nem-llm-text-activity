@@ -1,0 +1,79 @@
+[
+  {
+    "file": "seeds_windows/FEATURE_CHECKS.json",
+    "source_record": "paper_plan/paper/posthoc_20261019/FEATURE_CHECKS.json",
+    "field": "outputs/w7.activity.npy/path",
+    "source_path": "source/paper_plan/paper/posthoc_20261019/features/w7.activity.npy",
+    "package_path": "seeds_windows/features/w7.activity.npy",
+    "base": "repository",
+    "purpose": "Source locations and input file identities.",
+    "original_sha256": "86dc303c01cbf1d8c03547d484c43c0c4e8ecd07fc2535e2d995419620ce757b",
+    "package_sha256": "4ad6f6e7bad2ce04e2c53289d8acd113493dc4282c0c3b64eb93e7ea98625d94",
+    "content_sha256": "f7a4acadecf3522a15d064800663dff2e7979856937c3be6e485f163a99e2c0a"
+  },
+  {
+    "file": "seeds_windows/FEATURE_CHECKS.json",
+    "source_record": "paper_plan/paper/posthoc_20261019/FEATURE_CHECKS.json",
+    "field": "outputs/w24.activity.npy/path",
+    "source_path": "source/paper_plan/paper/posthoc_20261019/features/w24.activity.npy",
+    "package_path": "seeds_windows/features/w24.activity.npy",
+    "base": "repository",
+    "purpose": "Source locations and input file identities.",
+    "original_sha256": "86dc303c01cbf1d8c03547d484c43c0c4e8ecd07fc2535e2d995419620ce757b",
+    "package_sha256": "4ad6f6e7bad2ce04e2c53289d8acd113493dc4282c0c3b64eb93e7ea98625d94",
+    "content_sha256": "f7a4acadecf3522a15d064800663dff2e7979856937c3be6e485f163a99e2c0a"
+  },
+  {
+    "file": "seeds_windows/FEATURE_CHECKS.json",
+    "source_record": "paper_plan/paper/posthoc_20261019/FEATURE_CHECKS.json",
+    "field": "outputs/w7_shift.activity.npy/path",
+    "source_path": "source/paper_plan/paper/posthoc_20261019/features/w7_shift.activity.npy",
+    "package_path": "seeds_windows/features/w7_shift.activity.npy",
+    "base": "repository",
+    "purpose": "Source locations and input file identities.",
+    "original_sha256": "86dc303c01cbf1d8c03547d484c43c0c4e8ecd07fc2535e2d995419620ce757b",
+    "package_sha256": "4ad6f6e7bad2ce04e2c53289d8acd113493dc4282c0c3b64eb93e7ea98625d94",
+    "content_sha256": "f7a4acadecf3522a15d064800663dff2e7979856937c3be6e485f163a99e2c0a"
+  },
+  {
+    "file": "seeds_windows/code/run_posthoc.py",
+    "field": "PYTHON",
+    "source_path": "source/.venv/bin/python",
+    "package_path": "(STUDY / '../../.venv/bin/python').resolve()",
+    "base": "original study layout",
+    "purpose": "Source locations and input file identities.",
+    "package_sha256": "4b3048afbc21fe5653c1035ce6e90ea84c4e459edbf3cfdba739f959d0079d16"
+  },
+  {
+    "file": "seeds_windows/forecasts/INDEX.json",
+    "field": "predictions/*/path (298 entries)",
+    "source_path": "source/paper_plan/paper/posthoc_20261019/fits/{group}/artifacts/{filename}",
+    "package_path": "seeds_windows/forecasts/{group}/artifacts/{filename}",
+    "base": "repository",
+    "purpose": "Source locations and input file identities.",
+    "package_sha256": "8441289e06c398189c0e69f447d971c72e5842ad69bf247deb2f5dbf8d004e5b"
+  },
+  {
+    "file": "seeds_windows/DIFFERENCES.md",
+    "source_record": "paper_plan/paper/posthoc_20261019/DIFFERENCES.md",
+    "original_sha256": "4ffa1415fbff84bf19c8c4cdd0d073bf62613bda7495cc49d626630c504d10e1",
+    "included_input_sha256": "4ffa1415fbff84bf19c8c4cdd0d073bf62613bda7495cc49d626630c504d10e1",
+    "package_sha256": "7ea13046de8659867652e667fad4649b623436ab745c2ab03cdb599dcb7b5404",
+    "transformation": "Source locations and input file identities."
+  },
+  {
+    "file": "seeds_windows/README.md",
+    "source_record": "paper_plan/paper/posthoc_20261019/README.md",
+    "original_sha256": "1e9b28f869e58e1b51b29e574a0f5f72774622dd400e02d55939bd22e1160942",
+    "included_input_sha256": "1e9b28f869e58e1b51b29e574a0f5f72774622dd400e02d55939bd22e1160942",
+    "package_sha256": "4fd3b1bd33903ba84557d3a3e9f6878f47d05bfc350e745caf03b826bbaf480a",
+    "transformation": "Source locations and input file identities."
+  },
+  {
+    "file": "seeds_windows/code/score_posthoc.py",
+    "source_record": "paper_plan/paper/posthoc_20261019/code/score_posthoc.py",
+    "original_sha256": "748432754e69ed41ae94937f4cf9a0982613c83559b5ee66f898d4d0c8491a45",
+    "package_sha256": "b9c32d481f0658659742b5360303d609a150c70ef070f30211949c2cef57b7a5",
+    "transformation": "Source locations and input file identities."
+  }
+]

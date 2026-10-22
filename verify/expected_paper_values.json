@@ -1,0 +1,2368 @@
+{
+  "paper_source": "Paper accompanying this replication package (Markdown source)",
+  "paper_sha256": "bd8351a52f93e129e2baee63ebbdcb4ee9589c374bda38f999f3002490d0a350",
+  "rounding": "Nearest printed decimal; inequalities are strict; range endpoints independently rounded.",
+  "tables": {
+    "4": {
+      "caption": "**Table 4.** Activity step, representation step and net change with seed-averaged forecasts. ΔMAE (%) of Eq. (2), with the nominal two-sided DM *p* in parentheses; negative values favour the model with more inputs.",
+      "caption_line": 217,
+      "columns": [
+        "Representation",
+        "Activity reference",
+        "Activity step (M vs N)",
+        "Representation step (L vs M)",
+        "Net change (L vs N)",
+        "Signs differ"
+      ],
+      "rows": [
+        {
+          "source_line": 222,
+          "cells": [
+            "Event states",
+            "Original",
+            "+0.224 (0.050)",
+            "−0.143 (<0.001)",
+            "+0.081 (0.506)",
+            "Yes"
+          ]
+        },
+        {
+          "source_line": 223,
+          "cells": [
+            "",
+            "Seven-day window",
+            "+0.081 (0.003)",
+            "−0.141 (<0.001)",
+            "−0.060 (0.050)",
+            "No"
+          ]
+        },
+        {
+          "source_line": 224,
+          "cells": [
+            "",
+            "24-hour window",
+            "+0.107 (<0.001)",
+            "−0.212 (<0.001)",
+            "−0.106 (<0.001)",
+            "No"
+          ]
+        },
+        {
+          "source_line": 225,
+          "cells": [
+            "Overlap components",
+            "Original",
+            "+0.224 (0.050)",
+            "−0.004 (0.838)",
+            "+0.219 (0.060)",
+            "Yes"
+          ]
+        },
+        {
+          "source_line": 226,
+          "cells": [
+            "",
+            "Seven-day window",
+            "+0.081 (0.003)",
+            "+0.047 (0.074)",
+            "+0.128 (<0.001)",
+            "No"
+          ]
+        },
+        {
+          "source_line": 227,
+          "cells": [
+            "",
+            "24-hour window",
+            "+0.107 (<0.001)",
+            "+0.017 (0.540)",
+            "+0.124 (<0.001)",
+            "No"
+          ]
+        },
+        {
+          "source_line": 228,
+          "cells": [
+            "Archive embeddings",
+            "Original",
+            "+0.224 (0.050)",
+            "−0.517 (<0.001)",
+            "−0.295 (0.029)",
+            "No"
+          ]
+        },
+        {
+          "source_line": 229,
+          "cells": [
+            "",
+            "Seven-day window",
+            "+0.081 (0.003)",
+            "−0.521 (0.002)",
+            "−0.440 (0.014)",
+            "No"
+          ]
+        },
+        {
+          "source_line": 230,
+          "cells": [
+            "",
+            "24-hour window",
+            "+0.107 (<0.001)",
+            "−0.448 (<0.001)",
+            "−0.342 (0.005)",
+            "No"
+          ]
+        },
+        {
+          "source_line": 232,
+          "cells": [
+            "Fields",
+            "72-hour counts",
+            "−3.03 (0.004)",
+            "+12.50 (0.049)",
+            "+9.09 (0.148)",
+            "No"
+          ]
+        },
+        {
+          "source_line": 233,
+          "cells": [
+            "Embeddings",
+            "72-hour counts",
+            "−3.03 (0.004)",
+            "−0.53 (0.757)",
+            "−3.55 (0.049)",
+            "No"
+          ]
+        }
+      ]
+    },
+    "5": {
+      "caption": "**Table 5.** Notice task: MAE and paired comparisons (five-minute prices 5 to 30 minutes ahead, five regions; 61 target days, 1 August–30 September 2026; 527,040 forecasts). MAE in AUD/MWh.",
+      "caption_line": 251,
+      "columns": [
+        "Model",
+        "Compared with",
+        "MAE",
+        "ΔMAE (%)",
+        "ΔMAE (AUD/MWh)",
+        "DM *p*",
+        "Holm *p*"
+      ],
+      "rows": [
+        {
+          "source_line": 255,
+          "cells": [
+            "No-text model",
+            "–",
+            "9.4093",
+            "–",
+            "–",
+            "–",
+            "–"
+          ]
+        },
+        {
+          "source_line": 257,
+          "cells": [
+            "Activity reference",
+            "No-text model",
+            "9.4606",
+            "+0.546",
+            "+0.051",
+            "<0.001",
+            "–"
+          ]
+        },
+        {
+          "source_line": 259,
+          "cells": [
+            "Event states",
+            "Activity reference",
+            "9.4320",
+            "−0.303",
+            "−0.029",
+            "<0.001",
+            "<0.001"
+          ]
+        },
+        {
+          "source_line": 260,
+          "cells": [
+            "Overlap components",
+            "Activity reference",
+            "9.4337",
+            "−0.284",
+            "−0.027",
+            "<0.001",
+            "<0.001"
+          ]
+        },
+        {
+          "source_line": 261,
+          "cells": [
+            "Archive embeddings",
+            "Activity reference",
+            "9.3900",
+            "−0.747",
+            "−0.071",
+            "<0.001",
+            "<0.001"
+          ]
+        },
+        {
+          "source_line": 263,
+          "cells": [
+            "Rule parser",
+            "Activity reference",
+            "9.4328",
+            "−0.294",
+            "−0.028",
+            "<0.001",
+            "–"
+          ]
+        },
+        {
+          "source_line": 264,
+          "cells": [
+            "Word frequencies",
+            "Activity reference",
+            "9.4216",
+            "−0.413",
+            "−0.039",
+            "<0.001",
+            "–"
+          ]
+        },
+        {
+          "source_line": 266,
+          "cells": [
+            "Event states",
+            "No-text model",
+            "9.4320",
+            "+0.242",
+            "+0.023",
+            "0.037",
+            "–"
+          ]
+        },
+        {
+          "source_line": 267,
+          "cells": [
+            "Overlap components",
+            "No-text model",
+            "9.4337",
+            "+0.260",
+            "+0.024",
+            "0.012",
+            "–"
+          ]
+        },
+        {
+          "source_line": 268,
+          "cells": [
+            "Archive embeddings",
+            "No-text model",
+            "9.3900",
+            "−0.205",
+            "−0.019",
+            "0.041",
+            "–"
+          ]
+        },
+        {
+          "source_line": 270,
+          "cells": [
+            "Archive embeddings",
+            "Time-shifted placebo",
+            "9.5192",
+            "−0.745",
+            "−0.071",
+            "<0.001",
+            "–"
+          ]
+        },
+        {
+          "source_line": 271,
+          "cells": [
+            "Archive embeddings, time-shifted",
+            "Time-shifted activity reference",
+            "9.5906",
+            "+0.390",
+            "+0.037",
+            "<0.001",
+            "–"
+          ]
+        },
+        {
+          "source_line": 273,
+          "cells": [
+            "LightGBM + P5MIN",
+            "No-text model",
+            "9.1051",
+            "−3.233",
+            "−0.304",
+            "<0.001",
+            "–"
+          ]
+        }
+      ]
+    },
+    "6": {
+      "caption": "**Table 6.** News task: MAE and paired comparisons (day-ahead hourly prices for NSW1, QLD1 and TAS1, issued at 00:00 AEST; 135 issue days, 19 May–30 September 2026; 9,720 forecasts). MAE in AUD/MWh.",
+      "caption_line": 285,
+      "columns": [
+        "Model",
+        "Compared with",
+        "MAE",
+        "ΔMAE (%)",
+        "ΔMAE (AUD/MWh)",
+        "DM *p*",
+        "Holm *p*"
+      ],
+      "rows": [
+        {
+          "source_line": 289,
+          "cells": [
+            "No-text model",
+            "–",
+            "24.813",
+            "–",
+            "–",
+            "–",
+            "–"
+          ]
+        },
+        {
+          "source_line": 291,
+          "cells": [
+            "Activity reference",
+            "No-text model",
+            "23.925",
+            "−3.58",
+            "−0.89",
+            "0.017",
+            "–"
+          ]
+        },
+        {
+          "source_line": 293,
+          "cells": [
+            "Fields",
+            "Activity reference",
+            "26.656",
+            "+11.41",
+            "+2.73",
+            "0.043",
+            "0.086"
+          ]
+        },
+        {
+          "source_line": 294,
+          "cells": [
+            "Embeddings",
+            "Activity reference",
+            "24.205",
+            "+1.17",
+            "+0.28",
+            "0.558",
+            "0.558"
+          ]
+        },
+        {
+          "source_line": 296,
+          "cells": [
+            "Raw embeddings",
+            "Activity reference",
+            "26.805",
+            "+12.04",
+            "+2.88",
+            "0.041",
+            "–"
+          ]
+        },
+        {
+          "source_line": 297,
+          "cells": [
+            "Word frequencies",
+            "Activity reference",
+            "28.986",
+            "+21.15",
+            "+5.06",
+            "0.035",
+            "–"
+          ]
+        },
+        {
+          "source_line": 299,
+          "cells": [
+            "Fields",
+            "No-text model",
+            "26.656",
+            "+7.43",
+            "+1.84",
+            "0.204",
+            "–"
+          ]
+        },
+        {
+          "source_line": 300,
+          "cells": [
+            "Embeddings",
+            "No-text model",
+            "24.205",
+            "−2.45",
+            "−0.61",
+            "0.305",
+            "–"
+          ]
+        },
+        {
+          "source_line": 302,
+          "cells": [
+            "Time-shifted activity reference",
+            "No-text model",
+            "25.190",
+            "+1.52",
+            "+0.38",
+            "0.280",
+            "–"
+          ]
+        },
+        {
+          "source_line": 303,
+          "cells": [
+            "Embeddings",
+            "Time-shifted placebo",
+            "24.205",
+            "−4.37",
+            "−1.10",
+            "0.253",
+            "–"
+          ]
+        },
+        {
+          "source_line": 305,
+          "cells": [
+            "LEAR",
+            "No-text model",
+            "19.319",
+            "−22.14",
+            "−5.49",
+            "<0.001",
+            "–"
+          ]
+        },
+        {
+          "source_line": 306,
+          "cells": [
+            "LEAR",
+            "Activity reference",
+            "19.319",
+            "−19.25",
+            "−4.61",
+            "<0.001",
+            "–"
+          ]
+        }
+      ]
+    },
+    "A1": {
+      "caption": "**Table A1.** Alternative tests and 95% bootstrap intervals for the main comparisons (seed 20260919).",
+      "caption_line": 492,
+      "columns": [
+        "Item",
+        "Event states",
+        "Overlap components",
+        "Archive embeddings",
+        "Fields (news)",
+        "Embeddings (news)"
+      ],
+      "rows": [
+        {
+          "source_line": 496,
+          "cells": [
+            "HAC7 *p*",
+            "<0.001",
+            "<0.001",
+            "<0.001",
+            "0.159",
+            "0.604"
+          ]
+        },
+        {
+          "source_line": 497,
+          "cells": [
+            "Student-t *p*",
+            "<0.001",
+            "<0.001",
+            "<0.001",
+            "0.045",
+            "0.559"
+          ]
+        },
+        {
+          "source_line": 498,
+          "cells": [
+            "95% interval, one-day blocks",
+            "[−0.391, −0.218]",
+            "[−0.379, −0.188]",
+            "[−0.977, −0.514]",
+            "[1.99, 24.05]",
+            "[−2.68, 5.15]"
+          ]
+        },
+        {
+          "source_line": 499,
+          "cells": [
+            "95% interval, seven-day blocks",
+            "[−0.401, −0.220]",
+            "[−0.380, −0.193]",
+            "[−0.926, −0.486]",
+            "[−0.10, 31.36]",
+            "[−3.11, 5.94]"
+          ]
+        }
+      ]
+    },
+    "D1": {
+      "caption": "**Table D1.** Sensitivity analyses of the main comparisons: change in MAE (Δ, %) relative to the activity reference unless stated (negative values favour the representation), and nominal two-sided DM *p* unless the row states Holm.",
+      "caption_line": 583,
+      "columns": [
+        "Variant",
+        "Event states Δ (%)",
+        "Event states *p*",
+        "Overlap components Δ (%)",
+        "Overlap components *p*",
+        "Archive embeddings Δ (%)",
+        "Archive embeddings *p*",
+        "Fields Δ (%)",
+        "Fields *p*",
+        "Embeddings (news) Δ (%)",
+        "Embeddings (news) *p*"
+      ],
+      "rows": [
+        {
+          "source_line": 587,
+          "cells": [
+            "Seed 20260919",
+            "−0.303",
+            "<0.001",
+            "−0.284",
+            "<0.001",
+            "−0.747",
+            "<0.001",
+            "+11.41",
+            "0.043",
+            "+1.17",
+            "0.558"
+          ]
+        },
+        {
+          "source_line": 588,
+          "cells": [
+            "Seed 20260920",
+            "+0.066",
+            "0.136",
+            "+0.299",
+            "<0.001",
+            "−0.027",
+            "0.785",
+            "+16.10",
+            "0.040",
+            "+0.43",
+            "0.801"
+          ]
+        },
+        {
+          "source_line": 589,
+          "cells": [
+            "Seed 20260921",
+            "−0.214",
+            "<0.001",
+            "−0.017",
+            "0.705",
+            "−0.492",
+            "<0.001",
+            "+9.80",
+            "0.093",
+            "−1.61",
+            "0.465"
+          ]
+        },
+        {
+          "source_line": 590,
+          "cells": [
+            "Seed-averaged forecast",
+            "−0.143",
+            "<0.001",
+            "−0.004",
+            "0.838",
+            "−0.517",
+            "<0.001",
+            "+12.50",
+            "0.049",
+            "−0.53",
+            "0.757"
+          ]
+        },
+        {
+          "source_line": 591,
+          "cells": [
+            "Squared error",
+            "−0.157",
+            "0.252",
+            "−0.597",
+            "<0.001",
+            "−0.029",
+            "0.876",
+            "+26.22",
+            "0.109",
+            "−3.05",
+            "0.538"
+          ]
+        },
+        {
+          "source_line": 592,
+          "cells": [
+            "First seven notice target days excluded (54 days)",
+            "−0.298",
+            "<0.001",
+            "−0.268",
+            "<0.001",
+            "−0.694",
+            "<0.001",
+            "–",
+            "–",
+            "–",
+            "–"
+          ]
+        },
+        {
+          "source_line": 593,
+          "cells": [
+            "Alternative activity reference with notice-type metadata (Holm *p*)",
+            "−0.129",
+            "0.001",
+            "+0.442",
+            "<0.001",
+            "−0.476",
+            "<0.001",
+            "–",
+            "–",
+            "–",
+            "–"
+          ]
+        },
+        {
+          "source_line": 594,
+          "cells": [
+            "Day-first date parsing (main estimates); availability at $a_0$ or 5, 15 or 60 min later (Holm *p*)",
+            "−0.309 to −0.303",
+            "<0.001",
+            "−0.285 to −0.284",
+            "<0.001",
+            "−0.750 to −0.746",
+            "<0.001",
+            "–",
+            "–",
+            "–",
+            "–"
+          ]
+        },
+        {
+          "source_line": 595,
+          "cells": [
+            "Month-first date parsing; availability at $a_0$ or 5, 15 or 60 min later (Holm *p*)",
+            "−0.309 to −0.303",
+            "<0.001",
+            "−0.285 to −0.284",
+            "<0.001",
+            "−0.750 to −0.746",
+            "<0.001",
+            "–",
+            "–",
+            "–",
+            "–"
+          ]
+        },
+        {
+          "source_line": 596,
+          "cells": [
+            "Extended news window, 1 March–30 September 2026 (214 days)",
+            "–",
+            "–",
+            "–",
+            "–",
+            "–",
+            "–",
+            "+8.46",
+            "0.035",
+            "+2.14",
+            "0.168"
+          ]
+        }
+      ]
+    },
+    "D2": {
+      "caption": "**Table D2.** Activity steps and sign reversals by seed. Activity step: ΔMAE (%) of the activity reference against the no-text model, with the nominal DM *p* in parentheses. Reversals: LLM representations whose net change and representation step have opposite signs.",
+      "caption_line": 600,
+      "columns": [
+        "",
+        "Seed 20260919",
+        "Seed 20260920",
+        "Seed 20260921",
+        "Seed-averaged"
+      ],
+      "rows": [
+        {
+          "source_line": 605,
+          "cells": [
+            "Activity step",
+            "+0.546 (<0.001)",
+            "+0.109 (0.348)",
+            "+0.065 (0.604)",
+            "+0.224 (0.050)"
+          ]
+        },
+        {
+          "source_line": 606,
+          "cells": [
+            "Reversals",
+            "Event states, Overlap components",
+            "Archive embeddings",
+            "Overlap components",
+            "Event states, Overlap components"
+          ]
+        },
+        {
+          "source_line": 608,
+          "cells": [
+            "Activity step",
+            "+0.234 (<0.001)",
+            "+0.056 (0.210)",
+            "−0.009 (0.852)",
+            "+0.081 (0.003)"
+          ]
+        },
+        {
+          "source_line": 609,
+          "cells": [
+            "Reversals",
+            "Event states, Overlap components, Archive embeddings",
+            "None",
+            "None",
+            "None"
+          ]
+        },
+        {
+          "source_line": 611,
+          "cells": [
+            "Activity step",
+            "+0.195 (<0.001)",
+            "+0.440 (<0.001)",
+            "−0.266 (<0.001)",
+            "+0.107 (<0.001)"
+          ]
+        },
+        {
+          "source_line": 612,
+          "cells": [
+            "Reversals",
+            "None",
+            "Event states, Overlap components, Archive embeddings",
+            "None",
+            "None"
+          ]
+        },
+        {
+          "source_line": 614,
+          "cells": [
+            "Activity step",
+            "−3.58 (0.017)",
+            "−4.45 (<0.001)",
+            "−1.24 (0.368)",
+            "−3.03 (0.004)"
+          ]
+        },
+        {
+          "source_line": 615,
+          "cells": [
+            "Reversals",
+            "Embeddings",
+            "Embeddings",
+            "None",
+            "None"
+          ]
+        }
+      ]
+    },
+    "D3": {
+      "caption": "**Table D3.** P5MIN extension (notices) and the news representations against LEAR.",
+      "caption_line": 621,
+      "columns": [
+        "Comparison",
+        "ΔMAE (%)",
+        "ΔMAE (AUD/MWh)",
+        "DM *p*"
+      ],
+      "rows": [
+        {
+          "source_line": 626,
+          "cells": [
+            "(LightGBM + P5MIN) vs no-text model",
+            "−3.233",
+            "−0.304",
+            "<0.001"
+          ]
+        },
+        {
+          "source_line": 627,
+          "cells": [
+            "(LightGBM + P5MIN + activity) vs no-text model",
+            "−3.839",
+            "−0.361",
+            "<0.001"
+          ]
+        },
+        {
+          "source_line": 628,
+          "cells": [
+            "(LightGBM + P5MIN + activity + Event states) vs no-text model",
+            "−3.993",
+            "−0.376",
+            "<0.001"
+          ]
+        },
+        {
+          "source_line": 629,
+          "cells": [
+            "(LightGBM + P5MIN + activity + Event states) vs (LightGBM + P5MIN)",
+            "−0.785",
+            "−0.072",
+            "<0.001"
+          ]
+        },
+        {
+          "source_line": 630,
+          "cells": [
+            "(LightGBM + P5MIN + activity + Event states) vs (LightGBM + P5MIN + activity)",
+            "−0.160",
+            "−0.014",
+            "0.002"
+          ]
+        },
+        {
+          "source_line": 631,
+          "cells": [
+            "(LightGBM + P5MIN + activity + Event states) vs time-shifted placebo (38 days, 24 August–30 September)",
+            "+0.263",
+            "+0.024",
+            "<0.001"
+          ]
+        },
+        {
+          "source_line": 633,
+          "cells": [
+            "Fields vs LEAR",
+            "+37.97",
+            "+7.34",
+            "<0.001"
+          ]
+        },
+        {
+          "source_line": 634,
+          "cells": [
+            "Embeddings vs LEAR",
+            "+25.29",
+            "+4.89",
+            "<0.001"
+          ]
+        }
+      ]
+    }
+  },
+  "supplement_source": "configs/extraction/supplementary_details.md",
+  "supplement_sha256": "eba25ac241ed603b9ff5232591ba2d1a0c2bb2468f430561dc8ee8e171ae5576",
+  "supplement_tables": {
+    "S1": {
+      "caption": "**Table S1.** Seven-day block-bootstrap intervals for Table 4 (seed-averaged forecasts): change in MAE (%) with its 95% interval in brackets; negative values favour the model with more inputs.",
+      "caption_line": 109,
+      "columns": [
+        "Representation",
+        "Activity reference",
+        "Activity step (M vs N)",
+        "Representation step (L vs M)",
+        "Net change (L vs N)"
+      ],
+      "rows": [
+        {
+          "source_line": 114,
+          "cells": [
+            "Event states",
+            "Original",
+            "+0.224 [+0.003 to +0.437]",
+            "-0.143 [-0.205 to -0.097]",
+            "+0.081 [-0.167 to +0.306]"
+          ]
+        },
+        {
+          "source_line": 115,
+          "cells": [
+            "",
+            "Seven-day window",
+            "+0.081 [+0.014 to +0.136]",
+            "-0.141 [-0.180 to -0.071]",
+            "-0.060 [-0.118 to +0.006]"
+          ]
+        },
+        {
+          "source_line": 116,
+          "cells": [
+            "",
+            "24-hour window",
+            "+0.107 [+0.071 to +0.136]",
+            "-0.212 [-0.259 to -0.159]",
+            "-0.106 [-0.150 to -0.056]"
+          ]
+        },
+        {
+          "source_line": 117,
+          "cells": [
+            "Overlap components",
+            "Original",
+            "+0.224 [+0.003 to +0.437]",
+            "-0.004 [-0.062 to +0.036]",
+            "+0.219 [-0.029 to +0.445]"
+          ]
+        },
+        {
+          "source_line": 118,
+          "cells": [
+            "",
+            "Seven-day window",
+            "+0.081 [+0.014 to +0.136]",
+            "+0.047 [-0.032 to +0.129]",
+            "+0.128 [+0.044 to +0.196]"
+          ]
+        },
+        {
+          "source_line": 119,
+          "cells": [
+            "",
+            "24-hour window",
+            "+0.107 [+0.071 to +0.136]",
+            "+0.017 [-0.057 to +0.079]",
+            "+0.124 [+0.048 to +0.183]"
+          ]
+        },
+        {
+          "source_line": 120,
+          "cells": [
+            "Archive embeddings",
+            "Original",
+            "+0.224 [+0.003 to +0.437]",
+            "-0.517 [-0.652 to -0.315]",
+            "-0.295 [-0.487 to -0.035]"
+          ]
+        },
+        {
+          "source_line": 121,
+          "cells": [
+            "",
+            "Seven-day window",
+            "+0.081 [+0.014 to +0.136]",
+            "-0.521 [-0.787 to -0.158]",
+            "-0.440 [-0.750 to -0.036]"
+          ]
+        },
+        {
+          "source_line": 122,
+          "cells": [
+            "",
+            "24-hour window",
+            "+0.107 [+0.071 to +0.136]",
+            "-0.448 [-0.627 to -0.211]",
+            "-0.342 [-0.536 to -0.092]"
+          ]
+        },
+        {
+          "source_line": 124,
+          "cells": [
+            "Fields",
+            "72-hour counts",
+            "-3.03 [-5.28 to -1.04]",
+            "+12.50 [-0.73 to +34.64]",
+            "+9.09 [-3.95 to +30.11]"
+          ]
+        },
+        {
+          "source_line": 125,
+          "cells": [
+            "Embeddings",
+            "72-hour counts",
+            "-3.03 [-5.28 to -1.04]",
+            "-0.53 [-4.09 to +2.96]",
+            "-3.55 [-7.60 to +0.34]"
+          ]
+        }
+      ]
+    },
+    "S2": {
+      "caption": "**Table S2.** Representation step (L vs M) and net change (L vs N) at each seed: change in MAE (%) with the nominal two-sided DM p in parentheses. Table D2 of the paper gives the activity steps at each seed.",
+      "caption_line": 127,
+      "columns": [
+        "Representation",
+        "Activity reference",
+        "Step",
+        "Seed 20260919",
+        "Seed 20260920",
+        "Seed 20260921"
+      ],
+      "rows": [
+        {
+          "source_line": 132,
+          "cells": [
+            "Event states",
+            "Original",
+            "L vs M",
+            "-0.303 (<0.001)",
+            "+0.066 (0.136)",
+            "-0.214 (<0.001)"
+          ]
+        },
+        {
+          "source_line": 133,
+          "cells": [
+            "",
+            "",
+            "L vs N",
+            "+0.242 (0.037)",
+            "+0.175 (0.141)",
+            "-0.149 (0.285)"
+          ]
+        },
+        {
+          "source_line": 134,
+          "cells": [
+            "",
+            "Seven-day window",
+            "L vs M",
+            "-0.063 (0.084)",
+            "-0.146 (0.001)",
+            "-0.241 (<0.001)"
+          ]
+        },
+        {
+          "source_line": 135,
+          "cells": [
+            "",
+            "",
+            "L vs N",
+            "+0.170 (<0.001)",
+            "-0.090 (0.032)",
+            "-0.250 (<0.001)"
+          ]
+        },
+        {
+          "source_line": 136,
+          "cells": [
+            "",
+            "24-hour window",
+            "L vs M",
+            "-0.221 (<0.001)",
+            "-0.349 (<0.001)",
+            "-0.117 (0.003)"
+          ]
+        },
+        {
+          "source_line": 137,
+          "cells": [
+            "",
+            "",
+            "L vs N",
+            "-0.026 (0.433)",
+            "+0.089 (0.046)",
+            "-0.383 (<0.001)"
+          ]
+        },
+        {
+          "source_line": 138,
+          "cells": [
+            "Overlap components",
+            "Original",
+            "L vs M",
+            "-0.284 (<0.001)",
+            "+0.299 (<0.001)",
+            "-0.017 (0.705)"
+          ]
+        },
+        {
+          "source_line": 139,
+          "cells": [
+            "",
+            "",
+            "L vs N",
+            "+0.260 (0.012)",
+            "+0.408 (0.003)",
+            "+0.049 (0.716)"
+          ]
+        },
+        {
+          "source_line": 140,
+          "cells": [
+            "",
+            "Seven-day window",
+            "L vs M",
+            "-0.041 (0.493)",
+            "+0.063 (0.129)",
+            "+0.090 (0.030)"
+          ]
+        },
+        {
+          "source_line": 141,
+          "cells": [
+            "",
+            "",
+            "L vs N",
+            "+0.192 (<0.001)",
+            "+0.119 (0.002)",
+            "+0.081 (0.066)"
+          ]
+        },
+        {
+          "source_line": 142,
+          "cells": [
+            "",
+            "24-hour window",
+            "L vs M",
+            "-0.285 (<0.001)",
+            "-0.072 (0.093)",
+            "+0.395 (<0.001)"
+          ]
+        },
+        {
+          "source_line": 143,
+          "cells": [
+            "",
+            "",
+            "L vs N",
+            "-0.091 (0.019)",
+            "+0.367 (<0.001)",
+            "+0.128 (0.004)"
+          ]
+        },
+        {
+          "source_line": 144,
+          "cells": [
+            "Archive embeddings",
+            "Original",
+            "L vs M",
+            "-0.747 (<0.001)",
+            "-0.027 (0.785)",
+            "-0.492 (<0.001)"
+          ]
+        },
+        {
+          "source_line": 145,
+          "cells": [
+            "",
+            "",
+            "L vs N",
+            "-0.205 (0.041)",
+            "+0.082 (0.619)",
+            "-0.427 (0.010)"
+          ]
+        },
+        {
+          "source_line": 146,
+          "cells": [
+            "",
+            "Seven-day window",
+            "L vs M",
+            "-0.124 (0.512)",
+            "-0.419 (0.009)",
+            "-0.882 (<0.001)"
+          ]
+        },
+        {
+          "source_line": 147,
+          "cells": [
+            "",
+            "",
+            "L vs N",
+            "+0.109 (0.559)",
+            "-0.363 (0.034)",
+            "-0.891 (<0.001)"
+          ]
+        },
+        {
+          "source_line": 148,
+          "cells": [
+            "",
+            "24-hour window",
+            "L vs M",
+            "-0.588 (<0.001)",
+            "-0.357 (0.023)",
+            "-0.321 (0.004)"
+          ]
+        },
+        {
+          "source_line": 149,
+          "cells": [
+            "",
+            "",
+            "L vs N",
+            "-0.394 (<0.001)",
+            "+0.081 (0.575)",
+            "-0.586 (<0.001)"
+          ]
+        },
+        {
+          "source_line": 151,
+          "cells": [
+            "Fields",
+            "72-hour counts",
+            "L vs M",
+            "+11.41 (0.043)",
+            "+16.10 (0.040)",
+            "+9.80 (0.093)"
+          ]
+        },
+        {
+          "source_line": 152,
+          "cells": [
+            "",
+            "",
+            "L vs N",
+            "+7.43 (0.204)",
+            "+10.94 (0.146)",
+            "+8.43 (0.144)"
+          ]
+        },
+        {
+          "source_line": 153,
+          "cells": [
+            "Embeddings",
+            "72-hour counts",
+            "L vs M",
+            "+1.17 (0.558)",
+            "+0.43 (0.801)",
+            "-1.61 (0.465)"
+          ]
+        },
+        {
+          "source_line": 154,
+          "cells": [
+            "",
+            "",
+            "L vs N",
+            "-2.45 (0.305)",
+            "-4.03 (0.034)",
+            "-2.84 (0.176)"
+          ]
+        }
+      ]
+    }
+  },
+  "posthoc_text_numbers": [
+    {
+      "label": "paper/line5",
+      "source_line": 5,
+      "text": "Large language models (LLMs) can turn market notices and news into features for electricity price forecasting. Such features also record when documents arrive and whether their extraction failed, so a gain measured against a model without text can reflect document activity as well as content. We add the counts of the same documents and of their failed extractions to a no-text LightGBM model and measure each LLM representation against this activity reference, which needs no additional LLM requests. With gpt-6-luna as the extractor, we forecast Australian electricity prices from operator notices (5–30 minutes ahead) and WattClarity news (day-ahead) after the extractor's documented knowledge cutoff, averaging forecasts over three training seeds. For news, the counts alone lower mean absolute error (MAE) by 3.0%, most of the 3.6% reduction that the better LLM representation achieves relative to the no-text model; its increment beyond the counts is not significant. For notices, two of the three LLM representations lower MAE beyond the counts, by 0.14–0.21% and 0.45–0.52%, whether the counts are cumulative or cover recent windows; the third shows no significant reduction. Time-shifted placebos give mixed evidence on whether these gains require text aligned with the target. Benchmarks using the operator's pre-dispatch forecasts (notices) or price history alone (news) are more accurate than all these text models. Gains against the no-text model and the activity reference differ in sign at individual seeds and, for notices with cumulative counts, in seed-averaged forecasts. Text gains should be reported against both references.",
+      "bindings": [
+        [
+          "comparison",
+          "a1",
+          "news",
+          "L_count",
+          "activity",
+          "mean",
+          "delta_percent",
+          true
+        ],
+        [
+          "comparison",
+          "a1",
+          "news",
+          "L_chen",
+          "net",
+          "mean",
+          "delta_percent",
+          true
+        ],
+        [
+          "representation_range",
+          "L14",
+          "min"
+        ],
+        [
+          "representation_range",
+          "L14",
+          "max"
+        ],
+        [
+          "representation_range",
+          "L_chen_notice",
+          "min"
+        ],
+        [
+          "representation_range",
+          "L_chen_notice",
+          "max"
+        ]
+      ],
+      "source": "paper"
+    },
+    {
+      "label": "paper/line23",
+      "source_line": 23,
+      "text": "The document counts alone achieve most of the news gain. With forecasts averaged over the three seeds, adding the article and failed-extraction counts to the no-text model lowers the mean absolute error (MAE) by 3.03%. The Embeddings model lowers MAE by 3.55% relative to the no-text model and by 0.53% relative to the activity reference, a reduction that is not significant. The Fields model raises MAE (Section 6.1).",
+      "bindings": [
+        [
+          "comparison",
+          "a1",
+          "news",
+          "L_count",
+          "activity",
+          "mean",
+          "delta_percent",
+          true
+        ],
+        [
+          "comparison",
+          "a1",
+          "news",
+          "L_chen",
+          "net",
+          "mean",
+          "delta_percent",
+          true
+        ],
+        [
+          "comparison",
+          "a1",
+          "news",
+          "L_chen",
+          "representation",
+          "mean",
+          "delta_percent",
+          true
+        ],
+        null
+      ],
+      "source": "paper"
+    },
+    {
+      "label": "paper/line25",
+      "source_line": 25,
+      "text": "Beyond the activity features, two of the three LLM notice representations lower MAE slightly. With seed-averaged forecasts, Event states and Archive embeddings lower MAE by 0.14% and 0.52% relative to the activity reference, and Overlap components does not significantly lower it. These steps are similar when the two cumulative counts of the notice reference are replaced by counts over the past seven days or 24 hours (Sections 4.2 and 6.1). At a single seed, the Archive embeddings model is more accurate than its time-shifted placebo with the original reference but not with the seven-day reference. At that seed, rule-parser and word-frequency representations of the notices give reductions within the range of the LLM representations (Section 6.2).",
+      "bindings": [
+        [
+          "comparison",
+          "a1",
+          "notice",
+          "L14",
+          "representation",
+          "mean",
+          "delta_percent",
+          true
+        ],
+        [
+          "comparison",
+          "a1",
+          "notice",
+          "L_chen_notice",
+          "representation",
+          "mean",
+          "delta_percent",
+          true
+        ],
+        null,
+        null,
+        null
+      ],
+      "source": "paper"
+    },
+    {
+      "label": "paper/line209",
+      "source_line": 209,
+      "text": "For news, the activity step makes up most of the net change of the Embeddings model (Table 4, Figure 3(b)). The article and failed-extraction counts lower MAE by 3.03% (*p* = 0.004; seven-day block interval −5.28% to −1.04%). The Embeddings model lowers MAE by 3.55% relative to the no-text model (*p* = 0.049; seven-day block interval −7.60% to +0.34%) and by 0.53% relative to the activity reference (*p* = 0.757). The Fields model raises MAE by 12.50% relative to the activity reference (nominal *p* = 0.049).",
+      "bindings": [
+        [
+          "comparison",
+          "a1",
+          "news",
+          "L_count",
+          "activity",
+          "mean",
+          "delta_percent",
+          true
+        ],
+        [
+          "comparison",
+          "a1",
+          "news",
+          "L_count",
+          "activity",
+          "mean",
+          "p_nominal",
+          true
+        ],
+        [
+          "comparison",
+          "a1",
+          "news",
+          "L_count",
+          "activity",
+          "mean",
+          "interval95_low_percent",
+          false
+        ],
+        [
+          "comparison",
+          "a1",
+          "news",
+          "L_count",
+          "activity",
+          "mean",
+          "interval95_high_percent",
+          false
+        ],
+        [
+          "comparison",
+          "a1",
+          "news",
+          "L_chen",
+          "net",
+          "mean",
+          "delta_percent",
+          true
+        ],
+        [
+          "comparison",
+          "a1",
+          "news",
+          "L_chen",
+          "net",
+          "mean",
+          "p_nominal",
+          true
+        ],
+        [
+          "comparison",
+          "a1",
+          "news",
+          "L_chen",
+          "net",
+          "mean",
+          "interval95_low_percent",
+          false
+        ],
+        [
+          "comparison",
+          "a1",
+          "news",
+          "L_chen",
+          "net",
+          "mean",
+          "interval95_high_percent",
+          false
+        ],
+        [
+          "comparison",
+          "a1",
+          "news",
+          "L_chen",
+          "representation",
+          "mean",
+          "delta_percent",
+          true
+        ],
+        [
+          "comparison",
+          "a1",
+          "news",
+          "L_chen",
+          "representation",
+          "mean",
+          "p_nominal",
+          true
+        ],
+        [
+          "comparison",
+          "a1",
+          "news",
+          "L_count",
+          "representation",
+          "mean",
+          "delta_percent",
+          true
+        ],
+        [
+          "comparison",
+          "a1",
+          "news",
+          "L_count",
+          "representation",
+          "mean",
+          "p_nominal",
+          true
+        ]
+      ],
+      "source": "paper"
+    },
+    {
+      "label": "paper/line211",
+      "source_line": 211,
+      "text": "Two of the three LLM notice representations add small gains beyond activity under every notice reference (Table 4, Figure 3(a)). Against the original reference, Event states and Archive embeddings lower MAE by 0.143% and 0.517% (both *p* < 0.001), and Overlap components leaves it unchanged (−0.004%, *p* = 0.838). Against the seven-day reference, the reductions are 0.141% and 0.521% (Holm *p* < 0.001 and 0.004), and Overlap components raises MAE by 0.047% (*p* = 0.074); the 24-hour reference gives reductions of 0.212% and 0.448% and a change of +0.017%. In AUD/MWh, the reductions of Event states and Archive embeddings are 0.01–0.05.",
+      "bindings": [
+        [
+          "comparison",
+          "a1",
+          "notice",
+          "L14",
+          "representation",
+          "mean",
+          "delta_percent",
+          true
+        ],
+        [
+          "comparison",
+          "a1",
+          "notice",
+          "L_chen_notice",
+          "representation",
+          "mean",
+          "delta_percent",
+          true
+        ],
+        [
+          "comparison",
+          "a1",
+          "notice",
+          "L14",
+          "representation",
+          "mean",
+          "p_nominal",
+          true
+        ],
+        [
+          "comparison",
+          "a1",
+          "notice",
+          "L_Laz",
+          "representation",
+          "mean",
+          "delta_percent",
+          false
+        ],
+        [
+          "comparison",
+          "a1",
+          "notice",
+          "L_Laz",
+          "representation",
+          "mean",
+          "p_nominal",
+          true
+        ],
+        [
+          "comparison",
+          "a2_w7",
+          "notice",
+          "L14",
+          "representation",
+          "mean",
+          "delta_percent",
+          true
+        ],
+        [
+          "comparison",
+          "a2_w7",
+          "notice",
+          "L_chen_notice",
+          "representation",
+          "mean",
+          "delta_percent",
+          true
+        ],
+        [
+          "holm",
+          "L14"
+        ],
+        [
+          "holm",
+          "L_chen_notice"
+        ],
+        [
+          "comparison",
+          "a2_w7",
+          "notice",
+          "L_Laz",
+          "representation",
+          "mean",
+          "delta_percent",
+          true
+        ],
+        [
+          "comparison",
+          "a2_w7",
+          "notice",
+          "L_Laz",
+          "representation",
+          "mean",
+          "p_nominal",
+          true
+        ],
+        [
+          "comparison",
+          "a2_w24",
+          "notice",
+          "L14",
+          "representation",
+          "mean",
+          "delta_percent",
+          true
+        ],
+        [
+          "comparison",
+          "a2_w24",
+          "notice",
+          "L_chen_notice",
+          "representation",
+          "mean",
+          "delta_percent",
+          true
+        ],
+        [
+          "comparison",
+          "a2_w24",
+          "notice",
+          "L_Laz",
+          "representation",
+          "mean",
+          "delta_percent",
+          true
+        ],
+        [
+          "comparison",
+          "a1",
+          "notice",
+          "L14",
+          "representation",
+          "mean",
+          "delta_mae",
+          true
+        ],
+        [
+          "comparison",
+          "a1",
+          "notice",
+          "L_chen_notice",
+          "representation",
+          "mean",
+          "delta_mae",
+          true
+        ]
+      ],
+      "source": "paper"
+    },
+    {
+      "label": "paper/line213",
+      "source_line": 213,
+      "text": "The notice activity step shrinks when the cumulative counts are removed. The original notice counts raise MAE by 0.224% (*p* = 0.050), the seven-day counts by 0.081% (*p* = 0.003) and the 24-hour counts by 0.107% (*p* < 0.001). At seed 20260919, the original counts raise MAE by 0.546% (Table 5) and the seven-day counts by 0.234%.",
+      "bindings": [
+        [
+          "comparison",
+          "a1",
+          "notice",
+          "L14",
+          "activity",
+          "mean",
+          "delta_percent",
+          true
+        ],
+        [
+          "comparison",
+          "a1",
+          "notice",
+          "L14",
+          "activity",
+          "mean",
+          "p_nominal",
+          true
+        ],
+        [
+          "comparison",
+          "a2_w7",
+          "notice",
+          "L14",
+          "activity",
+          "mean",
+          "delta_percent",
+          true
+        ],
+        [
+          "comparison",
+          "a2_w7",
+          "notice",
+          "L14",
+          "activity",
+          "mean",
+          "p_nominal",
+          true
+        ],
+        [
+          "comparison",
+          "a2_w24",
+          "notice",
+          "L14",
+          "activity",
+          "mean",
+          "delta_percent",
+          true
+        ],
+        [
+          "comparison",
+          "a2_w24",
+          "notice",
+          "L14",
+          "activity",
+          "mean",
+          "p_nominal",
+          true
+        ],
+        [
+          "comparison",
+          "a1",
+          "notice",
+          "L14",
+          "activity",
+          "20260919",
+          "delta_percent",
+          true
+        ],
+        [
+          "comparison",
+          "a2_w7",
+          "notice",
+          "L14",
+          "activity",
+          "20260919",
+          "delta_percent",
+          true
+        ]
+      ],
+      "source": "paper"
+    },
+    {
+      "label": "paper/line243",
+      "source_line": 243,
+      "text": "Of the three LLM representations, only the Archive embeddings model has a lower MAE than the no-text model, by 0.205%. The activity features raise MAE by 0.55%; the Event states and Overlap components models recover about half of this increase but remain 0.24% and 0.26% above the no-text model. Against the no-text model, the nominal DM p-values are 0.037, 0.012 and 0.041 for Event states, Overlap components and Archive embeddings, and all three seven-day block-bootstrap intervals include zero (Supplement D.1).",
+      "bindings": [
+        [
+          "comparison",
+          "a1",
+          "notice",
+          "L_chen_notice",
+          "net",
+          "20260919",
+          "delta_percent",
+          true
+        ],
+        [
+          "comparison",
+          "a1",
+          "notice",
+          "L14",
+          "activity",
+          "20260919",
+          "delta_percent",
+          true
+        ],
+        [
+          "comparison",
+          "a1",
+          "notice",
+          "L14",
+          "net",
+          "20260919",
+          "delta_percent",
+          true
+        ],
+        [
+          "comparison",
+          "a1",
+          "notice",
+          "L_Laz",
+          "net",
+          "20260919",
+          "delta_percent",
+          true
+        ],
+        [
+          "comparison",
+          "a1",
+          "notice",
+          "L14",
+          "net",
+          "20260919",
+          "p_nominal",
+          true
+        ],
+        [
+          "comparison",
+          "a1",
+          "notice",
+          "L_Laz",
+          "net",
+          "20260919",
+          "p_nominal",
+          true
+        ],
+        [
+          "comparison",
+          "a1",
+          "notice",
+          "L_chen_notice",
+          "net",
+          "20260919",
+          "p_nominal",
+          true
+        ]
+      ],
+      "source": "paper"
+    },
+    {
+      "label": "paper/line245",
+      "source_line": 245,
+      "text": "Whether the Archive embeddings model is more accurate than its time-shifted placebo depends on the activity reference. On the 38 placebo days and with the original reference, it has a 0.745% lower MAE than its placebo. The time-shifted Archive embeddings model has a 0.39% higher MAE than the time-shifted activity reference, and both differences are significant (Table 5). With the seven-day reference, the Archive embeddings model has a 0.04% higher MAE than its placebo (*p* = 0.726). In a descriptive comparison on these days, the original, unshifted activity reference has a 0.18% higher MAE than its time-shifted placebo (Appendix D.2).",
+      "bindings": [
+        [
+          "legacy",
+          "L_chen_notice",
+          "P_shift",
+          "effect_percent_reference_mae",
+          true
+        ],
+        [
+          "legacy",
+          "P_shift",
+          "M_shift_notice",
+          "effect_percent_reference_mae",
+          true
+        ],
+        [
+          "placebo",
+          "unshifted_vs_shifted_archive",
+          "delta_percent",
+          true
+        ],
+        [
+          "placebo",
+          "unshifted_vs_shifted_archive",
+          "p_nominal",
+          true
+        ],
+        [
+          "legacy",
+          "M_notice",
+          "M_shift_notice",
+          "effect_percent_reference_mae",
+          true
+        ]
+      ],
+      "source": "paper"
+    },
+    {
+      "label": "paper/line324",
+      "source_line": 324,
+      "text": "In the news task, the article and failed-extraction counts alone achieve 3.03 of the 3.55 percentage points by which the Embeddings model improves on the no-text model, and the content adds no significant gain beyond them. Published text gains for NEM prices are measured against no-text models (Table 1) and leave this activity step unmeasured. As in macroeconomic forecasting, where simple text metrics add less as the numerical benchmark becomes richer (Kalamara et al., 2022), the news text gain shrinks once the reference contains the document counts.",
+      "bindings": [
+        [
+          "comparison",
+          "a1",
+          "news",
+          "L_count",
+          "activity",
+          "mean",
+          "delta_percent",
+          true
+        ],
+        [
+          "comparison",
+          "a1",
+          "news",
+          "L_chen",
+          "net",
+          "mean",
+          "delta_percent",
+          true
+        ]
+      ],
+      "source": "paper"
+    },
+    {
+      "label": "paper/line326",
+      "source_line": 326,
+      "text": "How the notices are counted changes the notice activity step. With seed-averaged forecasts, the original counts, two of which act as a time index, raise MAE by 0.224%, and counts over a recent window raise it by 0.081–0.107%; the representation steps of Event states and Archive embeddings are reductions of 0.14–0.21% and 0.45–0.52% under all three references. A reversal occurs when the activity and representation steps have opposite signs and the activity step has the larger absolute value in AUD/MWh. For notices, both steps are a few tenths of a percent, so the training seed can decide which is larger.",
+      "bindings": [
+        [
+          "comparison",
+          "a1",
+          "notice",
+          "L14",
+          "activity",
+          "mean",
+          "delta_percent",
+          true
+        ],
+        [
+          "comparison",
+          "a2_w7",
+          "notice",
+          "L14",
+          "activity",
+          "mean",
+          "delta_percent",
+          true
+        ],
+        [
+          "comparison",
+          "a2_w24",
+          "notice",
+          "L14",
+          "activity",
+          "mean",
+          "delta_percent",
+          true
+        ],
+        [
+          "representation_range",
+          "L14",
+          "min"
+        ],
+        [
+          "representation_range",
+          "L14",
+          "max"
+        ],
+        [
+          "representation_range",
+          "L_chen_notice",
+          "min"
+        ],
+        [
+          "representation_range",
+          "L_chen_notice",
+          "max"
+        ]
+      ],
+      "source": "paper"
+    },
+    {
+      "label": "paper/line330",
+      "source_line": 328,
+      "text": "With seed-averaged forecasts and the seven-day reference, the Archive embeddings model is more accurate than both the no-text model (−0.44%) and the activity reference (−0.52%). The time-shifted placebos give mixed evidence on whether such gains depend on content aligned with the target. At seed 20260919, the Archive embeddings model has a lower MAE than its time-shifted placebo with the original reference (−0.745%) and a higher MAE with the seven-day reference (+0.04%); the archive embedding changes slowly and could act partly as a time index, and embeddings of recent notices alone were not tested. At the same seed, adding the notice activity features and then Event states to the stronger LightGBM + P5MIN benchmark lowers MAE at each step (Section 6.2), and the resulting model is less accurate than its time-shifted placebo.",
+      "bindings": [
+        [
+          "comparison",
+          "a2_w7",
+          "notice",
+          "L_chen_notice",
+          "net",
+          "mean",
+          "delta_percent",
+          false
+        ],
+        [
+          "comparison",
+          "a2_w7",
+          "notice",
+          "L_chen_notice",
+          "representation",
+          "mean",
+          "delta_percent",
+          false
+        ],
+        [
+          "legacy",
+          "L_chen_notice",
+          "P_shift",
+          "effect_percent_reference_mae",
+          false
+        ],
+        [
+          "placebo",
+          "unshifted_vs_shifted_archive",
+          "delta_percent",
+          true
+        ],
+        null
+      ],
+      "source": "paper"
+    },
+    {
+      "label": "paper/line342",
+      "source_line": 340,
+      "text": "This paper proposes an activity reference for evaluating LLM-derived text features, which adds counts of the same available documents and of their failed extractions to the no-text model and needs no additional LLM requests. We apply it to price forecasts for Australia's National Electricity Market issued after the extractor's documented knowledge cutoff, averaging the forecasts of the no-text model, the activity references and the LLM representation models over three training seeds. The reference splits each gain over the no-text model into an activity step and a representation step. For WattClarity news, the counts lower MAE by 3.0%, most of the 3.6% gain of the better LLM representation, and neither LLM representation improves significantly on the activity reference.",
+      "bindings": [
+        [
+          "comparison",
+          "a1",
+          "news",
+          "L_count",
+          "activity",
+          "mean",
+          "delta_percent",
+          true
+        ],
+        [
+          "comparison",
+          "a1",
+          "news",
+          "L_chen",
+          "net",
+          "mean",
+          "delta_percent",
+          true
+        ]
+      ],
+      "source": "paper"
+    },
+    {
+      "label": "paper/line344",
+      "source_line": 342,
+      "text": "For AEMO market notices, Event states and Archive embeddings lower MAE beyond the activity features by 0.14–0.21% and 0.45–0.52% with the original and the windowed references, and Overlap components shows no significant reduction. At a single seed, rule-parser and word-frequency representations of the same notices, which need no LLM, give reductions within the range of the LLM representations. At that seed and with the seven-day reference, the Archive embeddings model is no more accurate than its time-shifted placebo. In both tasks, the benchmark is more accurate than every text model built on the no-text model.",
+      "bindings": [
+        [
+          "representation_range",
+          "L14",
+          "min"
+        ],
+        [
+          "representation_range",
+          "L14",
+          "max"
+        ],
+        [
+          "representation_range",
+          "L_chen_notice",
+          "min"
+        ],
+        [
+          "representation_range",
+          "L_chen_notice",
+          "max"
+        ]
+      ],
+      "source": "paper"
+    },
+    {
+      "label": "supplement/line99",
+      "source_line": 99,
+      "text": "In the seed-averaged forecasts, sign reversals occur only with the original notice reference, for Event states and Overlap components, and not under the seven-day or 24-hour reference; the news reversal occurs only at seeds 20260919 and 20260920. With seed-averaged forecasts and the seven-day reference, the representation steps of Event states and Archive embeddings are negative with Holm-adjusted p below 0.05 across the three notice representations, and that of Overlap components is not significant (Holm p = 0.074).",
+      "bindings": [
+        [
+          "rule_threshold",
+          0.05
+        ],
+        [
+          "holm",
+          "L_Laz"
+        ]
+      ],
+      "source": "supplement"
+    },
+    {
+      "label": "supplement/line105",
+      "source_line": 103,
+      "text": "On these days, the Archive embeddings model with the seven-day reference has a 0.044% higher MAE than its time-shifted placebo (p = 0.726; 95% seven-day block interval -0.202% to 0.282%). When both are rebuilt from the notices available 28 days before the issue, the Archive embeddings model has a 0.219% higher MAE than the seven-day reference (p = 0.099; 95% seven-day block interval 0.022% to 0.321%).",
+      "bindings": [
+        [
+          "placebo",
+          "unshifted_vs_shifted_archive",
+          "delta_percent",
+          true
+        ],
+        [
+          "placebo",
+          "unshifted_vs_shifted_archive",
+          "p_nominal",
+          true
+        ],
+        [
+          "placebo",
+          "unshifted_vs_shifted_archive",
+          "interval95_low_percent",
+          false
+        ],
+        [
+          "placebo",
+          "unshifted_vs_shifted_archive",
+          "interval95_high_percent",
+          true
+        ],
+        [
+          "placebo",
+          "shifted_archive_vs_shifted_activity",
+          "delta_percent",
+          true
+        ],
+        [
+          "placebo",
+          "shifted_archive_vs_shifted_activity",
+          "p_nominal",
+          true
+        ],
+        [
+          "placebo",
+          "shifted_archive_vs_shifted_activity",
+          "interval95_low_percent",
+          true
+        ],
+        [
+          "placebo",
+          "shifted_archive_vs_shifted_activity",
+          "interval95_high_percent",
+          true
+        ]
+      ],
+      "source": "supplement"
+    },
+    {
+      "label": "supplement/line107",
+      "source_line": 105,
+      "text": "At seed 20260919, the 95% seven-day block intervals of the net change against the no-text model are -0.036% to 0.463% for Event states, -0.012% to 0.449% for Overlap components and -0.370% to 0.010% for Archive embeddings.",
+      "bindings": [
+        [
+          "comparison",
+          "a1",
+          "notice",
+          "L14",
+          "net",
+          "20260919",
+          "interval95_low_percent",
+          false
+        ],
+        [
+          "comparison",
+          "a1",
+          "notice",
+          "L14",
+          "net",
+          "20260919",
+          "interval95_high_percent",
+          true
+        ],
+        [
+          "comparison",
+          "a1",
+          "notice",
+          "L_Laz",
+          "net",
+          "20260919",
+          "interval95_low_percent",
+          false
+        ],
+        [
+          "comparison",
+          "a1",
+          "notice",
+          "L_Laz",
+          "net",
+          "20260919",
+          "interval95_high_percent",
+          true
+        ],
+        [
+          "comparison",
+          "a1",
+          "notice",
+          "L_chen_notice",
+          "net",
+          "20260919",
+          "interval95_low_percent",
+          false
+        ],
+        [
+          "comparison",
+          "a1",
+          "notice",
+          "L_chen_notice",
+          "net",
+          "20260919",
+          "interval95_high_percent",
+          true
+        ]
+      ],
+      "source": "supplement"
+    },
+    {
+      "label": "paper/line328",
+      "source_line": 328,
+      "text": "With seed-averaged forecasts and the seven-day reference, the Archive embeddings model is more accurate than both the no-text model (−0.44%) and the activity reference (−0.52%). The time-shifted placebos give mixed evidence on whether such gains depend on content aligned with the target. At seed 20260919, the Archive embeddings model has a lower MAE than its time-shifted placebo with the original reference (−0.745%) and a higher MAE with the seven-day reference (+0.04%); the archive embedding changes slowly and could act partly as a time index, and embeddings of recent notices alone were not tested. At the same seed, adding the notice activity features and then Event states to the stronger LightGBM + P5MIN benchmark lowers MAE at each step (Section 6.2), and the resulting model is less accurate than its time-shifted placebo.",
+      "bindings": [
+        [
+          "comparison",
+          "a2_w7",
+          "notice",
+          "L_chen_notice",
+          "net",
+          "mean",
+          "delta_percent",
+          false
+        ],
+        [
+          "comparison",
+          "a2_w7",
+          "notice",
+          "L_chen_notice",
+          "representation",
+          "mean",
+          "delta_percent",
+          false
+        ],
+        [
+          "legacy",
+          "L_chen_notice",
+          "P_shift",
+          "effect_percent_reference_mae",
+          false
+        ],
+        [
+          "placebo",
+          "unshifted_vs_shifted_archive",
+          "delta_percent",
+          true
+        ],
+        null
+      ],
+      "source": "paper"
+    },
+    {
+      "label": "supplement/line101",
+      "source_line": 99,
+      "text": "In the seed-averaged forecasts, sign reversals occur only with the original notice reference, for Event states and Overlap components, and not under the seven-day or 24-hour reference; the news reversal occurs only at seeds 20260919 and 20260920. With seed-averaged forecasts and the seven-day reference, the representation steps of Event states and Archive embeddings are negative with Holm-adjusted p below 0.05 across the three notice representations, and that of Overlap components is not significant (Holm p = 0.074).",
+      "bindings": [
+        [
+          "rule_threshold",
+          0.05
+        ],
+        [
+          "holm",
+          "L_Laz"
+        ]
+      ],
+      "source": "supplement"
+    }
+  ],
+  "numerical_precision_checks": {
+    "description": "Additional numerical precision constraints on frozen sensitivity results.",
+    "cells": [
+      {
+        "table": "D1",
+        "row": 6,
+        "column": 2,
+        "cell": "0.0013"
+      },
+      {
+        "table": "D1",
+        "row": 7,
+        "column": 2,
+        "cell": "$<10^{-7}$"
+      },
+      {
+        "table": "D1",
+        "row": 7,
+        "column": 4,
+        "cell": "$<10^{-7}$"
+      },
+      {
+        "table": "D1",
+        "row": 7,
+        "column": 6,
+        "cell": "$<10^{-7}$"
+      },
+      {
+        "table": "D1",
+        "row": 8,
+        "column": 2,
+        "cell": "$<10^{-7}$"
+      },
+      {
+        "table": "D1",
+        "row": 8,
+        "column": 4,
+        "cell": "$<10^{-7}$"
+      },
+      {
+        "table": "D1",
+        "row": 8,
+        "column": 6,
+        "cell": "$<10^{-7}$"
+      },
+      {
+        "table": "D3",
+        "row": 4,
+        "column": 3,
+        "cell": "0.0023"
+      }
+    ]
+  },
+  "date_parsing_sensitivity": {
+    "source": "supplement",
+    "source_lines": [
+      41,
+      43
+    ],
+    "texts": [
+      "The main estimates anchor the DD/MM/YYYY hh:mm:ss timestamps stated inside the 796 evaluation-period notices day first, as AEMO writes them, and a sensitivity analysis anchors them month first. The two readings differ in the Event states features of 29,310, the Overlap components features of 3,456 and the Rule parser features of 17,280 of the 527,040 evaluation forecasts. The training features, the availability times that define the activity counts and the Archive embeddings prefix (Appendix B.2) and the no-text model are the same under both readings, so the same fitted models produce both sets of forecasts.",
+      "Across the availability conditions and the two readings, each of the three main notice comparisons changes by less than 0.01 percentage points, and the representation-versus-activity tests have Holm-adjusted p < 10^-7 in every condition (Table D1). Across all reported comparisons, the month-first reading changes the estimates by at most 0.015 percentage points and changes no sign or Holm decision. The replication package gives every comparison under both readings."
+    ],
+    "feature_rows": {
+      "L14": 29310,
+      "L_Laz": 3456,
+      "R": 17280
+    },
+    "evaluation_rows": 527040,
+    "primary_effect_difference_upper_bound": 0.01,
+    "holm_upper_bound": 1e-07,
+    "all_comparison_maximum_rounded": "0.015",
+    "sign_changes": 0,
+    "holm_decision_changes": 0
+  },
+  "notice_listing_timing": {
+    "result_source": "results/score/export/OFFICIAL_RESULTS.json",
+    "result_pointer": "/rows/341/value/Z",
+    "clock": "a0: time the notice enters the forecasts",
+    "prose": [
+      {
+        "label": "paper/Discussion",
+        "source": "paper",
+        "source_line": 332,
+        "text": "The evidence covers one market and one news source over windows of 61 and 135 days. Notice release times are approximated by a header timestamp. The tested delays extend to 60 minutes, whereas the latest matched listing comes 714 minutes after the notice enters the forecasts (Appendix B.2). The numerical inputs are final stored values available under the timing rules of Appendix B.1, because revision histories are unavailable. The results are therefore retrospective comparisons under these timing rules, and real-time gains are not verified.",
+        "pattern": "(?:comes|occurs) (\\d+) minutes after",
+        "printed_minutes": "714"
+      },
+      {
+        "label": "paper/AppendixB.2",
+        "source": "paper",
+        "source_line": 517,
+        "text": "Updates, cancellations and recovery notices close earlier records only after they themselves become available, so no later notice revises an earlier information set (Supplement B.2). Of the 725 notices dated August or September 2026, 712 match a record in AEMO's public notice listing; listing evidence covers 142 of them (19.9%) at $a_0$ and 570 (80.1%) after 60 minutes, and the latest listing occurs 714 minutes after $a_0$.",
+        "pattern": "(?:comes|occurs) (\\d+) minutes after",
+        "printed_minutes": "714"
+      },
+      {
+        "label": "supplement/B.2",
+        "source": "supplement",
+        "source_line": 35,
+        "text": "Of the 725 notices dated August or September 2026, 712 match a record in AEMO's public notice listing; the 13 unmatched notices and the 71 notices from 27–31 July are not assessed. The listing gives times to the minute, and a notice counts as listed by a given time only if the end of its listing minute is at or before that time. Under this conservative rule, listing evidence covers 142 notices (19.9%) at a0, 243 (34.1%) after five minutes, 402 (56.5%) after 15 minutes and 570 (80.1%) after 60 minutes. The latest listing occurs 714 minutes after a0; measured from the notice's Creation Date to the end of the listing minute, the longest delay is 723.67 minutes.",
+        "pattern": "(?:comes|occurs) (\\d+) minutes after",
+        "printed_minutes": "714"
+      }
+    ]
+  }
+}

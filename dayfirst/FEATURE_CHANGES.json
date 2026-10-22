@@ -1,0 +1,51 @@
+{
+  "L14": {
+    "arm": "L14",
+    "columns": [
+      "nw_con_local",
+      "nw_con_foreign",
+      "nw_any_local",
+      "nw_minutes_since_start_local"
+    ],
+    "changed_input_rows": 29310,
+    "rows": 527040,
+    "path": "dayfirst/features/L14__changed_columns.npy",
+    "sha256": "327622c0367a51186b5e0258b79b062f6886a06dd7b1b202ef7c2102e2c5f5bb"
+  },
+  "L_Laz": {
+    "arm": "L_Laz",
+    "columns": [
+      "laz_UMM"
+    ],
+    "changed_input_rows": 3456,
+    "rows": 527040,
+    "path": "dayfirst/features/L_Laz__changed_columns.npy",
+    "sha256": "b449608277b4065d14ba8c0f7c62c7751cdb2b05629445b7d12e96cc72c06850"
+  },
+  "NPP": {
+    "arm": "NPP",
+    "columns": [
+      "nw_minutes_since_start_local"
+    ],
+    "changed_input_rows": 8430,
+    "rows": 527040,
+    "path": "dayfirst/features/NPP__changed_columns.npy",
+    "sha256": "7ba775cf82975083b631908f554110b4503fff7898f5707046d437a156595e2e",
+    "month_first_feature_parity": true,
+    "runtime_seconds": 56.44740462501068,
+    "peak_rss_bytes": 1103331328
+  },
+  "R": {
+    "arm": "R",
+    "columns": [
+      "nw_minutes_since_start_local"
+    ],
+    "changed_input_rows": 17280,
+    "rows": 527040,
+    "path": "dayfirst/features/R__changed_columns.npy",
+    "sha256": "450c7c4e337efc68e20d12cb6c99971d38530a4f926b9b8c5b51c723d24e07fd",
+    "month_first_feature_parity": true,
+    "runtime_seconds": 95.26747341599548,
+    "peak_rss_bytes": 1129545728
+  }
+}

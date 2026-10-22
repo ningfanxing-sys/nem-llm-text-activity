@@ -1,0 +1,10 @@
+{
+  "task": "notice_parsing",
+  "state": "STAGING_SPEC_FROZEN_NOT_INSTALLED",
+  "time_utc": "2026-10-03T23:43:41.807629+00:00",
+  "spec": {
+    "sha256": "c64ef2d3c49fb33a1702461881826c38f1316ac89cc2862e200cae4980adfa80",
+    "bytes": 7948
+  },
+  "production_commands_run": []
+}

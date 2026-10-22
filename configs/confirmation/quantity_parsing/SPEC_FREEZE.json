@@ -1,0 +1,100 @@
+{
+  "brief": {
+    "bytes": 5580,
+    "path": "paper_plan/task_specs/TASK_SPEC_4_mw_literal_parsing.md",
+    "sha256": "f60e84209428973c76d04340aae73b73c7658cf09acad2ba285ae1b9e003610c"
+  },
+  "common_rules": {
+    "bytes": 6096,
+    "path": "paper_plan/task_specs/COMMON_RULES.md",
+    "sha256": "9bb6f591b435ee36e615051fc47938c44c2e48f376526f8d394a6ddafeb38817"
+  },
+  "spec_3_adapter_freeze_sha256": "31d95d21be89a9a69fd8653d630f2e670fbdb06bac1ede7319b5a43e3072d985",
+  "historical_periods": [
+    "2021-22",
+    "2023",
+    "2024",
+    "2025-11..2026-02"
+  ],
+  "host_state_contents_read": false,
+  "input_bound_adapter_freeze_sha256": "de80c4e0c3450f3e4383c477c4a3a088cc7d3956835f8ba5e51cf5d78944b394",
+  "mw_dependent_columns": {
+    "L14": [
+      "nw_res_deficit_mw_local",
+      "nw_res_min_avail_mw_local"
+    ],
+    "L_Laz": [
+      "laz_SizeOfOutage_MW"
+    ],
+    "NPL": [
+      "nw_res_deficit_mw_local",
+      "nw_res_min_avail_mw_local"
+    ],
+    "NPP": [
+      "nw_res_deficit_mw_local",
+      "nw_res_min_avail_mw_local"
+    ]
+  },
+  "no_statistical_design_or_inference_rule_change": true,
+  "peak_rss_limit_bytes": 1500000000,
+  "pre_spec_4_identities_of_files_to_change": {
+    "execution/ADAPTER_FREEZE.json": {
+      "bytes": 15434,
+      "path": "studies/confirmation/execution/ADAPTER_FREEZE.json",
+      "sha256": "31d95d21be89a9a69fd8653d630f2e670fbdb06bac1ede7319b5a43e3072d985"
+    },
+    "execution/notice_label_adapter.py": {
+      "bytes": 16114,
+      "path": "studies/confirmation/execution/notice_label_adapter.py",
+      "sha256": "eda051bcf78c286aae251c00902635d633d21b5aca338a29d01303708dcb466f"
+    },
+    "execution/runtime.py": {
+      "bytes": 9373,
+      "path": "studies/confirmation/execution/runtime.py",
+      "sha256": "5dd8b349a6c546d16b6df688560c89d1d78f570384da1a2b6896b330fd3e1b88"
+    },
+    "execution/tests/test_execution_specification.py": {
+      "bytes": 8653,
+      "path": "studies/confirmation/execution/tests/test_execution_specification.py",
+      "sha256": "f6081ef2e971f35159667f0e06c55d2b28259a69d0247c0b0088ddddbfbbef5e"
+    },
+    "HOST_RUN.md": {
+      "bytes": 7983,
+      "path": "studies/confirmation/HOST_RUN.md",
+      "sha256": "7fe8b2a4210cfb9653c49e2748263204cc1c562c08bc4a6d28108f5cb63d5bdf"
+    }
+  },
+  "price_or_y_columns_read": false,
+  "production_commands_run": [],
+  "specified_specification_chain": [
+    "shared_storage",
+    "quantity_parsing"
+  ],
+  "rule": {
+    "bare_number_rule": "pre-quantity_parsing SCALAR rule unchanged",
+    "literal_form": "number, optional whitespace, token equal to the declared unit, case-insensitive, full match after strip",
+    "number_regex": "[+-]?(?:(?:\\d{1,3}(?:,\\d{3})+|\\d+)(?:\\.\\d*)?|\\.\\d+)(?:[eE][+-]?\\d+)?",
+    "unit_tokens": [
+      "MW",
+      "MWh",
+      "minutes"
+    ]
+  },
+  "slice": {
+    "per_stratum": 100,
+    "rows": 400,
+    "seed": 20261002,
+    "source": "ISOBATCH SPEC PC18 F1 slice"
+  },
+  "spec": {
+    "bytes": 13683,
+    "path": "studies/confirmation/quantity_parsing/SPEC.md",
+    "sha256": "be88e0946ea50d53823875eec3224d0f1b455cb6d0f83af60846ac8c7ee42b53"
+  },
+  "spec_sha256": "be88e0946ea50d53823875eec3224d0f1b455cb6d0f83af60846ac8c7ee42b53",
+  "state": "SPEC_FROZEN_BEFORE_CODE_CHANGE_AND_BEFORE_ANY_CORRECTED_RULE_COMPUTATION",
+  "task": "quantity_parsing",
+  "temporary_bytes_limit": 300000000,
+  "time_utc": "2026-10-01T16:10:07.985888+00:00",
+  "window_outcomes_read": false
+}

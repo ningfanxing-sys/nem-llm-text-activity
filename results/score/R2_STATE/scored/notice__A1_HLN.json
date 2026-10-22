@@ -1,0 +1,46 @@
+{
+  "analysis_role": "A1_DECLARED_SENSITIVITY_HLN_T",
+  "family_size": 3,
+  "rows": [
+    {
+      "agrees_with_primary_decision": true,
+      "arm": "L14",
+      "df": 60,
+      "disagreement_sentence": null,
+      "hln_decision": "CONDITIONAL_IMPROVEMENT",
+      "hln_t_holm_p": 2.3793411564623292e-09,
+      "hln_t_p_two_sided": 7.931137188207764e-10,
+      "n_days": 61,
+      "primary_decision": "CONDITIONAL_IMPROVEMENT",
+      "reference": "M_notice",
+      "statistic": -7.292224225057365
+    },
+    {
+      "agrees_with_primary_decision": true,
+      "arm": "L_Laz",
+      "df": 60,
+      "disagreement_sentence": null,
+      "hln_decision": "CONDITIONAL_IMPROVEMENT",
+      "hln_t_holm_p": 3.9286011296018106e-07,
+      "hln_t_p_two_sided": 3.9286011296018106e-07,
+      "n_days": 61,
+      "primary_decision": "CONDITIONAL_IMPROVEMENT",
+      "reference": "M_notice",
+      "statistic": -5.696104472436514
+    },
+    {
+      "agrees_with_primary_decision": true,
+      "arm": "L_chen_notice",
+      "df": 60,
+      "disagreement_sentence": null,
+      "hln_decision": "CONDITIONAL_IMPROVEMENT",
+      "hln_t_holm_p": 1.461779564176633e-08,
+      "hln_t_p_two_sided": 7.308897820883165e-09,
+      "n_days": 61,
+      "primary_decision": "CONDITIONAL_IMPROVEMENT",
+      "reference": "M_notice",
+      "statistic": -6.726534116884803
+    }
+  ],
+  "rule": "confirmation-A1 decision 9: frozen statistic sqrt(n) mean/sd (equal to HLN S1* at h = 1); two-sided p from Student t with n-1 df; Holm per family with the frozen size; the primary normal-calibrated decision is unchanged."
+}

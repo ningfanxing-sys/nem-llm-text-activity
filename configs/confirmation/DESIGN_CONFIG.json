@@ -1,0 +1,42 @@
+{
+  "task": "CONF", "mode": "DESIGN_CODE_FREEZE_ONLY", "timezone": "fixed AEST UTC+10",
+  "news": {
+    "issue_days": ["2026-03-01", "2026-09-30"], "n_days": 214,
+    "regions": ["NSW1", "QLD1", "TAS1"], "hours": 24,
+    "panel_extension": ["2026-02-22", "2026-09-30"],
+    "preprocessing_train": ["2021-10-01", "2024-12-31"], "validation": ["2025-01-01", "2025-12-31"],
+    "refit": "daily expanding strictly past-legal complete target days", "lookback_hours":72,
+    "primary_arms":["N","M","L_count","L_chen"],
+    "secondary_arms":["E_raw","W_Bai","LEAR","M_shift","P_shift","P_content"],
+    "placebo_content_arm":"L_chen",
+    "window_sensitivity_arms":["M","L_count","L_chen"], "window_sensitivity_hours":24,
+    "first_L_sensitivity_arms":["L_chen","E_raw"],
+    "lightgbm":{"objective":"regression","n_estimators":180,"num_leaves":15,"max_depth":5,"learning_rate":0.04,"min_child_samples":100,"colsample_bytree":0.85,"subsample":0.9,"subsample_freq":0,"reg_lambda":1,"force_col_wise":true,"deterministic":true,"n_jobs":1}
+  },
+  "notice":{
+    "target_days":["2026-08-01","2026-09-30"], "n_days":61,
+    "regions":["NSW1","QLD1","SA1","TAS1","VIC1"], "horizons_minutes":[5,10,15,20,25,30],
+    "panel_extension":["2026-07-27","2026-09-30"], "lead_in_days":["2026-07-27","2026-07-31"],
+    "training_rule":"RF2 window-C original development training row membership, B6 strict label availability, train once",
+    "training_nominal_months":["2021-10","2023-12"], "training_weights":"original replay/ordinary 1/50", "window_weights":1,
+    "primary_arms":["N","M_notice","L14","L_Laz","L_chen_notice"],
+    "secondary_arms":["R","T","M_shift_notice","P_shift","P_content","NP","NPL","NPP"],
+    "placebo_content_arm":"L_chen_notice", "arrival_hours":6, "open_freshness_hours":48,
+    "refits":1,"learner_threads":6,"fit_concurrency":1,
+    "only_training_window_sensitivity":"rescore same predictions on target days 2026-08-08..2026-09-30",
+    "first_L_sensitivity_arms":["L_chen_notice"]
+  },
+  "inference":{
+    "news_primary_family":[["L_count","M"],["L_chen","M"]],
+    "notice_primary_family":[["L14","M_notice"],["L_Laz","M_notice"],["L_chen_notice","M_notice"]],
+    "primary_loss_power":1,"decision":"two-sided Lago daily DM, Holm separately per family, alpha .05, signed direction",
+    "hac_lag_sensitivity":7,"bootstrap_blocks_days":[1,7],"bootstrap_draws":2000,
+    "bootstrap_seed":20260925,"ci_level":0.95,"equivalence_margin":null
+  },
+  "seed_primary":20260919,"seeds_extra":[20260920,20260921],
+  "extra_seed_news_arms":["M","L_count","L_chen"],
+  "extra_seed_notice_arms":["M_notice","L14","L_Laz","L_chen_notice"],
+  "placebo_shift_days":28,"placebo_permutation_seed":20261001,
+  "fitting_budget_wall_hours":24,"news_workers":4,"scheduler":"fixed4 per-origin barrier; no in-flight origin overlap",
+  "design_execution_authorized":false
+}

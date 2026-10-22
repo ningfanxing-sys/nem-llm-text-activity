@@ -1,0 +1,197 @@
+[
+  {
+    "file": "dayfirst/EQUIVALENCE.json",
+    "source_record": "paper_plan/paper/dayfirst_analysis/EQUIVALENCE.json",
+    "original_sha256": "50c245fad302fbe1d9829d449fa1a563a4b592f7ebff3b0359c2a6520f5a2870",
+    "package_sha256": "4a6ba63592012d3c9252db54227c26e9dc957c43567d745eb9d89336ae4b7cd4",
+    "locations": [
+      {
+        "source_root": "dayfirst/",
+        "package_root": "dayfirst/",
+        "occurrences": 2
+      },
+      {
+        "source_root": "source/",
+        "package_root": "",
+        "occurrences": 37
+      }
+    ]
+  },
+  {
+    "file": "dayfirst/FEATURE_CHANGES.json",
+    "source_record": "paper_plan/paper/dayfirst_analysis/FEATURE_CHANGES.json",
+    "original_sha256": "38dbeb155d24c0d54bd310973c687042084449aa41adecd3d49701841270f263",
+    "package_sha256": "47d62b6413ad07b673571af1ca88e1ba83d83249beea4043c6d658e38065600d",
+    "locations": [
+      {
+        "source_root": "dayfirst/",
+        "package_root": "dayfirst/",
+        "occurrences": 4
+      }
+    ]
+  },
+  {
+    "file": "dayfirst/OFFICIAL_UNAVAILABLE_UNCHANGED.json",
+    "source_record": "paper_plan/paper/dayfirst_analysis/OFFICIAL_UNAVAILABLE_UNCHANGED.json",
+    "original_sha256": "be7bdb39dd6e164f7291281c21f6e239295d227af93dd51511d021528172858f",
+    "package_sha256": "744801ded5b25cc6abf6fe793c05e5e30b3f15683b858c78190a351ba643335c",
+    "locations": [
+      {
+        "source_root": "source/",
+        "package_root": "",
+        "occurrences": 7
+      }
+    ]
+  },
+  {
+    "file": "dayfirst/PREDICTIONS.json",
+    "source_record": "paper_plan/paper/dayfirst_analysis/PREDICTIONS.json",
+    "original_sha256": "a0a48301eb923def8b9d06e2525d6d87ec4245b7df7efe9fc8c261ab4055b906",
+    "package_sha256": "ca98cc3f9abfdbce9d15db60adab378c50dff99105c992621dfd7ec0daca09d7",
+    "locations": [
+      {
+        "source_root": "dayfirst/",
+        "package_root": "dayfirst/",
+        "occurrences": 35
+      },
+      {
+        "source_root": "source/",
+        "package_root": "",
+        "occurrences": 23
+      }
+    ]
+  },
+  {
+    "file": "dayfirst/SCORING_INPUTS.json",
+    "source_record": "paper_plan/paper/dayfirst_analysis/SCORING_INPUTS.json",
+    "original_sha256": "f6fc9af83e0ad6110122a85b9d71cca757cdbb9ab50c45930448378c944974d4",
+    "package_sha256": "04da7f17287dc9bdf745feb36291b27aacebaee16c65cdf93b6050317c589ef1",
+    "locations": [
+      {
+        "source_root": "dayfirst/",
+        "package_root": "dayfirst/",
+        "occurrences": 18
+      },
+      {
+        "source_root": "[absolute repository root]/",
+        "package_root": "",
+        "occurrences": 24
+      },
+      {
+        "source_root": "source/",
+        "package_root": "",
+        "occurrences": 290
+      }
+    ]
+  },
+  {
+    "file": "dayfirst/SEAL_POSTHOC_DAYFIRST.json",
+    "source_record": "paper_plan/paper/dayfirst_analysis/SEAL_POSTHOC_DAYFIRST.json",
+    "original_sha256": "e4daab1ad2752361fd988a996bb0a99ddc761fc59e72c47cc357834096115a80",
+    "package_sha256": "8a4a60a2e86903b6f2cff623fa6b5bd3446cbf2c849caa2354e8da7c138b671d",
+    "locations": [
+      {
+        "source_root": "dayfirst/",
+        "package_root": "dayfirst/",
+        "occurrences": 12
+      },
+      {
+        "source_root": "source/",
+        "package_root": "",
+        "occurrences": 584
+      }
+    ]
+  },
+  {
+    "file": "dayfirst/TRUTH_DELIVERY.json",
+    "source_record": "paper_plan/paper/dayfirst_analysis/TRUTH_DELIVERY.json",
+    "original_sha256": "b2c1c781274e8b3291c8b85e2002f90b37e385717a40bfe72447fbb7d42ed0d4",
+    "package_sha256": "dd758a2faf30f4a03c821db874d7b8772f9bff1be6922d55ff6136a664e47492",
+    "locations": [
+      {
+        "source_root": "[absolute repository root]/",
+        "package_root": "",
+        "occurrences": 3
+      },
+      {
+        "source_root": "source/",
+        "package_root": "",
+        "occurrences": 1
+      }
+    ]
+  },
+  {
+    "file": "dayfirst/MODEL_INVENTORY.csv",
+    "source_record": "paper_plan/paper/dayfirst_analysis/MODEL_INVENTORY.csv",
+    "original_sha256": "cf4713d3fb084c427cb7351c4a36728171876984654c21c39085f998de9c9eb3",
+    "package_sha256": "c33bc61fb4a6418a82c9c17471af9373a94347f81fa71ff8755dced17661b36c",
+    "locations": [
+      {
+        "source_root": "source/",
+        "package_root": "",
+        "occurrences": 273
+      }
+    ]
+  },
+  {
+    "file": "dayfirst/DIFFERENCES.md",
+    "source_record": "paper_plan/paper/dayfirst_analysis/DIFFERENCES.md",
+    "original_sha256": "3bc8d5de67c31652af14351272c37d4cf74cf74a6d18c88f7d9b44b20b8bd3f9",
+    "included_input_sha256": "3bc8d5de67c31652af14351272c37d4cf74cf74a6d18c88f7d9b44b20b8bd3f9",
+    "package_sha256": "721548a267c84200bde59a945ee99df58839d6d35d6be32bed2de89dbb585459",
+    "transformation": "Source locations and input file identities."
+  },
+  {
+    "file": "dayfirst/README.md",
+    "source_record": "paper_plan/paper/dayfirst_analysis/README.md",
+    "original_sha256": "3571ef14f201ee808d5dbc8312b781cf6b5f34cfe2f307bafd55877c326acee6",
+    "included_input_sha256": "3571ef14f201ee808d5dbc8312b781cf6b5f34cfe2f307bafd55877c326acee6",
+    "package_sha256": "b16d0390c51c472b4fc31b80bfdf45406b6318a4f8c2b1953ceeead02b6abbcc",
+    "transformation": "Source locations and input file identities."
+  },
+  {
+    "file": "dayfirst/code/predict_dayfirst.py",
+    "source_record": "paper_plan/paper/dayfirst_analysis/code/predict_dayfirst.py",
+    "original_sha256": "634cf28b4ba0850f6414ee3b42f0458cac92a5e5b787797791c11aaf293f6b2c",
+    "included_input_sha256": "634cf28b4ba0850f6414ee3b42f0458cac92a5e5b787797791c11aaf293f6b2c",
+    "package_sha256": "c8920ee4dcb7cd6a8c51b9937fd81e5f78ef9899b6f5224d553bba5c0af4a3cd",
+    "transformation": "Source locations and input file identities."
+  },
+  {
+    "file": "dayfirst/code/projection_gate.py",
+    "source_record": "paper_plan/paper/dayfirst_analysis/code/projection_gate.py",
+    "original_sha256": "89d1abd813afe642e0e782411149236af97c06f7fb4d5a449b3830a6e8c3b148",
+    "included_input_sha256": "89d1abd813afe642e0e782411149236af97c06f7fb4d5a449b3830a6e8c3b148",
+    "package_sha256": "da705ad53cb0a4694e62f7017d58d6c34c11832e75e0a088cc59a9a2b8a102b1",
+    "transformation": "Source locations and input file identities."
+  },
+  {
+    "file": "dayfirst/supporting_forecasts/INDEX.json",
+    "source_record": "paper_plan/paper/dayfirst_analysis/supporting_forecasts/INDEX.json",
+    "original_sha256": "8e14e95daef96b38f2175943fd2f6093b3d4b65b0257fe981df83557d6c0f82a",
+    "included_input_sha256": "8e14e95daef96b38f2175943fd2f6093b3d4b65b0257fe981df83557d6c0f82a",
+    "package_sha256": "5dbc8af8f1b56da74448a618d28417c0899f3864b795a6c8f0f02131e4fbbba2",
+    "transformation": "Source locations and input file identities."
+  },
+  {
+    "file": "dayfirst/POSTHOC_BOOTSTRAP_SPECS.json",
+    "source_record": "paper_plan/paper/dayfirst_analysis/POSTHOC_BOOTSTRAP_SPECS.json",
+    "original_sha256": "20c542b8eb810dfd3acf9c53f655f709628a0efce9be101a3636bdb05e6853b7",
+    "package_sha256": "7efdd0dd621ad87ef559d9ef497bd013e55b19b369b21ef1470e083c2794e4d4",
+    "transformation": "Source locations and input file identities."
+  },
+  {
+    "file": "dayfirst/code/run_scoring.py",
+    "source_record": "paper_plan/paper/dayfirst_analysis/code/run_scoring.py",
+    "original_sha256": "765bb2e95187887b5f96bb4b57d7a51b4077bef5fc182f85919d0980d8c29679",
+    "package_sha256": "48e4e35c081a69c74a8321dfc92cc85306593adc35c30bfef5947f85e0525186",
+    "transformation": "Source locations and input file identities."
+  },
+  {
+    "file": "dayfirst/code/score_dayfirst.py",
+    "source_record": "paper_plan/paper/dayfirst_analysis/code/score_dayfirst.py",
+    "original_sha256": "a601de56bc7441d588064edb94c0e26981e7ec73e2affe0dfa8938f3f1d860d6",
+    "package_sha256": "adae4896b320252fc2551e6e3c02862fdd92d1665f1c67fa7048feb3c84cebd6",
+    "transformation": "Source locations and input file identities."
+  }
+]

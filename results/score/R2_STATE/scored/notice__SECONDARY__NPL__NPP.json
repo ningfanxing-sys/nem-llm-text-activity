@@ -1,0 +1,63 @@
+{
+  "bootstrap_artifact": {
+    "bytes": 134811,
+    "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/R2_STATE/scored/notice__SECONDARY__NPL__NPP.npz",
+    "sha256": "94588127a9239cba16cf0883beb2cae15642bd981b218ccd0d29724edcac761d"
+  },
+  "date_gaps": [],
+  "equivalence_test": "NOT_SPECIFIED",
+  "primary_confirmation": false,
+  "reports": [
+    {
+      "arm": "NPL",
+      "bootstrap": {
+        "1": {
+          "bootstrap_nonpositive_effect_count": 1,
+          "effect_percent_reference_mae": 0.26252802925452234,
+          "finite_draws": 2000,
+          "interval95_percent": [
+            0.13260175338035848,
+            0.39501516607660453
+          ],
+          "monte_carlo_resolution": 0.0005,
+          "reference_mae": 9.255595826089067,
+          "undefined_draws": 0
+        },
+        "7": {
+          "bootstrap_nonpositive_effect_count": 3,
+          "effect_percent_reference_mae": 0.26252802925452234,
+          "finite_draws": 2000,
+          "interval95_percent": [
+            0.11218802478231514,
+            0.41899684422807787
+          ],
+          "monte_carlo_resolution": 0.0005,
+          "reference_mae": 9.255595826089067,
+          "undefined_draws": 0
+        }
+      },
+      "dm_hac7": {
+        "mean_difference": 0.02429853331799545,
+        "n_days": 38,
+        "p_deterioration": 0.0036048700857783784,
+        "p_improvement": 0.9963951299142216,
+        "p_two_sided": 0.007209740171556757,
+        "state": "DEFINED",
+        "statistic": 2.686997919960962,
+        "variance": 0.0031074851082153313
+      },
+      "dm_p1": {
+        "mean_difference": 0.02429853331799545,
+        "n_days": 38,
+        "p_deterioration": 3.6149569633568283e-05,
+        "p_improvement": 0.9999638504303664,
+        "p_two_sided": 7.229913926713657e-05,
+        "state": "DEFINED",
+        "statistic": 3.968590040595451,
+        "variance": 0.0014245288208332423
+      },
+      "reference": "NPP",
+      "status": "SECONDARY_ONLY"
+    }
+  ]
+}

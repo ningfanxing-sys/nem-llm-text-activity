@@ -1,0 +1,59 @@
+{
+  "addendum": 1,
+  "addendum_spec": {
+    "bytes": 3020,
+    "path": "studies/confirmation/input_definitions/SPEC_ADDENDUM_1_LEAR.md",
+    "sha256": "7551e4761e6877be8b0066ca5eccb943103f060fdab2559dc77883777d374abe"
+  },
+  "base25_adoption": {
+    "bytes": 1095,
+    "path": "studies/BASE25/SPECIFICATION_1_ADOPTION.json",
+    "sha256": "37954952d8e1301b0b55ec2cca20ff4d373e4a6947b12a15643fe7f2754e2c14"
+  },
+  "base25_specification_freeze": {
+    "bytes": 1753,
+    "path": "studies/BASE25/SPECIFICATION_1_FREEZE.json",
+    "sha256": "d25ca57e1af73fca8a12e1771b0e8a781a826dbbf4e0ae3e96f674e8a64a5fea"
+  },
+  "base25_enforced_pin_source": {
+    "bytes": 7120,
+    "path": "studies/BASE25/code/base25_common.py",
+    "sha256": "276210a7e5f278f41826bed72acd4f87e33da28d5e6f2e599d585104b94cfb32"
+  },
+  "base25_proposal": {
+    "bytes": 5018,
+    "path": "studies/BASE25/SPECIFICATION_1_PROPOSAL.md",
+    "sha256": "72b04ce140b04a031c0114293a3babf7abcd961998cea2d12ae019564cd7fc1e"
+  },
+  "base25_test_log": {
+    "bytes": 10062,
+    "path": "studies/BASE25/TEST_LOG.md",
+    "sha256": "a933bbddede208a8fcf3267cbb626082cbff451cece925b84d02157b7bb0e63d"
+  },
+  "conf_lear_py": {
+    "bytes": 8659,
+    "path": "studies/confirmation/code/lear.py",
+    "sha256": "14c172b7bcb3f303ef14d2e832d00966937f2f8e33ef0aac458b7a8efe50c0fe"
+  },
+  "spec_2_lear_adapter_py_unchanged": {
+    "bytes": 10495,
+    "path": "studies/confirmation/execution/lear_adapter.py",
+    "sha256": "e703dc5aadb4c76faf07d9c63f47d889e1dff7cd4b6d0c0e05190fb7a0d583c7"
+  },
+  "epftoolbox_source": {
+    "bytes": 18291,
+    "path": "studies/confirmation/evidence/epftoolbox_lear_source.py",
+    "sha256": "45a06dd46260d037ba7c2f25c55292613839c70eb5482b03a5aca100beb25834"
+  },
+  "host_state_contents_read": false,
+  "lear_accuracy_computed": false,
+  "main_spec_freeze": {
+    "bytes": 8252,
+    "path": "studies/confirmation/input_definitions/SPEC_FREEZE.json",
+    "sha256": "4c539782e3192a09bcb26a4f4885e34917bb3f539d83fc94ebbe488524afd39a"
+  },
+  "production_commands_run": [],
+  "state": "SPEC_ADDENDUM_FROZEN_BEFORE_LEAR_CODE_CHANGE",
+  "task": "input_definitions",
+  "time_utc": "2026-10-01T18:29:37.909925+00:00"
+}

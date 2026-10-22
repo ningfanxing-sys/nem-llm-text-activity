@@ -1,0 +1,65 @@
+{
+  "analysis_role": "PRESPECIFIED_SENSITIVITY",
+  "bootstrap_artifact": {
+    "bytes": 187450,
+    "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/R2_STATE/scored/notice__first_L.npz",
+    "sha256": "210196f0700b9b841bfce4272ecc74294db8150701c89c11f687c6de81665997"
+  },
+  "date_gaps": [],
+  "equivalence_test": "NOT_SPECIFIED",
+  "primary_confirmation": false,
+  "reports": [
+    {
+      "arm": "L_chen_notice",
+      "bootstrap": {
+        "1": {
+          "bootstrap_nonpositive_effect_count": 2000,
+          "effect_percent_reference_mae": 0.0,
+          "finite_draws": 2000,
+          "interval95_percent": [
+            0.0,
+            0.0
+          ],
+          "monte_carlo_resolution": 0.0005,
+          "reference_mae": 9.46063618321158,
+          "undefined_draws": 0
+        },
+        "7": {
+          "bootstrap_nonpositive_effect_count": 2000,
+          "effect_percent_reference_mae": 0.0,
+          "finite_draws": 2000,
+          "interval95_percent": [
+            0.0,
+            0.0
+          ],
+          "monte_carlo_resolution": 0.0005,
+          "reference_mae": 9.46063618321158,
+          "undefined_draws": 0
+        }
+      },
+      "dm_hac7": {
+        "mean_difference": 0.0,
+        "n_days": 61,
+        "p_deterioration": null,
+        "p_improvement": null,
+        "p_two_sided": null,
+        "state": "UNDEFINED_VARIANCE",
+        "statistic": null,
+        "variance": 0.0
+      },
+      "dm_p1": {
+        "mean_difference": 0.0,
+        "n_days": 61,
+        "p_deterioration": null,
+        "p_improvement": null,
+        "p_two_sided": null,
+        "state": "UNDEFINED_VARIANCE",
+        "statistic": null,
+        "variance": 0.0
+      },
+      "reference": "M_notice",
+      "status": "SECONDARY_ONLY"
+    }
+  ],
+  "variant": "first_L"
+}

@@ -1,0 +1,8 @@
+# Figures 3–4 (Python 3.12); use --dayfirst-python with this environment.
+numpy==1.26.4
+pandas==2.1.4
+pyarrow==25.0.1
+scipy==1.11.4
+matplotlib==3.11.1
+Pillow==12.3.0
+pypdf==6.19.0

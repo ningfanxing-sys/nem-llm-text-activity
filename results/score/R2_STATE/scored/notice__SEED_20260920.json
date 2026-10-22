@@ -1,0 +1,261 @@
+{
+  "analysis_role": "SECONDARY_SEED_SENSITIVITY",
+  "bootstrap_artifact": {
+    "bytes": 279205,
+    "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/R2_STATE/scored/notice__SEED_20260920.npz",
+    "sha256": "483fef6214ef1697be379c6b93aea057f3603aec1b018727fc3580405fada09d"
+  },
+  "equivalence_test": "NOT_SPECIFIED",
+  "family_size": 3,
+  "panel_identity": {
+    "common_keys_sha256": "07907ec755bab24d508cffbf2930baf4e699c7ea60b36a1f406e8dbdb1431488",
+    "daily_common_key_counts": [
+      8640,
+      8640,
+      8640,
+      8640,
+      8640,
+      8640,
+      8640,
+      8640,
+      8640,
+      8640,
+      8640,
+      8640,
+      8640,
+      8640,
+      8640,
+      8640,
+      8640,
+      8640,
+      8640,
+      8640,
+      8640,
+      8640,
+      8640,
+      8640,
+      8640,
+      8640,
+      8640,
+      8640,
+      8640,
+      8640,
+      8640,
+      8640,
+      8640,
+      8640,
+      8640,
+      8640,
+      8640,
+      8640,
+      8640,
+      8640,
+      8640,
+      8640,
+      8640,
+      8640,
+      8640,
+      8640,
+      8640,
+      8640,
+      8640,
+      8640,
+      8640,
+      8640,
+      8640,
+      8640,
+      8640,
+      8640,
+      8640,
+      8640,
+      8640,
+      8640,
+      8640
+    ],
+    "sealed_prediction_manifest_sha256": "abdf291c73c68ff224dc5c070cd986baa686518b506bbf03d1657aa29ce75110"
+  },
+  "reports": [
+    {
+      "arm": "L14",
+      "bootstrap": {
+        "1": {
+          "bootstrap_nonpositive_effect_count": 126,
+          "effect_percent_reference_mae": 0.06580965970877588,
+          "finite_draws": 2000,
+          "interval95_percent": [
+            -0.020455181609219688,
+            0.1536521254789017
+          ],
+          "monte_carlo_resolution": 0.0005,
+          "reference_mae": 9.42714564199223,
+          "undefined_draws": 0
+        },
+        "7": {
+          "bootstrap_nonpositive_effect_count": 125,
+          "effect_percent_reference_mae": 0.06580965970877588,
+          "finite_draws": 2000,
+          "interval95_percent": [
+            -0.016875284594790728,
+            0.13200417086162408
+          ],
+          "monte_carlo_resolution": 0.0005,
+          "reference_mae": 9.42714564199223,
+          "undefined_draws": 0
+        }
+      },
+      "dm_hac7": {
+        "mean_difference": 0.0062039724672457814,
+        "n_days": 61,
+        "p_deterioration": 0.04233099201534085,
+        "p_improvement": 0.9576690079846591,
+        "p_two_sided": 0.0846619840306817,
+        "state": "DEFINED",
+        "statistic": 1.7242540859846134,
+        "variance": 0.0007897088971138593
+      },
+      "dm_p1": {
+        "mean_difference": 0.0062039724672457814,
+        "n_days": 61,
+        "p_deterioration": 0.06802943625863198,
+        "p_improvement": 0.931970563741368,
+        "p_two_sided": 0.13605887251726395,
+        "state": "DEFINED",
+        "statistic": 1.4906292041163165,
+        "variance": 0.0010566479319715498
+      },
+      "interval_direction_agrees": {
+        "1": false,
+        "7": false
+      },
+      "primary_decision": "NO_RELIABLE_INCREMENT_DETECTED",
+      "primary_direction_robust": false,
+      "primary_interval_bound_excludes_improvements_larger_than_percent": 0.020455181609219688,
+      "primary_two_sided_holm_p": 0.2721177450345279,
+      "reference": "M_notice",
+      "sensitivity_hac7_two_sided_holm_p": 0.1693239680613634,
+      "seven_day_bound_excludes_improvements_larger_than_percent": 0.016875284594790728
+    },
+    {
+      "arm": "L_Laz",
+      "bootstrap": {
+        "1": {
+          "bootstrap_nonpositive_effect_count": 0,
+          "effect_percent_reference_mae": 0.2989186897062788,
+          "finite_draws": 2000,
+          "interval95_percent": [
+            0.18377440120374727,
+            0.40547207980374306
+          ],
+          "monte_carlo_resolution": 0.0005,
+          "reference_mae": 9.42714564199223,
+          "undefined_draws": 0
+        },
+        "7": {
+          "bootstrap_nonpositive_effect_count": 0,
+          "effect_percent_reference_mae": 0.2989186897062788,
+          "finite_draws": 2000,
+          "interval95_percent": [
+            0.14501146377859228,
+            0.40531734779329753
+          ],
+          "monte_carlo_resolution": 0.0005,
+          "reference_mae": 9.42714564199223,
+          "undefined_draws": 0
+        }
+      },
+      "dm_hac7": {
+        "mean_difference": 0.028179500229745736,
+        "n_days": 61,
+        "p_deterioration": 7.608689424588805e-07,
+        "p_improvement": 0.9999992391310576,
+        "p_two_sided": 1.521737884917761e-06,
+        "state": "DEFINED",
+        "statistic": 4.808359677528916,
+        "variance": 0.0020950891848800462
+      },
+      "dm_p1": {
+        "mean_difference": 0.028179500229745736,
+        "n_days": 61,
+        "p_deterioration": 4.2158748890769486e-08,
+        "p_improvement": 0.9999999578412511,
+        "p_two_sided": 8.431749778153897e-08,
+        "state": "DEFINED",
+        "statistic": 5.357636852141833,
+        "variance": 0.001687523625265339
+      },
+      "interval_direction_agrees": {
+        "1": true,
+        "7": true
+      },
+      "primary_decision": "CONDITIONAL_DETERIORATION",
+      "primary_direction_robust": true,
+      "primary_interval_bound_excludes_improvements_larger_than_percent": 0.0,
+      "primary_two_sided_holm_p": 2.5295249334461693e-07,
+      "reference": "M_notice",
+      "sensitivity_hac7_two_sided_holm_p": 4.565213654753283e-06,
+      "seven_day_bound_excludes_improvements_larger_than_percent": 0.0
+    },
+    {
+      "arm": "L_chen_notice",
+      "bootstrap": {
+        "1": {
+          "bootstrap_nonpositive_effect_count": 1234,
+          "effect_percent_reference_mae": -0.027019304430368093,
+          "finite_draws": 2000,
+          "interval95_percent": [
+            -0.214719662843683,
+            0.17140466461571038
+          ],
+          "monte_carlo_resolution": 0.0005,
+          "reference_mae": 9.42714564199223,
+          "undefined_draws": 0
+        },
+        "7": {
+          "bootstrap_nonpositive_effect_count": 979,
+          "effect_percent_reference_mae": -0.027019304430368093,
+          "finite_draws": 2000,
+          "interval95_percent": [
+            -0.1758272251812748,
+            0.20093996862473737
+          ],
+          "monte_carlo_resolution": 0.0005,
+          "reference_mae": 9.42714564199223,
+          "undefined_draws": 0
+        }
+      },
+      "dm_hac7": {
+        "mean_difference": -0.002547149180104059,
+        "n_days": 61,
+        "p_deterioration": 0.6117899591093812,
+        "p_improvement": 0.38821004089061883,
+        "p_two_sided": 0.7764200817812377,
+        "state": "DEFINED",
+        "statistic": -0.2839873410963599,
+        "variance": 0.004907277691562894
+      },
+      "dm_p1": {
+        "mean_difference": -0.002547149180104059,
+        "n_days": 61,
+        "p_deterioration": 0.6074701630402076,
+        "p_improvement": 0.3925298369597924,
+        "p_two_sided": 0.7850596739195848,
+        "state": "DEFINED",
+        "statistic": -0.2727314283099063,
+        "variance": 0.005320693275423481
+      },
+      "interval_direction_agrees": {
+        "1": false,
+        "7": false
+      },
+      "primary_decision": "NO_RELIABLE_INCREMENT_DETECTED",
+      "primary_direction_robust": false,
+      "primary_interval_bound_excludes_improvements_larger_than_percent": 0.214719662843683,
+      "primary_two_sided_holm_p": 0.7850596739195848,
+      "reference": "M_notice",
+      "sensitivity_hac7_two_sided_holm_p": 0.7764200817812377,
+      "seven_day_bound_excludes_improvements_larger_than_percent": 0.1758272251812748
+    }
+  ],
+  "seed": 20260920,
+  "task": "notice"
+}

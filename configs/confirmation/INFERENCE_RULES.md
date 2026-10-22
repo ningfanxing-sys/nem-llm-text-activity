@@ -1,0 +1,77 @@
+# CONF frozen inference and wording
+
+This document specifies readings before outcome access. There is no registered equivalence margin or equivalence test for either confirmation window. The decision is always about the registered representation, task, sources, clocks, learner and historical window.
+
+## Units and estimands
+
+News uses all 214 issue/target days, 2026-03-01..2026-09-30, with identical 3-region × 24-hour keys in every arm. Notices uses all 61 **target** days, 2026-08-01..2026-09-30, with the frozen RF2 five-region/six-horizon keys; the final target timestamp is strictly before 2026-10-01 00:00 AEST. Notice issue origins may fall in the final 30 minutes of 2026-07-31. This target-day definition preserves RF2's loss aggregation. The first-seven-day sensitivity excludes target days 2026-08-01..07 and retains 54 target days. It re-scores complete sealed predictions and never refits or replaces the primary window.
+
+All evaluation rows have unit weights. For each day d, compute each arm's mean absolute error over identical complete keys and form Δ_d = MAE_A,d − MAE_B,d. The **day**, not an hour, origin, region, horizon or event, is the primary inferential unit. Negative Δ favors A. Complete dates **and the full common grid** are mandatory: news72keys/day,15,408total; notices288target intervals×5regions×6horizons=8,640keys/day,527,040total. The future loss assembler attests these counts and binds the common-key and sealed-prediction-manifest hashes before primary inference. No missing outcome, shortened window, day selected by event status or partial computation is silently admitted. Undefined comparisons are explicitly reported; partial panels may be descriptive but cannot pass this primary gate.
+
+For every contrast, report effect = 100 × (mean_d MAE_A,d − mean_d MAE_B,d) / mean_d MAE_B,d, as a signed percentage of the named reference's MAE, with both 1-day and 7-day paired block intervals. A zero/nonfinite reference MAE makes the percentage undefined. No value-dependent denominator repair is allowed. Raw currency-unit MAEs accompany percentages. Because primary keys are complete and daily counts equal, the daily mean estimand equals the pooled row MAE. If a pre-specified coverage sensitivity changes daily counts, retain day-equal aggregation and state that its estimand differs from row-equal MAE.
+
+## Tests and multiplicity
+
+The template is Lago et al., *Applied Energy* 293 (2021), 116983, §5.5.1, published pp.12–13 (PDF pages 13–14 with the repository cover): absolute or squared paired errors, daily multivariate loss, and a normal DM statistic. The primary uses p=1 and DM = sqrt(D) mean(Δ)/sample-SD(Δ), ddof=1, with standard-normal tails. [Final published paper](https://repository.tudelft.nl/file/File_c22296e2-2016-441e-b28c-66ff6afba4de). Its assumptions and short-window limitation must accompany conclusions; §5.1, published p.10, recommends a test year, whereas these author-fixed windows have 214/61 days.
+
+The direction-symmetric primary p value is two-sided. Holm at α=.05 is applied separately across exactly two news hypotheses {L_count−M, L_chen−M} and exactly three notice hypotheses {L14−M_notice, L_Laz−M_notice, L_chen_notice−M_notice}, pooled across regions and horizons. The sign identifies improvement or deterioration after rejection. Undefined tests occupy their slots as p=1 for adjustment and have no rejection; report their adjusted p as undefined. Both directional one-sided p values are also saved, but are not additional primary decision gates. Do not expand, shrink or split the families after observing results.
+
+HAC7 replaces the sample variance with γ0 + 2 Σ_l=1..7 (1−l/8)γ_l, γ_l using divisor D, and uses the same normal calibration. This is a **secondary project choice**, no top-venue template claimed; seven lags/Bartlett weights are fixed for serial dependence. Apply the same family sizes to HAC7 for a clearly labelled sensitivity. Nonpositive/undefined variance yields an undefined statistic, never significance. No automatic lag selection replaces either primary or sensitivity.
+
+The paired non-circular moving-block bootstrap has lengths 1 and 7, 2,000 draws, default_rng(20260925) reset separately for each block length, uniform starts 0..D−b, ceil(D/b) blocks, and concatenation/truncation to D. Use identical picks across all paired arms and contrasts on the same task/key subset. Recompute both numerator and reference MAE denominator on **each same resample**. Save picks, percentage draws, finite/undefined counts and 2.5/97.5% linear quantiles. These bootstrap choices are **project choices** inherited in form from RF2, without a claimed top-venue prescription. Intervals are nominal per contrast, conditional on the sealed fitted prediction sequences; they are not simultaneous family intervals or unconditional training-uncertainty intervals. A bootstrap tail count of zero is written 0/2000 with Monte Carlo resolution 1/2000, never p=0.
+
+For a secondary matched-origin subset with date gaps, seven-day starts must still contain seven consecutive calendar dates; sample only admissible starts, never bridge a missing date as if it were adjacent. With no admissible seven-calendar-day block, report that interval undefined and retain the one-day result. Report HAC7 undefined for a gapped daily subset rather than treating gaps as adjacent days. Record the date gaps. This subset adaptation is a project choice and does not apply to the mandatory complete primary grid.
+
+## Prewritten primary readings
+
+Use the following templates verbatim with the named arm/reference, observed effect, interval and p substituted. Confidence-bound language uses the primary one-day **nominal** 95% interval [lo,hi]; define X=max(0,−lo). Bounds are not an equivalence margin and do not establish equivalence. Also display the seven-day sensitivity interval and its corresponding bound, explicitly labelled secondary; never choose between bounds by size or significance.
+
+| Frozen outcome | Exact reading |
+| --- | --- |
+| mean Δ<0 and two-sided primary Holm p<.05 | “A conditional reliable increment beyond [article volume / notice activity] was detected for [A−B] under the registered pooled p=1 daily DM rule: [effect]% of [B]'s MAE, one-day 95% interval [lo,hi]%, Holm p=[p]. This is conditional evidence for this historical window and design.” |
+| mean Δ>0 and two-sided primary Holm p<.05 | “Conditional deterioration beyond [article volume / notice activity] was detected for [A−B] under the registered pooled p=1 daily DM rule: [effect]% of [B]'s MAE, one-day 95% interval [lo,hi]%, Holm p=[p].” |
+| no rejection, finite one-day interval | “No reliable increment beyond [article volume / notice activity] was detected for [A−B]: [effect]% of [B]'s MAE, one-day 95% interval [lo,hi]%. Improvements larger than [X]% of [B]'s MAE are excluded by this nominal 95% interval, conditional on these fitted predictions and this resampling design. This does not establish equivalence or zero effect.” |
+| DM or percentage interval undefined | “The registered [test / percentage interval] for [A−B] is undefined because [recorded reason]. No reliable increment conclusion or improvement-exclusion bound is available from that calculation.” |
+| DM and intervals/HAC7 disagree | Append: “The nominal DM decision is not supported consistently by [named interval/HAC7 sensitivity]. This disagreement limits the robustness of the conclusion; the primary decision and every sensitivity are retained.” |
+
+For the first two rows, a robust direction additionally requires both intervals to exclude zero in that direction and the HAC7 Holm decision to retain that direction. Otherwise use the disagreement sentence. A significant favorable region/horizon never substitutes for a failed pooled primary comparison. No cross-task/horizon gradient, causal mechanism or general-market claim follows from these readings. The main seed is 20260919. Seeds 20260920/21 and the arithmetic mean of all three sealed predictions are labelled sensitivities and never replace the registered main-seed decision.
+
+## Secondary contrasts and their fixed wording
+
+Every secondary effect is reported with the same signed percentage convention, paired intervals, raw two-sided/one-sided DM p and HAC7; any descriptive region/horizon breakdown is secondary. No secondary result counts as primary-family confirmation. Complete arm lists and secondary pairs are fixed in the main protocol; the following specifies how each class is read.
+
+| Comparison class | Required sentence before estimate and intervals |
+| --- | --- |
+| E_raw−M or W_Bai−M | “This secondary contrast estimates the increment of [raw text / Bai word frequencies] beyond article volume.” |
+| L_chen−E_raw | “This secondary contrast compares structured-field serialisation with raw title/body encoding; it does not identify a mechanism.” |
+| every content arm−N; M−N; M_notice−N; R−M_notice; T−M_notice | “This secondary contrast estimates the named input bundle against its registered reference; it is not a primary confirmation decision.” |
+| LEAR−N and LEAR−M | “This secondary benchmark comparison concerns issue-legal adapted LEAR; LEAR is not a text arm.” |
+| News P_shift−M_shift or notice P_shift−M_shift_notice | “This secondary project diagnostic has no top-venue placebo template. All clocks and derived dates were shifted together by 28 days; the estimate is conditional on that altered activity process.” |
+| News P_content−M or notice P_content−M_notice | “This secondary project diagnostic has no top-venue placebo template. It compares activity-matched, within-month permuted content with the identical matched-key activity reference.” |
+| L_chen−P_shift / L_chen−P_content; notice equivalents | “This secondary project diagnostic compares original and altered content/activity under the frozen REDESIGN rule; it neither identifies causation nor replaces the primary increment test.” |
+| NPL−NP or NPL−NPP | “This secondary E3 contrast confirms or refutes the earlier positive finding under the new labels and untouched target window; the bundled activity and semantic input cannot be isolated by this contrast.” |
+| NP−N or NPP−NP | “This secondary E3 contrast estimates the named P5MIN/shifted-input bundle relative to its registered reference; it does not isolate semantic information.” |
+| 24-hour saved-version window, first-L chunking, two extra seeds, first-seven-notice-days exclusion | “This pre-specified sensitivity concerns [named change]. The main window, representation and seed remain the primary analysis; this estimate does not replace that decision.” |
+| clipping, connected severe-event table or per-origin coverage flow | “This is a descriptive diagnostic, not an inferential confirmation gate or a source of new feature selection.” |
+
+For each secondary contrast whose raw DM p<.05 and mean<0, append “A conditional favorable difference was observed in this secondary comparison”; for mean>0 append “A conditional unfavorable difference was observed in this secondary comparison”; otherwise append “No reliable increment was detected in this secondary comparison.” Append effect, both intervals, raw p and the one-day X bound whenever finite, plus the separately labelled seven-day sensitivity bound. Apply the same no-equivalence and method-disagreement language. No comparison is suppressed for an unfavorable direction.
+
+### Joint E3, placebos and seeds
+
+E3's secondary joint reading is `E3_SECONDARY_JOINT_CONFIRMED` only if **both** NPL−NP and NPL−NPP have negative daily mean differences and raw two-sided p=1 DM p<.05. This intersection rule is fixed, uses no additional primary family, and does not promote E3 to the main semantic-increment test. Exact sentence: “The earlier positive notice finding was conditionally reproduced by both registered E3 contrasts in this secondary confirmation design.” If either contrast fails, write `E3_SECONDARY_JOINT_NOT_CONFIRMED`: “The earlier positive notice finding was not confirmed jointly by this design; [name the nonpassing contrasts and all estimates].” Undefined/missing required inputs give `E3_SECONDARY_JOINT_NOT_EVALUABLE` and the recorded reason. Any 1-day/7-day interval or HAC7 direction disagreement adds the frozen uncertainty-disagreement sentence and limits robustness even after nominal joint confirmation. No E3 equivalence or volume-controlled mechanism claim is allowed.
+
+Placebos have no confirmatory acceptance gate. If the paired original-content−placebo raw two-sided daily DM p<.05 and the difference is nonzero, state “A conditional difference between the original-content and project placebo predictions was observed in this secondary diagnostic; it does not identify a mechanism.” Otherwise state “No reliable paired difference between the original-content and placebo predictions was detected under this project diagnostic.” Give the paired original−placebo estimate and both intervals before any such language. Shared marginal directions and overlapping marginal intervals are descriptive, never a paired significance test. No valid matched P_content support gives `NO_VALID_PERMUTATION`, not a successful null or zero effect.
+
+Seed robustness is `SEED_DIRECTION_INSTABILITY` if any computed primary-family effect at seed20/21 has the opposite nonzero sign from seed19; report each seed's effect and interval and say “The registered increment is sensitive to the learner seed.” Otherwise report `NO_OBSERVED_SEED_SIGN_REVERSAL` and say “No sign reversal was observed across the registered computed seeds; this is not proof of seed invariance.” With only seed19 available, write `EXTRA_SEEDS_NOT_AVAILABLE` and the budget/input reason. The three-seed mean is reported only when all paired arm/reference predictions exist; it is a secondary mean of sealed predictions, not a p-value average, and never replaces seed19.
+
+## Required descriptive robustness
+
+For each arm, report final predictions equal to the lower/upper clipping bounds and raw predictions requiring clipping, by region/horizon and pooled. The numeric prediction/anchor/cap contract comes from RF2 for notices and the registered news learner contract; counts do not change clipping.
+
+Use RF2's severe-event connected-component rule and its event-level row-count and event-equal summaries to create a descriptive table after execution. Include every detected component, calendar span, region(s), row count, arm MAEs and signed percentages of the named reference; no event-level gate, p-value or selective event exclusion is registered.
+
+The coverage flow is per day, issue origin and region: raw candidates → clock-admitted → valid labels → nonzero arm features; keep denominators and missing-label counts explicit. For raw-text/Bai arms a valid-label count is reporting only. For P_content preserve its matched-origin subset and flow. Neither failure/coverage status nor test-window diagnostics enter training or feature selection.
+
+## Traceability
+
+Statistical template: Lago published §5.5.1 pp.12–13; short-window caveat §5.1 p.10. Existing NEWSD PROTOCOL_DAYAHEAD.md specifies ddof/sample-SD DM and HAC7 as a project sensitivity; RF2 PROTOCOL_RF2.md fixes unit C evaluation weights, Brisbane target days and inherited moving-block mechanics. The two Holm families, α, no-margin reading, windows, extra seeds and sensitivities are author-fixed CONF requirements. All untemplated controls are explicitly project choices above.

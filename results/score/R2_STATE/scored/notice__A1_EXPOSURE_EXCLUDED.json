@@ -1,0 +1,173 @@
+{
+  "analysis_role": "A1_EXPOSURE_EXCLUDED_DESCRIPTIVE",
+  "bootstrap_artifact": {
+    "bytes": 238307,
+    "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/R2_STATE/scored/notice__A1_EXPOSURE_EXCLUDED.npz",
+    "sha256": "2a14381c47968889de728fd8b65b62169f607b75a06c49ba3cd30499c7b972cd"
+  },
+  "date_gaps": [
+    [
+      "2026-08-31",
+      "2026-09-12"
+    ]
+  ],
+  "day_runs": [
+    [
+      "2026-08-01",
+      "2026-08-31"
+    ],
+    [
+      "2026-09-12",
+      "2026-09-30"
+    ]
+  ],
+  "equivalence_test": "NOT_SPECIFIED",
+  "primary_confirmation": false,
+  "reports": [
+    {
+      "arm": "L14",
+      "bootstrap": {
+        "1": {
+          "bootstrap_nonpositive_effect_count": 2000,
+          "effect_percent_reference_mae": -0.332989618492594,
+          "finite_draws": 2000,
+          "interval95_percent": [
+            -0.4313746716184828,
+            -0.2405226390758872
+          ],
+          "monte_carlo_resolution": 0.0005,
+          "reference_mae": 9.603450260659448,
+          "undefined_draws": 0
+        },
+        "7": {
+          "bootstrap_nonpositive_effect_count": 2000,
+          "effect_percent_reference_mae": -0.332989618492594,
+          "finite_draws": 2000,
+          "interval95_percent": [
+            -0.43642789461721754,
+            -0.2497287289141395
+          ],
+          "monte_carlo_resolution": 0.0005,
+          "reference_mae": 9.603450260659448,
+          "undefined_draws": 0
+        }
+      },
+      "dm_hac7": {
+        "p_deterioration": null,
+        "p_improvement": null,
+        "p_two_sided": null,
+        "state": "UNDEFINED_SECONDARY_DATE_GAPS",
+        "statistic": null
+      },
+      "dm_p1": {
+        "mean_difference": -0.031978492385095925,
+        "n_days": 50,
+        "p_deterioration": 0.9999999999999782,
+        "p_improvement": 2.1740455389593032e-14,
+        "p_two_sided": 4.3480910779186064e-14,
+        "state": "DEFINED",
+        "statistic": -7.550134459670555,
+        "variance": 0.0008969672838119474
+      },
+      "reference": "M_notice",
+      "status": "SECONDARY_ONLY"
+    },
+    {
+      "arm": "L_Laz",
+      "bootstrap": {
+        "1": {
+          "bootstrap_nonpositive_effect_count": 2000,
+          "effect_percent_reference_mae": -0.2688625633873082,
+          "finite_draws": 2000,
+          "interval95_percent": [
+            -0.3785174702062406,
+            -0.15967267865124937
+          ],
+          "monte_carlo_resolution": 0.0005,
+          "reference_mae": 9.603450260659448,
+          "undefined_draws": 0
+        },
+        "7": {
+          "bootstrap_nonpositive_effect_count": 2000,
+          "effect_percent_reference_mae": -0.2688625633873082,
+          "finite_draws": 2000,
+          "interval95_percent": [
+            -0.37616603306519736,
+            -0.15431107079265957
+          ],
+          "monte_carlo_resolution": 0.0005,
+          "reference_mae": 9.603450260659448,
+          "undefined_draws": 0
+        }
+      },
+      "dm_hac7": {
+        "p_deterioration": null,
+        "p_improvement": null,
+        "p_two_sided": null,
+        "state": "UNDEFINED_SECONDARY_DATE_GAPS",
+        "statistic": null
+      },
+      "dm_p1": {
+        "mean_difference": -0.02582008254443412,
+        "n_days": 50,
+        "p_deterioration": 0.9999991966213484,
+        "p_improvement": 8.033786515507453e-07,
+        "p_two_sided": 1.6067573031014907e-06,
+        "state": "DEFINED",
+        "statistic": -4.797478149809133,
+        "variance": 0.0014483023860715175
+      },
+      "reference": "M_notice",
+      "status": "SECONDARY_ONLY"
+    },
+    {
+      "arm": "L_chen_notice",
+      "bootstrap": {
+        "1": {
+          "bootstrap_nonpositive_effect_count": 2000,
+          "effect_percent_reference_mae": -0.7643680420974485,
+          "finite_draws": 2000,
+          "interval95_percent": [
+            -1.0205716000779328,
+            -0.5217451445626053
+          ],
+          "monte_carlo_resolution": 0.0005,
+          "reference_mae": 9.603450260659448,
+          "undefined_draws": 0
+        },
+        "7": {
+          "bootstrap_nonpositive_effect_count": 2000,
+          "effect_percent_reference_mae": -0.7643680420974485,
+          "finite_draws": 2000,
+          "interval95_percent": [
+            -1.0098152029992395,
+            -0.4441229719386597
+          ],
+          "monte_carlo_resolution": 0.0005,
+          "reference_mae": 9.603450260659448,
+          "undefined_draws": 0
+        }
+      },
+      "dm_hac7": {
+        "p_deterioration": null,
+        "p_improvement": null,
+        "p_two_sided": null,
+        "state": "UNDEFINED_SECONDARY_DATE_GAPS",
+        "statistic": null
+      },
+      "dm_p1": {
+        "mean_difference": -0.07340570473120493,
+        "n_days": 50,
+        "p_deterioration": 0.9999999999353334,
+        "p_improvement": 6.46666508968064e-11,
+        "p_two_sided": 1.293333017936128e-10,
+        "state": "DEFINED",
+        "statistic": -6.427953484062381,
+        "variance": 0.006520549236562145
+      },
+      "reference": "M_notice",
+      "status": "SECONDARY_ONLY"
+    }
+  ],
+  "rule": "Target days with no recorded analysis of D prices in confirmation/A1/DATA_EXPOSURE_LOG.md (summary: no analysis is recorded for 19 May-30 June, 25-31 July, August and 12-30 September 2026; the governance record calls 25 July-23 September \"unknown\"). Descriptive sensitivity; sealed predictions; no refit."
+}

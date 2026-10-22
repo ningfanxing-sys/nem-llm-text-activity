@@ -1,0 +1,10 @@
+{
+  "task": "CONFX3",
+  "time_utc": "2026-10-01T02:29:43.383975+00:00",
+  "spec_sha256": "436b4ab5d0631a178f2a30ac261b0e9f4c616b7faf7b2fe3f21cc4c989c548a2",
+  "seed": 20261001,
+  "slice_rows": 20000,
+  "temporary_bytes_limit": 300000000,
+  "no_statistical_change": true,
+  "window_outcomes_read": false
+}

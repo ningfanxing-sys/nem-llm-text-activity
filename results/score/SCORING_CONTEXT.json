@@ -1,0 +1,134 @@
+{
+  "cheap_states": {},
+  "cps8_kept_all": null,
+  "declarations": [
+    "The paper should state: retrospective/analysis-locked design and prior price exposure; privately timestamped rather than falsely public registration; vendor-stated cutoff of an unversioned alias does not verify the executed model's knowledge; the 72-hour lookback/training chain may include earlier material; extraction and review procedures as actually used; short-window and fixed-prediction uncertainty limitations; proxy admission clock rather than certified first-publication availability; missing checks and optional failures. No reliable increment detected is neither equivalence nor zero effect. A zero bootstrap tail is a finite count with its denominator/resolution. Keep per-task family control separate from a paper-wide claim. Free prose cannot upgrade an official class, attribute an untested mechanism or conceal a failed check."
+  ],
+  "design_states": {},
+  "deviations": [
+    {
+      "adopted_text": "- Stop: 2026-10-05 05:53 AEDT. The DLY8 mode-1 child raised the specified census error, because the guard read the day-first local clocks of the 796 window-D/lead-in notices month-first (525 counted). Nothing was fitted and no prediction was made. Record: `disk_checks/dly8/mode1/STOPPED_FOR_REMEDY.json` (bound in `A8BATCHDISKSET2/FAILURE_BINDING.json`).\n- Set: A8BATCHDISKSET2 makes the census guard parse day-first only for strict `DD/MM/YYYY hh:mm:ss`. The specified values 796/71/796 are unchanged. It also adds an honest remedy record (`resource_only: false`, `remedy_kind: implementation_defect_set`), accepted only for DLY8_mode1 and this exact failure, with the single-remedy limit preserved.\n- Reviews: REVIEW_IMPLEMENTATION_CHECK (SET FIRST: 3 items) → DISKSET2B → REVIEW2 (SET FIRST: 2 items) → DISKSET2C → REVIEW3: FREEZE-READY.\n- The same misparse in the main-chain notice features (window-D L14 and L_Laz) is handled separately by `confirmation/ANCHORDIAG/SOURCE_DECISION_RULE_20261005.md` (Revision): both readings reported, with a deviation table. The batch stays on the as-run anchors, which keeps it consistent with the sealed main predictions.\n- No price, prediction, score or outcome was read for this decision.",
+      "set": "SET2",
+      "stage": "DLY8_mode1",
+      "stop_origin": "NATIVE_ORIGINAL_STOP",
+      "timestamp_label": "T4E"
+    },
+    {
+      "adopted_text": "- Stop: 2026-10-05 18:44 AEDT, at the start of the R8 bundle build (after DLY8 primary completed). The D overlay planner read `bundle['rows']`, which some production bundles do not carry; the frozen code's own rule is `bundle.get('rows', matrix.shape[0])` (confirmation/execution/feature_storage.py). No R8 bundle was written; the frozen handler recorded `disk_checks/state/stages/R8_build.json` (remedy_count 0).\n- Set: A8BATCHDISKSET3 applies the frozen fallback to the planner (metadata only; no computation change). It includes an audit of every overlay runtime schema read (SCHEMA_AUDIT.md; each key either proven always present by the frozen writer or given the frozen fallback). It extends the honest `implementation_defect_set` remedy gate to exactly (R8_build, this failure identity), with the single-remedy limit preserved.\n- Review: REVIEW_IMPLEMENTATION_CHECK_20261005_source.md: FREEZE-READY, no blocking items (suite plus 25 independent synthetic regressions pass).\n- No price, prediction, score or outcome was read for this decision.",
+      "set": "SET3",
+      "stage": "R8_build",
+      "stop_origin": "NATIVE_ORIGINAL_STOP",
+      "timestamp_label": "T4H"
+    },
+    {
+      "adopted_text": "- **Stop.** 2026-10-07 03:27:51 AEDT (16:27:51Z on 10-06), in stage CS8_primary_seed_robustness_news, during the group for news origin 2026-07-03.\n  - `psutil.NoSuchProcess` was raised at confirmation/execution/execution_adapter.py:571: a just-exited `max_tasks_per_child=1` worker was enumerated.\n  - The exception is outside the set that `run_stage` catches, so the wrapper exited, no stage file was written, and the ledger group reads FAILED_ATTEMPTS_CHARGED. One attempt stayed LAUNCHED with orphan artifacts.\n  - A concurrent BaiduNetdisk service crash on the host is recorded as context only.\n  - Evidence: A8BATCHDISKSET4/evidence/ (T4O).\n- **Decision: set before restart.** The race recurs with every worker exit, and each stage has a single remedy, so a plain restart would risk a DEVIATION of the seed-robustness stage.\n- **Set.** A8BATCHDISKSET4, additive, with frozen files byte-identical.\n  - A psutil shim and tuple snapshots for the owned-process enumeration.\n  - A scheduler reap-window rule that accepts explicit exit evidence and still fails closed when an exit is unconfirmed.\n  - The stop record the frozen handler would have written, reconstructed post hoc from the original bookkeeping evidence (five native fields derived from stage-start evidence; provenance disclosed).\n  - The honest `implementation_defect_set` remedy gate, extended to exactly (CS8_primary_seed_robustness_news, this failure identity).\n  - A T4N binding whose verified TSA genTimes must be strictly later than the freeze.\n  - Scheduling, admission, memory rules and limits, seeds, order, fitting and receipt semantics are unchanged.\n- **Review chain.**\n  1. REVIEW_IMPLEMENTATION_CHECK_20261007_source.md: SET FIRST, with three Blocking items (five stop fields, scheduler reap window, T4N chronology).\n  2. DISKSET4B fixed them.\n  3. DISKSET4C ran one authorised uninterrupted full suite: PASS (the first run's harness failure is retained).\n  4. REVIEW2_IMPLEMENTATION_CHECK_20261007_source.md: FREEZE-READY.\n- **Execution (source).**\n  - SET4_FREEZE 0b886c5c… at 18:30:32Z.\n  - make_timestamp T4N (freetsa 18:30:39Z, digicert 18:30:40Z).\n  - T4N_BINDING at 18:30:40Z; verify_set4 OK.\n  - prepare_recovery published the reconstructed stop (a86e6b7f…); write_remedy published the remedy (e6f405d5…) and the REMEDY_LOG entry (remedy count 1, resource_only false).\n  - Restart 2026-10-07 05:31:01 AEDT via F4/host_wrapper_set4.py --execute --workers 4. The remedy was consumed, and the first new group started at 05:32.\n- **Consequence.** A second failure in this stage would be a DEVIATION under the frozen rule.\n- **No outcome read.** No price, prediction, score or outcome was read for this decision.",
+      "set": "SET4",
+      "stage": "CS8_primary_seed_robustness_news",
+      "stop_origin": "RECONSTRUCTED_POST_HOC_NOT_ORIGINAL_RECEIPT",
+      "timestamp_label": "T4N"
+    },
+    {
+      "adopted_text": "- **Stop.** 2026-10-07 17:48:09 AEDT (06:48:09.76Z). DLY8 mode 2 (the six R8 notice arms) had passed delta-0 feature and prediction byte parity at 17:44:40. At the first notice-loop `peak_check()` of delta +5 it then reached the specified 2 GiB peak-RSS limit.\n  - The frozen handler wrote the native `disk_checks/dly8/mode2/STOPPED_FOR_REMEDY.json` (597 bytes, d1104d3b…, RESOURCE_STOP, remedy_count 0) and the batch exited.\n  - Evidence: matrix_storage/evidence/, comprising CRASH_FACTS.md, the wrapper log, the RSS probe and SHA256SUMS.\n- **Cause.** An implementation defect, not a host shortage.\n  - The frozen eviction helper (confirmation/execution/features_adapter.py:554-562, flush + `madvise(MADV_DONTNEED)`) does not drop resident file pages on this host (macOS 27.0.1 arm64).\n  - The six mode-2 output memmaps total 1.75 GiB per delay. Residency therefore depends on kernel reclaim under concurrent memory pressure.\n  - A plain resource-only restart \"after freeing memory\" cannot be expected to pass.\n- **Decision: set before restart.** The stage has a single remedy, and a second failure is a DEVIATION.\n- **Set.** matrix_storage, additive, with frozen files byte-identical.\n  - Inside the DLY8 child only, `_evict` becomes flush + `msync(MS_SYNC|MS_INVALIDATE)` over the whole mapping, raising on failure.\n  - A preflight runs in the parent and in the child before `retry_count`. A refusal cannot consume the remedy or write any record.\n  - The `implementation_defect_set` gate is extended to exactly four pairs; the new pair is (DLY8_mode2, the native stop identity).\n  - A T4Q binding is required, with verified TSA genTimes strictly later than the freeze.\n  - Unchanged: the 2 GiB limit, `peak_check`, arms, delays, order, models, prediction batching, receipts and disk rules.\n- **Review chain.**\n  - DISKSET5: implementation; two full-suite invocations failed on harness defects, both fixed.\n  - DISKSET5B: one authorised uninterrupted full suite PASSED (aggregate run 3). The two earlier harness failures are retained.\n  - REVIEW_IMPLEMENTATION_CHECK_20261007_source.md: FREEZE-READY, no Blocking item.\n  - The reviewer read only the bookkeeping fields of the mode-1 DLY8 receipt. Its peak RSS was 2,147,319,808 bytes, 160 KiB under the limit, which confirms that the defect was already present there.\n  - The reviewer's calibrated estimate for the remedied predict phase is about 1.30 GB. It is labelled an estimate, not a bound.\n- **Execution (source).**\n  - SET5_FREEZE 5f7e2dd6… at 11:36:35Z (43 files).\n  - make_timestamp T4Q (root batch_estimation/matrix_storage; freetsa 11:36:41Z, digicert 11:36:42Z; manifest f41dd792…).\n  - T4Q_BINDING ed53000b… at 11:36:49Z; verify_set5 OK.\n  - write_remedy published state/remedies/DLY8_mode2.json (a6db448f…) and the REMEDY_LOG entry (remedy count 1, resource_only false).\n  - Restart 2026-10-07 22:37:13 AEDT via F5/host_wrapper_set5.py --execute --workers 4 (log: temporary folder a8batch_execute_set5_20261007.log).\n- **Consequence.** A second failure in DLY8 mode 2 would be a DEVIATION (A8DLY_DEV) under the frozen rule. It would never be a null or a partial score.\n- **No outcome read.** No price, prediction, score or outcome was read for this decision.",
+      "set": "SET5",
+      "stage": "DLY8_mode2",
+      "stop_origin": "NATIVE_ORIGINAL_STOP_NOT_RECONSTRUCTED",
+      "timestamp_label": "T4Q"
+    },
+    {
+      "adopted_text": "KCX (inference_design.4), including its D37/D25 journal-stage commitment, was withdrawn before scoring and inactive by the same-model post-cutoff news primary (DEC13 v2); retained KCX status, support and branch wording records the frozen fill and supplies no KCX evidence or future execution commitment.",
+      "stage": "KCX"
+    }
+  ],
+  "fill_clock": {
+    "authorised_runs": {},
+    "filled_utc": "2026-10-10T20:28:23.129349+00:00",
+    "input_completed_utc": {},
+    "score_utc": "2026-10-10T20:28:23.127830+00:00"
+  },
+  "optional": {
+    "batch_scoring": false,
+    "CPS8": false,
+    "ISOBATCH": false,
+    "KCX": false,
+    "PC": false,
+    "matched_controls": false
+  },
+  "optional_families": {
+    "news": {
+      "KCX": {
+        "reason": "DEC13, reiterated by adopted A13b",
+        "state": "WITHDRAWN"
+      }
+    },
+    "notice": {
+      "KCX": {
+        "reason": "DEC13, reiterated by adopted A13b",
+        "state": "WITHDRAWN"
+      }
+    }
+  },
+  "own_stages": {
+    "A2B-1": {
+      "reason": "Adopted A13b: native repin plan journal-only; no A2B batch seal",
+      "state": "NOT_RUN_JOURNAL_ONLY"
+    },
+    "A2B-2": {
+      "reason": "Adopted A13b: native repin plan journal-only; no A2B batch seal",
+      "state": "NOT_RUN_JOURNAL_ONLY"
+    },
+    "label_scoring": {
+      "reason": "Adopted A13b: native repin plan journal-only; no A2B batch seal",
+      "state": "NOT_RUN_JOURNAL_ONLY"
+    },
+    "A8B-CPS8": {
+      "reason": "A8NR_BATCH_BUDGET",
+      "state": "NOT_RUN_BUDGET"
+    },
+    "A8B-R8": {
+      "reason": null,
+      "state": null
+    },
+    "A8B-R8N": {
+      "reason": null,
+      "state": null
+    },
+    "A8B-R8S": {
+      "reason": null,
+      "state": null
+    },
+    "DLY8": {
+      "reason": null,
+      "state": null
+    },
+    "KCX": {
+      "category": "not run (frozen reason)",
+      "reason": "DEC13, reiterated by adopted A13b",
+      "state": "WITHDRAWN"
+    },
+    "PC": {
+      "category": "not run (frozen reason)",
+      "reason": "A8NR_SPEED",
+      "state": "PENDING_A8NR_SPEED"
+    },
+    "matched_controls": {
+      "category": "not run (frozen reason)",
+      "reason": "A8NR_SPEED",
+      "state": "PENDING_A8NR_SPEED"
+    }
+  },
+  "pc_flags": {},
+  "pc_state": "A8NR_SPEED",
+  "pv": null,
+  "secondary_check": {},
+  "secondary_clause": {},
+  "secondary_differing_arms": {},
+  "seventh_separate_approval": null,
+  "task_complete": {
+    "news": true,
+    "notice": true
+  },
+  "task_reasons": {
+    "news": null,
+    "notice": null
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "bootstrap_artifact": {
+    "bytes": 527958,
+    "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/R2_STATE/scored/news__SECONDARY__LEAR__M.npz",
+    "sha256": "fa86313eaa4696ad7f1e8de9ba4eb9546dd93963f06729304c64276b85b31f74"
+  },
+  "date_gaps": [],
+  "equivalence_test": "NOT_SPECIFIED",
+  "primary_confirmation": false,
+  "reports": [
+    {
+      "arm": "LEAR",
+      "bootstrap": {
+        "1": {
+          "bootstrap_nonpositive_effect_count": 2000,
+          "effect_percent_reference_mae": -19.25091378065198,
+          "finite_draws": 2000,
+          "interval95_percent": [
+            -23.826058580947688,
+            -14.726365152052677
+          ],
+          "monte_carlo_resolution": 0.0005,
+          "reference_mae": 23.925301303977214,
+          "undefined_draws": 0
+        },
+        "7": {
+          "bootstrap_nonpositive_effect_count": 2000,
+          "effect_percent_reference_mae": -19.25091378065198,
+          "finite_draws": 2000,
+          "interval95_percent": [
+            -23.723922598379847,
+            -14.904047871736967
+          ],
+          "monte_carlo_resolution": 0.0005,
+          "reference_mae": 23.925301303977214,
+          "undefined_draws": 0
+        }
+      },
+      "dm_hac7": {
+        "mean_difference": -4.605839125789857,
+        "n_days": 135,
+        "p_deterioration": 0.9999999999811829,
+        "p_improvement": 1.881700975779711e-11,
+        "p_two_sided": 3.763401951559422e-11,
+        "state": "DEFINED",
+        "statistic": -6.613105438422774,
+        "variance": 65.48478466482558
+      },
+      "dm_p1": {
+        "mean_difference": -4.605839125789857,
+        "n_days": 135,
+        "p_deterioration": 0.9999999999929972,
+        "p_improvement": 7.002848660667331e-12,
+        "p_two_sided": 1.4005697321334661e-11,
+        "state": "DEFINED",
+        "statistic": -6.757847350466332,
+        "variance": 62.70967398043621
+      },
+      "reference": "M",
+      "status": "SECONDARY_ONLY"
+    }
+  ]
+}

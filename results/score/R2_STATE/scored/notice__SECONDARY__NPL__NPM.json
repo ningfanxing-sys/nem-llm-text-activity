@@ -1,0 +1,63 @@
+{
+  "bootstrap_artifact": {
+    "bytes": 217421,
+    "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/R2_STATE/scored/notice__SECONDARY__NPL__NPM.npz",
+    "sha256": "413522fccb1d00a79bc9a60418fc6102ee8263b1e91ced357ed8dc235f667d34"
+  },
+  "date_gaps": [],
+  "equivalence_test": "NOT_SPECIFIED",
+  "primary_confirmation": false,
+  "reports": [
+    {
+      "arm": "NPL",
+      "bootstrap": {
+        "1": {
+          "bootstrap_nonpositive_effect_count": 1996,
+          "effect_percent_reference_mae": -0.15956299680246144,
+          "finite_draws": 2000,
+          "interval95_percent": [
+            -0.25870037648257443,
+            -0.055430664252846325
+          ],
+          "monte_carlo_resolution": 0.0005,
+          "reference_mae": 9.047986644204174,
+          "undefined_draws": 0
+        },
+        "7": {
+          "bootstrap_nonpositive_effect_count": 1999,
+          "effect_percent_reference_mae": -0.15956299680246144,
+          "finite_draws": 2000,
+          "interval95_percent": [
+            -0.28638832379910495,
+            -0.0600035238517315
+          ],
+          "monte_carlo_resolution": 0.0005,
+          "reference_mae": 9.047986644204174,
+          "undefined_draws": 0
+        }
+      },
+      "dm_hac7": {
+        "mean_difference": -0.014437238639778645,
+        "n_days": 61,
+        "p_deterioration": 0.9964072237261344,
+        "p_improvement": 0.0035927762738656123,
+        "p_two_sided": 0.0071855525477312245,
+        "state": "DEFINED",
+        "statistic": -2.688120201486552,
+        "variance": 0.0017595464495673396
+      },
+      "dm_p1": {
+        "mean_difference": -0.014437238639778645,
+        "n_days": 61,
+        "p_deterioration": 0.9988550364264248,
+        "p_improvement": 0.0011449635735751678,
+        "p_two_sided": 0.0022899271471503355,
+        "state": "DEFINED",
+        "statistic": -3.0498014276476746,
+        "variance": 0.001366957394444837
+      },
+      "reference": "NPM",
+      "status": "SECONDARY_ONLY"
+    }
+  ]
+}

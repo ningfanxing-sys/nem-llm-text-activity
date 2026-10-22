@@ -1,0 +1,5 @@
+__pycache__/
+*.py[cod]
+.recovered-*/
+figures_rebuilt/
+.DS_Store

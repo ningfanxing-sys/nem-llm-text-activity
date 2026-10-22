@@ -1,0 +1,636 @@
+{
+  "source_root": "paper_plan/paper/dayfirst_analysis",
+  "description": "Source identities and included file hashes for the forecasting and scoring material. Portable records retain the original digest.",
+  "files": [
+    {
+      "source": "paper_plan/paper/dayfirst_analysis/DECISIONS.json",
+      "destination": "dayfirst/DECISIONS.json",
+      "original_sha256": "76c5528628b67979737c3731bc9ea026f3c640c1f0d0ef121ebe31720d10612c",
+      "sha256": "76c5528628b67979737c3731bc9ea026f3c640c1f0d0ef121ebe31720d10612c",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/dayfirst_analysis/DIFFERENCES.md",
+      "destination": "dayfirst/DIFFERENCES.md",
+      "original_sha256": "3bc8d5de67c31652af14351272c37d4cf74cf74a6d18c88f7d9b44b20b8bd3f9",
+      "sha256": "721548a267c84200bde59a945ee99df58839d6d35d6be32bed2de89dbb585459",
+      "byte_identical": false
+    },
+    {
+      "source": "paper_plan/paper/dayfirst_analysis/EQUIVALENCE.json",
+      "destination": "dayfirst/EQUIVALENCE.json",
+      "original_sha256": "50c245fad302fbe1d9829d449fa1a563a4b592f7ebff3b0359c2a6520f5a2870",
+      "sha256": "4a6ba63592012d3c9252db54227c26e9dc957c43567d745eb9d89336ae4b7cd4",
+      "byte_identical": false
+    },
+    {
+      "source": "paper_plan/paper/dayfirst_analysis/FEATURE_CHANGES.json",
+      "destination": "dayfirst/FEATURE_CHANGES.json",
+      "original_sha256": "38dbeb155d24c0d54bd310973c687042084449aa41adecd3d49701841270f263",
+      "sha256": "47d62b6413ad07b673571af1ca88e1ba83d83249beea4043c6d658e38065600d",
+      "byte_identical": false
+    },
+    {
+      "source": "paper_plan/paper/dayfirst_analysis/MODEL_INVENTORY.csv",
+      "destination": "dayfirst/MODEL_INVENTORY.csv",
+      "original_sha256": "cf4713d3fb084c427cb7351c4a36728171876984654c21c39085f998de9c9eb3",
+      "sha256": "c33bc61fb4a6418a82c9c17471af9373a94347f81fa71ff8755dced17661b36c",
+      "byte_identical": false
+    },
+    {
+      "source": "paper_plan/paper/dayfirst_analysis/OFFICIAL_BASELINE_EQUIVALENCE.json",
+      "destination": "dayfirst/OFFICIAL_BASELINE_EQUIVALENCE.json",
+      "original_sha256": "1eea4d68dfed31883252fe5781f592c6d37e383dcff24054b0cb9380c9fcd71e",
+      "sha256": "1eea4d68dfed31883252fe5781f592c6d37e383dcff24054b0cb9380c9fcd71e",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/dayfirst_analysis/OFFICIAL_DAYFIRST.json",
+      "destination": "dayfirst/OFFICIAL_DAYFIRST.json",
+      "original_sha256": "42d6a09a377a933e61d59b1ae24bbe3365e0bbf9fdefd69be22bff67e944a879",
+      "sha256": "42d6a09a377a933e61d59b1ae24bbe3365e0bbf9fdefd69be22bff67e944a879",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/dayfirst_analysis/OFFICIAL_SPECS.json",
+      "destination": "dayfirst/OFFICIAL_SPECS.json",
+      "original_sha256": "06c11973b408272594b85e23957c5fe94759bfca8db34c69ef208fd0977b66dc",
+      "sha256": "06c11973b408272594b85e23957c5fe94759bfca8db34c69ef208fd0977b66dc",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/dayfirst_analysis/OFFICIAL_UNAVAILABLE_UNCHANGED.json",
+      "destination": "dayfirst/OFFICIAL_UNAVAILABLE_UNCHANGED.json",
+      "original_sha256": "be7bdb39dd6e164f7291281c21f6e239295d227af93dd51511d021528172858f",
+      "sha256": "744801ded5b25cc6abf6fe793c05e5e30b3f15683b858c78190a351ba643335c",
+      "byte_identical": false
+    },
+    {
+      "source": "paper_plan/paper/dayfirst_analysis/INPUT_RECORDS.json",
+      "destination": "dayfirst/INPUT_RECORDS.json",
+      "original_sha256": "548e2e6f4852652c931f18376ef793850d5f9ac6907ecff5a6db924022492f3e",
+      "sha256": "ff43b394d05788d5b984571e8034639db5fdb060586174913299dfad6dff5e10",
+      "byte_identical": false
+    },
+    {
+      "source": "paper_plan/paper/dayfirst_analysis/POSTHOC_BOOTSTRAP_SPECS.json",
+      "destination": "dayfirst/POSTHOC_BOOTSTRAP_SPECS.json",
+      "original_sha256": "20c542b8eb810dfd3acf9c53f655f709628a0efce9be101a3636bdb05e6853b7",
+      "sha256": "7efdd0dd621ad87ef559d9ef497bd013e55b19b369b21ef1470e083c2794e4d4",
+      "byte_identical": false
+    },
+    {
+      "source": "paper_plan/paper/dayfirst_analysis/PREDICTIONS.json",
+      "destination": "dayfirst/PREDICTIONS.json",
+      "original_sha256": "a0a48301eb923def8b9d06e2525d6d87ec4245b7df7efe9fc8c261ab4055b906",
+      "sha256": "ca98cc3f9abfdbce9d15db60adab378c50dff99105c992621dfd7ec0daca09d7",
+      "byte_identical": false
+    },
+    {
+      "source": "paper_plan/paper/dayfirst_analysis/README.md",
+      "destination": "dayfirst/README.md",
+      "original_sha256": "3571ef14f201ee808d5dbc8312b781cf6b5f34cfe2f307bafd55877c326acee6",
+      "sha256": "b16d0390c51c472b4fc31b80bfdf45406b6318a4f8c2b1953ceeead02b6abbcc",
+      "byte_identical": false
+    },
+    {
+      "source": "paper_plan/paper/dayfirst_analysis/SCORING_COMPLETE.json",
+      "destination": "dayfirst/SCORING_COMPLETE.json",
+      "original_sha256": "4963d07b5774643e969bcc38516a73bff31ecc2afb850b4e0873c185573eee33",
+      "sha256": "4963d07b5774643e969bcc38516a73bff31ecc2afb850b4e0873c185573eee33",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/dayfirst_analysis/SCORING_INPUTS.json",
+      "destination": "dayfirst/SCORING_INPUTS.json",
+      "original_sha256": "f6fc9af83e0ad6110122a85b9d71cca757cdbb9ab50c45930448378c944974d4",
+      "sha256": "04da7f17287dc9bdf745feb36291b27aacebaee16c65cdf93b6050317c589ef1",
+      "byte_identical": false
+    },
+    {
+      "source": "paper_plan/paper/dayfirst_analysis/SEAL_POSTHOC_DAYFIRST.json",
+      "destination": "dayfirst/SEAL_POSTHOC_DAYFIRST.json",
+      "original_sha256": "e4daab1ad2752361fd988a996bb0a99ddc761fc59e72c47cc357834096115a80",
+      "sha256": "8a4a60a2e86903b6f2cff623fa6b5bd3446cbf2c849caa2354e8da7c138b671d",
+      "byte_identical": false
+    },
+    {
+      "source": "paper_plan/paper/dayfirst_analysis/TRUTH_DELIVERY.json",
+      "destination": "dayfirst/TRUTH_DELIVERY.json",
+      "original_sha256": "b2c1c781274e8b3291c8b85e2002f90b37e385717a40bfe72447fbb7d42ed0d4",
+      "sha256": "dd758a2faf30f4a03c821db874d7b8772f9bff1be6922d55ff6136a664e47492",
+      "byte_identical": false
+    },
+    {
+      "source": "paper_plan/paper/dayfirst_analysis/code/equivalence.py",
+      "destination": "dayfirst/code/equivalence.py",
+      "original_sha256": "6899d98e57e62729c1f3af23df361da23a9cae2a7c834fcda52f2a6c5b64a582",
+      "sha256": "6899d98e57e62729c1f3af23df361da23a9cae2a7c834fcda52f2a6c5b64a582",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/dayfirst_analysis/code/official_scoring.py",
+      "destination": "dayfirst/code/official_scoring.py",
+      "original_sha256": "b4ab64f742b4b9c5786d23acb2d37dad68cb4cd4f037047a79517bbc68234dff",
+      "sha256": "b4ab64f742b4b9c5786d23acb2d37dad68cb4cd4f037047a79517bbc68234dff",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/dayfirst_analysis/code/predict_dayfirst.py",
+      "destination": "dayfirst/code/predict_dayfirst.py",
+      "original_sha256": "634cf28b4ba0850f6414ee3b42f0458cac92a5e5b787797791c11aaf293f6b2c",
+      "sha256": "c8920ee4dcb7cd6a8c51b9937fd81e5f78ef9899b6f5224d553bba5c0af4a3cd",
+      "byte_identical": false
+    },
+    {
+      "source": "paper_plan/paper/dayfirst_analysis/code/projection_gate.py",
+      "destination": "dayfirst/code/projection_gate.py",
+      "original_sha256": "89d1abd813afe642e0e782411149236af97c06f7fb4d5a449b3830a6e8c3b148",
+      "sha256": "da705ad53cb0a4694e62f7017d58d6c34c11832e75e0a088cc59a9a2b8a102b1",
+      "byte_identical": false
+    },
+    {
+      "source": "paper_plan/paper/dayfirst_analysis/code/run_scoring.py",
+      "destination": "dayfirst/code/run_scoring.py",
+      "original_sha256": "765bb2e95187887b5f96bb4b57d7a51b4077bef5fc182f85919d0980d8c29679",
+      "sha256": "48e4e35c081a69c74a8321dfc92cc85306593adc35c30bfef5947f85e0525186",
+      "byte_identical": false
+    },
+    {
+      "source": "paper_plan/paper/dayfirst_analysis/code/score_dayfirst.py",
+      "destination": "dayfirst/code/score_dayfirst.py",
+      "original_sha256": "a601de56bc7441d588064edb94c0e26981e7ec73e2affe0dfa8938f3f1d860d6",
+      "sha256": "adae4896b320252fc2551e6e3c02862fdd92d1665f1c67fa7048feb3c84cebd6",
+      "byte_identical": false
+    },
+    {
+      "source": "paper_plan/paper/dayfirst_analysis/predictions/SHA256SUMS",
+      "destination": "dayfirst/predictions/SHA256SUMS",
+      "original_sha256": "dfe11ca5a38e3336c953a5659039326a3c3e8144b42db5f190a011ea27bd7abb",
+      "sha256": "dfe11ca5a38e3336c953a5659039326a3c3e8144b42db5f190a011ea27bd7abb",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/dayfirst_analysis/predictions/delays/mode1__L14__dayfirst_delay15.parquet",
+      "destination": "dayfirst/predictions/delays/mode1__L14__dayfirst_delay15.parquet",
+      "original_sha256": "4b3cf3fa6a437ca33c4feca951ab4ebd9a8329c3671292eee5932ad85e75fd84",
+      "sha256": "4b3cf3fa6a437ca33c4feca951ab4ebd9a8329c3671292eee5932ad85e75fd84",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/dayfirst_analysis/predictions/delays/mode1__L14__dayfirst_delay5.parquet",
+      "destination": "dayfirst/predictions/delays/mode1__L14__dayfirst_delay5.parquet",
+      "original_sha256": "866267932349ecc6e293726fe251ceab788bd940e6b85b321e1821fd52cd0c40",
+      "sha256": "866267932349ecc6e293726fe251ceab788bd940e6b85b321e1821fd52cd0c40",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/dayfirst_analysis/predictions/delays/mode1__L14__dayfirst_delay60.parquet",
+      "destination": "dayfirst/predictions/delays/mode1__L14__dayfirst_delay60.parquet",
+      "original_sha256": "42873ca2904afacee100873180502bf9dcfb82935def954635c3db496a6f05f0",
+      "sha256": "42873ca2904afacee100873180502bf9dcfb82935def954635c3db496a6f05f0",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/dayfirst_analysis/predictions/delays/mode1__L_Laz__dayfirst_delay15.parquet",
+      "destination": "dayfirst/predictions/delays/mode1__L_Laz__dayfirst_delay15.parquet",
+      "original_sha256": "f9f23be83ed05b94a1a18b766d8591c62073f0bf144504c038aca555c82a76db",
+      "sha256": "f9f23be83ed05b94a1a18b766d8591c62073f0bf144504c038aca555c82a76db",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/dayfirst_analysis/predictions/delays/mode1__L_Laz__dayfirst_delay5.parquet",
+      "destination": "dayfirst/predictions/delays/mode1__L_Laz__dayfirst_delay5.parquet",
+      "original_sha256": "b170894bd1eb6717902cb7f7be94832c59d46b304377a57ff8c993fb3435afe5",
+      "sha256": "b170894bd1eb6717902cb7f7be94832c59d46b304377a57ff8c993fb3435afe5",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/dayfirst_analysis/predictions/delays/mode1__L_Laz__dayfirst_delay60.parquet",
+      "destination": "dayfirst/predictions/delays/mode1__L_Laz__dayfirst_delay60.parquet",
+      "original_sha256": "58aaa9a66ef5db014f0e23c37fad8b5a11ccea9a71a81b6cd8604173dd5a18fc",
+      "sha256": "58aaa9a66ef5db014f0e23c37fad8b5a11ccea9a71a81b6cd8604173dd5a18fc",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/dayfirst_analysis/predictions/delays/mode2__L14+__dayfirst_delay15.parquet",
+      "destination": "dayfirst/predictions/delays/mode2__L14+__dayfirst_delay15.parquet",
+      "original_sha256": "6afb19659c6b0198bc2678a99b4b5dc8893ac26f7a8521e2aae7119c10914070",
+      "sha256": "6afb19659c6b0198bc2678a99b4b5dc8893ac26f7a8521e2aae7119c10914070",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/dayfirst_analysis/predictions/delays/mode2__L14+__dayfirst_delay5.parquet",
+      "destination": "dayfirst/predictions/delays/mode2__L14+__dayfirst_delay5.parquet",
+      "original_sha256": "da8852a0553079a680061ead3553696a7971a703c880faf6fcf76b5c8c8b3a7b",
+      "sha256": "da8852a0553079a680061ead3553696a7971a703c880faf6fcf76b5c8c8b3a7b",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/dayfirst_analysis/predictions/delays/mode2__L14+__dayfirst_delay60.parquet",
+      "destination": "dayfirst/predictions/delays/mode2__L14+__dayfirst_delay60.parquet",
+      "original_sha256": "208e3930a26f46cf0107e3fa8715c77a60da27c90893486b99f2e41ae963ec74",
+      "sha256": "208e3930a26f46cf0107e3fa8715c77a60da27c90893486b99f2e41ae963ec74",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/dayfirst_analysis/predictions/delays/mode2__L_Laz+__dayfirst_delay15.parquet",
+      "destination": "dayfirst/predictions/delays/mode2__L_Laz+__dayfirst_delay15.parquet",
+      "original_sha256": "415e3102f8d8b3460b4416e69cb7dfefcbdfc9eb5b917dbb947f42fc2e989ba4",
+      "sha256": "415e3102f8d8b3460b4416e69cb7dfefcbdfc9eb5b917dbb947f42fc2e989ba4",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/dayfirst_analysis/predictions/delays/mode2__L_Laz+__dayfirst_delay5.parquet",
+      "destination": "dayfirst/predictions/delays/mode2__L_Laz+__dayfirst_delay5.parquet",
+      "original_sha256": "441261cb81d3006e380eba7e7f9d130ec7c54a96de107abf69bd0824a7fcdc11",
+      "sha256": "441261cb81d3006e380eba7e7f9d130ec7c54a96de107abf69bd0824a7fcdc11",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/dayfirst_analysis/predictions/delays/mode2__L_Laz+__dayfirst_delay60.parquet",
+      "destination": "dayfirst/predictions/delays/mode2__L_Laz+__dayfirst_delay60.parquet",
+      "original_sha256": "18614840d5835e711a1fe57587566f98d1968ea2430ae51d866edebdca7a75d1",
+      "sha256": "18614840d5835e711a1fe57587566f98d1968ea2430ae51d866edebdca7a75d1",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/dayfirst_analysis/predictions/official/notice__prewindow_frozen_C_bank__L14__s20260919__main.predictions.parquet",
+      "destination": "dayfirst/predictions/official/notice__prewindow_frozen_C_bank__L14__s20260919__main.predictions.parquet",
+      "original_sha256": "b03709be60ec2036b2a7c0db0fb01131882a7ebcd7ae3749ad2d224df5470bf8",
+      "sha256": "b03709be60ec2036b2a7c0db0fb01131882a7ebcd7ae3749ad2d224df5470bf8",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/dayfirst_analysis/predictions/official/notice__prewindow_frozen_C_bank__L14__s20260920__main.predictions.parquet",
+      "destination": "dayfirst/predictions/official/notice__prewindow_frozen_C_bank__L14__s20260920__main.predictions.parquet",
+      "original_sha256": "809babdd6d965b4e6900c60e3542879dfec64abf1d7fc178e51c24ebd8186a76",
+      "sha256": "809babdd6d965b4e6900c60e3542879dfec64abf1d7fc178e51c24ebd8186a76",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/dayfirst_analysis/predictions/official/notice__prewindow_frozen_C_bank__L14__s20260921__main.predictions.parquet",
+      "destination": "dayfirst/predictions/official/notice__prewindow_frozen_C_bank__L14__s20260921__main.predictions.parquet",
+      "original_sha256": "6e8b2bcfae8f620f3288f3201fafb7e9269cc04645873affc4befadbca768d87",
+      "sha256": "6e8b2bcfae8f620f3288f3201fafb7e9269cc04645873affc4befadbca768d87",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/dayfirst_analysis/predictions/official/notice__prewindow_frozen_C_bank__L_Laz__s20260919__main.predictions.parquet",
+      "destination": "dayfirst/predictions/official/notice__prewindow_frozen_C_bank__L_Laz__s20260919__main.predictions.parquet",
+      "original_sha256": "63ce3427e071ff3ec0a75d2e93aa6aca58f8f96f53510804ff1c06c42ddea940",
+      "sha256": "63ce3427e071ff3ec0a75d2e93aa6aca58f8f96f53510804ff1c06c42ddea940",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/dayfirst_analysis/predictions/official/notice__prewindow_frozen_C_bank__L_Laz__s20260920__main.predictions.parquet",
+      "destination": "dayfirst/predictions/official/notice__prewindow_frozen_C_bank__L_Laz__s20260920__main.predictions.parquet",
+      "original_sha256": "dec18970e4662007e0da00b7a50a1f4c22f4884568ea4e3b8bffecc73203fd66",
+      "sha256": "dec18970e4662007e0da00b7a50a1f4c22f4884568ea4e3b8bffecc73203fd66",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/dayfirst_analysis/predictions/official/notice__prewindow_frozen_C_bank__L_Laz__s20260921__main.predictions.parquet",
+      "destination": "dayfirst/predictions/official/notice__prewindow_frozen_C_bank__L_Laz__s20260921__main.predictions.parquet",
+      "original_sha256": "9c403cf6fbf49843635f7c5c78e04637cabd7cb6340438870a47e75c0103011b",
+      "sha256": "9c403cf6fbf49843635f7c5c78e04637cabd7cb6340438870a47e75c0103011b",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/dayfirst_analysis/predictions/official/notice__prewindow_frozen_C_bank__NPL__s20260919__main.predictions.parquet",
+      "destination": "dayfirst/predictions/official/notice__prewindow_frozen_C_bank__NPL__s20260919__main.predictions.parquet",
+      "original_sha256": "889dc66e85a156af38034767e36c0bbc082de6d6cc283988db3b8eac5018c06f",
+      "sha256": "889dc66e85a156af38034767e36c0bbc082de6d6cc283988db3b8eac5018c06f",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/dayfirst_analysis/predictions/official/notice__prewindow_frozen_C_bank__NPP__s20260919__main.predictions.parquet",
+      "destination": "dayfirst/predictions/official/notice__prewindow_frozen_C_bank__NPP__s20260919__main.predictions.parquet",
+      "original_sha256": "7be1d68b936831c61814b7a7d61f3001c243422db9bd6a3f1259a6db0e5d8886",
+      "sha256": "7be1d68b936831c61814b7a7d61f3001c243422db9bd6a3f1259a6db0e5d8886",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/dayfirst_analysis/predictions/official/notice__prewindow_frozen_C_bank__R__s20260919__main.predictions.parquet",
+      "destination": "dayfirst/predictions/official/notice__prewindow_frozen_C_bank__R__s20260919__main.predictions.parquet",
+      "original_sha256": "ddd7b7258813740b8ae1163d066e8f6a892425c7d7c7e4fd951641ac9c3aecc0",
+      "sha256": "ddd7b7258813740b8ae1163d066e8f6a892425c7d7c7e4fd951641ac9c3aecc0",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/dayfirst_analysis/predictions/windowed_activity/notice__prewindow_frozen_C_bank__L14+__s20260919__main.predictions.parquet",
+      "destination": "dayfirst/predictions/windowed_activity/notice__prewindow_frozen_C_bank__L14+__s20260919__main.predictions.parquet",
+      "original_sha256": "0c2c1f21011f1eafc2f19e5247e3e07fd56cd3378aac14badf05b714d5fedf05",
+      "sha256": "0c2c1f21011f1eafc2f19e5247e3e07fd56cd3378aac14badf05b714d5fedf05",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/dayfirst_analysis/predictions/windowed_activity/notice__prewindow_frozen_C_bank__L_Laz+__s20260919__main.predictions.parquet",
+      "destination": "dayfirst/predictions/windowed_activity/notice__prewindow_frozen_C_bank__L_Laz+__s20260919__main.predictions.parquet",
+      "original_sha256": "8b7860b2468bdf258a267c6dac53a8d8784199c7dad81f39581016b48b7f9276",
+      "sha256": "8b7860b2468bdf258a267c6dac53a8d8784199c7dad81f39581016b48b7f9276",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/dayfirst_analysis/predictions/w24/notice__prewindow_frozen_C_bank__L14__s20260919__main.predictions.parquet",
+      "destination": "dayfirst/predictions/w24/notice__prewindow_frozen_C_bank__L14__s20260919__main.predictions.parquet",
+      "original_sha256": "11cacfece4d53acdafb7344d939d9dc87ddc2bed2b52140d38d76bb6cf27c34c",
+      "sha256": "11cacfece4d53acdafb7344d939d9dc87ddc2bed2b52140d38d76bb6cf27c34c",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/dayfirst_analysis/predictions/w24/notice__prewindow_frozen_C_bank__L14__s20260920__main.predictions.parquet",
+      "destination": "dayfirst/predictions/w24/notice__prewindow_frozen_C_bank__L14__s20260920__main.predictions.parquet",
+      "original_sha256": "eee8afa82843b339376617f41fc2feac09d550707170f7b6ee1e2562cfe98c05",
+      "sha256": "eee8afa82843b339376617f41fc2feac09d550707170f7b6ee1e2562cfe98c05",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/dayfirst_analysis/predictions/w24/notice__prewindow_frozen_C_bank__L14__s20260921__main.predictions.parquet",
+      "destination": "dayfirst/predictions/w24/notice__prewindow_frozen_C_bank__L14__s20260921__main.predictions.parquet",
+      "original_sha256": "27813209fa872425e5cd9c0f1247c5c5e16b9868f21625d683f1d8967285df30",
+      "sha256": "27813209fa872425e5cd9c0f1247c5c5e16b9868f21625d683f1d8967285df30",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/dayfirst_analysis/predictions/w24/notice__prewindow_frozen_C_bank__L_Laz__s20260919__main.predictions.parquet",
+      "destination": "dayfirst/predictions/w24/notice__prewindow_frozen_C_bank__L_Laz__s20260919__main.predictions.parquet",
+      "original_sha256": "ec5d6fd731e7616da4b1382c4ebe8038bf9851c3c7644f83a74834defb71c553",
+      "sha256": "ec5d6fd731e7616da4b1382c4ebe8038bf9851c3c7644f83a74834defb71c553",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/dayfirst_analysis/predictions/w24/notice__prewindow_frozen_C_bank__L_Laz__s20260920__main.predictions.parquet",
+      "destination": "dayfirst/predictions/w24/notice__prewindow_frozen_C_bank__L_Laz__s20260920__main.predictions.parquet",
+      "original_sha256": "44065fd0b59a9c6d2ea43212e3f8d4ec59bbe6a01bccd5b009d1347f49394bde",
+      "sha256": "44065fd0b59a9c6d2ea43212e3f8d4ec59bbe6a01bccd5b009d1347f49394bde",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/dayfirst_analysis/predictions/w24/notice__prewindow_frozen_C_bank__L_Laz__s20260921__main.predictions.parquet",
+      "destination": "dayfirst/predictions/w24/notice__prewindow_frozen_C_bank__L_Laz__s20260921__main.predictions.parquet",
+      "original_sha256": "cf7caa2af3a7b68b5f0e1ea1aa27e9dd0afbc3a39545d5cf7d2351c8b089f6c8",
+      "sha256": "cf7caa2af3a7b68b5f0e1ea1aa27e9dd0afbc3a39545d5cf7d2351c8b089f6c8",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/dayfirst_analysis/predictions/w7/notice__prewindow_frozen_C_bank__L14__s20260919__main.predictions.parquet",
+      "destination": "dayfirst/predictions/w7/notice__prewindow_frozen_C_bank__L14__s20260919__main.predictions.parquet",
+      "original_sha256": "3bb779cc148f6ed52041d1f25dec367c78c39da0ec5140e1f3c7293aaf2e9b46",
+      "sha256": "3bb779cc148f6ed52041d1f25dec367c78c39da0ec5140e1f3c7293aaf2e9b46",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/dayfirst_analysis/predictions/w7/notice__prewindow_frozen_C_bank__L14__s20260920__main.predictions.parquet",
+      "destination": "dayfirst/predictions/w7/notice__prewindow_frozen_C_bank__L14__s20260920__main.predictions.parquet",
+      "original_sha256": "27a71180dbb23b4b329838046def61e184f7180083a9f607b86fdc5ba4c0b1cc",
+      "sha256": "27a71180dbb23b4b329838046def61e184f7180083a9f607b86fdc5ba4c0b1cc",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/dayfirst_analysis/predictions/w7/notice__prewindow_frozen_C_bank__L14__s20260921__main.predictions.parquet",
+      "destination": "dayfirst/predictions/w7/notice__prewindow_frozen_C_bank__L14__s20260921__main.predictions.parquet",
+      "original_sha256": "7b527393e40315797716f99d8a3e51a1b3bce7ef1a93a08bce757ed1c3e255a3",
+      "sha256": "7b527393e40315797716f99d8a3e51a1b3bce7ef1a93a08bce757ed1c3e255a3",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/dayfirst_analysis/predictions/w7/notice__prewindow_frozen_C_bank__L_Laz__s20260919__main.predictions.parquet",
+      "destination": "dayfirst/predictions/w7/notice__prewindow_frozen_C_bank__L_Laz__s20260919__main.predictions.parquet",
+      "original_sha256": "04dc2e718ae9afbdf4aa115d975842f8c977050d6ecd21d0a358231545842b56",
+      "sha256": "04dc2e718ae9afbdf4aa115d975842f8c977050d6ecd21d0a358231545842b56",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/dayfirst_analysis/predictions/w7/notice__prewindow_frozen_C_bank__L_Laz__s20260920__main.predictions.parquet",
+      "destination": "dayfirst/predictions/w7/notice__prewindow_frozen_C_bank__L_Laz__s20260920__main.predictions.parquet",
+      "original_sha256": "4c9e7bbe45359094454396b65f232f7d3970536cb0a7e1b6bd5716772d9aa912",
+      "sha256": "4c9e7bbe45359094454396b65f232f7d3970536cb0a7e1b6bd5716772d9aa912",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/dayfirst_analysis/predictions/w7/notice__prewindow_frozen_C_bank__L_Laz__s20260921__main.predictions.parquet",
+      "destination": "dayfirst/predictions/w7/notice__prewindow_frozen_C_bank__L_Laz__s20260921__main.predictions.parquet",
+      "original_sha256": "3aa4b709f61543b0a2e0f83b23c70e25547fe7783efe3e955d756ca23f17a8fb",
+      "sha256": "3aa4b709f61543b0a2e0f83b23c70e25547fe7783efe3e955d756ca23f17a8fb",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/dayfirst_analysis/results/analysis1_comparisons.csv",
+      "destination": "dayfirst/results/analysis1_comparisons.csv",
+      "original_sha256": "9a5a9ec3aafc187bd3fb057e6656c05d28c8804795319fef56802bfdc1aa90ba",
+      "sha256": "9a5a9ec3aafc187bd3fb057e6656c05d28c8804795319fef56802bfdc1aa90ba",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/dayfirst_analysis/results/analysis2_comparisons.csv",
+      "destination": "dayfirst/results/analysis2_comparisons.csv",
+      "original_sha256": "b146e39574f203a067744fc094fb956299ddf5f30d86f0cb6afef84cfdfdc736",
+      "sha256": "b146e39574f203a067744fc094fb956299ddf5f30d86f0cb6afef84cfdfdc736",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/dayfirst_analysis/results/daily_losses.csv",
+      "destination": "dayfirst/results/daily_losses.csv",
+      "original_sha256": "05d7625a9cb333379d11c3ae5cc58a42bb8fbb3660ba0cb1c109b8021c514239",
+      "sha256": "05d7625a9cb333379d11c3ae5cc58a42bb8fbb3660ba0cb1c109b8021c514239",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/dayfirst_analysis/results/figure3_values.csv",
+      "destination": "dayfirst/results/figure3_values.csv",
+      "original_sha256": "1519994a9857ddb6468d986329a3701109fb55e7475ec8f9b7cbb41d8f82783b",
+      "sha256": "1519994a9857ddb6468d986329a3701109fb55e7475ec8f9b7cbb41d8f82783b",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/dayfirst_analysis/results/figure4_daily_values.csv",
+      "destination": "dayfirst/results/figure4_daily_values.csv",
+      "original_sha256": "fc1489c5e7249534666ef25e8288b7591969503e7654f131e837f2fdb8406272",
+      "sha256": "fc1489c5e7249534666ef25e8288b7591969503e7654f131e837f2fdb8406272",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/dayfirst_analysis/results/fit_resources.csv",
+      "destination": "dayfirst/results/fit_resources.csv",
+      "original_sha256": "141173617fee5299c32a015f4d2572c7a69307d0d98088b9b2089d9dd5d2884c",
+      "sha256": "141173617fee5299c32a015f4d2572c7a69307d0d98088b9b2089d9dd5d2884c",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/dayfirst_analysis/results/official_comparison_changes.csv",
+      "destination": "dayfirst/results/official_comparison_changes.csv",
+      "original_sha256": "7e2f9e49cd7c2a3a4a306e4eb42591e274025a85a2fd9fbfa59ba0d32d11389f",
+      "sha256": "7e2f9e49cd7c2a3a4a306e4eb42591e274025a85a2fd9fbfa59ba0d32d11389f",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/dayfirst_analysis/results/official_comparisons.csv",
+      "destination": "dayfirst/results/official_comparisons.csv",
+      "original_sha256": "b8502e99cbdc799c4a81a679d16a63afc044f36fca644f52ce025fceb6de9b2b",
+      "sha256": "b8502e99cbdc799c4a81a679d16a63afc044f36fca644f52ce025fceb6de9b2b",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/dayfirst_analysis/results/official_unavailable.csv",
+      "destination": "dayfirst/results/official_unavailable.csv",
+      "original_sha256": "9901fb2790938641dc7f9cb74a835c62b3eee56d2d3909e4312faf101af6b406",
+      "sha256": "9901fb2790938641dc7f9cb74a835c62b3eee56d2d3909e4312faf101af6b406",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/dayfirst_analysis/results/placebo_comparisons.csv",
+      "destination": "dayfirst/results/placebo_comparisons.csv",
+      "original_sha256": "ae0a8ed8430306091dfd19a2f93e42c15549e712e0ad88375d9f698a641acc1a",
+      "sha256": "ae0a8ed8430306091dfd19a2f93e42c15549e712e0ad88375d9f698a641acc1a",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/dayfirst_analysis/results/posthoc_comparison_changes.csv",
+      "destination": "dayfirst/results/posthoc_comparison_changes.csv",
+      "original_sha256": "689ea3aac9016f309e6aa98707bbe03704eed050cb417dcab614d932c3e188bc",
+      "sha256": "689ea3aac9016f309e6aa98707bbe03704eed050cb417dcab614d932c3e188bc",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/dayfirst_analysis/results/posthoc_intervals_both_blocks.csv",
+      "destination": "dayfirst/results/posthoc_intervals_both_blocks.csv",
+      "original_sha256": "6b46c44c75c47b20f702c44c34217fbbbae95e0886070621c4ec2c59148c1d78",
+      "sha256": "6b46c44c75c47b20f702c44c34217fbbbae95e0886070621c4ec2c59148c1d78",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/dayfirst_analysis/results/prediction_changes.csv",
+      "destination": "dayfirst/results/prediction_changes.csv",
+      "original_sha256": "e9326b16c56af3a9058a8230e242aef634bbf82b0979e5cb1c6c87dd83bb8ed3",
+      "sha256": "e9326b16c56af3a9058a8230e242aef634bbf82b0979e5cb1c6c87dd83bb8ed3",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/dayfirst_analysis/results/reversals.csv",
+      "destination": "dayfirst/results/reversals.csv",
+      "original_sha256": "e5d4f20464f0f3da8ba3a54a35a44ba104b7b3b10bb160697139477c538a9ff3",
+      "sha256": "e5d4f20464f0f3da8ba3a54a35a44ba104b7b3b10bb160697139477c538a9ff3",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/dayfirst_analysis/results/robust_notice_gains.csv",
+      "destination": "dayfirst/results/robust_notice_gains.csv",
+      "original_sha256": "aa3c959cac00dbf62aaf0b4a15ad85f4ec9553eab2d42dc2df2289ec712ef4bc",
+      "sha256": "aa3c959cac00dbf62aaf0b4a15ad85f4ec9553eab2d42dc2df2289ec712ef4bc",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/dayfirst_analysis/results/robust_reversals.csv",
+      "destination": "dayfirst/results/robust_reversals.csv",
+      "original_sha256": "f24626cdaba7339367f90d3e7f6729663c6de54cf0315727927b58b52ea81811",
+      "sha256": "f24626cdaba7339367f90d3e7f6729663c6de54cf0315727927b58b52ea81811",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/dayfirst_analysis/results/stage_resources.csv",
+      "destination": "dayfirst/results/stage_resources.csv",
+      "original_sha256": "3588d2de2ef415d727bd9acd9fd68423199034cbfc1c73de8816edbc241eba34",
+      "sha256": "3588d2de2ef415d727bd9acd9fd68423199034cbfc1c73de8816edbc241eba34",
+      "byte_identical": true
+    },
+    {
+      "source": "paper_plan/paper/dayfirst_analysis/supporting_forecasts/INDEX.json",
+      "destination": "dayfirst/supporting_forecasts/INDEX.json",
+      "original_sha256": "8e14e95daef96b38f2175943fd2f6093b3d4b65b0257fe981df83557d6c0f82a",
+      "sha256": "5dbc8af8f1b56da74448a618d28417c0899f3864b795a6c8f0f02131e4fbbba2",
+      "byte_identical": false
+    },
+    {
+      "source": "paper_plan/paper/dayfirst_analysis/supporting_forecasts/SHA256SUMS",
+      "destination": "dayfirst/supporting_forecasts/SHA256SUMS",
+      "original_sha256": "eeae87b8d1f844ad1edd0adf44870b30a681b5deeb8e09b6dee06d30a99ef714",
+      "sha256": "eeae87b8d1f844ad1edd0adf44870b30a681b5deeb8e09b6dee06d30a99ef714",
+      "byte_identical": true
+    },
+    {
+      "source": "studies/batch_estimation/disk_checks/dly8/mode2/attempts/93735f2d564d44829cd7cc1762b4a62f/notice__L14+__delay15.parquet",
+      "destination": "dayfirst/supporting_forecasts/notice__L14+__delay15.parquet",
+      "original_sha256": "9f7da57e6f017659f61b00285940d9b5776d47137ab915d7c55376cba43d2a9e",
+      "sha256": "9f7da57e6f017659f61b00285940d9b5776d47137ab915d7c55376cba43d2a9e",
+      "byte_identical": true
+    },
+    {
+      "source": "studies/batch_estimation/disk_checks/dly8/mode2/attempts/93735f2d564d44829cd7cc1762b4a62f/notice__L14+__delay5.parquet",
+      "destination": "dayfirst/supporting_forecasts/notice__L14+__delay5.parquet",
+      "original_sha256": "22632445f764e8ce5327c0c28b03be3636be1acbaa409d31046d7d1601fc21d5",
+      "sha256": "22632445f764e8ce5327c0c28b03be3636be1acbaa409d31046d7d1601fc21d5",
+      "byte_identical": true
+    },
+    {
+      "source": "studies/batch_estimation/disk_checks/dly8/mode2/attempts/93735f2d564d44829cd7cc1762b4a62f/notice__L14+__delay60.parquet",
+      "destination": "dayfirst/supporting_forecasts/notice__L14+__delay60.parquet",
+      "original_sha256": "d1d2f76d786bf3d13958a1330a480ecd520a5734346cd8511078c2efd81b61e1",
+      "sha256": "d1d2f76d786bf3d13958a1330a480ecd520a5734346cd8511078c2efd81b61e1",
+      "byte_identical": true
+    },
+    {
+      "source": "studies/batch_estimation/disk_checks/dly8/mode2/attempts/93735f2d564d44829cd7cc1762b4a62f/notice__L_Laz+__delay15.parquet",
+      "destination": "dayfirst/supporting_forecasts/notice__L_Laz+__delay15.parquet",
+      "original_sha256": "415e3102f8d8b3460b4416e69cb7dfefcbdfc9eb5b917dbb947f42fc2e989ba4",
+      "sha256": "415e3102f8d8b3460b4416e69cb7dfefcbdfc9eb5b917dbb947f42fc2e989ba4",
+      "byte_identical": true
+    },
+    {
+      "source": "studies/batch_estimation/disk_checks/dly8/mode2/attempts/93735f2d564d44829cd7cc1762b4a62f/notice__L_Laz+__delay5.parquet",
+      "destination": "dayfirst/supporting_forecasts/notice__L_Laz+__delay5.parquet",
+      "original_sha256": "441261cb81d3006e380eba7e7f9d130ec7c54a96de107abf69bd0824a7fcdc11",
+      "sha256": "441261cb81d3006e380eba7e7f9d130ec7c54a96de107abf69bd0824a7fcdc11",
+      "byte_identical": true
+    },
+    {
+      "source": "studies/batch_estimation/disk_checks/dly8/mode2/attempts/93735f2d564d44829cd7cc1762b4a62f/notice__L_Laz+__delay60.parquet",
+      "destination": "dayfirst/supporting_forecasts/notice__L_Laz+__delay60.parquet",
+      "original_sha256": "18614840d5835e711a1fe57587566f98d1968ea2430ae51d866edebdca7a75d1",
+      "sha256": "18614840d5835e711a1fe57587566f98d1968ea2430ae51d866edebdca7a75d1",
+      "byte_identical": true
+    },
+    {
+      "source": "studies/batch_estimation/disk_checks/dly8/mode2/attempts/93735f2d564d44829cd7cc1762b4a62f/notice__L_chen_notice+__delay15.parquet",
+      "destination": "dayfirst/supporting_forecasts/notice__L_chen_notice+__delay15.parquet",
+      "original_sha256": "3263829ac6e2e8393687679b8ea3c525cdf720d3fa554d1ebe7226538df64bcd",
+      "sha256": "3263829ac6e2e8393687679b8ea3c525cdf720d3fa554d1ebe7226538df64bcd",
+      "byte_identical": true
+    },
+    {
+      "source": "studies/batch_estimation/disk_checks/dly8/mode2/attempts/93735f2d564d44829cd7cc1762b4a62f/notice__L_chen_notice+__delay5.parquet",
+      "destination": "dayfirst/supporting_forecasts/notice__L_chen_notice+__delay5.parquet",
+      "original_sha256": "2b31aad8b3367ecc5e5bdf4426b842b53d384a9255a69606047d5429efaca29d",
+      "sha256": "2b31aad8b3367ecc5e5bdf4426b842b53d384a9255a69606047d5429efaca29d",
+      "byte_identical": true
+    },
+    {
+      "source": "studies/batch_estimation/disk_checks/dly8/mode2/attempts/93735f2d564d44829cd7cc1762b4a62f/notice__L_chen_notice+__delay60.parquet",
+      "destination": "dayfirst/supporting_forecasts/notice__L_chen_notice+__delay60.parquet",
+      "original_sha256": "6bfbe6ed24e6382ecfc46247bf87a615305fe8616a7ed1344c43c13bedb1b7f9",
+      "sha256": "6bfbe6ed24e6382ecfc46247bf87a615305fe8616a7ed1344c43c13bedb1b7f9",
+      "byte_identical": true
+    },
+    {
+      "source": "studies/batch_estimation/disk_checks/dly8/mode2/attempts/93735f2d564d44829cd7cc1762b4a62f/notice__M+_n__delay15.parquet",
+      "destination": "dayfirst/supporting_forecasts/notice__M+_n__delay15.parquet",
+      "original_sha256": "3928f173ece2c4d34098fd91ea07bff7380922bdd0ed3d76743d58fb14c7192a",
+      "sha256": "3928f173ece2c4d34098fd91ea07bff7380922bdd0ed3d76743d58fb14c7192a",
+      "byte_identical": true
+    },
+    {
+      "source": "studies/batch_estimation/disk_checks/dly8/mode2/attempts/93735f2d564d44829cd7cc1762b4a62f/notice__M+_n__delay5.parquet",
+      "destination": "dayfirst/supporting_forecasts/notice__M+_n__delay5.parquet",
+      "original_sha256": "ef4d54e5628144a5b6e2c6d9b7dab1b92dc70de1e1d6b848923e96d47dd43015",
+      "sha256": "ef4d54e5628144a5b6e2c6d9b7dab1b92dc70de1e1d6b848923e96d47dd43015",
+      "byte_identical": true
+    },
+    {
+      "source": "studies/batch_estimation/disk_checks/dly8/mode2/attempts/93735f2d564d44829cd7cc1762b4a62f/notice__M+_n__delay60.parquet",
+      "destination": "dayfirst/supporting_forecasts/notice__M+_n__delay60.parquet",
+      "original_sha256": "85c6fef4c70c4832a972e71d684a972b2e58f1589600bef8bb80b587fc1ba488",
+      "sha256": "85c6fef4c70c4832a972e71d684a972b2e58f1589600bef8bb80b587fc1ba488",
+      "byte_identical": true
+    }
+  ]
+}

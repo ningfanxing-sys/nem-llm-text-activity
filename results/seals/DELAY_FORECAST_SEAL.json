@@ -1,0 +1,17 @@
+{
+  "adapter_freeze_sha256": "fed7974b65856a2b5f1f92fcee672d1c061395deb8a7269de027895794c5a3e3",
+  "conf_seal_sha256": "abdf291c73c68ff224dc5c070cd986baa686518b506bbf03d1657aa29ce75110",
+  "models_refitted": 0,
+  "peak_rss_bytes": 2147319808,
+  "receipt": {
+    "bytes": 9369,
+    "path": "studies/batch_estimation/disk_checks/dly8/mode1/DELAY_RECEIPT.json",
+    "sha256": "63e22674d82593af759128ba87dc51488cc97d2219fab321501a659eb1de5874"
+  },
+  "source_seal": {
+    "bytes": 2564983,
+    "path": "studies/confirmation/execution/host_state/SEAL.json",
+    "sha256": "abdf291c73c68ff224dc5c070cd986baa686518b506bbf03d1657aa29ce75110"
+  },
+  "state": "DLY8_SEALED_BEFORE_SCORING"
+}

@@ -1,0 +1,64 @@
+{
+  "analysis_role": "A1_OFFICIAL_CAP_RECLIP_SENSITIVITY",
+  "bootstrap_artifact": {
+    "bytes": 217295,
+    "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/R2_STATE/scored/notice__A1_OFFICIAL_CAP_RECLIP__NP__N.npz",
+    "sha256": "21f01c1a5d36315d5cf42cbc3edd18399b60f5e79e65b178997216f0c613a1df"
+  },
+  "date_gaps": [],
+  "equivalence_test": "NOT_SPECIFIED",
+  "primary_confirmation": false,
+  "reports": [
+    {
+      "arm": "NP",
+      "bootstrap": {
+        "1": {
+          "bootstrap_nonpositive_effect_count": 2000,
+          "effect_percent_reference_mae": -3.2329358907595553,
+          "finite_draws": 2000,
+          "interval95_percent": [
+            -4.089493983597343,
+            -2.379128415463625
+          ],
+          "monte_carlo_resolution": 0.0005,
+          "reference_mae": 9.40925262609394,
+          "undefined_draws": 0
+        },
+        "7": {
+          "bootstrap_nonpositive_effect_count": 2000,
+          "effect_percent_reference_mae": -3.2329358907595553,
+          "finite_draws": 2000,
+          "interval95_percent": [
+            -4.322007393988775,
+            -2.1617358095028254
+          ],
+          "monte_carlo_resolution": 0.0005,
+          "reference_mae": 9.40925262609394,
+          "undefined_draws": 0
+        }
+      },
+      "dm_hac7": {
+        "mean_difference": -0.30419510520122695,
+        "n_days": 61,
+        "p_deterioration": 0.9999999882507862,
+        "p_improvement": 1.174921380576521e-08,
+        "p_two_sided": 2.349842761153042e-08,
+        "state": "DEFINED",
+        "statistic": -5.584047651078514,
+        "variance": 0.18102395404124888
+      },
+      "dm_p1": {
+        "mean_difference": -0.30419510520122695,
+        "n_days": 61,
+        "p_deterioration": 0.9999999999922576,
+        "p_improvement": 7.74231491853938e-12,
+        "p_two_sided": 1.548462983707876e-11,
+        "state": "DEFINED",
+        "statistic": -6.743283825642418,
+        "variance": 0.12413418549604795
+      },
+      "reference": "N",
+      "status": "SECONDARY_ONLY"
+    }
+  ]
+}

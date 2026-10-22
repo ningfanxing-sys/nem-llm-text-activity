@@ -1,0 +1,4764 @@
+{
+  "schema": "AP_SCORING_NATIVE_NUMERIC_EVIDENCE_V1",
+  "inputs": {
+    "a2": {
+      "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/primary_tests/PRIMARY_COMPARISONS.json",
+      "bytes": 79699,
+      "sha256": "89bec8ad053f10380e41697dbaae8a9c1c4be2dbc0fe0781f161c63c7a080a6a"
+    },
+    "a3": {
+      "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/sensitivity_tests/SENSITIVITY_COMPARISONS.json",
+      "bytes": 84884,
+      "sha256": "23e3b3efbf53d218887899321feb1c877a279cf37d1ebc8906a2c762451cdf3e"
+    },
+    "a4": {
+      "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/robustness_tests/ROBUSTNESS_COMPARISONS.json",
+      "bytes": 72645,
+      "sha256": "76f410ad33d4770639a63c03ea6ce249c2e8149db9ea9d4b798de650e246c528"
+    },
+    "specification2": {
+      "bytes": 6343,
+      "path": "studies/confirmation/inference_design/ADDENDUM_A8_SPECIFICATION_2_FREEZE.json",
+      "sha256": "4de7afa4668644ae30c6fa0df8270702137d59e1e3be29ea0d3ee92809390c86"
+    },
+    "author": {
+      "bytes": 2463,
+      "path": "studies/confirmation/AUTHOR_CONFIRMATION_A8.json",
+      "sha256": "60898ed6b0265eca32eb6522f2e4e2d1b9e09dab97e871e93360f31fec193e44"
+    },
+    "author_a3_a6": {
+      "bytes": 2036,
+      "path": "studies/confirmation/AUTHOR_CONFIRMATION_A3_A6.json",
+      "sha256": "6db470ecfbbfe91a48690f20b258614baa76918b389b50449a8414ab57644932"
+    },
+    "author_prescore": {
+      "bytes": 753,
+      "path": "studies/confirmation/AUTHOR_CONFIRMATION_A8_PRESCORE.json",
+      "sha256": "f80db87fa829453ded98ba346675f2d48c875749e03f967e469da7d2c2ff2878"
+    },
+    "batch": {
+      "path": "studies/batch_estimation/disk_checks/state/scoring/MINRUN_R2_A8BATCH_POSTSCORE_INPUTS.json",
+      "bytes": 1904066,
+      "sha256": "a9233264fd31f646599be1e0cb500707da36fbfc8c62219f10d828787280687d"
+    },
+    "batch_seal": {
+      "bytes": 1668560,
+      "path": "studies/batch_estimation/disk_checks/state/SEAL_BATCH.json",
+      "sha256": "f7548b602d6966bd67e532076db6567210a702ea4a2c65ea4a06609698f80d1e"
+    },
+    "clk8": {
+      "bytes": 10896,
+      "path": "studies/confirmation/inference_design/CLK8/CLK8_RESULT.json",
+      "sha256": "58233f4699ed0c92b942958834fe75cdabc6e6dedc9594ce82d936f0da036635"
+    },
+    "context": {
+      "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/SCORING_CONTEXT.json",
+      "bytes": 12507,
+      "sha256": "e41642cc526ce4ac332153ced4b7de305e41bb63a0246286f0f12a555670a060"
+    },
+    "dly_seal": {
+      "bytes": 681,
+      "path": "studies/batch_estimation/disk_checks/dly8/DELAY_FORECAST_SEAL.json",
+      "sha256": "b64b5784ae8179820e542b796e22f0487df66b14f49590e598e5659eb49b0e11"
+    },
+    "hrc_agreement": {
+      "bytes": 101795,
+      "path": "studies/confirmation/inference_design/HRC_RESULTS/SECOND_ANNOTATOR_AGREEMENT_CONFIRMATION10.json",
+      "sha256": "09fc5348bc7771f1d199cb5a96ed174de516b5d14ff6c6f5976d1019335efbae"
+    },
+    "hrc_review": {
+      "bytes": 66047,
+      "path": "reports/llm_text_quality_completion_20260928/confirmation_review_2026/SCORES.json",
+      "sha256": "8d5e49a21d47f3c93f92b9361f6a826cdffadd541441ed0682ebf7fcfedb0ecd"
+    },
+    "human_review": {
+      "bytes": 66047,
+      "path": "reports/llm_text_quality_completion_20260928/confirmation_review_2026/SCORES.json",
+      "sha256": "8d5e49a21d47f3c93f92b9361f6a826cdffadd541441ed0682ebf7fcfedb0ecd"
+    },
+    "repins": {
+      "bytes": 40326,
+      "path": "studies/batch_estimation/batch_checks/statistics/POSTSCORE_REPIN_ASSOCIATION.json",
+      "sha256": "9f0bc916410f7c6aebe41fb9ab57ec8caa7bc6014b0b9d0bbee801ec0c975ba9"
+    },
+    "score_receipt": {
+      "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/R2_STATE/scored/SCORE_RECEIPT.json",
+      "bytes": 41121,
+      "sha256": "a3cb40c7f86e10ab0b5e6378e091ffd6cd2e8435425484a760787d3628607f4e"
+    },
+    "score_report": {
+      "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/R2_STATE/scored/SCORE_REPORT.json",
+      "bytes": 644643,
+      "sha256": "fe66c7599b6eec75307cdbc4a6cc465648865b037b4e17a55bb3276eca680ce9"
+    },
+    "seal": {
+      "path": "studies/confirmation/execution/host_state/SEAL.json",
+      "bytes": 2564983,
+      "sha256": "abdf291c73c68ff224dc5c070cd986baa686518b506bbf03d1657aa29ce75110"
+    },
+    "timestamps": {
+      "bytes": 55175432,
+      "path": "paper_plan/minrun_execution_20261010/af_chain/T5R_A15_SOURCE_AFTER_GO_20261011_01/bind/AP_TIMESTAMPS.json",
+      "sha256": "9520115545d02fde29adacc17fa2d40f65eca79cee21a574cfdc22c15db96f76"
+    }
+  },
+  "loss_replay": {
+    "squared_parity": {
+      "primary/news/L_count-M": "PASS",
+      "primary/news/L_chen-M": "PASS",
+      "primary/notice/L14-M_notice": "PASS",
+      "primary/notice/L_Laz-M_notice": "PASS",
+      "primary/notice/L_chen_notice-M_notice": "PASS",
+      "R8/news/L_count+-M+": "PASS",
+      "R8/news/L_chen+-M+": "PASS",
+      "R8/notice/L14+-M+_n": "PASS",
+      "R8/notice/L_Laz+-M+_n": "PASS",
+      "R8/notice/L_chen_notice+-M+_n": "PASS"
+    },
+    "scratch": "runtime/scoring",
+    "native_parity": {
+      "news__PRIMARY.json": {
+        "state": "PASS",
+        "checks": [
+          {
+            "arm": "L_count",
+            "reference": "M",
+            "block": 1,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              1.9803213735228624,
+              24.128122358288223
+            ],
+            "tail_count": 6
+          },
+          {
+            "arm": "L_count",
+            "reference": "M",
+            "block": 7,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              -0.00023199018157658776,
+              31.224648959478106
+            ],
+            "tail_count": 51
+          },
+          {
+            "arm": "L_chen",
+            "reference": "M",
+            "block": 1,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              -2.690638314114714,
+              5.060712265052059
+            ],
+            "tail_count": 589
+          },
+          {
+            "arm": "L_chen",
+            "reference": "M",
+            "block": 7,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              -3.1357196930436784,
+              5.639650598633301
+            ],
+            "tail_count": 630
+          }
+        ]
+      },
+      "news__SECONDARY__M__N.json": {
+        "state": "PASS",
+        "checks": [
+          {
+            "arm": "M",
+            "reference": "N",
+            "block": 1,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              -6.39521428431443,
+              -0.8663586694544001
+            ],
+            "tail_count": 1992
+          },
+          {
+            "arm": "M",
+            "reference": "N",
+            "block": 7,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              -6.7663439919678465,
+              -0.7906982596888491
+            ],
+            "tail_count": 1992
+          }
+        ]
+      },
+      "news__SECONDARY__L_count__N.json": {
+        "state": "PASS",
+        "checks": [
+          {
+            "arm": "L_count",
+            "reference": "N",
+            "block": 1,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              -2.6696925887663725,
+              20.572747068766205
+            ],
+            "tail_count": 186
+          },
+          {
+            "arm": "L_count",
+            "reference": "N",
+            "block": 7,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              -4.459394556593933,
+              26.340590757913805
+            ],
+            "tail_count": 347
+          }
+        ]
+      },
+      "news__SECONDARY__L_chen__N.json": {
+        "state": "PASS",
+        "checks": [
+          {
+            "arm": "L_chen",
+            "reference": "N",
+            "block": 1,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              -6.921233319166365,
+              2.0880007271496117
+            ],
+            "tail_count": 1698
+          },
+          {
+            "arm": "L_chen",
+            "reference": "N",
+            "block": 7,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              -7.578249953320089,
+              2.9699075341438492
+            ],
+            "tail_count": 1654
+          }
+        ]
+      },
+      "news__SECONDARY__M_shift__N.json": {
+        "state": "PASS",
+        "checks": [
+          {
+            "arm": "M_shift",
+            "reference": "N",
+            "block": 1,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              -1.1375006122868216,
+              4.314755255665194
+            ],
+            "tail_count": 272
+          },
+          {
+            "arm": "M_shift",
+            "reference": "N",
+            "block": 7,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              -1.0323203080973786,
+              4.161852564113692
+            ],
+            "tail_count": 279
+          }
+        ]
+      },
+      "news__SECONDARY__E_raw__N.json": {
+        "state": "PASS",
+        "checks": [
+          {
+            "arm": "E_raw",
+            "reference": "N",
+            "block": 1,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              -2.477450839334033,
+              21.275709113244954
+            ],
+            "tail_count": 141
+          },
+          {
+            "arm": "E_raw",
+            "reference": "N",
+            "block": 7,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              -3.7195237642593444,
+              21.28301707047376
+            ],
+            "tail_count": 200
+          }
+        ]
+      },
+      "news__SECONDARY__P_shift__N.json": {
+        "state": "PASS",
+        "checks": [
+          {
+            "arm": "P_shift",
+            "reference": "N",
+            "block": 1,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              -4.470062292448011,
+              9.689420315323183
+            ],
+            "tail_count": 617
+          },
+          {
+            "arm": "P_shift",
+            "reference": "N",
+            "block": 7,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              -4.819385656367897,
+              10.302542312192799
+            ],
+            "tail_count": 624
+          }
+        ]
+      },
+      "news__SECONDARY__LEAR__N.json": {
+        "state": "PASS",
+        "checks": [
+          {
+            "arm": "LEAR",
+            "reference": "N",
+            "block": 1,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              -27.543569445970444,
+              -16.7396877469599
+            ],
+            "tail_count": 2000
+          },
+          {
+            "arm": "LEAR",
+            "reference": "N",
+            "block": 7,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              -28.08224883435179,
+              -16.271214627076613
+            ],
+            "tail_count": 2000
+          }
+        ]
+      },
+      "news__SECONDARY__E_raw__M.json": {
+        "state": "PASS",
+        "checks": [
+          {
+            "arm": "E_raw",
+            "reference": "M",
+            "block": 1,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              1.9721812944934578,
+              25.060883593074532
+            ],
+            "tail_count": 8
+          },
+          {
+            "arm": "E_raw",
+            "reference": "M",
+            "block": 7,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              0.40329801075495975,
+              25.998386966806205
+            ],
+            "tail_count": 43
+          }
+        ]
+      },
+      "news__SECONDARY__L_chen__E_raw.json": {
+        "state": "PASS",
+        "checks": [
+          {
+            "arm": "L_chen",
+            "reference": "E_raw",
+            "block": 1,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              -19.426692957356778,
+              -0.9573861630659249
+            ],
+            "tail_count": 1977
+          },
+          {
+            "arm": "L_chen",
+            "reference": "E_raw",
+            "block": 7,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              -18.306117050444985,
+              -0.48664961895026604
+            ],
+            "tail_count": 1966
+          }
+        ]
+      },
+      "news__SECONDARY__P_shift__M_shift.json": {
+        "state": "PASS",
+        "checks": [
+          {
+            "arm": "P_shift",
+            "reference": "M_shift",
+            "block": 1,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              -5.808885873497776,
+              7.971303334822862
+            ],
+            "tail_count": 954
+          },
+          {
+            "arm": "P_shift",
+            "reference": "M_shift",
+            "block": 7,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              -6.506741773284246,
+              9.516337519254336
+            ],
+            "tail_count": 915
+          }
+        ]
+      },
+      "news__SECONDARY__L_chen__P_shift.json": {
+        "state": "PASS",
+        "checks": [
+          {
+            "arm": "L_chen",
+            "reference": "P_shift",
+            "block": 1,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              -11.07132600819314,
+              2.50186703086082
+            ],
+            "tail_count": 1766
+          },
+          {
+            "arm": "L_chen",
+            "reference": "P_shift",
+            "block": 7,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              -11.376289137839452,
+              2.8589279708864574
+            ],
+            "tail_count": 1775
+          }
+        ]
+      },
+      "news__SECONDARY__LEAR__M.json": {
+        "state": "PASS",
+        "checks": [
+          {
+            "arm": "LEAR",
+            "reference": "M",
+            "block": 1,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              -23.826058580947688,
+              -14.726365152052677
+            ],
+            "tail_count": 2000
+          },
+          {
+            "arm": "LEAR",
+            "reference": "M",
+            "block": 7,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              -23.723922598379847,
+              -14.904047871736967
+            ],
+            "tail_count": 2000
+          }
+        ]
+      },
+      "news__SECONDARY__N__LEAR.json": {
+        "state": "PASS",
+        "checks": [
+          {
+            "arm": "N",
+            "reference": "LEAR",
+            "block": 1,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              20.1052425760426,
+              38.01397540572321
+            ],
+            "tail_count": 0
+          },
+          {
+            "arm": "N",
+            "reference": "LEAR",
+            "block": 7,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              19.433238667432057,
+              39.04773214454261
+            ],
+            "tail_count": 0
+          }
+        ]
+      },
+      "news__SECONDARY__M__LEAR.json": {
+        "state": "PASS",
+        "checks": [
+          {
+            "arm": "M",
+            "reference": "LEAR",
+            "block": 1,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              17.269540824686594,
+              31.278489911126194
+            ],
+            "tail_count": 0
+          },
+          {
+            "arm": "M",
+            "reference": "LEAR",
+            "block": 7,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              17.514403394806724,
+              31.102704276433276
+            ],
+            "tail_count": 0
+          }
+        ]
+      },
+      "news__SECONDARY__L_count__LEAR.json": {
+        "state": "PASS",
+        "checks": [
+          {
+            "arm": "L_count",
+            "reference": "LEAR",
+            "block": 1,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              24.03273163844468,
+              55.11329966947999
+            ],
+            "tail_count": 0
+          },
+          {
+            "arm": "L_count",
+            "reference": "LEAR",
+            "block": 7,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              22.16438750544829,
+              62.76549916375168
+            ],
+            "tail_count": 0
+          }
+        ]
+      },
+      "news__SECONDARY__L_chen__LEAR.json": {
+        "state": "PASS",
+        "checks": [
+          {
+            "arm": "L_chen",
+            "reference": "LEAR",
+            "block": 1,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              18.667099835296387,
+              32.22670471719254
+            ],
+            "tail_count": 0
+          },
+          {
+            "arm": "L_chen",
+            "reference": "LEAR",
+            "block": 7,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              18.108052189500224,
+              33.97206439710739
+            ],
+            "tail_count": 0
+          }
+        ]
+      },
+      "news__SECONDARY__M_shift__LEAR.json": {
+        "state": "PASS",
+        "checks": [
+          {
+            "arm": "M_shift",
+            "reference": "LEAR",
+            "block": 1,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              22.19825225997301,
+              39.693741826170324
+            ],
+            "tail_count": 0
+          },
+          {
+            "arm": "M_shift",
+            "reference": "LEAR",
+            "block": 7,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              21.569271041825438,
+              40.53109670451506
+            ],
+            "tail_count": 0
+          }
+        ]
+      },
+      "news__SECONDARY__E_raw__LEAR.json": {
+        "state": "PASS",
+        "checks": [
+          {
+            "arm": "E_raw",
+            "reference": "LEAR",
+            "block": 1,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              24.551364947524704,
+              55.79468491730229
+            ],
+            "tail_count": 0
+          },
+          {
+            "arm": "E_raw",
+            "reference": "LEAR",
+            "block": 7,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              22.459186528822283,
+              58.461817327020654
+            ],
+            "tail_count": 0
+          }
+        ]
+      },
+      "news__SECONDARY__P_shift__LEAR.json": {
+        "state": "PASS",
+        "checks": [
+          {
+            "arm": "P_shift",
+            "reference": "LEAR",
+            "block": 1,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              19.87219034161432,
+              44.56677714499144
+            ],
+            "tail_count": 0
+          },
+          {
+            "arm": "P_shift",
+            "reference": "LEAR",
+            "block": 7,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              18.89587605593896,
+              47.03264252978074
+            ],
+            "tail_count": 0
+          }
+        ]
+      },
+      "news__SECONDARY__W2_D__N.json": {
+        "state": "PASS",
+        "checks": [
+          {
+            "arm": "W2_D",
+            "reference": "N",
+            "block": 1,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              -0.38452049445598563,
+              38.625048514069405
+            ],
+            "tail_count": 59
+          },
+          {
+            "arm": "W2_D",
+            "reference": "N",
+            "block": 7,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              -4.874102137684024,
+              57.48786178185578
+            ],
+            "tail_count": 300
+          }
+        ]
+      },
+      "news__SECONDARY__W2_D__M.json": {
+        "state": "PASS",
+        "checks": [
+          {
+            "arm": "W2_D",
+            "reference": "M",
+            "block": 1,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              3.8398542194646788,
+              43.275290308673924
+            ],
+            "tail_count": 12
+          },
+          {
+            "arm": "W2_D",
+            "reference": "M",
+            "block": 7,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              -1.5517592934659947,
+              63.6904689893925
+            ],
+            "tail_count": 105
+          }
+        ]
+      },
+      "news__SECONDARY__L_chen__W2_D.json": {
+        "state": "PASS",
+        "checks": [
+          {
+            "arm": "L_chen",
+            "reference": "W2_D",
+            "block": 1,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              -29.061723620897798,
+              -2.51171283075043
+            ],
+            "tail_count": 1983
+          },
+          {
+            "arm": "L_chen",
+            "reference": "W2_D",
+            "block": 7,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              -38.20797130529483,
+              3.00764284669273
+            ],
+            "tail_count": 1834
+          }
+        ]
+      },
+      "news__SECONDARY__W2_D__LEAR.json": {
+        "state": "PASS",
+        "checks": [
+          {
+            "arm": "W2_D",
+            "reference": "LEAR",
+            "block": 1,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              27.85762046968243,
+              77.87174324725262
+            ],
+            "tail_count": 0
+          },
+          {
+            "arm": "W2_D",
+            "reference": "LEAR",
+            "block": 7,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              21.098627926667312,
+              102.13812781296416
+            ],
+            "tail_count": 0
+          }
+        ]
+      },
+      "news__SEED_20260920.json": {
+        "state": "PASS",
+        "checks": [
+          {
+            "arm": "L_count",
+            "reference": "M",
+            "block": 1,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              2.9233766381017885,
+              34.102986681195794
+            ],
+            "tail_count": 5
+          },
+          {
+            "arm": "L_count",
+            "reference": "M",
+            "block": 7,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              0.16692938780259023,
+              42.42891638980601
+            ],
+            "tail_count": 47
+          },
+          {
+            "arm": "L_chen",
+            "reference": "M",
+            "block": 1,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              -2.885243916536824,
+              3.6265700577651416
+            ],
+            "tail_count": 804
+          },
+          {
+            "arm": "L_chen",
+            "reference": "M",
+            "block": 7,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              -3.0307623371666996,
+              3.5963817892841003
+            ],
+            "tail_count": 918
+          }
+        ]
+      },
+      "news__SEED_20260921.json": {
+        "state": "PASS",
+        "checks": [
+          {
+            "arm": "L_count",
+            "reference": "M",
+            "block": 1,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              -0.01598081320330608,
+              22.721780072838254
+            ],
+            "tail_count": 52
+          },
+          {
+            "arm": "L_count",
+            "reference": "M",
+            "block": 7,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              -2.74669066887169,
+              30.006591159597345
+            ],
+            "tail_count": 197
+          },
+          {
+            "arm": "L_chen",
+            "reference": "M",
+            "block": 1,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              -5.938939745123822,
+              2.756837181996916
+            ],
+            "tail_count": 1578
+          },
+          {
+            "arm": "L_chen",
+            "reference": "M",
+            "block": 7,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              -5.550692664314853,
+              2.5803216671356233
+            ],
+            "tail_count": 1638
+          }
+        ]
+      },
+      "news__THREE_SEED_MEAN.json": {
+        "state": "PASS",
+        "checks": [
+          {
+            "arm": "L_count",
+            "reference": "M",
+            "block": 1,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              1.9286496745545019,
+              26.8675666210475
+            ],
+            "tail_count": 10
+          },
+          {
+            "arm": "L_count",
+            "reference": "M",
+            "block": 7,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              -0.7607544879572912,
+              34.69732615195309
+            ],
+            "tail_count": 78
+          },
+          {
+            "arm": "L_chen",
+            "reference": "M",
+            "block": 1,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              -3.9048636475268483,
+              2.709412057070497
+            ],
+            "tail_count": 1281
+          },
+          {
+            "arm": "L_chen",
+            "reference": "M",
+            "block": 7,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              -3.8967622336165593,
+              2.696381963932201
+            ],
+            "tail_count": 1337
+          }
+        ]
+      },
+      "news__A1_EXPOSURE_EXCLUDED.json": {
+        "state": "PASS",
+        "checks": [
+          {
+            "arm": "L_count",
+            "reference": "M",
+            "block": 1,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              -2.3094394417909734,
+              7.414991531459859
+            ],
+            "tail_count": 451
+          },
+          {
+            "arm": "L_count",
+            "reference": "M",
+            "block": 7,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              -2.4577897356358513,
+              11.041567299273723
+            ],
+            "tail_count": 386
+          },
+          {
+            "arm": "L_chen",
+            "reference": "M",
+            "block": 1,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              -2.1222373296890717,
+              6.988440159527292
+            ],
+            "tail_count": 329
+          },
+          {
+            "arm": "L_chen",
+            "reference": "M",
+            "block": 7,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              -3.070451055985383,
+              7.580386553266458
+            ],
+            "tail_count": 520
+          }
+        ]
+      },
+      "notice__PRIMARY.json": {
+        "state": "PASS",
+        "checks": [
+          {
+            "arm": "L14",
+            "reference": "M_notice",
+            "block": 1,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              -0.388829368115834,
+              -0.22067187369374267
+            ],
+            "tail_count": 2000
+          },
+          {
+            "arm": "L14",
+            "reference": "M_notice",
+            "block": 7,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              -0.4046677244747951,
+              -0.21462243003355655
+            ],
+            "tail_count": 2000
+          },
+          {
+            "arm": "L_Laz",
+            "reference": "M_notice",
+            "block": 1,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              -0.3782895089494001,
+              -0.18904665118470115
+            ],
+            "tail_count": 2000
+          },
+          {
+            "arm": "L_Laz",
+            "reference": "M_notice",
+            "block": 7,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              -0.3785805127922917,
+              -0.19321347246890055
+            ],
+            "tail_count": 2000
+          },
+          {
+            "arm": "L_chen_notice",
+            "reference": "M_notice",
+            "block": 1,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              -0.9712603798690591,
+              -0.5121514889418707
+            ],
+            "tail_count": 2000
+          },
+          {
+            "arm": "L_chen_notice",
+            "reference": "M_notice",
+            "block": 7,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              -0.9307014383803843,
+              -0.4875757182914302
+            ],
+            "tail_count": 2000
+          }
+        ]
+      },
+      "notice__SECONDARY__M_notice__N.json": {
+        "state": "PASS",
+        "checks": [
+          {
+            "arm": "M_notice",
+            "reference": "N",
+            "block": 1,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              0.3224590956334669,
+              0.7557155531499337
+            ],
+            "tail_count": 0
+          },
+          {
+            "arm": "M_notice",
+            "reference": "N",
+            "block": 7,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              0.27971143501973905,
+              0.7794664892427966
+            ],
+            "tail_count": 0
+          }
+        ]
+      },
+      "notice__SECONDARY__L14__N.json": {
+        "state": "PASS",
+        "checks": [
+          {
+            "arm": "L14",
+            "reference": "N",
+            "block": 1,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              0.017708943130212637,
+              0.4573608715144252
+            ],
+            "tail_count": 31
+          },
+          {
+            "arm": "L14",
+            "reference": "N",
+            "block": 7,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              -0.042204552484214466,
+              0.4691389191099155
+            ],
+            "tail_count": 105
+          }
+        ]
+      },
+      "notice__SECONDARY__L_Laz__N.json": {
+        "state": "PASS",
+        "checks": [
+          {
+            "arm": "L_Laz",
+            "reference": "N",
+            "block": 1,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              0.06763364476741633,
+              0.45820756735619006
+            ],
+            "tail_count": 10
+          },
+          {
+            "arm": "L_Laz",
+            "reference": "N",
+            "block": 7,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              -0.009944355291047416,
+              0.4530556532828389
+            ],
+            "tail_count": 64
+          }
+        ]
+      },
+      "notice__SECONDARY__L_chen_notice__N.json": {
+        "state": "PASS",
+        "checks": [
+          {
+            "arm": "L_chen_notice",
+            "reference": "N",
+            "block": 1,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              -0.40420627458553754,
+              -0.0062882112956214285
+            ],
+            "tail_count": 1958
+          },
+          {
+            "arm": "L_chen_notice",
+            "reference": "N",
+            "block": 7,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              -0.36462971020985163,
+              0.01585463134277606
+            ],
+            "tail_count": 1928
+          }
+        ]
+      },
+      "notice__SECONDARY__M_shift_notice__N.json": {
+        "state": "PASS",
+        "checks": [
+          {
+            "arm": "M_shift_notice",
+            "reference": "N",
+            "block": 1,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              -0.09340633675049885,
+              0.3982323367688453
+            ],
+            "tail_count": 226
+          },
+          {
+            "arm": "M_shift_notice",
+            "reference": "N",
+            "block": 7,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              -0.12509896411745003,
+              0.2729921380496831
+            ],
+            "tail_count": 363
+          }
+        ]
+      },
+      "notice__SECONDARY__R__N.json": {
+        "state": "PASS",
+        "checks": [
+          {
+            "arm": "R",
+            "reference": "N",
+            "block": 1,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              0.042608955704009126,
+              0.4605501221383772
+            ],
+            "tail_count": 16
+          },
+          {
+            "arm": "R",
+            "reference": "N",
+            "block": 7,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              0.010378705539954902,
+              0.47316110673771
+            ],
+            "tail_count": 41
+          }
+        ]
+      },
+      "notice__SECONDARY__T__N.json": {
+        "state": "PASS",
+        "checks": [
+          {
+            "arm": "T",
+            "reference": "N",
+            "block": 1,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              -0.09293762658372401,
+              0.3537179283386121
+            ],
+            "tail_count": 274
+          },
+          {
+            "arm": "T",
+            "reference": "N",
+            "block": 7,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              -0.09143100113714694,
+              0.3524913018414337
+            ],
+            "tail_count": 310
+          }
+        ]
+      },
+      "notice__SECONDARY__P_shift__N.json": {
+        "state": "PASS",
+        "checks": [
+          {
+            "arm": "P_shift",
+            "reference": "N",
+            "block": 1,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              0.2931913882286374,
+              0.8052331495267887
+            ],
+            "tail_count": 0
+          },
+          {
+            "arm": "P_shift",
+            "reference": "N",
+            "block": 7,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              0.3184068978607718,
+              0.6965186694041661
+            ],
+            "tail_count": 0
+          }
+        ]
+      },
+      "notice__SECONDARY__NP__N.json": {
+        "state": "PASS",
+        "checks": [
+          {
+            "arm": "NP",
+            "reference": "N",
+            "block": 1,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              -4.089493983597343,
+              -2.379128415463625
+            ],
+            "tail_count": 2000
+          },
+          {
+            "arm": "NP",
+            "reference": "N",
+            "block": 7,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              -4.322007393988775,
+              -2.1617358095028254
+            ],
+            "tail_count": 2000
+          }
+        ]
+      },
+      "notice__SECONDARY__NPL__N.json": {
+        "state": "PASS",
+        "checks": [
+          {
+            "arm": "NPL",
+            "reference": "N",
+            "block": 1,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              -4.804590876977964,
+              -3.196392267574787
+            ],
+            "tail_count": 2000
+          },
+          {
+            "arm": "NPL",
+            "reference": "N",
+            "block": 7,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              -5.110583350710501,
+              -2.973632818254591
+            ],
+            "tail_count": 2000
+          }
+        ]
+      },
+      "notice__SECONDARY__NPP__N.json": {
+        "state": "PASS",
+        "checks": [
+          {
+            "arm": "NPP",
+            "reference": "N",
+            "block": 1,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              -3.7569768501684755,
+              -2.178121061590548
+            ],
+            "tail_count": 2000
+          },
+          {
+            "arm": "NPP",
+            "reference": "N",
+            "block": 7,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              -4.033648465106537,
+              -2.492410159641065
+            ],
+            "tail_count": 2000
+          }
+        ]
+      },
+      "notice__SECONDARY__R__M_notice.json": {
+        "state": "PASS",
+        "checks": [
+          {
+            "arm": "R",
+            "reference": "M_notice",
+            "block": 1,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              -0.40001992172647527,
+              -0.19038893438918625
+            ],
+            "tail_count": 2000
+          },
+          {
+            "arm": "R",
+            "reference": "M_notice",
+            "block": 7,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              -0.4068269056794187,
+              -0.15316679426964547
+            ],
+            "tail_count": 2000
+          }
+        ]
+      },
+      "notice__SECONDARY__T__M_notice.json": {
+        "state": "PASS",
+        "checks": [
+          {
+            "arm": "T",
+            "reference": "M_notice",
+            "block": 1,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              -0.5110077489472258,
+              -0.32133623721909127
+            ],
+            "tail_count": 2000
+          },
+          {
+            "arm": "T",
+            "reference": "M_notice",
+            "block": 7,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              -0.5021480221166101,
+              -0.3067943594237602
+            ],
+            "tail_count": 2000
+          }
+        ]
+      },
+      "notice__SECONDARY__P_shift__M_shift_notice.json": {
+        "state": "PASS",
+        "checks": [
+          {
+            "arm": "P_shift",
+            "reference": "M_shift_notice",
+            "block": 1,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              0.19346348855644888,
+              0.5653352631919776
+            ],
+            "tail_count": 1
+          },
+          {
+            "arm": "P_shift",
+            "reference": "M_shift_notice",
+            "block": 7,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              0.29660400836193057,
+              0.5700230411923636
+            ],
+            "tail_count": 0
+          }
+        ]
+      },
+      "notice__SECONDARY__L_chen_notice__P_shift.json": {
+        "state": "PASS",
+        "checks": [
+          {
+            "arm": "L_chen_notice",
+            "reference": "P_shift",
+            "block": 1,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              -0.9945546621335153,
+              -0.4926260785112419
+            ],
+            "tail_count": 2000
+          },
+          {
+            "arm": "L_chen_notice",
+            "reference": "P_shift",
+            "block": 7,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              -0.9707277127083389,
+              -0.5545587958917767
+            ],
+            "tail_count": 2000
+          }
+        ]
+      },
+      "notice__SECONDARY__NPL__NP.json": {
+        "state": "PASS",
+        "checks": [
+          {
+            "arm": "NPL",
+            "reference": "NP",
+            "block": 1,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              -1.0112825585947276,
+              -0.5594684778568535
+            ],
+            "tail_count": 2000
+          },
+          {
+            "arm": "NPL",
+            "reference": "NP",
+            "block": 7,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              -1.0419205810977303,
+              -0.6121451505812959
+            ],
+            "tail_count": 2000
+          }
+        ]
+      },
+      "notice__SECONDARY__NPL__NPP.json": {
+        "state": "PASS",
+        "checks": [
+          {
+            "arm": "NPL",
+            "reference": "NPP",
+            "block": 1,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              0.13260175338035848,
+              0.39501516607660453
+            ],
+            "tail_count": 1
+          },
+          {
+            "arm": "NPL",
+            "reference": "NPP",
+            "block": 7,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              0.11218802478231514,
+              0.41899684422807787
+            ],
+            "tail_count": 3
+          }
+        ]
+      },
+      "notice__SECONDARY__NPP__NP.json": {
+        "state": "PASS",
+        "checks": [
+          {
+            "arm": "NPP",
+            "reference": "NP",
+            "block": 1,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              -1.2723718343720334,
+              -0.7789501365928376
+            ],
+            "tail_count": 2000
+          },
+          {
+            "arm": "NPP",
+            "reference": "NP",
+            "block": 7,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              -1.2494105525744208,
+              -0.8425650882021339
+            ],
+            "tail_count": 2000
+          }
+        ]
+      },
+      "notice__SECONDARY__NPM__N.json": {
+        "state": "PASS",
+        "checks": [
+          {
+            "arm": "NPM",
+            "reference": "N",
+            "block": 1,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              -4.653748549059656,
+              -3.067337202642301
+            ],
+            "tail_count": 2000
+          },
+          {
+            "arm": "NPM",
+            "reference": "N",
+            "block": 7,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              -4.888967862645236,
+              -2.8262330713172785
+            ],
+            "tail_count": 2000
+          }
+        ]
+      },
+      "notice__SECONDARY__NPL__NPM.json": {
+        "state": "PASS",
+        "checks": [
+          {
+            "arm": "NPL",
+            "reference": "NPM",
+            "block": 1,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              -0.25870037648257443,
+              -0.055430664252846325
+            ],
+            "tail_count": 1996
+          },
+          {
+            "arm": "NPL",
+            "reference": "NPM",
+            "block": 7,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              -0.28638832379910495,
+              -0.0600035238517315
+            ],
+            "tail_count": 1999
+          }
+        ]
+      },
+      "notice__SEED_20260920.json": {
+        "state": "PASS",
+        "checks": [
+          {
+            "arm": "L14",
+            "reference": "M_notice",
+            "block": 1,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              -0.020455181609219688,
+              0.1536521254789017
+            ],
+            "tail_count": 126
+          },
+          {
+            "arm": "L14",
+            "reference": "M_notice",
+            "block": 7,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              -0.016875284594790728,
+              0.13200417086162408
+            ],
+            "tail_count": 125
+          },
+          {
+            "arm": "L_Laz",
+            "reference": "M_notice",
+            "block": 1,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              0.18377440120374727,
+              0.40547207980374306
+            ],
+            "tail_count": 0
+          },
+          {
+            "arm": "L_Laz",
+            "reference": "M_notice",
+            "block": 7,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              0.14501146377859228,
+              0.40531734779329753
+            ],
+            "tail_count": 0
+          },
+          {
+            "arm": "L_chen_notice",
+            "reference": "M_notice",
+            "block": 1,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              -0.214719662843683,
+              0.17140466461571038
+            ],
+            "tail_count": 1234
+          },
+          {
+            "arm": "L_chen_notice",
+            "reference": "M_notice",
+            "block": 7,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              -0.1758272251812748,
+              0.20093996862473737
+            ],
+            "tail_count": 979
+          }
+        ]
+      },
+      "notice__SEED_20260921.json": {
+        "state": "PASS",
+        "checks": [
+          {
+            "arm": "L14",
+            "reference": "M_notice",
+            "block": 1,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              -0.2916390108207005,
+              -0.13172972119651358
+            ],
+            "tail_count": 2000
+          },
+          {
+            "arm": "L14",
+            "reference": "M_notice",
+            "block": 7,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              -0.27139906401220726,
+              -0.15279549837134201
+            ],
+            "tail_count": 2000
+          },
+          {
+            "arm": "L_Laz",
+            "reference": "M_notice",
+            "block": 1,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              -0.10197445783355913,
+              0.06686367250568012
+            ],
+            "tail_count": 1296
+          },
+          {
+            "arm": "L_Laz",
+            "reference": "M_notice",
+            "block": 7,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              -0.10309359200213487,
+              0.08627908524271151
+            ],
+            "tail_count": 1191
+          },
+          {
+            "arm": "L_chen_notice",
+            "reference": "M_notice",
+            "block": 1,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              -0.7011259939152853,
+              -0.284973207097035
+            ],
+            "tail_count": 2000
+          },
+          {
+            "arm": "L_chen_notice",
+            "reference": "M_notice",
+            "block": 7,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              -0.6214230384320375,
+              -0.2845115830586176
+            ],
+            "tail_count": 2000
+          }
+        ]
+      },
+      "notice__THREE_SEED_MEAN.json": {
+        "state": "PASS",
+        "checks": [
+          {
+            "arm": "L14",
+            "reference": "M_notice",
+            "block": 1,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              -0.19281925825649737,
+              -0.09296764787602717
+            ],
+            "tail_count": 2000
+          },
+          {
+            "arm": "L14",
+            "reference": "M_notice",
+            "block": 7,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              -0.20490118401735627,
+              -0.09522927989783046
+            ],
+            "tail_count": 2000
+          },
+          {
+            "arm": "L_Laz",
+            "reference": "M_notice",
+            "block": 1,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              -0.04564328262213361,
+              0.036101198627311766
+            ],
+            "tail_count": 1126
+          },
+          {
+            "arm": "L_Laz",
+            "reference": "M_notice",
+            "block": 7,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              -0.062449014560830206,
+              0.03702826530170729
+            ],
+            "tail_count": 1273
+          },
+          {
+            "arm": "L_chen_notice",
+            "reference": "M_notice",
+            "block": 1,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              -0.6958750039089421,
+              -0.3340045146974587
+            ],
+            "tail_count": 2000
+          },
+          {
+            "arm": "L_chen_notice",
+            "reference": "M_notice",
+            "block": 7,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              -0.6502840183192855,
+              -0.31386939888804016
+            ],
+            "tail_count": 2000
+          }
+        ]
+      },
+      "notice__first_L.json": {
+        "state": "PASS",
+        "checks": [
+          {
+            "arm": "L_chen_notice",
+            "reference": "M_notice",
+            "block": 1,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              0.0,
+              0.0
+            ],
+            "tail_count": 2000
+          },
+          {
+            "arm": "L_chen_notice",
+            "reference": "M_notice",
+            "block": 7,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              0.0,
+              0.0
+            ],
+            "tail_count": 2000
+          }
+        ]
+      },
+      "notice__DROP_FIRST_SEVEN_DAYS.json": {
+        "state": "PASS",
+        "checks": [
+          {
+            "arm": "L14",
+            "reference": "M_notice",
+            "block": 1,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              -0.39972695495791816,
+              -0.20882181657149182
+            ],
+            "tail_count": 2000
+          },
+          {
+            "arm": "L14",
+            "reference": "M_notice",
+            "block": 7,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              -0.3992142178190744,
+              -0.19985592831702362
+            ],
+            "tail_count": 2000
+          },
+          {
+            "arm": "L_Laz",
+            "reference": "M_notice",
+            "block": 1,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              -0.37116379714201414,
+              -0.15666693522966957
+            ],
+            "tail_count": 2000
+          },
+          {
+            "arm": "L_Laz",
+            "reference": "M_notice",
+            "block": 7,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              -0.3735319123152622,
+              -0.167351781616658
+            ],
+            "tail_count": 2000
+          },
+          {
+            "arm": "L_chen_notice",
+            "reference": "M_notice",
+            "block": 1,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              -0.947543633582795,
+              -0.43926237742648755
+            ],
+            "tail_count": 2000
+          },
+          {
+            "arm": "L_chen_notice",
+            "reference": "M_notice",
+            "block": 7,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              -0.8299914302892368,
+              -0.43158136054429974
+            ],
+            "tail_count": 2000
+          }
+        ]
+      },
+      "notice__A1_EXPOSURE_EXCLUDED.json": {
+        "state": "PASS",
+        "checks": [
+          {
+            "arm": "L14",
+            "reference": "M_notice",
+            "block": 1,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              -0.4313746716184828,
+              -0.2405226390758872
+            ],
+            "tail_count": 2000
+          },
+          {
+            "arm": "L14",
+            "reference": "M_notice",
+            "block": 7,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              -0.43642789461721754,
+              -0.2497287289141395
+            ],
+            "tail_count": 2000
+          },
+          {
+            "arm": "L_Laz",
+            "reference": "M_notice",
+            "block": 1,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              -0.3785174702062406,
+              -0.15967267865124937
+            ],
+            "tail_count": 2000
+          },
+          {
+            "arm": "L_Laz",
+            "reference": "M_notice",
+            "block": 7,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              -0.37616603306519736,
+              -0.15431107079265957
+            ],
+            "tail_count": 2000
+          },
+          {
+            "arm": "L_chen_notice",
+            "reference": "M_notice",
+            "block": 1,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              -1.0205716000779328,
+              -0.5217451445626053
+            ],
+            "tail_count": 2000
+          },
+          {
+            "arm": "L_chen_notice",
+            "reference": "M_notice",
+            "block": 7,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              -1.0098152029992395,
+              -0.4441229719386597
+            ],
+            "tail_count": 2000
+          }
+        ]
+      },
+      "notice__A1_OFFICIAL_CAP_RECLIP_PRIMARY.json": {
+        "state": "PASS",
+        "checks": [
+          {
+            "arm": "L14",
+            "reference": "M_notice",
+            "block": 1,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              -0.388829368115834,
+              -0.22067187369374267
+            ],
+            "tail_count": 2000
+          },
+          {
+            "arm": "L14",
+            "reference": "M_notice",
+            "block": 7,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              -0.4046677244747951,
+              -0.21462243003355655
+            ],
+            "tail_count": 2000
+          },
+          {
+            "arm": "L_Laz",
+            "reference": "M_notice",
+            "block": 1,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              -0.3782895089494001,
+              -0.18904665118470115
+            ],
+            "tail_count": 2000
+          },
+          {
+            "arm": "L_Laz",
+            "reference": "M_notice",
+            "block": 7,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              -0.3785805127922917,
+              -0.19321347246890055
+            ],
+            "tail_count": 2000
+          },
+          {
+            "arm": "L_chen_notice",
+            "reference": "M_notice",
+            "block": 1,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              -0.9712603798690591,
+              -0.5121514889418707
+            ],
+            "tail_count": 2000
+          },
+          {
+            "arm": "L_chen_notice",
+            "reference": "M_notice",
+            "block": 7,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              -0.9307014383803843,
+              -0.4875757182914302
+            ],
+            "tail_count": 2000
+          }
+        ]
+      },
+      "notice__A1_OFFICIAL_CAP_RECLIP__NPL__NP.json": {
+        "state": "PASS",
+        "checks": [
+          {
+            "arm": "NPL",
+            "reference": "NP",
+            "block": 1,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              -1.0112825585947276,
+              -0.5594684778568535
+            ],
+            "tail_count": 2000
+          },
+          {
+            "arm": "NPL",
+            "reference": "NP",
+            "block": 7,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              -1.0419205810977303,
+              -0.6121451505812959
+            ],
+            "tail_count": 2000
+          }
+        ]
+      },
+      "notice__A1_OFFICIAL_CAP_RECLIP__NPL__NPP.json": {
+        "state": "PASS",
+        "checks": [
+          {
+            "arm": "NPL",
+            "reference": "NPP",
+            "block": 1,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              0.13260175338035848,
+              0.39501516607660453
+            ],
+            "tail_count": 1
+          },
+          {
+            "arm": "NPL",
+            "reference": "NPP",
+            "block": 7,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              0.11218802478231514,
+              0.41899684422807787
+            ],
+            "tail_count": 3
+          }
+        ]
+      },
+      "notice__A1_OFFICIAL_CAP_RECLIP__NP__N.json": {
+        "state": "PASS",
+        "checks": [
+          {
+            "arm": "NP",
+            "reference": "N",
+            "block": 1,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              -4.089493983597343,
+              -2.379128415463625
+            ],
+            "tail_count": 2000
+          },
+          {
+            "arm": "NP",
+            "reference": "N",
+            "block": 7,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              -4.322007393988775,
+              -2.1617358095028254
+            ],
+            "tail_count": 2000
+          }
+        ]
+      },
+      "notice__A1_OFFICIAL_CAP_RECLIP__NPP__NP.json": {
+        "state": "PASS",
+        "checks": [
+          {
+            "arm": "NPP",
+            "reference": "NP",
+            "block": 1,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              -1.2723718343720334,
+              -0.7789501365928376
+            ],
+            "tail_count": 2000
+          },
+          {
+            "arm": "NPP",
+            "reference": "NP",
+            "block": 7,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              -1.2494105525744208,
+              -0.8425650882021339
+            ],
+            "tail_count": 2000
+          }
+        ]
+      },
+      "notice__A1_OFFICIAL_CAP_RECLIP__NPL__NPM.json": {
+        "state": "PASS",
+        "checks": [
+          {
+            "arm": "NPL",
+            "reference": "NPM",
+            "block": 1,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              -0.25870037648257443,
+              -0.055430664252846325
+            ],
+            "tail_count": 1996
+          },
+          {
+            "arm": "NPL",
+            "reference": "NPM",
+            "block": 7,
+            "state": "PASS",
+            "draws": 2000,
+            "interval": [
+              -0.28638832379910495,
+              -0.0600035238517315
+            ],
+            "tail_count": 1999
+          }
+        ]
+      }
+    },
+    "daily_csv_proof": {
+      "news": {
+        "state": "PASS",
+        "file": {
+          "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/R2_STATE/scored/news__DAILY_LOSSES.csv",
+          "bytes": 14074,
+          "sha256": "74887745de654c1df5c77470ca86822ad4e8671a7059c7081497a00ac6bc8007"
+        },
+        "columns": [
+          "N",
+          "M",
+          "L_count",
+          "L_chen",
+          "LEAR"
+        ],
+        "seed": 20260919,
+        "variant": "main",
+        "format": "unchanged pandas to_csv(index=False)",
+        "scope": "IMMUTABLE_R2_MAIN_COLUMN_VIEW",
+        "own_cs8_csv": {
+          "path": "studies/batch_estimation/disk_checks/state/scoring/CS8/scored/news__DAILY_LOSSES.csv",
+          "sha256": "3898168f96e77450351b48aa6c8a0fa4cfce6f6651242c14d39f9d891c24e679"
+        }
+      },
+      "notice": {
+        "state": "PASS",
+        "file": {
+          "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/R2_STATE/scored/notice__DAILY_LOSSES.csv",
+          "bytes": 15134,
+          "sha256": "c00066a78d6b79fc2148c26f388530976ad51b49bec2315052e172a40f410021"
+        },
+        "columns": [
+          "N",
+          "M_notice",
+          "L14",
+          "L_Laz",
+          "L_chen_notice",
+          "M_shift_notice",
+          "NP",
+          "NPL",
+          "NPM",
+          "NPP",
+          "P_shift",
+          "R",
+          "T"
+        ],
+        "seed": 20260919,
+        "variant": "main",
+        "format": "unchanged pandas to_csv(index=False)",
+        "scope": "IMMUTABLE_R2_MAIN_COLUMN_VIEW",
+        "own_cs8_csv": {
+          "path": "studies/batch_estimation/disk_checks/state/scoring/CS8/scored/notice__DAILY_LOSSES.csv",
+          "sha256": "c00066a78d6b79fc2148c26f388530976ad51b49bec2315052e172a40f410021"
+        }
+      }
+    },
+    "pooled_mean_proof": {
+      "news": {
+        "state": "PASS",
+        "point_fields": "SCORE_REPORT/news/pooled_mae"
+      },
+      "notice": {
+        "state": "PASS",
+        "point_fields": "SCORE_REPORT/notice/pooled_mae"
+      }
+    },
+    "csv_scope": "persisted main-seed/main-variant CSV columns only; other arrays have point and independent frozen-function prefix proofs, not persisted CSV proof",
+    "canonical_daily_bytes": "PASS",
+    "exact_pooled_means": "PASS",
+    "read_log": [
+      {
+        "path": "studies/confirmation/execution/host_state/SEAL.json",
+        "sha256": "abdf291c73c68ff224dc5c070cd986baa686518b506bbf03d1657aa29ce75110",
+        "role": "seal"
+      },
+      {
+        "path": "studies/confirmation/execution/host_state/scored/SCORE_RECEIPT.json",
+        "sha256": "8f09b3d0626f0d1b5b5be4fe12d697004b3e210f5dc6b8c4eebcee69c8254215",
+        "role": "score_receipt"
+      },
+      {
+        "cs8_receipt": {
+          "path": "studies/batch_estimation/disk_checks/state/scoring/CS8_SCORE_RECEIPT_WITH_LOSSES.json",
+          "bytes": 45180,
+          "sha256": "509b5a7667ef0c5043050c0c6c178309d7c3854a5973021d5a9bfe28c53fc2ff"
+        },
+        "source_seals": [
+          "studies/confirmation/execution/host_state/SEAL.json",
+          {
+            "path": "studies/batch_estimation/disk_checks/state/SEAL_BATCH.json",
+            "bytes": 1668560,
+            "sha256": "f7548b602d6966bd67e532076db6567210a702ea4a2c65ea4a06609698f80d1e"
+          }
+        ]
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/scoring/CS8/scored/news__DAILY_LOSSES.csv",
+        "sha256": "3898168f96e77450351b48aa6c8a0fa4cfce6f6651242c14d39f9d891c24e679",
+        "role": "score_output"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/scoring/CS8/scored/SCORE_REPORT.json",
+        "sha256": "8fa47fbcf93323a05702a62b828942664b5fb40df30569546247624269351f8b",
+        "role": "score_output"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/scoring/CS8/scored/news__PRIMARY.json",
+        "sha256": "7594daf287c7b661c6342b565160bbb42f5453390b092249fdc6a798e27956c3",
+        "role": "score_output"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/scoring/CS8/scored/news__SECONDARY__M__N.json",
+        "sha256": "46044351c5c83301f536583b6479362e2ab85ec217cc2734d89d8cdb937764f0",
+        "role": "score_output"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/scoring/CS8/scored/news__SECONDARY__L_count__N.json",
+        "sha256": "6d9eaef83c0a66c09187e663c25b42b6843b239d158372d4fc959a13a96739af",
+        "role": "score_output"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/scoring/CS8/scored/news__SECONDARY__L_chen__N.json",
+        "sha256": "19d60efead06e03874e5e1776042149d400bda311fafd091e6d0a0e143c7f4c3",
+        "role": "score_output"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/scoring/CS8/scored/news__SECONDARY__M_shift__N.json",
+        "sha256": "6e54f56889777c416cc981c84e29b732af6de1a017fb958badccb41bbf13c5d2",
+        "role": "score_output"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/scoring/CS8/scored/news__SECONDARY__E_raw__N.json",
+        "sha256": "39bf4b92ab21e706090e8c18f61ea350638fb3229bcefef03e962a6d69972ae9",
+        "role": "score_output"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/scoring/CS8/scored/news__SECONDARY__P_shift__N.json",
+        "sha256": "5dbdc88de0b3a4fb1635277ba390e7da84f218c2e2a07c7339ea8446452e25da",
+        "role": "score_output"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/scoring/CS8/scored/news__SECONDARY__LEAR__N.json",
+        "sha256": "4a37772bb1a802ac827d5d7e63cc5cdab00164b3798bd912e8652a5d39021a12",
+        "role": "score_output"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/scoring/CS8/scored/news__SECONDARY__E_raw__M.json",
+        "sha256": "b2b1b5158a8c9cc98acb10be12838b2ff1b0e1cb570fccf972319b25594d21e8",
+        "role": "score_output"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/scoring/CS8/scored/news__SECONDARY__L_chen__E_raw.json",
+        "sha256": "3f8fa2f4a6f9163f3347484ab53f80b2f8555e3eeb8c13c179a012af8572729e",
+        "role": "score_output"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/scoring/CS8/scored/news__SECONDARY__P_shift__M_shift.json",
+        "sha256": "e8fde4a83d5bd8fe1b5fc06dd038d49ba362c05cba60da1fc0d1f90987354c26",
+        "role": "score_output"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/scoring/CS8/scored/news__SECONDARY__L_chen__P_shift.json",
+        "sha256": "a733ceab643b43792f0e7680aca9e7cc44ac54dc10e6ccc8da4536c714377982",
+        "role": "score_output"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/scoring/CS8/scored/news__SECONDARY__LEAR__M.json",
+        "sha256": "5bcad1f92019a6ea43e07bb5ec3fdb3cd00dc06b4ec34fdb6e95fad89404a753",
+        "role": "score_output"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/scoring/CS8/scored/news__SECONDARY__N__LEAR.json",
+        "sha256": "4e4b41fc0733b559d9230b4b4d9d24bde9f56d97ecdddc8c275ae7d5262da10a",
+        "role": "score_output"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/scoring/CS8/scored/news__SECONDARY__M__LEAR.json",
+        "sha256": "34df172bbfb09adcb5782c6e90b08e7703b398fb6ad88f855f1f25f1421da12f",
+        "role": "score_output"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/scoring/CS8/scored/news__SECONDARY__L_count__LEAR.json",
+        "sha256": "ad18670f396b84fd8353c842bb3344f3f72576eaaf2c1c2bea0b7e39fd48a7eb",
+        "role": "score_output"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/scoring/CS8/scored/news__SECONDARY__L_chen__LEAR.json",
+        "sha256": "953f357f11435d4863644001687113cd6f53b0ef57a57fdd89c2be6c6d560c6c",
+        "role": "score_output"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/scoring/CS8/scored/news__SECONDARY__M_shift__LEAR.json",
+        "sha256": "e8d9aa4107a60878bfaadc6be0b3c20f860736c5fe2c03fe6315ec09a05ff608",
+        "role": "score_output"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/scoring/CS8/scored/news__SECONDARY__E_raw__LEAR.json",
+        "sha256": "8c241436092897ab44d07de3b83bb59c50eb40b239ea9b1965e9fbd264df5e19",
+        "role": "score_output"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/scoring/CS8/scored/news__SECONDARY__P_shift__LEAR.json",
+        "sha256": "2b1e6cb63d286db1f0f46ebafbe7e47d4d06891fe0878c14cf396d5ab20db399",
+        "role": "score_output"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/scoring/CS8/scored/news__SECONDARY__W2_D__N.json",
+        "sha256": "91c5f3bf39c800df0aa3e9b13afce85bd88c402b5496b8c03b0ed610f805a672",
+        "role": "score_output"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/scoring/CS8/scored/news__SECONDARY__W2_D__M.json",
+        "sha256": "7aac1867d1c5d7fece6455251cc6ebf8047f173361696dd39a3b5ed534a5f021",
+        "role": "score_output"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/scoring/CS8/scored/news__SECONDARY__L_chen__W2_D.json",
+        "sha256": "421ae89e9c36e02df78c37c6a8c95fce45825c4b1e94e527b72559f05ab4f193",
+        "role": "score_output"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/scoring/CS8/scored/news__SECONDARY__W2_D__LEAR.json",
+        "sha256": "48dca5d9fae3b9927995cbe70f402cb0d8d4ee099bb14f2766fcfca9104a1641",
+        "role": "score_output"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/scoring/CS8/scored/news__SEED_20260920.json",
+        "sha256": "92753ab1f2a02165b2ee9d985a562cefd1a0db8a57592de1350a702d99cdbc74",
+        "role": "score_output"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/scoring/CS8/scored/news__SEED_20260921.json",
+        "sha256": "457aa10804b45ebccf9b99dba690d62ce670cf7838c8846665f6f50fe84c82d6",
+        "role": "score_output"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/scoring/CS8/scored/news__THREE_SEED_MEAN.json",
+        "sha256": "268be712276a350c3c9f1258f782dd24e57fc62c6c42323e7502077f8b0504d2",
+        "role": "score_output"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/scoring/CS8/scored/news__A1_EXPOSURE_EXCLUDED.json",
+        "sha256": "ffeceb039e5126cc7c400a3aa40a2622557c891a804ad1db9822541039b32c23",
+        "role": "score_output"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/scoring/CS8/scored/news__DAILY_LOSSES.csv",
+        "sha256": "3898168f96e77450351b48aa6c8a0fa4cfce6f6651242c14d39f9d891c24e679",
+        "role": "score_output"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/scoring/CS8/scored/news__PRIMARY.json",
+        "sha256": "7594daf287c7b661c6342b565160bbb42f5453390b092249fdc6a798e27956c3",
+        "role": "score_output"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/scoring/CS8/scored/news__A1_HLN.json",
+        "sha256": "2921bf7920e19056ce51c0f8145bc7ae1139e9133065ad65b7bc4bae82468732",
+        "role": "score_output"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/scoring/CS8/scored/news__A1_SEED_FRAGILE.json",
+        "sha256": "f8daf1bc35ad05151f7737cca891bd2c4244b84e5aa396d14bb13be9356176a6",
+        "role": "score_output"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/scoring/CS8/scored/SCORE_REPORT.json",
+        "sha256": "8fa47fbcf93323a05702a62b828942664b5fb40df30569546247624269351f8b",
+        "role": "score_output"
+      },
+      {
+        "path": "studies/confirmation/execution/host_state/features/news_keys_labels.parquet",
+        "sha256": "821f6db161fd012b18dee28e83f5518d7841e74461431633ebd6eaa0292ae68f",
+        "role": "sealed_truth_panel_postscore"
+      },
+      {
+        "path": "studies/confirmation/execution/host_state/sealed/lear__LEAR__s20260919__main.parquet",
+        "sha256": "2452a0703fe95fdf97653bd17db69ce0c8b4f593caa5bd924066c4837364cc9d",
+        "role": "r2_full_original_prediction"
+      },
+      {
+        "path": "studies/confirmation/execution/host_state/sealed/news__L_chen__s20260919__main.parquet",
+        "sha256": "6cb756c532eb5914578250cf1de290f464d3932d4031aec9a94db6e5dc9be15a",
+        "role": "r2_full_original_prediction"
+      },
+      {
+        "path": "studies/confirmation/execution/host_state/sealed/news__L_count__s20260919__main.parquet",
+        "sha256": "c73e4a16b16263f14f9e1984723b3c14fe6c55276d0fddbfbfb1cac094ad7ba4",
+        "role": "r2_full_original_prediction"
+      },
+      {
+        "path": "studies/confirmation/execution/host_state/sealed/news__M__s20260919__main.parquet",
+        "sha256": "5f8308db9aba07636b7d34dde2ed1bb858fe15d9c8d35b337402c73b0d245f09",
+        "role": "r2_full_original_prediction"
+      },
+      {
+        "path": "studies/confirmation/execution/host_state/sealed/news__N__s20260919__main.parquet",
+        "sha256": "f7b9d5072335564e3748ab72cd41b910cd7c5a6b803ae28a0bba7dbc5db8d8e7",
+        "role": "r2_full_original_prediction"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/sealed/news__M_shift__s20260919__main.parquet",
+        "sha256": "b9869a59f80be4799b59e78904c955247867df5cc55e5de02ae6396df9b892d1",
+        "role": "r2_full_original_prediction"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/sealed/news__E_raw__s20260919__main.parquet",
+        "sha256": "f570ffeddaaf5f5d7c25c717d01c2c71dda9ca044377190a8641d928a9c6aa80",
+        "role": "r2_full_original_prediction"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/sealed/news__P_shift__s20260919__main.parquet",
+        "sha256": "6b872e615c206b8687e37d033566df5be9655819a79c974f1449c7f7ec0a0db5",
+        "role": "r2_full_original_prediction"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/sealed/news__P_content__s20260919__main.parquet",
+        "sha256": "ad4a0bc6f1cc6e72da5126b50ffbe90ca473695ab3d2cc018f09e2ddb501a3b3",
+        "role": "r2_full_original_prediction"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/sealed/news__W2_D__s20260919__main.parquet",
+        "sha256": "811c46ab7e091175a3f6fc84932dd28db22ec819616f4693e03dccaaef55c56c",
+        "role": "r2_full_original_prediction"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/sealed/news__M__s20260920__main.parquet",
+        "sha256": "cb0bab59471d4b7f3c9f6a858c0260dff0e74442dd126e47c77b489efa02c76d",
+        "role": "r2_full_original_prediction"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/sealed/news__M__s20260921__main.parquet",
+        "sha256": "7a7d1538267481aa5d88203ee8686cbaab5433d696d56e8c676d94e9a4284bf4",
+        "role": "r2_full_original_prediction"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/sealed/news__L_count__s20260920__main.parquet",
+        "sha256": "2359801bc40197cc2d25f0f2d0e3df01fdceef6aa632fe82f25f95fc5181215f",
+        "role": "r2_full_original_prediction"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/sealed/news__L_count__s20260921__main.parquet",
+        "sha256": "c897dd730daeb47a204072e863df0551d567d3949ece9ae54ed0cb9a261fed72",
+        "role": "r2_full_original_prediction"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/sealed/news__L_chen__s20260920__main.parquet",
+        "sha256": "1e37efe9fb64adb51bc78a87a6e9c953774968bd2e11b07cfe6cbec2f3040e2f",
+        "role": "r2_full_original_prediction"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/sealed/news__L_chen__s20260921__main.parquet",
+        "sha256": "f440bf8167339e1d8a928da0159227e68889094916be7a314bfae8e32a6eb01d",
+        "role": "r2_full_original_prediction"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/scoring/CS8/scored/news__DAILY_LOSSES.csv",
+        "sha256": "3898168f96e77450351b48aa6c8a0fa4cfce6f6651242c14d39f9d891c24e679",
+        "role": "score_output"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/scoring/CS8/scored/news__DAILY_LOSSES.csv",
+        "sha256": "3898168f96e77450351b48aa6c8a0fa4cfce6f6651242c14d39f9d891c24e679",
+        "role": "score_output"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/scoring/CS8/scored/news__A1_SEED_FRAGILE.json",
+        "sha256": "f8daf1bc35ad05151f7737cca891bd2c4244b84e5aa396d14bb13be9356176a6",
+        "role": "score_output"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/scoring/CS8/scored/SCORE_REPORT.json",
+        "sha256": "8fa47fbcf93323a05702a62b828942664b5fb40df30569546247624269351f8b",
+        "role": "score_output"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/scoring/CS8/scored/news__SECONDARY__L_count__N.json",
+        "sha256": "6d9eaef83c0a66c09187e663c25b42b6843b239d158372d4fc959a13a96739af",
+        "role": "score_output"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/scoring/CS8/scored/news__SECONDARY__L_chen__N.json",
+        "sha256": "19d60efead06e03874e5e1776042149d400bda311fafd091e6d0a0e143c7f4c3",
+        "role": "score_output"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/scoring/CS8/scored/news__SECONDARY__M__N.json",
+        "sha256": "46044351c5c83301f536583b6479362e2ab85ec217cc2734d89d8cdb937764f0",
+        "role": "score_output"
+      },
+      {
+        "path": "studies/confirmation/execution/host_state/features/news_P_content_matched.npy",
+        "sha256": "16c1fd1c887bcdbee5b2d494f40d9276859ebad61ebdb492fc06315eb41da70c",
+        "role": "matched_mask"
+      },
+      {
+        "path": "studies/confirmation/execution/host_state/features/news_keys_labels.parquet",
+        "sha256": "821f6db161fd012b18dee28e83f5518d7841e74461431633ebd6eaa0292ae68f",
+        "role": "sealed_truth_panel_postscore"
+      },
+      {
+        "path": "studies/confirmation/execution/host_state/sealed/lear__LEAR__s20260919__main.parquet",
+        "sha256": "2452a0703fe95fdf97653bd17db69ce0c8b4f593caa5bd924066c4837364cc9d",
+        "role": "r2_full_original_prediction"
+      },
+      {
+        "path": "studies/confirmation/execution/host_state/sealed/news__L_chen__s20260919__main.parquet",
+        "sha256": "6cb756c532eb5914578250cf1de290f464d3932d4031aec9a94db6e5dc9be15a",
+        "role": "r2_full_original_prediction"
+      },
+      {
+        "path": "studies/confirmation/execution/host_state/sealed/news__L_count__s20260919__main.parquet",
+        "sha256": "c73e4a16b16263f14f9e1984723b3c14fe6c55276d0fddbfbfb1cac094ad7ba4",
+        "role": "r2_full_original_prediction"
+      },
+      {
+        "path": "studies/confirmation/execution/host_state/sealed/news__M__s20260919__main.parquet",
+        "sha256": "5f8308db9aba07636b7d34dde2ed1bb858fe15d9c8d35b337402c73b0d245f09",
+        "role": "r2_full_original_prediction"
+      },
+      {
+        "path": "studies/confirmation/execution/host_state/sealed/news__N__s20260919__main.parquet",
+        "sha256": "f7b9d5072335564e3748ab72cd41b910cd7c5a6b803ae28a0bba7dbc5db8d8e7",
+        "role": "r2_full_original_prediction"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/sealed/news__M_shift__s20260919__main.parquet",
+        "sha256": "b9869a59f80be4799b59e78904c955247867df5cc55e5de02ae6396df9b892d1",
+        "role": "r2_full_original_prediction"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/sealed/news__E_raw__s20260919__main.parquet",
+        "sha256": "f570ffeddaaf5f5d7c25c717d01c2c71dda9ca044377190a8641d928a9c6aa80",
+        "role": "r2_full_original_prediction"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/sealed/news__P_shift__s20260919__main.parquet",
+        "sha256": "6b872e615c206b8687e37d033566df5be9655819a79c974f1449c7f7ec0a0db5",
+        "role": "r2_full_original_prediction"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/sealed/news__P_content__s20260919__main.parquet",
+        "sha256": "ad4a0bc6f1cc6e72da5126b50ffbe90ca473695ab3d2cc018f09e2ddb501a3b3",
+        "role": "r2_full_original_prediction"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/sealed/news__W2_D__s20260919__main.parquet",
+        "sha256": "811c46ab7e091175a3f6fc84932dd28db22ec819616f4693e03dccaaef55c56c",
+        "role": "r2_full_original_prediction"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/sealed/news__M__s20260920__main.parquet",
+        "sha256": "cb0bab59471d4b7f3c9f6a858c0260dff0e74442dd126e47c77b489efa02c76d",
+        "role": "r2_full_original_prediction"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/sealed/news__M__s20260921__main.parquet",
+        "sha256": "7a7d1538267481aa5d88203ee8686cbaab5433d696d56e8c676d94e9a4284bf4",
+        "role": "r2_full_original_prediction"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/sealed/news__L_count__s20260920__main.parquet",
+        "sha256": "2359801bc40197cc2d25f0f2d0e3df01fdceef6aa632fe82f25f95fc5181215f",
+        "role": "r2_full_original_prediction"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/sealed/news__L_count__s20260921__main.parquet",
+        "sha256": "c897dd730daeb47a204072e863df0551d567d3949ece9ae54ed0cb9a261fed72",
+        "role": "r2_full_original_prediction"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/sealed/news__L_chen__s20260920__main.parquet",
+        "sha256": "1e37efe9fb64adb51bc78a87a6e9c953774968bd2e11b07cfe6cbec2f3040e2f",
+        "role": "r2_full_original_prediction"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/sealed/news__L_chen__s20260921__main.parquet",
+        "sha256": "f440bf8167339e1d8a928da0159227e68889094916be7a314bfae8e32a6eb01d",
+        "role": "r2_full_original_prediction"
+      },
+      {
+        "path": "studies/confirmation/execution/host_state/features/news_keys_labels.parquet",
+        "sha256": "821f6db161fd012b18dee28e83f5518d7841e74461431633ebd6eaa0292ae68f",
+        "role": "sealed_truth_panel_postscore"
+      },
+      {
+        "path": "studies/confirmation/execution/host_state/features/news_keys_labels.parquet",
+        "sha256": "821f6db161fd012b18dee28e83f5518d7841e74461431633ebd6eaa0292ae68f",
+        "role": "sealed_truth_panel_postscore"
+      },
+      {
+        "path": "studies/confirmation/execution/host_state/sealed/lear__LEAR__s20260919__main.parquet",
+        "sha256": "2452a0703fe95fdf97653bd17db69ce0c8b4f593caa5bd924066c4837364cc9d",
+        "role": "r2_full_original_prediction"
+      },
+      {
+        "path": "studies/confirmation/execution/host_state/sealed/news__L_chen__s20260919__main.parquet",
+        "sha256": "6cb756c532eb5914578250cf1de290f464d3932d4031aec9a94db6e5dc9be15a",
+        "role": "r2_full_original_prediction"
+      },
+      {
+        "path": "studies/confirmation/execution/host_state/sealed/news__L_count__s20260919__main.parquet",
+        "sha256": "c73e4a16b16263f14f9e1984723b3c14fe6c55276d0fddbfbfb1cac094ad7ba4",
+        "role": "r2_full_original_prediction"
+      },
+      {
+        "path": "studies/confirmation/execution/host_state/sealed/news__M__s20260919__main.parquet",
+        "sha256": "5f8308db9aba07636b7d34dde2ed1bb858fe15d9c8d35b337402c73b0d245f09",
+        "role": "r2_full_original_prediction"
+      },
+      {
+        "path": "studies/confirmation/execution/host_state/sealed/news__N__s20260919__main.parquet",
+        "sha256": "f7b9d5072335564e3748ab72cd41b910cd7c5a6b803ae28a0bba7dbc5db8d8e7",
+        "role": "r2_full_original_prediction"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/sealed/news__M_shift__s20260919__main.parquet",
+        "sha256": "b9869a59f80be4799b59e78904c955247867df5cc55e5de02ae6396df9b892d1",
+        "role": "r2_full_original_prediction"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/sealed/news__E_raw__s20260919__main.parquet",
+        "sha256": "f570ffeddaaf5f5d7c25c717d01c2c71dda9ca044377190a8641d928a9c6aa80",
+        "role": "r2_full_original_prediction"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/sealed/news__P_shift__s20260919__main.parquet",
+        "sha256": "6b872e615c206b8687e37d033566df5be9655819a79c974f1449c7f7ec0a0db5",
+        "role": "r2_full_original_prediction"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/sealed/news__P_content__s20260919__main.parquet",
+        "sha256": "ad4a0bc6f1cc6e72da5126b50ffbe90ca473695ab3d2cc018f09e2ddb501a3b3",
+        "role": "r2_full_original_prediction"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/sealed/news__W2_D__s20260919__main.parquet",
+        "sha256": "811c46ab7e091175a3f6fc84932dd28db22ec819616f4693e03dccaaef55c56c",
+        "role": "r2_full_original_prediction"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/sealed/news__M__s20260920__main.parquet",
+        "sha256": "cb0bab59471d4b7f3c9f6a858c0260dff0e74442dd126e47c77b489efa02c76d",
+        "role": "r2_full_original_prediction"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/sealed/news__M__s20260921__main.parquet",
+        "sha256": "7a7d1538267481aa5d88203ee8686cbaab5433d696d56e8c676d94e9a4284bf4",
+        "role": "r2_full_original_prediction"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/sealed/news__L_count__s20260920__main.parquet",
+        "sha256": "2359801bc40197cc2d25f0f2d0e3df01fdceef6aa632fe82f25f95fc5181215f",
+        "role": "r2_full_original_prediction"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/sealed/news__L_count__s20260921__main.parquet",
+        "sha256": "c897dd730daeb47a204072e863df0551d567d3949ece9ae54ed0cb9a261fed72",
+        "role": "r2_full_original_prediction"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/sealed/news__L_chen__s20260920__main.parquet",
+        "sha256": "1e37efe9fb64adb51bc78a87a6e9c953774968bd2e11b07cfe6cbec2f3040e2f",
+        "role": "r2_full_original_prediction"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/sealed/news__L_chen__s20260921__main.parquet",
+        "sha256": "f440bf8167339e1d8a928da0159227e68889094916be7a314bfae8e32a6eb01d",
+        "role": "r2_full_original_prediction"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/scoring/CS8/scored/news__DAILY_LOSSES.csv",
+        "sha256": "3898168f96e77450351b48aa6c8a0fa4cfce6f6651242c14d39f9d891c24e679",
+        "role": "score_output"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/scoring/CS8/scored/notice__DAILY_LOSSES.csv",
+        "sha256": "c00066a78d6b79fc2148c26f388530976ad51b49bec2315052e172a40f410021",
+        "role": "score_output"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/scoring/CS8/scored/SCORE_REPORT.json",
+        "sha256": "8fa47fbcf93323a05702a62b828942664b5fb40df30569546247624269351f8b",
+        "role": "score_output"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/scoring/CS8/scored/notice__PRIMARY.json",
+        "sha256": "cf11bc963cdcaf45b28b3715ccc8df03a807fc15786765580e3ab31ba4642070",
+        "role": "score_output"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/scoring/CS8/scored/notice__SECONDARY__M_notice__N.json",
+        "sha256": "d8199f04450ecc26880c545fbd9cee1dc6c674dd3741eacd35658b39d525d990",
+        "role": "score_output"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/scoring/CS8/scored/notice__SECONDARY__L14__N.json",
+        "sha256": "7ce870002aa173557d8d3346d207f6f1b5acd9fa989d269c42be164efb5ea31c",
+        "role": "score_output"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/scoring/CS8/scored/notice__SECONDARY__L_Laz__N.json",
+        "sha256": "e2d0ee9884ea2a0d11db3b37d1e64e5aec98ff2406c436992838443478b792e5",
+        "role": "score_output"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/scoring/CS8/scored/notice__SECONDARY__L_chen_notice__N.json",
+        "sha256": "77134893ce7d6d2fec4ea24580ff803384147b9f6daf6397395a6758bbd7a95a",
+        "role": "score_output"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/scoring/CS8/scored/notice__SECONDARY__M_shift_notice__N.json",
+        "sha256": "ec966d003bc2c2cac85bf9fe678e516241e6b6ec9215ffee2095fdd4a1780a7e",
+        "role": "score_output"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/scoring/CS8/scored/notice__SECONDARY__R__N.json",
+        "sha256": "64c0845d77b2765d1a442bc7008115ca59876f42516e90f394481231c21e111b",
+        "role": "score_output"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/scoring/CS8/scored/notice__SECONDARY__T__N.json",
+        "sha256": "c10ab9ae965d48e193c5a71e1c7b46de8e7560641d21ea25e22bac16291a9b0f",
+        "role": "score_output"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/scoring/CS8/scored/notice__SECONDARY__P_shift__N.json",
+        "sha256": "4665e7b05f05e906931f4975dac5b1c85ac5e5eb691915bdcde7dcf178944b88",
+        "role": "score_output"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/scoring/CS8/scored/notice__SECONDARY__NP__N.json",
+        "sha256": "1a78591c2bdb5ac9eea13c0752983dbc2cf358f13e6647ed864dbab1e5819c05",
+        "role": "score_output"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/scoring/CS8/scored/notice__SECONDARY__NPL__N.json",
+        "sha256": "d10b9950ac2c5570bdb83de82f65b512a7ebc3688effbd4f03a2b406015174cf",
+        "role": "score_output"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/scoring/CS8/scored/notice__SECONDARY__NPP__N.json",
+        "sha256": "b102d3317550dfefe4499823ba1be5a26b217b4f8350381afe3db8071a2e12d4",
+        "role": "score_output"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/scoring/CS8/scored/notice__SECONDARY__R__M_notice.json",
+        "sha256": "110e823c84dc4f3ac9b11343bf398ed962ecb4940851ec19df5b8b74c82ce3ca",
+        "role": "score_output"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/scoring/CS8/scored/notice__SECONDARY__T__M_notice.json",
+        "sha256": "72ecdc99b773fe61a2bb48b6367e2702153783e4ca7d5ed1c90915177ca7f78f",
+        "role": "score_output"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/scoring/CS8/scored/notice__SECONDARY__P_shift__M_shift_notice.json",
+        "sha256": "628c30a6eaf7ccedd6792260192220862ad63e33870a99cdef76bdc21df26aac",
+        "role": "score_output"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/scoring/CS8/scored/notice__SECONDARY__L_chen_notice__P_shift.json",
+        "sha256": "1385e1e72121e99af6a33f6259dd115e0c3ce2e2a8771604d8cb1e29a8943c09",
+        "role": "score_output"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/scoring/CS8/scored/notice__SECONDARY__NPL__NP.json",
+        "sha256": "4477bbb8ac9946282df46bfe60e1856bb957880e6ca9b0018210c248275975ff",
+        "role": "score_output"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/scoring/CS8/scored/notice__SECONDARY__NPL__NPP.json",
+        "sha256": "65ab36a94cd9cd6b5b6dde9e469fc2a4be09ea729b25c0e2877dcde09b3162d6",
+        "role": "score_output"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/scoring/CS8/scored/notice__SECONDARY__NPP__NP.json",
+        "sha256": "ac3468a31b6956033381ad946f1b76fdb3bc886381bfe11545d812f586d0bd2d",
+        "role": "score_output"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/scoring/CS8/scored/notice__SECONDARY__NPM__N.json",
+        "sha256": "b660a7e5fb3f180d54e23f0874456c260223d436a20046ffeda489a5eff8388d",
+        "role": "score_output"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/scoring/CS8/scored/notice__SECONDARY__NPL__NPM.json",
+        "sha256": "937ec4711d61e94379b9857cbf2e11f9379c9af25f6f4738bcc933a5201f7c38",
+        "role": "score_output"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/scoring/CS8/scored/notice__SEED_20260920.json",
+        "sha256": "4ab66e0e13f4b8b5802970f643666d3e24dc632048fcedb65af93c473e96c291",
+        "role": "score_output"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/scoring/CS8/scored/notice__SEED_20260921.json",
+        "sha256": "9d8b583d1c030ac6874b1cc6ae390ac6ed36b82dbdb87ceb8f0c7a76eb3c4f88",
+        "role": "score_output"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/scoring/CS8/scored/notice__THREE_SEED_MEAN.json",
+        "sha256": "bbe648eb690b5016507086194605445f7bd2ff198fa6c48c867157c7879ae152",
+        "role": "score_output"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/scoring/CS8/scored/notice__first_L.json",
+        "sha256": "a47aaf2887b72c5b6f3e001e5ba6928501f20e054bb77df26827c417479fc6fe",
+        "role": "score_output"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/scoring/CS8/scored/notice__DROP_FIRST_SEVEN_DAYS.json",
+        "sha256": "351356516bac4deb928bdf1fcec39dca69c33a2495df6b1a0bed8c9470c462b2",
+        "role": "score_output"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/scoring/CS8/scored/notice__A1_EXPOSURE_EXCLUDED.json",
+        "sha256": "548833fe47f740715c1a193955a7c5b87b488688595b6079123e907c093e6322",
+        "role": "score_output"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/scoring/CS8/scored/notice__A1_OFFICIAL_CAP_RECLIP_PRIMARY.json",
+        "sha256": "4eb5eeba6cceeae96fa5976a960693472e5c9ae94c5463d59ef95716add9f26b",
+        "role": "score_output"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/scoring/CS8/scored/notice__A1_OFFICIAL_CAP_RECLIP__NPL__NP.json",
+        "sha256": "1b6ff27bb1d089b978ab8828bbc670664cf67366fd03d2df7acc8d8a386a3ce2",
+        "role": "score_output"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/scoring/CS8/scored/notice__A1_OFFICIAL_CAP_RECLIP__NPL__NPP.json",
+        "sha256": "ec9981367c1262bf39bd5f6220b7112c8a05398d9004255a9abcf541dad4a2ea",
+        "role": "score_output"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/scoring/CS8/scored/notice__A1_OFFICIAL_CAP_RECLIP__NP__N.json",
+        "sha256": "eaa1c7d0f331989c83d9e0dd87ad0a4812991e2e56fefda1e0080f85bb94b83d",
+        "role": "score_output"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/scoring/CS8/scored/notice__A1_OFFICIAL_CAP_RECLIP__NPP__NP.json",
+        "sha256": "e5ffb201b0972372173ed316332c2d38d5ab4a0c32a34541047f3efe5e454f7a",
+        "role": "score_output"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/scoring/CS8/scored/notice__A1_OFFICIAL_CAP_RECLIP__NPL__NPM.json",
+        "sha256": "22ba6f03ec2632715afc777c459bee56ac260c3a23ecbcc871a65056b22db599",
+        "role": "score_output"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/scoring/CS8/scored/notice__DAILY_LOSSES.csv",
+        "sha256": "c00066a78d6b79fc2148c26f388530976ad51b49bec2315052e172a40f410021",
+        "role": "score_output"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/scoring/CS8/scored/notice__PRIMARY.json",
+        "sha256": "cf11bc963cdcaf45b28b3715ccc8df03a807fc15786765580e3ab31ba4642070",
+        "role": "score_output"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/scoring/CS8/scored/notice__A1_HLN.json",
+        "sha256": "02a87c545379e8e44c3848a386a08bb9ae05a00352e885eae559e89debefd344",
+        "role": "score_output"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/scoring/CS8/scored/notice__A1_SEED_FRAGILE.json",
+        "sha256": "c714d9170ff8b40f0f95c51091ab5ba8e9843d0ec2071a95fd659300f0c80892",
+        "role": "score_output"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/scoring/CS8/scored/SCORE_REPORT.json",
+        "sha256": "8fa47fbcf93323a05702a62b828942664b5fb40df30569546247624269351f8b",
+        "role": "score_output"
+      },
+      {
+        "path": "studies/confirmation/execution/host_state/features/notice_joint.parquet",
+        "sha256": "02284c7eb5f4a6afc612d0b35ab6c093c40f5bd67d801e3da55320ed82da9cc3",
+        "role": "sealed_truth_panel_postscore"
+      },
+      {
+        "path": "studies/confirmation/execution/host_state/sealed/notice__NP__s20260919__main.parquet",
+        "sha256": "ec1be9f39ec947549f04a72c5cd5277d40cbfbb63584695c2371a640da781751",
+        "role": "sealed_prediction"
+      },
+      {
+        "path": "studies/confirmation/execution/host_state/sealed/notice__L14__s20260919__main.parquet",
+        "sha256": "072e4ce46e9515c9f3bd658f22a6843ef0e4e3a344849b137d0f2a63dbf57d5c",
+        "role": "sealed_prediction"
+      },
+      {
+        "path": "studies/confirmation/execution/host_state/sealed/notice__L14__s20260920__main.parquet",
+        "sha256": "27abc057eee66ea0cc6f7aa876e93a8aeffd96caffe78a0193c12e3dec98c0d9",
+        "role": "sealed_prediction"
+      },
+      {
+        "path": "studies/confirmation/execution/host_state/sealed/notice__L14__s20260921__main.parquet",
+        "sha256": "b1f6ee171bcd098ee7911e1baf24bd8ced5975a722854d2b97ccf1491b72ab33",
+        "role": "sealed_prediction"
+      },
+      {
+        "path": "studies/confirmation/execution/host_state/sealed/notice__M_notice__s20260919__main.parquet",
+        "sha256": "5be1b891b075fa06e76a67719b32cc3ca201ba2a7896a1ae12d4e83139e250dc",
+        "role": "sealed_prediction"
+      },
+      {
+        "path": "studies/confirmation/execution/host_state/sealed/notice__M_notice__s20260920__main.parquet",
+        "sha256": "062f9a6ca53cb381855f39dad79d4f615b33ef6bb037944b297eeaaa88aceace",
+        "role": "sealed_prediction"
+      },
+      {
+        "path": "studies/confirmation/execution/host_state/sealed/notice__M_notice__s20260921__main.parquet",
+        "sha256": "2ae1791ee4cde377b55ba5285e1b19567fbc62d145e532cde2405dbfcfcebde2",
+        "role": "sealed_prediction"
+      },
+      {
+        "path": "studies/confirmation/execution/host_state/sealed/notice__L_Laz__s20260919__main.parquet",
+        "sha256": "a7209c40873fd074823983b4fd502d937f647d8bab17b1c828f37c8f15d9f0dd",
+        "role": "sealed_prediction"
+      },
+      {
+        "path": "studies/confirmation/execution/host_state/sealed/notice__L_Laz__s20260920__main.parquet",
+        "sha256": "e3e224db925797c7841f079b7abd8d4f6dfd27281993b3434a9cca65d23a8c8b",
+        "role": "sealed_prediction"
+      },
+      {
+        "path": "studies/confirmation/execution/host_state/sealed/notice__L_Laz__s20260921__main.parquet",
+        "sha256": "aad9ded536f89e816fddb75fd58f7ece01eeefadb0d55ddf042a2b8892c66fca",
+        "role": "sealed_prediction"
+      },
+      {
+        "path": "studies/confirmation/execution/host_state/sealed/notice__L_chen_notice__s20260919__main.parquet",
+        "sha256": "bd7f741e7f0683032755e78ca817e9f0a6de9c1fd76a41fb4c3882c60e52b02d",
+        "role": "sealed_prediction"
+      },
+      {
+        "path": "studies/confirmation/execution/host_state/sealed/notice__L_chen_notice__s20260920__main.parquet",
+        "sha256": "1634666ef847ed975c86cf5af53f5a715cb57c42144e3826230b5a46fd63e944",
+        "role": "sealed_prediction"
+      },
+      {
+        "path": "studies/confirmation/execution/host_state/sealed/notice__L_chen_notice__s20260921__main.parquet",
+        "sha256": "7514861d79b1d7fa4bcc8214278220a1382492c2a4c8de0b7ca80d62e561265e",
+        "role": "sealed_prediction"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/scoring/CS8/scored/notice__DAILY_LOSSES.csv",
+        "sha256": "c00066a78d6b79fc2148c26f388530976ad51b49bec2315052e172a40f410021",
+        "role": "score_output"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/scoring/CS8/scored/notice__DAILY_LOSSES.csv",
+        "sha256": "c00066a78d6b79fc2148c26f388530976ad51b49bec2315052e172a40f410021",
+        "role": "score_output"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/scoring/CS8/scored/notice__A1_SEED_FRAGILE.json",
+        "sha256": "c714d9170ff8b40f0f95c51091ab5ba8e9843d0ec2071a95fd659300f0c80892",
+        "role": "score_output"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/scoring/CS8/scored/SCORE_REPORT.json",
+        "sha256": "8fa47fbcf93323a05702a62b828942664b5fb40df30569546247624269351f8b",
+        "role": "score_output"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/scoring/CS8/scored/notice__first_L.json",
+        "sha256": "a47aaf2887b72c5b6f3e001e5ba6928501f20e054bb77df26827c417479fc6fe",
+        "role": "score_output"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/scoring/CS8/scored/notice__A1_OFFICIAL_CAP_RECLIP_PRIMARY.json",
+        "sha256": "4eb5eeba6cceeae96fa5976a960693472e5c9ae94c5463d59ef95716add9f26b",
+        "role": "score_output"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/scoring/CS8/scored/notice__DROP_FIRST_SEVEN_DAYS.json",
+        "sha256": "351356516bac4deb928bdf1fcec39dca69c33a2495df6b1a0bed8c9470c462b2",
+        "role": "score_output"
+      },
+      {
+        "path": "studies/confirmation/execution/host_state/features/notice_joint.parquet",
+        "sha256": "02284c7eb5f4a6afc612d0b35ab6c093c40f5bd67d801e3da55320ed82da9cc3",
+        "role": "sealed_truth_panel_postscore"
+      },
+      {
+        "path": "studies/confirmation/execution/host_state/sealed/notice__NP__s20260919__main.parquet",
+        "sha256": "ec1be9f39ec947549f04a72c5cd5277d40cbfbb63584695c2371a640da781751",
+        "role": "sealed_prediction"
+      },
+      {
+        "path": "studies/confirmation/execution/host_state/sealed/notice__L14__s20260919__main.parquet",
+        "sha256": "072e4ce46e9515c9f3bd658f22a6843ef0e4e3a344849b137d0f2a63dbf57d5c",
+        "role": "sealed_prediction"
+      },
+      {
+        "path": "studies/confirmation/execution/host_state/sealed/notice__L14__s20260920__main.parquet",
+        "sha256": "27abc057eee66ea0cc6f7aa876e93a8aeffd96caffe78a0193c12e3dec98c0d9",
+        "role": "sealed_prediction"
+      },
+      {
+        "path": "studies/confirmation/execution/host_state/sealed/notice__L14__s20260921__main.parquet",
+        "sha256": "b1f6ee171bcd098ee7911e1baf24bd8ced5975a722854d2b97ccf1491b72ab33",
+        "role": "sealed_prediction"
+      },
+      {
+        "path": "studies/confirmation/execution/host_state/sealed/notice__M_notice__s20260919__main.parquet",
+        "sha256": "5be1b891b075fa06e76a67719b32cc3ca201ba2a7896a1ae12d4e83139e250dc",
+        "role": "sealed_prediction"
+      },
+      {
+        "path": "studies/confirmation/execution/host_state/sealed/notice__M_notice__s20260920__main.parquet",
+        "sha256": "062f9a6ca53cb381855f39dad79d4f615b33ef6bb037944b297eeaaa88aceace",
+        "role": "sealed_prediction"
+      },
+      {
+        "path": "studies/confirmation/execution/host_state/sealed/notice__M_notice__s20260921__main.parquet",
+        "sha256": "2ae1791ee4cde377b55ba5285e1b19567fbc62d145e532cde2405dbfcfcebde2",
+        "role": "sealed_prediction"
+      },
+      {
+        "path": "studies/confirmation/execution/host_state/sealed/notice__L_Laz__s20260919__main.parquet",
+        "sha256": "a7209c40873fd074823983b4fd502d937f647d8bab17b1c828f37c8f15d9f0dd",
+        "role": "sealed_prediction"
+      },
+      {
+        "path": "studies/confirmation/execution/host_state/sealed/notice__L_Laz__s20260920__main.parquet",
+        "sha256": "e3e224db925797c7841f079b7abd8d4f6dfd27281993b3434a9cca65d23a8c8b",
+        "role": "sealed_prediction"
+      },
+      {
+        "path": "studies/confirmation/execution/host_state/sealed/notice__L_Laz__s20260921__main.parquet",
+        "sha256": "aad9ded536f89e816fddb75fd58f7ece01eeefadb0d55ddf042a2b8892c66fca",
+        "role": "sealed_prediction"
+      },
+      {
+        "path": "studies/confirmation/execution/host_state/sealed/notice__L_chen_notice__s20260919__main.parquet",
+        "sha256": "bd7f741e7f0683032755e78ca817e9f0a6de9c1fd76a41fb4c3882c60e52b02d",
+        "role": "sealed_prediction"
+      },
+      {
+        "path": "studies/confirmation/execution/host_state/sealed/notice__L_chen_notice__s20260920__main.parquet",
+        "sha256": "1634666ef847ed975c86cf5af53f5a715cb57c42144e3826230b5a46fd63e944",
+        "role": "sealed_prediction"
+      },
+      {
+        "path": "studies/confirmation/execution/host_state/sealed/notice__L_chen_notice__s20260921__main.parquet",
+        "sha256": "7514861d79b1d7fa4bcc8214278220a1382492c2a4c8de0b7ca80d62e561265e",
+        "role": "sealed_prediction"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/scoring/CS8/scored/notice__DAILY_LOSSES.csv",
+        "sha256": "c00066a78d6b79fc2148c26f388530976ad51b49bec2315052e172a40f410021",
+        "role": "score_output"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/scoring/CS8/scored/SCORE_REPORT.json",
+        "sha256": "8fa47fbcf93323a05702a62b828942664b5fb40df30569546247624269351f8b",
+        "role": "score_output"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/scoring/CS8/scored/news__DAILY_LOSSES.csv",
+        "sha256": "3898168f96e77450351b48aa6c8a0fa4cfce6f6651242c14d39f9d891c24e679",
+        "role": "score_output"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/scoring/CS8/scored/news__PRIMARY.json",
+        "sha256": "7594daf287c7b661c6342b565160bbb42f5453390b092249fdc6a798e27956c3",
+        "role": "score_output"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/scoring/CS8/scored/news__A1_HLN.json",
+        "sha256": "2921bf7920e19056ce51c0f8145bc7ae1139e9133065ad65b7bc4bae82468732",
+        "role": "score_output"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/scoring/CS8/scored/news__A1_SEED_FRAGILE.json",
+        "sha256": "f8daf1bc35ad05151f7737cca891bd2c4244b84e5aa396d14bb13be9356176a6",
+        "role": "score_output"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/scoring/CS8/scored/notice__DAILY_LOSSES.csv",
+        "sha256": "c00066a78d6b79fc2148c26f388530976ad51b49bec2315052e172a40f410021",
+        "role": "score_output"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/scoring/CS8/scored/notice__PRIMARY.json",
+        "sha256": "cf11bc963cdcaf45b28b3715ccc8df03a807fc15786765580e3ab31ba4642070",
+        "role": "score_output"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/scoring/CS8/scored/notice__A1_HLN.json",
+        "sha256": "02a87c545379e8e44c3848a386a08bb9ae05a00352e885eae559e89debefd344",
+        "role": "score_output"
+      },
+      {
+        "path": "studies/batch_estimation/disk_checks/state/scoring/CS8/scored/notice__A1_SEED_FRAGILE.json",
+        "sha256": "c714d9170ff8b40f0f95c51091ab5ba8e9843d0ec2071a95fd659300f0c80892",
+        "role": "score_output"
+      }
+    ],
+    "cs8_daily_csv_proof": {
+      "news": {
+        "state": "PASS",
+        "file": {
+          "path": "studies/batch_estimation/disk_checks/state/scoring/CS8/scored/news__DAILY_LOSSES.csv",
+          "sha256": "3898168f96e77450351b48aa6c8a0fa4cfce6f6651242c14d39f9d891c24e679"
+        },
+        "columns": [
+          "N",
+          "M",
+          "L_count",
+          "L_chen",
+          "LEAR",
+          "M_shift",
+          "E_raw",
+          "P_shift",
+          "P_content",
+          "W2_D"
+        ],
+        "seed": 20260919,
+        "variant": "main",
+        "format": "unchanged pandas to_csv(index=False)"
+      },
+      "notice": {
+        "state": "PASS",
+        "file": {
+          "path": "studies/batch_estimation/disk_checks/state/scoring/CS8/scored/notice__DAILY_LOSSES.csv",
+          "sha256": "c00066a78d6b79fc2148c26f388530976ad51b49bec2315052e172a40f410021"
+        },
+        "columns": [
+          "N",
+          "M_notice",
+          "L14",
+          "L_Laz",
+          "L_chen_notice",
+          "M_shift_notice",
+          "NP",
+          "NPL",
+          "NPM",
+          "NPP",
+          "P_shift",
+          "R",
+          "T"
+        ],
+        "seed": 20260919,
+        "variant": "main",
+        "format": "unchanged pandas to_csv(index=False)"
+      }
+    },
+    "native_disposition_census": {
+      "schema": "MINRUN_AP_NATIVE_DISPOSITION_CENSUS_V1",
+      "forest_slots": 110,
+      "forest_families": 74,
+      "additions": [
+        {
+          "key": "news/R8",
+          "state": "NOT_RUN",
+          "source": {
+            "receipt": {
+              "bytes": 51331,
+              "path": "studies/batch_estimation/disk_checks/state/stages/R8_news.json",
+              "sha256": "d3a5875f0fb9e42a66e8545a514dafb9de27ccd3cf72d1a6bee66ba9d20dd8bd"
+            },
+            "effective_stage": {
+              "eligible_tasks": [],
+              "feature_manifest_sha256": "017fc79d38459707b3a86cf2671d4890995c2add955b45f01184d5c6860720b6",
+              "partial_predictions_eligible_for_scoring": false,
+              "reason": "A8NR_RESOURCE_A8AM2",
+              "receipt_identity": {
+                "bytes": 51331,
+                "path": "studies/batch_estimation/disk_checks/state/stages/R8_news.json",
+                "sha256": "d3a5875f0fb9e42a66e8545a514dafb9de27ccd3cf72d1a6bee66ba9d20dd8bd"
+              },
+              "specified_tasks": [
+                "news__2026-03-01__M0__s20260919__main",
+                "news__2026-03-01__M+0__s20260919__main",
+                "news__2026-03-01__M+__s20260919__main",
+                "news__2026-03-01__L_count+__s20260919__main",
+                "news__2026-03-01__L_chen+__s20260919__main",
+                "news__2026-03-02__M0__s20260919__main",
+                "news__2026-03-02__M+0__s20260919__main",
+                "news__2026-03-02__M+__s20260919__main",
+                "news__2026-03-02__L_count+__s20260919__main",
+                "news__2026-03-02__L_chen+__s20260919__main",
+                "news__2026-03-03__M0__s20260919__main",
+                "news__2026-03-03__M+0__s20260919__main",
+                "news__2026-03-03__M+__s20260919__main",
+                "news__2026-03-03__L_count+__s20260919__main",
+                "news__2026-03-03__L_chen+__s20260919__main",
+                "news__2026-03-04__M0__s20260919__main",
+                "news__2026-03-04__M+0__s20260919__main",
+                "news__2026-03-04__M+__s20260919__main",
+                "news__2026-03-04__L_count+__s20260919__main",
+                "news__2026-03-04__L_chen+__s20260919__main",
+                "news__2026-03-05__M0__s20260919__main",
+                "news__2026-03-05__M+0__s20260919__main",
+                "news__2026-03-05__M+__s20260919__main",
+                "news__2026-03-05__L_count+__s20260919__main",
+                "news__2026-03-05__L_chen+__s20260919__main",
+                "news__2026-03-06__M0__s20260919__main",
+                "news__2026-03-06__M+0__s20260919__main",
+                "news__2026-03-06__M+__s20260919__main",
+                "news__2026-03-06__L_count+__s20260919__main",
+                "news__2026-03-06__L_chen+__s20260919__main",
+                "news__2026-03-07__M0__s20260919__main",
+                "news__2026-03-07__M+0__s20260919__main",
+                "news__2026-03-07__M+__s20260919__main",
+                "news__2026-03-07__L_count+__s20260919__main",
+                "news__2026-03-07__L_chen+__s20260919__main",
+                "news__2026-03-08__M0__s20260919__main",
+                "news__2026-03-08__M+0__s20260919__main",
+                "news__2026-03-08__M+__s20260919__main",
+                "news__2026-03-08__L_count+__s20260919__main",
+                "news__2026-03-08__L_chen+__s20260919__main",
+                "news__2026-03-09__M0__s20260919__main",
+                "news__2026-03-09__M+0__s20260919__main",
+                "news__2026-03-09__M+__s20260919__main",
+                "news__2026-03-09__L_count+__s20260919__main",
+                "news__2026-03-09__L_chen+__s20260919__main",
+                "news__2026-03-10__M0__s20260919__main",
+                "news__2026-03-10__M+0__s20260919__main",
+                "news__2026-03-10__M+__s20260919__main",
+                "news__2026-03-10__L_count+__s20260919__main",
+                "news__2026-03-10__L_chen+__s20260919__main",
+                "news__2026-03-11__M0__s20260919__main",
+                "news__2026-03-11__M+0__s20260919__main",
+                "news__2026-03-11__M+__s20260919__main",
+                "news__2026-03-11__L_count+__s20260919__main",
+                "news__2026-03-11__L_chen+__s20260919__main",
+                "news__2026-03-12__M0__s20260919__main",
+                "news__2026-03-12__M+0__s20260919__main",
+                "news__2026-03-12__M+__s20260919__main",
+                "news__2026-03-12__L_count+__s20260919__main",
+                "news__2026-03-12__L_chen+__s20260919__main",
+                "news__2026-03-13__M0__s20260919__main",
+                "news__2026-03-13__M+0__s20260919__main",
+                "news__2026-03-13__M+__s20260919__main",
+                "news__2026-03-13__L_count+__s20260919__main",
+                "news__2026-03-13__L_chen+__s20260919__main",
+                "news__2026-03-14__M0__s20260919__main",
+                "news__2026-03-14__M+0__s20260919__main",
+                "news__2026-03-14__M+__s20260919__main",
+                "news__2026-03-14__L_count+__s20260919__main",
+                "news__2026-03-14__L_chen+__s20260919__main",
+                "news__2026-03-15__M0__s20260919__main",
+                "news__2026-03-15__M+0__s20260919__main",
+                "news__2026-03-15__M+__s20260919__main",
+                "news__2026-03-15__L_count+__s20260919__main",
+                "news__2026-03-15__L_chen+__s20260919__main",
+                "news__2026-03-16__M0__s20260919__main",
+                "news__2026-03-16__M+0__s20260919__main",
+                "news__2026-03-16__M+__s20260919__main",
+                "news__2026-03-16__L_count+__s20260919__main",
+                "news__2026-03-16__L_chen+__s20260919__main",
+                "news__2026-03-17__M0__s20260919__main",
+                "news__2026-03-17__M+0__s20260919__main",
+                "news__2026-03-17__M+__s20260919__main",
+                "news__2026-03-17__L_count+__s20260919__main",
+                "news__2026-03-17__L_chen+__s20260919__main",
+                "news__2026-03-18__M0__s20260919__main",
+                "news__2026-03-18__M+0__s20260919__main",
+                "news__2026-03-18__M+__s20260919__main",
+                "news__2026-03-18__L_count+__s20260919__main",
+                "news__2026-03-18__L_chen+__s20260919__main",
+                "news__2026-03-19__M0__s20260919__main",
+                "news__2026-03-19__M+0__s20260919__main",
+                "news__2026-03-19__M+__s20260919__main",
+                "news__2026-03-19__L_count+__s20260919__main",
+                "news__2026-03-19__L_chen+__s20260919__main",
+                "news__2026-03-20__M0__s20260919__main",
+                "news__2026-03-20__M+0__s20260919__main",
+                "news__2026-03-20__M+__s20260919__main",
+                "news__2026-03-20__L_count+__s20260919__main",
+                "news__2026-03-20__L_chen+__s20260919__main",
+                "news__2026-03-21__M0__s20260919__main",
+                "news__2026-03-21__M+0__s20260919__main",
+                "news__2026-03-21__M+__s20260919__main",
+                "news__2026-03-21__L_count+__s20260919__main",
+                "news__2026-03-21__L_chen+__s20260919__main",
+                "news__2026-03-22__M0__s20260919__main",
+                "news__2026-03-22__M+0__s20260919__main",
+                "news__2026-03-22__M+__s20260919__main",
+                "news__2026-03-22__L_count+__s20260919__main",
+                "news__2026-03-22__L_chen+__s20260919__main",
+                "news__2026-03-23__M0__s20260919__main",
+                "news__2026-03-23__M+0__s20260919__main",
+                "news__2026-03-23__M+__s20260919__main",
+                "news__2026-03-23__L_count+__s20260919__main",
+                "news__2026-03-23__L_chen+__s20260919__main",
+                "news__2026-03-24__M0__s20260919__main",
+                "news__2026-03-24__M+0__s20260919__main",
+                "news__2026-03-24__M+__s20260919__main",
+                "news__2026-03-24__L_count+__s20260919__main",
+                "news__2026-03-24__L_chen+__s20260919__main",
+                "news__2026-03-25__M0__s20260919__main",
+                "news__2026-03-25__M+0__s20260919__main",
+                "news__2026-03-25__M+__s20260919__main",
+                "news__2026-03-25__L_count+__s20260919__main",
+                "news__2026-03-25__L_chen+__s20260919__main",
+                "news__2026-03-26__M0__s20260919__main",
+                "news__2026-03-26__M+0__s20260919__main",
+                "news__2026-03-26__M+__s20260919__main",
+                "news__2026-03-26__L_count+__s20260919__main",
+                "news__2026-03-26__L_chen+__s20260919__main",
+                "news__2026-03-27__M0__s20260919__main",
+                "news__2026-03-27__M+0__s20260919__main",
+                "news__2026-03-27__M+__s20260919__main",
+                "news__2026-03-27__L_count+__s20260919__main",
+                "news__2026-03-27__L_chen+__s20260919__main",
+                "news__2026-03-28__M0__s20260919__main",
+                "news__2026-03-28__M+0__s20260919__main",
+                "news__2026-03-28__M+__s20260919__main",
+                "news__2026-03-28__L_count+__s20260919__main",
+                "news__2026-03-28__L_chen+__s20260919__main",
+                "news__2026-03-29__M0__s20260919__main",
+                "news__2026-03-29__M+0__s20260919__main",
+                "news__2026-03-29__M+__s20260919__main",
+                "news__2026-03-29__L_count+__s20260919__main",
+                "news__2026-03-29__L_chen+__s20260919__main",
+                "news__2026-03-30__M0__s20260919__main",
+                "news__2026-03-30__M+0__s20260919__main",
+                "news__2026-03-30__M+__s20260919__main",
+                "news__2026-03-30__L_count+__s20260919__main",
+                "news__2026-03-30__L_chen+__s20260919__main",
+                "news__2026-03-31__M0__s20260919__main",
+                "news__2026-03-31__M+0__s20260919__main",
+                "news__2026-03-31__M+__s20260919__main",
+                "news__2026-03-31__L_count+__s20260919__main",
+                "news__2026-03-31__L_chen+__s20260919__main",
+                "news__2026-04-01__M0__s20260919__main",
+                "news__2026-04-01__M+0__s20260919__main",
+                "news__2026-04-01__M+__s20260919__main",
+                "news__2026-04-01__L_count+__s20260919__main",
+                "news__2026-04-01__L_chen+__s20260919__main",
+                "news__2026-04-02__M0__s20260919__main",
+                "news__2026-04-02__M+0__s20260919__main",
+                "news__2026-04-02__M+__s20260919__main",
+                "news__2026-04-02__L_count+__s20260919__main",
+                "news__2026-04-02__L_chen+__s20260919__main",
+                "news__2026-04-03__M0__s20260919__main",
+                "news__2026-04-03__M+0__s20260919__main",
+                "news__2026-04-03__M+__s20260919__main",
+                "news__2026-04-03__L_count+__s20260919__main",
+                "news__2026-04-03__L_chen+__s20260919__main",
+                "news__2026-04-04__M0__s20260919__main",
+                "news__2026-04-04__M+0__s20260919__main",
+                "news__2026-04-04__M+__s20260919__main",
+                "news__2026-04-04__L_count+__s20260919__main",
+                "news__2026-04-04__L_chen+__s20260919__main",
+                "news__2026-04-05__M0__s20260919__main",
+                "news__2026-04-05__M+0__s20260919__main",
+                "news__2026-04-05__M+__s20260919__main",
+                "news__2026-04-05__L_count+__s20260919__main",
+                "news__2026-04-05__L_chen+__s20260919__main",
+                "news__2026-04-06__M0__s20260919__main",
+                "news__2026-04-06__M+0__s20260919__main",
+                "news__2026-04-06__M+__s20260919__main",
+                "news__2026-04-06__L_count+__s20260919__main",
+                "news__2026-04-06__L_chen+__s20260919__main",
+                "news__2026-04-07__M0__s20260919__main",
+                "news__2026-04-07__M+0__s20260919__main",
+                "news__2026-04-07__M+__s20260919__main",
+                "news__2026-04-07__L_count+__s20260919__main",
+                "news__2026-04-07__L_chen+__s20260919__main",
+                "news__2026-04-08__M0__s20260919__main",
+                "news__2026-04-08__M+0__s20260919__main",
+                "news__2026-04-08__M+__s20260919__main",
+                "news__2026-04-08__L_count+__s20260919__main",
+                "news__2026-04-08__L_chen+__s20260919__main",
+                "news__2026-04-09__M0__s20260919__main",
+                "news__2026-04-09__M+0__s20260919__main",
+                "news__2026-04-09__M+__s20260919__main",
+                "news__2026-04-09__L_count+__s20260919__main",
+                "news__2026-04-09__L_chen+__s20260919__main",
+                "news__2026-04-10__M0__s20260919__main",
+                "news__2026-04-10__M+0__s20260919__main",
+                "news__2026-04-10__M+__s20260919__main",
+                "news__2026-04-10__L_count+__s20260919__main",
+                "news__2026-04-10__L_chen+__s20260919__main",
+                "news__2026-04-11__M0__s20260919__main",
+                "news__2026-04-11__M+0__s20260919__main",
+                "news__2026-04-11__M+__s20260919__main",
+                "news__2026-04-11__L_count+__s20260919__main",
+                "news__2026-04-11__L_chen+__s20260919__main",
+                "news__2026-04-12__M0__s20260919__main",
+                "news__2026-04-12__M+0__s20260919__main",
+                "news__2026-04-12__M+__s20260919__main",
+                "news__2026-04-12__L_count+__s20260919__main",
+                "news__2026-04-12__L_chen+__s20260919__main",
+                "news__2026-04-13__M0__s20260919__main",
+                "news__2026-04-13__M+0__s20260919__main",
+                "news__2026-04-13__M+__s20260919__main",
+                "news__2026-04-13__L_count+__s20260919__main",
+                "news__2026-04-13__L_chen+__s20260919__main",
+                "news__2026-04-14__M0__s20260919__main",
+                "news__2026-04-14__M+0__s20260919__main",
+                "news__2026-04-14__M+__s20260919__main",
+                "news__2026-04-14__L_count+__s20260919__main",
+                "news__2026-04-14__L_chen+__s20260919__main",
+                "news__2026-04-15__M0__s20260919__main",
+                "news__2026-04-15__M+0__s20260919__main",
+                "news__2026-04-15__M+__s20260919__main",
+                "news__2026-04-15__L_count+__s20260919__main",
+                "news__2026-04-15__L_chen+__s20260919__main",
+                "news__2026-04-16__M0__s20260919__main",
+                "news__2026-04-16__M+0__s20260919__main",
+                "news__2026-04-16__M+__s20260919__main",
+                "news__2026-04-16__L_count+__s20260919__main",
+                "news__2026-04-16__L_chen+__s20260919__main",
+                "news__2026-04-17__M0__s20260919__main",
+                "news__2026-04-17__M+0__s20260919__main",
+                "news__2026-04-17__M+__s20260919__main",
+                "news__2026-04-17__L_count+__s20260919__main",
+                "news__2026-04-17__L_chen+__s20260919__main",
+                "news__2026-04-18__M0__s20260919__main",
+                "news__2026-04-18__M+0__s20260919__main",
+                "news__2026-04-18__M+__s20260919__main",
+                "news__2026-04-18__L_count+__s20260919__main",
+                "news__2026-04-18__L_chen+__s20260919__main",
+                "news__2026-04-19__M0__s20260919__main",
+                "news__2026-04-19__M+0__s20260919__main",
+                "news__2026-04-19__M+__s20260919__main",
+                "news__2026-04-19__L_count+__s20260919__main",
+                "news__2026-04-19__L_chen+__s20260919__main",
+                "news__2026-04-20__M0__s20260919__main",
+                "news__2026-04-20__M+0__s20260919__main",
+                "news__2026-04-20__M+__s20260919__main",
+                "news__2026-04-20__L_count+__s20260919__main",
+                "news__2026-04-20__L_chen+__s20260919__main",
+                "news__2026-04-21__M0__s20260919__main",
+                "news__2026-04-21__M+0__s20260919__main",
+                "news__2026-04-21__M+__s20260919__main",
+                "news__2026-04-21__L_count+__s20260919__main",
+                "news__2026-04-21__L_chen+__s20260919__main",
+                "news__2026-04-22__M0__s20260919__main",
+                "news__2026-04-22__M+0__s20260919__main",
+                "news__2026-04-22__M+__s20260919__main",
+                "news__2026-04-22__L_count+__s20260919__main",
+                "news__2026-04-22__L_chen+__s20260919__main",
+                "news__2026-04-23__M0__s20260919__main",
+                "news__2026-04-23__M+0__s20260919__main",
+                "news__2026-04-23__M+__s20260919__main",
+                "news__2026-04-23__L_count+__s20260919__main",
+                "news__2026-04-23__L_chen+__s20260919__main",
+                "news__2026-04-24__M0__s20260919__main",
+                "news__2026-04-24__M+0__s20260919__main",
+                "news__2026-04-24__M+__s20260919__main",
+                "news__2026-04-24__L_count+__s20260919__main",
+                "news__2026-04-24__L_chen+__s20260919__main",
+                "news__2026-04-25__M0__s20260919__main",
+                "news__2026-04-25__M+0__s20260919__main",
+                "news__2026-04-25__M+__s20260919__main",
+                "news__2026-04-25__L_count+__s20260919__main",
+                "news__2026-04-25__L_chen+__s20260919__main",
+                "news__2026-04-26__M0__s20260919__main",
+                "news__2026-04-26__M+0__s20260919__main",
+                "news__2026-04-26__M+__s20260919__main",
+                "news__2026-04-26__L_count+__s20260919__main",
+                "news__2026-04-26__L_chen+__s20260919__main",
+                "news__2026-04-27__M0__s20260919__main",
+                "news__2026-04-27__M+0__s20260919__main",
+                "news__2026-04-27__M+__s20260919__main",
+                "news__2026-04-27__L_count+__s20260919__main",
+                "news__2026-04-27__L_chen+__s20260919__main",
+                "news__2026-04-28__M0__s20260919__main",
+                "news__2026-04-28__M+0__s20260919__main",
+                "news__2026-04-28__M+__s20260919__main",
+                "news__2026-04-28__L_count+__s20260919__main",
+                "news__2026-04-28__L_chen+__s20260919__main",
+                "news__2026-04-29__M0__s20260919__main",
+                "news__2026-04-29__M+0__s20260919__main",
+                "news__2026-04-29__M+__s20260919__main",
+                "news__2026-04-29__L_count+__s20260919__main",
+                "news__2026-04-29__L_chen+__s20260919__main",
+                "news__2026-04-30__M0__s20260919__main",
+                "news__2026-04-30__M+0__s20260919__main",
+                "news__2026-04-30__M+__s20260919__main",
+                "news__2026-04-30__L_count+__s20260919__main",
+                "news__2026-04-30__L_chen+__s20260919__main",
+                "news__2026-05-01__M0__s20260919__main",
+                "news__2026-05-01__M+0__s20260919__main",
+                "news__2026-05-01__M+__s20260919__main",
+                "news__2026-05-01__L_count+__s20260919__main",
+                "news__2026-05-01__L_chen+__s20260919__main",
+                "news__2026-05-02__M0__s20260919__main",
+                "news__2026-05-02__M+0__s20260919__main",
+                "news__2026-05-02__M+__s20260919__main",
+                "news__2026-05-02__L_count+__s20260919__main",
+                "news__2026-05-02__L_chen+__s20260919__main",
+                "news__2026-05-03__M0__s20260919__main",
+                "news__2026-05-03__M+0__s20260919__main",
+                "news__2026-05-03__M+__s20260919__main",
+                "news__2026-05-03__L_count+__s20260919__main",
+                "news__2026-05-03__L_chen+__s20260919__main",
+                "news__2026-05-04__M0__s20260919__main",
+                "news__2026-05-04__M+0__s20260919__main",
+                "news__2026-05-04__M+__s20260919__main",
+                "news__2026-05-04__L_count+__s20260919__main",
+                "news__2026-05-04__L_chen+__s20260919__main",
+                "news__2026-05-05__M0__s20260919__main",
+                "news__2026-05-05__M+0__s20260919__main",
+                "news__2026-05-05__M+__s20260919__main",
+                "news__2026-05-05__L_count+__s20260919__main",
+                "news__2026-05-05__L_chen+__s20260919__main",
+                "news__2026-05-06__M0__s20260919__main",
+                "news__2026-05-06__M+0__s20260919__main",
+                "news__2026-05-06__M+__s20260919__main",
+                "news__2026-05-06__L_count+__s20260919__main",
+                "news__2026-05-06__L_chen+__s20260919__main",
+                "news__2026-05-07__M0__s20260919__main",
+                "news__2026-05-07__M+0__s20260919__main",
+                "news__2026-05-07__M+__s20260919__main",
+                "news__2026-05-07__L_count+__s20260919__main",
+                "news__2026-05-07__L_chen+__s20260919__main",
+                "news__2026-05-08__M0__s20260919__main",
+                "news__2026-05-08__M+0__s20260919__main",
+                "news__2026-05-08__M+__s20260919__main",
+                "news__2026-05-08__L_count+__s20260919__main",
+                "news__2026-05-08__L_chen+__s20260919__main",
+                "news__2026-05-09__M0__s20260919__main",
+                "news__2026-05-09__M+0__s20260919__main",
+                "news__2026-05-09__M+__s20260919__main",
+                "news__2026-05-09__L_count+__s20260919__main",
+                "news__2026-05-09__L_chen+__s20260919__main",
+                "news__2026-05-10__M0__s20260919__main",
+                "news__2026-05-10__M+0__s20260919__main",
+                "news__2026-05-10__M+__s20260919__main",
+                "news__2026-05-10__L_count+__s20260919__main",
+                "news__2026-05-10__L_chen+__s20260919__main",
+                "news__2026-05-11__M0__s20260919__main",
+                "news__2026-05-11__M+0__s20260919__main",
+                "news__2026-05-11__M+__s20260919__main",
+                "news__2026-05-11__L_count+__s20260919__main",
+                "news__2026-05-11__L_chen+__s20260919__main",
+                "news__2026-05-12__M0__s20260919__main",
+                "news__2026-05-12__M+0__s20260919__main",
+                "news__2026-05-12__M+__s20260919__main",
+                "news__2026-05-12__L_count+__s20260919__main",
+                "news__2026-05-12__L_chen+__s20260919__main",
+                "news__2026-05-13__M0__s20260919__main",
+                "news__2026-05-13__M+0__s20260919__main",
+                "news__2026-05-13__M+__s20260919__main",
+                "news__2026-05-13__L_count+__s20260919__main",
+                "news__2026-05-13__L_chen+__s20260919__main",
+                "news__2026-05-14__M0__s20260919__main",
+                "news__2026-05-14__M+0__s20260919__main",
+                "news__2026-05-14__M+__s20260919__main",
+                "news__2026-05-14__L_count+__s20260919__main",
+                "news__2026-05-14__L_chen+__s20260919__main",
+                "news__2026-05-15__M0__s20260919__main",
+                "news__2026-05-15__M+0__s20260919__main",
+                "news__2026-05-15__M+__s20260919__main",
+                "news__2026-05-15__L_count+__s20260919__main",
+                "news__2026-05-15__L_chen+__s20260919__main",
+                "news__2026-05-16__M0__s20260919__main",
+                "news__2026-05-16__M+0__s20260919__main",
+                "news__2026-05-16__M+__s20260919__main",
+                "news__2026-05-16__L_count+__s20260919__main",
+                "news__2026-05-16__L_chen+__s20260919__main",
+                "news__2026-05-17__M0__s20260919__main",
+                "news__2026-05-17__M+0__s20260919__main",
+                "news__2026-05-17__M+__s20260919__main",
+                "news__2026-05-17__L_count+__s20260919__main",
+                "news__2026-05-17__L_chen+__s20260919__main",
+                "news__2026-05-18__M0__s20260919__main",
+                "news__2026-05-18__M+0__s20260919__main",
+                "news__2026-05-18__M+__s20260919__main",
+                "news__2026-05-18__L_count+__s20260919__main",
+                "news__2026-05-18__L_chen+__s20260919__main",
+                "news__2026-05-19__M0__s20260919__main",
+                "news__2026-05-19__M+0__s20260919__main",
+                "news__2026-05-19__M+__s20260919__main",
+                "news__2026-05-19__L_count+__s20260919__main",
+                "news__2026-05-19__L_chen+__s20260919__main",
+                "news__2026-05-20__M0__s20260919__main",
+                "news__2026-05-20__M+0__s20260919__main",
+                "news__2026-05-20__M+__s20260919__main",
+                "news__2026-05-20__L_count+__s20260919__main",
+                "news__2026-05-20__L_chen+__s20260919__main",
+                "news__2026-05-21__M0__s20260919__main",
+                "news__2026-05-21__M+0__s20260919__main",
+                "news__2026-05-21__M+__s20260919__main",
+                "news__2026-05-21__L_count+__s20260919__main",
+                "news__2026-05-21__L_chen+__s20260919__main",
+                "news__2026-05-22__M0__s20260919__main",
+                "news__2026-05-22__M+0__s20260919__main",
+                "news__2026-05-22__M+__s20260919__main",
+                "news__2026-05-22__L_count+__s20260919__main",
+                "news__2026-05-22__L_chen+__s20260919__main",
+                "news__2026-05-23__M0__s20260919__main",
+                "news__2026-05-23__M+0__s20260919__main",
+                "news__2026-05-23__M+__s20260919__main",
+                "news__2026-05-23__L_count+__s20260919__main",
+                "news__2026-05-23__L_chen+__s20260919__main",
+                "news__2026-05-24__M0__s20260919__main",
+                "news__2026-05-24__M+0__s20260919__main",
+                "news__2026-05-24__M+__s20260919__main",
+                "news__2026-05-24__L_count+__s20260919__main",
+                "news__2026-05-24__L_chen+__s20260919__main",
+                "news__2026-05-25__M0__s20260919__main",
+                "news__2026-05-25__M+0__s20260919__main",
+                "news__2026-05-25__M+__s20260919__main",
+                "news__2026-05-25__L_count+__s20260919__main",
+                "news__2026-05-25__L_chen+__s20260919__main",
+                "news__2026-05-26__M0__s20260919__main",
+                "news__2026-05-26__M+0__s20260919__main",
+                "news__2026-05-26__M+__s20260919__main",
+                "news__2026-05-26__L_count+__s20260919__main",
+                "news__2026-05-26__L_chen+__s20260919__main",
+                "news__2026-05-27__M0__s20260919__main",
+                "news__2026-05-27__M+0__s20260919__main",
+                "news__2026-05-27__M+__s20260919__main",
+                "news__2026-05-27__L_count+__s20260919__main",
+                "news__2026-05-27__L_chen+__s20260919__main",
+                "news__2026-05-28__M0__s20260919__main",
+                "news__2026-05-28__M+0__s20260919__main",
+                "news__2026-05-28__M+__s20260919__main",
+                "news__2026-05-28__L_count+__s20260919__main",
+                "news__2026-05-28__L_chen+__s20260919__main",
+                "news__2026-05-29__M0__s20260919__main",
+                "news__2026-05-29__M+0__s20260919__main",
+                "news__2026-05-29__M+__s20260919__main",
+                "news__2026-05-29__L_count+__s20260919__main",
+                "news__2026-05-29__L_chen+__s20260919__main",
+                "news__2026-05-30__M0__s20260919__main",
+                "news__2026-05-30__M+0__s20260919__main",
+                "news__2026-05-30__M+__s20260919__main",
+                "news__2026-05-30__L_count+__s20260919__main",
+                "news__2026-05-30__L_chen+__s20260919__main",
+                "news__2026-05-31__M0__s20260919__main",
+                "news__2026-05-31__M+0__s20260919__main",
+                "news__2026-05-31__M+__s20260919__main",
+                "news__2026-05-31__L_count+__s20260919__main",
+                "news__2026-05-31__L_chen+__s20260919__main",
+                "news__2026-06-01__M0__s20260919__main",
+                "news__2026-06-01__M+0__s20260919__main",
+                "news__2026-06-01__M+__s20260919__main",
+                "news__2026-06-01__L_count+__s20260919__main",
+                "news__2026-06-01__L_chen+__s20260919__main",
+                "news__2026-06-02__M0__s20260919__main",
+                "news__2026-06-02__M+0__s20260919__main",
+                "news__2026-06-02__M+__s20260919__main",
+                "news__2026-06-02__L_count+__s20260919__main",
+                "news__2026-06-02__L_chen+__s20260919__main",
+                "news__2026-06-03__M0__s20260919__main",
+                "news__2026-06-03__M+0__s20260919__main",
+                "news__2026-06-03__M+__s20260919__main",
+                "news__2026-06-03__L_count+__s20260919__main",
+                "news__2026-06-03__L_chen+__s20260919__main",
+                "news__2026-06-04__M0__s20260919__main",
+                "news__2026-06-04__M+0__s20260919__main",
+                "news__2026-06-04__M+__s20260919__main",
+                "news__2026-06-04__L_count+__s20260919__main",
+                "news__2026-06-04__L_chen+__s20260919__main",
+                "news__2026-06-05__M0__s20260919__main",
+                "news__2026-06-05__M+0__s20260919__main",
+                "news__2026-06-05__M+__s20260919__main",
+                "news__2026-06-05__L_count+__s20260919__main",
+                "news__2026-06-05__L_chen+__s20260919__main",
+                "news__2026-06-06__M0__s20260919__main",
+                "news__2026-06-06__M+0__s20260919__main",
+                "news__2026-06-06__M+__s20260919__main",
+                "news__2026-06-06__L_count+__s20260919__main",
+                "news__2026-06-06__L_chen+__s20260919__main",
+                "news__2026-06-07__M0__s20260919__main",
+                "news__2026-06-07__M+0__s20260919__main",
+                "news__2026-06-07__M+__s20260919__main",
+                "news__2026-06-07__L_count+__s20260919__main",
+                "news__2026-06-07__L_chen+__s20260919__main",
+                "news__2026-06-08__M0__s20260919__main",
+                "news__2026-06-08__M+0__s20260919__main",
+                "news__2026-06-08__M+__s20260919__main",
+                "news__2026-06-08__L_count+__s20260919__main",
+                "news__2026-06-08__L_chen+__s20260919__main",
+                "news__2026-06-09__M0__s20260919__main",
+                "news__2026-06-09__M+0__s20260919__main",
+                "news__2026-06-09__M+__s20260919__main",
+                "news__2026-06-09__L_count+__s20260919__main",
+                "news__2026-06-09__L_chen+__s20260919__main",
+                "news__2026-06-10__M0__s20260919__main",
+                "news__2026-06-10__M+0__s20260919__main",
+                "news__2026-06-10__M+__s20260919__main",
+                "news__2026-06-10__L_count+__s20260919__main",
+                "news__2026-06-10__L_chen+__s20260919__main",
+                "news__2026-06-11__M0__s20260919__main",
+                "news__2026-06-11__M+0__s20260919__main",
+                "news__2026-06-11__M+__s20260919__main",
+                "news__2026-06-11__L_count+__s20260919__main",
+                "news__2026-06-11__L_chen+__s20260919__main",
+                "news__2026-06-12__M0__s20260919__main",
+                "news__2026-06-12__M+0__s20260919__main",
+                "news__2026-06-12__M+__s20260919__main",
+                "news__2026-06-12__L_count+__s20260919__main",
+                "news__2026-06-12__L_chen+__s20260919__main",
+                "news__2026-06-13__M0__s20260919__main",
+                "news__2026-06-13__M+0__s20260919__main",
+                "news__2026-06-13__M+__s20260919__main",
+                "news__2026-06-13__L_count+__s20260919__main",
+                "news__2026-06-13__L_chen+__s20260919__main",
+                "news__2026-06-14__M0__s20260919__main",
+                "news__2026-06-14__M+0__s20260919__main",
+                "news__2026-06-14__M+__s20260919__main",
+                "news__2026-06-14__L_count+__s20260919__main",
+                "news__2026-06-14__L_chen+__s20260919__main",
+                "news__2026-06-15__M0__s20260919__main",
+                "news__2026-06-15__M+0__s20260919__main",
+                "news__2026-06-15__M+__s20260919__main",
+                "news__2026-06-15__L_count+__s20260919__main",
+                "news__2026-06-15__L_chen+__s20260919__main",
+                "news__2026-06-16__M0__s20260919__main",
+                "news__2026-06-16__M+0__s20260919__main",
+                "news__2026-06-16__M+__s20260919__main",
+                "news__2026-06-16__L_count+__s20260919__main",
+                "news__2026-06-16__L_chen+__s20260919__main",
+                "news__2026-06-17__M0__s20260919__main",
+                "news__2026-06-17__M+0__s20260919__main",
+                "news__2026-06-17__M+__s20260919__main",
+                "news__2026-06-17__L_count+__s20260919__main",
+                "news__2026-06-17__L_chen+__s20260919__main",
+                "news__2026-06-18__M0__s20260919__main",
+                "news__2026-06-18__M+0__s20260919__main",
+                "news__2026-06-18__M+__s20260919__main",
+                "news__2026-06-18__L_count+__s20260919__main",
+                "news__2026-06-18__L_chen+__s20260919__main",
+                "news__2026-06-19__M0__s20260919__main",
+                "news__2026-06-19__M+0__s20260919__main",
+                "news__2026-06-19__M+__s20260919__main",
+                "news__2026-06-19__L_count+__s20260919__main",
+                "news__2026-06-19__L_chen+__s20260919__main",
+                "news__2026-06-20__M0__s20260919__main",
+                "news__2026-06-20__M+0__s20260919__main",
+                "news__2026-06-20__M+__s20260919__main",
+                "news__2026-06-20__L_count+__s20260919__main",
+                "news__2026-06-20__L_chen+__s20260919__main",
+                "news__2026-06-21__M0__s20260919__main",
+                "news__2026-06-21__M+0__s20260919__main",
+                "news__2026-06-21__M+__s20260919__main",
+                "news__2026-06-21__L_count+__s20260919__main",
+                "news__2026-06-21__L_chen+__s20260919__main",
+                "news__2026-06-22__M0__s20260919__main",
+                "news__2026-06-22__M+0__s20260919__main",
+                "news__2026-06-22__M+__s20260919__main",
+                "news__2026-06-22__L_count+__s20260919__main",
+                "news__2026-06-22__L_chen+__s20260919__main",
+                "news__2026-06-23__M0__s20260919__main",
+                "news__2026-06-23__M+0__s20260919__main",
+                "news__2026-06-23__M+__s20260919__main",
+                "news__2026-06-23__L_count+__s20260919__main",
+                "news__2026-06-23__L_chen+__s20260919__main",
+                "news__2026-06-24__M0__s20260919__main",
+                "news__2026-06-24__M+0__s20260919__main",
+                "news__2026-06-24__M+__s20260919__main",
+                "news__2026-06-24__L_count+__s20260919__main",
+                "news__2026-06-24__L_chen+__s20260919__main",
+                "news__2026-06-25__M0__s20260919__main",
+                "news__2026-06-25__M+0__s20260919__main",
+                "news__2026-06-25__M+__s20260919__main",
+                "news__2026-06-25__L_count+__s20260919__main",
+                "news__2026-06-25__L_chen+__s20260919__main",
+                "news__2026-06-26__M0__s20260919__main",
+                "news__2026-06-26__M+0__s20260919__main",
+                "news__2026-06-26__M+__s20260919__main",
+                "news__2026-06-26__L_count+__s20260919__main",
+                "news__2026-06-26__L_chen+__s20260919__main",
+                "news__2026-06-27__M0__s20260919__main",
+                "news__2026-06-27__M+0__s20260919__main",
+                "news__2026-06-27__M+__s20260919__main",
+                "news__2026-06-27__L_count+__s20260919__main",
+                "news__2026-06-27__L_chen+__s20260919__main",
+                "news__2026-06-28__M0__s20260919__main",
+                "news__2026-06-28__M+0__s20260919__main",
+                "news__2026-06-28__M+__s20260919__main",
+                "news__2026-06-28__L_count+__s20260919__main",
+                "news__2026-06-28__L_chen+__s20260919__main",
+                "news__2026-06-29__M0__s20260919__main",
+                "news__2026-06-29__M+0__s20260919__main",
+                "news__2026-06-29__M+__s20260919__main",
+                "news__2026-06-29__L_count+__s20260919__main",
+                "news__2026-06-29__L_chen+__s20260919__main",
+                "news__2026-06-30__M0__s20260919__main",
+                "news__2026-06-30__M+0__s20260919__main",
+                "news__2026-06-30__M+__s20260919__main",
+                "news__2026-06-30__L_count+__s20260919__main",
+                "news__2026-06-30__L_chen+__s20260919__main",
+                "news__2026-07-01__M0__s20260919__main",
+                "news__2026-07-01__M+0__s20260919__main",
+                "news__2026-07-01__M+__s20260919__main",
+                "news__2026-07-01__L_count+__s20260919__main",
+                "news__2026-07-01__L_chen+__s20260919__main",
+                "news__2026-07-02__M0__s20260919__main",
+                "news__2026-07-02__M+0__s20260919__main",
+                "news__2026-07-02__M+__s20260919__main",
+                "news__2026-07-02__L_count+__s20260919__main",
+                "news__2026-07-02__L_chen+__s20260919__main",
+                "news__2026-07-03__M0__s20260919__main",
+                "news__2026-07-03__M+0__s20260919__main",
+                "news__2026-07-03__M+__s20260919__main",
+                "news__2026-07-03__L_count+__s20260919__main",
+                "news__2026-07-03__L_chen+__s20260919__main",
+                "news__2026-07-04__M0__s20260919__main",
+                "news__2026-07-04__M+0__s20260919__main",
+                "news__2026-07-04__M+__s20260919__main",
+                "news__2026-07-04__L_count+__s20260919__main",
+                "news__2026-07-04__L_chen+__s20260919__main",
+                "news__2026-07-05__M0__s20260919__main",
+                "news__2026-07-05__M+0__s20260919__main",
+                "news__2026-07-05__M+__s20260919__main",
+                "news__2026-07-05__L_count+__s20260919__main",
+                "news__2026-07-05__L_chen+__s20260919__main",
+                "news__2026-07-06__M0__s20260919__main",
+                "news__2026-07-06__M+0__s20260919__main",
+                "news__2026-07-06__M+__s20260919__main",
+                "news__2026-07-06__L_count+__s20260919__main",
+                "news__2026-07-06__L_chen+__s20260919__main",
+                "news__2026-07-07__M0__s20260919__main",
+                "news__2026-07-07__M+0__s20260919__main",
+                "news__2026-07-07__M+__s20260919__main",
+                "news__2026-07-07__L_count+__s20260919__main",
+                "news__2026-07-07__L_chen+__s20260919__main",
+                "news__2026-07-08__M0__s20260919__main",
+                "news__2026-07-08__M+0__s20260919__main",
+                "news__2026-07-08__M+__s20260919__main",
+                "news__2026-07-08__L_count+__s20260919__main",
+                "news__2026-07-08__L_chen+__s20260919__main",
+                "news__2026-07-09__M0__s20260919__main",
+                "news__2026-07-09__M+0__s20260919__main",
+                "news__2026-07-09__M+__s20260919__main",
+                "news__2026-07-09__L_count+__s20260919__main",
+                "news__2026-07-09__L_chen+__s20260919__main",
+                "news__2026-07-10__M0__s20260919__main",
+                "news__2026-07-10__M+0__s20260919__main",
+                "news__2026-07-10__M+__s20260919__main",
+                "news__2026-07-10__L_count+__s20260919__main",
+                "news__2026-07-10__L_chen+__s20260919__main",
+                "news__2026-07-11__M0__s20260919__main",
+                "news__2026-07-11__M+0__s20260919__main",
+                "news__2026-07-11__M+__s20260919__main",
+                "news__2026-07-11__L_count+__s20260919__main",
+                "news__2026-07-11__L_chen+__s20260919__main",
+                "news__2026-07-12__M0__s20260919__main",
+                "news__2026-07-12__M+0__s20260919__main",
+                "news__2026-07-12__M+__s20260919__main",
+                "news__2026-07-12__L_count+__s20260919__main",
+                "news__2026-07-12__L_chen+__s20260919__main",
+                "news__2026-07-13__M0__s20260919__main",
+                "news__2026-07-13__M+0__s20260919__main",
+                "news__2026-07-13__M+__s20260919__main",
+                "news__2026-07-13__L_count+__s20260919__main",
+                "news__2026-07-13__L_chen+__s20260919__main",
+                "news__2026-07-14__M0__s20260919__main",
+                "news__2026-07-14__M+0__s20260919__main",
+                "news__2026-07-14__M+__s20260919__main",
+                "news__2026-07-14__L_count+__s20260919__main",
+                "news__2026-07-14__L_chen+__s20260919__main",
+                "news__2026-07-15__M0__s20260919__main",
+                "news__2026-07-15__M+0__s20260919__main",
+                "news__2026-07-15__M+__s20260919__main",
+                "news__2026-07-15__L_count+__s20260919__main",
+                "news__2026-07-15__L_chen+__s20260919__main",
+                "news__2026-07-16__M0__s20260919__main",
+                "news__2026-07-16__M+0__s20260919__main",
+                "news__2026-07-16__M+__s20260919__main",
+                "news__2026-07-16__L_count+__s20260919__main",
+                "news__2026-07-16__L_chen+__s20260919__main",
+                "news__2026-07-17__M0__s20260919__main",
+                "news__2026-07-17__M+0__s20260919__main",
+                "news__2026-07-17__M+__s20260919__main",
+                "news__2026-07-17__L_count+__s20260919__main",
+                "news__2026-07-17__L_chen+__s20260919__main",
+                "news__2026-07-18__M0__s20260919__main",
+                "news__2026-07-18__M+0__s20260919__main",
+                "news__2026-07-18__M+__s20260919__main",
+                "news__2026-07-18__L_count+__s20260919__main",
+                "news__2026-07-18__L_chen+__s20260919__main",
+                "news__2026-07-19__M0__s20260919__main",
+                "news__2026-07-19__M+0__s20260919__main",
+                "news__2026-07-19__M+__s20260919__main",
+                "news__2026-07-19__L_count+__s20260919__main",
+                "news__2026-07-19__L_chen+__s20260919__main",
+                "news__2026-07-20__M0__s20260919__main",
+                "news__2026-07-20__M+0__s20260919__main",
+                "news__2026-07-20__M+__s20260919__main",
+                "news__2026-07-20__L_count+__s20260919__main",
+                "news__2026-07-20__L_chen+__s20260919__main",
+                "news__2026-07-21__M0__s20260919__main",
+                "news__2026-07-21__M+0__s20260919__main",
+                "news__2026-07-21__M+__s20260919__main",
+                "news__2026-07-21__L_count+__s20260919__main",
+                "news__2026-07-21__L_chen+__s20260919__main",
+                "news__2026-07-22__M0__s20260919__main",
+                "news__2026-07-22__M+0__s20260919__main",
+                "news__2026-07-22__M+__s20260919__main",
+                "news__2026-07-22__L_count+__s20260919__main",
+                "news__2026-07-22__L_chen+__s20260919__main",
+                "news__2026-07-23__M0__s20260919__main",
+                "news__2026-07-23__M+0__s20260919__main",
+                "news__2026-07-23__M+__s20260919__main",
+                "news__2026-07-23__L_count+__s20260919__main",
+                "news__2026-07-23__L_chen+__s20260919__main",
+                "news__2026-07-24__M0__s20260919__main",
+                "news__2026-07-24__M+0__s20260919__main",
+                "news__2026-07-24__M+__s20260919__main",
+                "news__2026-07-24__L_count+__s20260919__main",
+                "news__2026-07-24__L_chen+__s20260919__main",
+                "news__2026-07-25__M0__s20260919__main",
+                "news__2026-07-25__M+0__s20260919__main",
+                "news__2026-07-25__M+__s20260919__main",
+                "news__2026-07-25__L_count+__s20260919__main",
+                "news__2026-07-25__L_chen+__s20260919__main",
+                "news__2026-07-26__M0__s20260919__main",
+                "news__2026-07-26__M+0__s20260919__main",
+                "news__2026-07-26__M+__s20260919__main",
+                "news__2026-07-26__L_count+__s20260919__main",
+                "news__2026-07-26__L_chen+__s20260919__main",
+                "news__2026-07-27__M0__s20260919__main",
+                "news__2026-07-27__M+0__s20260919__main",
+                "news__2026-07-27__M+__s20260919__main",
+                "news__2026-07-27__L_count+__s20260919__main",
+                "news__2026-07-27__L_chen+__s20260919__main",
+                "news__2026-07-28__M0__s20260919__main",
+                "news__2026-07-28__M+0__s20260919__main",
+                "news__2026-07-28__M+__s20260919__main",
+                "news__2026-07-28__L_count+__s20260919__main",
+                "news__2026-07-28__L_chen+__s20260919__main",
+                "news__2026-07-29__M0__s20260919__main",
+                "news__2026-07-29__M+0__s20260919__main",
+                "news__2026-07-29__M+__s20260919__main",
+                "news__2026-07-29__L_count+__s20260919__main",
+                "news__2026-07-29__L_chen+__s20260919__main",
+                "news__2026-07-30__M0__s20260919__main",
+                "news__2026-07-30__M+0__s20260919__main",
+                "news__2026-07-30__M+__s20260919__main",
+                "news__2026-07-30__L_count+__s20260919__main",
+                "news__2026-07-30__L_chen+__s20260919__main",
+                "news__2026-07-31__M0__s20260919__main",
+                "news__2026-07-31__M+0__s20260919__main",
+                "news__2026-07-31__M+__s20260919__main",
+                "news__2026-07-31__L_count+__s20260919__main",
+                "news__2026-07-31__L_chen+__s20260919__main",
+                "news__2026-08-01__M0__s20260919__main",
+                "news__2026-08-01__M+0__s20260919__main",
+                "news__2026-08-01__M+__s20260919__main",
+                "news__2026-08-01__L_count+__s20260919__main",
+                "news__2026-08-01__L_chen+__s20260919__main",
+                "news__2026-08-02__M0__s20260919__main",
+                "news__2026-08-02__M+0__s20260919__main",
+                "news__2026-08-02__M+__s20260919__main",
+                "news__2026-08-02__L_count+__s20260919__main",
+                "news__2026-08-02__L_chen+__s20260919__main",
+                "news__2026-08-03__M0__s20260919__main",
+                "news__2026-08-03__M+0__s20260919__main",
+                "news__2026-08-03__M+__s20260919__main",
+                "news__2026-08-03__L_count+__s20260919__main",
+                "news__2026-08-03__L_chen+__s20260919__main",
+                "news__2026-08-04__M0__s20260919__main",
+                "news__2026-08-04__M+0__s20260919__main",
+                "news__2026-08-04__M+__s20260919__main",
+                "news__2026-08-04__L_count+__s20260919__main",
+                "news__2026-08-04__L_chen+__s20260919__main",
+                "news__2026-08-05__M0__s20260919__main",
+                "news__2026-08-05__M+0__s20260919__main",
+                "news__2026-08-05__M+__s20260919__main",
+                "news__2026-08-05__L_count+__s20260919__main",
+                "news__2026-08-05__L_chen+__s20260919__main",
+                "news__2026-08-06__M0__s20260919__main",
+                "news__2026-08-06__M+0__s20260919__main",
+                "news__2026-08-06__M+__s20260919__main",
+                "news__2026-08-06__L_count+__s20260919__main",
+                "news__2026-08-06__L_chen+__s20260919__main",
+                "news__2026-08-07__M0__s20260919__main",
+                "news__2026-08-07__M+0__s20260919__main",
+                "news__2026-08-07__M+__s20260919__main",
+                "news__2026-08-07__L_count+__s20260919__main",
+                "news__2026-08-07__L_chen+__s20260919__main",
+                "news__2026-08-08__M0__s20260919__main",
+                "news__2026-08-08__M+0__s20260919__main",
+                "news__2026-08-08__M+__s20260919__main",
+                "news__2026-08-08__L_count+__s20260919__main",
+                "news__2026-08-08__L_chen+__s20260919__main",
+                "news__2026-08-09__M0__s20260919__main",
+                "news__2026-08-09__M+0__s20260919__main",
+                "news__2026-08-09__M+__s20260919__main",
+                "news__2026-08-09__L_count+__s20260919__main",
+                "news__2026-08-09__L_chen+__s20260919__main",
+                "news__2026-08-10__M0__s20260919__main",
+                "news__2026-08-10__M+0__s20260919__main",
+                "news__2026-08-10__M+__s20260919__main",
+                "news__2026-08-10__L_count+__s20260919__main",
+                "news__2026-08-10__L_chen+__s20260919__main",
+                "news__2026-08-11__M0__s20260919__main",
+                "news__2026-08-11__M+0__s20260919__main",
+                "news__2026-08-11__M+__s20260919__main",
+                "news__2026-08-11__L_count+__s20260919__main",
+                "news__2026-08-11__L_chen+__s20260919__main",
+                "news__2026-08-12__M0__s20260919__main",
+                "news__2026-08-12__M+0__s20260919__main",
+                "news__2026-08-12__M+__s20260919__main",
+                "news__2026-08-12__L_count+__s20260919__main",
+                "news__2026-08-12__L_chen+__s20260919__main",
+                "news__2026-08-13__M0__s20260919__main",
+                "news__2026-08-13__M+0__s20260919__main",
+                "news__2026-08-13__M+__s20260919__main",
+                "news__2026-08-13__L_count+__s20260919__main",
+                "news__2026-08-13__L_chen+__s20260919__main",
+                "news__2026-08-14__M0__s20260919__main",
+                "news__2026-08-14__M+0__s20260919__main",
+                "news__2026-08-14__M+__s20260919__main",
+                "news__2026-08-14__L_count+__s20260919__main",
+                "news__2026-08-14__L_chen+__s20260919__main",
+                "news__2026-08-15__M0__s20260919__main",
+                "news__2026-08-15__M+0__s20260919__main",
+                "news__2026-08-15__M+__s20260919__main",
+                "news__2026-08-15__L_count+__s20260919__main",
+                "news__2026-08-15__L_chen+__s20260919__main",
+                "news__2026-08-16__M0__s20260919__main",
+                "news__2026-08-16__M+0__s20260919__main",
+                "news__2026-08-16__M+__s20260919__main",
+                "news__2026-08-16__L_count+__s20260919__main",
+                "news__2026-08-16__L_chen+__s20260919__main",
+                "news__2026-08-17__M0__s20260919__main",
+                "news__2026-08-17__M+0__s20260919__main",
+                "news__2026-08-17__M+__s20260919__main",
+                "news__2026-08-17__L_count+__s20260919__main",
+                "news__2026-08-17__L_chen+__s20260919__main",
+                "news__2026-08-18__M0__s20260919__main",
+                "news__2026-08-18__M+0__s20260919__main",
+                "news__2026-08-18__M+__s20260919__main",
+                "news__2026-08-18__L_count+__s20260919__main",
+                "news__2026-08-18__L_chen+__s20260919__main",
+                "news__2026-08-19__M0__s20260919__main",
+                "news__2026-08-19__M+0__s20260919__main",
+                "news__2026-08-19__M+__s20260919__main",
+                "news__2026-08-19__L_count+__s20260919__main",
+                "news__2026-08-19__L_chen+__s20260919__main",
+                "news__2026-08-20__M0__s20260919__main",
+                "news__2026-08-20__M+0__s20260919__main",
+                "news__2026-08-20__M+__s20260919__main",
+                "news__2026-08-20__L_count+__s20260919__main",
+                "news__2026-08-20__L_chen+__s20260919__main",
+                "news__2026-08-21__M0__s20260919__main",
+                "news__2026-08-21__M+0__s20260919__main",
+                "news__2026-08-21__M+__s20260919__main",
+                "news__2026-08-21__L_count+__s20260919__main",
+                "news__2026-08-21__L_chen+__s20260919__main",
+                "news__2026-08-22__M0__s20260919__main",
+                "news__2026-08-22__M+0__s20260919__main",
+                "news__2026-08-22__M+__s20260919__main",
+                "news__2026-08-22__L_count+__s20260919__main",
+                "news__2026-08-22__L_chen+__s20260919__main",
+                "news__2026-08-23__M0__s20260919__main",
+                "news__2026-08-23__M+0__s20260919__main",
+                "news__2026-08-23__M+__s20260919__main",
+                "news__2026-08-23__L_count+__s20260919__main",
+                "news__2026-08-23__L_chen+__s20260919__main",
+                "news__2026-08-24__M0__s20260919__main",
+                "news__2026-08-24__M+0__s20260919__main",
+                "news__2026-08-24__M+__s20260919__main",
+                "news__2026-08-24__L_count+__s20260919__main",
+                "news__2026-08-24__L_chen+__s20260919__main",
+                "news__2026-08-25__M0__s20260919__main",
+                "news__2026-08-25__M+0__s20260919__main",
+                "news__2026-08-25__M+__s20260919__main",
+                "news__2026-08-25__L_count+__s20260919__main",
+                "news__2026-08-25__L_chen+__s20260919__main",
+                "news__2026-08-26__M0__s20260919__main",
+                "news__2026-08-26__M+0__s20260919__main",
+                "news__2026-08-26__M+__s20260919__main",
+                "news__2026-08-26__L_count+__s20260919__main",
+                "news__2026-08-26__L_chen+__s20260919__main",
+                "news__2026-08-27__M0__s20260919__main",
+                "news__2026-08-27__M+0__s20260919__main",
+                "news__2026-08-27__M+__s20260919__main",
+                "news__2026-08-27__L_count+__s20260919__main",
+                "news__2026-08-27__L_chen+__s20260919__main",
+                "news__2026-08-28__M0__s20260919__main",
+                "news__2026-08-28__M+0__s20260919__main",
+                "news__2026-08-28__M+__s20260919__main",
+                "news__2026-08-28__L_count+__s20260919__main",
+                "news__2026-08-28__L_chen+__s20260919__main",
+                "news__2026-08-29__M0__s20260919__main",
+                "news__2026-08-29__M+0__s20260919__main",
+                "news__2026-08-29__M+__s20260919__main",
+                "news__2026-08-29__L_count+__s20260919__main",
+                "news__2026-08-29__L_chen+__s20260919__main",
+                "news__2026-08-30__M0__s20260919__main",
+                "news__2026-08-30__M+0__s20260919__main",
+                "news__2026-08-30__M+__s20260919__main",
+                "news__2026-08-30__L_count+__s20260919__main",
+                "news__2026-08-30__L_chen+__s20260919__main",
+                "news__2026-08-31__M0__s20260919__main",
+                "news__2026-08-31__M+0__s20260919__main",
+                "news__2026-08-31__M+__s20260919__main",
+                "news__2026-08-31__L_count+__s20260919__main",
+                "news__2026-08-31__L_chen+__s20260919__main",
+                "news__2026-09-01__M0__s20260919__main",
+                "news__2026-09-01__M+0__s20260919__main",
+                "news__2026-09-01__M+__s20260919__main",
+                "news__2026-09-01__L_count+__s20260919__main",
+                "news__2026-09-01__L_chen+__s20260919__main",
+                "news__2026-09-02__M0__s20260919__main",
+                "news__2026-09-02__M+0__s20260919__main",
+                "news__2026-09-02__M+__s20260919__main",
+                "news__2026-09-02__L_count+__s20260919__main",
+                "news__2026-09-02__L_chen+__s20260919__main",
+                "news__2026-09-03__M0__s20260919__main",
+                "news__2026-09-03__M+0__s20260919__main",
+                "news__2026-09-03__M+__s20260919__main",
+                "news__2026-09-03__L_count+__s20260919__main",
+                "news__2026-09-03__L_chen+__s20260919__main",
+                "news__2026-09-04__M0__s20260919__main",
+                "news__2026-09-04__M+0__s20260919__main",
+                "news__2026-09-04__M+__s20260919__main",
+                "news__2026-09-04__L_count+__s20260919__main",
+                "news__2026-09-04__L_chen+__s20260919__main",
+                "news__2026-09-05__M0__s20260919__main",
+                "news__2026-09-05__M+0__s20260919__main",
+                "news__2026-09-05__M+__s20260919__main",
+                "news__2026-09-05__L_count+__s20260919__main",
+                "news__2026-09-05__L_chen+__s20260919__main",
+                "news__2026-09-06__M0__s20260919__main",
+                "news__2026-09-06__M+0__s20260919__main",
+                "news__2026-09-06__M+__s20260919__main",
+                "news__2026-09-06__L_count+__s20260919__main",
+                "news__2026-09-06__L_chen+__s20260919__main",
+                "news__2026-09-07__M0__s20260919__main",
+                "news__2026-09-07__M+0__s20260919__main",
+                "news__2026-09-07__M+__s20260919__main",
+                "news__2026-09-07__L_count+__s20260919__main",
+                "news__2026-09-07__L_chen+__s20260919__main",
+                "news__2026-09-08__M0__s20260919__main",
+                "news__2026-09-08__M+0__s20260919__main",
+                "news__2026-09-08__M+__s20260919__main",
+                "news__2026-09-08__L_count+__s20260919__main",
+                "news__2026-09-08__L_chen+__s20260919__main",
+                "news__2026-09-09__M0__s20260919__main",
+                "news__2026-09-09__M+0__s20260919__main",
+                "news__2026-09-09__M+__s20260919__main",
+                "news__2026-09-09__L_count+__s20260919__main",
+                "news__2026-09-09__L_chen+__s20260919__main",
+                "news__2026-09-10__M0__s20260919__main",
+                "news__2026-09-10__M+0__s20260919__main",
+                "news__2026-09-10__M+__s20260919__main",
+                "news__2026-09-10__L_count+__s20260919__main",
+                "news__2026-09-10__L_chen+__s20260919__main",
+                "news__2026-09-11__M0__s20260919__main",
+                "news__2026-09-11__M+0__s20260919__main",
+                "news__2026-09-11__M+__s20260919__main",
+                "news__2026-09-11__L_count+__s20260919__main",
+                "news__2026-09-11__L_chen+__s20260919__main",
+                "news__2026-09-12__M0__s20260919__main",
+                "news__2026-09-12__M+0__s20260919__main",
+                "news__2026-09-12__M+__s20260919__main",
+                "news__2026-09-12__L_count+__s20260919__main",
+                "news__2026-09-12__L_chen+__s20260919__main",
+                "news__2026-09-13__M0__s20260919__main",
+                "news__2026-09-13__M+0__s20260919__main",
+                "news__2026-09-13__M+__s20260919__main",
+                "news__2026-09-13__L_count+__s20260919__main",
+                "news__2026-09-13__L_chen+__s20260919__main",
+                "news__2026-09-14__M0__s20260919__main",
+                "news__2026-09-14__M+0__s20260919__main",
+                "news__2026-09-14__M+__s20260919__main",
+                "news__2026-09-14__L_count+__s20260919__main",
+                "news__2026-09-14__L_chen+__s20260919__main",
+                "news__2026-09-15__M0__s20260919__main",
+                "news__2026-09-15__M+0__s20260919__main",
+                "news__2026-09-15__M+__s20260919__main",
+                "news__2026-09-15__L_count+__s20260919__main",
+                "news__2026-09-15__L_chen+__s20260919__main",
+                "news__2026-09-16__M0__s20260919__main",
+                "news__2026-09-16__M+0__s20260919__main",
+                "news__2026-09-16__M+__s20260919__main",
+                "news__2026-09-16__L_count+__s20260919__main",
+                "news__2026-09-16__L_chen+__s20260919__main",
+                "news__2026-09-17__M0__s20260919__main",
+                "news__2026-09-17__M+0__s20260919__main",
+                "news__2026-09-17__M+__s20260919__main",
+                "news__2026-09-17__L_count+__s20260919__main",
+                "news__2026-09-17__L_chen+__s20260919__main",
+                "news__2026-09-18__M0__s20260919__main",
+                "news__2026-09-18__M+0__s20260919__main",
+                "news__2026-09-18__M+__s20260919__main",
+                "news__2026-09-18__L_count+__s20260919__main",
+                "news__2026-09-18__L_chen+__s20260919__main",
+                "news__2026-09-19__M0__s20260919__main",
+                "news__2026-09-19__M+0__s20260919__main",
+                "news__2026-09-19__M+__s20260919__main",
+                "news__2026-09-19__L_count+__s20260919__main",
+                "news__2026-09-19__L_chen+__s20260919__main",
+                "news__2026-09-20__M0__s20260919__main",
+                "news__2026-09-20__M+0__s20260919__main",
+                "news__2026-09-20__M+__s20260919__main",
+                "news__2026-09-20__L_count+__s20260919__main",
+                "news__2026-09-20__L_chen+__s20260919__main",
+                "news__2026-09-21__M0__s20260919__main",
+                "news__2026-09-21__M+0__s20260919__main",
+                "news__2026-09-21__M+__s20260919__main",
+                "news__2026-09-21__L_count+__s20260919__main",
+                "news__2026-09-21__L_chen+__s20260919__main",
+                "news__2026-09-22__M0__s20260919__main",
+                "news__2026-09-22__M+0__s20260919__main",
+                "news__2026-09-22__M+__s20260919__main",
+                "news__2026-09-22__L_count+__s20260919__main",
+                "news__2026-09-22__L_chen+__s20260919__main",
+                "news__2026-09-23__M0__s20260919__main",
+                "news__2026-09-23__M+0__s20260919__main",
+                "news__2026-09-23__M+__s20260919__main",
+                "news__2026-09-23__L_count+__s20260919__main",
+                "news__2026-09-23__L_chen+__s20260919__main",
+                "news__2026-09-24__M0__s20260919__main",
+                "news__2026-09-24__M+0__s20260919__main",
+                "news__2026-09-24__M+__s20260919__main",
+                "news__2026-09-24__L_count+__s20260919__main",
+                "news__2026-09-24__L_chen+__s20260919__main",
+                "news__2026-09-25__M0__s20260919__main",
+                "news__2026-09-25__M+0__s20260919__main",
+                "news__2026-09-25__M+__s20260919__main",
+                "news__2026-09-25__L_count+__s20260919__main",
+                "news__2026-09-25__L_chen+__s20260919__main",
+                "news__2026-09-26__M0__s20260919__main",
+                "news__2026-09-26__M+0__s20260919__main",
+                "news__2026-09-26__M+__s20260919__main",
+                "news__2026-09-26__L_count+__s20260919__main",
+                "news__2026-09-26__L_chen+__s20260919__main",
+                "news__2026-09-27__M0__s20260919__main",
+                "news__2026-09-27__M+0__s20260919__main",
+                "news__2026-09-27__M+__s20260919__main",
+                "news__2026-09-27__L_count+__s20260919__main",
+                "news__2026-09-27__L_chen+__s20260919__main",
+                "news__2026-09-28__M0__s20260919__main",
+                "news__2026-09-28__M+0__s20260919__main",
+                "news__2026-09-28__M+__s20260919__main",
+                "news__2026-09-28__L_count+__s20260919__main",
+                "news__2026-09-28__L_chen+__s20260919__main",
+                "news__2026-09-29__M0__s20260919__main",
+                "news__2026-09-29__M+0__s20260919__main",
+                "news__2026-09-29__M+__s20260919__main",
+                "news__2026-09-29__L_count+__s20260919__main",
+                "news__2026-09-29__L_chen+__s20260919__main",
+                "news__2026-09-30__M0__s20260919__main",
+                "news__2026-09-30__M+0__s20260919__main",
+                "news__2026-09-30__M+__s20260919__main",
+                "news__2026-09-30__L_count+__s20260919__main",
+                "news__2026-09-30__L_chen+__s20260919__main",
+                "news__2025-01-01__M0__s20260919__2025_fixed_validation",
+                "news__2025-01-01__M+0__s20260919__2025_fixed_validation",
+                "news__2025-01-01__M+__s20260919__2025_fixed_validation",
+                "news__2025-01-01__L_count+__s20260919__2025_fixed_validation",
+                "news__2025-01-01__L_chen+__s20260919__2025_fixed_validation"
+              ],
+              "stage": "R8_news",
+              "state": "NOT_RUN_BUDGET"
+            }
+          }
+        }
+      ],
+      "no_statistics_added": true
+    },
+    "representation_parity": {
+      "schema": "MINRUN_A17_EXACT_PARITY_V1",
+      "reader_anchor": "CSV_DEFAULT_PARSER_EXACT",
+      "native": "RAW_FLOAT64_EXACT",
+      "official_statistics": "RAW_FLOAT64_UNCHANGED",
+      "tasks": {
+        "news": {
+          "days": 135,
+          "parser": "primary_tests.Inputs.daily_losses (default pd.read_csv)",
+          "csv_identity": {
+            "bytes": 26632,
+            "path": "studies/batch_estimation/disk_checks/state/scoring/CS8/scored/news__DAILY_LOSSES.csv",
+            "sha256": "3898168f96e77450351b48aa6c8a0fa4cfce6f6651242c14d39f9d891c24e679"
+          },
+          "native_identity": {
+            "bytes": 6170,
+            "path": "studies/batch_estimation/disk_checks/state/scoring/CS8/scored/news__PRIMARY.json",
+            "sha256": "7594daf287c7b661c6342b565160bbb42f5453390b092249fdc6a798e27956c3"
+          }
+        },
+        "notice": {
+          "days": 61,
+          "parser": "primary_tests.Inputs.daily_losses (default pd.read_csv)",
+          "csv_identity": {
+            "bytes": 15134,
+            "path": "studies/batch_estimation/disk_checks/state/scoring/CS8/scored/notice__DAILY_LOSSES.csv",
+            "sha256": "c00066a78d6b79fc2148c26f388530976ad51b49bec2315052e172a40f410021"
+          },
+          "native_identity": {
+            "bytes": 7717,
+            "path": "studies/batch_estimation/disk_checks/state/scoring/CS8/scored/notice__PRIMARY.json",
+            "sha256": "cf11bc963cdcaf45b28b3715ccc8df03a807fc15786765580e3ab31ba4642070"
+          }
+        }
+      }
+    }
+  },
+  "stage_counts": {
+    "completed": 8,
+    "completed apart from recorded unavailable configurations": 3,
+    "not run (frozen reason)": 10,
+    "deviation": 0,
+    "pending (no result file when filled)": 0
+  },
+  "frozen_A4_caps": [
+    "Because the comparison with price-only LEAR was not available, no reading here applies to a forecaster as strong as that benchmark.",
+    "Because a required cheap-text comparator was not available, these readings say nothing about value over cheaper text representations.",
+    "Because the absolute-error family was not completed, the news readings are specific to the squared-error training objective.",
+    "Because the pre-dispatch family was not completed, the news readings are specific to an information set without operator forecasts.",
+    "No reading here is a causal effect, a verified real-time trading gain or a cost comparison."
+  ],
+  "current_draws": 100000,
+  "production_authority": false,
+  "rerun_count_all_batch_dispositions": 2,
+  "rerun_count_fully_completed": 1,
+  "execution_authority": {
+    "original": {
+      "seal": {
+        "path": "studies/confirmation/execution/host_state/SEAL.json",
+        "bytes": 2564983,
+        "sha256": "abdf291c73c68ff224dc5c070cd986baa686518b506bbf03d1657aa29ce75110"
+      },
+      "score_receipt": {
+        "path": "studies/confirmation/execution/host_state/scored/SCORE_RECEIPT.json",
+        "bytes": 42620,
+        "sha256": "8f09b3d0626f0d1b5b5be4fe12d697004b3e210f5dc6b8c4eebcee69c8254215"
+      },
+      "score_report": {
+        "path": "studies/confirmation/execution/host_state/scored/SCORE_REPORT.json",
+        "bytes": 650019,
+        "sha256": "486a9ef667b31cf81623db19ab71e2ad3e333e32a5c2d8300083b69caf126126"
+      }
+    },
+    "r2": {
+      "seal": {
+        "path": "studies/confirmation/execution/host_state/SEAL.json",
+        "bytes": 2564983,
+        "sha256": "abdf291c73c68ff224dc5c070cd986baa686518b506bbf03d1657aa29ce75110"
+      },
+      "score_receipt": {
+        "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/R2_STATE/scored/SCORE_RECEIPT.json",
+        "bytes": 41121,
+        "sha256": "a3cb40c7f86e10ab0b5e6378e091ffd6cd2e8435425484a760787d3628607f4e"
+      },
+      "score_report": {
+        "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/R2_STATE/scored/SCORE_REPORT.json",
+        "bytes": 644643,
+        "sha256": "fe66c7599b6eec75307cdbc4a6cc465648865b037b4e17a55bb3276eca680ce9"
+      }
+    },
+    "execution": {
+      "capture": {
+        "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/CAPTURE_SNAPSHOT.json",
+        "bytes": 2252,
+        "sha256": "db89a29c9dee9aedbc26fcc444baefbd4dbb3f2b8a6f35694d9169a4494417a0"
+      },
+      "clock": {
+        "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/CAPTURE_CLOCK.json",
+        "bytes": 5729,
+        "sha256": "90057a6a31025fcac957d9fcb53aa48e846ae9cbc8d377a12a8c3b971a63db06"
+      },
+      "armed_utc": "2026-10-10T20:27:39.645911+00:00",
+      "r2_started_utc": "2026-10-10T20:28:23.134524+00:00",
+      "r2_completed_utc": "2026-10-10T20:29:09.437982+00:00",
+      "release": {
+        "bytes": 1830,
+        "path": "paper_plan/minrun_execution_20261010/af_chain/T5R_A15_SOURCE_AFTER_GO_20261011_01/score/MINRUN_SCORE_RELEASE.A15.signed.json",
+        "sha256": "84f2964ec0c494610dba37b026b2566ee12864c0cc2e68c547847ae960d65641"
+      },
+      "quiet_host": {
+        "bytes": 2356,
+        "path": "paper_plan/minrun_execution_20261010/af_chain/T5R_A15_SOURCE_AFTER_GO_20261011_01/score/PROCEDURAL_QUIET_HOST.A15.completed.json",
+        "sha256": "e9fa125dae398e1da506f68c8278612b686dc24754933c455d656884bac744fa"
+      }
+    }
+  },
+  "news_source": {
+    "acceptance_baseline_schemas": {
+      "tables/table_renderer/notice_constraints/ANCHOR_FORMS.json": "1711ee45d52aa3b57d2725a164cc54df16ba2cf153d38e97f0637347259948cf",
+      "tables/table_renderer/notice_constraints/G05_INTERFACE_SCHEMAS.json": "0a10e75ea898c418fe4c66e6b05dc46d56d8ca4d951afb064610d2b96932fcd1"
+    },
+    "acceptance_public_sources": {
+      "studies/batch_scoring/code/sealing.py": "16b1145bf6c21bb5793ecb31a311721959bb2fac75cd5886525938ba2e40ff9e",
+      "studies/batch_estimation/fitting/code/score_batch.py": "4d1250c475f862e04abccbc2e79afdeb795f3970665b7988aa91fbeb4c777238",
+      "studies/batch_estimation/fitting/code/batch_export.py": "2f28928c92572187e3113a58dd220d7b92c2be75375fdb1f3d09b1f15867d434",
+      "studies/inference/DEPENDENCY_PINS.json": "71d4974c6f0fc9b4e18b848832d35ae8ab53229dc053ec6af541c0fb9e64c947",
+      "studies/inference/table_inputs/code/table_input_hash.py": "962842d9b2fc06f52be4fcff706720faf836254eb7033a2cadaebae80122fe84",
+      "studies/inference/table_inputs/code/freeze_table_inputs.py": "b0c0d5f9b953c1885dd5dae2757110457b2018dd98b6243e30750f54cf05d9a3",
+      "studies/inference/table_inputs/code/supplement.py": "27d2b16cc8e78aaea0c76bdb7923de9d19a6c0e1020f8ff284d4fa2b6f1dc4f3",
+      "studies/inference/code/freeze_inference.py": "e25895838cc203297821d6eab6e499e28622ea8fba9ff00d2366e735fce0ad05",
+      "studies/inference/tests/sealed_synthetic.py": "0fb31604efade848de03d333a79199296fbacb93eabc6672376c26a3861ed9ca",
+      "studies/confirmation/sensitivity_tests/RULES_FOR_FILL3A.json": "19a7121dcf7159903b8428162ca41ff03babed210d857ffc6f054fc2f0e322f3",
+      "studies/confirmation/robustness_tests/RULES_FOR_MAIN_COMPARISONS.json": "1b5dd0de949d09f62547988555ea05627058631a18a86d96a1206f4b1d461713",
+      "studies/confirmation/robustness_tests/code/robustness_comparisons.py": "324b4cc08ae1f38a8481a7cd3e27133034acc505cf32375c3c261e2caa60bb7b",
+      "studies/confirmation/A6/RULES_FOR_SENSITIVITY_COMPARISONS.json": "80104c1c09bb9df9698448199bda4d07d979691b5bcd18e3d944369a50e872bf",
+      "studies/confirmation/inference_design/A8_FREEZE.json": "80e95c8db2c85ca38490f443612cda30d7ff33124f33ed87b70d8f8317909162",
+      "studies/confirmation/execution/execution_adapter.py": "bccb450ef2f1f67873540e3f666bbdcc947bca936f75d0cc2831c8f60eb7eec0",
+      "studies/confirmation/execution/report_adapter.py": "4d755dc535372255b7ea97afb2e522527ae4b31d556b58fac3e65ced0e77bebc",
+      "studies/confirmation/REVIEW8/SOURCE_DECISIONS_REVIEW8_20261005.md": "0c755ff3f08ab62d8c2b913088027fc7f10f0a8e923ddb561578185ef486303f",
+      "studies/confirmation/code/guard.py": "e3617edd7c30e43b41a700b9c452db2a16be998b1d3963722e34a6a3dd002ce8",
+      "studies/confirmation/code/scheduler.py": "2b7ad2669ea0fb4962699fe4041eeede75e711f8268303822543b221dcbf3fda",
+      "tables/summary_comparisons_templates.json": "e6fdb89d7e418b146953cdd16f255e6c41b590f3e7ae85d0256e9625c38ea4ac",
+      "tables/table_renderer/validation_group_11/ANCHOR_FORMS.json": "1711ee45d52aa3b57d2725a164cc54df16ba2cf153d38e97f0637347259948cf",
+      "tables/table_renderer/validation_group_11/G05_INTERFACE_SCHEMAS.json": "0a10e75ea898c418fe4c66e6b05dc46d56d8ca4d951afb064610d2b96932fcd1",
+      "tests_public/audit_historical_support.py": "413abf4b7a5eb75bb8bd8f7f3f88fde58ba709bbf379f9ab213a7644eeeb3509"
+    },
+    "acceptance_sources": {
+      "comparison_inputs/tests/TEST_SOURCE_PINS.json": "8404d5f50dfee2502b37b62b639e2ea201a435a1adb178e390a95fd863a65206",
+      "comparison_inputs/tests/acceptance.py": "44f2748bba1781ca85479035e41031ce09539b8e96dd64cd5e09e74ca6c57fba",
+      "comparison_inputs/tests/fixtures.py": "767d14cdcbf37cf9fdd72d9f23aaa1b3d3357d96ed49a98d2e154adab2f6326b",
+      "comparison_inputs/tests/real_chain.py": "21b57b309acdf10ddd3b01f85828b1b72201c3c2cfe920f0b9d485ffad179d7d",
+      "comparison_inputs/tests/run_acceptance.py": "3d269893a826db46f64850a4179e57cfeffc8f980d1189a5deb7fef87aa9e373"
+    },
+    "ap5_fixed_bytes_unchanged": true,
+    "code_directory": "comparison_inputs/code",
+    "news_days": [
+      "2026-05-19",
+      "2026-09-30"
+    ],
+    "original_and_notice_sources_unchanged": true,
+    "original_ap27": {
+      "studies/inference/table_inputs/code/classify_synthetic_failures.py": "a14742a3f4c8d19be680e3a5a6170242347f75977870836eeb0118598422b1da",
+      "studies/inference/table_inputs/code/table_input_hash.py": "962842d9b2fc06f52be4fcff706720faf836254eb7033a2cadaebae80122fe84",
+      "studies/inference/table_inputs/code/freeze_table_inputs.py": "b0c0d5f9b953c1885dd5dae2757110457b2018dd98b6243e30750f54cf05d9a3",
+      "studies/inference/table_inputs/code/postscore_guards.py": "ecd4cb9e68ecf8cd050349a581af154c568457b3217286f2f72c367432ca79ff",
+      "studies/inference/table_inputs/code/prepare_sources.py": "bf4c1906a96ab1e7af0bd1b4a11787050d707c386205208d2ca9c3ab40b75f88",
+      "studies/inference/table_inputs/code/producer.py": "cf98ca25346bde2fbd7ad5cdd1f8a208d9694b2a07b980333064f6ded4f5a7a3",
+      "studies/inference/table_inputs/code/restore_synthetic.py": "6bc69fb28c5d90352455151b6a3dcd7949b4b22d34e3e98087c610465133a097",
+      "studies/inference/table_inputs/code/scoring_callback_checks.py": "54d9f14410898f8a3dd8fc0e5b1e5c6742bab11a96ba5457bc6770a8d628783e",
+      "studies/inference/table_inputs/code/supplement.py": "27d2b16cc8e78aaea0c76bdb7923de9d19a6c0e1020f8ff284d4fa2b6f1dc4f3",
+      "studies/inference/code/comparison_fields.py": "b13557defc97637a53fbb4982cfada188cef75c5dfc571240bac8c2b1594ff24",
+      "studies/inference/code/read_comparisons.py": "4dbfbde7f54e31e5dd86ae6bcdbb8bd1b1764eba96cdc022090ac93601c9e6f6",
+      "studies/inference/code/freeze_inference.py": "e25895838cc203297821d6eab6e499e28622ea8fba9ff00d2366e735fce0ad05",
+      "studies/inference/code/batch_layers.py": "370a6119f45ec0e012acc9f33c37b559d7ef343a265345374c3608e3d7f8e8d7",
+      "studies/inference/code/consumer_fields.py": "aad1477b6aac224a8bc25002ee0100c5ee74746a5723d3f06f8fda0c2011a4b8",
+      "studies/inference/code/replay_composite_losses.py": "3529091df767789340f9524cb4a00561dca16bf45e5f7132bef8fb58a2c92cdd",
+      "studies/inference/code/frozen_losses.py": "8b92836a7d1a7a94d561601ac13d54e1eac6e92017272036a626b80c2e7a2400",
+      "studies/inference/code/input_specification.py": "42438f54a2c055fd5d941fb9e8f5d1964ca299b0a5eb7c31276608b4f7c37034",
+      "studies/inference/code/reading_rules.py": "e87247210c69b74c6a6ce6404af56bb4ba6a1d0527557a46926672ab03e9b6ae",
+      "studies/inference/code/native_tables.py": "6ab26e2e009065eb4c100ed5d35f664335f1f2b0b15a135551126d2f60adf19d",
+      "studies/inference/code/optional_losses.py": "edba86a33a67ae95d5d696db9fb2f2f7e46c31a75f3e562791df3d49d0d23124",
+      "studies/inference/code/parity_gate.py": "845843cdcea8c991c7e7939326a47fea6ae986610b740f062e662cd0877ff2aa",
+      "studies/inference/code/prescore_metadata.py": "7e2c396017ab6db993968da5d6053123e8b01d91c2cee337b929b4eeeabddd6a",
+      "studies/inference/code/reading_propagation.py": "67e3abcaf4407203938d5a16e2a78b2a68db048a5393008d5867fe6be6155baa",
+      "studies/inference/code/robustness_fields.py": "f896338c1d5d7a29826e6dcdfbd8378208fd1650a8872df4229bdb28e9649c1c",
+      "studies/inference/code/check_synthetic_scoring.py": "305d50dc4830dbefdb42c17308c955b0266b770f52aac15327c311e95341707b",
+      "studies/inference/code/squared_replay.py": "7b636c7d4312d88368ec9c865f9c9997302bc962bddb5045a69507a269dc9be6",
+      "studies/inference/code/synthetic_support.py": "e239830697f6fe410113828818d3b3c81dfc1355fe67dff2bdc90359bf27c10b"
+    },
+    "original_news_days": [
+      "2026-03-01",
+      "2026-09-30"
+    ],
+    "production_authority": false,
+    "role": "NEWS_PRIMARY",
+    "runtime_files": [
+      "comparison_inputs/code/news_source.py",
+      "comparison_inputs/code/consumer_branch.py",
+      "comparison_inputs/code/PARENT_PINS.json"
+    ],
+    "schema": "PCPRIMARY_R2_APPROVED_SCIENTIFIC_NEWS_V1",
+    "source_functions": [
+      {
+        "functions": [
+          "day_set",
+          "issue_positions",
+          "native_namespace",
+          "scoring_successor",
+          "a2_inputs",
+          "ap_build",
+          "panel_hash",
+          "score_prefix",
+          "official_score",
+          "verified_prediction_view",
+          "a3_successor",
+          "batch_prediction_losses",
+          "label_tree",
+          "optional_successor",
+          "evaluation_marker",
+          "score_optional_inputs"
+        ],
+        "path": "comparison_inputs/code/news_source.py",
+        "sha256": "3c63720fd0379c0436909a3d5f726d2b9c84f71f7312c99fb9fe7cadd4b8d44d"
+      },
+      {
+        "functions": [
+          "core_task",
+          "scope",
+          "producer_scope"
+        ],
+        "path": "comparison_inputs/code/consumer_branch.py",
+        "sha256": "272db553635740e35ecdbe48919cef121a5c8dd6fa7d7f253afdfd363b56677c"
+      }
+    ],
+    "source_pins": {
+      "studies/batch_scoring/code/batch_score.py": "5b8fa25b340a8e52a12db30983ff6267e8e0a38f7943742bccc3e38ff1a86945",
+      "studies/batch_scoring/code/sealing.py": "16b1145bf6c21bb5793ecb31a311721959bb2fac75cd5886525938ba2e40ff9e",
+      "studies/label_scoring/code/score_labels.py": "6a01eabdf334704a635f8c06c65315860a474d21895639b5df767b0dffc8d508",
+      "studies/inference/table_inputs/code/postscore_guards.py": "ecd4cb9e68ecf8cd050349a581af154c568457b3217286f2f72c367432ca79ff",
+      "studies/inference/table_inputs/code/producer.py": "cf98ca25346bde2fbd7ad5cdd1f8a208d9694b2a07b980333064f6ded4f5a7a3",
+      "studies/inference/table_inputs/code/supplement.py": "27d2b16cc8e78aaea0c76bdb7923de9d19a6c0e1020f8ff284d4fa2b6f1dc4f3",
+      "studies/inference/code/read_comparisons.py": "4dbfbde7f54e31e5dd86ae6bcdbb8bd1b1764eba96cdc022090ac93601c9e6f6",
+      "studies/inference/code/batch_layers.py": "370a6119f45ec0e012acc9f33c37b559d7ef343a265345374c3608e3d7f8e8d7",
+      "studies/inference/code/frozen_losses.py": "8b92836a7d1a7a94d561601ac13d54e1eac6e92017272036a626b80c2e7a2400",
+      "studies/inference/code/optional_losses.py": "edba86a33a67ae95d5d696db9fb2f2f7e46c31a75f3e562791df3d49d0d23124",
+      "studies/inference/code/squared_replay.py": "7b636c7d4312d88368ec9c865f9c9997302bc962bddb5045a69507a269dc9be6",
+      "studies/confirmation/primary_tests/code/primary_comparisons.py": "3a913e58473abb10519afd10094477bf2d2ef62a1a1ccfdb76250f4f7229d32e",
+      "studies/confirmation/sensitivity_tests/code/sensitivity_comparisons.py": "1d9fe228ac36d118d22defe54e0461b15c3f2924709cdac7c2b18242f843318c",
+      "studies/confirmation/execution/additional_scoring.py": "a38a159e918ece3749b1fcf64c2400e257ef5ae1e74aa622503f3e9058e23a03",
+      "studies/confirmation/execution/seal_score.py": "b1691df541805d4e95eb37b8a6d2e74b867bf17864a77eca4a79e9631cae6452",
+      "studies/confirmation/code/scoring.py": "56c6a938a1537853b359a1f592e6b2b7f26fd5dfd491fc7f5705ec4d8852786f",
+      "paper_plan/luna_cutoff_20261008/evidence/MODEL_CUTOFF_RECORD.json": "d32e1da83ecbd9083dd43735edd3131357afeb03c8a4007254c33997f8797737",
+      "paper_plan/luna_cutoff_20261008/evidence/luna_model.md": "efb95e473a811ad36452a8b5f560e820b8b03bde18a9a462ba3b18348630d87f",
+      "comparison_inputs/code/PARENT_PINS.json": "74b2927dad5aa9df8eaa45024abeb7962af093f79448326df699ee7d595c33ff",
+      "comparison_inputs/code/consumer_branch.py": "272db553635740e35ecdbe48919cef121a5c8dd6fa7d7f253afdfd363b56677c",
+      "comparison_inputs/code/news_source.py": "3c63720fd0379c0436909a3d5f726d2b9c84f71f7312c99fb9fe7cadd4b8d44d",
+      "availability_checks/postcut_reading.py": "2935e95447b35fa291ebe473185b728053d4ac29205b43a7faa5468af818a269"
+    }
+  }
+}

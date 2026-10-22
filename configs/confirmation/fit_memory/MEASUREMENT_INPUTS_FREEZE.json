@@ -1,0 +1,82 @@
+{
+  "addendum": 3,
+  "addendum_1_freeze": {
+    "bytes": 1241,
+    "path": "studies/confirmation/fit_memory/INPUT_RULES_FREEZE.json",
+    "sha256": "104510265b786eb89fd8e58b17156f9dfe2d46ec7eb13ed001c393fe4c8571cc"
+  },
+  "addendum_2_freeze": {
+    "bytes": 4046,
+    "path": "studies/confirmation/fit_memory/RESUME_INPUTS_FREEZE.json",
+    "sha256": "e5ba97424d2a032f05748435e6e5ceaf58700cc973c24d40ebbf857e0abde976"
+  },
+  "addendum_spec": {
+    "bytes": 8017,
+    "path": "studies/confirmation/fit_memory/SPEC_ADDENDUM_3_THROUGHPUT.md",
+    "sha256": "632ea3648c8b09424b1b8be83932d8adf86964d42e73f8ee4605724eeaa6ef0a"
+  },
+  "code_changed": false,
+  "code_identities_before_this_addendum": {
+    "live execution/lear_adapter.py": {
+      "bytes": 10495,
+      "path": "studies/confirmation/execution/lear_adapter.py",
+      "sha256": "e703dc5aadb4c76faf07d9c63f47d889e1dff7cd4b6d0c0e05190fb7a0d583c7"
+    },
+    "live execution/lear_input_adapter.py": {
+      "bytes": 12483,
+      "path": "studies/confirmation/execution/lear_input_adapter.py",
+      "sha256": "ad31109ff5623f1bd28e190bd0acbf55cb2b37337899ff967abfed7006159f31"
+    },
+    "replica execution/execution_adapter.py (fit_memory memory rule)": {
+      "bytes": 50370,
+      "path": "studies/confirmation/execution/execution_adapter.py",
+      "sha256": "658ac982f9c31af05af6af927f239c6f74e80dbc2730564ccfed17ad03e188dd"
+    }
+  },
+  "decision": "source message 2026-10-02: the author asked for maximum throughput; news concurrency up to 7 by anonymous-memory admission; LEAR window subjobs on 3 workers (BASE25 approach); resource-only",
+  "host_state_contents_read": false,
+  "live_files_modified": false,
+  "production_commands_run": [],
+  "running_features_process_touched": false,
+  "spec": {
+    "bytes": 9291,
+    "path": "studies/confirmation/fit_memory/SPEC.md",
+    "sha256": "9d3abfb9b8e7b96f6c13298d1e6a3ccebe649ecad861c26654cb01ffa6d56ba2"
+  },
+  "spec_freeze": {
+    "bytes": 4449,
+    "path": "studies/confirmation/fit_memory/SPEC_FREEZE.json",
+    "sha256": "0f2cad65e4df6e3521ef12dfd4bc438b1d311cc2a0c197332c0c8f6e2898ae31"
+  },
+  "state": "SPEC_ADDENDUM_FROZEN_BEFORE_CODE_CHANGE",
+  "task": "fit_memory",
+  "templates_and_frozen_texts": {
+    "BASE25/REPORT.md": {
+      "bytes": 13028,
+      "path": "studies/BASE25/REPORT.md",
+      "sha256": "6bb61a17ed69edecd3741472cf82bd3dcc66ea81eaa965e6261ec05074541f4c"
+    },
+    "BASE25/SPEC.md": {
+      "bytes": 29684,
+      "path": "studies/BASE25/SPEC.md",
+      "sha256": "9afce53ea52ea70b10a8cc555b3d31d94a18958ab0724a7cef6282e9ec081c8b"
+    },
+    "BASE25/code/lear_base25.py": {
+      "bytes": 29674,
+      "path": "studies/BASE25/code/lear_base25.py",
+      "sha256": "2c9321c8e2e643bbcd998291811d3c06eaf0661a5688cf597979ebf2f76f3432"
+    },
+    "COMPUTE_PLAN.md": {
+      "bytes": 11083,
+      "path": "studies/confirmation/COMPUTE_PLAN.md",
+      "sha256": "eef6705c750507e78b08472f5f5f1edae3f59ac4c03d707046352ac3915baf16"
+    },
+    "news_scheduling/EXECUTION_RESOURCE_SPECIFICATION_9.md": {
+      "bytes": 1856,
+      "path": "studies/news_scheduling/EXECUTION_RESOURCE_SPECIFICATION_9.md",
+      "sha256": "9d234399ce4399df4bc6ef2d0f48e72df5a18fb2d36a828d7a70786e3b4e566f"
+    }
+  },
+  "time_utc": "2026-10-02T09:47:17.816690+00:00",
+  "window_outcomes_read": false
+}

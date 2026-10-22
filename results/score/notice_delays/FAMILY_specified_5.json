@@ -1,0 +1,485 @@
+{
+  "family_m": 3,
+  "days": 61,
+  "date_gaps": [],
+  "reports": [
+    {
+      "n_days": 61,
+      "mean_difference": -0.028653198909737016,
+      "statistic": -7.292224225057365,
+      "p_two_sided": 3.048791889989555e-13,
+      "p_improvement": 1.5243959449947776e-13,
+      "p_deterioration": 0.9999999999998476,
+      "dm_state": "DEFINED",
+      "hac7_p_two_sided": 9.533668370143814e-12,
+      "hac7_state": "DEFINED",
+      "hln_p_two_sided": 7.931137188207764e-10,
+      "reference_mae": 9.46063618321158,
+      "arm_mae": 9.431982984301845,
+      "bootstrap": {
+        "1": {
+          "effect_percent_reference_mae": -0.3028675699482419,
+          "interval95_percent": [
+            -0.39121911804573356,
+            -0.21827244893363193
+          ],
+          "reference_mae": 9.46063618321158,
+          "finite_draws": 100000,
+          "undefined_draws": 0,
+          "bootstrap_nonpositive_effect_count": 100000,
+          "monte_carlo_resolution": 1e-05,
+          "interval_family_adjusted_percent": [
+            -0.4116850576921173,
+            -0.2003577139384538
+          ],
+          "family_m": 3,
+          "tail_draws_expected": 833.3333333333334
+        },
+        "7": {
+          "effect_percent_reference_mae": -0.3028675699482419,
+          "interval95_percent": [
+            -0.4009473415440289,
+            -0.21955992740401445
+          ],
+          "reference_mae": 9.46063618321158,
+          "finite_draws": 100000,
+          "undefined_draws": 0,
+          "bootstrap_nonpositive_effect_count": 100000,
+          "monte_carlo_resolution": 1e-05,
+          "interval_family_adjusted_percent": [
+            -0.42298978759261285,
+            -0.20118304102543336
+          ],
+          "family_m": 3,
+          "tail_draws_expected": 833.3333333333334
+        }
+      },
+      "effect_percent_reference_mae": -0.3028675699482419,
+      "arm": "L14",
+      "reference": "M_notice",
+      "state": "COMPUTED",
+      "holm_p": 9.146375669968665e-13,
+      "hln_holm_p": 2.3793411564623292e-09,
+      "hac7_holm_p": 2.860100511043144e-11,
+      "decision": "CONDITIONAL_IMPROVEMENT",
+      "hln_decision": "CONDITIONAL_IMPROVEMENT",
+      "hac7_decision": "CONDITIONAL_IMPROVEMENT",
+      "interval95_one_day": [
+        -0.39121911804573356,
+        -0.21827244893363193
+      ],
+      "interval95_seven_day": [
+        -0.4009473415440289,
+        -0.21955992740401445
+      ],
+      "interval_family_one_day": [
+        -0.4116850576921173,
+        -0.2003577139384538
+      ],
+      "interval_family_seven_day": [
+        -0.42298978759261285,
+        -0.20118304102543336
+      ]
+    },
+    {
+      "n_days": 61,
+      "mean_difference": -0.02688685285235388,
+      "statistic": -5.696104472436514,
+      "p_two_sided": 1.2257578409372884e-08,
+      "p_improvement": 6.128789204686442e-09,
+      "p_deterioration": 0.9999999938712107,
+      "dm_state": "DEFINED",
+      "hac7_p_two_sided": 3.8282906948097876e-10,
+      "hac7_state": "DEFINED",
+      "hln_p_two_sided": 3.9286011296018106e-07,
+      "reference_mae": 9.46063618321158,
+      "arm_mae": 9.433749330359227,
+      "bootstrap": {
+        "1": {
+          "effect_percent_reference_mae": -0.28419709131259147,
+          "interval95_percent": [
+            -0.3786478567510515,
+            -0.18802650276030897
+          ],
+          "reference_mae": 9.46063618321158,
+          "finite_draws": 100000,
+          "undefined_draws": 0,
+          "bootstrap_nonpositive_effect_count": 100000,
+          "monte_carlo_resolution": 1e-05,
+          "interval_family_adjusted_percent": [
+            -0.39985804921936435,
+            -0.16631676618913896
+          ],
+          "family_m": 3,
+          "tail_draws_expected": 833.3333333333334
+        },
+        "7": {
+          "effect_percent_reference_mae": -0.28419709131259147,
+          "interval95_percent": [
+            -0.3801161379269336,
+            -0.1929898824540385
+          ],
+          "reference_mae": 9.46063618321158,
+          "finite_draws": 100000,
+          "undefined_draws": 0,
+          "bootstrap_nonpositive_effect_count": 100000,
+          "monte_carlo_resolution": 1e-05,
+          "interval_family_adjusted_percent": [
+            -0.3949428611821056,
+            -0.16648060534490172
+          ],
+          "family_m": 3,
+          "tail_draws_expected": 833.3333333333334
+        }
+      },
+      "effect_percent_reference_mae": -0.28419709131259147,
+      "arm": "L_Laz",
+      "reference": "M_notice",
+      "state": "COMPUTED",
+      "holm_p": 1.2257578409372884e-08,
+      "hln_holm_p": 3.9286011296018106e-07,
+      "hac7_holm_p": 3.8282906948097876e-10,
+      "decision": "CONDITIONAL_IMPROVEMENT",
+      "hln_decision": "CONDITIONAL_IMPROVEMENT",
+      "hac7_decision": "CONDITIONAL_IMPROVEMENT",
+      "interval95_one_day": [
+        -0.3786478567510515,
+        -0.18802650276030897
+      ],
+      "interval95_seven_day": [
+        -0.3801161379269336,
+        -0.1929898824540385
+      ],
+      "interval_family_one_day": [
+        -0.39985804921936435,
+        -0.16631676618913896
+      ],
+      "interval_family_seven_day": [
+        -0.3949428611821056,
+        -0.16648060534490172
+      ]
+    },
+    {
+      "n_days": 61,
+      "mean_difference": -0.07062954273900449,
+      "statistic": -6.726534116884803,
+      "p_two_sided": 1.7375192351328844e-11,
+      "p_improvement": 8.687596175664422e-12,
+      "p_deterioration": 0.9999999999913124,
+      "dm_state": "DEFINED",
+      "hac7_p_two_sided": 1.2829441590847154e-11,
+      "hac7_state": "DEFINED",
+      "hln_p_two_sided": 7.308897820883165e-09,
+      "reference_mae": 9.46063618321158,
+      "arm_mae": 9.390006640472578,
+      "bootstrap": {
+        "1": {
+          "effect_percent_reference_mae": -0.7465622963531828,
+          "interval95_percent": [
+            -0.9766808978734436,
+            -0.5141422671848213
+          ],
+          "reference_mae": 9.46063618321158,
+          "finite_draws": 100000,
+          "undefined_draws": 0,
+          "bootstrap_nonpositive_effect_count": 100000,
+          "monte_carlo_resolution": 1e-05,
+          "interval_family_adjusted_percent": [
+            -1.0271434182617738,
+            -0.4614729134317255
+          ],
+          "family_m": 3,
+          "tail_draws_expected": 833.3333333333334
+        },
+        "7": {
+          "effect_percent_reference_mae": -0.7465622963531828,
+          "interval95_percent": [
+            -0.9257339708466006,
+            -0.4857733444032488
+          ],
+          "reference_mae": 9.46063618321158,
+          "finite_draws": 100000,
+          "undefined_draws": 0,
+          "bootstrap_nonpositive_effect_count": 100000,
+          "monte_carlo_resolution": 1e-05,
+          "interval_family_adjusted_percent": [
+            -0.9760128021877359,
+            -0.440399117262269
+          ],
+          "family_m": 3,
+          "tail_draws_expected": 833.3333333333334
+        }
+      },
+      "effect_percent_reference_mae": -0.7465622963531828,
+      "arm": "L_chen_notice",
+      "reference": "M_notice",
+      "state": "COMPUTED",
+      "holm_p": 3.475038470265769e-11,
+      "hln_holm_p": 1.461779564176633e-08,
+      "hac7_holm_p": 2.860100511043144e-11,
+      "decision": "CONDITIONAL_IMPROVEMENT",
+      "hln_decision": "CONDITIONAL_IMPROVEMENT",
+      "hac7_decision": "CONDITIONAL_IMPROVEMENT",
+      "interval95_one_day": [
+        -0.9766808978734436,
+        -0.5141422671848213
+      ],
+      "interval95_seven_day": [
+        -0.9257339708466006,
+        -0.4857733444032488
+      ],
+      "interval_family_one_day": [
+        -1.0271434182617738,
+        -0.4614729134317255
+      ],
+      "interval_family_seven_day": [
+        -0.9760128021877359,
+        -0.440399117262269
+      ]
+    }
+  ],
+  "state": "COMPUTED",
+  "three_seed": {
+    "family_m": 3,
+    "days": 61,
+    "date_gaps": [],
+    "reports": [
+      {
+        "n_days": 61,
+        "mean_difference": -0.01347044102901321,
+        "statistic": -5.789706868226169,
+        "p_two_sided": 7.050936784876084e-09,
+        "p_improvement": 3.525468392438042e-09,
+        "p_deterioration": 0.9999999964745316,
+        "dm_state": "DEFINED",
+        "hac7_p_two_sided": 6.815274989651855e-08,
+        "hac7_state": "DEFINED",
+        "hln_p_two_sided": 2.7503715697024825e-07,
+        "reference_mae": 9.435258617735029,
+        "arm_mae": 9.421788176706015,
+        "bootstrap": {
+          "1": {
+            "effect_percent_reference_mae": -0.14276705678944965,
+            "interval95_percent": [
+              -0.19465905572292386,
+              -0.09410707743273614
+            ],
+            "reference_mae": 9.435258617735029,
+            "finite_draws": 100000,
+            "undefined_draws": 0,
+            "bootstrap_nonpositive_effect_count": 100000,
+            "monte_carlo_resolution": 1e-05,
+            "interval_family_adjusted_percent": [
+              -0.20645600649511875,
+              -0.08408395757207864
+            ],
+            "family_m": 3,
+            "tail_draws_expected": 833.3333333333334
+          },
+          "7": {
+            "effect_percent_reference_mae": -0.14276705678944965,
+            "interval95_percent": [
+              -0.20496148834786995,
+              -0.09707199514392159
+            ],
+            "reference_mae": 9.435258617735029,
+            "finite_draws": 100000,
+            "undefined_draws": 0,
+            "bootstrap_nonpositive_effect_count": 100000,
+            "monte_carlo_resolution": 1e-05,
+            "interval_family_adjusted_percent": [
+              -0.21939945562983795,
+              -0.08819514150308251
+            ],
+            "family_m": 3,
+            "tail_draws_expected": 833.3333333333334
+          }
+        },
+        "effect_percent_reference_mae": -0.14276705678944965,
+        "arm": "L14",
+        "reference": "M_notice",
+        "state": "COMPUTED",
+        "holm_p": 2.1152810354628253e-08,
+        "hln_holm_p": 8.251114709107447e-07,
+        "hac7_holm_p": 1.363054997930371e-07,
+        "decision": "CONDITIONAL_IMPROVEMENT",
+        "hln_decision": "CONDITIONAL_IMPROVEMENT",
+        "hac7_decision": "CONDITIONAL_IMPROVEMENT",
+        "interval95_one_day": [
+          -0.19465905572292386,
+          -0.09410707743273614
+        ],
+        "interval95_seven_day": [
+          -0.20496148834786995,
+          -0.09707199514392159
+        ],
+        "interval_family_one_day": [
+          -0.20645600649511875,
+          -0.08408395757207864
+        ],
+        "interval_family_seven_day": [
+          -0.21939945562983795,
+          -0.08819514150308251
+        ]
+      },
+      {
+        "n_days": 61,
+        "mean_difference": -0.0004004957800263293,
+        "statistic": -0.20450470356904665,
+        "p_two_sided": 0.8379591167493876,
+        "p_improvement": 0.4189795583746938,
+        "p_deterioration": 0.5810204416253062,
+        "dm_state": "DEFINED",
+        "hac7_p_two_sided": 0.8629887821463127,
+        "hac7_state": "DEFINED",
+        "hln_p_two_sided": 0.8386512544235992,
+        "reference_mae": 9.435258617735029,
+        "arm_mae": 9.434858121955005,
+        "bootstrap": {
+          "1": {
+            "effect_percent_reference_mae": -0.004244671993129425,
+            "interval95_percent": [
+              -0.04475560158430367,
+              0.03615222034981048
+            ],
+            "reference_mae": 9.435258617735029,
+            "finite_draws": 100000,
+            "undefined_draws": 0,
+            "bootstrap_nonpositive_effect_count": 58050,
+            "monte_carlo_resolution": 1e-05,
+            "interval_family_adjusted_percent": [
+              -0.053879694053083516,
+              0.04521322276005701
+            ],
+            "family_m": 3,
+            "tail_draws_expected": 833.3333333333334
+          },
+          "7": {
+            "effect_percent_reference_mae": -0.004244671993129425,
+            "interval95_percent": [
+              -0.06234959296860417,
+              0.03576015344491816
+            ],
+            "reference_mae": 9.435258617735029,
+            "finite_draws": 100000,
+            "undefined_draws": 0,
+            "bootstrap_nonpositive_effect_count": 63833,
+            "monte_carlo_resolution": 1e-05,
+            "interval_family_adjusted_percent": [
+              -0.07402818901792034,
+              0.04398656683257567
+            ],
+            "family_m": 3,
+            "tail_draws_expected": 833.3333333333334
+          }
+        },
+        "effect_percent_reference_mae": -0.004244671993129425,
+        "arm": "L_Laz",
+        "reference": "M_notice",
+        "state": "COMPUTED",
+        "holm_p": 0.8379591167493876,
+        "hln_holm_p": 0.8386512544235992,
+        "hac7_holm_p": 0.8629887821463127,
+        "decision": "NO_RELIABLE_INCREMENT_DETECTED",
+        "hln_decision": "NO_RELIABLE_INCREMENT_DETECTED",
+        "hac7_decision": "NO_RELIABLE_INCREMENT_DETECTED",
+        "interval95_one_day": [
+          -0.04475560158430367,
+          0.03615222034981048
+        ],
+        "interval95_seven_day": [
+          -0.06234959296860417,
+          0.03576015344491816
+        ],
+        "interval_family_one_day": [
+          -0.053879694053083516,
+          0.04521322276005701
+        ],
+        "interval_family_seven_day": [
+          -0.07402818901792034,
+          0.04398656683257567
+        ]
+      },
+      {
+        "n_days": 61,
+        "mean_difference": -0.048802502650829596,
+        "statistic": -5.703284021691836,
+        "p_two_sided": 1.1752091846351412e-08,
+        "p_improvement": 5.876045923175706e-09,
+        "p_deterioration": 0.9999999941239541,
+        "dm_state": "DEFINED",
+        "hac7_p_two_sided": 1.3305975342750347e-09,
+        "hac7_state": "DEFINED",
+        "hln_p_two_sided": 3.822806819377963e-07,
+        "reference_mae": 9.435258617735029,
+        "arm_mae": 9.386456115084197,
+        "bootstrap": {
+          "1": {
+            "effect_percent_reference_mae": -0.517235452975266,
+            "interval95_percent": [
+              -0.706067174774431,
+              -0.3276181080807552
+            ],
+            "reference_mae": 9.435258617735029,
+            "finite_draws": 100000,
+            "undefined_draws": 0,
+            "bootstrap_nonpositive_effect_count": 100000,
+            "monte_carlo_resolution": 1e-05,
+            "interval_family_adjusted_percent": [
+              -0.7473347391813574,
+              -0.28550176368102115
+            ],
+            "family_m": 3,
+            "tail_draws_expected": 833.3333333333334
+          },
+          "7": {
+            "effect_percent_reference_mae": -0.517235452975266,
+            "interval95_percent": [
+              -0.6517083799563558,
+              -0.31467076413967016
+            ],
+            "reference_mae": 9.435258617735029,
+            "finite_draws": 100000,
+            "undefined_draws": 0,
+            "bootstrap_nonpositive_effect_count": 100000,
+            "monte_carlo_resolution": 1e-05,
+            "interval_family_adjusted_percent": [
+              -0.6913751378978353,
+              -0.28165109728709764
+            ],
+            "family_m": 3,
+            "tail_draws_expected": 833.3333333333334
+          }
+        },
+        "effect_percent_reference_mae": -0.517235452975266,
+        "arm": "L_chen_notice",
+        "reference": "M_notice",
+        "state": "COMPUTED",
+        "holm_p": 2.3504183692702825e-08,
+        "hln_holm_p": 8.251114709107447e-07,
+        "hac7_holm_p": 3.991792602825104e-09,
+        "decision": "CONDITIONAL_IMPROVEMENT",
+        "hln_decision": "CONDITIONAL_IMPROVEMENT",
+        "hac7_decision": "CONDITIONAL_IMPROVEMENT",
+        "interval95_one_day": [
+          -0.706067174774431,
+          -0.3276181080807552
+        ],
+        "interval95_seven_day": [
+          -0.6517083799563558,
+          -0.31467076413967016
+        ],
+        "interval_family_one_day": [
+          -0.7473347391813574,
+          -0.28550176368102115
+        ],
+        "interval_family_seven_day": [
+          -0.6913751378978353,
+          -0.28165109728709764
+        ]
+      }
+    ],
+    "state": "COMPUTED",
+    "three_seed": null
+  }
+}

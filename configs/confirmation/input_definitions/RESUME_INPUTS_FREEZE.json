@@ -1,0 +1,44 @@
+{
+  "addendum": 2,
+  "addendum_1_freeze": {
+    "bytes": 2187,
+    "path": "studies/confirmation/input_definitions/INPUT_RULES_FREEZE.json",
+    "sha256": "d04faf0b1f0715ee8439ec4d9f42336990b34545564a07a638afe13ffbd622da"
+  },
+  "addendum_spec": {
+    "bytes": 3756,
+    "path": "studies/confirmation/input_definitions/SPEC_ADDENDUM_2_LEAR_TEMPLATE.md",
+    "sha256": "bbb59a08c70683123a1cae8af146c79ab64a6d136204e1f0a9242e52231cb1c4"
+  },
+  "conf_lear_py": {
+    "bytes": 8659,
+    "path": "studies/confirmation/code/lear.py",
+    "sha256": "14c172b7bcb3f303ef14d2e832d00966937f2f8e33ef0aac458b7a8efe50c0fe"
+  },
+  "spec_2_lear_adapter_py_unchanged": {
+    "bytes": 10495,
+    "path": "studies/confirmation/execution/lear_adapter.py",
+    "sha256": "e703dc5aadb4c76faf07d9c63f47d889e1dff7cd4b6d0c0e05190fb7a0d583c7"
+  },
+  "epftoolbox_source": {
+    "bytes": 18291,
+    "path": "studies/confirmation/evidence/epftoolbox_lear_source.py",
+    "sha256": "45a06dd46260d037ba7c2f25c55292613839c70eb5482b03a5aca100beb25834"
+  },
+  "host_state_contents_read": false,
+  "lear_accuracy_computed": false,
+  "lear_spec_frozen_unchanged": {
+    "bytes": 7451,
+    "path": "studies/confirmation/LEAR_SPEC.md",
+    "sha256": "49d18a99dc70f293d8d459a3e10170096a266de1fee4ca89c75165cdfd8fd70b"
+  },
+  "production_commands_run": [],
+  "state": "SPEC_ADDENDUM_FROZEN_BEFORE_TEMPLATE_RULE_CODE_CHANGE",
+  "replaces": {
+    "bytes": 3020,
+    "path": "studies/confirmation/input_definitions/SPEC_ADDENDUM_1_LEAR.md",
+    "sha256": "7551e4761e6877be8b0066ca5eccb943103f060fdab2559dc77883777d374abe"
+  },
+  "task": "input_definitions",
+  "time_utc": "2026-10-01T18:50:17.280640+00:00"
+}

@@ -1,0 +1,565 @@
+{
+  "state": "PASS",
+  "checks": [
+    {
+      "family": "notice/primary",
+      "arm": "L14",
+      "reference": "M_notice",
+      "effect_absolute_difference": 0.0,
+      "p_absolute_difference": 0.0
+    },
+    {
+      "family": "notice/primary",
+      "arm": "L_Laz",
+      "reference": "M_notice",
+      "effect_absolute_difference": 0.0,
+      "p_absolute_difference": 0.0
+    },
+    {
+      "family": "notice/primary",
+      "arm": "L_chen_notice",
+      "reference": "M_notice",
+      "effect_absolute_difference": 0.0,
+      "p_absolute_difference": 0.0
+    },
+    {
+      "family": "notice/seed_20260920",
+      "arm": "L14",
+      "reference": "M_notice",
+      "effect_absolute_difference": 0.0,
+      "p_absolute_difference": 0.0
+    },
+    {
+      "family": "notice/seed_20260920",
+      "arm": "L_Laz",
+      "reference": "M_notice",
+      "effect_absolute_difference": 0.0,
+      "p_absolute_difference": 0.0
+    },
+    {
+      "family": "notice/seed_20260920",
+      "arm": "L_chen_notice",
+      "reference": "M_notice",
+      "effect_absolute_difference": 0.0,
+      "p_absolute_difference": 0.0
+    },
+    {
+      "family": "notice/seed_20260921",
+      "arm": "L14",
+      "reference": "M_notice",
+      "effect_absolute_difference": 0.0,
+      "p_absolute_difference": 0.0
+    },
+    {
+      "family": "notice/seed_20260921",
+      "arm": "L_Laz",
+      "reference": "M_notice",
+      "effect_absolute_difference": 0.0,
+      "p_absolute_difference": 0.0
+    },
+    {
+      "family": "notice/seed_20260921",
+      "arm": "L_chen_notice",
+      "reference": "M_notice",
+      "effect_absolute_difference": 0.0,
+      "p_absolute_difference": 0.0
+    },
+    {
+      "family": "notice/combination",
+      "arm": "L14",
+      "reference": "M_notice",
+      "effect_absolute_difference": 0.0,
+      "p_absolute_difference": 0.0
+    },
+    {
+      "family": "notice/combination",
+      "arm": "L_Laz",
+      "reference": "M_notice",
+      "effect_absolute_difference": 0.0,
+      "p_absolute_difference": 0.0
+    },
+    {
+      "family": "notice/combination",
+      "arm": "L_chen_notice",
+      "reference": "M_notice",
+      "effect_absolute_difference": 0.0,
+      "p_absolute_difference": 0.0
+    },
+    {
+      "family": "notice/native:notice__SECONDARY__L14__N",
+      "arm": "L14",
+      "reference": "N",
+      "effect_absolute_difference": 0.0,
+      "p_absolute_difference": 0.0
+    },
+    {
+      "family": "notice/native:notice__SECONDARY__L_Laz__N",
+      "arm": "L_Laz",
+      "reference": "N",
+      "effect_absolute_difference": 0.0,
+      "p_absolute_difference": 0.0
+    },
+    {
+      "family": "notice/native:notice__SECONDARY__R__N",
+      "arm": "R",
+      "reference": "N",
+      "effect_absolute_difference": 0.0,
+      "p_absolute_difference": 0.0
+    },
+    {
+      "family": "notice/native:notice__SECONDARY__NPL__N",
+      "arm": "NPL",
+      "reference": "N",
+      "effect_absolute_difference": 0.0,
+      "p_absolute_difference": 0.0
+    },
+    {
+      "family": "notice/native:notice__SECONDARY__NPP__N",
+      "arm": "NPP",
+      "reference": "N",
+      "effect_absolute_difference": 0.0,
+      "p_absolute_difference": 0.0
+    },
+    {
+      "family": "notice/native:notice__SECONDARY__R__M_notice",
+      "arm": "R",
+      "reference": "M_notice",
+      "effect_absolute_difference": 0.0,
+      "p_absolute_difference": 0.0
+    },
+    {
+      "family": "notice/native:notice__SECONDARY__NPL__NP",
+      "arm": "NPL",
+      "reference": "NP",
+      "effect_absolute_difference": 0.0,
+      "p_absolute_difference": 0.0
+    },
+    {
+      "family": "notice/native:notice__SECONDARY__NPL__NPP",
+      "arm": "NPL",
+      "reference": "NPP",
+      "effect_absolute_difference": 0.0,
+      "p_absolute_difference": 0.0
+    },
+    {
+      "family": "notice/native:notice__SECONDARY__NPP__NP",
+      "arm": "NPP",
+      "reference": "NP",
+      "effect_absolute_difference": 0.0,
+      "p_absolute_difference": 0.0
+    },
+    {
+      "family": "notice/native:notice__SECONDARY__NPL__NPM",
+      "arm": "NPL",
+      "reference": "NPM",
+      "effect_absolute_difference": 0.0,
+      "p_absolute_difference": 0.0
+    },
+    {
+      "family": "notice/drop_first_seven",
+      "arm": "L14",
+      "reference": "M_notice",
+      "effect_absolute_difference": 0.0,
+      "p_absolute_difference": 0.0
+    },
+    {
+      "family": "notice/drop_first_seven",
+      "arm": "L_Laz",
+      "reference": "M_notice",
+      "effect_absolute_difference": 0.0,
+      "p_absolute_difference": 0.0
+    },
+    {
+      "family": "notice/drop_first_seven",
+      "arm": "L_chen_notice",
+      "reference": "M_notice",
+      "effect_absolute_difference": 0.0,
+      "p_absolute_difference": 0.0
+    },
+    {
+      "family": "notice/native:notice__A1_EXPOSURE_EXCLUDED",
+      "arm": "L14",
+      "reference": "M_notice",
+      "effect_absolute_difference": 0.0,
+      "p_absolute_difference": 0.0
+    },
+    {
+      "family": "notice/native:notice__A1_EXPOSURE_EXCLUDED",
+      "arm": "L_Laz",
+      "reference": "M_notice",
+      "effect_absolute_difference": 0.0,
+      "p_absolute_difference": 0.0
+    },
+    {
+      "family": "notice/native:notice__A1_EXPOSURE_EXCLUDED",
+      "arm": "L_chen_notice",
+      "reference": "M_notice",
+      "effect_absolute_difference": 0.0,
+      "p_absolute_difference": 0.0
+    },
+    {
+      "family": "notice/official_cap",
+      "arm": "L14",
+      "reference": "M_notice",
+      "effect_absolute_difference": 0.0,
+      "p_absolute_difference": 0.0
+    },
+    {
+      "family": "notice/official_cap",
+      "arm": "L_Laz",
+      "reference": "M_notice",
+      "effect_absolute_difference": 0.0,
+      "p_absolute_difference": 0.0
+    },
+    {
+      "family": "notice/official_cap",
+      "arm": "L_chen_notice",
+      "reference": "M_notice",
+      "effect_absolute_difference": 0.0,
+      "p_absolute_difference": 0.0
+    },
+    {
+      "family": "notice/native:notice__A1_OFFICIAL_CAP_RECLIP__NPL__NP",
+      "arm": "NPL",
+      "reference": "NP",
+      "effect_absolute_difference": 0.0,
+      "p_absolute_difference": 0.0
+    },
+    {
+      "family": "notice/native:notice__A1_OFFICIAL_CAP_RECLIP__NPL__NPP",
+      "arm": "NPL",
+      "reference": "NPP",
+      "effect_absolute_difference": 0.0,
+      "p_absolute_difference": 0.0
+    },
+    {
+      "family": "notice/native:notice__A1_OFFICIAL_CAP_RECLIP__NPP__NP",
+      "arm": "NPP",
+      "reference": "NP",
+      "effect_absolute_difference": 0.0,
+      "p_absolute_difference": 0.0
+    },
+    {
+      "family": "notice/native:notice__A1_OFFICIAL_CAP_RECLIP__NPL__NPM",
+      "arm": "NPL",
+      "reference": "NPM",
+      "effect_absolute_difference": 0.0,
+      "p_absolute_difference": 0.0
+    },
+    {
+      "family": "notice/combination_benchmark",
+      "arm": "L14",
+      "reference": "NP",
+      "effect_absolute_difference": 0.0,
+      "p_absolute_difference": 0.0
+    },
+    {
+      "family": "notice/combination_benchmark",
+      "arm": "L_Laz",
+      "reference": "NP",
+      "effect_absolute_difference": 0.0,
+      "p_absolute_difference": 0.0
+    },
+    {
+      "family": "notice/combination_benchmark",
+      "arm": "L_chen_notice",
+      "reference": "NP",
+      "effect_absolute_difference": 0.0,
+      "p_absolute_difference": 0.0
+    },
+    {
+      "family": "notice/cheap",
+      "arm": "L_chen_notice",
+      "reference": "R",
+      "effect_absolute_difference": null,
+      "p_absolute_difference": null
+    },
+    {
+      "family": "notice/cheap",
+      "arm": "L_chen_notice",
+      "reference": "T",
+      "effect_absolute_difference": null,
+      "p_absolute_difference": null
+    },
+    {
+      "family": "notice/cheap",
+      "arm": "L14",
+      "reference": "R",
+      "effect_absolute_difference": null,
+      "p_absolute_difference": null
+    },
+    {
+      "family": "notice/cheap",
+      "arm": "L14",
+      "reference": "T",
+      "effect_absolute_difference": null,
+      "p_absolute_difference": null
+    },
+    {
+      "family": "notice/cheap",
+      "arm": "L_Laz",
+      "reference": "R",
+      "effect_absolute_difference": null,
+      "p_absolute_difference": null
+    },
+    {
+      "family": "notice/cheap",
+      "arm": "L_Laz",
+      "reference": "T",
+      "effect_absolute_difference": null,
+      "p_absolute_difference": null
+    },
+    {
+      "family": "notice/subsets",
+      "arm": "L14",
+      "reference": "M_notice",
+      "effect_absolute_difference": null,
+      "p_absolute_difference": null
+    },
+    {
+      "family": "notice/subsets",
+      "arm": "L_Laz",
+      "reference": "M_notice",
+      "effect_absolute_difference": null,
+      "p_absolute_difference": null
+    },
+    {
+      "family": "notice/subsets",
+      "arm": "L_chen_notice",
+      "reference": "M_notice",
+      "effect_absolute_difference": null,
+      "p_absolute_difference": null
+    },
+    {
+      "family": "notice/primary_mean",
+      "arm": "L14",
+      "reference": "M_notice",
+      "effect_absolute_difference": 0.0,
+      "p_absolute_difference": 0.0
+    },
+    {
+      "family": "notice/primary_mean",
+      "arm": "L_Laz",
+      "reference": "M_notice",
+      "effect_absolute_difference": 0.0,
+      "p_absolute_difference": 0.0
+    },
+    {
+      "family": "notice/primary_mean",
+      "arm": "L_chen_notice",
+      "reference": "M_notice",
+      "effect_absolute_difference": 0.0,
+      "p_absolute_difference": 0.0
+    },
+    {
+      "family": "notice/combination_mean",
+      "arm": "L14",
+      "reference": "M_notice",
+      "effect_absolute_difference": 0.0,
+      "p_absolute_difference": 0.0
+    },
+    {
+      "family": "notice/combination_mean",
+      "arm": "L_Laz",
+      "reference": "M_notice",
+      "effect_absolute_difference": 0.0,
+      "p_absolute_difference": 0.0
+    },
+    {
+      "family": "notice/combination_mean",
+      "arm": "L_chen_notice",
+      "reference": "M_notice",
+      "effect_absolute_difference": 0.0,
+      "p_absolute_difference": 0.0
+    },
+    {
+      "family": "notice/R8",
+      "arm": "L14+",
+      "reference": "M+_n",
+      "effect_absolute_difference": 0.0,
+      "p_absolute_difference": 0.0
+    },
+    {
+      "family": "notice/R8",
+      "arm": "L_Laz+",
+      "reference": "M+_n",
+      "effect_absolute_difference": 0.0,
+      "p_absolute_difference": 0.0
+    },
+    {
+      "family": "notice/R8",
+      "arm": "L_chen_notice+",
+      "reference": "M+_n",
+      "effect_absolute_difference": 0.0,
+      "p_absolute_difference": 0.0
+    },
+    {
+      "family": "notice/delay5",
+      "arm": "L14",
+      "reference": "M_notice",
+      "effect_absolute_difference": 0.0,
+      "p_absolute_difference": 0.0
+    },
+    {
+      "family": "notice/delay5",
+      "arm": "L_Laz",
+      "reference": "M_notice",
+      "effect_absolute_difference": 0.0,
+      "p_absolute_difference": 0.0
+    },
+    {
+      "family": "notice/delay5",
+      "arm": "L_chen_notice",
+      "reference": "M_notice",
+      "effect_absolute_difference": 0.0,
+      "p_absolute_difference": 0.0
+    },
+    {
+      "family": "notice/R8_delay5",
+      "arm": "L14+",
+      "reference": "M+_n",
+      "effect_absolute_difference": 0.0,
+      "p_absolute_difference": 0.0
+    },
+    {
+      "family": "notice/R8_delay5",
+      "arm": "L_Laz+",
+      "reference": "M+_n",
+      "effect_absolute_difference": 0.0,
+      "p_absolute_difference": 0.0
+    },
+    {
+      "family": "notice/R8_delay5",
+      "arm": "L_chen_notice+",
+      "reference": "M+_n",
+      "effect_absolute_difference": 0.0,
+      "p_absolute_difference": 0.0
+    },
+    {
+      "family": "notice/delay15",
+      "arm": "L14",
+      "reference": "M_notice",
+      "effect_absolute_difference": 0.0,
+      "p_absolute_difference": 0.0
+    },
+    {
+      "family": "notice/delay15",
+      "arm": "L_Laz",
+      "reference": "M_notice",
+      "effect_absolute_difference": 0.0,
+      "p_absolute_difference": 0.0
+    },
+    {
+      "family": "notice/delay15",
+      "arm": "L_chen_notice",
+      "reference": "M_notice",
+      "effect_absolute_difference": 0.0,
+      "p_absolute_difference": 0.0
+    },
+    {
+      "family": "notice/R8_delay15",
+      "arm": "L14+",
+      "reference": "M+_n",
+      "effect_absolute_difference": 0.0,
+      "p_absolute_difference": 0.0
+    },
+    {
+      "family": "notice/R8_delay15",
+      "arm": "L_Laz+",
+      "reference": "M+_n",
+      "effect_absolute_difference": 0.0,
+      "p_absolute_difference": 0.0
+    },
+    {
+      "family": "notice/R8_delay15",
+      "arm": "L_chen_notice+",
+      "reference": "M+_n",
+      "effect_absolute_difference": 0.0,
+      "p_absolute_difference": 0.0
+    },
+    {
+      "family": "notice/delay60",
+      "arm": "L14",
+      "reference": "M_notice",
+      "effect_absolute_difference": 0.0,
+      "p_absolute_difference": 0.0
+    },
+    {
+      "family": "notice/delay60",
+      "arm": "L_Laz",
+      "reference": "M_notice",
+      "effect_absolute_difference": 0.0,
+      "p_absolute_difference": 0.0
+    },
+    {
+      "family": "notice/delay60",
+      "arm": "L_chen_notice",
+      "reference": "M_notice",
+      "effect_absolute_difference": 0.0,
+      "p_absolute_difference": 0.0
+    },
+    {
+      "family": "notice/R8_delay60",
+      "arm": "L14+",
+      "reference": "M+_n",
+      "effect_absolute_difference": 0.0,
+      "p_absolute_difference": 0.0
+    },
+    {
+      "family": "notice/R8_delay60",
+      "arm": "L_Laz+",
+      "reference": "M+_n",
+      "effect_absolute_difference": 0.0,
+      "p_absolute_difference": 0.0
+    },
+    {
+      "family": "notice/R8_delay60",
+      "arm": "L_chen_notice+",
+      "reference": "M+_n",
+      "effect_absolute_difference": 0.0,
+      "p_absolute_difference": 0.0
+    },
+    {
+      "family": "notice/squared",
+      "arm": "L14",
+      "reference": "M_notice",
+      "effect_absolute_difference": 5.9674487573602164e-15,
+      "p_absolute_difference": 0.0
+    },
+    {
+      "family": "notice/squared",
+      "arm": "L_Laz",
+      "reference": "M_notice",
+      "effect_absolute_difference": 3.597122599785507e-14,
+      "p_absolute_difference": 0.0
+    },
+    {
+      "family": "notice/squared",
+      "arm": "L_chen_notice",
+      "reference": "M_notice",
+      "effect_absolute_difference": 1.502270530195915e-15,
+      "p_absolute_difference": 0.0
+    },
+    {
+      "family": "notice/R8_squared",
+      "arm": "L14+",
+      "reference": "M+_n",
+      "effect_absolute_difference": 3.236994006172722e-15,
+      "p_absolute_difference": 0.0
+    },
+    {
+      "family": "notice/R8_squared",
+      "arm": "L_Laz+",
+      "reference": "M+_n",
+      "effect_absolute_difference": 1.5210055437364645e-14,
+      "p_absolute_difference": 0.0
+    },
+    {
+      "family": "notice/R8_squared",
+      "arm": "L_chen_notice+",
+      "reference": "M+_n",
+      "effect_absolute_difference": 2.1094237467877974e-15,
+      "p_absolute_difference": 0.0
+    }
+  ]
+}

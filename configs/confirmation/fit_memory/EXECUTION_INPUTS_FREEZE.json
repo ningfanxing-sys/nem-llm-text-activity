@@ -1,0 +1,62 @@
+{
+  "addendum": 4,
+  "addendum_spec": {
+    "bytes": 7032,
+    "path": "studies/confirmation/fit_memory/SPEC_ADDENDUM_4_INCREMENTAL_NOTICE_ENCODING.md",
+    "sha256": "c31fe51cd7114c18f672cfbfe537b169a3f97338472f869d9367dc949616025e"
+  },
+  "base_staging_manifest": {
+    "bytes": 1937,
+    "path": "studies/confirmation/fit_memory/staging/STAGING_MANIFEST.json",
+    "sha256": "f125f08ec73d9dde31ad6b5da35490ea698ee5dde5540ccce4ca7d30df00c032"
+  },
+  "code_changed": false,
+  "decision": "source message 2026-10-02: addendum 4, incremental notice-prefix encoding, resource-only and bit-identical; switch only by the stated decision rule",
+  "frozen_functions_reused_unchanged": {
+    "execution/embedding_adapter.py": {
+      "bytes": 6389,
+      "path": "studies/confirmation/execution/embedding_adapter.py",
+      "sha256": "3cf7c13ac8b0396635205bbc6f49d2082236d5bfc33ba950488da4b3e7a2e6db"
+    },
+    "code/encoders.py": {
+      "bytes": 4674,
+      "path": "studies/confirmation/code/encoders.py",
+      "sha256": "1b5dbfd456f222257d9f0d1216ebca97fb386ee78457b5b86a361fd7f61ca48f"
+    },
+    "code/features.py": {
+      "bytes": 20125,
+      "path": "studies/confirmation/code/features.py",
+      "sha256": "5245998fce6f73ffc21289637df42dcc68df7282ff614339de61350646bc99ab"
+    }
+  },
+  "host_state_contents_read": false,
+  "live_files_modified": false,
+  "previous_freezes": {
+    "INPUT_RULES_FREEZE.json": {
+      "bytes": 1241,
+      "path": "studies/confirmation/fit_memory/INPUT_RULES_FREEZE.json",
+      "sha256": "104510265b786eb89fd8e58b17156f9dfe2d46ec7eb13ed001c393fe4c8571cc"
+    },
+    "RESUME_INPUTS_FREEZE.json": {
+      "bytes": 4046,
+      "path": "studies/confirmation/fit_memory/RESUME_INPUTS_FREEZE.json",
+      "sha256": "e5ba97424d2a032f05748435e6e5ceaf58700cc973c24d40ebbf857e0abde976"
+    },
+    "MEASUREMENT_INPUTS_FREEZE.json": {
+      "bytes": 3311,
+      "path": "studies/confirmation/fit_memory/MEASUREMENT_INPUTS_FREEZE.json",
+      "sha256": "55c3b05e459b18862052b2c35e648dd801ec366dca7269e6bf18c97d71e87b56"
+    },
+    "SPEC_FREEZE.json": {
+      "bytes": 4449,
+      "path": "studies/confirmation/fit_memory/SPEC_FREEZE.json",
+      "sha256": "0f2cad65e4df6e3521ef12dfd4bc438b1d311cc2a0c197332c0c8f6e2898ae31"
+    }
+  },
+  "production_commands_run": [],
+  "running_features_process_touched": false,
+  "state": "SPEC_ADDENDUM_FROZEN_BEFORE_CODE",
+  "task": "fit_memory",
+  "time_utc": "2026-10-02T12:17:38.532365+00:00",
+  "window_outcomes_read": false
+}

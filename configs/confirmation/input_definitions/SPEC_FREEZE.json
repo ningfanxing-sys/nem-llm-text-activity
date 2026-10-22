@@ -1,0 +1,237 @@
+{
+  "addendum_paper": {
+    "bytes": 33891,
+    "path": "studies/confirmation/A1/ADDENDUM_A1.md",
+    "sha256": "8469a1aa838436e5adf4e43f4770980ee21280a06667af2c01408f72d4421d71"
+  },
+  "binding_decisions": {
+    "bytes": 4675,
+    "path": "studies/confirmation/A1/DECISIONS_A1_source.md",
+    "sha256": "dca801989de8834709e93bb0f57934734411506546e13082bfd8df182dddead5"
+  },
+  "brief": {
+    "bytes": 5299,
+    "path": "paper_plan/task_specs/TASK_SPEC_5_A1_implementation.md",
+    "sha256": "5848b0bae075d09fd745774bb1148213f0b7eb308150d3d11cf4ac89f25bd132"
+  },
+  "common_rules": {
+    "bytes": 6096,
+    "path": "paper_plan/task_specs/COMMON_RULES.md",
+    "sha256": "9bb6f591b435ee36e615051fc47938c44c2e48f376526f8d394a6ddafeb38817"
+  },
+  "spec_4_adapter_freeze_sha256": "a42e82b77f1608ccc572eebf52360763d73f705d11fc8fc0f3ee749fea1dbd1c",
+  "data_exposure_log": {
+    "bytes": 8285,
+    "path": "studies/confirmation/A1/DATA_EXPOSURE_LOG.md",
+    "sha256": "125e8b49e032989487204206c09aa5f3664b14323b5ad31bba0ec94e11054e0e"
+  },
+  "exposure_excluded_runs": {
+    "news": [
+      [
+        "2026-05-19",
+        "2026-06-30"
+      ],
+      [
+        "2026-07-25",
+        "2026-08-31"
+      ],
+      [
+        "2026-09-12",
+        "2026-09-30"
+      ]
+    ],
+    "notice": [
+      [
+        "2026-08-01",
+        "2026-08-31"
+      ],
+      [
+        "2026-09-12",
+        "2026-09-30"
+      ]
+    ]
+  },
+  "host_state_contents_read": false,
+  "host_state_features_names_listed": [
+    "DISK_PLAN.json",
+    "NOTICE_DERIVED_DATE_SIDECARS.json",
+    "W_Bai_selection.json",
+    "embedding_cache",
+    "news_P_content_matched.npy",
+    "news__E_raw__first_L.extras.npy",
+    "news__E_raw__first_L.feature_order.json",
+    "news__E_raw__main.extras.npy",
+    "news__E_raw__main.feature_order.json",
+    "news__L_chen__24h.extras.npy",
+    "news__L_chen__24h.feature_order.json",
+    "news__L_chen__first_L.extras.npy",
+    "news__L_chen__first_L.feature_order.json",
+    "news__L_chen__main.extras.npy",
+    "news__L_chen__main.feature_order.json",
+    "news__L_count__24h.extras.npy",
+    "news__L_count__24h.feature_order.json",
+    "news__L_count__main.extras.npy",
+    "news__L_count__main.feature_order.json",
+    "news__M__24h.extras.npy",
+    "news__M__24h.feature_order.json",
+    "news__M__main.extras.npy",
+    "news__M__main.feature_order.json",
+    "news__M_shift__main.extras.npy",
+    "news__M_shift__main.feature_order.json",
+    "news__N__main.extras.npy",
+    "news__N__main.feature_order.json",
+    "news__P_content__main.extras.npy",
+    "news__P_content__main.feature_order.json",
+    "news__P_shift__main.extras.npy",
+    "news__P_shift__main.feature_order.json",
+    "news__shared_numeric.npy",
+    "news_coverage.jsonl",
+    "news_keys_labels.parquet",
+    "notice__L14__main.extras.npy",
+    "notice__L_Laz__main.extras.npy",
+    "notice__L_chen_notice__first_L.extras.npy",
+    "notice__L_chen_notice__main.extras.npy",
+    "notice__M_notice__main.extras.npy",
+    "notice__M_shift_notice__main.extras.npy",
+    "notice__NPL__main.extras.npy",
+    "notice__NPP__main.extras.npy",
+    "notice__NP__main.extras.npy",
+    "notice__N__main.extras.npy",
+    "notice__P_content__main.extras.npy",
+    "notice__P_shift__main.extras.npy",
+    "notice__R__main.extras.npy",
+    "notice__T__main.extras.npy",
+    "notice__shared_numeric.npy",
+    "notice_coverage.jsonl",
+    "notice_joint.parquet"
+  ],
+  "input_bound_adapter_freeze_sha256": "de80c4e0c3450f3e4383c477c4a3a088cc7d3956835f8ba5e51cf5d78944b394",
+  "newsrun2_statistics_source": {
+    "bytes": 15068,
+    "path": "studies/news_scheduling/newsrun2_features.py",
+    "sha256": "1d1873696067582eae827fed63e8fdd0ff63068b85bce28acb69a7cbc50c83bc"
+  },
+  "newssec_protocol": {
+    "bytes": 7337,
+    "path": "studies/NEWSSEC/PROTOCOL_SEC.md",
+    "sha256": "6377f405ee82a19e690b5b59dc194caceca89b62c78d25a4e536086852aae650"
+  },
+  "newssec_w2_definition": {
+    "bytes": 9550,
+    "path": "studies/NEWSSEC/w2_selection.py",
+    "sha256": "d002d68d761014e962bd72b89b88a5f1241e226e301a35319c00ea24541922f5"
+  },
+  "official_caps_by_financial_year": {
+    "2023-24": 16600.0,
+    "2024-25": 17500.0,
+    "2025-26": 20300.0,
+    "2026-27": 23200.0
+  },
+  "peak_rss_limit_bytes": 1500000000,
+  "planned_new_files": [
+    "execution/additional_scoring.py",
+    "execution/tests/test_spec_5_a1.py",
+    "execution/tests/test_spec_5_restart.py"
+  ],
+  "positive_control_spec": {
+    "bytes": 11386,
+    "path": "studies/confirmation/A1/positive_control/SPEC_POSITIVE_CONTROL.md",
+    "sha256": "c06d5968de690f375f74e928dc89d68d99ba22acd89a0197966627a50dbc5e8d"
+  },
+  "pre_spec_5_identities_of_files_to_change": {
+    "execution/ADAPTER_FREEZE.json": {
+      "bytes": 21484,
+      "path": "studies/confirmation/execution/ADAPTER_FREEZE.json",
+      "sha256": "a42e82b77f1608ccc572eebf52360763d73f705d11fc8fc0f3ee749fea1dbd1c"
+    },
+    "execution/execution_adapter.py": {
+      "bytes": 43454,
+      "path": "studies/confirmation/execution/execution_adapter.py",
+      "sha256": "6cffe94a6740a61b2aab410e0bdde2e314c565a0ff1a074b21a31a22c584c655"
+    },
+    "execution/features_adapter.py": {
+      "bytes": 47467,
+      "path": "studies/confirmation/execution/features_adapter.py",
+      "sha256": "ca98189e6934dd4688dde878373e5d264d9c28752a2d721e4ccf82a888c68093"
+    },
+    "execution/report_adapter.py": {
+      "bytes": 27122,
+      "path": "studies/confirmation/execution/report_adapter.py",
+      "sha256": "45d083f3aaa1a30b7e3a0e4f14297e521e367b3041ac18e466e737f69413aaa0"
+    },
+    "execution/runtime.py": {
+      "bytes": 11980,
+      "path": "studies/confirmation/execution/runtime.py",
+      "sha256": "b7a07666d3c568fb1f38929742da6ddb1dddf7e9bdb9b1511e0df7b3cd057c45"
+    },
+    "execution/seal_score.py": {
+      "bytes": 39062,
+      "path": "studies/confirmation/execution/seal_score.py",
+      "sha256": "2f9d8faa87e7459123d848c86ffb1ff40fdbbbed5a04a4d9d9270ccbd4a166d5"
+    },
+    "execution/tests/test_execution_adapters.py": {
+      "bytes": 29989,
+      "path": "studies/confirmation/execution/tests/test_execution_adapters.py",
+      "sha256": "7c2a510a10836a8ac19b9b9339579fe8c90715ced82781b06eb886867950d13b"
+    },
+    "execution/tests/test_execution_specification.py": {
+      "bytes": 15748,
+      "path": "studies/confirmation/execution/tests/test_execution_specification.py",
+      "sha256": "3859d76961a5a96985363c62820c9d35952973b3af96d8b16c0c6a619026c767"
+    },
+    "execution/tests/test_features_adapter.py": {
+      "bytes": 18850,
+      "path": "studies/confirmation/execution/tests/test_features_adapter.py",
+      "sha256": "060aa91bd89baef8a38e01a46c23af7afe1954ff0af590435ba6da732c4cc549"
+    },
+    "HOST_RUN.md": {
+      "bytes": 10185,
+      "path": "studies/confirmation/HOST_RUN.md",
+      "sha256": "e69fcc29ec50f09b4f63485d018e80695bbee411a016a411000f274a6200c33b"
+    }
+  },
+  "production_commands_run": [],
+  "production_failure_attempt3": {
+    "exception": "ValueError: Resume panel identity drift (features_adapter.py line 511, notice source call at line 676)",
+    "failure_receipt_name_only": "host_state/FAILED_features_attempt_2026-10-01T17-22-08.674747+00-00.json",
+    "stdout_log": {
+      "bytes": 1927,
+      "path": "studies/confirmation/execution/host_features_stdout_retry3_20261002.log",
+      "sha256": "41cdf9ec96a4dfd145e896983eaf2f840d7cd51473e8455d7133dd018beef885"
+    }
+  },
+  "specified_specification_chain": [
+    "shared_storage",
+    "quantity_parsing",
+    "input_definitions"
+  ],
+  "sesoi_percent": 3.8,
+  "shift_support_target_days": [
+    "2026-08-24",
+    "2026-09-30"
+  ],
+  "spec": {
+    "bytes": 13557,
+    "path": "studies/confirmation/input_definitions/SPEC.md",
+    "sha256": "e1622a6adb9a7506ab555444bc799343d65b5f086a7c859e7d7557daa4994a8c"
+  },
+  "state": "SPEC_FROZEN_BEFORE_CODE_CHANGE_AND_BEFORE_ANY_NEW_RULE_COMPUTATION",
+  "task": "input_definitions",
+  "time_utc": "2026-10-01T18:20:21.425389+00:00",
+  "w2d_rule": {
+    "candidate_sizes": {
+      "body": 550,
+      "title": 456
+    },
+    "corpus_issue_days": [
+      "2021-10-01",
+      "2024-12-31"
+    ],
+    "granger_lag": 30,
+    "price_days": [
+      "2021-10-01",
+      "2024-12-30"
+    ]
+  },
+  "window_outcomes_read": false
+}

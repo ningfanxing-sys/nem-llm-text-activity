@@ -1,0 +1,1555 @@
+{
+  "a2_module_sha256": "3a913e58473abb10519afd10094477bf2d2ef62a1a1ccfdb76250f4f7229d32e",
+  "abstract_core": [
+    "In an internally pre-specified 2025 day-ahead test, adding extracted news labels to the numerical reference changed its mean absolute error by +0.18% (+0.0928 AUD/MWh; one-sided Diebold–Mariano p = 0.61).",
+    "In the same year, price-only LEAR, added after that test, had a 21.3% lower mean absolute error than the numerical reference (39.73 against 50.51 AUD/MWh).",
+    "For day-ahead news, no structured representation improved on the article activity reference (the label-count representation 11.412% [1.220, 26.787], Holm-adjusted p = 0.086, fragile (one-day interval); the structured-attribute embedding 1.171% [-3.298, 5.625], Holm-adjusted p = 0.558, not fully checked; family-adjusted 97.5% intervals); improvements larger than 3.298% of the reference error were excluded at the family-adjusted one-sided 1.25% level, below the 3.8% smallest effect size of interest.",
+    "For market notices, the event-state representation improved on the notice activity reference by 0.303% of the reference error (0.0287 AUD/MWh; family-adjusted 98.3% interval [-0.403, -0.201]%, Holm-adjusted p < 0.001); it was robust and an increment over the notice activity reference only, not shown to be LLM-specific; its interval lies wholly below the 0.5% historical-effect reference; it persisted when each forecast was averaged with the reference augmented with five-minute pre-dispatch prices.",
+    "For market notices, the message, failure and fuel-group counts improved on the notice activity reference by 0.284% of the reference error (0.0269 AUD/MWh; family-adjusted 98.3% interval [-0.398, -0.165]%, Holm-adjusted p < 0.001); it was fragile (three-seed mean) and an increment over the notice activity reference only, not shown to be LLM-specific; its interval lies wholly below the 0.5% historical-effect reference; it persisted when each forecast was averaged with the reference augmented with five-minute pre-dispatch prices.",
+    "For market notices, the structured-attribute notice embedding improved on the notice activity reference by 0.747% of the reference error (0.0706 AUD/MWh; family-adjusted 98.3% interval [-1.019, -0.473]%, Holm-adjusted p < 0.001); it was robust and an increment over the notice activity reference only, not shown to be LLM-specific; its point estimate exceeds the 0.5% historical-effect reference but its interval straddles it; it persisted when each forecast was averaged with the reference augmented with five-minute pre-dispatch prices.",
+    "These readings are relative to the pre-specified learner and information set: the primary news reference uses no operator forecasts and the primary notice reference uses no five-minute pre-dispatch prices."
+  ],
+  "addendum_freeze_sha256": "a7667e51b7f236e192ac5c1e1d8e1ca9681ba5fd5b8e98c55b4c7364989912c9",
+  "analysis": "confirmation-sensitivity_tests post-score readings (secondary and reporting; no primary decision changes)",
+  "conclusion_core": [
+    "For day-ahead news, no structured representation improved on the article activity reference (the label-count representation 11.412% [1.220, 26.787], Holm-adjusted p = 0.086, fragile (one-day interval); the structured-attribute embedding 1.171% [-3.298, 5.625], Holm-adjusted p = 0.558, not fully checked; family-adjusted 97.5% intervals); improvements larger than 3.298% of the reference error were excluded at the family-adjusted one-sided 1.25% level, below the 3.8% smallest effect size of interest.",
+    "For market notices, the event-state representation improved on the notice activity reference by 0.303% of the reference error (0.0287 AUD/MWh; family-adjusted 98.3% interval [-0.403, -0.201]%, Holm-adjusted p < 0.001); it was robust and an increment over the notice activity reference only, not shown to be LLM-specific; its interval lies wholly below the 0.5% historical-effect reference; it persisted when each forecast was averaged with the reference augmented with five-minute pre-dispatch prices.",
+    "For market notices, the message, failure and fuel-group counts improved on the notice activity reference by 0.284% of the reference error (0.0269 AUD/MWh; family-adjusted 98.3% interval [-0.398, -0.165]%, Holm-adjusted p < 0.001); it was fragile (three-seed mean) and an increment over the notice activity reference only, not shown to be LLM-specific; its interval lies wholly below the 0.5% historical-effect reference; it persisted when each forecast was averaged with the reference augmented with five-minute pre-dispatch prices.",
+    "For market notices, the structured-attribute notice embedding improved on the notice activity reference by 0.747% of the reference error (0.0706 AUD/MWh; family-adjusted 98.3% interval [-1.019, -0.473]%, Holm-adjusted p < 0.001); it was robust and an increment over the notice activity reference only, not shown to be LLM-specific; its point estimate exceeds the 0.5% historical-effect reference but its interval straddles it; it persisted when each forecast was averaged with the reference augmented with five-minute pre-dispatch prices.",
+    "These readings are relative to the pre-specified learner and information set: the primary news reference uses no operator forecasts and the primary notice reference uses no five-minute pre-dispatch prices.",
+    "The numerical reference was itself weaker than a standard price benchmark: in 2025, price-only LEAR had a 21.3% lower mean absolute error (39.73 against 50.51 AUD/MWh), and adding extracted news labels changed the reference's error by +0.18% in an internally pre-specified test."
+  ],
+  "fixed_sentences": {
+    "A3C8": "Content controls exist only for the two structured-attribute embeddings. For the label-count representation, the event-state representation and the message, failure and fuel-group counts, activity-matched reassignment or 28-day shifting would require new features, so their increments are described relative to activity only and compared with cheap-text representations of the same documents.",
+    "A3D5": "The transferred 3.8% value is not informative for the notice task, whose expected bounds are an order of magnitude smaller; the notice reading is compared with the 0.5% historical-effect reference, with the earlier notice text effects and with the minimum detectable effect.",
+    "A3P1": "A planted-signal check on pre-confirmation windows of the same size added to the activity reference a column equal to the realised target on a random share of region-days (news) or region-hours (notices) and missing elsewhere. Detection rates below refer to this sparse, exact planting scheme and are described by the realised effect, because a real content signal with the same realised effect could be easier or harder to detect.",
+    "A3R6": "The exposure, re-admission and matched-support subsets are descriptive and carry no decision class.",
+    "A3R_BATCH": "The new-fit secondary arms use one seed by design, so their three-seed check is not available and their best robustness label is not fully checked.",
+    "notice_clock_limitation": "All 725 notices dated 1 August to 30 September 2026 use the website creation date, a surrogate not verified as the publication time, as their availability clock, whereas the training notices use the official archive clocks; on 65 March-May 2026 notices that carry both clocks the two agree to the second. No pre-specified contrast separates this clock-type change."
+  },
+  "inputs_read": [
+    {
+      "path": "studies/confirmation/execution/host_state/SEAL.json",
+      "role": "seal",
+      "sha256": "abdf291c73c68ff224dc5c070cd986baa686518b506bbf03d1657aa29ce75110"
+    },
+    {
+      "path": "studies/confirmation/execution/host_state/scored/SCORE_RECEIPT.json",
+      "role": "score_receipt",
+      "sha256": "8f09b3d0626f0d1b5b5be4fe12d697004b3e210f5dc6b8c4eebcee69c8254215"
+    },
+    {
+      "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/R2_STATE/scored/news__DAILY_LOSSES.csv",
+      "role": "score_output",
+      "sha256": "74887745de654c1df5c77470ca86822ad4e8671a7059c7081497a00ac6bc8007"
+    },
+    {
+      "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/R2_STATE/scored/news__PRIMARY.json",
+      "role": "score_output",
+      "sha256": "a00791a0d5fb2894dec1bcb2614b47692e63754bdcd9c26b786d3b938009cee8"
+    },
+    {
+      "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/R2_STATE/scored/news__A1_HLN.json",
+      "role": "score_output",
+      "sha256": "2921bf7920e19056ce51c0f8145bc7ae1139e9133065ad65b7bc4bae82468732"
+    },
+    {
+      "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/R2_STATE/scored/news__A1_SEED_FRAGILE.json",
+      "role": "score_output",
+      "sha256": "55eb24ad51225cacbc287d26e5e4a22c518c0d006230cb60f1505826371411d2"
+    },
+    {
+      "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/R2_STATE/scored/SCORE_REPORT.json",
+      "role": "score_output",
+      "sha256": "fe66c7599b6eec75307cdbc4a6cc465648865b037b4e17a55bb3276eca680ce9"
+    },
+    {
+      "path": "studies/confirmation/execution/host_state/features/news_keys_labels.parquet",
+      "role": "sealed_truth_panel_postscore",
+      "sha256": "821f6db161fd012b18dee28e83f5518d7841e74461431633ebd6eaa0292ae68f"
+    },
+    {
+      "path": "studies/confirmation/execution/host_state/sealed/lear__LEAR__s20260919__main.parquet",
+      "role": "r2_full_original_prediction",
+      "sha256": "2452a0703fe95fdf97653bd17db69ce0c8b4f593caa5bd924066c4837364cc9d"
+    },
+    {
+      "path": "studies/confirmation/execution/host_state/sealed/news__L_chen__s20260919__main.parquet",
+      "role": "r2_full_original_prediction",
+      "sha256": "6cb756c532eb5914578250cf1de290f464d3932d4031aec9a94db6e5dc9be15a"
+    },
+    {
+      "path": "studies/confirmation/execution/host_state/sealed/news__L_count__s20260919__main.parquet",
+      "role": "r2_full_original_prediction",
+      "sha256": "c73e4a16b16263f14f9e1984723b3c14fe6c55276d0fddbfbfb1cac094ad7ba4"
+    },
+    {
+      "path": "studies/confirmation/execution/host_state/sealed/news__M__s20260919__main.parquet",
+      "role": "r2_full_original_prediction",
+      "sha256": "5f8308db9aba07636b7d34dde2ed1bb858fe15d9c8d35b337402c73b0d245f09"
+    },
+    {
+      "path": "studies/confirmation/execution/host_state/sealed/news__N__s20260919__main.parquet",
+      "role": "r2_full_original_prediction",
+      "sha256": "f7b9d5072335564e3748ab72cd41b910cd7c5a6b803ae28a0bba7dbc5db8d8e7"
+    },
+    {
+      "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/R2_STATE/scored/news__DAILY_LOSSES.csv",
+      "role": "score_output",
+      "sha256": "74887745de654c1df5c77470ca86822ad4e8671a7059c7081497a00ac6bc8007"
+    },
+    {
+      "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/R2_STATE/scored/notice__DAILY_LOSSES.csv",
+      "role": "score_output",
+      "sha256": "c00066a78d6b79fc2148c26f388530976ad51b49bec2315052e172a40f410021"
+    },
+    {
+      "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/R2_STATE/scored/notice__PRIMARY.json",
+      "role": "score_output",
+      "sha256": "d5c15bfde194477698dfefafe1f9dbfb3c195627177aa4070a5b61d11f3bdd9d"
+    },
+    {
+      "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/R2_STATE/scored/notice__A1_HLN.json",
+      "role": "score_output",
+      "sha256": "02a87c545379e8e44c3848a386a08bb9ae05a00352e885eae559e89debefd344"
+    },
+    {
+      "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/R2_STATE/scored/notice__A1_SEED_FRAGILE.json",
+      "role": "score_output",
+      "sha256": "c714d9170ff8b40f0f95c51091ab5ba8e9843d0ec2071a95fd659300f0c80892"
+    },
+    {
+      "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/R2_STATE/scored/SCORE_REPORT.json",
+      "role": "score_output",
+      "sha256": "fe66c7599b6eec75307cdbc4a6cc465648865b037b4e17a55bb3276eca680ce9"
+    },
+    {
+      "path": "studies/confirmation/execution/host_state/features/notice_joint.parquet",
+      "role": "sealed_truth_panel_postscore",
+      "sha256": "02284c7eb5f4a6afc612d0b35ab6c093c40f5bd67d801e3da55320ed82da9cc3"
+    },
+    {
+      "path": "studies/confirmation/execution/host_state/sealed/notice__NP__s20260919__main.parquet",
+      "role": "sealed_prediction",
+      "sha256": "ec1be9f39ec947549f04a72c5cd5277d40cbfbb63584695c2371a640da781751"
+    },
+    {
+      "path": "studies/confirmation/execution/host_state/sealed/notice__L14__s20260919__main.parquet",
+      "role": "sealed_prediction",
+      "sha256": "072e4ce46e9515c9f3bd658f22a6843ef0e4e3a344849b137d0f2a63dbf57d5c"
+    },
+    {
+      "path": "studies/confirmation/execution/host_state/sealed/notice__L14__s20260920__main.parquet",
+      "role": "sealed_prediction",
+      "sha256": "27abc057eee66ea0cc6f7aa876e93a8aeffd96caffe78a0193c12e3dec98c0d9"
+    },
+    {
+      "path": "studies/confirmation/execution/host_state/sealed/notice__L14__s20260921__main.parquet",
+      "role": "sealed_prediction",
+      "sha256": "b1f6ee171bcd098ee7911e1baf24bd8ced5975a722854d2b97ccf1491b72ab33"
+    },
+    {
+      "path": "studies/confirmation/execution/host_state/sealed/notice__M_notice__s20260919__main.parquet",
+      "role": "sealed_prediction",
+      "sha256": "5be1b891b075fa06e76a67719b32cc3ca201ba2a7896a1ae12d4e83139e250dc"
+    },
+    {
+      "path": "studies/confirmation/execution/host_state/sealed/notice__M_notice__s20260920__main.parquet",
+      "role": "sealed_prediction",
+      "sha256": "062f9a6ca53cb381855f39dad79d4f615b33ef6bb037944b297eeaaa88aceace"
+    },
+    {
+      "path": "studies/confirmation/execution/host_state/sealed/notice__M_notice__s20260921__main.parquet",
+      "role": "sealed_prediction",
+      "sha256": "2ae1791ee4cde377b55ba5285e1b19567fbc62d145e532cde2405dbfcfcebde2"
+    },
+    {
+      "path": "studies/confirmation/execution/host_state/sealed/notice__L_Laz__s20260919__main.parquet",
+      "role": "sealed_prediction",
+      "sha256": "a7209c40873fd074823983b4fd502d937f647d8bab17b1c828f37c8f15d9f0dd"
+    },
+    {
+      "path": "studies/confirmation/execution/host_state/sealed/notice__L_Laz__s20260920__main.parquet",
+      "role": "sealed_prediction",
+      "sha256": "e3e224db925797c7841f079b7abd8d4f6dfd27281993b3434a9cca65d23a8c8b"
+    },
+    {
+      "path": "studies/confirmation/execution/host_state/sealed/notice__L_Laz__s20260921__main.parquet",
+      "role": "sealed_prediction",
+      "sha256": "aad9ded536f89e816fddb75fd58f7ece01eeefadb0d55ddf042a2b8892c66fca"
+    },
+    {
+      "path": "studies/confirmation/execution/host_state/sealed/notice__L_chen_notice__s20260919__main.parquet",
+      "role": "sealed_prediction",
+      "sha256": "bd7f741e7f0683032755e78ca817e9f0a6de9c1fd76a41fb4c3882c60e52b02d"
+    },
+    {
+      "path": "studies/confirmation/execution/host_state/sealed/notice__L_chen_notice__s20260920__main.parquet",
+      "role": "sealed_prediction",
+      "sha256": "1634666ef847ed975c86cf5af53f5a715cb57c42144e3826230b5a46fd63e944"
+    },
+    {
+      "path": "studies/confirmation/execution/host_state/sealed/notice__L_chen_notice__s20260921__main.parquet",
+      "role": "sealed_prediction",
+      "sha256": "7514861d79b1d7fa4bcc8214278220a1382492c2a4c8de0b7ca80d62e561265e"
+    },
+    {
+      "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/R2_STATE/scored/notice__DAILY_LOSSES.csv",
+      "role": "score_output",
+      "sha256": "c00066a78d6b79fc2148c26f388530976ad51b49bec2315052e172a40f410021"
+    },
+    {
+      "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/R2_STATE/scored/news__DAILY_LOSSES.csv",
+      "role": "score_output",
+      "sha256": "74887745de654c1df5c77470ca86822ad4e8671a7059c7081497a00ac6bc8007"
+    },
+    {
+      "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/R2_STATE/scored/news__A1_SEED_FRAGILE.json",
+      "role": "score_output",
+      "sha256": "55eb24ad51225cacbc287d26e5e4a22c518c0d006230cb60f1505826371411d2"
+    },
+    {
+      "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/R2_STATE/scored/SCORE_REPORT.json",
+      "role": "score_output",
+      "sha256": "fe66c7599b6eec75307cdbc4a6cc465648865b037b4e17a55bb3276eca680ce9"
+    },
+    {
+      "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/R2_STATE/scored/news__SECONDARY__L_count__N.json",
+      "role": "score_output",
+      "sha256": "7df726979ba60c4118e4607f24695320035feb2ee91db4f26abf73d49bef6c0c"
+    },
+    {
+      "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/R2_STATE/scored/news__SECONDARY__L_chen__N.json",
+      "role": "score_output",
+      "sha256": "1eaa6645fe2c6f9cfdb28d404ea4b5ae9e7cf405e4a8b0451d43c1b7b61bae33"
+    },
+    {
+      "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/R2_STATE/scored/news__SECONDARY__M__N.json",
+      "role": "score_output",
+      "sha256": "83de16a6c3a0dbd7a59ab45fdb75a1c3676870cf2662a5dc5278121167393920"
+    },
+    {
+      "path": "studies/confirmation/execution/host_state/features/news_P_content_matched.npy",
+      "role": "matched_mask",
+      "sha256": "16c1fd1c887bcdbee5b2d494f40d9276859ebad61ebdb492fc06315eb41da70c"
+    },
+    {
+      "path": "studies/confirmation/execution/host_state/features/news_keys_labels.parquet",
+      "role": "sealed_truth_panel_postscore",
+      "sha256": "821f6db161fd012b18dee28e83f5518d7841e74461431633ebd6eaa0292ae68f"
+    },
+    {
+      "path": "studies/confirmation/execution/host_state/sealed/lear__LEAR__s20260919__main.parquet",
+      "role": "r2_full_original_prediction",
+      "sha256": "2452a0703fe95fdf97653bd17db69ce0c8b4f593caa5bd924066c4837364cc9d"
+    },
+    {
+      "path": "studies/confirmation/execution/host_state/sealed/news__L_chen__s20260919__main.parquet",
+      "role": "r2_full_original_prediction",
+      "sha256": "6cb756c532eb5914578250cf1de290f464d3932d4031aec9a94db6e5dc9be15a"
+    },
+    {
+      "path": "studies/confirmation/execution/host_state/sealed/news__L_count__s20260919__main.parquet",
+      "role": "r2_full_original_prediction",
+      "sha256": "c73e4a16b16263f14f9e1984723b3c14fe6c55276d0fddbfbfb1cac094ad7ba4"
+    },
+    {
+      "path": "studies/confirmation/execution/host_state/sealed/news__M__s20260919__main.parquet",
+      "role": "r2_full_original_prediction",
+      "sha256": "5f8308db9aba07636b7d34dde2ed1bb858fe15d9c8d35b337402c73b0d245f09"
+    },
+    {
+      "path": "studies/confirmation/execution/host_state/sealed/news__N__s20260919__main.parquet",
+      "role": "r2_full_original_prediction",
+      "sha256": "f7b9d5072335564e3748ab72cd41b910cd7c5a6b803ae28a0bba7dbc5db8d8e7"
+    },
+    {
+      "path": "studies/confirmation/execution/host_state/features/news_keys_labels.parquet",
+      "role": "sealed_truth_panel_postscore",
+      "sha256": "821f6db161fd012b18dee28e83f5518d7841e74461431633ebd6eaa0292ae68f"
+    },
+    {
+      "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/R2_STATE/scored/notice__DAILY_LOSSES.csv",
+      "role": "score_output",
+      "sha256": "c00066a78d6b79fc2148c26f388530976ad51b49bec2315052e172a40f410021"
+    },
+    {
+      "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/R2_STATE/scored/notice__A1_SEED_FRAGILE.json",
+      "role": "score_output",
+      "sha256": "c714d9170ff8b40f0f95c51091ab5ba8e9843d0ec2071a95fd659300f0c80892"
+    },
+    {
+      "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/R2_STATE/scored/SCORE_REPORT.json",
+      "role": "score_output",
+      "sha256": "fe66c7599b6eec75307cdbc4a6cc465648865b037b4e17a55bb3276eca680ce9"
+    },
+    {
+      "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/R2_STATE/scored/notice__first_L.json",
+      "role": "score_output",
+      "sha256": "3286ad7650d469e896522a78c9b113cc24636c336d8b4371c0a806516dfaece1"
+    },
+    {
+      "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/R2_STATE/scored/notice__A1_OFFICIAL_CAP_RECLIP_PRIMARY.json",
+      "role": "score_output",
+      "sha256": "c7a63742f0b04f8f2fa08eedc148a675a148d6eed91ccf5c0531602ab5786596"
+    },
+    {
+      "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/R2_STATE/scored/notice__DROP_FIRST_SEVEN_DAYS.json",
+      "role": "score_output",
+      "sha256": "0770a43b50744c847d022c6bc95f32c155771a649a7dce9aa82b6454a1c07b1a"
+    }
+  ],
+  "methods_sentences": [
+    "The comparison values are interpretation aids and never enter a decision. For news, the smallest effect size of interest is 3.8% of the reference error, the smallest text-attributed error reduction with a significance test in the cited electricity forecasting work. For notices, the comparison value is 0.5% of the reference error: the equivalence tolerance of the earlier pre-confirmation window-C notice test, used here as a historical-effect reference; that tolerance was set after development results were known and is not an economic indifference threshold.",
+    "Every exclusion bound is the conditional one-sided bootstrap bound max(0, −lower endpoint) of a labelled interval: family-adjusted for the primary, combination, absolute-error, pre-dispatch and label-replacement families, and unadjusted for single secondary comparisons; per-contrast 95% intervals of family members appear as intervals only.",
+    "Headline intervals are family-adjusted: 97.5% two-sided, that is 1 − 0.05/2 for the 2 pre-specified comparisons of the day-ahead news family; tables also give the per-contrast 95% intervals.",
+    "Headline intervals are family-adjusted: 98.3% two-sided, that is 1 − 0.05/3 for the 3 pre-specified comparisons of the market notices family; tables also give the per-contrast 95% intervals."
+  ],
+  "module_sha256": "1d9fe228ac36d118d22defe54e0461b15c3f2924709cdac7c2b18242f843318c",
+  "optional_inputs": {
+    "a2batch": null,
+    "a2label": null,
+    "positive_control": null
+  },
+  "primary_decision_rule_changed": false,
+  "seal_sha256": "abdf291c73c68ff224dc5c070cd986baa686518b506bbf03d1657aa29ce75110",
+  "tasks": {
+    "news": {
+      "a3_new_cheap_contrasts": {
+        "L_count-E_raw": {
+          "arm": "L_count",
+          "reference": "E_raw",
+          "state": "NOT_EVALUABLE_WHOLE_STAGE_UNAVAILABLE"
+        },
+        "L_count-W2_D": {
+          "arm": "L_count",
+          "reference": "W2_D",
+          "state": "NOT_EVALUABLE_WHOLE_STAGE_UNAVAILABLE"
+        }
+      },
+      "attribution_a3": [
+        {
+          "a3_form": null,
+          "arm": "L_count",
+          "cheap_comparators": {
+            "E_raw": {
+              "favourable": false,
+              "state": "NOT_EVALUABLE_WHOLE_STAGE_UNAVAILABLE",
+              "unfavourable": false
+            },
+            "W2_D": {
+              "favourable": false,
+              "state": "NOT_EVALUABLE_WHOLE_STAGE_UNAVAILABLE",
+              "unfavourable": false
+            }
+          },
+          "content_controls": {
+            "L_chen-P_content": {
+              "favourable": false,
+              "state": "NOT_EVALUABLE_WHOLE_STAGE_UNAVAILABLE",
+              "unfavourable": false
+            },
+            "L_chen-P_shift": {
+              "favourable": false,
+              "state": "NOT_EVALUABLE_WHOLE_STAGE_UNAVAILABLE",
+              "unfavourable": false
+            }
+          },
+          "label": "NOT_APPLICABLE_NO_RELIABLE_INCREMENT",
+          "primary_decision": "NO_RELIABLE_INCREMENT_DETECTED",
+          "sentence": null,
+          "status_word": null
+        },
+        {
+          "a3_form": null,
+          "arm": "L_chen",
+          "cheap_comparators": {
+            "E_raw": {
+              "favourable": false,
+              "state": "NOT_EVALUABLE_WHOLE_STAGE_UNAVAILABLE",
+              "unfavourable": false
+            },
+            "W2_D": {
+              "favourable": false,
+              "state": "NOT_EVALUABLE_WHOLE_STAGE_UNAVAILABLE",
+              "unfavourable": false
+            }
+          },
+          "content_controls": {
+            "L_chen-P_content": {
+              "favourable": false,
+              "state": "NOT_EVALUABLE_WHOLE_STAGE_UNAVAILABLE",
+              "unfavourable": false
+            },
+            "L_chen-P_shift": {
+              "favourable": false,
+              "state": "NOT_EVALUABLE_WHOLE_STAGE_UNAVAILABLE",
+              "unfavourable": false
+            }
+          },
+          "label": "NOT_APPLICABLE_NO_RELIABLE_INCREMENT",
+          "primary_decision": "NO_RELIABLE_INCREMENT_DETECTED",
+          "sentence": null,
+          "status_word": null
+        }
+      ],
+      "combination_robustness_a3": {
+        "L_chen-M": {
+          "checks": {
+            "hac7": true,
+            "hln": true,
+            "one_day": true,
+            "seven_day": true,
+            "three_seed": null
+          },
+          "dissent": [],
+          "label": "NOT_FULLY_CHECKED",
+          "recorded_reason": null,
+          "sentence": "its robustness could not be fully checked because the three-seed mean was not available (the extra-seed predictions were not available)",
+          "short_word": "not fully checked",
+          "unavailable": [
+            "three_seed"
+          ]
+        },
+        "L_count-M": {
+          "checks": {
+            "hac7": true,
+            "hln": true,
+            "one_day": false,
+            "seven_day": true,
+            "three_seed": null
+          },
+          "dissent": [
+            "one_day"
+          ],
+          "label": "FRAGILE",
+          "recorded_reason": null,
+          "sentence": "this reading was fragile: the one-day bootstrap interval did not agree with it in direction or decision; its robustness could not be fully checked because the three-seed mean was not available (the extra-seed predictions were not available)",
+          "short_word": "fragile (one-day interval)",
+          "unavailable": [
+            "three_seed"
+          ]
+        }
+      },
+      "design_sensitivities": {
+        "L_chen-M": {
+          "first_chunk": {
+            "state": "NOT_AVAILABLE"
+          },
+          "l1_family": {
+            "state": "NOT_AVAILABLE"
+          },
+          "label_replacement": {
+            "state": "NOT_AVAILABLE"
+          },
+          "pd_family": {
+            "state": "NOT_AVAILABLE"
+          },
+          "window_24h": {
+            "state": "NOT_AVAILABLE"
+          }
+        },
+        "L_count-M": {
+          "first_chunk": {
+            "state": "NOT_APPLICABLE"
+          },
+          "l1_family": {
+            "state": "NOT_AVAILABLE"
+          },
+          "label_replacement": {
+            "state": "NOT_AVAILABLE"
+          },
+          "pd_family": {
+            "state": "NOT_AVAILABLE"
+          },
+          "window_24h": {
+            "state": "NOT_AVAILABLE"
+          }
+        }
+      },
+      "matched_support": {
+        "days": 3,
+        "sentence": "The activity-matched reassignment control found matched keys on only 3 days, too few for the frozen seven-day rule, so the primary contrasts are not recomputed on its support.",
+        "state": "TOO_FEW_DAYS"
+      },
+      "positive_control": {
+        "reason": "no result was available at the time of the fill",
+        "state": "NOT_RUN"
+      },
+      "readmission_free_subset": {
+        "date_gaps": [
+          [
+            "2026-05-19",
+            "2026-05-23"
+          ],
+          [
+            "2026-06-01",
+            "2026-06-08"
+          ],
+          [
+            "2026-06-09",
+            "2026-06-13"
+          ],
+          [
+            "2026-06-20",
+            "2026-06-25"
+          ],
+          [
+            "2026-06-29",
+            "2026-07-06"
+          ],
+          [
+            "2026-07-08",
+            "2026-07-15"
+          ],
+          [
+            "2026-07-16",
+            "2026-07-27"
+          ],
+          [
+            "2026-07-27",
+            "2026-07-30"
+          ],
+          [
+            "2026-08-07",
+            "2026-08-11"
+          ],
+          [
+            "2026-08-11",
+            "2026-08-17"
+          ],
+          [
+            "2026-08-21",
+            "2026-09-01"
+          ],
+          [
+            "2026-09-04",
+            "2026-09-06"
+          ],
+          [
+            "2026-09-07",
+            "2026-09-11"
+          ],
+          [
+            "2026-09-11",
+            "2026-09-14"
+          ],
+          [
+            "2026-09-16",
+            "2026-09-20"
+          ],
+          [
+            "2026-09-24",
+            "2026-09-29"
+          ]
+        ],
+        "days": 64,
+        "decision_rule": "none (descriptive only)",
+        "reports": [
+          {
+            "arm": "L_count",
+            "arm_mae": 24.120905810611664,
+            "bootstrap": {
+              "1": {
+                "bootstrap_nonpositive_effect_count": 1838,
+                "effect_percent_reference_mae": -2.4611515163194717,
+                "family_m": 1,
+                "finite_draws": 2000,
+                "interval95_percent": [
+                  -6.195468843401442,
+                  0.8796543650749707
+                ],
+                "interval_family_adjusted_percent": [
+                  -6.195468843401442,
+                  0.8796543650749707
+                ],
+                "monte_carlo_resolution": 0.0005,
+                "reference_mae": 24.72953719014572,
+                "tail_draws_expected": 50.0,
+                "undefined_draws": 0
+              },
+              "7": {
+                "bootstrap_nonpositive_effect_count": 798,
+                "effect_percent_reference_mae": -2.4611515163194717,
+                "family_m": 1,
+                "finite_draws": 2000,
+                "interval95_percent": [
+                  -2.8688209503943307,
+                  3.734462330688384
+                ],
+                "interval_family_adjusted_percent": [
+                  -2.8688209503943307,
+                  3.734462330688384
+                ],
+                "monte_carlo_resolution": 0.0005,
+                "reference_mae": 24.72953719014572,
+                "tail_draws_expected": 50.0,
+                "undefined_draws": 0
+              }
+            },
+            "dm_state": "DEFINED",
+            "effect_percent_reference_mae": -2.4611515163194717,
+            "hac7_p_two_sided": null,
+            "hac7_state": "UNDEFINED_SECONDARY_DATE_GAPS",
+            "hln_p_two_sided": 0.19259581579150575,
+            "mean_difference": -0.6086313795340591,
+            "n_days": 64,
+            "p_deterioration": 0.906087354586913,
+            "p_improvement": 0.09391264541308694,
+            "p_two_sided": 0.18782529082617389,
+            "reference": "M",
+            "reference_mae": 24.72953719014572,
+            "sentence": "On the 64 issue days whose admitted articles included no re-admitted older article, L_count differed from the article activity reference by -2.461% (one-day 95% interval [-6.196, 0.880]%, DM p = 0.188); this descriptive subset does not change any reading.",
+            "state": "COMPUTED",
+            "statistic": -1.3170397798090576
+          },
+          {
+            "arm": "L_chen",
+            "arm_mae": 25.31362723563727,
+            "bootstrap": {
+              "1": {
+                "bootstrap_nonpositive_effect_count": 424,
+                "effect_percent_reference_mae": 2.3619125622953185,
+                "family_m": 1,
+                "finite_draws": 2000,
+                "interval95_percent": [
+                  -2.7565762263548823,
+                  7.922560303044919
+                ],
+                "interval_family_adjusted_percent": [
+                  -2.7565762263548823,
+                  7.922560303044919
+                ],
+                "monte_carlo_resolution": 0.0005,
+                "reference_mae": 24.72953719014572,
+                "tail_draws_expected": 50.0,
+                "undefined_draws": 0
+              },
+              "7": {
+                "bootstrap_nonpositive_effect_count": 217,
+                "effect_percent_reference_mae": 2.3619125622953185,
+                "family_m": 1,
+                "finite_draws": 2000,
+                "interval95_percent": [
+                  -1.9389554595540086,
+                  12.790519371047415
+                ],
+                "interval_family_adjusted_percent": [
+                  -1.9389554595540086,
+                  12.790519371047415
+                ],
+                "monte_carlo_resolution": 0.0005,
+                "reference_mae": 24.72953719014572,
+                "tail_draws_expected": 50.0,
+                "undefined_draws": 0
+              }
+            },
+            "dm_state": "DEFINED",
+            "effect_percent_reference_mae": 2.3619125622953185,
+            "hac7_p_two_sided": null,
+            "hac7_state": "UNDEFINED_SECONDARY_DATE_GAPS",
+            "hln_p_two_sided": 0.39978371435352,
+            "mean_difference": 0.5840900454915445,
+            "n_days": 64,
+            "p_deterioration": 0.19828718805008302,
+            "p_improvement": 0.801712811949917,
+            "p_two_sided": 0.39657437610016605,
+            "reference": "M",
+            "reference_mae": 24.72953719014572,
+            "sentence": "On the 64 issue days whose admitted articles included no re-admitted older article, L_chen differed from the article activity reference by 2.362% (one-day 95% interval [-2.757, 7.923]%, DM p = 0.397); this descriptive subset does not change any reading.",
+            "state": "COMPUTED",
+            "statistic": 0.8477550949410156
+          }
+        ],
+        "state": "COMPUTED"
+      },
+      "robustness_a3": {
+        "L_chen-M": {
+          "checks": {
+            "hac7": true,
+            "hln": true,
+            "one_day": true,
+            "seven_day": true,
+            "three_seed": null
+          },
+          "dissent": [],
+          "label": "NOT_FULLY_CHECKED",
+          "recorded_reason": "primary_seed_robustness_news: UNAVAILABLE_RESOURCE_BUDGET; Whole-stage runtime-only admission failed",
+          "sentence": "its robustness could not be fully checked because the three-seed mean was not available (the extra-seed predictions were not available)",
+          "short_word": "not fully checked",
+          "unavailable": [
+            "three_seed"
+          ]
+        },
+        "L_count-M": {
+          "checks": {
+            "hac7": true,
+            "hln": true,
+            "one_day": false,
+            "seven_day": true,
+            "three_seed": null
+          },
+          "dissent": [
+            "one_day"
+          ],
+          "label": "FRAGILE",
+          "recorded_reason": "primary_seed_robustness_news: UNAVAILABLE_RESOURCE_BUDGET; Whole-stage runtime-only admission failed",
+          "sentence": "this reading was fragile: the one-day bootstrap interval did not agree with it in direction or decision; its robustness could not be fully checked because the three-seed mean was not available (the extra-seed predictions were not available)",
+          "short_word": "fragile (one-day interval)",
+          "unavailable": [
+            "three_seed"
+          ]
+        }
+      },
+      "seed_sign_only": {
+        "L_chen-M": false,
+        "L_count-M": false
+      },
+      "text_vs_no_text": {
+        "bounds": {
+          "L_chen-N": 6.921233319166365,
+          "L_count-N": 2.6696925887663725,
+          "M-N": 6.39521428431443
+        },
+        "sentence": "Against the numerical reference, improvements larger than 2.670% for the label-count representation, 6.922% for the structured-attribute embedding and 6.396% for the article activity reference were excluded at the unadjusted one-sided 2.5% level; Table {table_ref} places these text-versus-no-text bounds beside the published no-text-to-text comparisons, whose relative error changes computed from the reported metric pairs range from a 1.37% increase to a 13.90% reduction, and the larger structured-representation bound is within the range of the published reductions."
+      },
+      "texts": {
+        "abstract": [
+          "For day-ahead news, no structured representation improved on the article activity reference (the label-count representation 11.412% [1.220, 26.787], Holm-adjusted p = 0.086, fragile (one-day interval); the structured-attribute embedding 1.171% [-3.298, 5.625], Holm-adjusted p = 0.558, not fully checked; family-adjusted 97.5% intervals); improvements larger than 3.298% of the reference error were excluded at the family-adjusted one-sided 1.25% level, below the 3.8% smallest effect size of interest."
+        ],
+        "contrasts": [
+          {
+            "clause_null": "the label-count representation 11.412% [1.220, 26.787], Holm-adjusted p = 0.086, fragile (one-day interval)",
+            "form": "A3H1",
+            "other": "The label-count representation showed no reliable increment (11.412% [1.220, 26.787], Holm-adjusted p = 0.086, fragile (one-day interval)).",
+            "section6": "L_count showed no reliable increment over the article activity reference (11.412% of the reference error, family-adjusted 97.5% interval [1.220, 26.787]%, Holm-adjusted p = 0.086); this reading was fragile: the one-day bootstrap interval did not agree with it in direction or decision; its robustness could not be fully checked because the three-seed mean was not available (the extra-seed predictions were not available).",
+            "sesoi_form": "A3D1",
+            "sesoi_sentence": "Improvements larger than 0.000% of the reference error were excluded at the family-adjusted one-sided 1.25% level, conditional on these fitted predictions; this bound is below the 3.8% smallest effect size of interest, so improvements of that size are excluded by this window.",
+            "zero": false
+          },
+          {
+            "clause_null": "the structured-attribute embedding 1.171% [-3.298, 5.625], Holm-adjusted p = 0.558, not fully checked",
+            "form": "A3H1",
+            "other": "The structured-attribute embedding showed no reliable increment (1.171% [-3.298, 5.625], Holm-adjusted p = 0.558, not fully checked).",
+            "section6": "L_chen showed no reliable increment over the article activity reference (1.171% of the reference error, family-adjusted 97.5% interval [-3.298, 5.625]%, Holm-adjusted p = 0.558); its robustness could not be fully checked because the three-seed mean was not available (the extra-seed predictions were not available).",
+            "sesoi_form": "A3D1",
+            "sesoi_sentence": "Improvements larger than 3.298% of the reference error were excluded at the family-adjusted one-sided 1.25% level, conditional on these fitted predictions; this bound is below the 3.8% smallest effect size of interest, so improvements of that size are excluded by this window.",
+            "zero": false
+          }
+        ],
+        "not_run": [],
+        "positive_control": {
+          "abstract_clauses": [],
+          "increment_flag": null,
+          "null_flag": "",
+          "section6": [
+            "The planted-signal check was not run for day-ahead news (no result was available at the time of the fill); the sensitivity of the test pipeline is not documented for this task."
+          ],
+          "task_bound_clauses": []
+        },
+        "qualifiers": [],
+        "scenario": "A",
+        "section6": [
+          "L_count showed no reliable increment over the article activity reference (11.412% of the reference error, family-adjusted 97.5% interval [1.220, 26.787]%, Holm-adjusted p = 0.086); this reading was fragile: the one-day bootstrap interval did not agree with it in direction or decision; its robustness could not be fully checked because the three-seed mean was not available (the extra-seed predictions were not available).",
+          "Improvements larger than 0.000% of the reference error were excluded at the family-adjusted one-sided 1.25% level, conditional on these fitted predictions; this bound is below the 3.8% smallest effect size of interest, so improvements of that size are excluded by this window.",
+          "None of these bounds is an equivalence test, and none shows a zero effect.",
+          "L_chen showed no reliable increment over the article activity reference (1.171% of the reference error, family-adjusted 97.5% interval [-3.298, 5.625]%, Holm-adjusted p = 0.558); its robustness could not be fully checked because the three-seed mean was not available (the extra-seed predictions were not available).",
+          "Improvements larger than 3.298% of the reference error were excluded at the family-adjusted one-sided 1.25% level, conditional on these fitted predictions; this bound is below the 3.8% smallest effect size of interest, so improvements of that size are excluded by this window.",
+          "For each structured representation, improvements larger than 3.298% of the reference error were excluded at the family-adjusted one-sided 1.25% level, which is below the 3.8% smallest effect size of interest.",
+          "The largest family-adjusted bound of the day-ahead news family, 3.298%, is at or above the design's minimum detectable effect of 3.11%.",
+          "Against the numerical reference, improvements larger than 2.670% for the label-count representation, 6.922% for the structured-attribute embedding and 6.396% for the article activity reference were excluded at the unadjusted one-sided 2.5% level; Table {table_ref} places these text-versus-no-text bounds beside the published no-text-to-text comparisons, whose relative error changes computed from the reported metric pairs range from a 1.37% increase to a 13.90% reduction, and the larger structured-representation bound is within the range of the published reductions.",
+          "The planted-signal check was not run for day-ahead news (no result was available at the time of the fill); the sensitivity of the test pipeline is not documented for this task."
+        ],
+        "section7_2": [],
+        "task_bound": 3.297596508037373
+      }
+    },
+    "notice": {
+      "a3_new_cheap_contrasts": {
+        "L14-R": {
+          "arm": "L14",
+          "arm_mae": 9.431982984301845,
+          "bootstrap": {
+            "1": {
+              "bootstrap_nonpositive_effect_count": 1164,
+              "effect_percent_reference_mae": -0.00888480800633076,
+              "family_m": 1,
+              "finite_draws": 2000,
+              "interval95_percent": [
+                -0.09664107860700309,
+                0.07649189769162539
+              ],
+              "interval_family_adjusted_percent": [
+                -0.09664107860700309,
+                0.07649189769162539
+              ],
+              "monte_carlo_resolution": 0.0005,
+              "reference_mae": 9.432821072343703,
+              "tail_draws_expected": 50.0,
+              "undefined_draws": 0
+            },
+            "7": {
+              "bootstrap_nonpositive_effect_count": 1356,
+              "effect_percent_reference_mae": -0.00888480800633076,
+              "family_m": 1,
+              "finite_draws": 2000,
+              "interval95_percent": [
+                -0.11213723363191731,
+                0.076520834331069
+              ],
+              "interval_family_adjusted_percent": [
+                -0.11213723363191731,
+                0.076520834331069
+              ],
+              "monte_carlo_resolution": 0.0005,
+              "reference_mae": 9.432821072343703,
+              "tail_draws_expected": 50.0,
+              "undefined_draws": 0
+            }
+          },
+          "dm_state": "DEFINED",
+          "effect_percent_reference_mae": -0.00888480800633076,
+          "hac7_p_two_sided": 0.8487998125891214,
+          "hac7_state": "DEFINED",
+          "hln_p_two_sided": 0.8399264730605929,
+          "mean_difference": -0.0008380880418584484,
+          "n_days": 61,
+          "p_deterioration": 0.5803799534496715,
+          "p_improvement": 0.4196200465503285,
+          "p_two_sided": 0.839240093100657,
+          "reference": "R",
+          "reference_mae": 9.432821072343703,
+          "role": "A3_SECONDARY_CHEAP_TEXT_CONTRAST",
+          "state": "COMPUTED",
+          "statistic": -0.20286558630929208
+        },
+        "L14-T": {
+          "arm": "L14",
+          "arm_mae": 9.431982984301845,
+          "bootstrap": {
+            "1": {
+              "bootstrap_nonpositive_effect_count": 18,
+              "effect_percent_reference_mae": 0.11015702384932831,
+              "family_m": 1,
+              "finite_draws": 2000,
+              "interval95_percent": [
+                0.02183754973758417,
+                0.1978938419363362
+              ],
+              "interval_family_adjusted_percent": [
+                0.02183754973758417,
+                0.1978938419363362
+              ],
+              "monte_carlo_resolution": 0.0005,
+              "reference_mae": 9.42160442526811,
+              "tail_draws_expected": 50.0,
+              "undefined_draws": 0
+            },
+            "7": {
+              "bootstrap_nonpositive_effect_count": 156,
+              "effect_percent_reference_mae": 0.11015702384932831,
+              "family_m": 1,
+              "finite_draws": 2000,
+              "interval95_percent": [
+                -0.03839679397033903,
+                0.22618647179111273
+              ],
+              "interval_family_adjusted_percent": [
+                -0.03839679397033903,
+                0.22618647179111273
+              ],
+              "monte_carlo_resolution": 0.0005,
+              "reference_mae": 9.42160442526811,
+              "tail_draws_expected": 50.0,
+              "undefined_draws": 0
+            }
+          },
+          "dm_state": "DEFINED",
+          "effect_percent_reference_mae": 0.11015702384932831,
+          "hac7_p_two_sided": 0.09298674053228435,
+          "hac7_state": "DEFINED",
+          "hln_p_two_sided": 0.021233253010469966,
+          "mean_difference": 0.010378559033731964,
+          "n_days": 61,
+          "p_deterioration": 0.00899282674002588,
+          "p_improvement": 0.9910071732599741,
+          "p_two_sided": 0.01798565348005176,
+          "reference": "T",
+          "reference_mae": 9.42160442526811,
+          "role": "A3_SECONDARY_CHEAP_TEXT_CONTRAST",
+          "state": "COMPUTED",
+          "statistic": 2.3659133473534015
+        },
+        "L_Laz-R": {
+          "arm": "L_Laz",
+          "arm_mae": 9.433749330359227,
+          "bootstrap": {
+            "1": {
+              "bootstrap_nonpositive_effect_count": 853,
+              "effect_percent_reference_mae": 0.00984072536100841,
+              "family_m": 1,
+              "finite_draws": 2000,
+              "interval95_percent": [
+                -0.09547654148789998,
+                0.11794635586064582
+              ],
+              "interval_family_adjusted_percent": [
+                -0.09547654148789998,
+                0.11794635586064582
+              ],
+              "monte_carlo_resolution": 0.0005,
+              "reference_mae": 9.432821072343703,
+              "tail_draws_expected": 50.0,
+              "undefined_draws": 0
+            },
+            "7": {
+              "bootstrap_nonpositive_effect_count": 1110,
+              "effect_percent_reference_mae": 0.00984072536100841,
+              "family_m": 1,
+              "finite_draws": 2000,
+              "interval95_percent": [
+                -0.14686770137687333,
+                0.11991356012967819
+              ],
+              "interval_family_adjusted_percent": [
+                -0.14686770137687333,
+                0.11991356012967819
+              ],
+              "monte_carlo_resolution": 0.0005,
+              "reference_mae": 9.432821072343703,
+              "tail_draws_expected": 50.0,
+              "undefined_draws": 0
+            }
+          },
+          "dm_state": "DEFINED",
+          "effect_percent_reference_mae": 0.00984072536100841,
+          "hac7_p_two_sided": 0.8869712870449044,
+          "hac7_state": "DEFINED",
+          "hln_p_two_sided": 0.8615994935388869,
+          "mean_difference": 0.0009282580155246723,
+          "n_days": 61,
+          "p_deterioration": 0.4305049859472946,
+          "p_improvement": 0.5694950140527054,
+          "p_two_sided": 0.8610099718945892,
+          "reference": "R",
+          "reference_mae": 9.432821072343703,
+          "role": "A3_SECONDARY_CHEAP_TEXT_CONTRAST",
+          "state": "COMPUTED",
+          "statistic": 0.17508865586040737
+        },
+        "L_Laz-T": {
+          "arm": "L_Laz",
+          "arm_mae": 9.433749330359227,
+          "bootstrap": {
+            "1": {
+              "bootstrap_nonpositive_effect_count": 23,
+              "effect_percent_reference_mae": 0.12890485041532063,
+              "family_m": 1,
+              "finite_draws": 2000,
+              "interval95_percent": [
+                0.021792548540978195,
+                0.24118870503634063
+              ],
+              "interval_family_adjusted_percent": [
+                0.021792548540978195,
+                0.24118870503634063
+              ],
+              "monte_carlo_resolution": 0.0005,
+              "reference_mae": 9.42160442526811,
+              "tail_draws_expected": 50.0,
+              "undefined_draws": 0
+            },
+            "7": {
+              "bootstrap_nonpositive_effect_count": 44,
+              "effect_percent_reference_mae": 0.12890485041532063,
+              "family_m": 1,
+              "finite_draws": 2000,
+              "interval95_percent": [
+                0.0022292396909236434,
+                0.20738761628718774
+              ],
+              "interval_family_adjusted_percent": [
+                0.0022292396909236434,
+                0.20738761628718774
+              ],
+              "monte_carlo_resolution": 0.0005,
+              "reference_mae": 9.42160442526811,
+              "tail_draws_expected": 50.0,
+              "undefined_draws": 0
+            }
+          },
+          "dm_state": "DEFINED",
+          "effect_percent_reference_mae": 0.12890485041532063,
+          "hac7_p_two_sided": 0.012084913157919498,
+          "hac7_state": "DEFINED",
+          "hln_p_two_sided": 0.024981914948278873,
+          "mean_difference": 0.012144905091115085,
+          "n_days": 61,
+          "p_deterioration": 0.010742690518509325,
+          "p_improvement": 0.9892573094814907,
+          "p_two_sided": 0.02148538103701865,
+          "reference": "T",
+          "reference_mae": 9.42160442526811,
+          "role": "A3_SECONDARY_CHEAP_TEXT_CONTRAST",
+          "state": "COMPUTED",
+          "statistic": 2.2993445662471315
+        }
+      },
+      "attribution_a3": [
+        {
+          "a3_form": "A3C1",
+          "arm": "L14",
+          "cheap_comparators": {
+            "R": {
+              "favourable": true,
+              "state": "COMPUTED",
+              "unfavourable": false
+            },
+            "T": {
+              "favourable": true,
+              "state": "COMPUTED",
+              "unfavourable": false
+            }
+          },
+          "cheap_text": {
+            "clause": "against cheap-text representations of the same notices, it did not outperform the rule parser and performed reliably worse than the word-frequency representation",
+            "computed": {
+              "R": "not_beaten",
+              "T": "worse"
+            },
+            "unavailable": []
+          },
+          "content_controls": {
+            "L_chen_notice-P_content": {
+              "favourable": false,
+              "state": "NO_VALID_PERMUTATION",
+              "unfavourable": false
+            },
+            "L_chen_notice-P_shift": {
+              "favourable": true,
+              "state": "COMPUTED",
+              "unfavourable": false
+            }
+          },
+          "label": "ACTIVITY_REFERENCE_INCREMENT_NO_CONTROL",
+          "primary_decision": "CONDITIONAL_IMPROVEMENT",
+          "sentence": "it is an increment over the notice activity reference; no pre-specified content control exists for this representation, so it is not attributed to the content and was not shown to be LLM-specific; against cheap-text representations of the same notices, it did not outperform the rule parser and performed reliably worse than the word-frequency representation",
+          "status_word": "an increment over the notice activity reference only, not shown to be LLM-specific"
+        },
+        {
+          "a3_form": "A3C1",
+          "arm": "L_Laz",
+          "cheap_comparators": {
+            "R": {
+              "favourable": true,
+              "state": "COMPUTED",
+              "unfavourable": false
+            },
+            "T": {
+              "favourable": true,
+              "state": "COMPUTED",
+              "unfavourable": false
+            }
+          },
+          "cheap_text": {
+            "clause": "against cheap-text representations of the same notices, it did not outperform the rule parser and performed reliably worse than the word-frequency representation",
+            "computed": {
+              "R": "not_beaten",
+              "T": "worse"
+            },
+            "unavailable": []
+          },
+          "content_controls": {
+            "L_chen_notice-P_content": {
+              "favourable": false,
+              "state": "NO_VALID_PERMUTATION",
+              "unfavourable": false
+            },
+            "L_chen_notice-P_shift": {
+              "favourable": true,
+              "state": "COMPUTED",
+              "unfavourable": false
+            }
+          },
+          "label": "ACTIVITY_REFERENCE_INCREMENT_NO_CONTROL",
+          "primary_decision": "CONDITIONAL_IMPROVEMENT",
+          "sentence": "it is an increment over the notice activity reference; no pre-specified content control exists for this representation, so it is not attributed to the content and was not shown to be LLM-specific; against cheap-text representations of the same notices, it did not outperform the rule parser and performed reliably worse than the word-frequency representation",
+          "status_word": "an increment over the notice activity reference only, not shown to be LLM-specific"
+        },
+        {
+          "a3_form": "A3C3",
+          "arm": "L_chen_notice",
+          "cheap_comparators": {
+            "R": {
+              "favourable": true,
+              "state": "COMPUTED",
+              "unfavourable": false
+            },
+            "T": {
+              "favourable": true,
+              "state": "COMPUTED",
+              "unfavourable": false
+            }
+          },
+          "cheap_text": {
+            "clause": "against cheap-text representations of the same notices, it outperformed the rule parser and the word-frequency representation",
+            "computed": {
+              "R": "beaten",
+              "T": "beaten"
+            },
+            "unavailable": []
+          },
+          "content_controls": {
+            "L_chen_notice-P_content": {
+              "favourable": false,
+              "state": "NO_VALID_PERMUTATION",
+              "unfavourable": false
+            },
+            "L_chen_notice-P_shift": {
+              "favourable": true,
+              "state": "COMPUTED",
+              "unfavourable": false
+            }
+          },
+          "label": "CONTENT_NOT_ASSESSABLE",
+          "primary_decision": "CONDITIONAL_IMPROVEMENT",
+          "reason": "the activity-matched reassignment control: no activity-matched donor content was available",
+          "recorded_states": {
+            "L_chen_notice-P_content": "NO_VALID_PERMUTATION"
+          },
+          "sentence": "it is an increment over the notice activity reference; the pre-specified content controls could not be evaluated (the activity-matched reassignment control: no activity-matched donor content was available), so it is not attributed to the content and was not shown to be LLM-specific; against cheap-text representations of the same notices, it outperformed the rule parser and the word-frequency representation",
+          "status_word": "an increment over the notice activity reference only, not shown to be LLM-specific"
+        }
+      ],
+      "combination_robustness_a3": {
+        "L14-M_notice": {
+          "checks": {
+            "hac7": true,
+            "hln": true,
+            "one_day": true,
+            "seven_day": true,
+            "three_seed": true
+          },
+          "dissent": [],
+          "label": "ROBUST",
+          "recorded_reason": null,
+          "sentence": "this reading was robust: the one-day and seven-day bootstrap intervals, the small-sample HLN calibration, the HAC7 long-run variance and the three-seed mean all agreed with it in direction and decision",
+          "short_word": "robust",
+          "unavailable": []
+        },
+        "L_Laz-M_notice": {
+          "checks": {
+            "hac7": true,
+            "hln": true,
+            "one_day": true,
+            "seven_day": true,
+            "three_seed": false
+          },
+          "dissent": [
+            "three_seed"
+          ],
+          "label": "FRAGILE",
+          "recorded_reason": null,
+          "sentence": "this reading was fragile: the three-seed mean did not agree with it in direction or decision",
+          "short_word": "fragile (three-seed mean)",
+          "unavailable": []
+        },
+        "L_chen_notice-M_notice": {
+          "checks": {
+            "hac7": true,
+            "hln": true,
+            "one_day": true,
+            "seven_day": true,
+            "three_seed": true
+          },
+          "dissent": [],
+          "label": "ROBUST",
+          "recorded_reason": null,
+          "sentence": "this reading was robust: the one-day and seven-day bootstrap intervals, the small-sample HLN calibration, the HAC7 long-run variance and the three-seed mean all agreed with it in direction and decision",
+          "short_word": "robust",
+          "unavailable": []
+        }
+      },
+      "design_sensitivities": {
+        "L14-M_notice": {
+          "drop_first_seven": {
+            "class": "CONDITIONAL_IMPROVEMENT",
+            "state": "SAME"
+          },
+          "first_chunk": {
+            "state": "NOT_APPLICABLE"
+          },
+          "label_replacement": {
+            "state": "NOT_AVAILABLE"
+          },
+          "official_cap": {
+            "class": "CONDITIONAL_IMPROVEMENT",
+            "state": "SAME"
+          }
+        },
+        "L_Laz-M_notice": {
+          "drop_first_seven": {
+            "class": "CONDITIONAL_IMPROVEMENT",
+            "state": "SAME"
+          },
+          "first_chunk": {
+            "state": "NOT_APPLICABLE"
+          },
+          "label_replacement": {
+            "state": "NOT_AVAILABLE"
+          },
+          "official_cap": {
+            "class": "CONDITIONAL_IMPROVEMENT",
+            "state": "SAME"
+          }
+        },
+        "L_chen_notice-M_notice": {
+          "drop_first_seven": {
+            "class": "CONDITIONAL_IMPROVEMENT",
+            "state": "SAME"
+          },
+          "first_chunk": {
+            "state": "NOT_AVAILABLE"
+          },
+          "label_replacement": {
+            "state": "NOT_AVAILABLE"
+          },
+          "official_cap": {
+            "class": "CONDITIONAL_IMPROVEMENT",
+            "state": "SAME"
+          }
+        }
+      },
+      "matched_support": {
+        "sentence": "For notices, the activity-matched reassignment control has no matched key by construction: each notice representation encodes the full saved prefix, so an earlier prefix with the same count contains the same notices, which the donor rule excludes; the notice content-specific label therefore cannot be reached.",
+        "state": "NO_MATCHED_KEY_BY_CONSTRUCTION"
+      },
+      "positive_control": {
+        "reason": "no result was available at the time of the fill",
+        "state": "NOT_RUN"
+      },
+      "robustness_a3": {
+        "L14-M_notice": {
+          "checks": {
+            "hac7": true,
+            "hln": true,
+            "one_day": true,
+            "seven_day": true,
+            "three_seed": true
+          },
+          "dissent": [],
+          "label": "ROBUST",
+          "recorded_reason": null,
+          "sentence": "this reading was robust: the one-day and seven-day bootstrap intervals, the small-sample HLN calibration, the HAC7 long-run variance and the three-seed mean all agreed with it in direction and decision",
+          "short_word": "robust",
+          "unavailable": []
+        },
+        "L_Laz-M_notice": {
+          "checks": {
+            "hac7": true,
+            "hln": true,
+            "one_day": true,
+            "seven_day": true,
+            "three_seed": false
+          },
+          "dissent": [
+            "three_seed"
+          ],
+          "label": "FRAGILE",
+          "recorded_reason": null,
+          "sentence": "this reading was fragile: the three-seed mean did not agree with it in direction or decision",
+          "short_word": "fragile (three-seed mean)",
+          "unavailable": []
+        },
+        "L_chen_notice-M_notice": {
+          "checks": {
+            "hac7": true,
+            "hln": true,
+            "one_day": true,
+            "seven_day": true,
+            "three_seed": true
+          },
+          "dissent": [],
+          "label": "ROBUST",
+          "recorded_reason": null,
+          "sentence": "this reading was robust: the one-day and seven-day bootstrap intervals, the small-sample HLN calibration, the HAC7 long-run variance and the three-seed mean all agreed with it in direction and decision",
+          "short_word": "robust",
+          "unavailable": []
+        }
+      },
+      "seed_sign_only": {
+        "L14-M_notice": false,
+        "L_Laz-M_notice": false,
+        "L_chen_notice-M_notice": false
+      },
+      "strictly_unexposed_a3": {
+        "date_gaps": [],
+        "day_runs": [
+          [
+            "2026-09-24",
+            "2026-09-30"
+          ]
+        ],
+        "days": 7,
+        "decision_rule": "none (descriptive only)",
+        "named_A1_set": "days with no recorded analysis (includes the period of unknown use)",
+        "reports": [
+          {
+            "arm": "L14",
+            "arm_mae": 11.295970820625017,
+            "bootstrap": {
+              "1": {
+                "bootstrap_nonpositive_effect_count": 1868,
+                "effect_percent_reference_mae": -0.15324178487117876,
+                "family_m": 1,
+                "finite_draws": 2000,
+                "interval95_percent": [
+                  -0.38632234742624383,
+                  0.04589118655664234
+                ],
+                "interval_family_adjusted_percent": [
+                  -0.38632234742624383,
+                  0.04589118655664234
+                ],
+                "monte_carlo_resolution": 0.0005,
+                "reference_mae": 11.313307535019646,
+                "tail_draws_expected": 50.0,
+                "undefined_draws": 0
+              },
+              "7": {
+                "bootstrap_nonpositive_effect_count": 2000,
+                "effect_percent_reference_mae": -0.15324178487117876,
+                "family_m": 1,
+                "finite_draws": 2000,
+                "interval95_percent": [
+                  -0.15324178487117876,
+                  -0.15324178487117876
+                ],
+                "interval_family_adjusted_percent": [
+                  -0.15324178487117876,
+                  -0.15324178487117876
+                ],
+                "monte_carlo_resolution": 0.0005,
+                "reference_mae": 11.313307535019646,
+                "state": "NOT_INFORMATIVE_ONE_ADMISSIBLE_SEVEN_DAY_BLOCK",
+                "tail_draws_expected": 50.0,
+                "undefined_draws": 0
+              }
+            },
+            "decision": null,
+            "descriptive_word": "no reliable difference detected",
+            "dm_state": "DEFINED",
+            "effect_percent_reference_mae": -0.15324178487117876,
+            "hac7_decision": null,
+            "hac7_note": "computed as frozen on a contiguous 7-day subset (n = 7); not interpretable as a dependence check",
+            "hac7_p_two_sided": 1.2373487220335966e-06,
+            "hac7_state": "DEFINED",
+            "hln_decision": null,
+            "hln_p_two_sided": 0.20241878600729415,
+            "mean_difference": -0.017336714394629662,
+            "n_days": 7,
+            "p_deterioration": 0.9237673033275389,
+            "p_improvement": 0.07623269667246112,
+            "p_two_sided": 0.15246539334492223,
+            "p_value_reported": false,
+            "reference": "M_notice",
+            "reference_mae": 11.313307535019646,
+            "sentence": "On the 7 days whose prices had no recorded or unknown prior use (2026-09-24 to 2026-09-30), L14 differed from the notice activity reference by -0.153% (one-day 95% interval [-0.387, 0.046]%, DM p = 0.152); this small descriptive subset does not change any reading.",
+            "sentence_a3": "On the 7 days whose prices had no recorded or unknown prior use (2026-09-24 to 2026-09-30), L14 differed from the notice activity reference by -0.153% (one-day 95% interval [-0.387, 0.046]%); with seven days no p value is reported, and this small descriptive subset does not change any reading.",
+            "state": "COMPUTED",
+            "statistic": -1.4308772670417371
+          },
+          {
+            "arm": "L_Laz",
+            "arm_mae": 11.322491855729092,
+            "bootstrap": {
+              "1": {
+                "bootstrap_nonpositive_effect_count": 611,
+                "effect_percent_reference_mae": 0.08118157029689345,
+                "family_m": 1,
+                "finite_draws": 2000,
+                "interval95_percent": [
+                  -0.20804785429294564,
+                  0.41628683055227844
+                ],
+                "interval_family_adjusted_percent": [
+                  -0.20804785429294564,
+                  0.41628683055227844
+                ],
+                "monte_carlo_resolution": 0.0005,
+                "reference_mae": 11.313307535019646,
+                "tail_draws_expected": 50.0,
+                "undefined_draws": 0
+              },
+              "7": {
+                "bootstrap_nonpositive_effect_count": 0,
+                "effect_percent_reference_mae": 0.08118157029689345,
+                "family_m": 1,
+                "finite_draws": 2000,
+                "interval95_percent": [
+                  0.08118157029689345,
+                  0.08118157029689345
+                ],
+                "interval_family_adjusted_percent": [
+                  0.08118157029689345,
+                  0.08118157029689345
+                ],
+                "monte_carlo_resolution": 0.0005,
+                "reference_mae": 11.313307535019646,
+                "state": "NOT_INFORMATIVE_ONE_ADMISSIBLE_SEVEN_DAY_BLOCK",
+                "tail_draws_expected": 50.0,
+                "undefined_draws": 0
+              }
+            },
+            "decision": null,
+            "descriptive_word": "no reliable difference detected",
+            "dm_state": "DEFINED",
+            "effect_percent_reference_mae": 0.08118157029689345,
+            "hac7_decision": null,
+            "hac7_note": "computed as frozen on a contiguous 7-day subset (n = 7); not interpretable as a dependence check",
+            "hac7_p_two_sided": 0.38149915070092105,
+            "hac7_state": "DEFINED",
+            "hln_decision": null,
+            "hln_p_two_sided": 0.6349360524396024,
+            "mean_difference": 0.009184320709445717,
+            "n_days": 7,
+            "p_deterioration": 0.30856727877719003,
+            "p_improvement": 0.69143272122281,
+            "p_two_sided": 0.6171345575543801,
+            "p_value_reported": false,
+            "reference": "M_notice",
+            "reference_mae": 11.313307535019646,
+            "sentence": "On the 7 days whose prices had no recorded or unknown prior use (2026-09-24 to 2026-09-30), L_Laz differed from the notice activity reference by 0.081% (one-day 95% interval [-0.209, 0.417]%, DM p = 0.617); this small descriptive subset does not change any reading.",
+            "sentence_a3": "On the 7 days whose prices had no recorded or unknown prior use (2026-09-24 to 2026-09-30), L_Laz differed from the notice activity reference by 0.081% (one-day 95% interval [-0.209, 0.417]%); with seven days no p value is reported, and this small descriptive subset does not change any reading.",
+            "state": "COMPUTED",
+            "statistic": 0.49991552867909234
+          },
+          {
+            "arm": "L_chen_notice",
+            "arm_mae": 11.254804080964957,
+            "bootstrap": {
+              "1": {
+                "bootstrap_nonpositive_effect_count": 1972,
+                "effect_percent_reference_mae": -0.5171206905990732,
+                "family_m": 1,
+                "finite_draws": 2000,
+                "interval95_percent": [
+                  -1.262023607116792,
+                  -0.03785580136365739
+                ],
+                "interval_family_adjusted_percent": [
+                  -1.262023607116792,
+                  -0.03785580136365739
+                ],
+                "monte_carlo_resolution": 0.0005,
+                "reference_mae": 11.313307535019646,
+                "tail_draws_expected": 50.0,
+                "undefined_draws": 0
+              },
+              "7": {
+                "bootstrap_nonpositive_effect_count": 2000,
+                "effect_percent_reference_mae": -0.5171206905990732,
+                "family_m": 1,
+                "finite_draws": 2000,
+                "interval95_percent": [
+                  -0.5171206905990732,
+                  -0.5171206905990732
+                ],
+                "interval_family_adjusted_percent": [
+                  -0.5171206905990732,
+                  -0.5171206905990732
+                ],
+                "monte_carlo_resolution": 0.0005,
+                "reference_mae": 11.313307535019646,
+                "state": "NOT_INFORMATIVE_ONE_ADMISSIBLE_SEVEN_DAY_BLOCK",
+                "tail_draws_expected": 50.0,
+                "undefined_draws": 0
+              }
+            },
+            "decision": null,
+            "descriptive_word": "no reliable difference detected",
+            "dm_state": "DEFINED",
+            "effect_percent_reference_mae": -0.5171206905990732,
+            "hac7_decision": null,
+            "hac7_note": "computed as frozen on a contiguous 7-day subset (n = 7); not interpretable as a dependence check",
+            "hac7_p_two_sided": 0.005894536342624288,
+            "hac7_state": "DEFINED",
+            "hln_decision": null,
+            "hln_p_two_sided": 0.10564055602898752,
+            "mean_difference": -0.05850345405469058,
+            "n_days": 7,
+            "p_deterioration": 0.9715191398251337,
+            "p_improvement": 0.028480860174866236,
+            "p_two_sided": 0.05696172034973247,
+            "p_value_reported": false,
+            "reference": "M_notice",
+            "reference_mae": 11.313307535019646,
+            "sentence": "On the 7 days whose prices had no recorded or unknown prior use (2026-09-24 to 2026-09-30), L_chen_notice differed from the notice activity reference by -0.517% (one-day 95% interval [-1.263, -0.037]%, DM p = 0.057); this small descriptive subset does not change any reading.",
+            "sentence_a3": "On the 7 days whose prices had no recorded or unknown prior use (2026-09-24 to 2026-09-30), L_chen_notice differed from the notice activity reference by -0.517% (one-day 95% interval [-1.263, -0.037]%); with seven days no p value is reported, and this small descriptive subset does not change any reading.",
+            "state": "COMPUTED",
+            "statistic": -1.9036044383657869
+          }
+        ],
+        "role": "A2_STRICTLY_UNEXPOSED_DESCRIPTIVE",
+        "set_name": "days with no recorded or unknown prior use"
+      },
+      "text_vs_no_text": null,
+      "texts": {
+        "abstract": [
+          "For market notices, the event-state representation improved on the notice activity reference by 0.303% of the reference error (0.0287 AUD/MWh; family-adjusted 98.3% interval [-0.403, -0.201]%, Holm-adjusted p < 0.001); it was robust and an increment over the notice activity reference only, not shown to be LLM-specific; its interval lies wholly below the 0.5% historical-effect reference; it persisted when each forecast was averaged with the reference augmented with five-minute pre-dispatch prices.",
+          "For market notices, the message, failure and fuel-group counts improved on the notice activity reference by 0.284% of the reference error (0.0269 AUD/MWh; family-adjusted 98.3% interval [-0.398, -0.165]%, Holm-adjusted p < 0.001); it was fragile (three-seed mean) and an increment over the notice activity reference only, not shown to be LLM-specific; its interval lies wholly below the 0.5% historical-effect reference; it persisted when each forecast was averaged with the reference augmented with five-minute pre-dispatch prices.",
+          "For market notices, the structured-attribute notice embedding improved on the notice activity reference by 0.747% of the reference error (0.0706 AUD/MWh; family-adjusted 98.3% interval [-1.019, -0.473]%, Holm-adjusted p < 0.001); it was robust and an increment over the notice activity reference only, not shown to be LLM-specific; its point estimate exceeds the 0.5% historical-effect reference but its interval straddles it; it persisted when each forecast was averaged with the reference augmented with five-minute pre-dispatch prices."
+        ],
+        "contrasts": [
+          {
+            "benchmark_clause": "S1",
+            "form": "A3H2",
+            "increment": "For market notices, the event-state representation improved on the notice activity reference by 0.303% of the reference error (0.0287 AUD/MWh; family-adjusted 98.3% interval [-0.403, -0.201]%, Holm-adjusted p < 0.001); it was robust and an increment over the notice activity reference only, not shown to be LLM-specific; its interval lies wholly below the 0.5% historical-effect reference; it persisted when each forecast was averaged with the reference augmented with five-minute pre-dispatch prices.",
+            "section6": "L14 improved on the notice activity reference by 0.303% of the reference error (0.0287 AUD/MWh; family-adjusted 98.3% interval [-0.403, -0.201]%, Holm-adjusted p < 0.001); this reading was robust: the one-day and seven-day bootstrap intervals, the small-sample HLN calibration, the HAC7 long-run variance and the three-seed mean all agreed with it in direction and decision; it is an increment over the notice activity reference; no pre-specified content control exists for this representation, so it is not attributed to the content and was not shown to be LLM-specific; against cheap-text representations of the same notices, it did not outperform the rule parser and performed reliably worse than the word-frequency representation; its family-adjusted interval lies wholly below the 0.5% historical-effect reference, so improvements as large as 0.5% are excluded at the family-adjusted one-sided 0.83% level; the increment persisted when each forecast was averaged with the P5MIN-augmented reference NP (-0.183% of the combined reference error, family-adjusted 98.3% interval [-0.245, -0.119]%, Holm-adjusted p < 0.001).",
+            "sesoi_class": "BELOW",
+            "zero": false
+          },
+          {
+            "benchmark_clause": "S1",
+            "form": "A3H2",
+            "increment": "For market notices, the message, failure and fuel-group counts improved on the notice activity reference by 0.284% of the reference error (0.0269 AUD/MWh; family-adjusted 98.3% interval [-0.398, -0.165]%, Holm-adjusted p < 0.001); it was fragile (three-seed mean) and an increment over the notice activity reference only, not shown to be LLM-specific; its interval lies wholly below the 0.5% historical-effect reference; it persisted when each forecast was averaged with the reference augmented with five-minute pre-dispatch prices.",
+            "section6": "L_Laz improved on the notice activity reference by 0.284% of the reference error (0.0269 AUD/MWh; family-adjusted 98.3% interval [-0.398, -0.165]%, Holm-adjusted p < 0.001); this reading was fragile: the three-seed mean did not agree with it in direction or decision; it is an increment over the notice activity reference; no pre-specified content control exists for this representation, so it is not attributed to the content and was not shown to be LLM-specific; against cheap-text representations of the same notices, it did not outperform the rule parser and performed reliably worse than the word-frequency representation; its family-adjusted interval lies wholly below the 0.5% historical-effect reference, so improvements as large as 0.5% are excluded at the family-adjusted one-sided 0.83% level; the increment persisted when each forecast was averaged with the P5MIN-augmented reference NP (-0.160% of the combined reference error, family-adjusted 98.3% interval [-0.224, -0.098]%, Holm-adjusted p < 0.001).",
+            "sesoi_class": "BELOW",
+            "zero": false
+          },
+          {
+            "benchmark_clause": "S1",
+            "form": "A3H2",
+            "increment": "For market notices, the structured-attribute notice embedding improved on the notice activity reference by 0.747% of the reference error (0.0706 AUD/MWh; family-adjusted 98.3% interval [-1.019, -0.473]%, Holm-adjusted p < 0.001); it was robust and an increment over the notice activity reference only, not shown to be LLM-specific; its point estimate exceeds the 0.5% historical-effect reference but its interval straddles it; it persisted when each forecast was averaged with the reference augmented with five-minute pre-dispatch prices.",
+            "section6": "L_chen_notice improved on the notice activity reference by 0.747% of the reference error (0.0706 AUD/MWh; family-adjusted 98.3% interval [-1.019, -0.473]%, Holm-adjusted p < 0.001); this reading was robust: the one-day and seven-day bootstrap intervals, the small-sample HLN calibration, the HAC7 long-run variance and the three-seed mean all agreed with it in direction and decision; it is an increment over the notice activity reference; the pre-specified content controls could not be evaluated (the activity-matched reassignment control: no activity-matched donor content was available), so it is not attributed to the content and was not shown to be LLM-specific; against cheap-text representations of the same notices, it outperformed the rule parser and the word-frequency representation; its point estimate exceeds the 0.5% historical-effect reference, but its family-adjusted interval straddles that value, so this window cannot tell whether the increment is larger or smaller than 0.5%; the increment persisted when each forecast was averaged with the P5MIN-augmented reference NP (-0.408% of the combined reference error, family-adjusted 98.3% interval [-0.577, -0.236]%, Holm-adjusted p < 0.001).",
+            "sesoi_class": "ABOVE",
+            "zero": false
+          }
+        ],
+        "not_run": [],
+        "positive_control": {
+          "abstract_clauses": [],
+          "increment_flag": null,
+          "null_flag": "",
+          "section6": [
+            "The planted-signal check was not run for market notices (no result was available at the time of the fill); the sensitivity of the test pipeline is not documented for this task."
+          ],
+          "task_bound_clauses": []
+        },
+        "qualifiers": [],
+        "scenario": "B",
+        "section6": [
+          "L14 improved on the notice activity reference by 0.303% of the reference error (0.0287 AUD/MWh; family-adjusted 98.3% interval [-0.403, -0.201]%, Holm-adjusted p < 0.001); this reading was robust: the one-day and seven-day bootstrap intervals, the small-sample HLN calibration, the HAC7 long-run variance and the three-seed mean all agreed with it in direction and decision; it is an increment over the notice activity reference; no pre-specified content control exists for this representation, so it is not attributed to the content and was not shown to be LLM-specific; against cheap-text representations of the same notices, it did not outperform the rule parser and performed reliably worse than the word-frequency representation; its family-adjusted interval lies wholly below the 0.5% historical-effect reference, so improvements as large as 0.5% are excluded at the family-adjusted one-sided 0.83% level; the increment persisted when each forecast was averaged with the P5MIN-augmented reference NP (-0.183% of the combined reference error, family-adjusted 98.3% interval [-0.245, -0.119]%, Holm-adjusted p < 0.001).",
+          "L_Laz improved on the notice activity reference by 0.284% of the reference error (0.0269 AUD/MWh; family-adjusted 98.3% interval [-0.398, -0.165]%, Holm-adjusted p < 0.001); this reading was fragile: the three-seed mean did not agree with it in direction or decision; it is an increment over the notice activity reference; no pre-specified content control exists for this representation, so it is not attributed to the content and was not shown to be LLM-specific; against cheap-text representations of the same notices, it did not outperform the rule parser and performed reliably worse than the word-frequency representation; its family-adjusted interval lies wholly below the 0.5% historical-effect reference, so improvements as large as 0.5% are excluded at the family-adjusted one-sided 0.83% level; the increment persisted when each forecast was averaged with the P5MIN-augmented reference NP (-0.160% of the combined reference error, family-adjusted 98.3% interval [-0.224, -0.098]%, Holm-adjusted p < 0.001).",
+          "L_chen_notice improved on the notice activity reference by 0.747% of the reference error (0.0706 AUD/MWh; family-adjusted 98.3% interval [-1.019, -0.473]%, Holm-adjusted p < 0.001); this reading was robust: the one-day and seven-day bootstrap intervals, the small-sample HLN calibration, the HAC7 long-run variance and the three-seed mean all agreed with it in direction and decision; it is an increment over the notice activity reference; the pre-specified content controls could not be evaluated (the activity-matched reassignment control: no activity-matched donor content was available), so it is not attributed to the content and was not shown to be LLM-specific; against cheap-text representations of the same notices, it outperformed the rule parser and the word-frequency representation; its point estimate exceeds the 0.5% historical-effect reference, but its family-adjusted interval straddles that value, so this window cannot tell whether the increment is larger or smaller than 0.5%; the increment persisted when each forecast was averaged with the P5MIN-augmented reference NP (-0.408% of the combined reference error, family-adjusted 98.3% interval [-0.577, -0.236]%, Holm-adjusted p < 0.001).",
+          "For notices, the activity-matched reassignment control has no matched key by construction: each notice representation encodes the full saved prefix, so an earlier prefix with the same count contains the same notices, which the donor rule excludes; the notice content-specific label therefore cannot be reached.",
+          "The planted-signal check was not run for market notices (no result was available at the time of the fill); the sensitivity of the test pipeline is not documented for this task."
+        ],
+        "section7_2": [
+          "Every available pre-specified design sensitivity with a decision rule (the official price-cap re-clip and dropping the first seven notice days) gave the same decision class as the primary readings of the market notices family; independently re-extracted test-period labels and first-chunk encoding were not available."
+        ],
+        "task_bound": null
+      }
+    }
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "inputs": {
+    "a2": {
+      "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/primary_tests/PRIMARY_COMPARISONS.json",
+      "bytes": 79699,
+      "sha256": "89bec8ad053f10380e41697dbaae8a9c1c4be2dbc0fe0781f161c63c7a080a6a"
+    },
+    "a3": {
+      "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/sensitivity_tests/SENSITIVITY_COMPARISONS.json",
+      "bytes": 84884,
+      "sha256": "23e3b3efbf53d218887899321feb1c877a279cf37d1ebc8906a2c762451cdf3e"
+    },
+    "a4": {
+      "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/robustness_tests/ROBUSTNESS_COMPARISONS.json",
+      "bytes": 72645,
+      "sha256": "76f410ad33d4770639a63c03ea6ce249c2e8149db9ea9d4b798de650e246c528"
+    },
+    "specification2": {
+      "bytes": 6343,
+      "path": "studies/confirmation/inference_design/ADDENDUM_A8_SPECIFICATION_2_FREEZE.json",
+      "sha256": "4de7afa4668644ae30c6fa0df8270702137d59e1e3be29ea0d3ee92809390c86"
+    },
+    "author": {
+      "bytes": 2463,
+      "path": "studies/confirmation/AUTHOR_CONFIRMATION_A8.json",
+      "sha256": "60898ed6b0265eca32eb6522f2e4e2d1b9e09dab97e871e93360f31fec193e44"
+    },
+    "author_a3_a6": {
+      "bytes": 2036,
+      "path": "studies/confirmation/AUTHOR_CONFIRMATION_A3_A6.json",
+      "sha256": "6db470ecfbbfe91a48690f20b258614baa76918b389b50449a8414ab57644932"
+    },
+    "author_prescore": {
+      "bytes": 753,
+      "path": "studies/confirmation/AUTHOR_CONFIRMATION_A8_PRESCORE.json",
+      "sha256": "f80db87fa829453ded98ba346675f2d48c875749e03f967e469da7d2c2ff2878"
+    },
+    "batch": {
+      "path": "studies/batch_estimation/disk_checks/state/scoring/MINRUN_R2_A8BATCH_POSTSCORE_INPUTS.json",
+      "bytes": 1904066,
+      "sha256": "a9233264fd31f646599be1e0cb500707da36fbfc8c62219f10d828787280687d"
+    },
+    "batch_seal": {
+      "bytes": 1668560,
+      "path": "studies/batch_estimation/disk_checks/state/SEAL_BATCH.json",
+      "sha256": "f7548b602d6966bd67e532076db6567210a702ea4a2c65ea4a06609698f80d1e"
+    },
+    "clk8": {
+      "bytes": 10896,
+      "path": "studies/confirmation/inference_design/CLK8/CLK8_RESULT.json",
+      "sha256": "58233f4699ed0c92b942958834fe75cdabc6e6dedc9594ce82d936f0da036635"
+    },
+    "context": {
+      "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/SCORING_CONTEXT.json",
+      "bytes": 12507,
+      "sha256": "e41642cc526ce4ac332153ced4b7de305e41bb63a0246286f0f12a555670a060"
+    },
+    "dly_seal": {
+      "bytes": 681,
+      "path": "studies/batch_estimation/disk_checks/dly8/DELAY_FORECAST_SEAL.json",
+      "sha256": "b64b5784ae8179820e542b796e22f0487df66b14f49590e598e5659eb49b0e11"
+    },
+    "hrc_agreement": {
+      "bytes": 101795,
+      "path": "studies/confirmation/inference_design/HRC_RESULTS/SECOND_ANNOTATOR_AGREEMENT_CONFIRMATION10.json",
+      "sha256": "09fc5348bc7771f1d199cb5a96ed174de516b5d14ff6c6f5976d1019335efbae"
+    },
+    "hrc_review": {
+      "bytes": 66047,
+      "path": "reports/llm_text_quality_completion_20260928/confirmation_review_2026/SCORES.json",
+      "sha256": "8d5e49a21d47f3c93f92b9361f6a826cdffadd541441ed0682ebf7fcfedb0ecd"
+    },
+    "human_review": {
+      "bytes": 66047,
+      "path": "reports/llm_text_quality_completion_20260928/confirmation_review_2026/SCORES.json",
+      "sha256": "8d5e49a21d47f3c93f92b9361f6a826cdffadd541441ed0682ebf7fcfedb0ecd"
+    },
+    "repins": {
+      "bytes": 40326,
+      "path": "studies/batch_estimation/batch_checks/statistics/POSTSCORE_REPIN_ASSOCIATION.json",
+      "sha256": "9f0bc916410f7c6aebe41fb9ab57ec8caa7bc6014b0b9d0bbee801ec0c975ba9"
+    },
+    "score_receipt": {
+      "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/R2_STATE/scored/SCORE_RECEIPT.json",
+      "bytes": 41121,
+      "sha256": "a3cb40c7f86e10ab0b5e6378e091ffd6cd2e8435425484a760787d3628607f4e"
+    },
+    "score_report": {
+      "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/R2_STATE/scored/SCORE_REPORT.json",
+      "bytes": 644643,
+      "sha256": "fe66c7599b6eec75307cdbc4a6cc465648865b037b4e17a55bb3276eca680ce9"
+    },
+    "seal": {
+      "path": "studies/confirmation/execution/host_state/SEAL.json",
+      "bytes": 2564983,
+      "sha256": "abdf291c73c68ff224dc5c070cd986baa686518b506bbf03d1657aa29ce75110"
+    },
+    "timestamps": {
+      "bytes": 55175432,
+      "path": "paper_plan/minrun_execution_20261010/af_chain/T5R_A15_SOURCE_AFTER_GO_20261011_01/bind/AP_TIMESTAMPS.json",
+      "sha256": "9520115545d02fde29adacc17fa2d40f65eca79cee21a574cfdc22c15db96f76"
+    }
+  },
+  "refill": false,
+  "schema": "A8POST_INPUTS_V2",
+  "synthetic": false
+}

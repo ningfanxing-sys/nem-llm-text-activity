@@ -1,0 +1,18 @@
+{
+  "schema": "AP_SCORING_NUMERIC_OUTPUT_RECEIPT_V1",
+  "state": "NUMERIC_OUTPUT_COMPLETE",
+  "synthetic_only": false,
+  "production_authority": false,
+  "files": [
+    {
+      "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/numerical_evidence/SCORING_NUMERIC.json",
+      "bytes": 39640429,
+      "sha256": "4394a79b0f1835ddecf24aff99fd6ab24bba4fb2e89bba85dd221b89e080f853"
+    },
+    {
+      "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/numerical_evidence/SCORING_NUMERIC_EVIDENCE.json",
+      "bytes": 192777,
+      "sha256": "832a0d94cafdf2dc47a5a04d6accf826f19f37a0efb301c321f990d5d422b319"
+    }
+  ]
+}

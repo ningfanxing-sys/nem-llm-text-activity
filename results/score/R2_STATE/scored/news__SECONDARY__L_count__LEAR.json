@@ -1,0 +1,63 @@
+{
+  "bootstrap_artifact": {
+    "bytes": 528096,
+    "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/R2_STATE/scored/news__SECONDARY__L_count__LEAR.npz",
+    "sha256": "a9eb4e703a85dbf2515aa48f0d12f297c74dd00fa7f144652699387fc01fb6e8"
+  },
+  "date_gaps": [],
+  "equivalence_test": "NOT_SPECIFIED",
+  "primary_confirmation": false,
+  "reports": [
+    {
+      "arm": "L_count",
+      "bootstrap": {
+        "1": {
+          "bootstrap_nonpositive_effect_count": 0,
+          "effect_percent_reference_mae": 37.972546503536066,
+          "finite_draws": 2000,
+          "interval95_percent": [
+            24.03273163844468,
+            55.11329966947999
+          ],
+          "monte_carlo_resolution": 0.0005,
+          "reference_mae": 19.319462178187354,
+          "undefined_draws": 0
+        },
+        "7": {
+          "bootstrap_nonpositive_effect_count": 0,
+          "effect_percent_reference_mae": 37.972546503536066,
+          "finite_draws": 2000,
+          "interval95_percent": [
+            22.16438750544829,
+            62.76549916375168
+          ],
+          "monte_carlo_resolution": 0.0005,
+          "reference_mae": 19.319462178187354,
+          "undefined_draws": 0
+        }
+      },
+      "dm_hac7": {
+        "mean_difference": 7.336091759845254,
+        "n_days": 135,
+        "p_deterioration": 9.141095359027213e-05,
+        "p_improvement": 0.9999085890464098,
+        "p_two_sided": 0.00018282190718054426,
+        "state": "DEFINED",
+        "statistic": 3.7416418916730905,
+        "variance": 518.9659205799487
+      },
+      "dm_p1": {
+        "mean_difference": 7.336091759845254,
+        "n_days": 135,
+        "p_deterioration": 4.420776321610822e-07,
+        "p_improvement": 0.9999995579223678,
+        "p_two_sided": 8.841552643221644e-07,
+        "state": "DEFINED",
+        "statistic": 4.9158113107976575,
+        "variance": 300.6580726885158
+      },
+      "reference": "LEAR",
+      "status": "SECONDARY_ONLY"
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "analysis_role": "A1_EXPOSURE_EXCLUDED_DESCRIPTIVE",
+  "bootstrap_artifact": {
+    "bytes": 409692,
+    "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/R2_STATE/scored/news__A1_EXPOSURE_EXCLUDED.npz",
+    "sha256": "06f7b3fe4d7a6af7a77086d337b0fa710ebd86c4b85fd378914e31a6583fc644"
+  },
+  "date_gaps": [
+    [
+      "2026-06-30",
+      "2026-07-25"
+    ],
+    [
+      "2026-08-31",
+      "2026-09-12"
+    ]
+  ],
+  "day_runs": [
+    [
+      "2026-05-19",
+      "2026-06-30"
+    ],
+    [
+      "2026-07-25",
+      "2026-08-31"
+    ],
+    [
+      "2026-09-12",
+      "2026-09-30"
+    ]
+  ],
+  "equivalence_test": "NOT_SPECIFIED",
+  "primary_confirmation": false,
+  "reports": [
+    {
+      "arm": "L_count",
+      "bootstrap": {
+        "1": {
+          "bootstrap_nonpositive_effect_count": 451,
+          "effect_percent_reference_mae": 1.7894407013729026,
+          "finite_draws": 2000,
+          "interval95_percent": [
+            -2.3094394417909734,
+            7.414991531459859
+          ],
+          "monte_carlo_resolution": 0.0005,
+          "reference_mae": 23.380476180997306,
+          "undefined_draws": 0
+        },
+        "7": {
+          "bootstrap_nonpositive_effect_count": 386,
+          "effect_percent_reference_mae": 1.7894407013729026,
+          "finite_draws": 2000,
+          "interval95_percent": [
+            -2.4577897356358513,
+            11.041567299273723
+          ],
+          "monte_carlo_resolution": 0.0005,
+          "reference_mae": 23.380476180997306,
+          "undefined_draws": 0
+        }
+      },
+      "dm_hac7": {
+        "p_deterioration": null,
+        "p_improvement": null,
+        "p_two_sided": null,
+        "state": "UNDEFINED_SECONDARY_DATE_GAPS",
+        "statistic": null
+      },
+      "dm_p1": {
+        "mean_difference": 0.41837975695756263,
+        "n_days": 100,
+        "p_deterioration": 0.23162539453999484,
+        "p_improvement": 0.7683746054600051,
+        "p_two_sided": 0.4632507890799897,
+        "state": "DEFINED",
+        "statistic": 0.7335044920478456,
+        "variance": 32.533873291857155
+      },
+      "reference": "M",
+      "status": "SECONDARY_ONLY"
+    },
+    {
+      "arm": "L_chen",
+      "bootstrap": {
+        "1": {
+          "bootstrap_nonpositive_effect_count": 329,
+          "effect_percent_reference_mae": 2.175061064907494,
+          "finite_draws": 2000,
+          "interval95_percent": [
+            -2.1222373296890717,
+            6.988440159527292
+          ],
+          "monte_carlo_resolution": 0.0005,
+          "reference_mae": 23.380476180997306,
+          "undefined_draws": 0
+        },
+        "7": {
+          "bootstrap_nonpositive_effect_count": 520,
+          "effect_percent_reference_mae": 2.175061064907494,
+          "finite_draws": 2000,
+          "interval95_percent": [
+            -3.070451055985383,
+            7.580386553266458
+          ],
+          "monte_carlo_resolution": 0.0005,
+          "reference_mae": 23.380476180997306,
+          "undefined_draws": 0
+        }
+      },
+      "dm_hac7": {
+        "p_deterioration": null,
+        "p_improvement": null,
+        "p_two_sided": null,
+        "state": "UNDEFINED_SECONDARY_DATE_GAPS",
+        "statistic": null
+      },
+      "dm_p1": {
+        "mean_difference": 0.508539634202843,
+        "n_days": 100,
+        "p_deterioration": 0.1720263740232584,
+        "p_improvement": 0.8279736259767416,
+        "p_two_sided": 0.3440527480465168,
+        "state": "DEFINED",
+        "statistic": 0.9461879168151729,
+        "variance": 28.886492890730146
+      },
+      "reference": "M",
+      "status": "SECONDARY_ONLY"
+    }
+  ],
+  "rule": "Target days with no recorded analysis of D prices in confirmation/A1/DATA_EXPOSURE_LOG.md (summary: no analysis is recorded for 19 May-30 June, 25-31 July, August and 12-30 September 2026; the governance record calls 25 July-23 September \"unknown\"). Descriptive sensitivity; sealed predictions; no refit."
+}

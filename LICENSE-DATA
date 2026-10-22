@@ -1,0 +1,30 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+The authors' replication data and documentation are licensed under the
+Creative Commons Attribution 4.0 International licence.
+
+Licence notice and legal terms:
+https://creativecommons.org/licenses/by/4.0/
+https://creativecommons.org/licenses/by/4.0/legalcode
+
+You may share and adapt the licensed material, including commercially, with
+appropriate attribution, a link to the licence and an indication of changes.
+No additional restrictions may be imposed on the rights granted by the licence.
+
+Attribution: cite the accompanying paper and this version of the replication
+package.
+
+AEMO is the source of the market notices, dispatch prices, dispatch-summary
+information and P5MIN forecasts. These third-party public source materials
+retain their existing rights and terms; this notice does not relicense rights
+that the package authors do not hold. Source identities and hashes are retained.
+
+WattClarity articles are copyrighted and are not included. The package includes
+only their identifiers/clocks/status and derived numeric features.
+
+Contains AEMO material © Australian Energy Market Operator Limited, used under AEMO's copyright permissions.
+
+AEMO text or data occur in `extraction/notices/scope.jsonl.gz` (notice
+text), `extraction/notices/labels.parquet` (evidence quotations),
+`forecasts/truth/`, `features/market/` and `configs/raw_sources/`.
+The projected notice scope removes 15 e-mail-pattern occurrences.

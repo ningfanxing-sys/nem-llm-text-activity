@@ -1,0 +1,1769 @@
+{
+  "addendum_freeze_sha256": "3e07b27b88e8c51ea77ac60ccdd8d36f570d31f950e5212890435ef7dde7b172",
+  "analysis": "confirmation-primary_tests post-score readings (secondary and reporting; no primary decision changes)",
+  "inputs_read": [
+    {
+      "path": "studies/confirmation/execution/host_state/SEAL.json",
+      "role": "seal",
+      "sha256": "abdf291c73c68ff224dc5c070cd986baa686518b506bbf03d1657aa29ce75110"
+    },
+    {
+      "path": "studies/confirmation/execution/host_state/scored/SCORE_RECEIPT.json",
+      "role": "score_receipt",
+      "sha256": "8f09b3d0626f0d1b5b5be4fe12d697004b3e210f5dc6b8c4eebcee69c8254215"
+    },
+    {
+      "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/R2_STATE/scored/news__DAILY_LOSSES.csv",
+      "role": "score_output",
+      "sha256": "74887745de654c1df5c77470ca86822ad4e8671a7059c7081497a00ac6bc8007"
+    },
+    {
+      "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/R2_STATE/scored/news__PRIMARY.json",
+      "role": "score_output",
+      "sha256": "a00791a0d5fb2894dec1bcb2614b47692e63754bdcd9c26b786d3b938009cee8"
+    },
+    {
+      "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/R2_STATE/scored/news__A1_HLN.json",
+      "role": "score_output",
+      "sha256": "2921bf7920e19056ce51c0f8145bc7ae1139e9133065ad65b7bc4bae82468732"
+    },
+    {
+      "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/R2_STATE/scored/news__A1_SEED_FRAGILE.json",
+      "role": "score_output",
+      "sha256": "55eb24ad51225cacbc287d26e5e4a22c518c0d006230cb60f1505826371411d2"
+    },
+    {
+      "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/R2_STATE/scored/SCORE_REPORT.json",
+      "role": "score_output",
+      "sha256": "fe66c7599b6eec75307cdbc4a6cc465648865b037b4e17a55bb3276eca680ce9"
+    },
+    {
+      "path": "studies/confirmation/execution/host_state/features/news_keys_labels.parquet",
+      "role": "sealed_truth_panel_postscore",
+      "sha256": "821f6db161fd012b18dee28e83f5518d7841e74461431633ebd6eaa0292ae68f"
+    },
+    {
+      "path": "studies/confirmation/execution/host_state/sealed/lear__LEAR__s20260919__main.parquet",
+      "role": "r2_full_original_prediction",
+      "sha256": "2452a0703fe95fdf97653bd17db69ce0c8b4f593caa5bd924066c4837364cc9d"
+    },
+    {
+      "path": "studies/confirmation/execution/host_state/sealed/news__L_chen__s20260919__main.parquet",
+      "role": "r2_full_original_prediction",
+      "sha256": "6cb756c532eb5914578250cf1de290f464d3932d4031aec9a94db6e5dc9be15a"
+    },
+    {
+      "path": "studies/confirmation/execution/host_state/sealed/news__L_count__s20260919__main.parquet",
+      "role": "r2_full_original_prediction",
+      "sha256": "c73e4a16b16263f14f9e1984723b3c14fe6c55276d0fddbfbfb1cac094ad7ba4"
+    },
+    {
+      "path": "studies/confirmation/execution/host_state/sealed/news__M__s20260919__main.parquet",
+      "role": "r2_full_original_prediction",
+      "sha256": "5f8308db9aba07636b7d34dde2ed1bb858fe15d9c8d35b337402c73b0d245f09"
+    },
+    {
+      "path": "studies/confirmation/execution/host_state/sealed/news__N__s20260919__main.parquet",
+      "role": "r2_full_original_prediction",
+      "sha256": "f7b9d5072335564e3748ab72cd41b910cd7c5a6b803ae28a0bba7dbc5db8d8e7"
+    },
+    {
+      "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/R2_STATE/scored/news__DAILY_LOSSES.csv",
+      "role": "score_output",
+      "sha256": "74887745de654c1df5c77470ca86822ad4e8671a7059c7081497a00ac6bc8007"
+    },
+    {
+      "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/R2_STATE/scored/notice__DAILY_LOSSES.csv",
+      "role": "score_output",
+      "sha256": "c00066a78d6b79fc2148c26f388530976ad51b49bec2315052e172a40f410021"
+    },
+    {
+      "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/R2_STATE/scored/notice__PRIMARY.json",
+      "role": "score_output",
+      "sha256": "d5c15bfde194477698dfefafe1f9dbfb3c195627177aa4070a5b61d11f3bdd9d"
+    },
+    {
+      "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/R2_STATE/scored/notice__A1_HLN.json",
+      "role": "score_output",
+      "sha256": "02a87c545379e8e44c3848a386a08bb9ae05a00352e885eae559e89debefd344"
+    },
+    {
+      "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/R2_STATE/scored/notice__A1_SEED_FRAGILE.json",
+      "role": "score_output",
+      "sha256": "c714d9170ff8b40f0f95c51091ab5ba8e9843d0ec2071a95fd659300f0c80892"
+    },
+    {
+      "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/R2_STATE/scored/SCORE_REPORT.json",
+      "role": "score_output",
+      "sha256": "fe66c7599b6eec75307cdbc4a6cc465648865b037b4e17a55bb3276eca680ce9"
+    },
+    {
+      "path": "studies/confirmation/execution/host_state/features/notice_joint.parquet",
+      "role": "sealed_truth_panel_postscore",
+      "sha256": "02284c7eb5f4a6afc612d0b35ab6c093c40f5bd67d801e3da55320ed82da9cc3"
+    },
+    {
+      "path": "studies/confirmation/execution/host_state/sealed/notice__NP__s20260919__main.parquet",
+      "role": "sealed_prediction",
+      "sha256": "ec1be9f39ec947549f04a72c5cd5277d40cbfbb63584695c2371a640da781751"
+    },
+    {
+      "path": "studies/confirmation/execution/host_state/sealed/notice__L14__s20260919__main.parquet",
+      "role": "sealed_prediction",
+      "sha256": "072e4ce46e9515c9f3bd658f22a6843ef0e4e3a344849b137d0f2a63dbf57d5c"
+    },
+    {
+      "path": "studies/confirmation/execution/host_state/sealed/notice__L14__s20260920__main.parquet",
+      "role": "sealed_prediction",
+      "sha256": "27abc057eee66ea0cc6f7aa876e93a8aeffd96caffe78a0193c12e3dec98c0d9"
+    },
+    {
+      "path": "studies/confirmation/execution/host_state/sealed/notice__L14__s20260921__main.parquet",
+      "role": "sealed_prediction",
+      "sha256": "b1f6ee171bcd098ee7911e1baf24bd8ced5975a722854d2b97ccf1491b72ab33"
+    },
+    {
+      "path": "studies/confirmation/execution/host_state/sealed/notice__M_notice__s20260919__main.parquet",
+      "role": "sealed_prediction",
+      "sha256": "5be1b891b075fa06e76a67719b32cc3ca201ba2a7896a1ae12d4e83139e250dc"
+    },
+    {
+      "path": "studies/confirmation/execution/host_state/sealed/notice__M_notice__s20260920__main.parquet",
+      "role": "sealed_prediction",
+      "sha256": "062f9a6ca53cb381855f39dad79d4f615b33ef6bb037944b297eeaaa88aceace"
+    },
+    {
+      "path": "studies/confirmation/execution/host_state/sealed/notice__M_notice__s20260921__main.parquet",
+      "role": "sealed_prediction",
+      "sha256": "2ae1791ee4cde377b55ba5285e1b19567fbc62d145e532cde2405dbfcfcebde2"
+    },
+    {
+      "path": "studies/confirmation/execution/host_state/sealed/notice__L_Laz__s20260919__main.parquet",
+      "role": "sealed_prediction",
+      "sha256": "a7209c40873fd074823983b4fd502d937f647d8bab17b1c828f37c8f15d9f0dd"
+    },
+    {
+      "path": "studies/confirmation/execution/host_state/sealed/notice__L_Laz__s20260920__main.parquet",
+      "role": "sealed_prediction",
+      "sha256": "e3e224db925797c7841f079b7abd8d4f6dfd27281993b3434a9cca65d23a8c8b"
+    },
+    {
+      "path": "studies/confirmation/execution/host_state/sealed/notice__L_Laz__s20260921__main.parquet",
+      "role": "sealed_prediction",
+      "sha256": "aad9ded536f89e816fddb75fd58f7ece01eeefadb0d55ddf042a2b8892c66fca"
+    },
+    {
+      "path": "studies/confirmation/execution/host_state/sealed/notice__L_chen_notice__s20260919__main.parquet",
+      "role": "sealed_prediction",
+      "sha256": "bd7f741e7f0683032755e78ca817e9f0a6de9c1fd76a41fb4c3882c60e52b02d"
+    },
+    {
+      "path": "studies/confirmation/execution/host_state/sealed/notice__L_chen_notice__s20260920__main.parquet",
+      "role": "sealed_prediction",
+      "sha256": "1634666ef847ed975c86cf5af53f5a715cb57c42144e3826230b5a46fd63e944"
+    },
+    {
+      "path": "studies/confirmation/execution/host_state/sealed/notice__L_chen_notice__s20260921__main.parquet",
+      "role": "sealed_prediction",
+      "sha256": "7514861d79b1d7fa4bcc8214278220a1382492c2a4c8de0b7ca80d62e561265e"
+    },
+    {
+      "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/R2_STATE/scored/notice__DAILY_LOSSES.csv",
+      "role": "score_output",
+      "sha256": "c00066a78d6b79fc2148c26f388530976ad51b49bec2315052e172a40f410021"
+    }
+  ],
+  "module_sha256": "3a913e58473abb10519afd10094477bf2d2ef62a1a1ccfdb76250f4f7229d32e",
+  "primary_decision_rule_changed": false,
+  "seal_sha256": "abdf291c73c68ff224dc5c070cd986baa686518b506bbf03d1657aa29ce75110",
+  "tasks": {
+    "news": {
+      "a2_new_secondary_contrasts": {},
+      "attribution": [
+        {
+          "arm": "L_count",
+          "cheap_comparators": {
+            "E_raw": {
+              "favourable": false,
+              "state": "NOT_EVALUABLE_WHOLE_STAGE_UNAVAILABLE",
+              "unfavourable": false
+            },
+            "W2_D": {
+              "favourable": false,
+              "state": "NOT_EVALUABLE_WHOLE_STAGE_UNAVAILABLE",
+              "unfavourable": false
+            }
+          },
+          "content_controls": {
+            "L_chen-P_content": {
+              "favourable": false,
+              "state": "NOT_EVALUABLE_WHOLE_STAGE_UNAVAILABLE",
+              "unfavourable": false
+            },
+            "L_chen-P_shift": {
+              "favourable": false,
+              "state": "NOT_EVALUABLE_WHOLE_STAGE_UNAVAILABLE",
+              "unfavourable": false
+            }
+          },
+          "label": "NOT_APPLICABLE_NO_RELIABLE_INCREMENT",
+          "primary_decision": "NO_RELIABLE_INCREMENT_DETECTED",
+          "sentence": null
+        },
+        {
+          "arm": "L_chen",
+          "cheap_comparators": {
+            "E_raw": {
+              "favourable": false,
+              "state": "NOT_EVALUABLE_WHOLE_STAGE_UNAVAILABLE",
+              "unfavourable": false
+            },
+            "W2_D": {
+              "favourable": false,
+              "state": "NOT_EVALUABLE_WHOLE_STAGE_UNAVAILABLE",
+              "unfavourable": false
+            }
+          },
+          "content_controls": {
+            "L_chen-P_content": {
+              "favourable": false,
+              "state": "NOT_EVALUABLE_WHOLE_STAGE_UNAVAILABLE",
+              "unfavourable": false
+            },
+            "L_chen-P_shift": {
+              "favourable": false,
+              "state": "NOT_EVALUABLE_WHOLE_STAGE_UNAVAILABLE",
+              "unfavourable": false
+            }
+          },
+          "label": "NOT_APPLICABLE_NO_RELIABLE_INCREMENT",
+          "primary_decision": "NO_RELIABLE_INCREMENT_DETECTED",
+          "sentence": null
+        }
+      ],
+      "cheap_text_comparators": {
+        "L_chen-E_raw": {
+          "arm": "L_chen",
+          "primary_confirmation": false,
+          "reference": "E_raw",
+          "state": "NOT_EVALUABLE_WHOLE_STAGE_UNAVAILABLE"
+        },
+        "L_chen-W2_D": {
+          "arm": "L_chen",
+          "primary_confirmation": false,
+          "reference": "W2_D",
+          "state": "NOT_EVALUABLE_WHOLE_STAGE_UNAVAILABLE"
+        }
+      },
+      "combination": {
+        "benchmark": "LEAR",
+        "benchmark_mae": 19.319462178187354,
+        "combined_mae": {
+          "L_chen": 20.553069693062923,
+          "L_count": 21.77073552444419,
+          "M": 20.551927012882086
+        },
+        "family": {
+          "date_gaps": [],
+          "days": 135,
+          "family_m": 2,
+          "reports": [
+            {
+              "arm": "L_count",
+              "arm_mae": 21.77073552444419,
+              "bootstrap": {
+                "1": {
+                  "bootstrap_nonpositive_effect_count": 8,
+                  "effect_percent_reference_mae": 5.93038555848391,
+                  "family_m": 2,
+                  "finite_draws": 2000,
+                  "interval95_percent": [
+                    0.855634875921883,
+                    12.710914124504452
+                  ],
+                  "interval_family_adjusted_percent": [
+                    0.4408941205119596,
+                    13.866341088422624
+                  ],
+                  "monte_carlo_resolution": 0.0005,
+                  "reference_mae": 20.551927012882086,
+                  "tail_draws_expected": 25.0,
+                  "undefined_draws": 0
+                },
+                "7": {
+                  "bootstrap_nonpositive_effect_count": 51,
+                  "effect_percent_reference_mae": 5.93038555848391,
+                  "family_m": 2,
+                  "finite_draws": 2000,
+                  "interval95_percent": [
+                    -0.0007998548336759225,
+                    16.598917087764676
+                  ],
+                  "interval_family_adjusted_percent": [
+                    -0.4187888277933977,
+                    18.141831484847554
+                  ],
+                  "monte_carlo_resolution": 0.0005,
+                  "reference_mae": 20.551927012882086,
+                  "tail_draws_expected": 25.0,
+                  "undefined_draws": 0
+                }
+              },
+              "clause_id": "S5",
+              "decision": "NO_RELIABLE_INCREMENT_DETECTED",
+              "dm_state": "DEFINED",
+              "effect_percent_reference_mae": 5.93038555848391,
+              "hac7_decision": "NO_RELIABLE_INCREMENT_DETECTED",
+              "hac7_holm_p": 0.33897960914816044,
+              "hac7_p_two_sided": 0.16948980457408022,
+              "hac7_state": "DEFINED",
+              "hln_decision": "NO_RELIABLE_INCREMENT_DETECTED",
+              "hln_holm_p": 0.09878301260928289,
+              "hln_p_two_sided": 0.049391506304641446,
+              "holm_p": 0.09469409903765863,
+              "mean_difference": 1.2188085115621128,
+              "n_days": 135,
+              "p_deterioration": 0.023673524759414658,
+              "p_improvement": 0.9763264752405854,
+              "p_two_sided": 0.047347049518829315,
+              "primary_decision": "NO_RELIABLE_INCREMENT_DETECTED",
+              "reference": "M",
+              "reference_mae": 20.551927012882086,
+              "robustness": {
+                "checks": {
+                  "hac7": true,
+                  "hln": true,
+                  "one_day": false,
+                  "seven_day": true,
+                  "three_seed": null
+                },
+                "dissent": [
+                  "one_day"
+                ],
+                "label": "FRAGILE",
+                "recorded_reason": "extra-seed predictions not sealed",
+                "sentence": "this reading was fragile: the one-day bootstrap interval did not agree with it in direction or decision; its robustness could not be fully checked because the three-seed mean was not available (the extra-seed predictions were not available)",
+                "unavailable": [
+                  "three_seed"
+                ]
+              },
+              "sentence": "The secondary combination check with the price-only LEAR benchmark also detected no reliable increment for L_count (5.930%, Holm-adjusted p = 0.095).",
+              "state": "COMPUTED",
+              "statistic": 1.9831824856999745,
+              "three_seed_state": "SEED_ROBUSTNESS_NOT_EVALUABLE"
+            },
+            {
+              "arm": "L_chen",
+              "arm_mae": 20.553069693062923,
+              "bootstrap": {
+                "1": {
+                  "bootstrap_nonpositive_effect_count": 1026,
+                  "effect_percent_reference_mae": 0.005559966129325453,
+                  "family_m": 2,
+                  "finite_draws": 2000,
+                  "interval95_percent": [
+                    -2.1988414099367968,
+                    2.086485451726976
+                  ],
+                  "interval_family_adjusted_percent": [
+                    -2.5539577884330247,
+                    2.4147322266920415
+                  ],
+                  "monte_carlo_resolution": 0.0005,
+                  "reference_mae": 20.551927012882086,
+                  "tail_draws_expected": 25.0,
+                  "undefined_draws": 0
+                },
+                "7": {
+                  "bootstrap_nonpositive_effect_count": 1032,
+                  "effect_percent_reference_mae": 0.005559966129325453,
+                  "family_m": 2,
+                  "finite_draws": 2000,
+                  "interval95_percent": [
+                    -2.2258289625876446,
+                    2.139991517445811
+                  ],
+                  "interval_family_adjusted_percent": [
+                    -2.4950307394591076,
+                    2.4942102328247233
+                  ],
+                  "monte_carlo_resolution": 0.0005,
+                  "reference_mae": 20.551927012882086,
+                  "tail_draws_expected": 25.0,
+                  "undefined_draws": 0
+                }
+              },
+              "clause_id": "S5",
+              "decision": "NO_RELIABLE_INCREMENT_DETECTED",
+              "dm_state": "DEFINED",
+              "effect_percent_reference_mae": 0.005559966129325453,
+              "hac7_decision": "NO_RELIABLE_INCREMENT_DETECTED",
+              "hac7_holm_p": 0.9960942554132387,
+              "hac7_p_two_sided": 0.9960942554132387,
+              "hac7_state": "DEFINED",
+              "hln_decision": "NO_RELIABLE_INCREMENT_DETECTED",
+              "hln_holm_p": 0.995978699663782,
+              "hln_p_two_sided": 0.995978699663782,
+              "holm_p": 0.9959711901768986,
+              "mean_difference": 0.0011426801808399323,
+              "n_days": 135,
+              "p_deterioration": 0.4979855950884493,
+              "p_improvement": 0.5020144049115507,
+              "p_two_sided": 0.9959711901768986,
+              "primary_decision": "NO_RELIABLE_INCREMENT_DETECTED",
+              "reference": "M",
+              "reference_mae": 20.551927012882086,
+              "robustness": {
+                "checks": {
+                  "hac7": true,
+                  "hln": true,
+                  "one_day": true,
+                  "seven_day": true,
+                  "three_seed": null
+                },
+                "dissent": [],
+                "label": "NOT_FULLY_CHECKED",
+                "recorded_reason": "extra-seed predictions not sealed",
+                "sentence": "its robustness could not be fully checked because the three-seed mean was not available (the extra-seed predictions were not available)",
+                "unavailable": [
+                  "three_seed"
+                ]
+              },
+              "sentence": "The secondary combination check with the price-only LEAR benchmark also detected no reliable increment for L_chen (0.006%, Holm-adjusted p > 0.99).",
+              "state": "COMPUTED",
+              "statistic": 0.0050493857645392696,
+              "three_seed_state": "SEED_ROBUSTNESS_NOT_EVALUABLE"
+            }
+          ]
+        },
+        "role": "A2_SECONDARY_STRONG_BENCHMARK_COMBINATION",
+        "single_mae": {
+          "L_chen": 24.205413421375884,
+          "L_count": 26.655553938032607,
+          "M": 23.925301303977214
+        },
+        "state": "COMPUTED",
+        "three_seed_family_computed": false
+      },
+      "headline": {
+        "all_robust_sentence": null,
+        "bound_label_sentence": "Headline intervals are family-adjusted: 97.5% two-sided, that is 1 − 0.05/2 for the 2 specified comparisons of the news family; tables also give the per-contrast 95% intervals.",
+        "contrasts": [
+          {
+            "arm": "L_count",
+            "decision": "NO_RELIABLE_INCREMENT_DETECTED",
+            "reference": "M",
+            "sentence": "L_count showed no reliable increment over the article activity reference (11.412% of the reference error, family-adjusted 97.5% interval [1.220, 26.787]%, Holm-adjusted p = 0.086); this reading was fragile: the one-day bootstrap interval did not agree with it in direction or decision; its robustness could not be fully checked because the three-seed mean was not available (the extra-seed predictions were not available).",
+            "sesoi_sentence": "Improvements larger than 0.000% of the reference error were excluded at the family-adjusted one-sided 1.25% level, conditional on these fitted predictions; this bound is below the 3.8% smallest effect size of interest for this task, so improvements of that size are excluded by this window. This is not an equivalence test and does not show a zero effect."
+          },
+          {
+            "arm": "L_chen",
+            "decision": "NO_RELIABLE_INCREMENT_DETECTED",
+            "reference": "M",
+            "sentence": "L_chen showed no reliable increment over the article activity reference (1.171% of the reference error, family-adjusted 97.5% interval [-3.298, 5.625]%, Holm-adjusted p = 0.558); its robustness could not be fully checked because the three-seed mean was not available (the extra-seed predictions were not available).",
+            "sesoi_sentence": "Improvements larger than 3.298% of the reference error were excluded at the family-adjusted one-sided 1.25% level, conditional on these fitted predictions; this bound is below the 3.8% smallest effect size of interest for this task, so improvements of that size are excluded by this window. This is not an equivalence test and does not show a zero effect."
+          }
+        ],
+        "information_set_sentence": "These readings are relative to the specified learner and information set: the news reference uses no operator forecasts and the notice reference uses no five-minute pre-dispatch prices.",
+        "task_bound_sentence": "For each structured representation, improvements larger than 3.298% of the reference error were excluded at the family-adjusted one-sided 1.25% level, which is below the 3.8% smallest effect size of interest for this task."
+      },
+      "p_content_unmatched": {
+        "n_days": 135,
+        "state": "NOT_EVALUABLE_WHOLE_STAGE_UNAVAILABLE",
+        "total_keys": 9720
+      },
+      "primary": [
+        {
+          "arm": "L_count",
+          "decision": "NO_RELIABLE_INCREMENT_DETECTED",
+          "display_decimals": 3,
+          "effect_percent_reference_mae": 11.411570535170373,
+          "hac7_decision": "NO_RELIABLE_INCREMENT_DETECTED",
+          "hac7_holm_p": 0.31884265737729933,
+          "hln_decision": "NO_RELIABLE_INCREMENT_DETECTED",
+          "hln_holm_p": 0.08978001056816612,
+          "holm_p": 0.08580614525119258,
+          "interval95_one_day": [
+            1.9803213735228624,
+            24.128122358288223
+          ],
+          "interval95_seven_day": [
+            -0.00023199018157660912,
+            31.224648959478106
+          ],
+          "interval_family_one_day": [
+            1.2205847564376127,
+            26.786172466961506
+          ],
+          "interval_family_seven_day": [
+            -0.7597501046167642,
+            34.45487632963387
+          ],
+          "mean_difference": 2.7302526340553963,
+          "p_two_sided": 0.04290307262559629,
+          "reference": "M",
+          "robustness": {
+            "checks": {
+              "hac7": true,
+              "hln": true,
+              "one_day": false,
+              "seven_day": true,
+              "three_seed": null
+            },
+            "dissent": [
+              "one_day"
+            ],
+            "label": "FRAGILE",
+            "recorded_reason": "primary_seed_robustness_news: UNAVAILABLE_RESOURCE_BUDGET; Whole-stage runtime-only admission failed",
+            "sentence": "this reading was fragile: the one-day bootstrap interval did not agree with it in direction or decision; its robustness could not be fully checked because the three-seed mean was not available (the extra-seed predictions were not available)",
+            "unavailable": [
+              "three_seed"
+            ]
+          },
+          "sesoi": {
+            "bound_display": "0.000",
+            "bound_family_adjusted_percent": 0.0,
+            "branch": "D1",
+            "decision": "NO_RELIABLE_INCREMENT_DETECTED",
+            "sentence": "Improvements larger than 0.000% of the reference error were excluded at the family-adjusted one-sided 1.25% level, conditional on these fitted predictions; this bound is below the 3.8% smallest effect size of interest for this task, so improvements of that size are excluded by this window. This is not an equivalence test and does not show a zero effect.",
+            "sesoi_percent": 3.8
+          },
+          "three_seed_state": "SEED_ROBUSTNESS_NOT_EVALUABLE"
+        },
+        {
+          "arm": "L_chen",
+          "decision": "NO_RELIABLE_INCREMENT_DETECTED",
+          "display_decimals": 3,
+          "effect_percent_reference_mae": 1.1707778048007587,
+          "hac7_decision": "NO_RELIABLE_INCREMENT_DETECTED",
+          "hac7_holm_p": 0.6035190259160474,
+          "hln_decision": "NO_RELIABLE_INCREMENT_DETECTED",
+          "hln_holm_p": 0.5589701518633596,
+          "holm_p": 0.5579847331762622,
+          "interval95_one_day": [
+            -2.690638314114716,
+            5.06071226505206
+          ],
+          "interval95_seven_day": [
+            -3.135719693043678,
+            5.639650598633299
+          ],
+          "interval_family_one_day": [
+            -3.297596508037373,
+            5.624117985001032
+          ],
+          "interval_family_seven_day": [
+            -3.44203387802713,
+            6.282734716228814
+          ],
+          "mean_difference": 0.28011211739867165,
+          "p_two_sided": 0.5579847331762622,
+          "reference": "M",
+          "robustness": {
+            "checks": {
+              "hac7": true,
+              "hln": true,
+              "one_day": true,
+              "seven_day": true,
+              "three_seed": null
+            },
+            "dissent": [],
+            "label": "NOT_FULLY_CHECKED",
+            "recorded_reason": "primary_seed_robustness_news: UNAVAILABLE_RESOURCE_BUDGET; Whole-stage runtime-only admission failed",
+            "sentence": "its robustness could not be fully checked because the three-seed mean was not available (the extra-seed predictions were not available)",
+            "unavailable": [
+              "three_seed"
+            ]
+          },
+          "sesoi": {
+            "bound_display": "3.298",
+            "bound_family_adjusted_percent": 3.297596508037373,
+            "branch": "D1",
+            "decision": "NO_RELIABLE_INCREMENT_DETECTED",
+            "sentence": "Improvements larger than 3.298% of the reference error were excluded at the family-adjusted one-sided 1.25% level, conditional on these fitted predictions; this bound is below the 3.8% smallest effect size of interest for this task, so improvements of that size are excluded by this window. This is not an equivalence test and does not show a zero effect.",
+            "sesoi_percent": 3.8
+          },
+          "three_seed_state": "SEED_ROBUSTNESS_NOT_EVALUABLE"
+        }
+      ],
+      "sesoi": {
+        "methods_sentence": "The smallest effect size of interest is an interpretation aid and never enters a decision. For news it is 3.8% of the reference error, the smallest text-attributed error reduction with a significance test in the cited electricity forecasting work; for notices it is 0.5%, the practical-effect margin that this line of work fixed for the same five-to-thirty-minute notice task before any confirmation data were read.",
+        "notice_transfer_sentence": null,
+        "value_percent": 3.8
+      },
+      "strictly_unexposed": {
+        "date_gaps": [
+          [
+            "2026-06-30",
+            "2026-09-24"
+          ]
+        ],
+        "day_runs": [
+          [
+            "2026-05-19",
+            "2026-06-30"
+          ],
+          [
+            "2026-09-24",
+            "2026-09-30"
+          ]
+        ],
+        "days": 50,
+        "decision_rule": "none (descriptive only)",
+        "named_A1_set": "days with no recorded analysis (includes the period of unknown use)",
+        "reports": [
+          {
+            "arm": "L_count",
+            "arm_mae": 23.99152249032872,
+            "bootstrap": {
+              "1": {
+                "bootstrap_nonpositive_effect_count": 256,
+                "effect_percent_reference_mae": 4.526745221445516,
+                "family_m": 1,
+                "finite_draws": 2000,
+                "interval95_percent": [
+                  -2.8622127197422405,
+                  13.787990444152397
+                ],
+                "interval_family_adjusted_percent": [
+                  -2.8622127197422405,
+                  13.787990444152397
+                ],
+                "monte_carlo_resolution": 0.0005,
+                "reference_mae": 22.952520371223077,
+                "tail_draws_expected": 50.0,
+                "undefined_draws": 0
+              },
+              "7": {
+                "bootstrap_nonpositive_effect_count": 252,
+                "effect_percent_reference_mae": 4.526745221445516,
+                "family_m": 1,
+                "finite_draws": 2000,
+                "interval95_percent": [
+                  -3.663589226263868,
+                  23.32391027519872
+                ],
+                "interval_family_adjusted_percent": [
+                  -3.663589226263868,
+                  23.32391027519872
+                ],
+                "monte_carlo_resolution": 0.0005,
+                "reference_mae": 22.952520371223077,
+                "tail_draws_expected": 50.0,
+                "undefined_draws": 0
+              }
+            },
+            "decision": null,
+            "descriptive_word": "no reliable difference detected",
+            "dm_state": "DEFINED",
+            "effect_percent_reference_mae": 4.526745221445516,
+            "hac7_decision": null,
+            "hac7_p_two_sided": null,
+            "hac7_state": "UNDEFINED_SECONDARY_DATE_GAPS",
+            "hln_decision": null,
+            "hln_p_two_sided": 0.30608140159608493,
+            "mean_difference": 1.0390021191056493,
+            "n_days": 50,
+            "p_deterioration": 0.1505018209178248,
+            "p_improvement": 0.8494981790821752,
+            "p_two_sided": 0.3010036418356496,
+            "reference": "M",
+            "reference_mae": 22.952520371223077,
+            "sentence": "On the 50 days whose prices had no recorded or unknown prior use (2026-05-19 to 2026-06-30 and 2026-09-24 to 2026-09-30), L_count differed from the article activity reference by 4.527% (one-day 95% interval [-2.863, 13.788]%, DM p = 0.301); this small descriptive subset does not change any reading.",
+            "state": "COMPUTED",
+            "statistic": 1.0342835135915216
+          },
+          {
+            "arm": "L_chen",
+            "arm_mae": 24.1761848129254,
+            "bootstrap": {
+              "1": {
+                "bootstrap_nonpositive_effect_count": 59,
+                "effect_percent_reference_mae": 5.3312857233600655,
+                "family_m": 1,
+                "finite_draws": 2000,
+                "interval95_percent": [
+                  -0.09031669023399232,
+                  11.943578460655965
+                ],
+                "interval_family_adjusted_percent": [
+                  -0.09031669023399232,
+                  11.943578460655965
+                ],
+                "monte_carlo_resolution": 0.0005,
+                "reference_mae": 22.952520371223077,
+                "tail_draws_expected": 50.0,
+                "undefined_draws": 0
+              },
+              "7": {
+                "bootstrap_nonpositive_effect_count": 62,
+                "effect_percent_reference_mae": 5.3312857233600655,
+                "family_m": 1,
+                "finite_draws": 2000,
+                "interval95_percent": [
+                  -0.26709330255992003,
+                  15.771255857200998
+                ],
+                "interval_family_adjusted_percent": [
+                  -0.26709330255992003,
+                  15.771255857200998
+                ],
+                "monte_carlo_resolution": 0.0005,
+                "reference_mae": 22.952520371223077,
+                "tail_draws_expected": 50.0,
+                "undefined_draws": 0
+              }
+            },
+            "decision": null,
+            "descriptive_word": "no reliable difference detected",
+            "dm_state": "DEFINED",
+            "effect_percent_reference_mae": 5.3312857233600655,
+            "hac7_decision": null,
+            "hac7_p_two_sided": null,
+            "hac7_state": "UNDEFINED_SECONDARY_DATE_GAPS",
+            "hln_decision": null,
+            "hln_p_two_sided": 0.07555684528746373,
+            "mean_difference": 1.2236644417023266,
+            "n_days": 50,
+            "p_deterioration": 0.03471754699964043,
+            "p_improvement": 0.9652824530003595,
+            "p_two_sided": 0.06943509399928086,
+            "reference": "M",
+            "reference_mae": 22.952520371223077,
+            "sentence": "On the 50 days whose prices had no recorded or unknown prior use (2026-05-19 to 2026-06-30 and 2026-09-24 to 2026-09-30), L_chen differed from the article activity reference by 5.331% (one-day 95% interval [-0.091, 11.944]%, DM p = 0.069); this small descriptive subset does not change any reading.",
+            "state": "COMPUTED",
+            "statistic": 1.8155782403739527
+          }
+        ],
+        "role": "A2_STRICTLY_UNEXPOSED_DESCRIPTIVE",
+        "set_name": "days with no recorded or unknown prior use"
+      }
+    },
+    "notice": {
+      "a2_new_secondary_contrasts": {
+        "L_chen_notice-R": {
+          "arm": "L_chen_notice",
+          "arm_mae": 9.390006640472578,
+          "bootstrap": {
+            "1": {
+              "bootstrap_nonpositive_effect_count": 2000,
+              "effect_percent_reference_mae": -0.45388788298608246,
+              "family_m": 1,
+              "finite_draws": 2000,
+              "interval95_percent": [
+                -0.6294320205905828,
+                -0.27246701820528046
+              ],
+              "interval_family_adjusted_percent": [
+                -0.6294320205905828,
+                -0.27246701820528046
+              ],
+              "monte_carlo_resolution": 0.0005,
+              "reference_mae": 9.432821072343703,
+              "tail_draws_expected": 50.0,
+              "undefined_draws": 0
+            },
+            "7": {
+              "bootstrap_nonpositive_effect_count": 2000,
+              "effect_percent_reference_mae": -0.45388788298608246,
+              "family_m": 1,
+              "finite_draws": 2000,
+              "interval95_percent": [
+                -0.5800538536197163,
+                -0.24585283352873571
+              ],
+              "interval_family_adjusted_percent": [
+                -0.5800538536197163,
+                -0.24585283352873571
+              ],
+              "monte_carlo_resolution": 0.0005,
+              "reference_mae": 9.432821072343703,
+              "tail_draws_expected": 50.0,
+              "undefined_draws": 0
+            }
+          },
+          "dm_state": "DEFINED",
+          "effect_percent_reference_mae": -0.45388788298608246,
+          "hac7_p_two_sided": 9.873458979892448e-08,
+          "hac7_state": "DEFINED",
+          "hln_p_two_sided": 4.279504872713309e-06,
+          "mean_difference": -0.042814431871125914,
+          "n_days": 61,
+          "p_deterioration": 0.9999997878763239,
+          "p_improvement": 2.121236761161086e-07,
+          "p_two_sided": 4.242473522322172e-07,
+          "reference": "R",
+          "reference_mae": 9.432821072343703,
+          "role": "A2_SECONDARY_ATTRIBUTION_CONTRAST",
+          "state": "COMPUTED",
+          "statistic": -5.057743133326938
+        },
+        "L_chen_notice-T": {
+          "arm": "L_chen_notice",
+          "arm_mae": 9.390006640472578,
+          "bootstrap": {
+            "1": {
+              "bootstrap_nonpositive_effect_count": 2000,
+              "effect_percent_reference_mae": -0.3353758380132408,
+              "family_m": 1,
+              "finite_draws": 2000,
+              "interval95_percent": [
+                -0.5230972803916201,
+                -0.14602217943936663
+              ],
+              "interval_family_adjusted_percent": [
+                -0.5230972803916201,
+                -0.14602217943936663
+              ],
+              "monte_carlo_resolution": 0.0005,
+              "reference_mae": 9.42160442526811,
+              "tail_draws_expected": 50.0,
+              "undefined_draws": 0
+            },
+            "7": {
+              "bootstrap_nonpositive_effect_count": 2000,
+              "effect_percent_reference_mae": -0.3353758380132408,
+              "family_m": 1,
+              "finite_draws": 2000,
+              "interval95_percent": [
+                -0.4851947546581757,
+                -0.13228734402828687
+              ],
+              "interval_family_adjusted_percent": [
+                -0.4851947546581757,
+                -0.13228734402828687
+              ],
+              "monte_carlo_resolution": 0.0005,
+              "reference_mae": 9.42160442526811,
+              "tail_draws_expected": 50.0,
+              "undefined_draws": 0
+            }
+          },
+          "dm_state": "DEFINED",
+          "effect_percent_reference_mae": -0.3353758380132408,
+          "hac7_p_two_sided": 0.0002222314796500653,
+          "hac7_state": "DEFINED",
+          "hln_p_two_sided": 0.0010089931611828417,
+          "mean_difference": -0.0315977847955355,
+          "n_days": 61,
+          "p_deterioration": 0.9997271946724808,
+          "p_improvement": 0.00027280532751917816,
+          "p_two_sided": 0.0005456106550383563,
+          "reference": "T",
+          "reference_mae": 9.42160442526811,
+          "role": "A2_SECONDARY_ATTRIBUTION_CONTRAST",
+          "state": "COMPUTED",
+          "statistic": -3.457303170532485
+        }
+      },
+      "attribution": [
+        {
+          "arm": "L14",
+          "cheap_comparators": {
+            "R": {
+              "favourable": true,
+              "state": "COMPUTED",
+              "unfavourable": false
+            },
+            "T": {
+              "favourable": true,
+              "state": "COMPUTED",
+              "unfavourable": false
+            }
+          },
+          "content_controls": {
+            "L_chen_notice-P_content": {
+              "favourable": false,
+              "state": "NO_VALID_PERMUTATION",
+              "unfavourable": false
+            },
+            "L_chen_notice-P_shift": {
+              "favourable": true,
+              "state": "COMPUTED",
+              "unfavourable": false
+            }
+          },
+          "label": "ACTIVITY_REFERENCE_INCREMENT_NO_CONTROL",
+          "primary_decision": "CONDITIONAL_IMPROVEMENT",
+          "sentence": "it is an increment over the notice activity reference; no specified content control exists for this representation, so it is not attributed to the content"
+        },
+        {
+          "arm": "L_Laz",
+          "cheap_comparators": {
+            "R": {
+              "favourable": true,
+              "state": "COMPUTED",
+              "unfavourable": false
+            },
+            "T": {
+              "favourable": true,
+              "state": "COMPUTED",
+              "unfavourable": false
+            }
+          },
+          "content_controls": {
+            "L_chen_notice-P_content": {
+              "favourable": false,
+              "state": "NO_VALID_PERMUTATION",
+              "unfavourable": false
+            },
+            "L_chen_notice-P_shift": {
+              "favourable": true,
+              "state": "COMPUTED",
+              "unfavourable": false
+            }
+          },
+          "label": "ACTIVITY_REFERENCE_INCREMENT_NO_CONTROL",
+          "primary_decision": "CONDITIONAL_IMPROVEMENT",
+          "sentence": "it is an increment over the notice activity reference; no specified content control exists for this representation, so it is not attributed to the content"
+        },
+        {
+          "arm": "L_chen_notice",
+          "cheap_comparators": {
+            "R": {
+              "favourable": true,
+              "state": "COMPUTED",
+              "unfavourable": false
+            },
+            "T": {
+              "favourable": true,
+              "state": "COMPUTED",
+              "unfavourable": false
+            }
+          },
+          "content_controls": {
+            "L_chen_notice-P_content": {
+              "favourable": false,
+              "state": "NO_VALID_PERMUTATION",
+              "unfavourable": false
+            },
+            "L_chen_notice-P_shift": {
+              "favourable": true,
+              "state": "COMPUTED",
+              "unfavourable": false
+            }
+          },
+          "label": "CONTENT_NOT_ASSESSABLE",
+          "primary_decision": "CONDITIONAL_IMPROVEMENT",
+          "reason": "the activity-matched reassignment control: no activity-matched donor content was available",
+          "recorded_states": {
+            "L_chen_notice-P_content": "NO_VALID_PERMUTATION"
+          },
+          "sentence": "it is an increment over the notice activity reference; the specified content controls could not be evaluated (the activity-matched reassignment control: no activity-matched donor content was available), so it is not attributed to the content"
+        }
+      ],
+      "cheap_text_comparators": {
+        "L_chen_notice-R": {
+          "arm": "L_chen_notice",
+          "arm_mae": 9.390006640472578,
+          "bootstrap": {
+            "1": {
+              "bootstrap_nonpositive_effect_count": 2000,
+              "effect_percent_reference_mae": -0.45388788298608246,
+              "family_m": 1,
+              "finite_draws": 2000,
+              "interval95_percent": [
+                -0.6294320205905828,
+                -0.27246701820528046
+              ],
+              "interval_family_adjusted_percent": [
+                -0.6294320205905828,
+                -0.27246701820528046
+              ],
+              "monte_carlo_resolution": 0.0005,
+              "reference_mae": 9.432821072343703,
+              "tail_draws_expected": 50.0,
+              "undefined_draws": 0
+            },
+            "7": {
+              "bootstrap_nonpositive_effect_count": 2000,
+              "effect_percent_reference_mae": -0.45388788298608246,
+              "family_m": 1,
+              "finite_draws": 2000,
+              "interval95_percent": [
+                -0.5800538536197163,
+                -0.24585283352873571
+              ],
+              "interval_family_adjusted_percent": [
+                -0.5800538536197163,
+                -0.24585283352873571
+              ],
+              "monte_carlo_resolution": 0.0005,
+              "reference_mae": 9.432821072343703,
+              "tail_draws_expected": 50.0,
+              "undefined_draws": 0
+            }
+          },
+          "dm_state": "DEFINED",
+          "effect_percent_reference_mae": -0.45388788298608246,
+          "hac7_p_two_sided": 9.873458979892448e-08,
+          "hac7_state": "DEFINED",
+          "hln_p_two_sided": 4.279504872713309e-06,
+          "mean_difference": -0.042814431871125914,
+          "n_days": 61,
+          "p_deterioration": 0.9999997878763239,
+          "p_improvement": 2.121236761161086e-07,
+          "p_two_sided": 4.242473522322172e-07,
+          "reference": "R",
+          "reference_mae": 9.432821072343703,
+          "role": "A2_SECONDARY_ATTRIBUTION_CONTRAST",
+          "state": "COMPUTED",
+          "statistic": -5.057743133326938
+        },
+        "L_chen_notice-T": {
+          "arm": "L_chen_notice",
+          "arm_mae": 9.390006640472578,
+          "bootstrap": {
+            "1": {
+              "bootstrap_nonpositive_effect_count": 2000,
+              "effect_percent_reference_mae": -0.3353758380132408,
+              "family_m": 1,
+              "finite_draws": 2000,
+              "interval95_percent": [
+                -0.5230972803916201,
+                -0.14602217943936663
+              ],
+              "interval_family_adjusted_percent": [
+                -0.5230972803916201,
+                -0.14602217943936663
+              ],
+              "monte_carlo_resolution": 0.0005,
+              "reference_mae": 9.42160442526811,
+              "tail_draws_expected": 50.0,
+              "undefined_draws": 0
+            },
+            "7": {
+              "bootstrap_nonpositive_effect_count": 2000,
+              "effect_percent_reference_mae": -0.3353758380132408,
+              "family_m": 1,
+              "finite_draws": 2000,
+              "interval95_percent": [
+                -0.4851947546581757,
+                -0.13228734402828687
+              ],
+              "interval_family_adjusted_percent": [
+                -0.4851947546581757,
+                -0.13228734402828687
+              ],
+              "monte_carlo_resolution": 0.0005,
+              "reference_mae": 9.42160442526811,
+              "tail_draws_expected": 50.0,
+              "undefined_draws": 0
+            }
+          },
+          "dm_state": "DEFINED",
+          "effect_percent_reference_mae": -0.3353758380132408,
+          "hac7_p_two_sided": 0.0002222314796500653,
+          "hac7_state": "DEFINED",
+          "hln_p_two_sided": 0.0010089931611828417,
+          "mean_difference": -0.0315977847955355,
+          "n_days": 61,
+          "p_deterioration": 0.9997271946724808,
+          "p_improvement": 0.00027280532751917816,
+          "p_two_sided": 0.0005456106550383563,
+          "reference": "T",
+          "reference_mae": 9.42160442526811,
+          "role": "A2_SECONDARY_ATTRIBUTION_CONTRAST",
+          "state": "COMPUTED",
+          "statistic": -3.457303170532485
+        }
+      },
+      "combination": {
+        "benchmark": "NP",
+        "benchmark_mae": 9.105057520892712,
+        "combined_mae": {
+          "L14": 9.041924242767713,
+          "L_Laz": 9.04394992334302,
+          "L_chen_notice": 9.02155153942664,
+          "M_notice": 9.05848668482381
+        },
+        "family": {
+          "date_gaps": [],
+          "days": 61,
+          "family_m": 3,
+          "reports": [
+            {
+              "arm": "L14",
+              "arm_mae": 9.041924242767713,
+              "bootstrap": {
+                "1": {
+                  "bootstrap_nonpositive_effect_count": 2000,
+                  "effect_percent_reference_mae": -0.18283895127698638,
+                  "family_m": 3,
+                  "finite_draws": 2000,
+                  "interval95_percent": [
+                    -0.23539700626983015,
+                    -0.13194632251917005
+                  ],
+                  "interval_family_adjusted_percent": [
+                    -0.24447114913696663,
+                    -0.11981844954768665
+                  ],
+                  "monte_carlo_resolution": 0.0005,
+                  "reference_mae": 9.05848668482381,
+                  "tail_draws_expected": 16.666666666666668,
+                  "undefined_draws": 0
+                },
+                "7": {
+                  "bootstrap_nonpositive_effect_count": 2000,
+                  "effect_percent_reference_mae": -0.18283895127698638,
+                  "family_m": 3,
+                  "finite_draws": 2000,
+                  "interval95_percent": [
+                    -0.24175318284707414,
+                    -0.13683338027512473
+                  ],
+                  "interval_family_adjusted_percent": [
+                    -0.2564565971422071,
+                    -0.12879493546321394
+                  ],
+                  "monte_carlo_resolution": 0.0005,
+                  "reference_mae": 9.05848668482381,
+                  "tail_draws_expected": 16.666666666666668,
+                  "undefined_draws": 0
+                }
+              },
+              "clause_id": "S1",
+              "decision": "CONDITIONAL_IMPROVEMENT",
+              "dm_state": "DEFINED",
+              "effect_percent_reference_mae": -0.18283895127698638,
+              "hac7_decision": "CONDITIONAL_IMPROVEMENT",
+              "hac7_holm_p": 3.088958454404024e-13,
+              "hac7_p_two_sided": 1.544479227202012e-13,
+              "hac7_state": "DEFINED",
+              "hln_decision": "CONDITIONAL_IMPROVEMENT",
+              "hln_holm_p": 2.4174050039378805e-09,
+              "hln_p_two_sided": 8.058016679792935e-10,
+              "holm_p": 9.424408664137173e-13,
+              "mean_difference": -0.016562442056097304,
+              "n_days": 61,
+              "p_deterioration": 0.9999999999998429,
+              "p_improvement": 1.5707347773561956e-13,
+              "p_two_sided": 3.1414695547123913e-13,
+              "primary_decision": "CONDITIONAL_IMPROVEMENT",
+              "reference": "M_notice",
+              "reference_mae": 9.05848668482381,
+              "robustness": {
+                "checks": {
+                  "hac7": true,
+                  "hln": true,
+                  "one_day": true,
+                  "seven_day": true,
+                  "three_seed": true
+                },
+                "dissent": [],
+                "label": "ROBUST",
+                "recorded_reason": null,
+                "sentence": "this reading was robust: the one-day and seven-day bootstrap intervals, the small-sample HLN calibration, the HAC7 long-run variance and the three-seed mean all agreed with it in direction and decision",
+                "unavailable": []
+              },
+              "sentence": "the increment persisted when each forecast was averaged with the P5MIN-augmented reference NP (-0.183% of the combined reference error, family-adjusted 98.3% interval [-0.245, -0.119]%, Holm-adjusted p < 0.001)",
+              "state": "COMPUTED",
+              "statistic": -7.2881899088510105,
+              "three_seed": {
+                "decision": "CONDITIONAL_IMPROVEMENT",
+                "effect_percent_reference_mae": -0.08932486230316941,
+                "mean_difference": -0.008080735330030519
+              },
+              "three_seed_state": "SEED_CONSISTENT"
+            },
+            {
+              "arm": "L_Laz",
+              "arm_mae": 9.04394992334302,
+              "bootstrap": {
+                "1": {
+                  "bootstrap_nonpositive_effect_count": 2000,
+                  "effect_percent_reference_mae": -0.16047671080805911,
+                  "family_m": 3,
+                  "finite_draws": 2000,
+                  "interval95_percent": [
+                    -0.2122600493942374,
+                    -0.10953540697168775
+                  ],
+                  "interval_family_adjusted_percent": [
+                    -0.22351630855789806,
+                    -0.09824317464866117
+                  ],
+                  "monte_carlo_resolution": 0.0005,
+                  "reference_mae": 9.05848668482381,
+                  "tail_draws_expected": 16.666666666666668,
+                  "undefined_draws": 0
+                },
+                "7": {
+                  "bootstrap_nonpositive_effect_count": 2000,
+                  "effect_percent_reference_mae": -0.16047671080805911,
+                  "family_m": 3,
+                  "finite_draws": 2000,
+                  "interval95_percent": [
+                    -0.21468127569993048,
+                    -0.11143553542836268
+                  ],
+                  "interval_family_adjusted_percent": [
+                    -0.2240899467574073,
+                    -0.09873188541767765
+                  ],
+                  "monte_carlo_resolution": 0.0005,
+                  "reference_mae": 9.05848668482381,
+                  "tail_draws_expected": 16.666666666666668,
+                  "undefined_draws": 0
+                }
+              },
+              "clause_id": "S1",
+              "decision": "CONDITIONAL_IMPROVEMENT",
+              "dm_state": "DEFINED",
+              "effect_percent_reference_mae": -0.16047671080805911,
+              "hac7_decision": "CONDITIONAL_IMPROVEMENT",
+              "hac7_holm_p": 3.595091499178355e-11,
+              "hac7_p_two_sided": 3.595091499178355e-11,
+              "hac7_state": "DEFINED",
+              "hln_decision": "CONDITIONAL_IMPROVEMENT",
+              "hln_holm_p": 1.1466842053811408e-07,
+              "hln_p_two_sided": 7.888637656076082e-08,
+              "holm_p": 1.1469561076827257e-09,
+              "mean_difference": -0.014536761480791248,
+              "n_days": 61,
+              "p_deterioration": 0.9999999995171872,
+              "p_improvement": 4.828127436725592e-10,
+              "p_two_sided": 9.656254873451184e-10,
+              "primary_decision": "CONDITIONAL_IMPROVEMENT",
+              "reference": "M_notice",
+              "reference_mae": 9.05848668482381,
+              "robustness": {
+                "checks": {
+                  "hac7": true,
+                  "hln": true,
+                  "one_day": true,
+                  "seven_day": true,
+                  "three_seed": false
+                },
+                "dissent": [
+                  "three_seed"
+                ],
+                "label": "FRAGILE",
+                "recorded_reason": null,
+                "sentence": "this reading was fragile: the three-seed mean did not agree with it in direction or decision",
+                "unavailable": []
+              },
+              "sentence": "the increment persisted when each forecast was averaged with the P5MIN-augmented reference NP (-0.160% of the combined reference error, family-adjusted 98.3% interval [-0.224, -0.098]%, Holm-adjusted p < 0.001)",
+              "state": "COMPUTED",
+              "statistic": -6.114990776046086,
+              "three_seed": {
+                "decision": "NO_RELIABLE_INCREMENT_DETECTED",
+                "effect_percent_reference_mae": 0.0033545662090289923,
+                "mean_difference": 0.0003034693923201861
+              },
+              "three_seed_state": "SEED_FRAGILE"
+            },
+            {
+              "arm": "L_chen_notice",
+              "arm_mae": 9.02155153942664,
+              "bootstrap": {
+                "1": {
+                  "bootstrap_nonpositive_effect_count": 2000,
+                  "effect_percent_reference_mae": -0.4077407924996115,
+                  "family_m": 3,
+                  "finite_draws": 2000,
+                  "interval95_percent": [
+                    -0.5498713956306995,
+                    -0.2667629549328739
+                  ],
+                  "interval_family_adjusted_percent": [
+                    -0.576937694229028,
+                    -0.2368742738543798
+                  ],
+                  "monte_carlo_resolution": 0.0005,
+                  "reference_mae": 9.05848668482381,
+                  "tail_draws_expected": 16.666666666666668,
+                  "undefined_draws": 0
+                },
+                "7": {
+                  "bootstrap_nonpositive_effect_count": 2000,
+                  "effect_percent_reference_mae": -0.4077407924996115,
+                  "family_m": 3,
+                  "finite_draws": 2000,
+                  "interval95_percent": [
+                    -0.5108230814557226,
+                    -0.2651130082253424
+                  ],
+                  "interval_family_adjusted_percent": [
+                    -0.5348063717375033,
+                    -0.23271069529705896
+                  ],
+                  "monte_carlo_resolution": 0.0005,
+                  "reference_mae": 9.05848668482381,
+                  "tail_draws_expected": 16.666666666666668,
+                  "undefined_draws": 0
+                }
+              },
+              "clause_id": "S1",
+              "decision": "CONDITIONAL_IMPROVEMENT",
+              "dm_state": "DEFINED",
+              "effect_percent_reference_mae": -0.4077407924996115,
+              "hac7_decision": "CONDITIONAL_IMPROVEMENT",
+              "hac7_holm_p": 4.1850109393238634e-14,
+              "hac7_p_two_sided": 1.3950036464412878e-14,
+              "hac7_state": "DEFINED",
+              "hln_decision": "CONDITIONAL_IMPROVEMENT",
+              "hln_holm_p": 1.1466842053811408e-07,
+              "hln_p_two_sided": 5.733421026905704e-08,
+              "holm_p": 1.1469561076827257e-09,
+              "mean_difference": -0.03693514539717239,
+              "n_days": 61,
+              "p_deterioration": 0.9999999997132609,
+              "p_improvement": 2.867390269206814e-10,
+              "p_two_sided": 5.734780538413628e-10,
+              "primary_decision": "CONDITIONAL_IMPROVEMENT",
+              "reference": "M_notice",
+              "reference_mae": 9.05848668482381,
+              "robustness": {
+                "checks": {
+                  "hac7": true,
+                  "hln": true,
+                  "one_day": true,
+                  "seven_day": true,
+                  "three_seed": true
+                },
+                "dissent": [],
+                "label": "ROBUST",
+                "recorded_reason": null,
+                "sentence": "this reading was robust: the one-day and seven-day bootstrap intervals, the small-sample HLN calibration, the HAC7 long-run variance and the three-seed mean all agreed with it in direction and decision",
+                "unavailable": []
+              },
+              "sentence": "the increment persisted when each forecast was averaged with the P5MIN-augmented reference NP (-0.408% of the combined reference error, family-adjusted 98.3% interval [-0.577, -0.236]%, Holm-adjusted p < 0.001)",
+              "state": "COMPUTED",
+              "statistic": -6.197552795295308,
+              "three_seed": {
+                "decision": "CONDITIONAL_IMPROVEMENT",
+                "effect_percent_reference_mae": -0.2704979858960415,
+                "mean_difference": -0.024470484196365588
+              },
+              "three_seed_state": "SEED_CONSISTENT"
+            }
+          ]
+        },
+        "nested_A1_NPL_minus_NPM": {
+          "arm": "NPL",
+          "daily_mean_difference": -0.014437238639778645,
+          "days": 61,
+          "hln_t_p_two_sided": 0.003405770518045332,
+          "matched_keys": 527040,
+          "p_two_sided": 0.0022899271471503355,
+          "reading": "This secondary E3 contrast estimates the increment of the L14 notice-content columns beyond notice activity, given the P5MIN block; it does not identify a mechanism. NPL−NPM: effect=-0.159562996802% of NPM's MAE; one-day nominal 95% interval [-0.258700376483,-0.0554306642528]%; seven-day secondary 95% interval [-0.286388323799,-0.0600035238517]%; one-day nominal improvement-exclusion X=0.258700376483%; seven-day secondary improvement-exclusion X=0.286388323799%; raw daily mean difference=-0.0144372386398; reference raw MAE=9.0479866442; raw DM p(two-sided)=0.00228992714715, p(improvement)=0.00114496357358, p(deterioration)=0.998855036426; HAC7 p(two-sided)=0.00718555254773, p(improvement)=0.00359277627387, p(deterioration)=0.996407223726. 1-day bootstrap finite/undefined draws=2000/0; nonpositive-effect tail count=1996/2000; Monte Carlo resolution=0.0005. 7-day bootstrap finite/undefined draws=2000/0; nonpositive-effect tail count=1999/2000; Monte Carlo resolution=0.0005. This does not establish equivalence or zero effect. A conditional favorable difference was observed in this secondary comparison.",
+          "reference": "NPM",
+          "report_path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/R2_STATE/scored/notice__SECONDARY__NPL__NPM.json",
+          "state": "COMPUTED_SECONDARY"
+        },
+        "role": "A2_SECONDARY_STRONG_BENCHMARK_COMBINATION",
+        "single_mae": {
+          "L14": 9.431982984301845,
+          "L_Laz": 9.433749330359227,
+          "L_chen_notice": 9.390006640472578,
+          "M_notice": 9.46063618321158
+        },
+        "state": "COMPUTED",
+        "three_seed_family_computed": true
+      },
+      "headline": {
+        "all_robust_sentence": null,
+        "bound_label_sentence": "Headline intervals are family-adjusted: 98.3% two-sided, that is 1 − 0.05/3 for the 3 specified comparisons of the notice family; tables also give the per-contrast 95% intervals.",
+        "contrasts": [
+          {
+            "arm": "L14",
+            "decision": "CONDITIONAL_IMPROVEMENT",
+            "reference": "M_notice",
+            "sentence": "L14 improved on the notice activity reference by 0.303% of the reference error (family-adjusted 98.3% interval [-0.403, -0.201]%, Holm-adjusted p < 0.001); this reading was robust: the one-day and seven-day bootstrap intervals, the small-sample HLN calibration, the HAC7 long-run variance and the three-seed mean all agreed with it in direction and decision; it is an increment over the notice activity reference; no specified content control exists for this representation, so it is not attributed to the content; the increment persisted when each forecast was averaged with the P5MIN-augmented reference NP (-0.183% of the combined reference error, family-adjusted 98.3% interval [-0.245, -0.119]%, Holm-adjusted p < 0.001).",
+            "sesoi_sentence": "The increment is statistically reliable under the specified rule but smaller than the 0.5% smallest effect size of interest for this task."
+          },
+          {
+            "arm": "L_Laz",
+            "decision": "CONDITIONAL_IMPROVEMENT",
+            "reference": "M_notice",
+            "sentence": "L_Laz improved on the notice activity reference by 0.284% of the reference error (family-adjusted 98.3% interval [-0.398, -0.165]%, Holm-adjusted p < 0.001); this reading was fragile: the three-seed mean did not agree with it in direction or decision; it is an increment over the notice activity reference; no specified content control exists for this representation, so it is not attributed to the content; the increment persisted when each forecast was averaged with the P5MIN-augmented reference NP (-0.160% of the combined reference error, family-adjusted 98.3% interval [-0.224, -0.098]%, Holm-adjusted p < 0.001).",
+            "sesoi_sentence": "The increment is statistically reliable under the specified rule but smaller than the 0.5% smallest effect size of interest for this task."
+          },
+          {
+            "arm": "L_chen_notice",
+            "decision": "CONDITIONAL_IMPROVEMENT",
+            "reference": "M_notice",
+            "sentence": "L_chen_notice improved on the notice activity reference by 0.747% of the reference error (family-adjusted 98.3% interval [-1.019, -0.473]%, Holm-adjusted p < 0.001); this reading was robust: the one-day and seven-day bootstrap intervals, the small-sample HLN calibration, the HAC7 long-run variance and the three-seed mean all agreed with it in direction and decision; it is an increment over the notice activity reference; the specified content controls could not be evaluated (the activity-matched reassignment control: no activity-matched donor content was available), so it is not attributed to the content; the increment persisted when each forecast was averaged with the P5MIN-augmented reference NP (-0.408% of the combined reference error, family-adjusted 98.3% interval [-0.577, -0.236]%, Holm-adjusted p < 0.001).",
+            "sesoi_sentence": "The increment is statistically reliable and at least as large as the 0.5% smallest effect size of interest for this task."
+          }
+        ],
+        "information_set_sentence": "These readings are relative to the specified learner and information set: the news reference uses no operator forecasts and the notice reference uses no five-minute pre-dispatch prices.",
+        "task_bound_sentence": null
+      },
+      "p_content_unmatched": {
+        "n_days": 61,
+        "state": "NO_VALID_PERMUTATION",
+        "total_keys": 527040
+      },
+      "primary": [
+        {
+          "arm": "L14",
+          "decision": "CONDITIONAL_IMPROVEMENT",
+          "display_decimals": 3,
+          "effect_percent_reference_mae": -0.30286756994824093,
+          "hac7_decision": "CONDITIONAL_IMPROVEMENT",
+          "hac7_holm_p": 2.860100511043144e-11,
+          "hln_decision": "CONDITIONAL_IMPROVEMENT",
+          "hln_holm_p": 2.3793411564623292e-09,
+          "holm_p": 9.146375669968665e-13,
+          "interval95_one_day": [
+            -0.38882936811583274,
+            -0.22067187369374253
+          ],
+          "interval95_seven_day": [
+            -0.4046677244747939,
+            -0.2146224300335567
+          ],
+          "interval_family_one_day": [
+            -0.4027670049027451,
+            -0.2012719864964833
+          ],
+          "interval_family_seven_day": [
+            -0.4220096984463303,
+            -0.1985181367409074
+          ],
+          "mean_difference": -0.028653198909737016,
+          "p_two_sided": 3.048791889989555e-13,
+          "reference": "M_notice",
+          "robustness": {
+            "checks": {
+              "hac7": true,
+              "hln": true,
+              "one_day": true,
+              "seven_day": true,
+              "three_seed": true
+            },
+            "dissent": [],
+            "label": "ROBUST",
+            "recorded_reason": null,
+            "sentence": "this reading was robust: the one-day and seven-day bootstrap intervals, the small-sample HLN calibration, the HAC7 long-run variance and the three-seed mean all agreed with it in direction and decision",
+            "unavailable": []
+          },
+          "sesoi": {
+            "branch": "D3",
+            "decision": "CONDITIONAL_IMPROVEMENT",
+            "sentence": "The increment is statistically reliable under the specified rule but smaller than the 0.5% smallest effect size of interest for this task.",
+            "sesoi_percent": 0.5
+          },
+          "three_seed_state": "SEED_CONSISTENT"
+        },
+        {
+          "arm": "L_Laz",
+          "decision": "CONDITIONAL_IMPROVEMENT",
+          "display_decimals": 3,
+          "effect_percent_reference_mae": -0.2841970913125906,
+          "hac7_decision": "CONDITIONAL_IMPROVEMENT",
+          "hac7_holm_p": 3.8282906948097876e-10,
+          "hln_decision": "CONDITIONAL_IMPROVEMENT",
+          "hln_holm_p": 3.9286011296018106e-07,
+          "holm_p": 1.2257578409372884e-08,
+          "interval95_one_day": [
+            -0.3782895089493962,
+            -0.18904665118469965
+          ],
+          "interval95_seven_day": [
+            -0.37858051279229077,
+            -0.19321347246890133
+          ],
+          "interval_family_one_day": [
+            -0.39781881655176937,
+            -0.16512457116453746
+          ],
+          "interval_family_seven_day": [
+            -0.39367994710626786,
+            -0.16661511270285667
+          ],
+          "mean_difference": -0.02688685285235388,
+          "p_two_sided": 1.2257578409372884e-08,
+          "reference": "M_notice",
+          "robustness": {
+            "checks": {
+              "hac7": true,
+              "hln": true,
+              "one_day": true,
+              "seven_day": true,
+              "three_seed": false
+            },
+            "dissent": [
+              "three_seed"
+            ],
+            "label": "FRAGILE",
+            "recorded_reason": null,
+            "sentence": "this reading was fragile: the three-seed mean did not agree with it in direction or decision",
+            "unavailable": []
+          },
+          "sesoi": {
+            "branch": "D3",
+            "decision": "CONDITIONAL_IMPROVEMENT",
+            "sentence": "The increment is statistically reliable under the specified rule but smaller than the 0.5% smallest effect size of interest for this task.",
+            "sesoi_percent": 0.5
+          },
+          "three_seed_state": "SEED_FRAGILE"
+        },
+        {
+          "arm": "L_chen_notice",
+          "decision": "CONDITIONAL_IMPROVEMENT",
+          "display_decimals": 3,
+          "effect_percent_reference_mae": -0.7465622963531818,
+          "hac7_decision": "CONDITIONAL_IMPROVEMENT",
+          "hac7_holm_p": 2.860100511043144e-11,
+          "hln_decision": "CONDITIONAL_IMPROVEMENT",
+          "hln_holm_p": 1.461779564176633e-08,
+          "holm_p": 3.475038470265769e-11,
+          "interval95_one_day": [
+            -0.9712603798690574,
+            -0.5121514889418705
+          ],
+          "interval95_seven_day": [
+            -0.930701438380383,
+            -0.4875757182914322
+          ],
+          "interval_family_one_day": [
+            -1.0182047339228257,
+            -0.47343218311705787
+          ],
+          "interval_family_seven_day": [
+            -0.9782815706803496,
+            -0.4451500724703923
+          ],
+          "mean_difference": -0.07062954273900449,
+          "p_two_sided": 1.7375192351328844e-11,
+          "reference": "M_notice",
+          "robustness": {
+            "checks": {
+              "hac7": true,
+              "hln": true,
+              "one_day": true,
+              "seven_day": true,
+              "three_seed": true
+            },
+            "dissent": [],
+            "label": "ROBUST",
+            "recorded_reason": null,
+            "sentence": "this reading was robust: the one-day and seven-day bootstrap intervals, the small-sample HLN calibration, the HAC7 long-run variance and the three-seed mean all agreed with it in direction and decision",
+            "unavailable": []
+          },
+          "sesoi": {
+            "branch": "D4",
+            "decision": "CONDITIONAL_IMPROVEMENT",
+            "sentence": "The increment is statistically reliable and at least as large as the 0.5% smallest effect size of interest for this task.",
+            "sesoi_percent": 0.5
+          },
+          "three_seed_state": "SEED_CONSISTENT"
+        }
+      ],
+      "sesoi": {
+        "methods_sentence": "The smallest effect size of interest is an interpretation aid and never enters a decision. For news it is 3.8% of the reference error, the smallest text-attributed error reduction with a significance test in the cited electricity forecasting work; for notices it is 0.5%, the practical-effect margin that this line of work fixed for the same five-to-thirty-minute notice task before any confirmation data were read.",
+        "notice_transfer_sentence": "The transferred 3.8% value is not informative for the notice task, whose expected bounds are an order of magnitude smaller; the notice reading is compared with 0.5%.",
+        "value_percent": 0.5
+      },
+      "strictly_unexposed": {
+        "date_gaps": [],
+        "day_runs": [
+          [
+            "2026-09-24",
+            "2026-09-30"
+          ]
+        ],
+        "days": 7,
+        "decision_rule": "none (descriptive only)",
+        "named_A1_set": "days with no recorded analysis (includes the period of unknown use)",
+        "reports": [
+          {
+            "arm": "L14",
+            "arm_mae": 11.295970820625017,
+            "bootstrap": {
+              "1": {
+                "bootstrap_nonpositive_effect_count": 1868,
+                "effect_percent_reference_mae": -0.15324178487117876,
+                "family_m": 1,
+                "finite_draws": 2000,
+                "interval95_percent": [
+                  -0.38632234742624383,
+                  0.04589118655664234
+                ],
+                "interval_family_adjusted_percent": [
+                  -0.38632234742624383,
+                  0.04589118655664234
+                ],
+                "monte_carlo_resolution": 0.0005,
+                "reference_mae": 11.313307535019646,
+                "tail_draws_expected": 50.0,
+                "undefined_draws": 0
+              },
+              "7": {
+                "bootstrap_nonpositive_effect_count": 2000,
+                "effect_percent_reference_mae": -0.15324178487117876,
+                "family_m": 1,
+                "finite_draws": 2000,
+                "interval95_percent": [
+                  -0.15324178487117876,
+                  -0.15324178487117876
+                ],
+                "interval_family_adjusted_percent": [
+                  -0.15324178487117876,
+                  -0.15324178487117876
+                ],
+                "monte_carlo_resolution": 0.0005,
+                "reference_mae": 11.313307535019646,
+                "state": "NOT_INFORMATIVE_ONE_ADMISSIBLE_SEVEN_DAY_BLOCK",
+                "tail_draws_expected": 50.0,
+                "undefined_draws": 0
+              }
+            },
+            "decision": null,
+            "descriptive_word": "no reliable difference detected",
+            "dm_state": "DEFINED",
+            "effect_percent_reference_mae": -0.15324178487117876,
+            "hac7_decision": null,
+            "hac7_note": "computed as frozen on a contiguous 7-day subset (n = 7); not interpretable as a dependence check",
+            "hac7_p_two_sided": 1.2373487220335966e-06,
+            "hac7_state": "DEFINED",
+            "hln_decision": null,
+            "hln_p_two_sided": 0.20241878600729415,
+            "mean_difference": -0.017336714394629662,
+            "n_days": 7,
+            "p_deterioration": 0.9237673033275389,
+            "p_improvement": 0.07623269667246112,
+            "p_two_sided": 0.15246539334492223,
+            "reference": "M_notice",
+            "reference_mae": 11.313307535019646,
+            "sentence": "On the 7 days whose prices had no recorded or unknown prior use (2026-09-24 to 2026-09-30), L14 differed from the notice activity reference by -0.153% (one-day 95% interval [-0.387, 0.046]%, DM p = 0.152); this small descriptive subset does not change any reading.",
+            "state": "COMPUTED",
+            "statistic": -1.4308772670417371
+          },
+          {
+            "arm": "L_Laz",
+            "arm_mae": 11.322491855729092,
+            "bootstrap": {
+              "1": {
+                "bootstrap_nonpositive_effect_count": 611,
+                "effect_percent_reference_mae": 0.08118157029689345,
+                "family_m": 1,
+                "finite_draws": 2000,
+                "interval95_percent": [
+                  -0.20804785429294564,
+                  0.41628683055227844
+                ],
+                "interval_family_adjusted_percent": [
+                  -0.20804785429294564,
+                  0.41628683055227844
+                ],
+                "monte_carlo_resolution": 0.0005,
+                "reference_mae": 11.313307535019646,
+                "tail_draws_expected": 50.0,
+                "undefined_draws": 0
+              },
+              "7": {
+                "bootstrap_nonpositive_effect_count": 0,
+                "effect_percent_reference_mae": 0.08118157029689345,
+                "family_m": 1,
+                "finite_draws": 2000,
+                "interval95_percent": [
+                  0.08118157029689345,
+                  0.08118157029689345
+                ],
+                "interval_family_adjusted_percent": [
+                  0.08118157029689345,
+                  0.08118157029689345
+                ],
+                "monte_carlo_resolution": 0.0005,
+                "reference_mae": 11.313307535019646,
+                "state": "NOT_INFORMATIVE_ONE_ADMISSIBLE_SEVEN_DAY_BLOCK",
+                "tail_draws_expected": 50.0,
+                "undefined_draws": 0
+              }
+            },
+            "decision": null,
+            "descriptive_word": "no reliable difference detected",
+            "dm_state": "DEFINED",
+            "effect_percent_reference_mae": 0.08118157029689345,
+            "hac7_decision": null,
+            "hac7_note": "computed as frozen on a contiguous 7-day subset (n = 7); not interpretable as a dependence check",
+            "hac7_p_two_sided": 0.38149915070092105,
+            "hac7_state": "DEFINED",
+            "hln_decision": null,
+            "hln_p_two_sided": 0.6349360524396024,
+            "mean_difference": 0.009184320709445717,
+            "n_days": 7,
+            "p_deterioration": 0.30856727877719003,
+            "p_improvement": 0.69143272122281,
+            "p_two_sided": 0.6171345575543801,
+            "reference": "M_notice",
+            "reference_mae": 11.313307535019646,
+            "sentence": "On the 7 days whose prices had no recorded or unknown prior use (2026-09-24 to 2026-09-30), L_Laz differed from the notice activity reference by 0.081% (one-day 95% interval [-0.209, 0.417]%, DM p = 0.617); this small descriptive subset does not change any reading.",
+            "state": "COMPUTED",
+            "statistic": 0.49991552867909234
+          },
+          {
+            "arm": "L_chen_notice",
+            "arm_mae": 11.254804080964957,
+            "bootstrap": {
+              "1": {
+                "bootstrap_nonpositive_effect_count": 1972,
+                "effect_percent_reference_mae": -0.5171206905990732,
+                "family_m": 1,
+                "finite_draws": 2000,
+                "interval95_percent": [
+                  -1.262023607116792,
+                  -0.03785580136365739
+                ],
+                "interval_family_adjusted_percent": [
+                  -1.262023607116792,
+                  -0.03785580136365739
+                ],
+                "monte_carlo_resolution": 0.0005,
+                "reference_mae": 11.313307535019646,
+                "tail_draws_expected": 50.0,
+                "undefined_draws": 0
+              },
+              "7": {
+                "bootstrap_nonpositive_effect_count": 2000,
+                "effect_percent_reference_mae": -0.5171206905990732,
+                "family_m": 1,
+                "finite_draws": 2000,
+                "interval95_percent": [
+                  -0.5171206905990732,
+                  -0.5171206905990732
+                ],
+                "interval_family_adjusted_percent": [
+                  -0.5171206905990732,
+                  -0.5171206905990732
+                ],
+                "monte_carlo_resolution": 0.0005,
+                "reference_mae": 11.313307535019646,
+                "state": "NOT_INFORMATIVE_ONE_ADMISSIBLE_SEVEN_DAY_BLOCK",
+                "tail_draws_expected": 50.0,
+                "undefined_draws": 0
+              }
+            },
+            "decision": null,
+            "descriptive_word": "no reliable difference detected",
+            "dm_state": "DEFINED",
+            "effect_percent_reference_mae": -0.5171206905990732,
+            "hac7_decision": null,
+            "hac7_note": "computed as frozen on a contiguous 7-day subset (n = 7); not interpretable as a dependence check",
+            "hac7_p_two_sided": 0.005894536342624288,
+            "hac7_state": "DEFINED",
+            "hln_decision": null,
+            "hln_p_two_sided": 0.10564055602898752,
+            "mean_difference": -0.05850345405469058,
+            "n_days": 7,
+            "p_deterioration": 0.9715191398251337,
+            "p_improvement": 0.028480860174866236,
+            "p_two_sided": 0.05696172034973247,
+            "reference": "M_notice",
+            "reference_mae": 11.313307535019646,
+            "sentence": "On the 7 days whose prices had no recorded or unknown prior use (2026-09-24 to 2026-09-30), L_chen_notice differed from the notice activity reference by -0.517% (one-day 95% interval [-1.263, -0.037]%, DM p = 0.057); this small descriptive subset does not change any reading.",
+            "state": "COMPUTED",
+            "statistic": -1.9036044383657869
+          }
+        ],
+        "role": "A2_STRICTLY_UNEXPOSED_DESCRIPTIVE",
+        "set_name": "days with no recorded or unknown prior use"
+      }
+    }
+  }
+}

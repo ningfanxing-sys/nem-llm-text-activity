@@ -1,0 +1,110 @@
+{
+  "execution_io_rule": "SEAL_ONLY_LEAR_HORIZON_LOSSLESS_INT16",
+  "files": {
+    "AST_SCOPE_PROOF.json": {
+      "bytes": 1353,
+      "sha256": "cc15019835da8df09841ab6376e8acd5bcf0d9245375b6b56d26b320b8ec1893"
+    },
+    "HOST_RUN_SPEC_8B.md": {
+      "bytes": 5047,
+      "sha256": "821581e968ca776c732ce8740d294381d6d2542192e984ccdc27213bb5f7b520"
+    },
+    "REPORT.md": {
+      "bytes": 6850,
+      "sha256": "deeacff41376170b789d2b3359bffebb184aba147274a28966d5bc72129f072a"
+    },
+    "SOURCE_IDENTITIES.json": {
+      "bytes": 1336,
+      "sha256": "9bfc66965d3538d8c701592985e7e0afbbca63ecdc85d798bad9fec6dc5af303"
+    },
+    "SPEC.md": {
+      "bytes": 8379,
+      "sha256": "8710191ea70f1857f6b31cc4410408ea8deeeb0c0763e0ec6b22cf9926f50867"
+    },
+    "TEST_ATTEMPT_1_INTERRUPTED.json": {
+      "bytes": 1112,
+      "sha256": "c9c14b2c6b14cc2c15da2bc649a73d367ea9f2e5908dc68e6611004729348457"
+    },
+    "TEST_RESULTS.json": {
+      "bytes": 6859,
+      "sha256": "89436fecebcfe8e2477f0a08aadc4b307043ae77317964c6c0dda567858cda52"
+    },
+    "TEST_STDOUT.txt": {
+      "bytes": 2207,
+      "sha256": "a0fb97aed502a807371b71e83892305e6b9ada8d9f1ebecbb68fc8462ac3747c"
+    },
+    "freeze_spec_8b.py": {
+      "bytes": 2516,
+      "sha256": "da83ada9d9701c20ee2c5c95d265c72d453c0527b4e25ed845e99f137597293f"
+    },
+    "run_tests.py": {
+      "bytes": 6955,
+      "sha256": "56327caff6ff4b2995e2b66d564ae661b4c1d16e1bf235d3e8b67f228f9ad3b9"
+    },
+    "seal_lear_horizon.py": {
+      "bytes": 13837,
+      "sha256": "c4dac49936fe7ad2eca760a7c9ce6311a71023360b61cb0fd90fe6310f1f866e"
+    },
+    "test_attempt_2/AST_SCOPE_PROOF.json": {
+      "bytes": 883,
+      "sha256": "99c3e15ee2cda28902bde09e8cd5de71943fdfc972ec4c3b287e623d9ba87241"
+    },
+    "test_attempt_2/TEST_RESULTS.json": {
+      "bytes": 6859,
+      "sha256": "493315e6e3825e0dd6b7ba2a49e1bafb01512335c934078675459018d65b140e"
+    },
+    "test_attempt_2/TEST_STDOUT.txt": {
+      "bytes": 13344,
+      "sha256": "e02ed629dc2b314dccb1c6d0c2966e469fef24ee2a79e33333d3d963d0df55ff"
+    },
+    "tests/test_seal_lear_horizon.py": {
+      "bytes": 22699,
+      "sha256": "0b61a55926985207d55ee7b7448e0d8a093979e67f2cee25e61f58babe62b0b2"
+    }
+  },
+  "installed_adapter_freeze_changed": false,
+  "no_statistical_design_or_feature_content_change": true,
+  "parent_evidence": {
+    "news_memory/SPECIFIED_ADAPTER_CHAIN.json": {
+      "bytes": 16030,
+      "sha256": "c646e29196cc13dba16872168c49099895bef91ede2fbaaff0fd1d2c9c404613"
+    },
+    "news_memory/HOST_INCIDENT_20261004_fitbank_print.md": {
+      "bytes": 1823,
+      "sha256": "f569dde3b82289d85e089d4b760e6241d7d6652b2c29cec16c0431364a56d24f"
+    },
+    "news_memory/SEAL_DIAG_EXPOSURE.md": {
+      "bytes": 393579,
+      "sha256": "5a5c8e4609fff9c5b9c2c40d8003b79d528aa61c1074a6047639abf8020da538"
+    },
+    "news_memory/SEAL_DIAG_REPORT_source.md": {
+      "bytes": 19373,
+      "sha256": "fa8fa4a82297faa7bd73a181773caf89519f1ae56362566be36d9b58aa5da730"
+    }
+  },
+  "parent_installed": {
+    "ADAPTER_FREEZE.json": {
+      "bytes": 41413,
+      "sha256": "fed7974b65856a2b5f1f92fcee672d1c061395deb8a7269de027895794c5a3e3"
+    },
+    "cli.py": {
+      "bytes": 4542,
+      "sha256": "f27805e21ade960563223cdef2515a344635577d325588c35b7845982268b26e"
+    },
+    "seal_score.py": {
+      "bytes": 52151,
+      "sha256": "b1691df541805d4e95eb37b8a6d2e74b867bf17864a77eca4a79e9631cae6452"
+    }
+  },
+  "production_commands_run_by_freeze": [],
+  "specified_adapter_chain_unchanged": true,
+  "runtime_logs_excluded": [
+    "CAST_LOG.json",
+    "SEAL_EXECUTION_*.json",
+    ".seal_wrapper.lock"
+  ],
+  "state": "FROZEN_SEAL_ONLY_LEAR_HORIZON",
+  "task": "lear_horizon",
+  "time_utc": "2026-10-04T13:59:13.818131+00:00",
+  "trusted_timestamp_required_before_seal": "T4S"
+}

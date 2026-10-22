@@ -1,0 +1,140 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "article_id",
+    "impact_level",
+    "impact_evidence_quote",
+    "attributes",
+    "statements"
+  ],
+  "properties": {
+    "article_id": {
+      "type": "string"
+    },
+    "impact_level": {
+      "enum": [
+        "c1",
+        "c2",
+        "c3",
+        "Unknown"
+      ]
+    },
+    "impact_evidence_quote": {
+      "type": "string"
+    },
+    "attributes": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "impact_timeframe",
+        "root_cause",
+        "affected_infrastructure",
+        "region",
+        "energy_resource",
+        "operational_indicators"
+      ],
+      "properties": {
+        "impact_timeframe": {
+          "type": "string"
+        },
+        "root_cause": {
+          "type": "string"
+        },
+        "affected_infrastructure": {
+          "type": "string"
+        },
+        "region": {
+          "type": "string"
+        },
+        "energy_resource": {
+          "type": "string"
+        },
+        "operational_indicators": {
+          "type": "string"
+        }
+      }
+    },
+    "statements": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "kind",
+          "event_type",
+          "regions",
+          "event_time_text",
+          "direction",
+          "magnitude_text",
+          "source_attribution",
+          "evidence_quote"
+        ],
+        "properties": {
+          "kind": {
+            "enum": [
+              "FACT",
+              "FORECAST",
+              "ANALYSIS",
+              "UNKNOWN"
+            ]
+          },
+          "event_type": {
+            "enum": [
+              "GENERATOR_OUTAGE",
+              "FUEL_SHORTAGE",
+              "EXTREME_WEATHER",
+              "MAINTENANCE",
+              "SUPPLY_CONSTRAINT",
+              "ABNORMAL_MARKET_CONDITION",
+              "NETWORK",
+              "DEMAND",
+              "RENEWABLE",
+              "RESERVE",
+              "POLICY",
+              "REGULATION",
+              "RESIDENTIAL_SURVEY",
+              "OTHER",
+              "Unknown"
+            ]
+          },
+          "regions": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "enum": [
+                "NSW1",
+                "QLD1",
+                "SA1",
+                "TAS1",
+                "VIC1",
+                "Unknown"
+              ]
+            }
+          },
+          "event_time_text": {
+            "type": "string"
+          },
+          "direction": {
+            "enum": [
+              "INCREASE",
+              "DECREASE",
+              "NO_CHANGE",
+              "Unknown"
+            ]
+          },
+          "magnitude_text": {
+            "type": "string"
+          },
+          "source_attribution": {
+            "type": "string"
+          },
+          "evidence_quote": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

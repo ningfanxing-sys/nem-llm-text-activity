@@ -1,0 +1,69 @@
+{
+  "schema": "C_SCORING_DUAL_OFFICIAL_VIEWS_V1",
+  "view_inputs": {
+    "original": {
+      "seal": {
+        "path": "studies/confirmation/execution/host_state/SEAL.json",
+        "bytes": 2564983,
+        "sha256": "abdf291c73c68ff224dc5c070cd986baa686518b506bbf03d1657aa29ce75110"
+      },
+      "score_receipt": {
+        "path": "studies/confirmation/execution/host_state/scored/SCORE_RECEIPT.json",
+        "bytes": 42620,
+        "sha256": "8f09b3d0626f0d1b5b5be4fe12d697004b3e210f5dc6b8c4eebcee69c8254215"
+      },
+      "score_report": {
+        "path": "studies/confirmation/execution/host_state/scored/SCORE_REPORT.json",
+        "bytes": 650019,
+        "sha256": "486a9ef667b31cf81623db19ab71e2ad3e333e32a5c2d8300083b69caf126126"
+      }
+    },
+    "r2": {
+      "seal": {
+        "path": "studies/confirmation/execution/host_state/SEAL.json",
+        "bytes": 2564983,
+        "sha256": "abdf291c73c68ff224dc5c070cd986baa686518b506bbf03d1657aa29ce75110"
+      },
+      "score_receipt": {
+        "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/R2_STATE/scored/SCORE_RECEIPT.json",
+        "bytes": 41121,
+        "sha256": "a3cb40c7f86e10ab0b5e6378e091ffd6cd2e8435425484a760787d3628607f4e"
+      },
+      "score_report": {
+        "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/R2_STATE/scored/SCORE_REPORT.json",
+        "bytes": 644643,
+        "sha256": "fe66c7599b6eec75307cdbc4a6cc465648865b037b4e17a55bb3276eca680ce9"
+      }
+    },
+    "execution": {
+      "capture": {
+        "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/CAPTURE_SNAPSHOT.json",
+        "bytes": 2252,
+        "sha256": "db89a29c9dee9aedbc26fcc444baefbd4dbb3f2b8a6f35694d9169a4494417a0"
+      },
+      "clock": {
+        "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/CAPTURE_CLOCK.json",
+        "bytes": 5729,
+        "sha256": "90057a6a31025fcac957d9fcb53aa48e846ae9cbc8d377a12a8c3b971a63db06"
+      },
+      "armed_utc": "2026-10-10T20:27:39.645911+00:00",
+      "r2_started_utc": "2026-10-10T20:28:23.134524+00:00",
+      "r2_completed_utc": "2026-10-10T20:29:09.437982+00:00",
+      "release": {
+        "bytes": 1830,
+        "path": "paper_plan/minrun_execution_20261010/af_chain/T5R_A15_SOURCE_AFTER_GO_20261011_01/score/MINRUN_SCORE_RELEASE.A15.signed.json",
+        "sha256": "84f2964ec0c494610dba37b026b2566ee12864c0cc2e68c547847ae960d65641"
+      },
+      "quiet_host": {
+        "bytes": 2356,
+        "path": "paper_plan/minrun_execution_20261010/af_chain/T5R_A15_SOURCE_AFTER_GO_20261011_01/score/PROCEDURAL_QUIET_HOST.A15.completed.json",
+        "sha256": "e9fa125dae398e1da506f68c8278612b686dc24754933c455d656884bac744fa"
+      }
+    }
+  },
+  "source": {
+    "path": "studies/batch_estimation/batch_checks/statistics/consumer_roots.py",
+    "bytes": 113206,
+    "sha256": "cbadc42bc78bb4888184fd16063197dbb967ef9740934f1cd9faa42519e14409"
+  }
+}

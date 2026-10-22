@@ -1,0 +1,547 @@
+{
+  "schema": "MINRUN_ORIGINAL214_PARITY_V1",
+  "native_B2000": {
+    "news__PRIMARY.json": {
+      "state": "PASS",
+      "checks": [
+        {
+          "arm": "L_count",
+          "reference": "M",
+          "block": 1,
+          "state": "PASS",
+          "draws": 2000,
+          "interval": [
+            1.982980259697105,
+            17.146988490380615
+          ],
+          "tail_count": 7
+        },
+        {
+          "arm": "L_count",
+          "reference": "M",
+          "block": 7,
+          "state": "PASS",
+          "draws": 2000,
+          "interval": [
+            -0.07978532766534151,
+            22.586925485373477
+          ],
+          "tail_count": 55
+        },
+        {
+          "arm": "L_chen",
+          "reference": "M",
+          "block": 1,
+          "state": "PASS",
+          "draws": 2000,
+          "interval": [
+            -0.9616445550652811,
+            5.164072242056016
+          ],
+          "tail_count": 183
+        },
+        {
+          "arm": "L_chen",
+          "reference": "M",
+          "block": 7,
+          "state": "PASS",
+          "draws": 2000,
+          "interval": [
+            -1.4516421160005477,
+            5.703004959145741
+          ],
+          "tail_count": 256
+        }
+      ]
+    },
+    "news__SECONDARY__M__N.json": {
+      "state": "PASS",
+      "checks": [
+        {
+          "arm": "M",
+          "reference": "N",
+          "block": 1,
+          "state": "PASS",
+          "draws": 2000,
+          "interval": [
+            -4.906935240368863,
+            -0.8189080667530031
+          ],
+          "tail_count": 1993
+        },
+        {
+          "arm": "M",
+          "reference": "N",
+          "block": 7,
+          "state": "PASS",
+          "draws": 2000,
+          "interval": [
+            -5.079930567608225,
+            -0.6737872188887056
+          ],
+          "tail_count": 1989
+        }
+      ]
+    },
+    "news__SECONDARY__L_count__N.json": {
+      "state": "PASS",
+      "checks": [
+        {
+          "arm": "L_count",
+          "reference": "N",
+          "block": 1,
+          "state": "PASS",
+          "draws": 2000,
+          "interval": [
+            -1.3374386893985182,
+            14.556384735569907
+          ],
+          "tail_count": 133
+        },
+        {
+          "arm": "L_count",
+          "reference": "N",
+          "block": 7,
+          "state": "PASS",
+          "draws": 2000,
+          "interval": [
+            -3.2865179833444165,
+            18.868790433056965
+          ],
+          "tail_count": 333
+        }
+      ]
+    },
+    "news__SECONDARY__L_chen__N.json": {
+      "state": "PASS",
+      "checks": [
+        {
+          "arm": "L_chen",
+          "reference": "N",
+          "block": 1,
+          "state": "PASS",
+          "draws": 2000,
+          "interval": [
+            -4.322453857914821,
+            2.638883714709843
+          ],
+          "tail_count": 1347
+        },
+        {
+          "arm": "L_chen",
+          "reference": "N",
+          "block": 7,
+          "state": "PASS",
+          "draws": 2000,
+          "interval": [
+            -4.770619432755344,
+            3.233821487041501
+          ],
+          "tail_count": 1361
+        }
+      ]
+    },
+    "news__SECONDARY__LEAR__N.json": {
+      "state": "PASS",
+      "checks": [
+        {
+          "arm": "LEAR",
+          "reference": "N",
+          "block": 1,
+          "state": "PASS",
+          "draws": 2000,
+          "interval": [
+            -27.178095276098958,
+            -19.69885958561293
+          ],
+          "tail_count": 2000
+        },
+        {
+          "arm": "LEAR",
+          "reference": "N",
+          "block": 7,
+          "state": "PASS",
+          "draws": 2000,
+          "interval": [
+            -27.70596388476615,
+            -19.664469709996805
+          ],
+          "tail_count": 2000
+        }
+      ]
+    },
+    "news__SECONDARY__LEAR__M.json": {
+      "state": "PASS",
+      "checks": [
+        {
+          "arm": "LEAR",
+          "reference": "M",
+          "block": 1,
+          "state": "PASS",
+          "draws": 2000,
+          "interval": [
+            -24.767128708400417,
+            -17.7722052066287
+          ],
+          "tail_count": 2000
+        },
+        {
+          "arm": "LEAR",
+          "reference": "M",
+          "block": 7,
+          "state": "PASS",
+          "draws": 2000,
+          "interval": [
+            -24.81485590737342,
+            -18.00260724816918
+          ],
+          "tail_count": 2000
+        }
+      ]
+    },
+    "news__SECONDARY__N__LEAR.json": {
+      "state": "PASS",
+      "checks": [
+        {
+          "arm": "N",
+          "reference": "LEAR",
+          "block": 1,
+          "state": "PASS",
+          "draws": 2000,
+          "interval": [
+            24.53123266325816,
+            37.32131954633634
+          ],
+          "tail_count": 0
+        },
+        {
+          "arm": "N",
+          "reference": "LEAR",
+          "block": 7,
+          "state": "PASS",
+          "draws": 2000,
+          "interval": [
+            24.477923869281074,
+            38.323996532125356
+          ],
+          "tail_count": 0
+        }
+      ]
+    },
+    "news__SECONDARY__M__LEAR.json": {
+      "state": "PASS",
+      "checks": [
+        {
+          "arm": "M",
+          "reference": "LEAR",
+          "block": 1,
+          "state": "PASS",
+          "draws": 2000,
+          "interval": [
+            21.61337947154533,
+            32.92062171825256
+          ],
+          "tail_count": 0
+        },
+        {
+          "arm": "M",
+          "reference": "LEAR",
+          "block": 7,
+          "state": "PASS",
+          "draws": 2000,
+          "interval": [
+            21.955097255991152,
+            33.00499886503496
+          ],
+          "tail_count": 0
+        }
+      ]
+    },
+    "news__SECONDARY__L_count__LEAR.json": {
+      "state": "PASS",
+      "checks": [
+        {
+          "arm": "L_count",
+          "reference": "LEAR",
+          "block": 1,
+          "state": "PASS",
+          "draws": 2000,
+          "interval": [
+            27.587398053059086,
+            50.469779564462506
+          ],
+          "tail_count": 0
+        },
+        {
+          "arm": "L_count",
+          "reference": "LEAR",
+          "block": 7,
+          "state": "PASS",
+          "draws": 2000,
+          "interval": [
+            26.23467979570154,
+            55.73570435259565
+          ],
+          "tail_count": 0
+        }
+      ]
+    },
+    "news__SECONDARY__L_chen__LEAR.json": {
+      "state": "PASS",
+      "checks": [
+        {
+          "arm": "L_chen",
+          "reference": "LEAR",
+          "block": 1,
+          "state": "PASS",
+          "draws": 2000,
+          "interval": [
+            24.308468748758628,
+            34.83249247643735
+          ],
+          "tail_count": 0
+        },
+        {
+          "arm": "L_chen",
+          "reference": "LEAR",
+          "block": 7,
+          "state": "PASS",
+          "draws": 2000,
+          "interval": [
+            24.191228716170713,
+            37.26110255817178
+          ],
+          "tail_count": 0
+        }
+      ]
+    },
+    "news__A1_EXPOSURE_EXCLUDED.json": {
+      "state": "PASS",
+      "checks": [
+        {
+          "arm": "L_count",
+          "reference": "M",
+          "block": 1,
+          "state": "PASS",
+          "draws": 2000,
+          "interval": [
+            -2.3094394417909734,
+            7.414991531459859
+          ],
+          "tail_count": 451
+        },
+        {
+          "arm": "L_count",
+          "reference": "M",
+          "block": 7,
+          "state": "PASS",
+          "draws": 2000,
+          "interval": [
+            -2.4577897356358513,
+            11.041567299273723
+          ],
+          "tail_count": 386
+        },
+        {
+          "arm": "L_chen",
+          "reference": "M",
+          "block": 1,
+          "state": "PASS",
+          "draws": 2000,
+          "interval": [
+            -2.1222373296890717,
+            6.988440159527292
+          ],
+          "tail_count": 329
+        },
+        {
+          "arm": "L_chen",
+          "reference": "M",
+          "block": 7,
+          "state": "PASS",
+          "draws": 2000,
+          "interval": [
+            -3.070451055985383,
+            7.580386553266458
+          ],
+          "tail_count": 520
+        }
+      ]
+    }
+  },
+  "daily_csv": {
+    "bytes": 22302,
+    "path": "studies/confirmation/execution/host_state/scored/news__DAILY_LOSSES.csv",
+    "sha256": "855dea464c6a7c7089e0a95a9038a0f4d0cceddb6ad77acfc2f1a5fbf515f128"
+  },
+  "pooled_source": {
+    "path": "studies/confirmation/execution/host_state/scored/SCORE_REPORT.json",
+    "bytes": 650019,
+    "sha256": "486a9ef667b31cf81623db19ab71e2ad3e333e32a5c2d8300083b69caf126126"
+  },
+  "specified_reading_2000": {
+    "family_m": 2,
+    "days": 214,
+    "date_gaps": [],
+    "reports": [
+      {
+        "n_days": 214,
+        "mean_difference": 1.8789746967894652,
+        "statistic": 2.1122067484612974,
+        "p_two_sided": 0.03466871995082319,
+        "p_improvement": 0.9826656400245884,
+        "p_deterioration": 0.017334359975411596,
+        "dm_state": "DEFINED",
+        "hac7_p_two_sided": 0.14768111483090884,
+        "hac7_state": "DEFINED",
+        "hln_p_two_sided": 0.03583369146787993,
+        "reference_mae": 22.21551258969163,
+        "arm_mae": 24.0944872864811,
+        "bootstrap": {
+          "1": {
+            "effect_percent_reference_mae": 8.457939870634995,
+            "interval95_percent": [
+              1.982980259697105,
+              17.146988490380615
+            ],
+            "reference_mae": 22.21551258969163,
+            "finite_draws": 2000,
+            "undefined_draws": 0,
+            "bootstrap_nonpositive_effect_count": 7,
+            "monte_carlo_resolution": 0.0005,
+            "interval_family_adjusted_percent": [
+              1.3633513871704963,
+              18.380205829628352
+            ],
+            "family_m": 2,
+            "tail_draws_expected": 25.0
+          },
+          "7": {
+            "effect_percent_reference_mae": 8.457939870634995,
+            "interval95_percent": [
+              -0.07978532766534151,
+              22.586925485373477
+            ],
+            "reference_mae": 22.21551258969163,
+            "finite_draws": 2000,
+            "undefined_draws": 0,
+            "bootstrap_nonpositive_effect_count": 55,
+            "monte_carlo_resolution": 0.0005,
+            "interval_family_adjusted_percent": [
+              -0.9111814590445863,
+              24.393291510352217
+            ],
+            "family_m": 2,
+            "tail_draws_expected": 25.0
+          }
+        },
+        "effect_percent_reference_mae": 8.457939870634995,
+        "arm": "L_count",
+        "reference": "M",
+        "state": "COMPUTED",
+        "holm_p": 0.06933743990164638,
+        "hln_holm_p": 0.07166738293575986,
+        "hac7_holm_p": 0.2953622296618177,
+        "decision": "NO_RELIABLE_INCREMENT_DETECTED",
+        "hln_decision": "NO_RELIABLE_INCREMENT_DETECTED",
+        "hac7_decision": "NO_RELIABLE_INCREMENT_DETECTED",
+        "interval95_one_day": [
+          1.982980259697105,
+          17.146988490380615
+        ],
+        "interval95_seven_day": [
+          -0.07978532766534151,
+          22.586925485373477
+        ],
+        "interval_family_one_day": [
+          1.3633513871704963,
+          18.380205829628352
+        ],
+        "interval_family_seven_day": [
+          -0.9111814590445863,
+          24.393291510352217
+        ]
+      },
+      {
+        "n_days": 214,
+        "mean_difference": 0.4755725885758042,
+        "statistic": 1.37865063009521,
+        "p_two_sided": 0.16800249814038729,
+        "p_improvement": 0.9159987509298063,
+        "p_deterioration": 0.08400124907019364,
+        "dm_state": "DEFINED",
+        "hac7_p_two_sided": 0.23222127650903301,
+        "hac7_state": "DEFINED",
+        "hln_p_two_sided": 0.16944867926466312,
+        "reference_mae": 22.21551258969163,
+        "arm_mae": 22.691085178267432,
+        "bootstrap": {
+          "1": {
+            "effect_percent_reference_mae": 2.140723004503069,
+            "interval95_percent": [
+              -0.9616445550652811,
+              5.164072242056016
+            ],
+            "reference_mae": 22.21551258969163,
+            "finite_draws": 2000,
+            "undefined_draws": 0,
+            "bootstrap_nonpositive_effect_count": 183,
+            "monte_carlo_resolution": 0.0005,
+            "interval_family_adjusted_percent": [
+              -1.4474720140616464,
+              5.540477483161938
+            ],
+            "family_m": 2,
+            "tail_draws_expected": 25.0
+          },
+          "7": {
+            "effect_percent_reference_mae": 2.140723004503069,
+            "interval95_percent": [
+              -1.4516421160005477,
+              5.703004959145741
+            ],
+            "reference_mae": 22.21551258969163,
+            "finite_draws": 2000,
+            "undefined_draws": 0,
+            "bootstrap_nonpositive_effect_count": 256,
+            "monte_carlo_resolution": 0.0005,
+            "interval_family_adjusted_percent": [
+              -1.8646584409910572,
+              6.29865545132855
+            ],
+            "family_m": 2,
+            "tail_draws_expected": 25.0
+          }
+        },
+        "effect_percent_reference_mae": 2.140723004503069,
+        "arm": "L_chen",
+        "reference": "M",
+        "state": "COMPUTED",
+        "holm_p": 0.16800249814038729,
+        "hln_holm_p": 0.16944867926466312,
+        "hac7_holm_p": 0.2953622296618177,
+        "decision": "NO_RELIABLE_INCREMENT_DETECTED",
+        "hln_decision": "NO_RELIABLE_INCREMENT_DETECTED",
+        "hac7_decision": "NO_RELIABLE_INCREMENT_DETECTED",
+        "interval95_one_day": [
+          -0.9616445550652811,
+          5.164072242056016
+        ],
+        "interval95_seven_day": [
+          -1.4516421160005477,
+          5.703004959145741
+        ],
+        "interval_family_one_day": [
+          -1.4474720140616464,
+          5.540477483161938
+        ],
+        "interval_family_seven_day": [
+          -1.8646584409910572,
+          6.29865545132855
+        ]
+      }
+    ],
+    "state": "COMPUTED",
+    "three_seed": null
+  }
+}

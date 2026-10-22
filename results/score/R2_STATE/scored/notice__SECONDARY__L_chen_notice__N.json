@@ -1,0 +1,63 @@
+{
+  "bootstrap_artifact": {
+    "bytes": 217589,
+    "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/R2_STATE/scored/notice__SECONDARY__L_chen_notice__N.npz",
+    "sha256": "7e3b51a2845262cb5a884e8901d1a88a88d36fd2fbc9c3e81365d12b0007eb48"
+  },
+  "date_gaps": [],
+  "equivalence_test": "NOT_SPECIFIED",
+  "primary_confirmation": false,
+  "reports": [
+    {
+      "arm": "L_chen_notice",
+      "bootstrap": {
+        "1": {
+          "bootstrap_nonpositive_effect_count": 1958,
+          "effect_percent_reference_mae": -0.20454319153882222,
+          "finite_draws": 2000,
+          "interval95_percent": [
+            -0.40420627458553754,
+            -0.0062882112956214285
+          ],
+          "monte_carlo_resolution": 0.0005,
+          "reference_mae": 9.40925262609394,
+          "undefined_draws": 0
+        },
+        "7": {
+          "bootstrap_nonpositive_effect_count": 1928,
+          "effect_percent_reference_mae": -0.20454319153882222,
+          "finite_draws": 2000,
+          "interval95_percent": [
+            -0.36462971020985163,
+            0.01585463134277606
+          ],
+          "monte_carlo_resolution": 0.0005,
+          "reference_mae": 9.40925262609394,
+          "undefined_draws": 0
+        }
+      },
+      "dm_hac7": {
+        "mean_difference": -0.019245985621362986,
+        "n_days": 61,
+        "p_deterioration": 0.9894091361073151,
+        "p_improvement": 0.01059086389268497,
+        "p_two_sided": 0.02118172778536994,
+        "state": "DEFINED",
+        "statistic": -2.304729497574893,
+        "variance": 0.0042537330197859125
+      },
+      "dm_p1": {
+        "mean_difference": -0.019245985621362986,
+        "n_days": 61,
+        "p_deterioration": 0.9793139916750923,
+        "p_improvement": 0.020686008324907756,
+        "p_two_sided": 0.04137201664981551,
+        "state": "DEFINED",
+        "statistic": -2.039782268446337,
+        "variance": 0.005430533843599699
+      },
+      "reference": "N",
+      "status": "SECONDARY_ONLY"
+    }
+  ]
+}

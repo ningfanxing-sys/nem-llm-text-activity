@@ -1,0 +1,23 @@
+{
+  "schema": "MINRUN_ORIGINAL214_RECEIPT_V1",
+  "files": [
+    {
+      "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/news_full_window/SPECIFIED_NEWS_214.json",
+      "bytes": 481799,
+      "sha256": "ed73da65ff6676f65b31383c6b6d6ca105599fc65344911a7d720e88fa81c084"
+    },
+    {
+      "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/news_full_window/NEWS_FULL_WINDOW_PARITY.json",
+      "bytes": 14200,
+      "sha256": "2e3352be92acd9d61cdd7f2a30e5badd8eb641205d0600b7027b24eeac8536b3"
+    }
+  ],
+  "original_score_receipt": {
+    "path": "studies/confirmation/execution/host_state/scored/SCORE_RECEIPT.json",
+    "bytes": 42620,
+    "sha256": "8f09b3d0626f0d1b5b5be4fe12d697004b3e210f5dc6b8c4eebcee69c8254215"
+  },
+  "science_callable": "studies/inference/code/frozen_losses.py::core_task",
+  "own_output_directory": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/news_full_window",
+  "synthetic_only": false
+}

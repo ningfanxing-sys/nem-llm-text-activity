@@ -1,0 +1,63 @@
+{
+  "bootstrap_artifact": {
+    "bytes": 134743,
+    "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/R2_STATE/scored/notice__SECONDARY__P_shift__M_shift_notice.npz",
+    "sha256": "2f7e4f63ec0b55185d323a9e566af9c6705916e3cae41daf36ee35a31f857828"
+  },
+  "date_gaps": [],
+  "equivalence_test": "NOT_SPECIFIED",
+  "primary_confirmation": false,
+  "reports": [
+    {
+      "arm": "P_shift",
+      "bootstrap": {
+        "1": {
+          "bootstrap_nonpositive_effect_count": 1,
+          "effect_percent_reference_mae": 0.3899976442630335,
+          "finite_draws": 2000,
+          "interval95_percent": [
+            0.19346348855644888,
+            0.5653352631919776
+          ],
+          "monte_carlo_resolution": 0.0005,
+          "reference_mae": 9.553328087726362,
+          "undefined_draws": 0
+        },
+        "7": {
+          "bootstrap_nonpositive_effect_count": 0,
+          "effect_percent_reference_mae": 0.3899976442630335,
+          "finite_draws": 2000,
+          "interval95_percent": [
+            0.29660400836193057,
+            0.5700230411923636
+          ],
+          "monte_carlo_resolution": 0.0005,
+          "reference_mae": 9.553328087726362,
+          "undefined_draws": 0
+        }
+      },
+      "dm_hac7": {
+        "mean_difference": 0.037257754490851516,
+        "n_days": 38,
+        "p_deterioration": 2.868339864974202e-10,
+        "p_improvement": 0.999999999713166,
+        "p_two_sided": 5.736679729948404e-10,
+        "state": "DEFINED",
+        "statistic": 6.197500662575916,
+        "variance": 0.0013733580771760076
+      },
+      "dm_p1": {
+        "mean_difference": 0.037257754490851516,
+        "n_days": 38,
+        "p_deterioration": 6.040883797071149e-05,
+        "p_improvement": 0.9999395911620292,
+        "p_two_sided": 0.00012081767594142298,
+        "state": "DEFINED",
+        "statistic": 3.8444610419983203,
+        "variance": 0.003568995671009316
+      },
+      "reference": "M_shift_notice",
+      "status": "SECONDARY_ONLY"
+    }
+  ]
+}

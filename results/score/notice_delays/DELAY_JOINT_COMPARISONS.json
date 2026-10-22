@@ -1,0 +1,1721 @@
+{
+  "schema": "ANCHORREADER_JOINT_RECORD_V1",
+  "task": "notice",
+  "family_m": 3,
+  "delays_minutes": [
+    5,
+    15,
+    60
+  ],
+  "bindings": {
+    "corrected_receipt": {
+      "path": "studies/confirmation/forecast_hashes/prediction_set/PARITY_FORECAST_BINDING.json",
+      "sha256": "309333d2a15bc666105917103a0b83afb390ff1657411d8e9b0b1f3dd3f42c6e"
+    },
+    "corrected_seal": {
+      "path": "studies/confirmation/forecast_hashes/SEAL_FORECAST_BINDING.json",
+      "sha256": "cd0dd841c6c65a6a861d468f84e2745c9a58746186a7ce35bc65422828c87b1e"
+    },
+    "decision": {
+      "path": "studies/confirmation/REVIEW8/SOURCE_DECISIONS_REVIEW8_20261005.md",
+      "sha256": "0c755ff3f08ab62d8c2b913088027fc7f10f0a8e923ddb561578185ef486303f"
+    },
+    "scorer_freeze": {
+      "path": "studies/scoring_execution/driver/RUNTIME_SOURCES.json",
+      "sha256": "f0e7cf689285018da54ec8aeea6677a6a106faeb8e85dbbfe4f4ffdeefb27e03"
+    },
+    "timestamp_result": {
+      "path": "studies/confirmation/TIMESTAMPS/T4K/T4K_RESULT.json",
+      "sha256": "386bae50d907fc1ca0ea9ae54c1aa0c5e2f38b6134f7c4beca995905165a8dc1"
+    },
+    "manifest": {
+      "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/SCORING_MANIFEST.json",
+      "sha256": "7c1cdf75f71c3c10a86962c00e17d92099428f55ac717e9e59b2d94e340e4f16"
+    },
+    "specified_receipt": {
+      "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/R2_STATE/scored/SCORE_RECEIPT.json",
+      "sha256": "a3cb40c7f86e10ab0b5e6378e091ffd6cd2e8435425484a760787d3628607f4e"
+    },
+    "main_reading": {
+      "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/numerical_evidence/SCORING_NUMERIC.json",
+      "sha256": "4394a79b0f1835ddecf24aff99fd6ab24bba4fb2e89bba85dd221b89e080f853"
+    },
+    "t5_projection": {
+      "path": "paper_plan/minrun_execution_20261010/af_chain/A18H_RESUME_20261011_14/release/RD_T5_WITH_T6_SUPPLEMENT.json",
+      "sha256": "5330d47f4e3bd45d4d8500f46f62b8c70bd4ac9172728fc1c97221a9c2fd1169"
+    }
+  },
+  "contrasts": [
+    {
+      "arm": "L14",
+      "reference": "M_notice",
+      "readings": [
+        {
+          "origin": "specified",
+          "delay_minutes": 5,
+          "arm": "L14",
+          "reference": "M_notice",
+          "state": "COMPUTED",
+          "class": "IMP",
+          "direction": "IMPROVEMENT",
+          "estimate_percent": -0.3028675699482419,
+          "mean_difference_aud": -0.028653198909737016,
+          "intervals": {
+            "per_contrast_one_day": [
+              -0.39121911804573356,
+              -0.21827244893363193
+            ],
+            "per_contrast_seven_day": [
+              -0.4009473415440289,
+              -0.21955992740401445
+            ],
+            "family_one_day": [
+              -0.4116850576921173,
+              -0.2003577139384538
+            ],
+            "family_seven_day": [
+              -0.42298978759261285,
+              -0.20118304102543336
+            ],
+            "family_m": 3,
+            "two_sided_level": 0.9833333333333333,
+            "one_sided_level": 0.9916666666666667
+          },
+          "dm": {
+            "state": "DEFINED",
+            "statistic": -7.292224225057365,
+            "raw_p_two_sided": 3.048791889989555e-13,
+            "holm_p": 9.146375669968665e-13
+          },
+          "hln": {
+            "decision": "IMP",
+            "raw_p_two_sided": 7.931137188207764e-10,
+            "holm_p": 2.3793411564623292e-09,
+            "dissent": false
+          },
+          "hac7": {
+            "state": "DEFINED",
+            "decision": "IMP",
+            "raw_p_two_sided": 9.533668370143814e-12,
+            "holm_p": 2.860100511043144e-11,
+            "dissent": false
+          },
+          "checks": {
+            "one_day": "PASS",
+            "seven_day": "PASS",
+            "hln": "PASS",
+            "hac7": "PASS",
+            "three_seed": "PASS",
+            "family_interval": "PASS"
+          },
+          "frozen_tier": "ROBUST",
+          "claim_tier": "ROBUST",
+          "seven_day_family_dissent": false,
+          "seven_day_state": "COMPUTED",
+          "seed_check": {
+            "availability": "AVAILABLE",
+            "label": "own specified seed check",
+            "class": "IMP",
+            "timestamp_checks": {
+              "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/notice_delays/FAMILY_specified_5.json",
+              "sha256": "82af82f9c791673747e455807fe9f5a0819799161b1d51f6d9ca68ef58ffb112",
+              "pointer": "/three_seed/reports/0"
+            }
+          },
+          "alert": false,
+          "exclusion": {
+            "permitted": false,
+            "upper_percent": null,
+            "one_sided_level": null,
+            "conditions": [],
+            "timestamp_checks": null
+          },
+          "native_authority": {
+            "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/notice_delays/FAMILY_specified_5.json",
+            "sha256": "82af82f9c791673747e455807fe9f5a0819799161b1d51f6d9ca68ef58ffb112",
+            "pointer": "/reports/0"
+          },
+          "reason": null,
+          "disposition": null
+        },
+        {
+          "origin": "specified",
+          "delay_minutes": 15,
+          "arm": "L14",
+          "reference": "M_notice",
+          "state": "COMPUTED",
+          "class": "IMP",
+          "direction": "IMPROVEMENT",
+          "estimate_percent": -0.304780717513357,
+          "mean_difference_aud": -0.028834416371068268,
+          "intervals": {
+            "per_contrast_one_day": [
+              -0.39325628832157394,
+              -0.22014584581266475
+            ],
+            "per_contrast_seven_day": [
+              -0.40355752207434115,
+              -0.22201391406815135
+            ],
+            "family_one_day": [
+              -0.41393640566166445,
+              -0.2022785259672511
+            ],
+            "family_seven_day": [
+              -0.42568957189015644,
+              -0.20384510777511297
+            ],
+            "family_m": 3,
+            "two_sided_level": 0.9833333333333333,
+            "one_sided_level": 0.9916666666666667
+          },
+          "dm": {
+            "state": "DEFINED",
+            "statistic": -7.343116629911632,
+            "raw_p_two_sided": 2.0867653195462593e-13,
+            "holm_p": 6.260295958638778e-13
+          },
+          "hln": {
+            "decision": "IMP",
+            "raw_p_two_sided": 6.491974614635616e-10,
+            "holm_p": 1.9475923843906848e-09,
+            "dissent": false
+          },
+          "hac7": {
+            "state": "DEFINED",
+            "decision": "IMP",
+            "raw_p_two_sided": 6.7444304495480145e-12,
+            "holm_p": 2.0233291348644043e-11,
+            "dissent": false
+          },
+          "checks": {
+            "one_day": "PASS",
+            "seven_day": "PASS",
+            "hln": "PASS",
+            "hac7": "PASS",
+            "three_seed": "UNAVAILABLE",
+            "family_interval": "PASS"
+          },
+          "frozen_tier": "NOT_FULLY_CHECKED",
+          "claim_tier": "NOT_FULLY_CHECKED",
+          "seven_day_family_dissent": false,
+          "seven_day_state": "COMPUTED",
+          "seed_check": {
+            "availability": "UNAVAILABLE",
+            "label": "primary seed only",
+            "class": null,
+            "timestamp_checks": null
+          },
+          "alert": false,
+          "exclusion": {
+            "permitted": false,
+            "upper_percent": null,
+            "one_sided_level": null,
+            "conditions": [],
+            "timestamp_checks": null
+          },
+          "native_authority": {
+            "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/notice_delays/FAMILY_specified_15.json",
+            "sha256": "1e4cfc4296d493318b950a3a7dfa2d41a3e825ac78f9088f3aa74db671903829",
+            "pointer": "/reports/0"
+          },
+          "reason": null,
+          "disposition": null
+        },
+        {
+          "origin": "specified",
+          "delay_minutes": 60,
+          "arm": "L14",
+          "reference": "M_notice",
+          "state": "COMPUTED",
+          "class": "IMP",
+          "direction": "IMPROVEMENT",
+          "estimate_percent": -0.30910846773190037,
+          "mean_difference_aud": -0.02924384973828313,
+          "intervals": {
+            "per_contrast_one_day": [
+              -0.3973719693585536,
+              -0.2245527816532984
+            ],
+            "per_contrast_seven_day": [
+              -0.408877344936958,
+              -0.2271768386166199
+            ],
+            "family_one_day": [
+              -0.41808827846024477,
+              -0.20699079334789244
+            ],
+            "family_seven_day": [
+              -0.4313825013042698,
+              -0.20994897213502542
+            ],
+            "family_m": 3,
+            "two_sided_level": 0.9833333333333333,
+            "one_sided_level": 0.9916666666666667
+          },
+          "dm": {
+            "state": "DEFINED",
+            "statistic": -7.482409112197155,
+            "raw_p_two_sided": 7.297236022125191e-14,
+            "holm_p": 2.1891708066375576e-13
+          },
+          "hln": {
+            "decision": "IMP",
+            "raw_p_two_sided": 3.7524967291667823e-10,
+            "holm_p": 1.1257490187500347e-09,
+            "dissent": false
+          },
+          "hac7": {
+            "state": "DEFINED",
+            "decision": "IMP",
+            "raw_p_two_sided": 4.0063610946827285e-12,
+            "holm_p": 1.2019083284048185e-11,
+            "dissent": false
+          },
+          "checks": {
+            "one_day": "PASS",
+            "seven_day": "PASS",
+            "hln": "PASS",
+            "hac7": "PASS",
+            "three_seed": "UNAVAILABLE",
+            "family_interval": "PASS"
+          },
+          "frozen_tier": "NOT_FULLY_CHECKED",
+          "claim_tier": "NOT_FULLY_CHECKED",
+          "seven_day_family_dissent": false,
+          "seven_day_state": "COMPUTED",
+          "seed_check": {
+            "availability": "UNAVAILABLE",
+            "label": "primary seed only",
+            "class": null,
+            "timestamp_checks": null
+          },
+          "alert": false,
+          "exclusion": {
+            "permitted": false,
+            "upper_percent": null,
+            "one_sided_level": null,
+            "conditions": [],
+            "timestamp_checks": null
+          },
+          "native_authority": {
+            "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/notice_delays/FAMILY_specified_60.json",
+            "sha256": "7162e709810463323d40e8a967729afa8453e8a4ecbdf39493ef4e2ef8e0f0c2",
+            "pointer": "/reports/0"
+          },
+          "reason": null,
+          "disposition": null
+        },
+        {
+          "origin": "corrected",
+          "delay_minutes": 5,
+          "arm": "L14",
+          "reference": "M_notice",
+          "state": "COMPUTED",
+          "class": "IMP",
+          "direction": "IMPROVEMENT",
+          "estimate_percent": -0.3028709217230564,
+          "mean_difference_aud": -0.028653516008957894,
+          "intervals": {
+            "per_contrast_one_day": [
+              -0.3912226354271004,
+              -0.21827373320235122
+            ],
+            "per_contrast_seven_day": [
+              -0.40094876045799677,
+              -0.21956660654198656
+            ],
+            "family_one_day": [
+              -0.4116864368960003,
+              -0.20036176504124287
+            ],
+            "family_seven_day": [
+              -0.42299462669403964,
+              -0.20118738424384033
+            ],
+            "family_m": 3,
+            "two_sided_level": 0.9833333333333333,
+            "one_sided_level": 0.9916666666666667
+          },
+          "dm": {
+            "state": "DEFINED",
+            "statistic": -7.292345861788763,
+            "raw_p_two_sided": 3.046039724579855e-13,
+            "holm_p": 9.138119173739564e-13
+          },
+          "hln": {
+            "decision": "IMP",
+            "raw_p_two_sided": 7.92734286124469e-10,
+            "holm_p": 2.378202858373407e-09,
+            "dissent": false
+          },
+          "hac7": {
+            "state": "DEFINED",
+            "decision": "IMP",
+            "raw_p_two_sided": 9.52872558698261e-12,
+            "holm_p": 2.858617676094783e-11,
+            "dissent": false
+          },
+          "checks": {
+            "one_day": "PASS",
+            "seven_day": "PASS",
+            "hln": "PASS",
+            "hac7": "PASS",
+            "three_seed": "UNAVAILABLE",
+            "family_interval": "PASS"
+          },
+          "frozen_tier": "NOT_FULLY_CHECKED",
+          "claim_tier": "NOT_FULLY_CHECKED",
+          "seven_day_family_dissent": false,
+          "seven_day_state": "COMPUTED",
+          "seed_check": {
+            "availability": "UNAVAILABLE",
+            "label": "primary seed only",
+            "class": null,
+            "timestamp_checks": null
+          },
+          "alert": false,
+          "exclusion": {
+            "permitted": false,
+            "upper_percent": null,
+            "one_sided_level": null,
+            "conditions": [],
+            "timestamp_checks": null
+          },
+          "native_authority": {
+            "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/notice_delays/FAMILY_aligned_5.json",
+            "sha256": "e2d3466add7be82f381f568c774914d470c4388d73d3eee5ad9b5b81c59d3262",
+            "pointer": "/reports/0"
+          },
+          "reason": null,
+          "disposition": null
+        },
+        {
+          "origin": "corrected",
+          "delay_minutes": 15,
+          "arm": "L14",
+          "reference": "M_notice",
+          "state": "COMPUTED",
+          "class": "IMP",
+          "direction": "IMPROVEMENT",
+          "estimate_percent": -0.30478100745149284,
+          "mean_difference_aud": -0.028834443801271193,
+          "intervals": {
+            "per_contrast_one_day": [
+              -0.3932523218392052,
+              -0.22014581404716246
+            ],
+            "per_contrast_seven_day": [
+              -0.403557557727706,
+              -0.2220142072962883
+            ],
+            "family_one_day": [
+              -0.4139331449492737,
+              -0.20228229818650661
+            ],
+            "family_seven_day": [
+              -0.42568976417646465,
+              -0.20384529442491317
+            ],
+            "family_m": 3,
+            "two_sided_level": 0.9833333333333333,
+            "one_sided_level": 0.9916666666666667
+          },
+          "dm": {
+            "state": "DEFINED",
+            "statistic": -7.343142423690698,
+            "raw_p_two_sided": 2.0863630298062068e-13,
+            "holm_p": 6.259089089418621e-13
+          },
+          "hln": {
+            "decision": "IMP",
+            "raw_p_two_sided": 6.491315776011892e-10,
+            "holm_p": 1.9473947328035674e-09,
+            "dissent": false
+          },
+          "hac7": {
+            "state": "DEFINED",
+            "decision": "IMP",
+            "raw_p_two_sided": 6.74324647037196e-12,
+            "holm_p": 2.022973941111588e-11,
+            "dissent": false
+          },
+          "checks": {
+            "one_day": "PASS",
+            "seven_day": "PASS",
+            "hln": "PASS",
+            "hac7": "PASS",
+            "three_seed": "UNAVAILABLE",
+            "family_interval": "PASS"
+          },
+          "frozen_tier": "NOT_FULLY_CHECKED",
+          "claim_tier": "NOT_FULLY_CHECKED",
+          "seven_day_family_dissent": false,
+          "seven_day_state": "COMPUTED",
+          "seed_check": {
+            "availability": "UNAVAILABLE",
+            "label": "primary seed only",
+            "class": null,
+            "timestamp_checks": null
+          },
+          "alert": false,
+          "exclusion": {
+            "permitted": false,
+            "upper_percent": null,
+            "one_sided_level": null,
+            "conditions": [],
+            "timestamp_checks": null
+          },
+          "native_authority": {
+            "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/notice_delays/FAMILY_aligned_15.json",
+            "sha256": "6f9acc8bafc47df580ec0ac3621c77abf4789dcce665bc5f298a78c934f70d77",
+            "pointer": "/reports/0"
+          },
+          "reason": null,
+          "disposition": null
+        },
+        {
+          "origin": "corrected",
+          "delay_minutes": 60,
+          "arm": "L14",
+          "reference": "M_notice",
+          "state": "COMPUTED",
+          "class": "IMP",
+          "direction": "IMPROVEMENT",
+          "estimate_percent": -0.3091100707687283,
+          "mean_difference_aud": -0.029244001396917605,
+          "intervals": {
+            "per_contrast_one_day": [
+              -0.39738194909104474,
+              -0.2245528990406584
+            ],
+            "per_contrast_seven_day": [
+              -0.4088781968513492,
+              -0.22718167268988196
+            ],
+            "family_one_day": [
+              -0.41808683595938273,
+              -0.20699552303881996
+            ],
+            "family_seven_day": [
+              -0.4313826941462145,
+              -0.20995008137847251
+            ],
+            "family_m": 3,
+            "two_sided_level": 0.9833333333333333,
+            "one_sided_level": 0.9916666666666667
+          },
+          "dm": {
+            "state": "DEFINED",
+            "statistic": -7.482534870182682,
+            "raw_p_two_sided": 7.290254196264342e-14,
+            "holm_p": 2.1870762588793025e-13
+          },
+          "hln": {
+            "decision": "IMP",
+            "raw_p_two_sided": 3.750639989713596e-10,
+            "holm_p": 1.1251919969140788e-09,
+            "dissent": false
+          },
+          "hac7": {
+            "state": "DEFINED",
+            "decision": "IMP",
+            "raw_p_two_sided": 4.003760963513581e-12,
+            "holm_p": 1.2011282890540742e-11,
+            "dissent": false
+          },
+          "checks": {
+            "one_day": "PASS",
+            "seven_day": "PASS",
+            "hln": "PASS",
+            "hac7": "PASS",
+            "three_seed": "UNAVAILABLE",
+            "family_interval": "PASS"
+          },
+          "frozen_tier": "NOT_FULLY_CHECKED",
+          "claim_tier": "NOT_FULLY_CHECKED",
+          "seven_day_family_dissent": false,
+          "seven_day_state": "COMPUTED",
+          "seed_check": {
+            "availability": "UNAVAILABLE",
+            "label": "primary seed only",
+            "class": null,
+            "timestamp_checks": null
+          },
+          "alert": false,
+          "exclusion": {
+            "permitted": false,
+            "upper_percent": null,
+            "one_sided_level": null,
+            "conditions": [],
+            "timestamp_checks": null
+          },
+          "native_authority": {
+            "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/notice_delays/FAMILY_aligned_60.json",
+            "sha256": "7037bdceae7133a6c4b47bd2a4b513801c6a5f183925b1c649f74f3adc7323cd",
+            "pointer": "/reports/0"
+          },
+          "reason": null,
+          "disposition": null
+        }
+      ],
+      "joint": {
+        "case": "SAME_CLASS_AND_DIRECTION",
+        "result_class": "IMP",
+        "direction": "IMPROVEMENT",
+        "statement": "a reliable increment",
+        "lowest_frozen_tier": "NOT_FULLY_CHECKED",
+        "claim_tier": "NOT_FULLY_CHECKED",
+        "claim_conditions": [
+          {
+            "origin": "specified",
+            "delay_minutes": 5
+          },
+          {
+            "origin": "specified",
+            "delay_minutes": 15
+          },
+          {
+            "origin": "specified",
+            "delay_minutes": 60
+          },
+          {
+            "origin": "corrected",
+            "delay_minutes": 5
+          },
+          {
+            "origin": "corrected",
+            "delay_minutes": 15
+          },
+          {
+            "origin": "corrected",
+            "delay_minutes": 60
+          }
+        ],
+        "excluded_conditions": [],
+        "sensitivity_qualifiers": [],
+        "date_sensitive": false,
+        "delay_sensitive": false,
+        "corrected_system_has_result": true,
+        "corrected_system_statement": null,
+        "exclusion_scope": [],
+        "no_pooled_estimate": true,
+        "conditional_only": false
+      }
+    },
+    {
+      "arm": "L_Laz",
+      "reference": "M_notice",
+      "readings": [
+        {
+          "origin": "specified",
+          "delay_minutes": 5,
+          "arm": "L_Laz",
+          "reference": "M_notice",
+          "state": "COMPUTED",
+          "class": "IMP",
+          "direction": "IMPROVEMENT",
+          "estimate_percent": -0.28419709131259147,
+          "mean_difference_aud": -0.02688685285235388,
+          "intervals": {
+            "per_contrast_one_day": [
+              -0.3786478567510515,
+              -0.18802650276030897
+            ],
+            "per_contrast_seven_day": [
+              -0.3801161379269336,
+              -0.1929898824540385
+            ],
+            "family_one_day": [
+              -0.39985804921936435,
+              -0.16631676618913896
+            ],
+            "family_seven_day": [
+              -0.3949428611821056,
+              -0.16648060534490172
+            ],
+            "family_m": 3,
+            "two_sided_level": 0.9833333333333333,
+            "one_sided_level": 0.9916666666666667
+          },
+          "dm": {
+            "state": "DEFINED",
+            "statistic": -5.696104472436514,
+            "raw_p_two_sided": 1.2257578409372884e-08,
+            "holm_p": 1.2257578409372884e-08
+          },
+          "hln": {
+            "decision": "IMP",
+            "raw_p_two_sided": 3.9286011296018106e-07,
+            "holm_p": 3.9286011296018106e-07,
+            "dissent": false
+          },
+          "hac7": {
+            "state": "DEFINED",
+            "decision": "IMP",
+            "raw_p_two_sided": 3.8282906948097876e-10,
+            "holm_p": 3.8282906948097876e-10,
+            "dissent": false
+          },
+          "checks": {
+            "one_day": "PASS",
+            "seven_day": "PASS",
+            "hln": "PASS",
+            "hac7": "PASS",
+            "three_seed": "FAIL",
+            "family_interval": "PASS"
+          },
+          "frozen_tier": "FRAGILE",
+          "claim_tier": "FRAGILE",
+          "seven_day_family_dissent": false,
+          "seven_day_state": "COMPUTED",
+          "seed_check": {
+            "availability": "AVAILABLE",
+            "label": "own specified seed check",
+            "class": "NULL",
+            "timestamp_checks": {
+              "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/notice_delays/FAMILY_specified_5.json",
+              "sha256": "82af82f9c791673747e455807fe9f5a0819799161b1d51f6d9ca68ef58ffb112",
+              "pointer": "/three_seed/reports/1"
+            }
+          },
+          "alert": false,
+          "exclusion": {
+            "permitted": false,
+            "upper_percent": null,
+            "one_sided_level": null,
+            "conditions": [],
+            "timestamp_checks": null
+          },
+          "native_authority": {
+            "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/notice_delays/FAMILY_specified_5.json",
+            "sha256": "82af82f9c791673747e455807fe9f5a0819799161b1d51f6d9ca68ef58ffb112",
+            "pointer": "/reports/1"
+          },
+          "reason": null,
+          "disposition": null
+        },
+        {
+          "origin": "specified",
+          "delay_minutes": 15,
+          "arm": "L_Laz",
+          "reference": "M_notice",
+          "state": "COMPUTED",
+          "class": "IMP",
+          "direction": "IMPROVEMENT",
+          "estimate_percent": -0.2842490780407038,
+          "mean_difference_aud": -0.026891977734643715,
+          "intervals": {
+            "per_contrast_one_day": [
+              -0.3786445301969542,
+              -0.18823486363168843
+            ],
+            "per_contrast_seven_day": [
+              -0.38002011764377175,
+              -0.1931624640665288
+            ],
+            "family_one_day": [
+              -0.399603589564245,
+              -0.16670497483798183
+            ],
+            "family_seven_day": [
+              -0.39484075302901966,
+              -0.16683563976961346
+            ],
+            "family_m": 3,
+            "two_sided_level": 0.9833333333333333,
+            "one_sided_level": 0.9916666666666667
+          },
+          "dm": {
+            "state": "DEFINED",
+            "statistic": -5.710052100639872,
+            "raw_p_two_sided": 1.1294159325883699e-08,
+            "holm_p": 1.1294159325883699e-08
+          },
+          "hln": {
+            "decision": "IMP",
+            "raw_p_two_sided": 3.725657134653503e-07,
+            "holm_p": 3.725657134653503e-07,
+            "dissent": false
+          },
+          "hac7": {
+            "state": "DEFINED",
+            "decision": "IMP",
+            "raw_p_two_sided": 3.540742279195971e-10,
+            "holm_p": 3.540742279195971e-10,
+            "dissent": false
+          },
+          "checks": {
+            "one_day": "PASS",
+            "seven_day": "PASS",
+            "hln": "PASS",
+            "hac7": "PASS",
+            "three_seed": "UNAVAILABLE",
+            "family_interval": "PASS"
+          },
+          "frozen_tier": "NOT_FULLY_CHECKED",
+          "claim_tier": "NOT_FULLY_CHECKED",
+          "seven_day_family_dissent": false,
+          "seven_day_state": "COMPUTED",
+          "seed_check": {
+            "availability": "UNAVAILABLE",
+            "label": "primary seed only",
+            "class": null,
+            "timestamp_checks": null
+          },
+          "alert": false,
+          "exclusion": {
+            "permitted": false,
+            "upper_percent": null,
+            "one_sided_level": null,
+            "conditions": [],
+            "timestamp_checks": null
+          },
+          "native_authority": {
+            "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/notice_delays/FAMILY_specified_15.json",
+            "sha256": "1e4cfc4296d493318b950a3a7dfa2d41a3e825ac78f9088f3aa74db671903829",
+            "pointer": "/reports/1"
+          },
+          "reason": null,
+          "disposition": null
+        },
+        {
+          "origin": "specified",
+          "delay_minutes": 60,
+          "arm": "L_Laz",
+          "reference": "M_notice",
+          "state": "COMPUTED",
+          "class": "IMP",
+          "direction": "IMPROVEMENT",
+          "estimate_percent": -0.28529704383447546,
+          "mean_difference_aud": -0.026991120437076105,
+          "intervals": {
+            "per_contrast_one_day": [
+              -0.38003207134922296,
+              -0.18914966557697904
+            ],
+            "per_contrast_seven_day": [
+              -0.3820069886395649,
+              -0.1936644057281189
+            ],
+            "family_one_day": [
+              -0.40101193558483,
+              -0.16741334856172277
+            ],
+            "family_seven_day": [
+              -0.3971828920141854,
+              -0.167138615467658
+            ],
+            "family_m": 3,
+            "two_sided_level": 0.9833333333333333,
+            "one_sided_level": 0.9916666666666667
+          },
+          "dm": {
+            "state": "DEFINED",
+            "statistic": -5.714596290930651,
+            "raw_p_two_sided": 1.09964768508965e-08,
+            "holm_p": 1.09964768508965e-08
+          },
+          "hln": {
+            "decision": "IMP",
+            "raw_p_two_sided": 3.6618032872836843e-07,
+            "holm_p": 3.6618032872836843e-07,
+            "dissent": false
+          },
+          "hac7": {
+            "state": "DEFINED",
+            "decision": "IMP",
+            "raw_p_two_sided": 4.354339083372118e-10,
+            "holm_p": 4.354339083372118e-10,
+            "dissent": false
+          },
+          "checks": {
+            "one_day": "PASS",
+            "seven_day": "PASS",
+            "hln": "PASS",
+            "hac7": "PASS",
+            "three_seed": "UNAVAILABLE",
+            "family_interval": "PASS"
+          },
+          "frozen_tier": "NOT_FULLY_CHECKED",
+          "claim_tier": "NOT_FULLY_CHECKED",
+          "seven_day_family_dissent": false,
+          "seven_day_state": "COMPUTED",
+          "seed_check": {
+            "availability": "UNAVAILABLE",
+            "label": "primary seed only",
+            "class": null,
+            "timestamp_checks": null
+          },
+          "alert": false,
+          "exclusion": {
+            "permitted": false,
+            "upper_percent": null,
+            "one_sided_level": null,
+            "conditions": [],
+            "timestamp_checks": null
+          },
+          "native_authority": {
+            "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/notice_delays/FAMILY_specified_60.json",
+            "sha256": "7162e709810463323d40e8a967729afa8453e8a4ecbdf39493ef4e2ef8e0f0c2",
+            "pointer": "/reports/1"
+          },
+          "reason": null,
+          "disposition": null
+        },
+        {
+          "origin": "corrected",
+          "delay_minutes": 5,
+          "arm": "L_Laz",
+          "reference": "M_notice",
+          "state": "COMPUTED",
+          "class": "IMP",
+          "direction": "IMPROVEMENT",
+          "estimate_percent": -0.28419709131259147,
+          "mean_difference_aud": -0.02688685285235388,
+          "intervals": {
+            "per_contrast_one_day": [
+              -0.3786478567510515,
+              -0.18802650276030897
+            ],
+            "per_contrast_seven_day": [
+              -0.3801161379269336,
+              -0.1929898824540385
+            ],
+            "family_one_day": [
+              -0.39985804921936435,
+              -0.16631676618913896
+            ],
+            "family_seven_day": [
+              -0.3949428611821056,
+              -0.16648060534490172
+            ],
+            "family_m": 3,
+            "two_sided_level": 0.9833333333333333,
+            "one_sided_level": 0.9916666666666667
+          },
+          "dm": {
+            "state": "DEFINED",
+            "statistic": -5.696104472436514,
+            "raw_p_two_sided": 1.2257578409372884e-08,
+            "holm_p": 1.2257578409372884e-08
+          },
+          "hln": {
+            "decision": "IMP",
+            "raw_p_two_sided": 3.9286011296018106e-07,
+            "holm_p": 3.9286011296018106e-07,
+            "dissent": false
+          },
+          "hac7": {
+            "state": "DEFINED",
+            "decision": "IMP",
+            "raw_p_two_sided": 3.8282906948097876e-10,
+            "holm_p": 3.8282906948097876e-10,
+            "dissent": false
+          },
+          "checks": {
+            "one_day": "PASS",
+            "seven_day": "PASS",
+            "hln": "PASS",
+            "hac7": "PASS",
+            "three_seed": "UNAVAILABLE",
+            "family_interval": "PASS"
+          },
+          "frozen_tier": "NOT_FULLY_CHECKED",
+          "claim_tier": "NOT_FULLY_CHECKED",
+          "seven_day_family_dissent": false,
+          "seven_day_state": "COMPUTED",
+          "seed_check": {
+            "availability": "UNAVAILABLE",
+            "label": "primary seed only",
+            "class": null,
+            "timestamp_checks": null
+          },
+          "alert": false,
+          "exclusion": {
+            "permitted": false,
+            "upper_percent": null,
+            "one_sided_level": null,
+            "conditions": [],
+            "timestamp_checks": null
+          },
+          "native_authority": {
+            "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/notice_delays/FAMILY_aligned_5.json",
+            "sha256": "e2d3466add7be82f381f568c774914d470c4388d73d3eee5ad9b5b81c59d3262",
+            "pointer": "/reports/1"
+          },
+          "reason": null,
+          "disposition": null
+        },
+        {
+          "origin": "corrected",
+          "delay_minutes": 15,
+          "arm": "L_Laz",
+          "reference": "M_notice",
+          "state": "COMPUTED",
+          "class": "IMP",
+          "direction": "IMPROVEMENT",
+          "estimate_percent": -0.2842490780407038,
+          "mean_difference_aud": -0.026891977734643715,
+          "intervals": {
+            "per_contrast_one_day": [
+              -0.3786445301969542,
+              -0.18823486363168843
+            ],
+            "per_contrast_seven_day": [
+              -0.38002011764377175,
+              -0.1931624640665288
+            ],
+            "family_one_day": [
+              -0.399603589564245,
+              -0.16670497483798183
+            ],
+            "family_seven_day": [
+              -0.39484075302901966,
+              -0.16683563976961346
+            ],
+            "family_m": 3,
+            "two_sided_level": 0.9833333333333333,
+            "one_sided_level": 0.9916666666666667
+          },
+          "dm": {
+            "state": "DEFINED",
+            "statistic": -5.710052100639872,
+            "raw_p_two_sided": 1.1294159325883699e-08,
+            "holm_p": 1.1294159325883699e-08
+          },
+          "hln": {
+            "decision": "IMP",
+            "raw_p_two_sided": 3.725657134653503e-07,
+            "holm_p": 3.725657134653503e-07,
+            "dissent": false
+          },
+          "hac7": {
+            "state": "DEFINED",
+            "decision": "IMP",
+            "raw_p_two_sided": 3.540742279195971e-10,
+            "holm_p": 3.540742279195971e-10,
+            "dissent": false
+          },
+          "checks": {
+            "one_day": "PASS",
+            "seven_day": "PASS",
+            "hln": "PASS",
+            "hac7": "PASS",
+            "three_seed": "UNAVAILABLE",
+            "family_interval": "PASS"
+          },
+          "frozen_tier": "NOT_FULLY_CHECKED",
+          "claim_tier": "NOT_FULLY_CHECKED",
+          "seven_day_family_dissent": false,
+          "seven_day_state": "COMPUTED",
+          "seed_check": {
+            "availability": "UNAVAILABLE",
+            "label": "primary seed only",
+            "class": null,
+            "timestamp_checks": null
+          },
+          "alert": false,
+          "exclusion": {
+            "permitted": false,
+            "upper_percent": null,
+            "one_sided_level": null,
+            "conditions": [],
+            "timestamp_checks": null
+          },
+          "native_authority": {
+            "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/notice_delays/FAMILY_aligned_15.json",
+            "sha256": "6f9acc8bafc47df580ec0ac3621c77abf4789dcce665bc5f298a78c934f70d77",
+            "pointer": "/reports/1"
+          },
+          "reason": null,
+          "disposition": null
+        },
+        {
+          "origin": "corrected",
+          "delay_minutes": 60,
+          "arm": "L_Laz",
+          "reference": "M_notice",
+          "state": "COMPUTED",
+          "class": "IMP",
+          "direction": "IMPROVEMENT",
+          "estimate_percent": -0.28529704383447546,
+          "mean_difference_aud": -0.026991120437076105,
+          "intervals": {
+            "per_contrast_one_day": [
+              -0.38003207134922296,
+              -0.18914966557697904
+            ],
+            "per_contrast_seven_day": [
+              -0.3820069886395649,
+              -0.1936644057281189
+            ],
+            "family_one_day": [
+              -0.40101193558483,
+              -0.16741334856172277
+            ],
+            "family_seven_day": [
+              -0.3971828920141854,
+              -0.167138615467658
+            ],
+            "family_m": 3,
+            "two_sided_level": 0.9833333333333333,
+            "one_sided_level": 0.9916666666666667
+          },
+          "dm": {
+            "state": "DEFINED",
+            "statistic": -5.714596290930651,
+            "raw_p_two_sided": 1.09964768508965e-08,
+            "holm_p": 1.09964768508965e-08
+          },
+          "hln": {
+            "decision": "IMP",
+            "raw_p_two_sided": 3.6618032872836843e-07,
+            "holm_p": 3.6618032872836843e-07,
+            "dissent": false
+          },
+          "hac7": {
+            "state": "DEFINED",
+            "decision": "IMP",
+            "raw_p_two_sided": 4.354339083372118e-10,
+            "holm_p": 4.354339083372118e-10,
+            "dissent": false
+          },
+          "checks": {
+            "one_day": "PASS",
+            "seven_day": "PASS",
+            "hln": "PASS",
+            "hac7": "PASS",
+            "three_seed": "UNAVAILABLE",
+            "family_interval": "PASS"
+          },
+          "frozen_tier": "NOT_FULLY_CHECKED",
+          "claim_tier": "NOT_FULLY_CHECKED",
+          "seven_day_family_dissent": false,
+          "seven_day_state": "COMPUTED",
+          "seed_check": {
+            "availability": "UNAVAILABLE",
+            "label": "primary seed only",
+            "class": null,
+            "timestamp_checks": null
+          },
+          "alert": false,
+          "exclusion": {
+            "permitted": false,
+            "upper_percent": null,
+            "one_sided_level": null,
+            "conditions": [],
+            "timestamp_checks": null
+          },
+          "native_authority": {
+            "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/notice_delays/FAMILY_aligned_60.json",
+            "sha256": "7037bdceae7133a6c4b47bd2a4b513801c6a5f183925b1c649f74f3adc7323cd",
+            "pointer": "/reports/1"
+          },
+          "reason": null,
+          "disposition": null
+        }
+      ],
+      "joint": {
+        "case": "SAME_CLASS_AND_DIRECTION",
+        "result_class": "IMP",
+        "direction": "IMPROVEMENT",
+        "statement": "a reliable increment",
+        "lowest_frozen_tier": "FRAGILE",
+        "claim_tier": "FRAGILE",
+        "claim_conditions": [
+          {
+            "origin": "specified",
+            "delay_minutes": 5
+          },
+          {
+            "origin": "specified",
+            "delay_minutes": 15
+          },
+          {
+            "origin": "specified",
+            "delay_minutes": 60
+          },
+          {
+            "origin": "corrected",
+            "delay_minutes": 5
+          },
+          {
+            "origin": "corrected",
+            "delay_minutes": 15
+          },
+          {
+            "origin": "corrected",
+            "delay_minutes": 60
+          }
+        ],
+        "excluded_conditions": [],
+        "sensitivity_qualifiers": [],
+        "date_sensitive": false,
+        "delay_sensitive": false,
+        "corrected_system_has_result": true,
+        "corrected_system_statement": null,
+        "exclusion_scope": [],
+        "no_pooled_estimate": true,
+        "conditional_only": false
+      }
+    },
+    {
+      "arm": "L_chen_notice",
+      "reference": "M_notice",
+      "readings": [
+        {
+          "origin": "specified",
+          "delay_minutes": 5,
+          "arm": "L_chen_notice",
+          "reference": "M_notice",
+          "state": "COMPUTED",
+          "class": "IMP",
+          "direction": "IMPROVEMENT",
+          "estimate_percent": -0.7465622963531828,
+          "mean_difference_aud": -0.07062954273900449,
+          "intervals": {
+            "per_contrast_one_day": [
+              -0.9766808978734436,
+              -0.5141422671848213
+            ],
+            "per_contrast_seven_day": [
+              -0.9257339708466006,
+              -0.4857733444032488
+            ],
+            "family_one_day": [
+              -1.0271434182617738,
+              -0.4614729134317255
+            ],
+            "family_seven_day": [
+              -0.9760128021877359,
+              -0.440399117262269
+            ],
+            "family_m": 3,
+            "two_sided_level": 0.9833333333333333,
+            "one_sided_level": 0.9916666666666667
+          },
+          "dm": {
+            "state": "DEFINED",
+            "statistic": -6.726534116884803,
+            "raw_p_two_sided": 1.7375192351328844e-11,
+            "holm_p": 3.475038470265769e-11
+          },
+          "hln": {
+            "decision": "IMP",
+            "raw_p_two_sided": 7.308897820883165e-09,
+            "holm_p": 1.461779564176633e-08,
+            "dissent": false
+          },
+          "hac7": {
+            "state": "DEFINED",
+            "decision": "IMP",
+            "raw_p_two_sided": 1.2829441590847154e-11,
+            "holm_p": 2.860100511043144e-11,
+            "dissent": false
+          },
+          "checks": {
+            "one_day": "PASS",
+            "seven_day": "PASS",
+            "hln": "PASS",
+            "hac7": "PASS",
+            "three_seed": "PASS",
+            "family_interval": "PASS"
+          },
+          "frozen_tier": "ROBUST",
+          "claim_tier": "ROBUST",
+          "seven_day_family_dissent": false,
+          "seven_day_state": "COMPUTED",
+          "seed_check": {
+            "availability": "AVAILABLE",
+            "label": "own specified seed check",
+            "class": "IMP",
+            "timestamp_checks": {
+              "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/notice_delays/FAMILY_specified_5.json",
+              "sha256": "82af82f9c791673747e455807fe9f5a0819799161b1d51f6d9ca68ef58ffb112",
+              "pointer": "/three_seed/reports/2"
+            }
+          },
+          "alert": false,
+          "exclusion": {
+            "permitted": false,
+            "upper_percent": null,
+            "one_sided_level": null,
+            "conditions": [],
+            "timestamp_checks": null
+          },
+          "native_authority": {
+            "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/notice_delays/FAMILY_specified_5.json",
+            "sha256": "82af82f9c791673747e455807fe9f5a0819799161b1d51f6d9ca68ef58ffb112",
+            "pointer": "/reports/2"
+          },
+          "reason": null,
+          "disposition": null
+        },
+        {
+          "origin": "specified",
+          "delay_minutes": 15,
+          "arm": "L_chen_notice",
+          "reference": "M_notice",
+          "state": "COMPUTED",
+          "class": "IMP",
+          "direction": "IMPROVEMENT",
+          "estimate_percent": -0.7462691186583182,
+          "mean_difference_aud": -0.0706023486913048,
+          "intervals": {
+            "per_contrast_one_day": [
+              -0.9770486238908731,
+              -0.5130905104921047
+            ],
+            "per_contrast_seven_day": [
+              -0.925982096387732,
+              -0.4854784267952104
+            ],
+            "family_one_day": [
+              -1.0275866459089316,
+              -0.46045160719882317
+            ],
+            "family_seven_day": [
+              -0.9761683504841138,
+              -0.4400008520202459
+            ],
+            "family_m": 3,
+            "two_sided_level": 0.9833333333333333,
+            "one_sided_level": 0.9916666666666667
+          },
+          "dm": {
+            "state": "DEFINED",
+            "statistic": -6.703551739152183,
+            "raw_p_two_sided": 2.0341362511780928e-11,
+            "holm_p": 4.0682725023561857e-11
+          },
+          "hln": {
+            "decision": "IMP",
+            "raw_p_two_sided": 7.996652511905722e-09,
+            "holm_p": 1.5993305023811444e-08,
+            "dissent": false
+          },
+          "hac7": {
+            "state": "DEFINED",
+            "decision": "IMP",
+            "raw_p_two_sided": 1.3718034406731286e-11,
+            "holm_p": 2.743606881346257e-11,
+            "dissent": false
+          },
+          "checks": {
+            "one_day": "PASS",
+            "seven_day": "PASS",
+            "hln": "PASS",
+            "hac7": "PASS",
+            "three_seed": "UNAVAILABLE",
+            "family_interval": "PASS"
+          },
+          "frozen_tier": "NOT_FULLY_CHECKED",
+          "claim_tier": "NOT_FULLY_CHECKED",
+          "seven_day_family_dissent": false,
+          "seven_day_state": "COMPUTED",
+          "seed_check": {
+            "availability": "UNAVAILABLE",
+            "label": "primary seed only",
+            "class": null,
+            "timestamp_checks": null
+          },
+          "alert": false,
+          "exclusion": {
+            "permitted": false,
+            "upper_percent": null,
+            "one_sided_level": null,
+            "conditions": [],
+            "timestamp_checks": null
+          },
+          "native_authority": {
+            "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/notice_delays/FAMILY_specified_15.json",
+            "sha256": "1e4cfc4296d493318b950a3a7dfa2d41a3e825ac78f9088f3aa74db671903829",
+            "pointer": "/reports/2"
+          },
+          "reason": null,
+          "disposition": null
+        },
+        {
+          "origin": "specified",
+          "delay_minutes": 60,
+          "arm": "L_chen_notice",
+          "reference": "M_notice",
+          "state": "COMPUTED",
+          "class": "IMP",
+          "direction": "IMPROVEMENT",
+          "estimate_percent": -0.7500692718228128,
+          "mean_difference_aud": -0.07096186409721597,
+          "intervals": {
+            "per_contrast_one_day": [
+              -0.9812441668362929,
+              -0.5168019594620032
+            ],
+            "per_contrast_seven_day": [
+              -0.9304215716777806,
+              -0.48916727372531255
+            ],
+            "family_one_day": [
+              -1.0317308739427078,
+              -0.46411251083959315
+            ],
+            "family_seven_day": [
+              -0.9804531261170666,
+              -0.44318515011299686
+            ],
+            "family_m": 3,
+            "two_sided_level": 0.9833333333333333,
+            "one_sided_level": 0.9916666666666667
+          },
+          "dm": {
+            "state": "DEFINED",
+            "statistic": -6.7285607727090335,
+            "raw_p_two_sided": 1.7134943063327245e-11,
+            "holm_p": 3.426988612665449e-11
+          },
+          "hln": {
+            "decision": "IMP",
+            "raw_p_two_sided": 7.25115400845407e-09,
+            "holm_p": 1.450230801690814e-08,
+            "dissent": false
+          },
+          "hac7": {
+            "state": "DEFINED",
+            "decision": "IMP",
+            "raw_p_two_sided": 1.152510499082221e-11,
+            "holm_p": 2.305020998164442e-11,
+            "dissent": false
+          },
+          "checks": {
+            "one_day": "PASS",
+            "seven_day": "PASS",
+            "hln": "PASS",
+            "hac7": "PASS",
+            "three_seed": "UNAVAILABLE",
+            "family_interval": "PASS"
+          },
+          "frozen_tier": "NOT_FULLY_CHECKED",
+          "claim_tier": "NOT_FULLY_CHECKED",
+          "seven_day_family_dissent": false,
+          "seven_day_state": "COMPUTED",
+          "seed_check": {
+            "availability": "UNAVAILABLE",
+            "label": "primary seed only",
+            "class": null,
+            "timestamp_checks": null
+          },
+          "alert": false,
+          "exclusion": {
+            "permitted": false,
+            "upper_percent": null,
+            "one_sided_level": null,
+            "conditions": [],
+            "timestamp_checks": null
+          },
+          "native_authority": {
+            "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/notice_delays/FAMILY_specified_60.json",
+            "sha256": "7162e709810463323d40e8a967729afa8453e8a4ecbdf39493ef4e2ef8e0f0c2",
+            "pointer": "/reports/2"
+          },
+          "reason": null,
+          "disposition": null
+        },
+        {
+          "origin": "corrected",
+          "delay_minutes": 5,
+          "arm": "L_chen_notice",
+          "reference": "M_notice",
+          "state": "COMPUTED",
+          "class": "IMP",
+          "direction": "IMPROVEMENT",
+          "estimate_percent": -0.7465622963531828,
+          "mean_difference_aud": -0.07062954273900449,
+          "intervals": {
+            "per_contrast_one_day": [
+              -0.9766808978734436,
+              -0.5141422671848213
+            ],
+            "per_contrast_seven_day": [
+              -0.9257339708466006,
+              -0.4857733444032488
+            ],
+            "family_one_day": [
+              -1.0271434182617738,
+              -0.4614729134317255
+            ],
+            "family_seven_day": [
+              -0.9760128021877359,
+              -0.440399117262269
+            ],
+            "family_m": 3,
+            "two_sided_level": 0.9833333333333333,
+            "one_sided_level": 0.9916666666666667
+          },
+          "dm": {
+            "state": "DEFINED",
+            "statistic": -6.726534116884803,
+            "raw_p_two_sided": 1.7375192351328844e-11,
+            "holm_p": 3.475038470265769e-11
+          },
+          "hln": {
+            "decision": "IMP",
+            "raw_p_two_sided": 7.308897820883165e-09,
+            "holm_p": 1.461779564176633e-08,
+            "dissent": false
+          },
+          "hac7": {
+            "state": "DEFINED",
+            "decision": "IMP",
+            "raw_p_two_sided": 1.2829441590847154e-11,
+            "holm_p": 2.858617676094783e-11,
+            "dissent": false
+          },
+          "checks": {
+            "one_day": "PASS",
+            "seven_day": "PASS",
+            "hln": "PASS",
+            "hac7": "PASS",
+            "three_seed": "UNAVAILABLE",
+            "family_interval": "PASS"
+          },
+          "frozen_tier": "NOT_FULLY_CHECKED",
+          "claim_tier": "NOT_FULLY_CHECKED",
+          "seven_day_family_dissent": false,
+          "seven_day_state": "COMPUTED",
+          "seed_check": {
+            "availability": "UNAVAILABLE",
+            "label": "primary seed only",
+            "class": null,
+            "timestamp_checks": null
+          },
+          "alert": false,
+          "exclusion": {
+            "permitted": false,
+            "upper_percent": null,
+            "one_sided_level": null,
+            "conditions": [],
+            "timestamp_checks": null
+          },
+          "native_authority": {
+            "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/notice_delays/FAMILY_aligned_5.json",
+            "sha256": "e2d3466add7be82f381f568c774914d470c4388d73d3eee5ad9b5b81c59d3262",
+            "pointer": "/reports/2"
+          },
+          "reason": null,
+          "disposition": null
+        },
+        {
+          "origin": "corrected",
+          "delay_minutes": 15,
+          "arm": "L_chen_notice",
+          "reference": "M_notice",
+          "state": "COMPUTED",
+          "class": "IMP",
+          "direction": "IMPROVEMENT",
+          "estimate_percent": -0.7462691186583182,
+          "mean_difference_aud": -0.0706023486913048,
+          "intervals": {
+            "per_contrast_one_day": [
+              -0.9770486238908731,
+              -0.5130905104921047
+            ],
+            "per_contrast_seven_day": [
+              -0.925982096387732,
+              -0.4854784267952104
+            ],
+            "family_one_day": [
+              -1.0275866459089316,
+              -0.46045160719882317
+            ],
+            "family_seven_day": [
+              -0.9761683504841138,
+              -0.4400008520202459
+            ],
+            "family_m": 3,
+            "two_sided_level": 0.9833333333333333,
+            "one_sided_level": 0.9916666666666667
+          },
+          "dm": {
+            "state": "DEFINED",
+            "statistic": -6.703551739152183,
+            "raw_p_two_sided": 2.0341362511780928e-11,
+            "holm_p": 4.0682725023561857e-11
+          },
+          "hln": {
+            "decision": "IMP",
+            "raw_p_two_sided": 7.996652511905722e-09,
+            "holm_p": 1.5993305023811444e-08,
+            "dissent": false
+          },
+          "hac7": {
+            "state": "DEFINED",
+            "decision": "IMP",
+            "raw_p_two_sided": 1.3718034406731286e-11,
+            "holm_p": 2.743606881346257e-11,
+            "dissent": false
+          },
+          "checks": {
+            "one_day": "PASS",
+            "seven_day": "PASS",
+            "hln": "PASS",
+            "hac7": "PASS",
+            "three_seed": "UNAVAILABLE",
+            "family_interval": "PASS"
+          },
+          "frozen_tier": "NOT_FULLY_CHECKED",
+          "claim_tier": "NOT_FULLY_CHECKED",
+          "seven_day_family_dissent": false,
+          "seven_day_state": "COMPUTED",
+          "seed_check": {
+            "availability": "UNAVAILABLE",
+            "label": "primary seed only",
+            "class": null,
+            "timestamp_checks": null
+          },
+          "alert": false,
+          "exclusion": {
+            "permitted": false,
+            "upper_percent": null,
+            "one_sided_level": null,
+            "conditions": [],
+            "timestamp_checks": null
+          },
+          "native_authority": {
+            "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/notice_delays/FAMILY_aligned_15.json",
+            "sha256": "6f9acc8bafc47df580ec0ac3621c77abf4789dcce665bc5f298a78c934f70d77",
+            "pointer": "/reports/2"
+          },
+          "reason": null,
+          "disposition": null
+        },
+        {
+          "origin": "corrected",
+          "delay_minutes": 60,
+          "arm": "L_chen_notice",
+          "reference": "M_notice",
+          "state": "COMPUTED",
+          "class": "IMP",
+          "direction": "IMPROVEMENT",
+          "estimate_percent": -0.7500692718228128,
+          "mean_difference_aud": -0.07096186409721597,
+          "intervals": {
+            "per_contrast_one_day": [
+              -0.9812441668362929,
+              -0.5168019594620032
+            ],
+            "per_contrast_seven_day": [
+              -0.9304215716777806,
+              -0.48916727372531255
+            ],
+            "family_one_day": [
+              -1.0317308739427078,
+              -0.46411251083959315
+            ],
+            "family_seven_day": [
+              -0.9804531261170666,
+              -0.44318515011299686
+            ],
+            "family_m": 3,
+            "two_sided_level": 0.9833333333333333,
+            "one_sided_level": 0.9916666666666667
+          },
+          "dm": {
+            "state": "DEFINED",
+            "statistic": -6.7285607727090335,
+            "raw_p_two_sided": 1.7134943063327245e-11,
+            "holm_p": 3.426988612665449e-11
+          },
+          "hln": {
+            "decision": "IMP",
+            "raw_p_two_sided": 7.25115400845407e-09,
+            "holm_p": 1.450230801690814e-08,
+            "dissent": false
+          },
+          "hac7": {
+            "state": "DEFINED",
+            "decision": "IMP",
+            "raw_p_two_sided": 1.152510499082221e-11,
+            "holm_p": 2.305020998164442e-11,
+            "dissent": false
+          },
+          "checks": {
+            "one_day": "PASS",
+            "seven_day": "PASS",
+            "hln": "PASS",
+            "hac7": "PASS",
+            "three_seed": "UNAVAILABLE",
+            "family_interval": "PASS"
+          },
+          "frozen_tier": "NOT_FULLY_CHECKED",
+          "claim_tier": "NOT_FULLY_CHECKED",
+          "seven_day_family_dissent": false,
+          "seven_day_state": "COMPUTED",
+          "seed_check": {
+            "availability": "UNAVAILABLE",
+            "label": "primary seed only",
+            "class": null,
+            "timestamp_checks": null
+          },
+          "alert": false,
+          "exclusion": {
+            "permitted": false,
+            "upper_percent": null,
+            "one_sided_level": null,
+            "conditions": [],
+            "timestamp_checks": null
+          },
+          "native_authority": {
+            "path": "paper_plan/minrun_execution_20261010/t5_final/a13f/source_delivery_final/SCORE_ATTEMPT_DECLARED_ONLY/notice_delays/FAMILY_aligned_60.json",
+            "sha256": "7037bdceae7133a6c4b47bd2a4b513801c6a5f183925b1c649f74f3adc7323cd",
+            "pointer": "/reports/2"
+          },
+          "reason": null,
+          "disposition": null
+        }
+      ],
+      "joint": {
+        "case": "SAME_CLASS_AND_DIRECTION",
+        "result_class": "IMP",
+        "direction": "IMPROVEMENT",
+        "statement": "a reliable increment",
+        "lowest_frozen_tier": "NOT_FULLY_CHECKED",
+        "claim_tier": "NOT_FULLY_CHECKED",
+        "claim_conditions": [
+          {
+            "origin": "specified",
+            "delay_minutes": 5
+          },
+          {
+            "origin": "specified",
+            "delay_minutes": 15
+          },
+          {
+            "origin": "specified",
+            "delay_minutes": 60
+          },
+          {
+            "origin": "corrected",
+            "delay_minutes": 5
+          },
+          {
+            "origin": "corrected",
+            "delay_minutes": 15
+          },
+          {
+            "origin": "corrected",
+            "delay_minutes": 60
+          }
+        ],
+        "excluded_conditions": [],
+        "sensitivity_qualifiers": [],
+        "date_sensitive": false,
+        "delay_sensitive": false,
+        "corrected_system_has_result": true,
+        "corrected_system_statement": null,
+        "exclusion_scope": [],
+        "no_pooled_estimate": true,
+        "conditional_only": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "addendum": 2,
+  "addendum_1": {
+    "bytes": 1121,
+    "path": "studies/confirmation/fit_memory/SPEC_ADDENDUM_1_FULL_ROWS.md",
+    "sha256": "2ec3062b0cc5a6eb7c7bc934a19a9fe26d4df76206d1a34ae52b0b71825d54ce"
+  },
+  "addendum_1_freeze": {
+    "bytes": 1241,
+    "path": "studies/confirmation/fit_memory/INPUT_RULES_FREEZE.json",
+    "sha256": "104510265b786eb89fd8e58b17156f9dfe2d46ec7eb13ed001c393fe4c8571cc"
+  },
+  "addendum_spec": {
+    "bytes": 8289,
+    "path": "studies/confirmation/fit_memory/SPEC_ADDENDUM_2_RESUME_IDENTITY.md",
+    "sha256": "2a44edf29389a9a1ab759370e78810d7ad018c9e9e531095b1f171097a5632ca"
+  },
+  "code_changed": false,
+  "spec_6_adapter_freeze": {
+    "bytes": 28265,
+    "path": "studies/confirmation/execution/ADAPTER_FREEZE.json",
+    "sha256": "51c4f1b8278be8a1fcb152f632ccab5f4c6e0722ee24ba4130822c040498c77c"
+  },
+  "decision": "source message 2026-10-02 (notice resume drift recurred under storage_limits at 18:12 AEST): diagnose; if a false round-trip mismatch, set the resume comparison exactly and robustly",
+  "diagnosis_script": {
+    "bytes": 14415,
+    "path": "studies/confirmation/fit_memory/diagnose_resume_drift.py",
+    "sha256": "45987916e620cc7068a08132158bab6a6340b7685defacab58b425f5df66904f"
+  },
+  "features_adapter_before_change": {
+    "bytes": 58996,
+    "path": "studies/confirmation/execution/features_adapter.py",
+    "sha256": "d958d53e92fd40d800fdbdf9497a728b1cdc35775aa4437a0a9c3f69164a96fc"
+  },
+  "host_state_contents_read": false,
+  "live_files_modified": false,
+  "production_commands_run": [],
+  "production_metadata_used": {
+    "contents_opened": false,
+    "moved_out_notice_joint_parquet_sizes_bytes": {
+      "input_definitions/host_moved_out/2026-10-01T19-43-01Z (written 01:13 AEST, shared_storage)": 184509600,
+      "input_definitions/host_moved_out/2026-10-02T08-13-13Z (written 06:20 AEST, input_definitions)": 184509600
+    }
+  },
+  "running_features_process_touched": false,
+  "scratch_dry_run_detail": {
+    "clock_columns": {
+      "issue_time": {
+        "after_concat": "datetime64[ns, UTC]",
+        "confirmation_panel": "datetime64[ns, UTC]",
+        "in_panel": "datetime64[ns, UTC]",
+        "training_panel": null
+      },
+      "label_available": {
+        "after_concat": "object",
+        "confirmation_panel": "datetime64[ns, UTC]",
+        "in_panel": "object",
+        "training_panel": "datetime64[us, UTC]"
+      },
+      "origin": {
+        "after_concat": "object",
+        "confirmation_panel": "datetime64[ns, UTC]",
+        "in_panel": "datetime64[ns, UTC]",
+        "training_panel": "datetime64[us, UTC]"
+      },
+      "target_time": {
+        "after_concat": "object",
+        "confirmation_panel": "datetime64[ns, UTC]",
+        "in_panel": "datetime64[ns, UTC]",
+        "training_panel": "datetime64[us, UTC]"
+      }
+    },
+    "columns_differing_after_read_back": {
+      "label_available": {
+        "all_instants_equal": true,
+        "panel_dtype": "object",
+        "stored_dtype": "datetime64[us, UTC]"
+      }
+    },
+    "copy_sha256_process_1": "62226037eaf2b59a06a5d1cf36b8516784e0e5adbe9caa4bbb075b22bc219cc9",
+    "copy_sha256_process_2": "62226037eaf2b59a06a5d1cf36b8516784e0e5adbe9caa4bbb075b22bc219cc9",
+    "versions": {
+      "numpy": "1.26.4",
+      "pandas": "2.1.4",
+      "pyarrow": "25.0.1"
+    }
+  },
+  "scratch_dry_run_findings": {
+    "spec_6_resume_check_false_mismatch": true,
+    "spec_7_resume_check_reuses_identical_copy": null,
+    "notice_panel_build_deterministic": true
+  },
+  "spec": {
+    "bytes": 9291,
+    "path": "studies/confirmation/fit_memory/SPEC.md",
+    "sha256": "9d3abfb9b8e7b96f6c13298d1e6a3ccebe649ecad861c26654cb01ffa6d56ba2"
+  },
+  "spec_freeze": {
+    "bytes": 4449,
+    "path": "studies/confirmation/fit_memory/SPEC_FREEZE.json",
+    "sha256": "0f2cad65e4df6e3521ef12dfd4bc438b1d311cc2a0c197332c0c8f6e2898ae31"
+  },
+  "state": "SPEC_ADDENDUM_FROZEN_BEFORE_CODE_CHANGE",
+  "task": "fit_memory",
+  "time_utc": "2026-10-02T08:42:05.570474+00:00",
+  "window_outcomes_read": false
+}

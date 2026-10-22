@@ -1,0 +1,32 @@
+{
+  "analysis_role": "A1_REPORTING_RULE_SEED_FRAGILE",
+  "rows": [
+    {
+      "arm": "L_count",
+      "reason": "primary_seed_robustness_news: UNAVAILABLE_RESOURCE_BUDGET; Whole-stage runtime-only admission failed",
+      "reference": "M",
+      "seed_20260919_decision": "NO_RELIABLE_INCREMENT_DETECTED",
+      "seed_20260919_mean_difference": 2.7302526340553963,
+      "sentence": "SEED_ROBUSTNESS_NOT_EVALUABLE: primary_seed_robustness_news: UNAVAILABLE_RESOURCE_BUDGET; Whole-stage runtime-only admission failed.",
+      "single_seed_effect_sd_percent": null,
+      "single_seed_effects_percent_reference_mae": {
+        "20260919": 11.411570535170371
+      },
+      "state": "SEED_ROBUSTNESS_NOT_EVALUABLE"
+    },
+    {
+      "arm": "L_chen",
+      "reason": "primary_seed_robustness_news: UNAVAILABLE_RESOURCE_BUDGET; Whole-stage runtime-only admission failed",
+      "reference": "M",
+      "seed_20260919_decision": "NO_RELIABLE_INCREMENT_DETECTED",
+      "seed_20260919_mean_difference": 0.28011211739867165,
+      "sentence": "SEED_ROBUSTNESS_NOT_EVALUABLE: primary_seed_robustness_news: UNAVAILABLE_RESOURCE_BUDGET; Whole-stage runtime-only admission failed.",
+      "single_seed_effect_sd_percent": null,
+      "single_seed_effects_percent_reference_mae": {
+        "20260919": 1.1707778048007584
+      },
+      "state": "SEED_ROBUSTNESS_NOT_EVALUABLE"
+    }
+  ],
+  "rule": "confirmation-A1 decision 3: SEED_FRAGILE if the seed-20260919 decision class and the three-seed-mean decision class differ, or the signs of their mean differences differ; the frozen decision rule is unchanged."
+}

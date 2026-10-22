@@ -1,0 +1,6 @@
+source,arm,seed,variant,eligible_predictions,raw_above_17500,raw_above_official_cap,raw_below_floor,official_cap_values
+news,LEAR,20260919,main,9720,0,0,0,"20300.0,23200.0"
+news,L_chen,20260919,main,9720,0,0,0,"20300.0,23200.0"
+news,L_count,20260919,main,9720,0,0,0,"20300.0,23200.0"
+news,M,20260919,main,9720,0,0,0,"20300.0,23200.0"
+news,N,20260919,main,9720,0,0,0,"20300.0,23200.0"

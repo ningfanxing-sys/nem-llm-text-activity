@@ -1,0 +1,66 @@
+{
+  "state": "PASSED",
+  "tolerance": 1e-09,
+  "plan_sha256": "8dcf0993b0059640398424c2b3e1201d3418557015e4ad5f892b27d5dd2a36c7",
+  "feature_manifest_sha256": "faf995921935e0f457afa5003befa3b4d439c11cee6e72061aeab81882b1dd9f",
+  "fits": [
+    {
+      "task_id": "notice__prewindow_frozen_C_bank__N__s20260919__main",
+      "rows": 527040,
+      "max_abs_difference": 0.0,
+      "max_abs_difference_sealed": 0.0,
+      "max_abs_difference_raw": 0.0,
+      "runtime_seconds": 30.022557332995348,
+      "peak_rss_bytes": 898711552,
+      "peak_anonymous_bytes": 585664384,
+      "min_available_ram_fraction": 0.1495075225830078,
+      "min_free_disk_bytes": 9502720000,
+      "train_indices_match": true,
+      "params_match": true
+    },
+    {
+      "task_id": "news__2026-05-19__N__s20260919__main",
+      "rows": 72,
+      "max_abs_difference": 0.0,
+      "max_abs_difference_sealed": 0.0,
+      "max_abs_difference_raw": 0.0,
+      "runtime_seconds": 55.32253387500532,
+      "peak_rss_bytes": 1713225728,
+      "peak_anonymous_bytes": 1560185184,
+      "min_available_ram_fraction": 0.1455841064453125,
+      "min_free_disk_bytes": 9502720000,
+      "train_indices_match": true,
+      "params_match": true
+    },
+    {
+      "task_id": "news__2026-05-20__N__s20260919__main",
+      "rows": 72,
+      "max_abs_difference": 0.0,
+      "max_abs_difference_sealed": 0.0,
+      "max_abs_difference_raw": 0.0,
+      "runtime_seconds": 54.51637466700049,
+      "peak_rss_bytes": 1801076736,
+      "peak_anonymous_bytes": 1569278304,
+      "min_available_ram_fraction": 0.1546154022216797,
+      "min_free_disk_bytes": 9502720000,
+      "train_indices_match": true,
+      "params_match": true
+    },
+    {
+      "task_id": "news__2026-05-21__N__s20260919__main",
+      "rows": 72,
+      "max_abs_difference": 0.0,
+      "max_abs_difference_sealed": 0.0,
+      "max_abs_difference_raw": 0.0,
+      "runtime_seconds": 55.26125766598852,
+      "peak_rss_bytes": 1564180480,
+      "peak_anonymous_bytes": 1581599096,
+      "min_available_ram_fraction": 0.1576251983642578,
+      "min_free_disk_bytes": 9502720000,
+      "train_indices_match": true,
+      "params_match": true
+    }
+  ],
+  "max_abs_difference": 0.0,
+  "runtime_seconds": 199.903015666001
+}
